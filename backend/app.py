@@ -20,14 +20,19 @@ Run locally:  python app.py         (reads PORT, defaults to 5000)
 Run in prod:  gunicorn app:app --bind 0.0.0.0:$PORT
 """
 
+import asyncio
 import os
 from datetime import datetime, timezone
 
 import psycopg2
 import psycopg2.extras
 import psycopg2.pool
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
 from flask import Flask, g, jsonify, request, send_from_directory
 from werkzeug.security import check_password_hash, generate_password_hash
+
+CRAWL_MAX_CONCURRENT = 5
+CRAWL_MAX_URLS_PER_REQUEST = 20
 
 COMPLETION_STATUSES = {
     "Add", "Edit", "Already Updated", "Not Relevant",
@@ -707,6 +712,73 @@ def bulk_add_store_events():
         "skipped_invalid": skipped_invalid,
         "errors": row_errors,
     })
+
+
+async def _crawl_urls(urls):
+    """Run Crawl4AI over a batch of URLs and return title + article markdown
+    for each. Mirrors the standalone crawl_urls.py script in Crawl For AI/."""
+    browser_config = BrowserConfig(headless=True)
+    run_config = CrawlerRunConfig(
+        cache_mode=CacheMode.BYPASS,
+        stream=True,
+        semaphore_count=CRAWL_MAX_CONCURRENT,
+        page_timeout=45000,
+    )
+
+    results = []
+    async with AsyncWebCrawler(config=browser_config) as crawler:
+        async for result in await crawler.arun_many(urls=urls, config=run_config):
+            if result.success:
+                results.append({
+                    "url": result.url,
+                    "success": True,
+                    "title": (result.metadata or {}).get("title"),
+                    "markdown": result.markdown.raw_markdown if result.markdown else "",
+                })
+            else:
+                results.append({
+                    "url": result.url,
+                    "success": False,
+                    "error": result.error_message,
+                })
+    return results
+
+
+@app.route("/api/crawl", methods=["POST", "OPTIONS"])
+def crawl_articles():
+    """Fetch the full article text for one or more URLs on demand (the
+    "Article Extractor" tab) — powered by the same Crawl4AI setup as
+    Crawl For AI/crawl_urls.py, just run per-request instead of in batch."""
+    if request.method == "OPTIONS":
+        return ("", 204)
+
+    data = request.get_json(force=True) or {}
+    raw_urls = data.get("urls")
+    if raw_urls is None:
+        single = (data.get("url") or "").strip()
+        raw_urls = [single] if single else []
+    if not isinstance(raw_urls, list):
+        return jsonify({"error": "urls must be a list of strings"}), 400
+
+    seen = set()
+    urls = []
+    for u in raw_urls:
+        u = (u or "").strip() if isinstance(u, str) else ""
+        if u and u not in seen:
+            seen.add(u)
+            urls.append(u)
+
+    if not urls:
+        return jsonify({"error": "at least one url is required"}), 400
+    if len(urls) > CRAWL_MAX_URLS_PER_REQUEST:
+        return jsonify({"error": f"at most {CRAWL_MAX_URLS_PER_REQUEST} urls per request"}), 400
+
+    try:
+        results = asyncio.run(_crawl_urls(urls))
+    except Exception as e:
+        return jsonify({"error": f"crawl failed: {e}"}), 502
+
+    return jsonify({"results": results})
 
 
 init_db()

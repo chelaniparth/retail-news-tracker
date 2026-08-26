@@ -1027,7 +1027,8 @@ async function loadSourceTable(source) {
 
 function showView(tab) {
   document.getElementById("view-dashboard").style.display = tab === "dashboard" ? "block" : "none";
-  document.getElementById("view-source").style.display = tab === "dashboard" ? "none" : "block";
+  document.getElementById("view-source").style.display = tab !== "dashboard" && tab !== "crawl" ? "block" : "none";
+  document.getElementById("view-crawl").style.display = tab === "crawl" ? "block" : "none";
 
   document.querySelectorAll("nav button").forEach((b) => {
     b.classList.toggle("active", b.dataset.tab === tab);
@@ -1035,8 +1036,78 @@ function showView(tab) {
 
   if (tab === "dashboard") {
     loadDashboard().catch((e) => setStatus(`error: ${e.message}`, false));
+  } else if (tab === "crawl") {
+    // static form — nothing to preload
   } else {
     loadSourceTable(tab).catch((e) => setStatus(`error: ${e.message}`, false));
+  }
+}
+
+// ---- Article Extractor (Crawl4AI) -----------------------------------------
+
+function escapeHtml(s) {
+  const div = document.createElement("div");
+  div.textContent = s == null ? "" : s;
+  return div.innerHTML;
+}
+
+function renderCrawlResults(results) {
+  const container = document.getElementById("crawlResults");
+  container.innerHTML = "";
+  results.forEach((r) => {
+    const card = document.createElement("div");
+    card.className = "crawl-card";
+    if (r.success) {
+      card.innerHTML = `
+        <div class="crawl-card-head">
+          <a href="${r.url}" target="_blank" rel="noopener" class="link">${escapeHtml(r.title) || r.url}</a>
+          <button type="button" class="mini-link crawl-copy-btn">Copy text</button>
+        </div>
+        <pre class="crawl-markdown">${escapeHtml(r.markdown) || "(no article content found on this page)"}</pre>`;
+      card.querySelector(".crawl-copy-btn").addEventListener("click", (e) => {
+        navigator.clipboard.writeText(r.markdown || "").then(() => {
+          e.target.textContent = "Copied!";
+          setTimeout(() => { e.target.textContent = "Copy text"; }, 1200);
+        });
+      });
+    } else {
+      card.innerHTML = `
+        <div class="crawl-card-head">
+          <a href="${r.url}" target="_blank" rel="noopener" class="link">${r.url}</a>
+          <span class="crawl-error-tag">failed</span>
+        </div>
+        <div class="crawl-error-msg">${escapeHtml(r.error) || "Could not extract this article."}</div>`;
+    }
+    container.appendChild(card);
+  });
+}
+
+async function submitCrawl(urls) {
+  const statusEl = document.getElementById("crawlStatus");
+  const resultsEl = document.getElementById("crawlResults");
+  const btn = document.getElementById("crawlSubmitBtn");
+
+  btn.disabled = true;
+  btn.textContent = "Extracting…";
+  statusEl.style.display = "block";
+  statusEl.className = "crawl-status";
+  statusEl.textContent = `Extracting ${urls.length} article${urls.length > 1 ? "s" : ""}… this can take up to a minute.`;
+  resultsEl.innerHTML = "";
+
+  try {
+    const data = await fetchJSON(`${API}/crawl`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ urls }),
+    });
+    statusEl.style.display = "none";
+    renderCrawlResults(data.results);
+  } catch (e) {
+    statusEl.className = "crawl-status crawl-status-error";
+    statusEl.textContent = `Extraction failed: ${e.message}`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Extract";
   }
 }
 
@@ -1172,6 +1243,14 @@ async function init() {
       e.target.value = "";
     }
   });
+  document.getElementById("crawlForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const raw = document.getElementById("crawlUrls").value;
+    const urls = raw.split("\n").map((u) => u.trim()).filter(Boolean);
+    if (!urls.length) return;
+    submitCrawl(urls);
+  });
+
   document.getElementById("loginForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const identifier = document.getElementById("loginIdentifier").value.trim();

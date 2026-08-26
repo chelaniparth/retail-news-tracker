@@ -3,8 +3,8 @@ services:
     name: retail-news-tracker
     runtime: python
     plan: free
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT
+    buildCommand: pip install -r backend/requirements.txt && python -m playwright install --with-deps chromium
+    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120
     envVars:
       - key: SUPABASE_DB_HOST
         sync: false

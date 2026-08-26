@@ -40,6 +40,7 @@
       <button data-tab="restaurant">Restaurant News</button>
       <button data-tab="daily_news">Daily News</button>
       <button data-tab="businessdebut">BusinessDebut</button>
+      <button data-tab="crawl">Article Extractor</button>
     </nav>
 
     <main>
@@ -142,6 +143,19 @@
           </div>
           <div class="empty" id="articlesEmpty" style="display:none">No raw articles scraped for this source yet.</div>
         </div>
+      </div>
+    </section>
+
+    <section id="view-crawl" style="display:none">
+      <div class="panel">
+        <h2>Article Extractor</h2>
+        <p class="crawl-sub">Paste one or more article URLs (one per line) to pull the full article text — no need to open each link yourself.</p>
+        <form id="crawlForm" class="crawl-form">
+          <textarea id="crawlUrls" rows="4" placeholder="https://example.com/article-one&#10;https://example.com/article-two"></textarea>
+          <button type="submit" class="tool-btn primary" id="crawlSubmitBtn">Extract</button>
+        </form>
+        <div class="crawl-status" id="crawlStatus" style="display:none"></div>
+        <div class="crawl-results" id="crawlResults"></div>
       </div>
     </section>
     </main>
