@@ -3,7 +3,7 @@ services:
     name: retail-news-tracker
     runtime: python
     plan: free
-    buildCommand: pip install -r backend/requirements.txt && python -m playwright install --with-deps chromium
+    buildCommand: pip install -r backend/requirements.txt && python -m playwright install --with-deps chromium chromium-headless-shell
     startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120
     envVars:
       - key: SUPABASE_DB_HOST
@@ -18,3 +18,10 @@ services:
         value: postgres
       - key: FLASK_DEBUG
         value: "false"
+      # Install/launch browsers from inside the app's own site-packages dir
+      # instead of the OS-level ~/.cache — that cache can end up owned by a
+      # different user/path at runtime than during build, which is why the
+      # browser Crawl4AI launches can go missing even though the build step
+      # reported it installed successfully.
+      - key: PLAYWRIGHT_BROWSERS_PATH
+        value: "0"
