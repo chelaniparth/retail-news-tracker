@@ -1,0 +1,1189 @@
+// Same-origin: works locally (Flask serves both frontend and API on one
+// port) and in production on Render (single web service, no CORS needed).
+const API = "/api";
+
+const TYPE_COLORS = { Opening: "#2563eb", Closing: "#0f1115", Remodel: "#9ca3af" };
+const COMPLETION_STATUSES = [
+  "Add", "Edit", "Already Updated", "Not Relevant", "Not Accessible", "Send to the Calling Team",
+];
+const SOURCE_LABELS = {
+  banner: "Store News", ct_scoop: "CT Scoop", restaurant: "Restaurant News",
+  daily_news: "Daily News", daily_news_bankruptcy: "Daily News (Bankruptcy)",
+  businessdebut: "BusinessDebut",
+};
+
+let analystsCache = [];
+let marksCache = {};
+let currentUser = null; // { analyst_id, analyst_name, email, role }
+
+function loadStoredUser() {
+  try {
+    const raw = localStorage.getItem("demoUser");
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) {
+    return null;
+  }
+}
+function storeUser(u) { localStorage.setItem("demoUser", JSON.stringify(u)); }
+function clearStoredUser() { localStorage.removeItem("demoUser"); }
+
+function analystName(id) {
+  if (!id) return "Unassigned";
+  const a = analystsCache.find((x) => x.analyst_id === id);
+  return a ? a.analyst_name : id;
+}
+
+// A single article_link can cover several companies at once (a roundup story
+// like "8 restaurants opening in Frisco"), producing several store_events rows
+// that all share the same article_link. article_marks is keyed by a single
+// text key, so keying it off article_link alone made every row on that
+// article share one mark/assignment — checking one company as done or
+// assigning it checked/assigned all of them. Keying off (article_link, company)
+// instead gives each row its own mark.
+function markKey(r) {
+  return `${r.article_link}::${r.company_name || ""}`;
+}
+
+// ---- source table state -------------------------------------------------
+let currentSource = null;
+let currentRows = [];          // raw rows from the API for the active source
+let filters = {};              // colKey -> filter state (shape depends on col.type)
+let globalSearchText = "";
+let sortState = { key: null, dir: 1 };
+let hiddenColumns = new Set(); // colKeys hidden via the Columns menu
+let selectedIds = new Set();   // event_id values checked for bulk actions
+let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
+
+function locationText(r) {
+  return [r.address_line1, r.city, r.state, r.zip_code].filter(Boolean).join(", ") || "—";
+}
+
+// Column config drives the header, the filters, the sort, and CSV export.
+// type: "select" -> Excel-style checkbox autofilter over unique values
+//       "text"   -> contains-text filter
+//       "date"   -> from/to date range filter
+//       null     -> not filterable / not sortable
+const COLUMNS = [
+  {
+    key: "company", label: "Company", type: "text", sortable: true,
+    getValue: (r) => r.company_name || "—",
+    getSearch: (r) => `${r.company_name || ""} ${r.store_name || ""}`,
+    render: (r) => `${r.company_name || "—"}${r.store_name && r.store_name !== r.company_name ? `<br><span style="color:var(--muted);font-size:11px">${r.store_name}</span>` : ""}`,
+  },
+  {
+    key: "event", label: "Event", type: "select", sortable: true,
+    getValue: (r) => r.event_type_name || "—",
+    render: (r) => `<span class="badge ${r.event_type_name || ""}">${r.event_type_name || "—"}</span>`,
+  },
+  {
+    key: "status", label: "Status", type: "select", sortable: true,
+    getValue: (r) => r.status_label || "—",
+  },
+  {
+    key: "date", label: "Date", type: "text", sortable: true,
+    getValue: (r) => r.event_date_raw || r.event_date || "—",
+  },
+  {
+    key: "location", label: "Location", type: "select", sortable: true,
+    getValue: (r) => r.state || "—",
+    getSearch: (r) => locationText(r),
+    render: (r) => locationText(r),
+  },
+  {
+    key: "description", label: "Description", type: "text", sortable: false,
+    getValue: (r) => r.comment || "—",
+    cellStyle: "max-width:280px",
+  },
+  {
+    key: "article", label: "Article", type: null, sortable: false,
+    getValue: () => "",
+    render: (r) => `<a class="link" href="${r.article_link}" target="_blank" rel="noopener">open ↗</a>`,
+  },
+  {
+    key: "published", label: "Published", type: "date", sortable: true,
+    getValue: (r) => r.published_date || "",
+  },
+  {
+    key: "markdone", label: "Completion", type: "select", sortable: true,
+    getValue: (r) => {
+      const m = marksCache[markKey(r)];
+      return (m && m.completion_status) ? m.completion_status : "Not started";
+    },
+  },
+  {
+    key: "assignedto", label: "Assigned to", type: "select", sortable: true,
+    getValue: (r) => {
+      const m = marksCache[markKey(r)];
+      return m && m.assigned_to ? analystName(m.assigned_to) : "Unassigned";
+    },
+  },
+];
+
+async function fetchJSON(url, opts) {
+  const res = await fetch(url, opts);
+  if (!res.ok) {
+    let message = `${url} -> ${res.status}`;
+    try {
+      const body = await res.json();
+      if (body && body.error) message = body.error;
+    } catch (e) { /* body wasn't JSON */ }
+    throw new Error(message);
+  }
+  return res.json();
+}
+
+function setStatus(text, ok) {
+  const el = document.getElementById("statusLine");
+  el.textContent = text;
+  el.style.color = ok ? "#34d399" : "#f87171";
+}
+
+async function loadAnalysts() {
+  analystsCache = await fetchJSON(`${API}/analysts`);
+}
+
+async function loadMarks() {
+  const rows = await fetchJSON(`${API}/article_marks`);
+  marksCache = {};
+  rows.forEach((r) => { marksCache[r.article_key] = r; });
+}
+
+function renderBarList(container, entries, colorFn) {
+  container.innerHTML = "";
+  const max = Math.max(1, ...entries.map((e) => e[1]));
+  entries.forEach(([label, count]) => {
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    row.innerHTML = `
+      <div class="bar-label">${label}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(count / max) * 100}%;background:${colorFn(label)}"></div></div>
+      <div class="bar-count">${count}</div>`;
+    container.appendChild(row);
+  });
+}
+
+async function loadDashboard() {
+  const summary = await fetchJSON(`${API}/summary`);
+
+  const cards = document.getElementById("cards");
+  cards.innerHTML = "";
+  const cardDefs = [
+    ["Extracted events", summary.total_events],
+    ["Raw scraped articles", summary.total_raw_articles],
+    ["Companies tracked", summary.total_companies],
+    ["Active sources", Object.keys(summary.by_source).length],
+  ];
+  cardDefs.forEach(([label, value]) => {
+    const c = document.createElement("div");
+    c.className = "card";
+    c.innerHTML = `<div class="label">${label}</div><div class="value">${value}</div>`;
+    cards.appendChild(c);
+  });
+
+  renderBarList(
+    document.getElementById("typeChart"),
+    Object.entries(summary.by_event_type),
+    (label) => TYPE_COLORS[label] || "#5b8cff"
+  );
+
+  renderBarList(
+    document.getElementById("sourceChart"),
+    Object.entries(summary.by_source).map(([s, c]) => [SOURCE_LABELS[s] || s, c]),
+    () => "#2563eb"
+  );
+
+  await loadAnalystActivity();
+}
+
+async function loadAnalystActivity() {
+  const rows = await fetchJSON(`${API}/analyst_activity`);
+  const body = document.getElementById("analystActivityBody");
+  body.innerHTML = "";
+  rows.forEach((a) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${a.analyst_name}<br><span style="color:var(--muted);font-size:11px">${a.analyst_id} — ${a.role}</span></td>
+      <td>${a.entered_count}</td>
+      <td>${a.completed_count}</td>
+      <td>${a.assigned_open_count}</td>`;
+    body.appendChild(tr);
+  });
+}
+
+async function setCompletionStatus(articleKey, companyName, status) {
+  try {
+    const mark = await fetchJSON(`${API}/article_marks`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        article_key: articleKey,
+        company_name: companyName,
+        completion_status: status,
+        marked_by: currentUser.analyst_id,
+      }),
+    });
+    marksCache[mark.article_key] = mark;
+    renderTableHead();
+    applyFiltersAndRender();
+  } catch (e) {
+    alert(`Could not update status: ${e.message}`);
+  }
+}
+
+// Clear a completion status back to blank. An admin can reset anyone's
+// status; an analyst can only reset a status they themselves set
+// (also enforced server-side).
+async function resetCompletionStatus(articleKey, companyName) {
+  try {
+    const mark = await fetchJSON(`${API}/article_marks`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        article_key: articleKey,
+        company_name: companyName,
+        completion_status: "",
+        actor_analyst_id: currentUser.analyst_id,
+      }),
+    });
+    marksCache[mark.article_key] = mark;
+    renderTableHead();
+    applyFiltersAndRender();
+  } catch (e) {
+    alert(`Could not reset status: ${e.message}`);
+  }
+}
+
+// assignedTo: an analyst_id to assign to, or null/"" to unassign.
+// Admins may assign to anyone; analysts may only assign/unassign themselves
+// (also enforced server-side in /api/article_assignments).
+async function assignArticle(articleKey, companyName, assignedTo) {
+  try {
+    const mark = await fetchJSON(`${API}/article_assignments`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        article_key: articleKey,
+        company_name: companyName,
+        assigned_to: assignedTo || null,
+        actor_analyst_id: currentUser.analyst_id,
+      }),
+    });
+    marksCache[mark.article_key] = mark;
+    renderTableHead();
+    applyFiltersAndRender();
+  } catch (e) {
+    alert(`Could not update assignment: ${e.message}`);
+  }
+}
+
+// Assign several selected rows at once. assignedTo: analyst_id, or null to unassign.
+async function bulkAssign(assignedTo) {
+  const rows = currentRows.filter((r) => selectedIds.has(r.event_id));
+  if (!rows.length) return;
+
+  const results = await Promise.allSettled(
+    rows.map((r) =>
+      fetchJSON(`${API}/article_assignments`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          article_key: markKey(r),
+          company_name: r.company_name,
+          assigned_to: assignedTo || null,
+          actor_analyst_id: currentUser.analyst_id,
+        }),
+      })
+    )
+  );
+
+  let okCount = 0;
+  let failCount = 0;
+  results.forEach((res) => {
+    if (res.status === "fulfilled") {
+      marksCache[res.value.article_key] = res.value;
+      okCount++;
+    } else {
+      failCount++;
+    }
+  });
+
+  selectedIds.clear();
+  renderTableHead();
+  applyFiltersAndRender();
+
+  if (failCount) {
+    alert(`Assigned ${okCount} article(s). ${failCount} could not be assigned.`);
+  }
+}
+
+function updateBulkBar() {
+  const bar = document.getElementById("bulkBar");
+  if (!bar) return;
+  if (!selectedIds.size || !currentUser) {
+    bar.style.display = "none";
+    return;
+  }
+  bar.style.display = "flex";
+  document.getElementById("bulkCount").textContent = `${selectedIds.size} selected`;
+
+  const actions = document.getElementById("bulkActions");
+  actions.innerHTML = "";
+
+  if (currentUser.role === "admin") {
+    const select = document.createElement("select");
+    select.className = "analyst-select";
+    let opts = `<option value="">Assign selected to…</option><option value="__unassign__">— Unassign —</option>`;
+    analystsCache.filter((a) => a.role === "analyst").forEach((a) => {
+      opts += `<option value="${a.analyst_id}">${a.analyst_id} — ${a.analyst_name}</option>`;
+    });
+    select.innerHTML = opts;
+    select.addEventListener("change", (e) => {
+      const v = e.target.value;
+      if (!v) return;
+      bulkAssign(v === "__unassign__" ? null : v);
+      select.value = "";
+    });
+    actions.appendChild(select);
+  } else {
+    const btn = document.createElement("button");
+    btn.className = "tool-btn small primary";
+    btn.textContent = "Assign selected to me";
+    btn.addEventListener("click", () => bulkAssign(currentUser.analyst_id));
+    actions.appendChild(btn);
+  }
+}
+
+// ---- filtering / sorting engine ------------------------------------------
+
+function resetTableState() {
+  filters = {};
+  globalSearchText = "";
+  sortState = { key: null, dir: 1 };
+  selectedIds.clear();
+  selectionAnchorId = null;
+  const search = document.getElementById("globalSearch");
+  if (search) search.value = "";
+  closePopover();
+  const addMenu = document.getElementById("addMenu");
+  if (addMenu) addMenu.style.display = "none";
+  const columnsMenu = document.getElementById("columnsMenu");
+  if (columnsMenu) columnsMenu.style.display = "none";
+  updateBulkBar();
+}
+
+function isColFiltered(col) {
+  const f = filters[col.key];
+  if (!f) return false;
+  if (col.type === "select") return f.exclude && f.exclude.size > 0;
+  if (col.type === "text") return !!f.text;
+  if (col.type === "date") return !!(f.from || f.to);
+  return false;
+}
+
+function anyFilterActive() {
+  return globalSearchText || COLUMNS.some(isColFiltered);
+}
+
+function rowMatchesFilters(r) {
+  for (const col of COLUMNS) {
+    const f = filters[col.key];
+    if (!f) continue;
+    if (col.type === "select" && f.exclude && f.exclude.size) {
+      if (f.exclude.has(col.getValue(r))) return false;
+    } else if (col.type === "text" && f.text) {
+      const hay = (col.getSearch ? col.getSearch(r) : col.getValue(r)).toString().toLowerCase();
+      if (!hay.includes(f.text.toLowerCase())) return false;
+    } else if (col.type === "date" && (f.from || f.to)) {
+      const raw = (col.getValue(r) || "").toString().slice(0, 10); // YYYY-MM-DD
+      if (f.from && raw < f.from) return false;
+      if (f.to && raw > f.to) return false;
+    }
+  }
+  if (globalSearchText) {
+    const needle = globalSearchText.toLowerCase();
+    const hay = COLUMNS.map((c) => (c.getSearch ? c.getSearch(r) : c.getValue(r)) || "").join(" ").toLowerCase();
+    if (!hay.includes(needle)) return false;
+  }
+  return true;
+}
+
+function getFilteredSortedRows() {
+  let rows = currentRows.filter(rowMatchesFilters);
+  if (sortState.key) {
+    const col = COLUMNS.find((c) => c.key === sortState.key);
+    if (col) {
+      rows = rows.slice().sort((a, b) => {
+        const av = (col.getValue(a) || "").toString();
+        const bv = (col.getValue(b) || "").toString();
+        return sortState.dir * av.localeCompare(bv, undefined, { numeric: true, sensitivity: "base" });
+      });
+    }
+  }
+  return rows;
+}
+
+// ---- popover (Excel-style autofilter dropdown) ---------------------------
+
+function closePopover() {
+  const existing = document.getElementById("activePopover");
+  if (existing) existing.remove();
+  document.removeEventListener("mousedown", onDocMouseDown, true);
+}
+
+function onDocMouseDown(e) {
+  const pop = document.getElementById("activePopover");
+  if (pop && !pop.contains(e.target) && !e.target.closest(".filter-icon") && !e.target.closest("#columnsBtn")) {
+    closePopover();
+  }
+}
+
+function openPopoverAt(anchorEl, contentEl) {
+  closePopover();
+  contentEl.id = "activePopover";
+  contentEl.className = "popover";
+  document.body.appendChild(contentEl);
+  const rect = anchorEl.getBoundingClientRect();
+  contentEl.style.position = "fixed";
+  contentEl.style.top = `${rect.bottom + 4}px`;
+  let left = rect.left;
+  contentEl.style.left = `${left}px`;
+  contentEl.style.display = "block";
+  // keep on-screen
+  requestAnimationFrame(() => {
+    const w = contentEl.offsetWidth;
+    if (left + w > window.innerWidth - 10) {
+      contentEl.style.left = `${Math.max(10, window.innerWidth - w - 10)}px`;
+    }
+  });
+  setTimeout(() => document.addEventListener("mousedown", onDocMouseDown, true), 0);
+}
+
+function openSelectFilter(col, anchorEl) {
+  const counts = new Map();
+  currentRows.forEach((r) => {
+    const v = col.getValue(r);
+    counts.set(v, (counts.get(v) || 0) + 1);
+  });
+  const values = Array.from(counts.keys()).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const excluded = (filters[col.key] && filters[col.key].exclude) || new Set();
+
+  const box = document.createElement("div");
+  box.innerHTML = `
+    <div class="popover-search"><input type="text" placeholder="Search values…" class="pf-search" /></div>
+    <div class="popover-actions">
+      <button class="mini-link" data-act="all">Select all</button>
+      <button class="mini-link" data-act="none">Clear</button>
+    </div>
+    <div class="popover-list"></div>
+    <div class="popover-footer">
+      <button class="tool-btn small" data-act="apply">Apply</button>
+    </div>`;
+
+  const listEl = box.querySelector(".popover-list");
+  function renderList(filterText) {
+    listEl.innerHTML = "";
+    values
+      .filter((v) => !filterText || v.toLowerCase().includes(filterText.toLowerCase()))
+      .forEach((v) => {
+        const id = `pf_${col.key}_${v}`.replace(/\W+/g, "_");
+        const row = document.createElement("label");
+        row.className = "popover-row";
+        row.innerHTML = `<input type="checkbox" id="${id}" ${excluded.has(v) ? "" : "checked"} />
+          <span>${v}</span><span class="pf-count">${counts.get(v)}</span>`;
+        row.querySelector("input").addEventListener("change", (e) => {
+          if (e.target.checked) excluded.delete(v);
+          else excluded.add(v);
+        });
+        listEl.appendChild(row);
+      });
+  }
+  renderList("");
+
+  box.querySelector(".pf-search").addEventListener("input", (e) => renderList(e.target.value));
+  box.querySelector('[data-act="all"]').addEventListener("click", () => { excluded.clear(); renderList(box.querySelector(".pf-search").value); });
+  box.querySelector('[data-act="none"]').addEventListener("click", () => { values.forEach((v) => excluded.add(v)); renderList(box.querySelector(".pf-search").value); });
+  box.querySelector('[data-act="apply"]').addEventListener("click", () => {
+    filters[col.key] = { exclude: excluded };
+    closePopover();
+    renderTableHead();
+    applyFiltersAndRender();
+  });
+
+  openPopoverAt(anchorEl, box);
+}
+
+function openTextFilter(col, anchorEl) {
+  const current = (filters[col.key] && filters[col.key].text) || "";
+  const box = document.createElement("div");
+  box.innerHTML = `
+    <div class="popover-search">
+      <input type="text" class="pf-text" placeholder="Contains…" value="${current.replace(/"/g, "&quot;")}" />
+    </div>
+    <div class="popover-footer">
+      <button class="mini-link" data-act="clear">Clear</button>
+      <button class="tool-btn small" data-act="apply">Apply</button>
+    </div>`;
+  const input = box.querySelector(".pf-text");
+  const commit = (val) => { filters[col.key] = { text: val }; closePopover(); renderTableHead(); applyFiltersAndRender(); };
+  box.querySelector('[data-act="apply"]').addEventListener("click", () => commit(input.value));
+  box.querySelector('[data-act="clear"]').addEventListener("click", () => commit(""));
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") commit(input.value); });
+  openPopoverAt(anchorEl, box);
+  input.focus();
+}
+
+function openDateFilter(col, anchorEl) {
+  const f = filters[col.key] || {};
+  const box = document.createElement("div");
+  box.innerHTML = `
+    <div class="popover-row-plain">From <input type="date" class="pf-from" value="${f.from || ""}" /></div>
+    <div class="popover-row-plain">To <input type="date" class="pf-to" value="${f.to || ""}" /></div>
+    <div class="popover-footer">
+      <button class="mini-link" data-act="clear">Clear</button>
+      <button class="tool-btn small" data-act="apply">Apply</button>
+    </div>`;
+  const commit = (from, to) => { filters[col.key] = { from, to }; closePopover(); renderTableHead(); applyFiltersAndRender(); };
+  box.querySelector('[data-act="apply"]').addEventListener("click", () => {
+    commit(box.querySelector(".pf-from").value, box.querySelector(".pf-to").value);
+  });
+  box.querySelector('[data-act="clear"]').addEventListener("click", () => commit("", ""));
+  openPopoverAt(anchorEl, box);
+}
+
+function openColumnFilter(col, anchorEl) {
+  if (col.type === "select") openSelectFilter(col, anchorEl);
+  else if (col.type === "text") openTextFilter(col, anchorEl);
+  else if (col.type === "date") openDateFilter(col, anchorEl);
+}
+
+function openColumnsMenu() {
+  const menu = document.getElementById("columnsMenu");
+  menu.innerHTML = "";
+  COLUMNS.forEach((col) => {
+    const row = document.createElement("label");
+    row.className = "popover-row";
+    row.innerHTML = `<input type="checkbox" ${hiddenColumns.has(col.key) ? "" : "checked"} /><span>${col.label}</span>`;
+    row.querySelector("input").addEventListener("change", (e) => {
+      if (e.target.checked) hiddenColumns.delete(col.key);
+      else hiddenColumns.add(col.key);
+      renderTableHead();
+      applyFiltersAndRender();
+    });
+    menu.appendChild(row);
+  });
+  const isOpen = menu.style.display === "block";
+  menu.style.display = isOpen ? "none" : "block";
+}
+
+// ---- rendering ------------------------------------------------------------
+
+function renderTableHead() {
+  const thead = document.getElementById("sourceTableHead");
+  const tr = document.createElement("tr");
+
+  const selectTh = document.createElement("th");
+  const selectAllCb = document.createElement("input");
+  selectAllCb.type = "checkbox";
+  selectAllCb.id = "selectAllCb";
+  selectAllCb.addEventListener("change", (e) => {
+    const rows = getFilteredSortedRows();
+    rows.forEach((r) => {
+      if (e.target.checked) selectedIds.add(r.event_id);
+      else selectedIds.delete(r.event_id);
+    });
+    applyFiltersAndRender();
+    updateBulkBar();
+  });
+  selectTh.appendChild(selectAllCb);
+  tr.appendChild(selectTh);
+
+  COLUMNS.forEach((col) => {
+    if (hiddenColumns.has(col.key)) return;
+    const th = document.createElement("th");
+    th.innerHTML = `<span class="th-inner">
+        <span class="th-label">${col.label}</span>
+        ${col.sortable ? `<button class="sort-btn" data-key="${col.key}" title="Sort">${sortState.key === col.key ? (sortState.dir === 1 ? "▲" : "▼") : "⇅"}</button>` : ""}
+        ${col.type ? `<button class="filter-icon ${isColFiltered(col) ? "active" : ""}" data-key="${col.key}" title="Filter">▾</button>` : ""}
+      </span>`;
+    if (col.sortable) {
+      th.querySelector(".sort-btn").addEventListener("click", () => {
+        sortState = sortState.key === col.key ? { key: col.key, dir: -sortState.dir } : { key: col.key, dir: 1 };
+        renderTableHead();
+        applyFiltersAndRender();
+      });
+    }
+    if (col.type) {
+      th.querySelector(".filter-icon").addEventListener("click", (e) => openColumnFilter(col, e.currentTarget));
+    }
+    tr.appendChild(th);
+  });
+  tr.appendChild(document.createElement("th")).textContent = "Assign";   // fixed action column
+  tr.appendChild(document.createElement("th")).textContent = "Action"; // fixed action column
+  thead.innerHTML = "";
+  thead.appendChild(tr);
+}
+
+function buildAssignCell(r, existingMark) {
+  const td = document.createElement("td");
+  const assignedTo = existingMark ? existingMark.assigned_to : null;
+
+  if (currentUser.role === "admin") {
+    const select = document.createElement("select");
+    select.className = "analyst-select";
+    let opts = `<option value="">— Unassigned —</option>`;
+    analystsCache.filter((a) => a.role === "analyst").forEach((a) => {
+      opts += `<option value="${a.analyst_id}" ${a.analyst_id === assignedTo ? "selected" : ""}>${a.analyst_id} — ${a.analyst_name}</option>`;
+    });
+    select.innerHTML = opts;
+    select.addEventListener("change", (e) => assignArticle(markKey(r), r.company_name, e.target.value));
+    td.appendChild(select);
+    return td;
+  }
+
+  if (!assignedTo) {
+    const btn = document.createElement("button");
+    btn.className = "tool-btn small";
+    btn.textContent = "Assign to me";
+    btn.addEventListener("click", () => assignArticle(markKey(r), r.company_name, currentUser.analyst_id));
+    td.appendChild(btn);
+  } else if (assignedTo === currentUser.analyst_id) {
+    const wrap = document.createElement("span");
+    wrap.className = "assign-self";
+    wrap.textContent = "You ";
+    const btn = document.createElement("button");
+    btn.className = "mini-link";
+    btn.textContent = "(unassign)";
+    btn.addEventListener("click", () => assignArticle(markKey(r), r.company_name, null));
+    wrap.appendChild(btn);
+    td.appendChild(wrap);
+  } else {
+    const span = document.createElement("span");
+    span.className = "assign-readonly";
+    span.textContent = analystName(assignedTo);
+    td.appendChild(span);
+  }
+  return td;
+}
+
+function buildSelectCell(r) {
+  const td = document.createElement("td");
+  const cb = document.createElement("input");
+  cb.type = "checkbox";
+  cb.checked = selectedIds.has(r.event_id);
+  cb.addEventListener("change", (e) => {
+    if (e.target.checked) selectedIds.add(r.event_id);
+    else selectedIds.delete(r.event_id);
+    selectionAnchorId = r.event_id;
+    updateBulkBar();
+    const selectAllCb = document.getElementById("selectAllCb");
+    if (selectAllCb) {
+      const rows = getFilteredSortedRows();
+      const allSelected = rows.length > 0 && rows.every((row) => selectedIds.has(row.event_id));
+      selectAllCb.checked = allSelected;
+      selectAllCb.indeterminate = !allSelected && rows.some((row) => selectedIds.has(row.event_id));
+    }
+  });
+  td.appendChild(cb);
+  return td;
+}
+
+function buildStatusCell(r, existingMark) {
+  const td = document.createElement("td");
+  const currentStatus = existingMark ? existingMark.completion_status : null;
+
+  const select = document.createElement("select");
+  select.className = "analyst-select status-select";
+  select.dataset.status = currentStatus || "";
+  let opts = `<option value="">— Select status —</option>`;
+  COMPLETION_STATUSES.forEach((s) => {
+    opts += `<option value="${s}" ${s === currentStatus ? "selected" : ""}>${s}</option>`;
+  });
+  select.innerHTML = opts;
+
+  // Once a status is set, it can only be cleared back to blank by an admin
+  // or by the analyst who set it themselves — anyone else can still change
+  // it to a different status, just not blank it out.
+  const canReset = currentUser.role === "admin" || (existingMark && existingMark.marked_by === currentUser.analyst_id);
+  if (currentStatus && !canReset) {
+    select.querySelector('option[value=""]').disabled = true;
+  }
+
+  select.addEventListener("change", (e) => {
+    const value = e.target.value;
+    if (!value) resetCompletionStatus(markKey(r), r.company_name);
+    else setCompletionStatus(markKey(r), r.company_name, value);
+  });
+  td.appendChild(select);
+
+  if (currentStatus) {
+    const meta = document.createElement("div");
+    meta.className = "status-meta";
+    meta.textContent = `${analystName(existingMark.marked_by)}`;
+    if (canReset) {
+      const uncheckBtn = document.createElement("button");
+      uncheckBtn.className = "mini-link";
+      uncheckBtn.textContent = "uncheck";
+      uncheckBtn.addEventListener("click", () => resetCompletionStatus(markKey(r), r.company_name));
+      meta.appendChild(document.createTextNode(" · "));
+      meta.appendChild(uncheckBtn);
+    }
+    td.appendChild(meta);
+  }
+  return td;
+}
+
+function applyFiltersAndRender() {
+  const rows = getFilteredSortedRows();
+  const body = document.getElementById("sourceTableBody");
+  const empty = document.getElementById("sourceEmpty");
+  const rowCount = document.getElementById("rowCount");
+  const visibleCols = COLUMNS.filter((c) => !hiddenColumns.has(c.key));
+
+  body.innerHTML = "";
+  rowCount.textContent = anyFilterActive()
+    ? `Showing ${rows.length} of ${currentRows.length} events`
+    : `${currentRows.length} events`;
+
+  document.getElementById("clearFiltersBtn").classList.toggle("active", anyFilterActive());
+
+  if (!rows.length) {
+    const selectAllCb = document.getElementById("selectAllCb");
+    if (selectAllCb) { selectAllCb.checked = false; selectAllCb.indeterminate = false; }
+    empty.style.display = "block";
+    empty.textContent = currentRows.length ? "No events match the current filters." : "No extracted events for this source yet.";
+    return;
+  }
+  empty.style.display = "none";
+
+  rows.forEach((r, index) => {
+    const tr = document.createElement("tr");
+    const existingMark = marksCache[markKey(r)];
+    if (existingMark && existingMark.is_done) tr.classList.add("marked-done");
+    if (selectedIds.has(r.event_id)) tr.classList.add("row-selected");
+
+    tr.appendChild(buildSelectCell(r));
+
+    visibleCols.forEach((col) => {
+      const td = document.createElement("td");
+      if (col.cellStyle) td.setAttribute("style", col.cellStyle);
+      td.innerHTML = col.render ? col.render(r) : col.getValue(r);
+      tr.appendChild(td);
+    });
+
+    tr.appendChild(buildAssignCell(r, existingMark));
+    tr.appendChild(buildStatusCell(r, existingMark));
+
+    // Ctrl/Cmd+click toggles one row; Shift+click selects the range from the
+    // last-clicked row. Clicks on real controls (links, selects, buttons, the
+    // checkbox itself) fall through to their normal behavior untouched.
+    tr.addEventListener("mousedown", (e) => {
+      if (e.shiftKey) e.preventDefault(); // stop the browser's native text-selection drag
+    });
+    tr.addEventListener("click", (e) => {
+      if (e.target.closest("input, select, button, a")) return;
+      if (e.ctrlKey || e.metaKey) {
+        if (selectedIds.has(r.event_id)) selectedIds.delete(r.event_id);
+        else selectedIds.add(r.event_id);
+        selectionAnchorId = r.event_id;
+        applyFiltersAndRender();
+        updateBulkBar();
+      } else if (e.shiftKey) {
+        const anchorIndex = rows.findIndex((row) => row.event_id === selectionAnchorId);
+        const [start, end] = anchorIndex === -1
+          ? [index, index]
+          : anchorIndex < index ? [anchorIndex, index] : [index, anchorIndex];
+        for (let i = start; i <= end; i++) selectedIds.add(rows[i].event_id);
+        selectionAnchorId = r.event_id;
+        applyFiltersAndRender();
+        updateBulkBar();
+      }
+    });
+
+    body.appendChild(tr);
+  });
+
+  const selectAllCb = document.getElementById("selectAllCb");
+  if (selectAllCb) {
+    const allSelected = rows.length > 0 && rows.every((r) => selectedIds.has(r.event_id));
+    selectAllCb.checked = allSelected;
+    selectAllCb.indeterminate = !allSelected && rows.some((r) => selectedIds.has(r.event_id));
+  }
+}
+
+function exportCSV() {
+  const rows = getFilteredSortedRows();
+  const visibleCols = COLUMNS.filter((c) => !hiddenColumns.has(c.key));
+  const esc = (v) => `"${String(v).replace(/"/g, '""')}"`;
+  const lines = [visibleCols.map((c) => esc(c.label)).join(",")];
+  rows.forEach((r) => {
+    lines.push(visibleCols.map((c) => esc(c.getValue(r))).join(","));
+  });
+  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${currentSource || "export"}_events.csv`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+// ---- CSV import (upload + quick URL add) ----------------------------------
+
+// Minimal RFC4180-ish CSV parser: handles quoted fields, embedded commas,
+// escaped quotes ("") and CRLF/LF line endings.
+function parseCsvLines(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  const s = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (s[i + 1] === '"') { field += '"'; i++; }
+        else inQuotes = false;
+      } else field += c;
+    } else if (c === '"') {
+      inQuotes = true;
+    } else if (c === ",") {
+      row.push(field); field = "";
+    } else if (c === "\n") {
+      row.push(field); field = "";
+      rows.push(row); row = [];
+    } else {
+      field += c;
+    }
+  }
+  if (field.length || row.length) { row.push(field); rows.push(row); }
+  return rows.filter((r) => r.some((c) => c.trim() !== ""));
+}
+
+const CSV_FIELD_MAP = {
+  company: "company_name", companyname: "company_name",
+  articlelink: "article_link", link: "article_link", url: "article_link",
+  event: "event_type", eventtype: "event_type",
+  status: "status",
+  date: "event_date", eventdate: "event_date",
+  location: "location", city: "location",
+};
+
+function parseCsvToRows(text) {
+  const lines = parseCsvLines(text);
+  if (!lines.length) return [];
+  const header = lines[0].map((h) => h.trim().toLowerCase().replace(/[\s_]+/g, ""));
+  const cols = header.map((h) => CSV_FIELD_MAP[h] || null);
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) {
+    const row = {};
+    cols.forEach((key, idx) => {
+      if (key && lines[i][idx] != null) row[key] = lines[i][idx].trim();
+    });
+    if (row.article_link) rows.push(row);
+  }
+  return rows;
+}
+
+async function submitBulkRows(rows) {
+  const result = await fetchJSON(`${API}/store_events/bulk`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      source: currentSource,
+      actor_analyst_id: currentUser.analyst_id,
+      rows,
+    }),
+  });
+  await loadSourceTable(currentSource);
+  return result;
+}
+
+// ---- Articles sub-tab (raw scraped_articles, read-only) -------------------
+// Deliberately lighter than the Extraction table: a global search and simple
+// click-to-sort, no per-column filter popovers — this is a reference view of
+// what was scraped, not a workflow surface.
+let currentSubTab = "extraction";
+let articleRows = [];
+let articlesSearchText = "";
+let articlesSortState = { key: null, dir: 1 };
+
+const ARTICLE_COLUMNS = [
+  { key: "title", label: "Title", getValue: (a) => a.title || "—" },
+  { key: "company", label: "Company", getValue: (a) => a.company_name || "—" },
+  { key: "summary", label: "Summary", getValue: (a) => a.summary || "—", cellStyle: "max-width:320px" },
+  {
+    key: "location", label: "Location",
+    getValue: (a) => [a.city, a.state].filter(Boolean).join(", ") || "—",
+  },
+  { key: "published", label: "Published", getValue: (a) => a.published_date || "—" },
+  {
+    key: "link", label: "Link",
+    getValue: (a) => a.link || "",
+    render: (a) => (a.link ? `<a class="link" href="${a.link}" target="_blank" rel="noopener">open ↗</a>` : "—"),
+  },
+];
+
+function renderArticlesTableHead() {
+  const thead = document.getElementById("articlesTableHead");
+  const tr = document.createElement("tr");
+  ARTICLE_COLUMNS.forEach((col) => {
+    const th = document.createElement("th");
+    th.innerHTML = `<span class="th-inner">
+        <span class="th-label">${col.label}</span>
+        <button class="sort-btn" title="Sort">${articlesSortState.key === col.key ? (articlesSortState.dir === 1 ? "▲" : "▼") : "⇅"}</button>
+      </span>`;
+    th.querySelector(".sort-btn").addEventListener("click", () => {
+      articlesSortState = articlesSortState.key === col.key
+        ? { key: col.key, dir: -articlesSortState.dir }
+        : { key: col.key, dir: 1 };
+      renderArticlesTableHead();
+      renderArticlesTableBody();
+    });
+    tr.appendChild(th);
+  });
+  thead.innerHTML = "";
+  thead.appendChild(tr);
+}
+
+function renderArticlesTableBody() {
+  const body = document.getElementById("articlesTableBody");
+  const empty = document.getElementById("articlesEmpty");
+  const rowCount = document.getElementById("articlesRowCount");
+
+  let rows = articleRows;
+  if (articlesSearchText) {
+    const needle = articlesSearchText.toLowerCase();
+    rows = rows.filter((a) =>
+      ARTICLE_COLUMNS.map((c) => c.getValue(a) || "").join(" ").toLowerCase().includes(needle)
+    );
+  }
+  if (articlesSortState.key) {
+    const col = ARTICLE_COLUMNS.find((c) => c.key === articlesSortState.key);
+    rows = rows.slice().sort((a, b) =>
+      articlesSortState.dir * (col.getValue(a) || "").toString().localeCompare(
+        (col.getValue(b) || "").toString(), undefined, { numeric: true, sensitivity: "base" }
+      )
+    );
+  }
+
+  rowCount.textContent = articlesSearchText
+    ? `Showing ${rows.length} of ${articleRows.length} articles`
+    : `${articleRows.length} articles`;
+
+  body.innerHTML = "";
+  if (!rows.length) {
+    empty.style.display = "block";
+    empty.textContent = articleRows.length ? "No articles match your search." : "No raw articles scraped for this source yet.";
+    return;
+  }
+  empty.style.display = "none";
+
+  rows.forEach((a) => {
+    const tr = document.createElement("tr");
+    ARTICLE_COLUMNS.forEach((col) => {
+      const td = document.createElement("td");
+      if (col.cellStyle) td.setAttribute("style", col.cellStyle);
+      td.innerHTML = col.render ? col.render(a) : col.getValue(a);
+      tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  });
+}
+
+async function loadArticlesTable(source) {
+  articleRows = await fetchJSON(`${API}/scraped_articles?source=${encodeURIComponent(source)}`);
+  articlesSearchText = "";
+  articlesSortState = { key: null, dir: 1 };
+  const search = document.getElementById("articlesSearch");
+  if (search) search.value = "";
+  renderArticlesTableHead();
+  renderArticlesTableBody();
+}
+
+function showSubTab(subtab) {
+  currentSubTab = subtab;
+  document.querySelectorAll(".subtab-btn").forEach((b) => {
+    b.classList.toggle("active", b.dataset.subtab === subtab);
+  });
+  document.getElementById("pane-extraction").style.display = subtab === "extraction" ? "block" : "none";
+  document.getElementById("pane-articles").style.display = subtab === "articles" ? "block" : "none";
+
+  if (subtab === "articles") {
+    loadArticlesTable(currentSource).catch((e) => setStatus(`error: ${e.message}`, false));
+  }
+}
+
+async function loadSourceTable(source) {
+  currentSource = source;
+  document.getElementById("sourceTitle").textContent = `${SOURCE_LABELS[source] || source} — extracted events`;
+  resetTableState();
+  currentRows = await fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`);
+  renderTableHead();
+  applyFiltersAndRender();
+  showSubTab("extraction");
+}
+
+function showView(tab) {
+  document.getElementById("view-dashboard").style.display = tab === "dashboard" ? "block" : "none";
+  document.getElementById("view-source").style.display = tab === "dashboard" ? "none" : "block";
+
+  document.querySelectorAll("nav button").forEach((b) => {
+    b.classList.toggle("active", b.dataset.tab === tab);
+  });
+
+  if (tab === "dashboard") {
+    loadDashboard().catch((e) => setStatus(`error: ${e.message}`, false));
+  } else {
+    loadSourceTable(tab).catch((e) => setStatus(`error: ${e.message}`, false));
+  }
+}
+
+function renderUserBadge() {
+  document.getElementById("userBadge").textContent =
+    `${currentUser.analyst_name} · ${currentUser.role === "admin" ? "Admin" : "Analyst " + currentUser.analyst_id}`;
+}
+
+async function bootAfterLogin() {
+  document.getElementById("loginScreen").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  renderUserBadge();
+
+  try {
+    await loadAnalysts();
+    await loadMarks();
+    setStatus("connected to demo backend", true);
+  } catch (e) {
+    setStatus("backend not reachable — is app.py running on :5000?", false);
+  }
+
+  showView("dashboard");
+}
+
+async function doLogin(identifier, password) {
+  const errorEl = document.getElementById("loginError");
+  errorEl.style.display = "none";
+  try {
+    const user = await fetchJSON(`${API}/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ identifier, password }),
+    });
+    currentUser = user;
+    storeUser(user);
+    await bootAfterLogin();
+  } catch (e) {
+    errorEl.textContent = e.message === "invalid credentials"
+      ? "Invalid analyst ID/email or password."
+      : `Login failed: ${e.message}`;
+    errorEl.style.display = "block";
+  }
+}
+
+function doLogout() {
+  clearStoredUser();
+  currentUser = null;
+  document.getElementById("app").style.display = "none";
+  document.getElementById("loginScreen").style.display = "flex";
+  document.getElementById("loginPassword").value = "";
+}
+
+async function init() {
+  document.querySelectorAll("nav button").forEach((b) => {
+    b.addEventListener("click", () => showView(b.dataset.tab));
+  });
+  document.querySelectorAll(".subtab-btn").forEach((b) => {
+    b.addEventListener("click", () => showSubTab(b.dataset.subtab));
+  });
+  document.getElementById("articlesSearch").addEventListener("input", (e) => {
+    articlesSearchText = e.target.value.trim();
+    renderArticlesTableBody();
+  });
+
+  document.getElementById("globalSearch").addEventListener("input", (e) => {
+    globalSearchText = e.target.value.trim();
+    applyFiltersAndRender();
+  });
+  document.getElementById("clearFiltersBtn").addEventListener("click", () => {
+    resetTableState();
+    renderTableHead();
+    applyFiltersAndRender();
+  });
+  document.getElementById("exportCsvBtn").addEventListener("click", exportCSV);
+  document.getElementById("columnsBtn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    document.getElementById("addMenu").style.display = "none";
+    openColumnsMenu();
+  });
+  document.getElementById("addMenuBtn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    document.getElementById("columnsMenu").style.display = "none";
+    const menu = document.getElementById("addMenu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  });
+  document.getElementById("logoutBtn").addEventListener("click", doLogout);
+  document.getElementById("bulkClearBtn").addEventListener("click", () => {
+    selectedIds.clear();
+    applyFiltersAndRender();
+    updateBulkBar();
+  });
+
+  document.getElementById("quickAddForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const input = document.getElementById("quickAddUrl");
+    const url = input.value.trim();
+    if (!url) return;
+    try {
+      const result = await submitBulkRows([{ article_link: url }]);
+      if (result.inserted) {
+        input.value = "";
+      } else if (result.skipped_duplicate) {
+        alert("That URL is already on this list.");
+      } else {
+        alert("Could not add that URL.");
+      }
+    } catch (err) {
+      alert(`Could not add URL: ${err.message}`);
+    }
+  });
+
+  document.getElementById("uploadCsvBtn").addEventListener("click", () => {
+    document.getElementById("csvFileInput").click();
+  });
+  document.getElementById("csvFileInput").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const rows = parseCsvToRows(text);
+      if (!rows.length) {
+        alert("No usable rows found — make sure the CSV has an article_link column.");
+        return;
+      }
+      const result = await submitBulkRows(rows);
+      let msg = `Added ${result.inserted} row(s).`;
+      if (result.skipped_duplicate) msg += ` ${result.skipped_duplicate} already existed.`;
+      if (result.skipped_invalid) msg += ` ${result.skipped_invalid} skipped (missing article link).`;
+      alert(msg);
+    } catch (err) {
+      alert(`CSV upload failed: ${err.message}`);
+    } finally {
+      e.target.value = "";
+    }
+  });
+  document.getElementById("loginForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const identifier = document.getElementById("loginIdentifier").value.trim();
+    const password = document.getElementById("loginPassword").value;
+    doLogin(identifier, password);
+  });
+
+  const stored = loadStoredUser();
+  if (stored) {
+    currentUser = stored;
+    await bootAfterLogin();
+  }
+}
+
+init();

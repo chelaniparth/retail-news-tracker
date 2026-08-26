@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Retail News Intelligence Tracker</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="loginScreen">
+    <form id="loginForm" class="login-card">
+      <h1>Retail News Intelligence Tracker</h1>
+      <p class="login-sub">Sign in with your analyst ID (or email) and password.</p>
+      <label>Analyst ID or email
+        <input type="text" id="loginIdentifier" autocomplete="username" placeholder="0001 or you@retailstat.com" required />
+      </label>
+      <label>Password
+        <input type="password" id="loginPassword" autocomplete="current-password" required />
+      </label>
+      <button type="submit" class="tool-btn primary">Sign in</button>
+      <div class="login-error" id="loginError" style="display:none"></div>
+    </form>
+  </section>
+
+  <div id="app" style="display:none">
+    <header>
+      <div>
+        <h1>Retail News Intelligence Tracker</h1>
+      </div>
+      <div class="header-right">
+        <div class="sub" id="statusLine">connecting…</div>
+        <div class="user-badge" id="userBadge"></div>
+        <button id="logoutBtn" class="tool-btn small">Log out</button>
+      </div>
+    </header>
+
+    <nav id="tabs">
+      <button data-tab="dashboard" class="active">Dashboard</button>
+      <button data-tab="banner">Store News</button>
+      <button data-tab="ct_scoop">CT Scoop</button>
+      <button data-tab="restaurant">Restaurant News</button>
+      <button data-tab="daily_news">Daily News</button>
+      <button data-tab="businessdebut">BusinessDebut</button>
+    </nav>
+
+    <main>
+    <section id="view-dashboard">
+      <div class="cards" id="cards"></div>
+      <div class="panel">
+        <h2>Opening vs Closing vs Remodel</h2>
+        <div id="typeChart"></div>
+      </div>
+      <div class="panel">
+        <h2>Events by source</h2>
+        <div id="sourceChart"></div>
+      </div>
+      <div class="panel">
+        <h2>Analyst activity</h2>
+        <div class="table-scroll">
+          <table class="stat-table">
+            <thead>
+              <tr>
+                <th>Analyst</th>
+                <th>Entered</th>
+                <th>Completed</th>
+                <th>Assigned (open)</th>
+              </tr>
+            </thead>
+            <tbody id="analystActivityBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-source" style="display:none">
+      <div class="panel">
+        <h2 id="sourceTitle">Extraction</h2>
+
+        <div class="subtabs" id="subtabs">
+          <button type="button" class="subtab-btn" data-subtab="articles">Articles</button>
+          <button type="button" class="subtab-btn active" data-subtab="extraction">Extraction</button>
+        </div>
+
+        <div id="pane-extraction">
+          <div class="table-toolbar">
+            <div class="search-wrap">
+              <input type="text" id="globalSearch" placeholder="Search all columns…" />
+            </div>
+            <div class="toolbar-right">
+              <span class="row-count" id="rowCount"></span>
+              <div class="dropdown-wrap">
+                <button type="button" id="addMenuBtn" class="tool-btn">+ Add articles ▾</button>
+                <div id="addMenu" class="popover add-menu" style="display:none">
+                  <form id="quickAddForm" class="quick-add">
+                    <input type="url" id="quickAddUrl" placeholder="Paste an article URL…" required />
+                    <button type="submit" class="tool-btn small">Add URL</button>
+                  </form>
+                  <div class="add-menu-row">
+                    <button type="button" id="uploadCsvBtn" class="tool-btn small">Upload CSV</button>
+                    <input type="file" id="csvFileInput" accept=".csv,text/csv" style="display:none" />
+                  </div>
+                  <p class="add-bar-hint">CSV columns: <strong>company_name</strong>, <strong>article_link</strong> (required) · event_type, status, event_date, location (optional)</p>
+                </div>
+              </div>
+              <div class="dropdown-wrap">
+                <button id="columnsBtn" class="tool-btn">Columns ▾</button>
+                <div id="columnsMenu" class="popover" style="display:none"></div>
+              </div>
+              <button id="clearFiltersBtn" class="tool-btn">Clear filters</button>
+              <button id="exportCsvBtn" class="tool-btn">Export CSV</button>
+            </div>
+          </div>
+
+          <div class="bulk-bar" id="bulkBar" style="display:none">
+            <span id="bulkCount"></span>
+            <div id="bulkActions" class="bulk-actions"></div>
+            <button type="button" id="bulkClearBtn" class="mini-link">Clear selection</button>
+          </div>
+
+          <div class="table-scroll">
+            <table>
+              <thead id="sourceTableHead"></thead>
+              <tbody id="sourceTableBody"></tbody>
+            </table>
+          </div>
+          <div class="empty" id="sourceEmpty" style="display:none">No extracted events for this source yet.</div>
+        </div>
+
+        <div id="pane-articles" style="display:none">
+          <div class="table-toolbar">
+            <div class="search-wrap">
+              <input type="text" id="articlesSearch" placeholder="Search articles…" />
+            </div>
+            <div class="toolbar-right">
+              <span class="row-count" id="articlesRowCount"></span>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead id="articlesTableHead"></thead>
+              <tbody id="articlesTableBody"></tbody>
+            </table>
+          </div>
+          <div class="empty" id="articlesEmpty" style="display:none">No raw articles scraped for this source yet.</div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer>Retail News Intelligence Tracker</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
