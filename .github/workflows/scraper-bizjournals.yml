@@ -1,0 +1,54 @@
+name: Scraper - BizJournals (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scrapers
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pandas beautifulsoup4 playwright playwright-stealth "supabase>=2.0.0,<3.0.0"
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run BizJournals scraper
+        env:
+          ZYTE_API_KEY: ${{ secrets.ZYTE_API_KEY }}
+        run: python bizjournals_scraper.py
+
+      - name: Commit and push changes
+        working-directory: .
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add scrapers/bizjournals_latest.json || true
+          git add scrapers/data/bizjournals/ || true
+          git add scrapers/master_file/bizjournals_master.csv || true
+          git diff --staged --quiet || git commit -m "Auto-update: BizJournals fetch $(date +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push origin main && break
+            echo "Push attempt $i failed, retrying in 15s..."
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done

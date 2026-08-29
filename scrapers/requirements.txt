@@ -1,0 +1,33 @@
+# Core data
+feedparser
+pandas
+python-dateutil
+supabase
+
+# HTTP & HTML parsing
+requests
+urllib3
+beautifulsoup4
+lxml
+
+# Selenium (restaurant_scraper, ct_scoop_scraper, company_website_comingsoon)
+selenium
+webdriver-manager
+
+# Playwright (bizjournals_scraper, warn, company_website_comingsoon)
+playwright
+playwright-stealth
+nest_asyncio
+
+# Patchright (company_website_comingsoon — Cloudflare-protected sites)
+patchright
+
+# Groq extraction (ct_scoop_auto_extract)
+langchain-groq
+langchain-core
+
+# Misc
+python-dotenv
+googlenewsdecoder
+openpyxl
+pymupdf

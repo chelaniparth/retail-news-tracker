@@ -1,0 +1,54 @@
+name: Scraper - Banner Store News (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scrapers
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install feedparser pandas python-dateutil "supabase>=2.0.0,<3.0.0"
+
+      - name: Run news fetcher
+        run: python fetch_banner_store_news.py
+
+      - name: Sync master file to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python sync_to_supabase.py
+
+      - name: Commit and push changes
+        working-directory: .
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add scrapers/latest_news.json || true
+          git add scrapers/data/store_news/ || true
+          git add scrapers/master_file/ || true
+          git diff --staged --quiet || git commit -m "Auto-update: Banner store news fetch $(date +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying in 15s..."
+            sleep 15
+          done

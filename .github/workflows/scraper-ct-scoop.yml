@@ -1,0 +1,82 @@
+name: Scraper - CT Scoop (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scrapers
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install selenium webdriver-manager pandas python-dateutil openpyxl \
+            "supabase>=2.0.0,<3.0.0" \
+            "langchain-groq>=0.1.0,<0.4.0" "langchain-core>=0.2.0,<0.4.0" \
+            requests beautifulsoup4
+
+      - name: Install Google Chrome Stable
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-linux-signing-keyring.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux-signing-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          sudo ln -sf /usr/bin/google-chrome-stable /usr/bin/google-chrome
+
+      - name: Run CT Scoop scraper
+        run: |
+          export CHROME_BIN=/usr/bin/google-chrome-stable
+          export GOOGLE_CHROME_BIN=/usr/bin/google-chrome-stable
+          python ct_scoop_scraper.py
+
+      - name: Run CT Scoop extractor (Groq AI)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -z "${GROQ_API_KEY}" ]; then
+            echo "GROQ_API_KEY secret not configured — skipping AI extraction step"
+            exit 0
+          fi
+          python ct_scoop_auto_extract.py
+
+      - name: Sync master file to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python sync_to_supabase.py
+
+      - name: Commit and push changes
+        working-directory: .
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add scrapers/ct_scoop_latest.json || true
+          git add scrapers/ct_scoop_extraction_latest.json || true
+          git add scrapers/data/ct_scoop/ || true
+          git add scrapers/master_file/ || true
+          git diff --staged --quiet || git commit -m "Auto-update: CT Scoop fetch $(date +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push origin main && break
+            echo "Push attempt $i failed, retrying in 15s..."
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done

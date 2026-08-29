@@ -1,0 +1,60 @@
+name: Scraper - Company Website Grand Openings (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: scrapers
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install selenium beautifulsoup4 pandas openpyxl requests playwright nest_asyncio playwright-stealth webdriver-manager patchright
+
+      - name: Install Chrome & ChromeDriver
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install Playwright browser
+        run: playwright install --with-deps chromium
+
+      - name: Install Patchright browser
+        run: patchright install --with-deps chromium
+
+      - name: Install xvfb
+        run: sudo apt-get update && sudo apt-get install -y xvfb
+
+      - name: Run Company Website scraper
+        run: xvfb-run -a python company_website_comingsoon.py
+
+      - name: Commit and push JSON
+        working-directory: .
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add scrapers/docs/company_website_latest.json || true
+          git add scrapers/docs/company_website_master.json || true
+          git add scrapers/master_file/company_website_master.csv || true
+          git diff --staged --quiet || git commit -m "Auto-update: Company website scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git fetch origin main
+          git rebase origin/main
+          git push origin main
