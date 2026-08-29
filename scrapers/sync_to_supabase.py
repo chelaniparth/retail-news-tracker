@@ -41,6 +41,7 @@ TABLE_CONFIG = {
     "ct_scoop_master_extraction.csv":    ("ct_scoop_master_extraction",  "article_link"),
     "daily_news_master.csv":    ("daily_news_master",    "direct_link"),
     "banner_news_master.csv":   ("banner_news_master",   "Link"),
+    "restaurant_master_extraction.csv": ("restaurant_master_extraction", "article_link"),
 }
 
 

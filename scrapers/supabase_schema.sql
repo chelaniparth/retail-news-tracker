@@ -71,3 +71,16 @@ CREATE TABLE IF NOT EXISTS restaurant_master (
     url TEXT UNIQUE,
     "Date_Appended" TEXT
 );
+
+CREATE TABLE IF NOT EXISTS restaurant_master_extraction (
+    id BIGSERIAL PRIMARY KEY,
+    store_name TEXT,
+    location TEXT,
+    event_type TEXT,
+    event_date TEXT,
+    status TEXT,
+    short_description TEXT,
+    article_link TEXT UNIQUE,
+    published_date TEXT,
+    "Date_Appended" TEXT
+);
