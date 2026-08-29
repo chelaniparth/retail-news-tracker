@@ -75,10 +75,18 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: restaurant update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            pushed=false
             for i in 1 2 3 4 5; do
-              git pull --rebase -X theirs origin main && git push origin main && break
+              if git pull --rebase -X theirs origin master && git push origin master; then
+                pushed=true
+                break
+              fi
               echo "Push attempt $i failed, retrying in 15s..."
               git rebase --abort 2>/dev/null || true
               sleep 15
             done
+            if [ "$pushed" != true ]; then
+              echo "::error::All push attempts failed — scraped data was NOT saved to the repo."
+              exit 1
+            fi
           fi

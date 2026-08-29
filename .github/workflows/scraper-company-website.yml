@@ -55,6 +55,6 @@ jobs:
           git add scrapers/docs/company_website_master.json || true
           git add scrapers/master_file/company_website_master.csv || true
           git diff --staged --quiet || git commit -m "Auto-update: Company website scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git fetch origin main
-          git rebase origin/main
-          git push origin main
+          git fetch origin master
+          git rebase origin/master
+          git push origin master

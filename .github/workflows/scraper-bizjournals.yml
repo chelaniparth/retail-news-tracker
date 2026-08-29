@@ -46,9 +46,17 @@ jobs:
           git add scrapers/data/bizjournals/ || true
           git add scrapers/master_file/bizjournals_master.csv || true
           git diff --staged --quiet || git commit -m "Auto-update: BizJournals fetch $(date +'%Y-%m-%d')"
+          pushed=false
           for i in 1 2 3 4 5; do
-            git pull --rebase -X theirs origin main && git push origin main && break
+            if git pull --rebase -X theirs origin master && git push origin master; then
+              pushed=true
+              break
+            fi
             echo "Push attempt $i failed, retrying in 15s..."
             git rebase --abort 2>/dev/null || true
             sleep 15
           done
+          if [ "$pushed" != true ]; then
+            echo "::error::All push attempts failed — scraped data was NOT saved to the repo."
+            exit 1
+          fi

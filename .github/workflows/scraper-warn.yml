@@ -86,6 +86,6 @@ jobs:
           git add scrapers/warn_output/ || true
           git add scrapers/master_file/warn_master.csv || true
           git diff --staged --quiet || git commit -m "Auto-update: WARN fetch $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git fetch origin main
-          git rebase origin/main
-          git push origin main
+          git fetch origin master
+          git rebase origin/master
+          git push origin master
