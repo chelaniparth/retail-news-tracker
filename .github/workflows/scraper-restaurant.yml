@@ -56,6 +56,12 @@ jobs:
           fi
           python restaurant_auto_extract.py
 
+      - name: Load into dashboard (store_events / scraped_articles)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python load_extraction_to_dashboard.py restaurant
+
       - name: Sync master file to Supabase
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
