@@ -5,7 +5,6 @@ Changes from v9:
      Root cause: HEAD redirect lands on domain root, not the article.
      New decode pipeline:
        Tier A: base64 decode of the Google News path segment (most reliable, free)
-       Tier B: Zyte proxy redirect resolution (follows Google redirect to real article)
        Tier C: Scrape Google's redirect page for data-n-au / c-wiz article URL
        Tier D: googlenewsdecoder library
        Tier E: Keep Google News URL (fallback)
@@ -29,10 +28,6 @@ from urllib.parse import urlparse
 from collections import Counter
 import json
 import os
-import urllib3
-
-# Suppress SSL warnings when Zyte verify=False
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # IPython display is optional (not available in GitHub Actions / plain Python)
 try:
@@ -53,47 +48,6 @@ except ImportError:
         HAS_GND = True
     except Exception:
         HAS_GND = False
-
-# ─────────────────────────────────────────────────────────
-# ZYTE PROXY CONFIGURATION
-# ─────────────────────────────────────────────────────────
-
-# Load .env for local development (no-op if not installed or file missing)
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except ImportError:
-    pass
-
-ZYTE_API_KEY = os.environ.get("ZYTE_API_KEY", "")  # set in .env locally or GitHub Secret in CI
-
-ZYTE_PROXIES = {
-    scheme: f"http://{ZYTE_API_KEY}:@api.zyte.com:8011"
-    for scheme in ("http", "https")
-}
-
-# Set to "zyte-ca.crt" if you have the cert, or False to skip SSL verification
-ZYTE_CA_CERT = False
-
-# Persistent Zyte session — reuses connections for speed
-_ZYTE_SESSION = requests.Session()
-_ZYTE_SESSION.proxies.update(ZYTE_PROXIES)
-_ZYTE_SESSION.verify = ZYTE_CA_CERT
-
-# One-time Zyte connectivity check — skip Tier B entirely if proxy is unreachable
-def _check_zyte_available() -> bool:
-    if not ZYTE_API_KEY:
-        print("⚠️  ZYTE_API_KEY not set — Tier B (Zyte) disabled")
-        return False
-    try:
-        r = _ZYTE_SESSION.get("https://httpbin.org/ip", timeout=6)
-        print(f"✅ Zyte proxy reachable (status={r.status_code})")
-        return True
-    except Exception as e:
-        print(f"⚠️  Zyte proxy unreachable ({type(e).__name__}) — Tier B disabled for this run")
-        return False
-
-_ZYTE_AVAILABLE = _check_zyte_available()
 
 # ─────────────────────────────────────────────────────────
 # CONFIG
@@ -467,7 +421,7 @@ MIN_RELEVANCE_SCORE = 2
 # ─────────────────────────────────────────────────────────
 # PROXY & BATCH CONFIG
 # ─────────────────────────────────────────────────────────
-PROXIES = []   # Add your own proxies here if needed (separate from Zyte)
+PROXIES = []   # Add your own proxies here if needed
 
 BATCH_SIZE   = 20          # smaller batches → more frequent long pauses
 BATCH_PAUSE  = (25, 50)   # was (5,15) — longer gaps prevent CAPTCHA triggers
@@ -585,27 +539,6 @@ def _decode_base64(google_url: str) -> str | None:
     return None
 
 
-def _decode_zyte(google_url: str) -> str | None:
-    """
-    Tier B: Resolve Google News redirect via Zyte proxy.
-    Zyte follows the redirect chain and returns the final real article URL.
-    """
-    if not _ZYTE_AVAILABLE:
-        return None
-    try:
-        response = _ZYTE_SESSION.get(
-            google_url,
-            allow_redirects=True,
-            timeout=10,
-        )
-        final_url = response.url
-        if final_url and _is_valid_article_url(final_url):
-            return _clean_url(final_url)
-    except Exception:
-        pass
-    return None
-
-
 def _decode_scrape(google_url: str) -> str | None:
     """
     Tier C: Fetch the Google News article redirect page and extract the real URL.
@@ -697,12 +630,6 @@ def decode_link(google_url: str) -> str:
 
     # Small jitter before any HTTP call
     time.sleep(random.uniform(0.1, 0.4))
-
-    # Tier B: Zyte proxy redirect resolution
-    decoded = _decode_zyte(google_url)
-    if decoded:
-        _tier_hits["B_zyte"] += 1
-        return decoded
 
     # Tier D: googlenewsdecoder library (moved before Tier C — avoids hitting Google directly)
     decoded = _decode_gnd(google_url)

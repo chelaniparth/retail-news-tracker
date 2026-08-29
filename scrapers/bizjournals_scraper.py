@@ -1,7 +1,7 @@
 """
 bizjournals_scraper.py
 Scrapes bizjournals.com search for "restaurant opening" using Playwright + stealth.
-Falls back to Zyte proxy if Cloudflare blocks the plain request.
+Exits if Cloudflare blocks the request.
 
 Output (mirrors restaurant_scraper.py pattern):
   data/bizjournals/Daily_bizjournals_YYYY-MM-DD.csv
@@ -42,8 +42,6 @@ except ImportError:
 SEARCH_QUERIES = ["restaurant opening", "store opening", "grocery opening"]
 DAYS_BACK    = 1        # look back N days (1 = yesterday → today)
 HEADLESS     = True     # set False to watch the browser during debugging
-
-ZYTE_API_KEY = os.environ.get("ZYTE_API_KEY", "")
 
 # ── Date range ────────────────────────────────────────────────────────────────
 today      = datetime.now()
@@ -90,7 +88,7 @@ def is_rate_limited(html: str) -> bool:
 
 
 # ── Core browser context factory ──────────────────────────────────────────────
-def _make_context(playwright_instance, use_zyte: bool = False):
+def _make_context(playwright_instance):
     launch_args = [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -115,16 +113,6 @@ def _make_context(playwright_instance, use_zyte: bool = False):
         timezone_id="America/New_York",
         ignore_https_errors=True,
     )
-
-    if use_zyte:
-        if not ZYTE_API_KEY:
-            raise RuntimeError("ZYTE_API_KEY not set — cannot use Zyte proxy fallback")
-        ctx_kwargs["proxy"] = {
-            "server": "http://api.zyte.com:8011",
-            "username": ZYTE_API_KEY,
-            "password": "",
-        }
-        print("  Using Zyte proxy for Cloudflare bypass")
 
     context = browser.new_context(**ctx_kwargs)
     return browser, context
@@ -219,14 +207,14 @@ def parse_page(html: str, query: str):
 
 
 # ── Single Playwright session — fetches all pages without closing browser ─────
-def scrape_all_pages(query: str, use_zyte: bool = False) -> list:
+def scrape_all_pages(query: str) -> list:
     """Open one browser session and paginate through all result pages for a single query."""
     all_rows = []
     seen_urls: set = set()
     debug_file = f"bizjournals_debug_{query.replace(' ', '_')}.html"
 
     with sync_playwright() as p:
-        browser, context = _make_context(p, use_zyte=use_zyte)
+        browser, context = _make_context(p)
         page_obj = context.new_page()
 
         if HAS_STEALTH:
@@ -282,27 +270,22 @@ def scrape_all_pages(query: str, use_zyte: bool = False) -> list:
     return all_rows
 
 
-# ── Determine whether Zyte is needed, then scrape all pages ──────────────────
-print("Attempt 1: Playwright + stealth (no proxy)…")
+# ── Probe for Cloudflare before scraping all queries ──────────────────────────
+print("Probing: Playwright + stealth…")
 with sync_playwright() as _p:
-    _browser, _ctx = _make_context(_p, use_zyte=False)
+    _browser, _ctx = _make_context(_p)
     _page = _ctx.new_page()
     if HAS_STEALTH:
         _STEALTH.apply_stealth_sync(_page)
     _probe_html = _navigate_and_get_html(_page, _build_search_url(SEARCH_QUERIES[0]) + "&pl=1")
     _browser.close()
 
-USE_ZYTE = False
 if is_cloudflare_blocked(_probe_html):
-    print("  ❌ Cloudflare detected")
-    if not ZYTE_API_KEY:
-        print("  ⚠️  No ZYTE_API_KEY — saving debug HTML and exiting")
-        Path("bizjournals_debug.html").write_text(_probe_html, encoding="utf-8")
-        raise SystemExit(1)
-    print("Attempt 2: Playwright + Zyte proxy…")
-    USE_ZYTE = True
+    print("  ❌ Cloudflare detected — saving debug HTML and exiting")
+    Path("bizjournals_debug.html").write_text(_probe_html, encoding="utf-8")
+    raise SystemExit(1)
 else:
-    print("  ✅ No Cloudflare — proceeding without proxy")
+    print("  ✅ No Cloudflare — proceeding")
 
 QUERY_DELAY_SECONDS = 20  # pause between queries so we don't trip bizjournals' rate limiter
 
@@ -313,7 +296,7 @@ for _i, _query in enumerate(SEARCH_QUERIES):
         print(f"  ⏸  Waiting {QUERY_DELAY_SECONDS}s before next query…")
         time.sleep(QUERY_DELAY_SECONDS)
     print(f"\n🔎 Scraping query: \"{_query}\"")
-    _query_rows = scrape_all_pages(_query, use_zyte=USE_ZYTE)
+    _query_rows = scrape_all_pages(_query)
     for _r in _query_rows:
         if _r["url"] not in _seen_urls:
             _seen_urls.add(_r["url"])

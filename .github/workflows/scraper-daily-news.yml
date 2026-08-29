@@ -31,13 +31,9 @@ jobs:
           pip install feedparser pandas python-dateutil requests python-dotenv googlenewsdecoder openpyxl "supabase>=2.0.0,<3.0.0"
 
       - name: Run scraper (opening keywords)
-        env:
-          ZYTE_API_KEY: ${{ secrets.ZYTE_API_KEY }}
         run: python daily_news_articles.py --mode opening
 
       - name: Run scraper (closing keywords)
-        env:
-          ZYTE_API_KEY: ${{ secrets.ZYTE_API_KEY }}
         run: python daily_news_articles.py --mode closing
 
       - name: Merge results

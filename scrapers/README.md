@@ -14,7 +14,7 @@ triggered on demand from this repo's GitHub Actions tab.
 | `ct_scoop_scraper.py` + `ct_scoop_auto_extract.py` | CT Scoop | Selenium scrape, then Groq LLM extraction |
 | `warn.py` | State WARN Act portals | Selenium + Playwright, state-specific handlers |
 | `company_website_comingsoon.py` | 16 individual retailer sites | Selenium / Playwright / Patchright / requests mix |
-| `bizjournals_scraper.py` | bizjournals.com | Playwright + stealth, Zyte proxy fallback |
+| `bizjournals_scraper.py` | bizjournals.com | Playwright + stealth; exits if Cloudflare blocks it |
 | `bankruptcy.py` | Google News RSS (bankruptcy edition) | Chapter 11 / Chapter 7 closings only |
 | `sync_to_supabase.py` / `merge_results.py` | — | Shared post-processing, used by the workflows above |
 
@@ -35,7 +35,7 @@ other one):
   (this repo's own Supabase) — **not** the original Banner project's DB. `SUPABASE_KEY` must be
   the `service_role` key, not the anon/publishable one. Run `supabase_schema.sql` once in that
   project's SQL editor before the first sync — the tables don't exist there by default.
-- `ZYTE_API_KEY` — used by `daily_news_articles.py`, `bizjournals_scraper.py`, `bankruptcy.py`
 - `GROQ_API_KEY` — used by `ct_scoop_auto_extract.py` (optional; step skips if unset)
+- `GROQ_API_KEYS` — comma-separated, used by `restaurant_auto_extract.py`, rotated per batch and on rate limits (optional; step skips if unset)
 
 `GITHUB_TOKEN` is provided automatically by Actions.
