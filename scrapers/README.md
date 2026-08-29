@@ -30,7 +30,11 @@ schedules here too would double-write the same Supabase tables.
 Settings → Secrets and variables → Actions, on **this** repo (they don't carry over from the
 other one):
 
-- `SUPABASE_URL`, `SUPABASE_KEY` — used by `sync_to_supabase.py` (all workflows)
+- `SUPABASE_URL`, `SUPABASE_KEY` — used by `sync_to_supabase.py` (5 of 9 workflows: banner-news,
+  daily-news, businessdebut, restaurant, ct-scoop). Points at the `zswfbeziqbtjmckniuxt` project
+  (this repo's own Supabase) — **not** the original Banner project's DB. `SUPABASE_KEY` must be
+  the `service_role` key, not the anon/publishable one. Run `supabase_schema.sql` once in that
+  project's SQL editor before the first sync — the tables don't exist there by default.
 - `ZYTE_API_KEY` — used by `daily_news_articles.py`, `bizjournals_scraper.py`, `bankruptcy.py`
 - `GROQ_API_KEY` — used by `ct_scoop_auto_extract.py` (optional; step skips if unset)
 
