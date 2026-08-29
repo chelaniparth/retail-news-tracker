@@ -272,7 +272,7 @@ def main():
     print(f"✓  {len(articles)} article(s)  |  batch size: {batch_size}  |  {total_batches} batch(es)\n")
 
     llm = ChatGroq(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         api_key=GROQ_API_KEY,
         temperature=0,
         max_tokens=8192,

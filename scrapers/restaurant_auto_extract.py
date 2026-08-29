@@ -245,7 +245,7 @@ def is_rate_limit_error(exc: Exception) -> bool:
 
 def make_chain(api_key: str):
     llm = ChatGroq(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         api_key=api_key,
         temperature=0,
         max_tokens=8192,
@@ -329,7 +329,7 @@ def main():
         response_text = None
         for attempt in range(len(GROQ_KEYS)):
             key = GROQ_KEYS[(b_num - 1 + attempt) % len(GROQ_KEYS)]
-            print(f"\n  → Calling Groq API (llama-3.3-70b-versatile, key #{(b_num - 1 + attempt) % len(GROQ_KEYS) + 1}) for {len(blocks)} article(s)...")
+            print(f"\n  → Calling Groq API (openai/gpt-oss-120b, key #{(b_num - 1 + attempt) % len(GROQ_KEYS) + 1}) for {len(blocks)} article(s)...")
             try:
                 response_text = make_chain(key).invoke({"articles_text": articles_text})
                 break
