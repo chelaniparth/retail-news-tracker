@@ -53,6 +53,130 @@ let sortState = { key: null, dir: 1 };
 let hiddenColumns = new Set(); // colKeys hidden via the Columns menu
 let selectedIds = new Set();   // event_id values checked for bulk actions
 let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
+let sourcePage = { page: 1, pageSize: 50 };
+let articlesPage = { page: 1, pageSize: 50 };
+
+// ---- header type icons + pagination glyphs ---------------------------------
+const TYPE_ICONS = {
+  date: '<svg class="icon-svg th-type-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+  select: '<svg class="icon-svg th-type-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>',
+  text: '<svg class="icon-svg th-type-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="17" y1="18" x2="3" y2="18"/></svg>',
+  link: '<svg class="icon-svg th-type-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
+};
+function typeIcon(colKey, colType) {
+  if (colKey === "article" || colKey === "link") return TYPE_ICONS.link;
+  if (colKey === "published" || colKey === "date") return TYPE_ICONS.date;
+  return TYPE_ICONS[colType] || TYPE_ICONS.text;
+}
+
+// ---- column widths (resizable columns, persisted per browser) -------------
+function loadColWidths(storageKey) {
+  try {
+    const raw = localStorage.getItem(storageKey);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) { return {}; }
+}
+function saveColWidths(storageKey, widths) {
+  try { localStorage.setItem(storageKey, JSON.stringify(widths)); } catch (e) { /* ignore */ }
+}
+
+const SOURCE_DEFAULT_WIDTHS = {
+  company: 190, event: 100, status: 150, date: 120, location: 150,
+  description: 320, article: 90, published: 110, markdone: 190, assignedto: 160,
+  __assign: 170, __action: 190,
+};
+const ARTICLE_DEFAULT_WIDTHS = {
+  title: 260, company: 170, summary: 320, location: 140, published: 110, link: 90,
+};
+
+let sourceColWidths = loadColWidths("colWidths_source_v1");
+let articlesColWidths = loadColWidths("colWidths_articles_v1");
+
+function colWidth(widths, defaults, key) {
+  return widths[key] || defaults[key] || 140;
+}
+
+// Adds a drag handle to `th` that resizes the matching <col data-colkey>
+// inside the colgroup with id `colGroupId`. Reads the starting width from the
+// header cell's actual rendered size (reliable across browsers, unlike
+// reading a <col> element's own box), and persists the final width.
+function attachColResize(th, colKey, colGroupId, widthsState, storageKey) {
+  const handle = document.createElement("span");
+  handle.className = "col-resize-handle";
+  th.appendChild(handle);
+  handle.addEventListener("mousedown", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const colEl = document.querySelector(`#${colGroupId} col[data-colkey="${CSS.escape(colKey)}"]`);
+    if (!colEl) return;
+    const startX = e.clientX;
+    const startWidth = th.getBoundingClientRect().width;
+    handle.classList.add("resizing");
+    document.body.classList.add("col-resizing");
+    function onMove(ev) {
+      colEl.style.width = `${Math.max(60, startWidth + (ev.clientX - startX))}px`;
+    }
+    function onUp() {
+      handle.classList.remove("resizing");
+      document.body.classList.remove("col-resizing");
+      document.removeEventListener("mousemove", onMove);
+      document.removeEventListener("mouseup", onUp);
+      widthsState[colKey] = parseInt(colEl.style.width, 10);
+      saveColWidths(storageKey, widthsState);
+    }
+    document.addEventListener("mousemove", onMove);
+    document.addEventListener("mouseup", onUp);
+  });
+}
+
+// ---- pagination -------------------------------------------------------------
+// Renders a first/prev/next/last + go-to-page + page-size bar into
+// `containerId`, operating on `state` ({page, pageSize}), and calls
+// `onChange()` (the owning table's render function) after any interaction.
+function renderPaginationBar(containerId, state, totalRows, onChange) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const totalPages = Math.max(1, Math.ceil(totalRows / state.pageSize));
+  if (state.page > totalPages) state.page = totalPages;
+  if (state.page < 1) state.page = 1;
+  const startRow = totalRows === 0 ? 0 : (state.page - 1) * state.pageSize + 1;
+  const endRow = Math.min(totalRows, state.page * state.pageSize);
+  const atFirst = state.page <= 1;
+  const atLast = state.page >= totalPages;
+
+  container.innerHTML = `
+    <span class="count-badge">${startRow}–${endRow} of ${totalRows} rows</span>
+    <div class="pagination-controls">
+      <button type="button" class="page-btn" data-act="first" ${atFirst ? "disabled" : ""} title="First page">«</button>
+      <button type="button" class="page-btn" data-act="prev" ${atFirst ? "disabled" : ""} title="Previous page">‹</button>
+      <span class="page-goto">Page <input type="number" min="1" max="${totalPages}" value="${state.page}" /> of ${totalPages}</span>
+      <button type="button" class="page-btn" data-act="next" ${atLast ? "disabled" : ""} title="Next page">›</button>
+      <button type="button" class="page-btn" data-act="last" ${atLast ? "disabled" : ""} title="Last page">»</button>
+    </div>
+    <select class="page-size-select">
+      <option value="25">Show 25</option>
+      <option value="50">Show 50</option>
+      <option value="100">Show 100</option>
+      <option value="250">Show 250</option>
+    </select>`;
+
+  container.querySelector('[data-act="first"]').addEventListener("click", () => { state.page = 1; onChange(); });
+  container.querySelector('[data-act="prev"]').addEventListener("click", () => { state.page = Math.max(1, state.page - 1); onChange(); });
+  container.querySelector('[data-act="next"]').addEventListener("click", () => { state.page = Math.min(totalPages, state.page + 1); onChange(); });
+  container.querySelector('[data-act="last"]').addEventListener("click", () => { state.page = totalPages; onChange(); });
+  container.querySelector(".page-goto input").addEventListener("change", (e) => {
+    const v = parseInt(e.target.value, 10) || 1;
+    state.page = Math.min(totalPages, Math.max(1, v));
+    onChange();
+  });
+  const sizeSelect = container.querySelector(".page-size-select");
+  sizeSelect.value = String(state.pageSize);
+  sizeSelect.addEventListener("change", (e) => {
+    state.pageSize = parseInt(e.target.value, 10);
+    state.page = 1;
+    onChange();
+  });
+}
 
 function locationText(r) {
   return [r.address_line1, r.city, r.state, r.zip_code].filter(Boolean).join(", ") || "—";
@@ -92,7 +216,6 @@ const COLUMNS = [
   {
     key: "description", label: "Description", type: "text", sortable: false,
     getValue: (r) => r.comment || "—",
-    cellStyle: "max-width:280px",
   },
   {
     key: "article", label: "Article", type: null, sortable: false,
@@ -504,6 +627,7 @@ function openSelectFilter(col, anchorEl) {
   box.querySelector('[data-act="none"]').addEventListener("click", () => { values.forEach((v) => excluded.add(v)); renderList(box.querySelector(".pf-search").value); });
   box.querySelector('[data-act="apply"]').addEventListener("click", () => {
     filters[col.key] = { exclude: excluded };
+    sourcePage.page = 1;
     closePopover();
     renderTableHead();
     applyFiltersAndRender();
@@ -524,7 +648,7 @@ function openTextFilter(col, anchorEl) {
       <button class="tool-btn small" data-act="apply">Apply</button>
     </div>`;
   const input = box.querySelector(".pf-text");
-  const commit = (val) => { filters[col.key] = { text: val }; closePopover(); renderTableHead(); applyFiltersAndRender(); };
+  const commit = (val) => { filters[col.key] = { text: val }; sourcePage.page = 1; closePopover(); renderTableHead(); applyFiltersAndRender(); };
   box.querySelector('[data-act="apply"]').addEventListener("click", () => commit(input.value));
   box.querySelector('[data-act="clear"]').addEventListener("click", () => commit(""));
   input.addEventListener("keydown", (e) => { if (e.key === "Enter") commit(input.value); });
@@ -542,7 +666,7 @@ function openDateFilter(col, anchorEl) {
       <button class="mini-link" data-act="clear">Clear</button>
       <button class="tool-btn small" data-act="apply">Apply</button>
     </div>`;
-  const commit = (from, to) => { filters[col.key] = { from, to }; closePopover(); renderTableHead(); applyFiltersAndRender(); };
+  const commit = (from, to) => { filters[col.key] = { from, to }; sourcePage.page = 1; closePopover(); renderTableHead(); applyFiltersAndRender(); };
   box.querySelector('[data-act="apply"]').addEventListener("click", () => {
     commit(box.querySelector(".pf-from").value, box.querySelector(".pf-to").value);
   });
@@ -577,7 +701,24 @@ function openColumnsMenu() {
 
 // ---- rendering ------------------------------------------------------------
 
+function renderSourceColGroup(visibleCols) {
+  const cg = document.getElementById("sourceColGroup");
+  let html = `<col style="width:34px">`;
+  visibleCols.forEach((col) => {
+    html += `<col data-colkey="${col.key}" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key)}px">`;
+  });
+  html += `<col data-colkey="__assign" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__assign")}px">`;
+  html += `<col data-colkey="__action" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__action")}px">`;
+  cg.innerHTML = html;
+}
+
 function renderTableHead() {
+  const visibleCols = COLUMNS.filter((c) => !hiddenColumns.has(c.key));
+  renderSourceColGroup(visibleCols);
+
+  const pill = document.getElementById("colCountPill");
+  if (pill) pill.textContent = `${visibleCols.length}/${COLUMNS.length}`;
+
   const thead = document.getElementById("sourceTableHead");
   const tr = document.createElement("tr");
 
@@ -597,10 +738,10 @@ function renderTableHead() {
   selectTh.appendChild(selectAllCb);
   tr.appendChild(selectTh);
 
-  COLUMNS.forEach((col) => {
-    if (hiddenColumns.has(col.key)) return;
+  visibleCols.forEach((col) => {
     const th = document.createElement("th");
     th.innerHTML = `<span class="th-inner">
+        ${typeIcon(col.key, col.type)}
         <span class="th-label">${col.label}</span>
         ${col.sortable ? `<button class="sort-btn" data-key="${col.key}" title="Sort">${sortState.key === col.key ? (sortState.dir === 1 ? "▲" : "▼") : "⇅"}</button>` : ""}
         ${col.type ? `<button class="filter-icon ${isColFiltered(col) ? "active" : ""}" data-key="${col.key}" title="Filter">▾</button>` : ""}
@@ -608,6 +749,7 @@ function renderTableHead() {
     if (col.sortable) {
       th.querySelector(".sort-btn").addEventListener("click", () => {
         sortState = sortState.key === col.key ? { key: col.key, dir: -sortState.dir } : { key: col.key, dir: 1 };
+        sourcePage.page = 1;
         renderTableHead();
         applyFiltersAndRender();
       });
@@ -615,10 +757,20 @@ function renderTableHead() {
     if (col.type) {
       th.querySelector(".filter-icon").addEventListener("click", (e) => openColumnFilter(col, e.currentTarget));
     }
+    attachColResize(th, col.key, "sourceColGroup", sourceColWidths, "colWidths_source_v1");
     tr.appendChild(th);
   });
-  tr.appendChild(document.createElement("th")).textContent = "Assign";   // fixed action column
-  tr.appendChild(document.createElement("th")).textContent = "Action"; // fixed action column
+
+  const assignTh = document.createElement("th");
+  assignTh.textContent = "Assign";
+  attachColResize(assignTh, "__assign", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+  tr.appendChild(assignTh);
+
+  const actionTh = document.createElement("th");
+  actionTh.textContent = "Action";
+  attachColResize(actionTh, "__action", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+  tr.appendChild(actionTh);
+
   thead.innerHTML = "";
   thead.appendChild(tr);
 }
@@ -732,20 +884,31 @@ function buildStatusCell(r, existingMark) {
   return td;
 }
 
+// Columns whose values are always short/single-line — clipped with ellipsis
+// so a resized-narrow column behaves like the reference grid. Company and
+// Description can run long and stay as normal wrapping text instead.
+const CLIP_COLUMN_KEYS = new Set(["event", "status", "date", "location", "published", "markdone", "assignedto"]);
+
 function applyFiltersAndRender() {
-  const rows = getFilteredSortedRows();
+  const allRows = getFilteredSortedRows();
   const body = document.getElementById("sourceTableBody");
   const empty = document.getElementById("sourceEmpty");
   const rowCount = document.getElementById("rowCount");
   const visibleCols = COLUMNS.filter((c) => !hiddenColumns.has(c.key));
 
-  body.innerHTML = "";
   rowCount.textContent = anyFilterActive()
-    ? `Showing ${rows.length} of ${currentRows.length} events`
+    ? `${allRows.length} of ${currentRows.length} events match`
     : `${currentRows.length} events`;
-
   document.getElementById("clearFiltersBtn").classList.toggle("active", anyFilterActive());
 
+  const totalPages = Math.max(1, Math.ceil(allRows.length / sourcePage.pageSize));
+  if (sourcePage.page > totalPages) sourcePage.page = totalPages;
+  const start = (sourcePage.page - 1) * sourcePage.pageSize;
+  const rows = allRows.slice(start, start + sourcePage.pageSize);
+
+  renderPaginationBar("sourcePagination", sourcePage, allRows.length, applyFiltersAndRender);
+
+  body.innerHTML = "";
   if (!rows.length) {
     const selectAllCb = document.getElementById("selectAllCb");
     if (selectAllCb) { selectAllCb.checked = false; selectAllCb.indeterminate = false; }
@@ -765,6 +928,7 @@ function applyFiltersAndRender() {
 
     visibleCols.forEach((col) => {
       const td = document.createElement("td");
+      if (CLIP_COLUMN_KEYS.has(col.key)) td.classList.add("cell-clip");
       if (col.cellStyle) td.setAttribute("style", col.cellStyle);
       td.innerHTML = col.render ? col.render(r) : col.getValue(r);
       tr.appendChild(td);
@@ -925,12 +1089,22 @@ const ARTICLE_COLUMNS = [
   },
 ];
 
+function renderArticlesColGroup() {
+  const cg = document.getElementById("articlesColGroup");
+  if (!cg) return;
+  cg.innerHTML = ARTICLE_COLUMNS.map(
+    (col) => `<col data-colkey="${col.key}" style="width:${colWidth(articlesColWidths, ARTICLE_DEFAULT_WIDTHS, col.key)}px">`
+  ).join("");
+}
+
 function renderArticlesTableHead() {
+  renderArticlesColGroup();
   const thead = document.getElementById("articlesTableHead");
   const tr = document.createElement("tr");
   ARTICLE_COLUMNS.forEach((col) => {
     const th = document.createElement("th");
     th.innerHTML = `<span class="th-inner">
+        ${typeIcon(col.key, col.type)}
         <span class="th-label">${col.label}</span>
         <button class="sort-btn" title="Sort">${articlesSortState.key === col.key ? (articlesSortState.dir === 1 ? "▲" : "▼") : "⇅"}</button>
       </span>`;
@@ -938,30 +1112,34 @@ function renderArticlesTableHead() {
       articlesSortState = articlesSortState.key === col.key
         ? { key: col.key, dir: -articlesSortState.dir }
         : { key: col.key, dir: 1 };
+      articlesPage.page = 1;
       renderArticlesTableHead();
       renderArticlesTableBody();
     });
+    attachColResize(th, col.key, "articlesColGroup", articlesColWidths, "colWidths_articles_v1");
     tr.appendChild(th);
   });
   thead.innerHTML = "";
   thead.appendChild(tr);
 }
 
+const ARTICLE_CLIP_COLUMN_KEYS = new Set(["company", "location", "published"]);
+
 function renderArticlesTableBody() {
   const body = document.getElementById("articlesTableBody");
   const empty = document.getElementById("articlesEmpty");
   const rowCount = document.getElementById("articlesRowCount");
 
-  let rows = articleRows;
+  let allRows = articleRows;
   if (articlesSearchText) {
     const needle = articlesSearchText.toLowerCase();
-    rows = rows.filter((a) =>
+    allRows = allRows.filter((a) =>
       ARTICLE_COLUMNS.map((c) => c.getValue(a) || "").join(" ").toLowerCase().includes(needle)
     );
   }
   if (articlesSortState.key) {
     const col = ARTICLE_COLUMNS.find((c) => c.key === articlesSortState.key);
-    rows = rows.slice().sort((a, b) =>
+    allRows = allRows.slice().sort((a, b) =>
       articlesSortState.dir * (col.getValue(a) || "").toString().localeCompare(
         (col.getValue(b) || "").toString(), undefined, { numeric: true, sensitivity: "base" }
       )
@@ -969,8 +1147,15 @@ function renderArticlesTableBody() {
   }
 
   rowCount.textContent = articlesSearchText
-    ? `Showing ${rows.length} of ${articleRows.length} articles`
+    ? `${allRows.length} of ${articleRows.length} articles match`
     : `${articleRows.length} articles`;
+
+  const totalPages = Math.max(1, Math.ceil(allRows.length / articlesPage.pageSize));
+  if (articlesPage.page > totalPages) articlesPage.page = totalPages;
+  const start = (articlesPage.page - 1) * articlesPage.pageSize;
+  const rows = allRows.slice(start, start + articlesPage.pageSize);
+
+  renderPaginationBar("articlesPagination", articlesPage, allRows.length, renderArticlesTableBody);
 
   body.innerHTML = "";
   if (!rows.length) {
@@ -984,6 +1169,7 @@ function renderArticlesTableBody() {
     const tr = document.createElement("tr");
     ARTICLE_COLUMNS.forEach((col) => {
       const td = document.createElement("td");
+      if (ARTICLE_CLIP_COLUMN_KEYS.has(col.key)) td.classList.add("cell-clip");
       if (col.cellStyle) td.setAttribute("style", col.cellStyle);
       td.innerHTML = col.render ? col.render(a) : col.getValue(a);
       tr.appendChild(td);
@@ -996,6 +1182,7 @@ async function loadArticlesTable(source) {
   articleRows = await fetchJSON(`${API}/scraped_articles?source=${encodeURIComponent(source)}`);
   articlesSearchText = "";
   articlesSortState = { key: null, dir: 1 };
+  articlesPage.page = 1;
   const search = document.getElementById("articlesSearch");
   if (search) search.value = "";
   renderArticlesTableHead();
@@ -1019,6 +1206,7 @@ async function loadSourceTable(source) {
   currentSource = source;
   document.getElementById("sourceTitle").textContent = `${SOURCE_LABELS[source] || source} — extracted events`;
   resetTableState();
+  sourcePage.page = 1;
   currentRows = await fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`);
   renderTableHead();
   applyFiltersAndRender();
@@ -1169,15 +1357,18 @@ async function init() {
   });
   document.getElementById("articlesSearch").addEventListener("input", (e) => {
     articlesSearchText = e.target.value.trim();
+    articlesPage.page = 1;
     renderArticlesTableBody();
   });
 
   document.getElementById("globalSearch").addEventListener("input", (e) => {
     globalSearchText = e.target.value.trim();
+    sourcePage.page = 1;
     applyFiltersAndRender();
   });
   document.getElementById("clearFiltersBtn").addEventListener("click", () => {
     resetTableState();
+    sourcePage.page = 1;
     renderTableHead();
     applyFiltersAndRender();
   });
