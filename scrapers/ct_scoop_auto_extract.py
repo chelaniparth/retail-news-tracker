@@ -275,7 +275,10 @@ def main():
         model="openai/gpt-oss-120b",
         api_key=GROQ_API_KEY,
         temperature=0,
-        max_tokens=8192,
+        # Kept low deliberately: this account's on_demand tier caps requests at
+        # 8000 TPM total (input + max_tokens combined), and max_tokens alone
+        # was blowing past that on every batch regardless of key rotation.
+        max_tokens=2048,
     )
     prompt_template = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
