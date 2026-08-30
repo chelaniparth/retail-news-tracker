@@ -63,6 +63,12 @@ let sourceWrap = false;
 let articlesWrap = false;
 let gridFullscreen = false;
 
+// How much wider each normally-clipped column gets, on top of its current
+// (possibly user-resized) width, while wrap mode is on — makes the toggle
+// visibly do something even for columns whose content already fit on one
+// line, not just the already-wrapping Description/Company columns.
+const WRAP_WIDTH_BUMP = 90;
+
 const ICON_EXPAND = '<svg class="icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>';
 const ICON_COLLAPSE = '<svg class="icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3"/><path d="M21 8h-3a2 2 0 0 1-2-2V3"/><path d="M3 16h3a2 2 0 0 1 2 2v3"/><path d="M16 21v-3a2 2 0 0 1 2-2h3"/></svg>';
 
@@ -89,12 +95,14 @@ function toggleSourceWrap() {
   sourceWrap = !sourceWrap;
   document.getElementById("sourceTableScroll").classList.toggle("wrap-active", sourceWrap);
   document.getElementById("sourceWrapBtn").classList.toggle("active", sourceWrap);
+  renderTableHead(); // rebuilds the colgroup with/without the wrap width bump
 }
 
 function toggleArticlesWrap() {
   articlesWrap = !articlesWrap;
   document.getElementById("articlesTableScroll").classList.toggle("wrap-active", articlesWrap);
   document.getElementById("articlesWrapBtn").classList.toggle("active", articlesWrap);
+  renderArticlesTableHead(); // rebuilds the colgroup with/without the wrap width bump
 }
 
 // ---- header type icons + pagination glyphs ---------------------------------
@@ -747,7 +755,9 @@ function renderSourceColGroup(visibleCols) {
   const cg = document.getElementById("sourceColGroup");
   let html = `<col style="width:34px">`;
   visibleCols.forEach((col) => {
-    html += `<col data-colkey="${col.key}" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key)}px">`;
+    let w = colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key);
+    if (sourceWrap && CLIP_COLUMN_KEYS.has(col.key)) w += WRAP_WIDTH_BUMP;
+    html += `<col data-colkey="${col.key}" style="width:${w}px">`;
   });
   html += `<col data-colkey="__assign" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__assign")}px">`;
   html += `<col data-colkey="__action" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__action")}px">`;
@@ -1134,9 +1144,11 @@ const ARTICLE_COLUMNS = [
 function renderArticlesColGroup() {
   const cg = document.getElementById("articlesColGroup");
   if (!cg) return;
-  cg.innerHTML = ARTICLE_COLUMNS.map(
-    (col) => `<col data-colkey="${col.key}" style="width:${colWidth(articlesColWidths, ARTICLE_DEFAULT_WIDTHS, col.key)}px">`
-  ).join("");
+  cg.innerHTML = ARTICLE_COLUMNS.map((col) => {
+    let w = colWidth(articlesColWidths, ARTICLE_DEFAULT_WIDTHS, col.key);
+    if (articlesWrap && ARTICLE_CLIP_COLUMN_KEYS.has(col.key)) w += WRAP_WIDTH_BUMP;
+    return `<col data-colkey="${col.key}" style="width:${w}px">`;
+  }).join("");
 }
 
 function renderArticlesTableHead() {
