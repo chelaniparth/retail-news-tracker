@@ -939,7 +939,7 @@ function buildStatusCell(r, existingMark) {
 // Columns whose values are always short/single-line — clipped with ellipsis
 // so a resized-narrow column behaves like the reference grid. Company and
 // Description can run long and stay as normal wrapping text instead.
-const CLIP_COLUMN_KEYS = new Set(["event", "status", "date", "location", "published", "markdone", "assignedto"]);
+const CLIP_COLUMN_KEYS = new Set(["company", "event", "status", "date", "location", "description", "published", "markdone", "assignedto"]);
 
 function applyFiltersAndRender() {
   const allRows = getFilteredSortedRows();
@@ -1128,7 +1128,7 @@ let articlesSortState = { key: null, dir: 1 };
 const ARTICLE_COLUMNS = [
   { key: "title", label: "Title", getValue: (a) => a.title || "—" },
   { key: "company", label: "Company", getValue: (a) => a.company_name || "—" },
-  { key: "summary", label: "Summary", getValue: (a) => a.summary || "—", cellStyle: "max-width:320px" },
+  { key: "summary", label: "Summary", getValue: (a) => a.summary || "—" },
   {
     key: "location", label: "Location",
     getValue: (a) => [a.city, a.state].filter(Boolean).join(", ") || "—",
@@ -1177,7 +1177,7 @@ function renderArticlesTableHead() {
   thead.appendChild(tr);
 }
 
-const ARTICLE_CLIP_COLUMN_KEYS = new Set(["company", "location", "published"]);
+const ARTICLE_CLIP_COLUMN_KEYS = new Set(["title", "company", "summary", "location", "published"]);
 
 function renderArticlesTableBody() {
   const body = document.getElementById("articlesTableBody");

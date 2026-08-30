@@ -404,6 +404,14 @@ table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: f
 th { text-align: left; color: var(--muted); font-weight: 600; padding: 8px; border-bottom: 1px solid var(--panel-border); white-space: nowrap; position: sticky; top: 0; background: #fbfbfc; z-index: 2; }
 td { padding: 10px 8px; border-bottom: 1px solid #f1f3f6; vertical-align: top; color: var(--text); overflow: hidden; }
 tbody tr:last-child td { border-bottom: none; }
+/* Applied to the row (not td), so the explicit td-level backgrounds below
+   (hover / selected / marked-done) still win on the cells they touch --
+   an unstyled td just lets its row's background paint through. */
+#sourceTableBody tr:nth-child(even),
+#articlesTableBody tr:nth-child(even) {
+  background: var(--bg);
+}
+
 tr:hover td { background: #fafbfc; }
 .table-scroll table { border-radius: var(--radius-md); }
 
