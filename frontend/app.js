@@ -53,8 +53,12 @@ let sortState = { key: null, dir: 1 };
 let hiddenColumns = new Set(); // colKeys hidden via the Columns menu
 let selectedIds = new Set();   // event_id values checked for bulk actions
 let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
-let sourcePage = { page: 1, pageSize: 50 };
-let articlesPage = { page: 1, pageSize: 50 };
+// Default to 500 — big enough that this analyst team's actual data volumes
+// (dozens to a few hundred rows per source) render as a single page in
+// practice, while the pagination bar stays in place as a safety net if any
+// source's history grows past that.
+let sourcePage = { page: 1, pageSize: 500 };
+let articlesPage = { page: 1, pageSize: 500 };
 
 // ---- header type icons + pagination glyphs ---------------------------------
 const TYPE_ICONS = {
@@ -158,6 +162,7 @@ function renderPaginationBar(containerId, state, totalRows, onChange) {
       <option value="50">Show 50</option>
       <option value="100">Show 100</option>
       <option value="250">Show 250</option>
+      <option value="500">Show 500</option>
     </select>`;
 
   container.querySelector('[data-act="first"]').addEventListener("click", () => { state.page = 1; onChange(); });

@@ -371,6 +371,16 @@ main { padding: 20px 28px 60px; }
 
 /* ---- table ---- */
 .table-scroll { overflow-x: auto; border: 1px solid var(--panel-border); border-radius: var(--radius-md); }
+
+/* Bounded height on the two data grids (Extraction / Articles) only — not
+   the dashboard's small Analyst Activity table — so both scrollbars (and
+   the sticky header row) stay reachable near the top of the viewport
+   instead of requiring a scroll to the bottom of a long table to find them. */
+#view-source .table-scroll {
+  overflow-y: auto;
+  max-height: calc(100vh - 320px);
+  min-height: 160px;
+}
 table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
 th { text-align: left; color: var(--muted); font-weight: 600; padding: 8px; border-bottom: 1px solid var(--panel-border); white-space: nowrap; position: sticky; top: 0; background: #fbfbfc; z-index: 2; }
 td { padding: 10px 8px; border-bottom: 1px solid #f1f3f6; vertical-align: top; color: var(--text); overflow: hidden; }
