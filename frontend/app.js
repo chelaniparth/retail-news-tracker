@@ -59,6 +59,43 @@ let selectionAnchorId = null;  // event_id of the last row clicked, for shift-cl
 // source's history grows past that.
 let sourcePage = { page: 1, pageSize: 500 };
 let articlesPage = { page: 1, pageSize: 500 };
+let sourceWrap = false;
+let articlesWrap = false;
+let gridFullscreen = false;
+
+const ICON_EXPAND = '<svg class="icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>';
+const ICON_COLLAPSE = '<svg class="icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3"/><path d="M21 8h-3a2 2 0 0 1-2-2V3"/><path d="M3 16h3a2 2 0 0 1 2 2v3"/><path d="M16 21v-3a2 2 0 0 1 2-2h3"/></svg>';
+
+function renderFullscreenButtons() {
+  const label = gridFullscreen
+    ? `${ICON_COLLAPSE} Exit fullscreen`
+    : `${ICON_EXPAND} Fullscreen`;
+  ["sourceFullscreenBtn", "articlesFullscreenBtn"].forEach((id) => {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.innerHTML = label;
+    btn.classList.toggle("active", gridFullscreen);
+  });
+}
+
+function toggleFullscreen() {
+  gridFullscreen = !gridFullscreen;
+  document.getElementById("sourcePanel").classList.toggle("grid-fullscreen", gridFullscreen);
+  document.body.classList.toggle("grid-fullscreen-active", gridFullscreen);
+  renderFullscreenButtons();
+}
+
+function toggleSourceWrap() {
+  sourceWrap = !sourceWrap;
+  document.getElementById("sourceTableScroll").classList.toggle("wrap-active", sourceWrap);
+  document.getElementById("sourceWrapBtn").classList.toggle("active", sourceWrap);
+}
+
+function toggleArticlesWrap() {
+  articlesWrap = !articlesWrap;
+  document.getElementById("articlesTableScroll").classList.toggle("wrap-active", articlesWrap);
+  document.getElementById("articlesWrapBtn").classList.toggle("active", articlesWrap);
+}
 
 // ---- header type icons + pagination glyphs ---------------------------------
 const TYPE_ICONS = {
@@ -1378,6 +1415,14 @@ async function init() {
     applyFiltersAndRender();
   });
   document.getElementById("exportCsvBtn").addEventListener("click", exportCSV);
+  document.getElementById("sourceWrapBtn").addEventListener("click", toggleSourceWrap);
+  document.getElementById("articlesWrapBtn").addEventListener("click", toggleArticlesWrap);
+  document.getElementById("sourceFullscreenBtn").addEventListener("click", toggleFullscreen);
+  document.getElementById("articlesFullscreenBtn").addEventListener("click", toggleFullscreen);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && gridFullscreen) toggleFullscreen();
+  });
+  renderFullscreenButtons();
   document.getElementById("columnsBtn").addEventListener("click", (e) => {
     e.stopPropagation();
     document.getElementById("addMenu").style.display = "none";
