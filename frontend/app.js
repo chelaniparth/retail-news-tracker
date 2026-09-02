@@ -2,14 +2,25 @@
 // port) and in production on Render (single web service, no CORS needed).
 const API = "/api";
 
-const TYPE_COLORS = { Opening: "#2563eb", Closing: "#0f1115", Remodel: "#9ca3af" };
+const TYPE_COLORS = { Opening: "#2563eb", Closing: "#0f1115", Remodel: "#9ca3af", Bankruptcy: "#b91c1c" };
 const COMPLETION_STATUSES = [
   "Add", "Edit", "Already Updated", "Not Relevant", "Not Accessible", "Send to the Calling Team",
 ];
 const SOURCE_LABELS = {
   banner: "Store News", ct_scoop: "CT Scoop", restaurant: "Restaurant News",
-  daily_news: "Daily News", daily_news_bankruptcy: "Daily News (Bankruptcy)",
+  daily_news: "Daily News", daily_news_bankruptcy: "Distress Signals",
   businessdebut: "BusinessDebut",
+};
+
+// Distress Signals is one nav tab covering two different pipelines that
+// happen to share a UI: bankruptcy filings (store_events, workflow-enabled)
+// and WARN Act layoff notices (scraped_articles, read-only reference data —
+// the DB's own source CHECK constraint only allows 'warn' in scraped_articles,
+// not store_events, which is why this isn't just "the Articles view of the
+// same source" like every other tab).
+const ARTICLES_SOURCE_OVERRIDE = { daily_news_bankruptcy: "warn" };
+const SUBTAB_LABEL_OVERRIDE = {
+  daily_news_bankruptcy: { extraction: "Bankruptcy Filings", articles: "WARN Layoffs" },
 };
 
 let analystsCache = [];
@@ -135,7 +146,8 @@ const SOURCE_DEFAULT_WIDTHS = {
   __assign: 170, __action: 190,
 };
 const ARTICLE_DEFAULT_WIDTHS = {
-  title: 260, company: 170, summary: 320, location: 140, published: 110, link: 90,
+  title: 260, company: 170, summary: 320, location: 140, published: 110,
+  employees: 140, layoffdate: 120, closuretype: 140, link: 90,
 };
 
 let sourceColWidths = loadColWidths("colWidths_source_v1");
@@ -1126,7 +1138,12 @@ let articlesSearchText = "";
 let articlesSortState = { key: null, dir: 1 };
 
 const ARTICLE_COLUMNS = [
-  { key: "title", label: "Title", getValue: (a) => a.title || "—" },
+  {
+    key: "title", label: "Title",
+    // WARN notices don't have an article title — fall back to something
+    // readable built from their extra_data instead of a bare "—".
+    getValue: (a) => a.title || (a.extra_data && a.extra_data.closure_type ? `WARN Notice — ${a.extra_data.closure_type}` : "—"),
+  },
   { key: "company", label: "Company", getValue: (a) => a.company_name || "—" },
   { key: "summary", label: "Summary", getValue: (a) => a.summary || "—" },
   {
@@ -1134,6 +1151,18 @@ const ARTICLE_COLUMNS = [
     getValue: (a) => [a.city, a.state].filter(Boolean).join(", ") || "—",
   },
   { key: "published", label: "Published", getValue: (a) => a.published_date || "—" },
+  {
+    key: "employees", label: "Employees Affected",
+    getValue: (a) => (a.extra_data && a.extra_data.employees_affected) || "—",
+  },
+  {
+    key: "layoffdate", label: "Layoff Date",
+    getValue: (a) => (a.extra_data && a.extra_data.layoff_date) || "—",
+  },
+  {
+    key: "closuretype", label: "Closure Type",
+    getValue: (a) => (a.extra_data && a.extra_data.closure_type) || "—",
+  },
   {
     key: "link", label: "Link",
     getValue: (a) => a.link || "",
@@ -1177,7 +1206,7 @@ function renderArticlesTableHead() {
   thead.appendChild(tr);
 }
 
-const ARTICLE_CLIP_COLUMN_KEYS = new Set(["title", "company", "summary", "location", "published"]);
+const ARTICLE_CLIP_COLUMN_KEYS = new Set(["title", "company", "summary", "location", "published", "employees", "layoffdate", "closuretype"]);
 
 function renderArticlesTableBody() {
   const body = document.getElementById("articlesTableBody");
@@ -1252,13 +1281,17 @@ function showSubTab(subtab) {
   document.getElementById("pane-articles").style.display = subtab === "articles" ? "block" : "none";
 
   if (subtab === "articles") {
-    loadArticlesTable(currentSource).catch((e) => setStatus(`error: ${e.message}`, false));
+    const articlesSource = ARTICLES_SOURCE_OVERRIDE[currentSource] || currentSource;
+    loadArticlesTable(articlesSource).catch((e) => setStatus(`error: ${e.message}`, false));
   }
 }
 
 async function loadSourceTable(source) {
   currentSource = source;
   document.getElementById("sourceTitle").textContent = `${SOURCE_LABELS[source] || source} — extracted events`;
+  const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
+  document.querySelector('.subtab-btn[data-subtab="extraction"]').textContent = labels.extraction;
+  document.querySelector('.subtab-btn[data-subtab="articles"]').textContent = labels.articles;
   resetTableState();
   sourcePage.page = 1;
   currentRows = await fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`);

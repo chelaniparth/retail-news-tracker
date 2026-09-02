@@ -310,6 +310,126 @@ def seed(cur):
     )
 
 
+def seed_distress_demo(cur):
+    """Demo data for the Distress Signals tab (bankruptcy filings + WARN Act
+    layoffs). Separate from seed() because that one only ever runs against a
+    brand-new, empty database -- this needs its own idempotency check so it
+    can be added after the app already has real data in it. All companies
+    here are fictional (bankruptcy/layoffs are specific, sensitive factual
+    claims -- didn't want to attribute them to real, currently-operating
+    brands the way the lower-stakes opening/closing demo rows above do)."""
+    cur.execute("SELECT event_type_id FROM event_types WHERE name = %s", ("Bankruptcy",))
+    if cur.fetchone():
+        return  # already seeded
+
+    cur.execute("INSERT INTO event_types (name) VALUES (%s) RETURNING event_type_id", ("Bankruptcy",))
+    bk_type = cur.fetchone()["event_type_id"]
+
+    status_labels = [
+        "Chapter 11 filed", "Chapter 7 filed", "Restructuring",
+        "Asset sale sought", "Liquidating", "Emerged from bankruptcy",
+    ]
+    status_ids = {}
+    for label in status_labels:
+        cur.execute(
+            "INSERT INTO observation_statuses (event_type_id, label) VALUES (%s,%s) RETURNING status_id",
+            (bk_type, label),
+        )
+        status_ids[label] = cur.fetchone()["status_id"]
+
+    def reason_id(label):
+        cur.execute("SELECT reason_id FROM event_reasons WHERE label = %s", (label,))
+        row = cur.fetchone()
+        return row["reason_id"] if row else None
+
+    demo_companies = [
+        "Northfield Hardware Co", "Cascade Family Diner", "Union Square Books",
+        "Harborview Appliance Outlet", "Prairie Gold Grocers", "Redwood Furniture Gallery",
+        "Sunbelt Auto Parts", "Lakeside Pharmacy Group",
+    ]
+    cur.executemany(
+        "INSERT INTO companies (company_name) VALUES (%s) ON CONFLICT (company_name) DO NOTHING",
+        [(c,) for c in demo_companies],
+    )
+
+    bankruptcy_events = [
+        dict(company="Northfield Hardware Co", status="Chapter 11 filed", city="Northfield", state="MN",
+             date_raw="August 4, 2026", reason="DIP/Leasing Rejection",
+             comment="Northfield Hardware Co filed for Chapter 11 bankruptcy protection, citing declining foot traffic and rising supplier costs. The company plans to continue operating its 14 stores during restructuring."),
+        dict(company="Cascade Family Diner", status="Chapter 7 filed", city="Salem", state="OR",
+             date_raw="August 10, 2026", reason="Restaurant Closing",
+             comment="Cascade Family Diner's parent company filed for Chapter 7 liquidation after failing to secure new financing, ending a 30-year run across its 6 Oregon locations."),
+        dict(company="Union Square Books", status="Restructuring", city="Providence", state="RI",
+             date_raw="July 29, 2026", reason="Business Closing",
+             comment="Union Square Books entered Chapter 11 restructuring, planning to close 4 of its 11 stores while renegotiating leases on the rest."),
+        dict(company="Harborview Appliance Outlet", status="Asset sale sought", city="Norfolk", state="VA",
+             date_raw="August 15, 2026", reason="DIP/Leasing Rejection",
+             comment="Harborview Appliance Outlet is seeking court approval to sell its remaining inventory and 3 store leases as part of its Chapter 11 case."),
+        dict(company="Prairie Gold Grocers", status="Liquidating", city="Wichita", state="KS",
+             date_raw="August 2, 2026", reason="Mass Closing",
+             comment="Prairie Gold Grocers began store-closing liquidation sales at all 22 locations after a failed sale process during its bankruptcy."),
+        dict(company="Redwood Furniture Gallery", status="Chapter 11 filed", city="Sacramento", state="CA",
+             date_raw="August 20, 2026", reason="Business Closing",
+             comment="Redwood Furniture Gallery filed for Chapter 11, blaming a post-pandemic slowdown in big-ticket furniture sales and elevated shipping costs."),
+        dict(company="Sunbelt Auto Parts", status="Emerged from bankruptcy", city="Tucson", state="AZ",
+             date_raw="July 18, 2026", reason=None,
+             comment="Sunbelt Auto Parts completed its Chapter 11 reorganization, emerging with reduced debt and a smaller 18-store footprint, down from 27."),
+        dict(company="Lakeside Pharmacy Group", status="Chapter 11 filed", city="Cleveland", state="OH",
+             date_raw="August 22, 2026", reason="Mass Closing",
+             comment="Lakeside Pharmacy Group filed for Chapter 11 protection and announced plans to close roughly a third of its 40 pharmacy locations."),
+    ]
+    for i, e in enumerate(bankruptcy_events, start=1):
+        cur.execute(
+            """INSERT INTO store_events
+               (source, article_link, published_date, company_name, event_type_id,
+                observation_status_id, event_date_raw, city, state, reason_id, comment)
+               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+            (
+                "daily_news_bankruptcy",
+                f"https://example.com/demo/bankruptcy-{i}",
+                "2026-08-25 09:00:00",
+                e["company"], bk_type, status_ids[e["status"]], e["date_raw"],
+                e["city"], e["state"], reason_id(e["reason"]) if e["reason"] else None,
+                f"[Demo data] 2026-08-25, According to source - {e['comment']}",
+            ),
+        )
+
+    warn_rows = [
+        dict(company="Cascade Family Diner", city="Salem", state="OR", notice="2026-08-10",
+             layoff="2026-09-15", employees=62, closure="Facility Closing"),
+        dict(company="Prairie Gold Grocers", city="Wichita", state="KS", notice="2026-08-02",
+             layoff="2026-09-01", employees=310, closure="Mass Layoff"),
+        dict(company="Redwood Furniture Gallery", city="Sacramento", state="CA", notice="2026-08-20",
+             layoff="2026-10-05", employees=48, closure="Facility Closing"),
+        dict(company="Lakeside Pharmacy Group", city="Cleveland", state="OH", notice="2026-08-22",
+             layoff="2026-10-01", employees=140, closure="Partial Closing"),
+        dict(company="Union Square Books", city="Providence", state="RI", notice="2026-07-29",
+             layoff="2026-09-10", employees=27, closure="Partial Closing"),
+        dict(company="Northfield Hardware Co", city="Northfield", state="MN", notice="2026-08-04",
+             layoff="2026-09-20", employees=54, closure="Facility Closing"),
+        dict(company="Harborview Appliance Outlet", city="Norfolk", state="VA", notice="2026-08-15",
+             layoff="2026-09-25", employees=33, closure="Facility Closing"),
+        dict(company="Sunbelt Auto Parts", city="Tucson", state="AZ", notice="2026-07-18",
+             layoff="2026-08-30", employees=95, closure="Mass Layoff"),
+    ]
+    for w in warn_rows:
+        cur.execute(
+            """INSERT INTO scraped_articles
+               (source, company_name, city, state, published_date, extra_data)
+               VALUES (%s,%s,%s,%s,%s,%s)""",
+            (
+                "warn", w["company"], w["city"], w["state"], w["notice"],
+                psycopg2.extras.Json({
+                    "notice_date": w["notice"],
+                    "layoff_date": w["layoff"],
+                    "employees_affected": w["employees"],
+                    "closure_type": w["closure"],
+                    "demo": True,
+                }),
+            ),
+        )
+
+
 def init_db():
     conn = db_pool.getconn()
     try:
@@ -319,6 +439,7 @@ def init_db():
         already_seeded = cur.fetchone()["c"] > 0
         if not already_seeded:
             seed(cur)
+        seed_distress_demo(cur)
         conn.commit()
     finally:
         db_pool.putconn(conn)

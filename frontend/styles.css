@@ -545,6 +545,7 @@ body.col-resizing { cursor: col-resize !important; user-select: none; }
 .badge.Opening { background: var(--accent-light); color: var(--accent); border-color: #bfdbfe; }
 .badge.Closing { background: var(--closing); color: #ffffff; }
 .badge.Remodel { background: #f3f4f6; color: var(--remodel); border-color: var(--panel-border); }
+.badge.Bankruptcy { background: #fef2f2; color: #b91c1c; border-color: #fecaca; }
 
 a.link { color: var(--accent); text-decoration: none; font-size: 12px; font-weight: 500; }
 a.link:hover { text-decoration: underline; }
