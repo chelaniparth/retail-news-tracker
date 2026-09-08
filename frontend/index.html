@@ -45,36 +45,36 @@
     </nav>
 
     <main>
-    <section id="view-dashboard">
-      <div class="cards" id="cards"></div>
-      <div class="panel">
-        <h2>Opening vs Closing vs Remodel</h2>
-        <div id="typeChart"></div>
-      </div>
-      <div class="panel">
-        <h2>Events by source</h2>
-        <div id="sourceChart"></div>
-      </div>
-      <div class="panel">
-        <h2>Analyst activity</h2>
-        <div class="table-scroll">
-          <table class="stat-table">
-            <thead>
-              <tr>
-                <th>Analyst</th>
-                <th>Entered</th>
-                <th>Completed</th>
-                <th>Assigned (open)</th>
-              </tr>
-            </thead>
-            <tbody id="analystActivityBody"></tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
     <section id="view-source" style="display:none">
       <div class="panel" id="sourcePanel">
+        <div id="dashboardWidgets" style="display:none">
+          <div class="cards" id="cards"></div>
+          <div class="panel-inset">
+            <h2>Events by type</h2>
+            <div id="typeChart"></div>
+          </div>
+          <div class="panel-inset">
+            <h2>Events by source</h2>
+            <div id="sourceChart"></div>
+          </div>
+          <div class="panel-inset">
+            <h2>Analyst activity <span class="dash-hint">(reflects the filters below)</span></h2>
+            <div class="table-scroll">
+              <table class="stat-table">
+                <thead>
+                  <tr>
+                    <th>Analyst</th>
+                    <th>Entered</th>
+                    <th>Completed</th>
+                    <th>Assigned (open)</th>
+                  </tr>
+                </thead>
+                <tbody id="analystActivityBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         <h2 id="sourceTitle">Extraction</h2>
 
         <div class="subtabs" id="subtabs">
@@ -90,7 +90,7 @@
             </div>
             <div class="toolbar-right">
               <span class="row-count" id="rowCount"></span>
-              <div class="dropdown-wrap">
+              <div class="dropdown-wrap" id="addMenuWrap">
                 <button type="button" id="addMenuBtn" class="tool-btn">+ Add articles ▾</button>
                 <div id="addMenu" class="popover add-menu" style="display:none">
                   <form id="quickAddForm" class="quick-add">

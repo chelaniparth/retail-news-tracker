@@ -231,6 +231,18 @@ main { padding: 20px 28px 60px; }
   box-shadow: var(--shadow-sm);
 }
 
+/* Lighter variant for the dashboard's chart/activity blocks, nested inside
+   #sourcePanel (which is already a .panel) -- avoids a panel-in-panel look. */
+.panel-inset {
+  background: var(--bg);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+.panel-inset h2 { font-size: 13px; margin: 0 0 14px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+.dash-hint { text-transform: none; letter-spacing: normal; font-weight: 400; color: var(--muted); font-size: 11px; }
+
 .panel h2 {
   font-size: 13px;
   margin: 0 0 16px;

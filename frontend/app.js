@@ -12,6 +12,18 @@ const SOURCE_LABELS = {
   businessdebut: "BusinessDebut",
 };
 
+// The Dashboard tab is just another "source" as far as the grid engine is
+// concerned: fetching store_events with no source param already returns
+// everything, so the Dashboard reuses the exact same resize/wrap/fullscreen/
+// pagination/per-column-filter grid as every other tab instead of a
+// separate, parallel implementation -- its filter bar *is* the grid's
+// existing Excel-style column filters (Source, Date Added, Event, Status,
+// Assigned to, Completion all already fit that pattern), and the summary
+// cards/charts/analyst-activity table below just recompute from whatever
+// rows are currently filtered.
+const DASHBOARD_SOURCE = "__dashboard__";
+SOURCE_LABELS[DASHBOARD_SOURCE] = "All Events";
+
 // Distress Signals is one nav tab covering two different pipelines that
 // happen to share a UI: bankruptcy filings (store_events, workflow-enabled)
 // and WARN Act layoff notices (scraped_articles, read-only reference data —
@@ -141,8 +153,8 @@ function saveColWidths(storageKey, widths) {
 }
 
 const SOURCE_DEFAULT_WIDTHS = {
-  company: 190, event: 100, status: 150, date: 120, location: 150,
-  description: 320, article: 90, published: 110, markdone: 190, assignedto: 160,
+  source: 130, company: 190, event: 100, status: 150, date: 120, location: 150,
+  description: 320, article: 90, published: 110, dateappended: 110, markdone: 190, assignedto: 160,
   __assign: 170, __action: 190,
 };
 const ARTICLE_DEFAULT_WIDTHS = {
@@ -251,6 +263,10 @@ function locationText(r) {
 //       null     -> not filterable / not sortable
 const COLUMNS = [
   {
+    key: "source", label: "Source", type: "select", sortable: true,
+    getValue: (r) => SOURCE_LABELS[r.source] || r.source || "—",
+  },
+  {
     key: "company", label: "Company", type: "text", sortable: true,
     getValue: (r) => r.company_name || "—",
     getSearch: (r) => `${r.company_name || ""} ${r.store_name || ""}`,
@@ -287,6 +303,15 @@ const COLUMNS = [
   {
     key: "published", label: "Published", type: "date", sortable: true,
     getValue: (r) => r.published_date || "",
+  },
+  {
+    // published_date's format varies by source (some are clean ISO
+    // timestamps, some are strings like "August 27, 2026"), which breaks a
+    // simple string date-range comparison for the messier ones. date_appended
+    // is a real Postgres DATE column -- always YYYY-MM-DD, every source --
+    // so it's the one to actually rely on for date-range filtering.
+    key: "dateappended", label: "Date Added", type: "date", sortable: true,
+    getValue: (r) => r.date_appended || "",
   },
   {
     key: "markdone", label: "Completion", type: "select", sortable: true,
@@ -372,16 +397,30 @@ function renderBarList(container, entries, colorFn) {
   });
 }
 
-async function loadDashboard() {
-  const summary = await fetchJSON(`${API}/summary`);
-
+// Recomputed client-side from whatever rows are currently filtered (not a
+// fixed server-side aggregate) -- this is what makes the dashboard's cards/
+// charts/analyst-activity table actually react to the grid's filters
+// instead of always showing lifetime totals. Called from
+// applyFiltersAndRender() whenever the dashboard/all-events view is active.
+function renderDashboardWidgets(rows) {
   const cards = document.getElementById("cards");
   cards.innerHTML = "";
+
+  const uniqueCompanies = new Set(rows.map((r) => r.company_name).filter(Boolean)).size;
+  const unassigned = rows.filter((r) => {
+    const m = marksCache[markKey(r)];
+    return !(m && m.assigned_to);
+  }).length;
+  const completed = rows.filter((r) => {
+    const m = marksCache[markKey(r)];
+    return m && m.is_done;
+  }).length;
+
   const cardDefs = [
-    ["Extracted events", summary.total_events],
-    ["Raw scraped articles", summary.total_raw_articles],
-    ["Companies tracked", summary.total_companies],
-    ["Active sources", Object.keys(summary.by_source).length],
+    ["Events (filtered)", rows.length],
+    ["Unique companies", uniqueCompanies],
+    ["Unassigned", unassigned],
+    ["Completed", completed],
   ];
   cardDefs.forEach(([label, value]) => {
     const c = document.createElement("div");
@@ -390,32 +429,36 @@ async function loadDashboard() {
     cards.appendChild(c);
   });
 
-  renderBarList(
-    document.getElementById("typeChart"),
-    Object.entries(summary.by_event_type),
-    (label) => TYPE_COLORS[label] || "#5b8cff"
-  );
+  const byType = {};
+  const bySource = {};
+  rows.forEach((r) => {
+    const t = r.event_type_name || "Unspecified";
+    byType[t] = (byType[t] || 0) + 1;
+    const s = SOURCE_LABELS[r.source] || r.source || "Unspecified";
+    bySource[s] = (bySource[s] || 0) + 1;
+  });
 
-  renderBarList(
-    document.getElementById("sourceChart"),
-    Object.entries(summary.by_source).map(([s, c]) => [SOURCE_LABELS[s] || s, c]),
-    () => "#2563eb"
-  );
+  renderBarList(document.getElementById("typeChart"), Object.entries(byType), (label) => TYPE_COLORS[label] || "#5b8cff");
+  renderBarList(document.getElementById("sourceChart"), Object.entries(bySource), () => "#2563eb");
 
-  await loadAnalystActivity();
-}
-
-async function loadAnalystActivity() {
-  const rows = await fetchJSON(`${API}/analyst_activity`);
   const body = document.getElementById("analystActivityBody");
   body.innerHTML = "";
-  rows.forEach((a) => {
+  analystsCache.forEach((a) => {
+    let entered = 0, completedCount = 0, assignedOpen = 0;
+    rows.forEach((r) => {
+      if (r.entered_by === a.analyst_id) entered++;
+      const m = marksCache[markKey(r)];
+      if (m) {
+        if (m.is_done && m.marked_by === a.analyst_id) completedCount++;
+        if (m.assigned_to === a.analyst_id && !m.is_done) assignedOpen++;
+      }
+    });
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${a.analyst_name}<br><span style="color:var(--muted);font-size:11px">${a.analyst_id} — ${a.role}</span></td>
-      <td>${a.entered_count}</td>
-      <td>${a.completed_count}</td>
-      <td>${a.assigned_open_count}</td>`;
+      <td>${entered}</td>
+      <td>${completedCount}</td>
+      <td>${assignedOpen}</td>`;
     body.appendChild(tr);
   });
 }
@@ -1008,7 +1051,7 @@ function buildStatusCell(r, existingMark) {
 // Columns whose values are always short/single-line — clipped with ellipsis
 // so a resized-narrow column behaves like the reference grid. Company and
 // Description can run long and stay as normal wrapping text instead.
-const CLIP_COLUMN_KEYS = new Set(["company", "event", "status", "date", "location", "description", "published", "markdone", "assignedto"]);
+const CLIP_COLUMN_KEYS = new Set(["source", "company", "event", "status", "date", "location", "description", "published", "dateappended", "markdone", "assignedto"]);
 
 function applyFiltersAndRender() {
   const allRows = getFilteredSortedRows();
@@ -1021,6 +1064,11 @@ function applyFiltersAndRender() {
     ? `${allRows.length} of ${currentRows.length} events match`
     : `${currentRows.length} events`;
   document.getElementById("clearFiltersBtn").classList.toggle("active", anyFilterActive());
+
+  // The dashboard's cards/charts/analyst-activity reflect every currently
+  // filtered row (not just the visible page), so they stay in sync with
+  // whatever the grid's column filters are doing.
+  if (currentSource === DASHBOARD_SOURCE) renderDashboardWidgets(allRows);
 
   const totalPages = Math.max(1, Math.ceil(allRows.length / sourcePage.pageSize));
   if (sourcePage.page > totalPages) sourcePage.page = totalPages;
@@ -1345,17 +1393,32 @@ function showSubTab(subtab) {
 
 async function loadSourceTable(source) {
   currentSource = source;
-  document.getElementById("sourceTitle").textContent = `${SOURCE_LABELS[source] || source} — extracted events`;
+  const isDashboard = source === DASHBOARD_SOURCE;
+
+  document.getElementById("sourceTitle").textContent = isDashboard
+    ? "All Events — every source, filtered below"
+    : `${SOURCE_LABELS[source] || source} — extracted events`;
+
+  // The dashboard's summary widgets only make sense above the unified
+  // "every source" grid; the Articles/Extraction toggle and "+Add articles"
+  // (which needs one specific source to post to) don't apply there.
+  document.getElementById("dashboardWidgets").style.display = isDashboard ? "block" : "none";
+  document.getElementById("subtabs").style.display = isDashboard ? "none" : "inline-flex";
+  const addMenuWrap = document.getElementById("addMenuWrap");
+  if (addMenuWrap) addMenuWrap.style.display = isDashboard ? "none" : "";
+
   const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
   document.querySelector('.subtab-btn[data-subtab="extraction"]').textContent = labels.extraction;
   document.querySelector('.subtab-btn[data-subtab="articles"]').textContent = labels.articles;
+
   resetTableState();
   sourcePage.page = 1;
   // Refresh assignment/status state alongside the rows every time a tab is
   // opened, not just once at login -- otherwise switching to a tab someone
   // else has been actively working in shows stale "Assigned to" values.
+  const fetchUrl = isDashboard ? `${API}/store_events` : `${API}/store_events?source=${encodeURIComponent(source)}`;
   const [rows] = await Promise.all([
-    fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`),
+    fetchJSON(fetchUrl),
     loadMarks().catch(() => {}),
   ]);
   currentRows = rows;
@@ -1365,20 +1428,18 @@ async function loadSourceTable(source) {
 }
 
 function showView(tab) {
-  document.getElementById("view-dashboard").style.display = tab === "dashboard" ? "block" : "none";
-  document.getElementById("view-source").style.display = tab !== "dashboard" && tab !== "crawl" ? "block" : "none";
+  document.getElementById("view-source").style.display = tab !== "crawl" ? "block" : "none";
   document.getElementById("view-crawl").style.display = tab === "crawl" ? "block" : "none";
 
   document.querySelectorAll("nav button").forEach((b) => {
     b.classList.toggle("active", b.dataset.tab === tab);
   });
 
-  if (tab === "dashboard") {
-    loadDashboard().catch((e) => setStatus(`error: ${e.message}`, false));
-  } else if (tab === "crawl") {
+  if (tab === "crawl") {
     // static form — nothing to preload
   } else {
-    loadSourceTable(tab).catch((e) => setStatus(`error: ${e.message}`, false));
+    const source = tab === "dashboard" ? DASHBOARD_SOURCE : tab;
+    loadSourceTable(source).catch((e) => setStatus(`error: ${e.message}`, false));
   }
 }
 
