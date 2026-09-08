@@ -639,27 +639,34 @@ def article_marks():
             return jsonify({"error": "article_key is required"}), 400
         company_name = data.get("company_name")
         completion_status = (data.get("completion_status") or "").strip() or None
+        actor_id = data.get("actor_analyst_id")
+
+        cur.execute("SELECT * FROM analysts WHERE analyst_id = %s", (actor_id,))
+        actor = cur.fetchone()
+        if not actor:
+            return jsonify({"error": "unknown actor_analyst_id"}), 401
+
+        # Only an admin, or whichever analyst is *currently* assigned to this
+        # article, may set or clear its completion status -- keeps status
+        # changes tied to whoever actually owns the article right now,
+        # same ownership model as article assignment itself. An unassigned
+        # article can only have its status touched by an admin, which
+        # pushes analysts through claim-then-work rather than marking
+        # status on articles nobody has taken.
+        if actor["role"] != "admin":
+            cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
+            existing_row = cur.fetchone()
+            current_assigned_to = existing_row["assigned_to"] if existing_row else None
+            if current_assigned_to != actor_id:
+                return jsonify({"error": "only the assigned analyst or an admin can update this article's status"}), 403
 
         if completion_status:
             if completion_status not in COMPLETION_STATUSES:
                 return jsonify({"error": f"invalid completion_status: {completion_status}"}), 400
             is_done = True
-            marked_by = data.get("marked_by")
+            marked_by = actor_id
             marked_at = datetime.now(timezone.utc)
         else:
-            # Clearing a status back to blank ("reset"): an admin can reset
-            # anyone's status; an analyst can only reset a status they
-            # themselves set.
-            actor_id = data.get("actor_analyst_id")
-            cur.execute("SELECT * FROM analysts WHERE analyst_id = %s", (actor_id,))
-            actor = cur.fetchone()
-            if not actor:
-                return jsonify({"error": "unknown actor_analyst_id"}), 401
-            if actor["role"] != "admin":
-                cur.execute("SELECT marked_by FROM article_marks_v3 WHERE article_key = %s", (article_key,))
-                existing = cur.fetchone()
-                if not existing or existing["marked_by"] != actor_id:
-                    return jsonify({"error": "you can only uncheck a status you set yourself"}), 403
             is_done = False
             marked_by = None
             marked_at = None

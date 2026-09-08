@@ -333,6 +333,31 @@ async function loadMarks() {
   rows.forEach((r) => { marksCache[r.article_key] = r; });
 }
 
+// There's no live push (websockets) between browser sessions -- assignment
+// and status changes from other analysts only become visible on the next
+// refresh. This keeps that window short: a periodic poll while the app is
+// open, plus an immediate refresh when the tab regains focus (the moment
+// someone's most likely to actually look at stale data), rather than only
+// finding out a row was already taken when an action gets rejected.
+let marksPollTimer = null;
+
+async function refreshMarksAndRerender() {
+  try {
+    await loadMarks();
+  } catch (e) {
+    return; // transient failure -- next poll or focus event will retry
+  }
+  if (currentSource && currentSubTab === "extraction") {
+    renderTableHead();
+    applyFiltersAndRender();
+  }
+}
+
+function startMarksPolling() {
+  if (marksPollTimer) return;
+  marksPollTimer = setInterval(refreshMarksAndRerender, 20000);
+}
+
 function renderBarList(container, entries, colorFn) {
   container.innerHTML = "";
   const max = Math.max(1, ...entries.map((e) => e[1]));
@@ -404,20 +429,25 @@ async function setCompletionStatus(articleKey, companyName, status) {
         article_key: articleKey,
         company_name: companyName,
         completion_status: status,
-        marked_by: currentUser.analyst_id,
+        actor_analyst_id: currentUser.analyst_id,
       }),
     });
     marksCache[mark.article_key] = mark;
     renderTableHead();
     applyFiltersAndRender();
   } catch (e) {
+    // Refresh in case this got rejected because the article's assignment
+    // changed since this page last loaded (server is authoritative).
+    await loadMarks().catch(() => {});
+    renderTableHead();
+    applyFiltersAndRender();
     alert(`Could not update status: ${e.message}`);
   }
 }
 
-// Clear a completion status back to blank. An admin can reset anyone's
-// status; an analyst can only reset a status they themselves set
-// (also enforced server-side).
+// Clear a completion status back to blank. Only an admin, or whichever
+// analyst is currently assigned to the article, may do this (enforced
+// server-side).
 async function resetCompletionStatus(articleKey, companyName) {
   try {
     const mark = await fetchJSON(`${API}/article_marks`, {
@@ -434,6 +464,9 @@ async function resetCompletionStatus(articleKey, companyName) {
     renderTableHead();
     applyFiltersAndRender();
   } catch (e) {
+    await loadMarks().catch(() => {});
+    renderTableHead();
+    applyFiltersAndRender();
     alert(`Could not reset status: ${e.message}`);
   }
 }
@@ -936,12 +969,16 @@ function buildStatusCell(r, existingMark) {
   });
   select.innerHTML = opts;
 
-  // Once a status is set, it can only be cleared back to blank by an admin
-  // or by the analyst who set it themselves — anyone else can still change
-  // it to a different status, just not blank it out.
-  const canReset = currentUser.role === "admin" || (existingMark && existingMark.marked_by === currentUser.analyst_id);
-  if (currentStatus && !canReset) {
-    select.querySelector('option[value=""]').disabled = true;
+  // Only an admin, or whichever analyst is currently assigned to this
+  // article, may set or clear its status (enforced server-side too — this
+  // just avoids showing an editable control that would get rejected).
+  const assignedTo = existingMark ? existingMark.assigned_to : null;
+  const canEditStatus = currentUser.role === "admin" || assignedTo === currentUser.analyst_id;
+  if (!canEditStatus) {
+    select.disabled = true;
+    select.title = assignedTo
+      ? `Only ${analystName(assignedTo)} or an admin can update this article's status`
+      : "This article must be assigned before its status can be updated";
   }
 
   select.addEventListener("change", (e) => {
@@ -955,7 +992,7 @@ function buildStatusCell(r, existingMark) {
     const meta = document.createElement("div");
     meta.className = "status-meta";
     meta.textContent = `${analystName(existingMark.marked_by)}`;
-    if (canReset) {
+    if (canEditStatus) {
       const uncheckBtn = document.createElement("button");
       uncheckBtn.className = "mini-link";
       uncheckBtn.textContent = "uncheck";
@@ -1314,7 +1351,14 @@ async function loadSourceTable(source) {
   document.querySelector('.subtab-btn[data-subtab="articles"]').textContent = labels.articles;
   resetTableState();
   sourcePage.page = 1;
-  currentRows = await fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`);
+  // Refresh assignment/status state alongside the rows every time a tab is
+  // opened, not just once at login -- otherwise switching to a tab someone
+  // else has been actively working in shows stale "Assigned to" values.
+  const [rows] = await Promise.all([
+    fetchJSON(`${API}/store_events?source=${encodeURIComponent(source)}`),
+    loadMarks().catch(() => {}),
+  ]);
+  currentRows = rows;
   renderTableHead();
   applyFiltersAndRender();
   showSubTab("extraction");
@@ -1424,6 +1468,7 @@ async function bootAfterLogin() {
     setStatus("backend not reachable — is app.py running on :5000?", false);
   }
 
+  startMarksPolling();
   showView("dashboard");
 }
 
@@ -1450,12 +1495,19 @@ async function doLogin(identifier, password) {
 function doLogout() {
   clearStoredUser();
   currentUser = null;
+  if (marksPollTimer) { clearInterval(marksPollTimer); marksPollTimer = null; }
   document.getElementById("app").style.display = "none";
   document.getElementById("loginScreen").style.display = "flex";
   document.getElementById("loginPassword").value = "";
 }
 
 async function init() {
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && currentUser) {
+      refreshMarksAndRerender();
+    }
+  });
+
   document.querySelectorAll("nav button").forEach((b) => {
     b.addEventListener("click", () => showView(b.dataset.tab));
   });
