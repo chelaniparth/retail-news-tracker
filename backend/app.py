@@ -706,15 +706,30 @@ def article_assignments():
         return jsonify({"error": "unknown actor_analyst_id"}), 401
 
     # Non-admins may only assign an article to themselves, or unassign an
-    # article that is currently assigned to them.
+    # article that is currently assigned to them. Checked against the
+    # current row read inside this same request/transaction, so two
+    # analysts racing to claim the same article can't both "win" -- the
+    # second one here always sees the first one's write and gets rejected,
+    # rather than silently overwriting it (the previous version of this
+    # check only handled the unassign case, not assigning over someone
+    # else's existing claim).
     if actor["role"] != "admin":
         if assigned_to not in (None, actor_id):
             return jsonify({"error": "analysts may only assign articles to themselves"}), 403
+
+        cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
+        current = cur.fetchone()
+        current_assigned_to = current["assigned_to"] if current else None
+
         if assigned_to is None:
-            cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
-            current = cur.fetchone()
-            if current and current["assigned_to"] not in (None, actor_id):
+            if current_assigned_to not in (None, actor_id):
                 return jsonify({"error": "analysts may only unassign their own assignments"}), 403
+        else:
+            if current_assigned_to not in (None, actor_id):
+                return jsonify({
+                    "error": "already assigned to another analyst",
+                    "assigned_to": current_assigned_to,
+                }), 409
 
     assigned_at = datetime.now(timezone.utc)
     cur.execute(

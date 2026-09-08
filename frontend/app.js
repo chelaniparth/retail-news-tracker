@@ -457,6 +457,13 @@ async function assignArticle(articleKey, companyName, assignedTo) {
     renderTableHead();
     applyFiltersAndRender();
   } catch (e) {
+    // Someone else may have claimed this since the page last loaded (the
+    // server is the source of truth and just rejected this write) --
+    // refresh from it so the UI shows who actually has it now, instead of
+    // leaving a stale dropdown that looks unclaimed.
+    await loadMarks().catch(() => {});
+    renderTableHead();
+    applyFiltersAndRender();
     alert(`Could not update assignment: ${e.message}`);
   }
 }
@@ -482,23 +489,35 @@ async function bulkAssign(assignedTo) {
   );
 
   let okCount = 0;
-  let failCount = 0;
+  let conflictCount = 0;
+  let otherFailCount = 0;
   results.forEach((res) => {
     if (res.status === "fulfilled") {
       marksCache[res.value.article_key] = res.value;
       okCount++;
+    } else if (/already assigned/i.test(res.reason && res.reason.message || "")) {
+      conflictCount++;
     } else {
-      failCount++;
+      otherFailCount++;
     }
   });
+
+  // Refresh from the server regardless of outcome -- rows someone else
+  // claimed (including the ones that just caused conflicts above) need
+  // marksCache to reflect their real current assignee, not what this
+  // client thought it was before the batch ran.
+  await loadMarks().catch(() => {});
 
   selectedIds.clear();
   renderTableHead();
   applyFiltersAndRender();
   updateBulkBar();
 
-  if (failCount) {
-    alert(`Assigned ${okCount} article(s). ${failCount} could not be assigned.`);
+  if (conflictCount || otherFailCount) {
+    const parts = [`Assigned ${okCount} article(s).`];
+    if (conflictCount) parts.push(`${conflictCount} already claimed by someone else.`);
+    if (otherFailCount) parts.push(`${otherFailCount} failed for another reason.`);
+    alert(parts.join(" "));
   }
 }
 
