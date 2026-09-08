@@ -495,6 +495,7 @@ async function bulkAssign(assignedTo) {
   selectedIds.clear();
   renderTableHead();
   applyFiltersAndRender();
+  updateBulkBar();
 
   if (failCount) {
     alert(`Assigned ${okCount} article(s). ${failCount} could not be assigned.`);
