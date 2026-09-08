@@ -48,6 +48,13 @@
     <section id="view-source" style="display:none">
       <div class="panel" id="sourcePanel">
         <div id="dashboardWidgets" style="display:none">
+          <div class="dash-filter-bar">
+            <label for="dashAnalystFilter">Filter every chart by analyst</label>
+            <select id="dashAnalystFilter">
+              <option value="">All analysts</option>
+            </select>
+          </div>
+
           <div class="cards" id="cards"></div>
           <div class="panel-inset">
             <h2>Events by type</h2>
@@ -58,7 +65,14 @@
             <div id="sourceChart"></div>
           </div>
           <div class="panel-inset">
-            <h2>Analyst activity <span class="dash-hint">(reflects the filters below)</span></h2>
+            <h2>Workload by analyst <span class="dash-hint">(who's currently assigned what)</span></h2>
+            <div class="pie-chart-wrap">
+              <div class="pie-chart" id="analystPieChart"></div>
+              <div class="pie-legend" id="analystPieLegend"></div>
+            </div>
+          </div>
+          <div class="panel-inset">
+            <h2>Analyst activity <span class="dash-hint">(reflects the filters above and below)</span></h2>
             <div class="table-scroll">
               <table class="stat-table">
                 <thead>

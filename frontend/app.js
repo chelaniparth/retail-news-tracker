@@ -397,6 +397,74 @@ function renderBarList(container, entries, colorFn) {
   });
 }
 
+const PIE_COLORS = ["#2563eb", "#b91c1c", "#059669", "#d97706", "#7c3aed", "#0891b2", "#db2777", "#65a30d", "#9333ea", "#6b7280"];
+
+// CSS conic-gradient pie -- no chart library needed for one shape. entries:
+// [label, count][], already sorted the way they should appear.
+function renderPieChart(circleId, legendId, entries) {
+  const circle = document.getElementById(circleId);
+  const legend = document.getElementById(legendId);
+  if (!circle || !legend) return;
+
+  const total = entries.reduce((sum, [, c]) => sum + c, 0);
+  legend.innerHTML = "";
+
+  if (!total) {
+    circle.style.background = "var(--panel-border)";
+    legend.innerHTML = `<div class="pie-legend-row"><span class="pie-legend-label">No matching events</span></div>`;
+    return;
+  }
+
+  let acc = 0;
+  const stops = entries.map(([label, count], i) => {
+    const color = PIE_COLORS[i % PIE_COLORS.length];
+    const start = (acc / total) * 360;
+    acc += count;
+    const end = (acc / total) * 360;
+    return `${color} ${start}deg ${end}deg`;
+  });
+  circle.style.background = `conic-gradient(${stops.join(", ")})`;
+
+  entries.forEach(([label, count], i) => {
+    const pct = Math.round((count / total) * 100);
+    const row = document.createElement("div");
+    row.className = "pie-legend-row";
+    row.innerHTML = `<span class="pie-swatch" style="background:${PIE_COLORS[i % PIE_COLORS.length]}"></span>
+      <span class="pie-legend-label">${label}</span>
+      <span class="pie-legend-count">${count} (${pct}%)</span>`;
+    legend.appendChild(row);
+  });
+}
+
+// The dashboard's own analyst selector -- distinct from the grid's "Assigned
+// to" column filter popover, but drives the exact same underlying filter
+// state, so picking a name here filters the cards/charts/table AND the grid
+// beneath them together, consistently.
+function populateDashboardAnalystFilter() {
+  const sel = document.getElementById("dashAnalystFilter");
+  if (!sel) return;
+  const current = sel.value;
+  let opts = `<option value="">All analysts</option>`;
+  analystsCache.forEach((a) => { opts += `<option value="${a.analyst_name}">${a.analyst_name}</option>`; });
+  opts += `<option value="Unassigned">Unassigned</option>`;
+  sel.innerHTML = opts;
+  sel.value = current || "";
+}
+
+function applyDashboardAnalystFilter(chosenName) {
+  const col = COLUMNS.find((c) => c.key === "assignedto");
+  if (!chosenName) {
+    delete filters.assignedto;
+  } else {
+    const allValues = new Set(currentRows.map((r) => col.getValue(r)));
+    allValues.delete(chosenName);
+    filters.assignedto = { exclude: allValues };
+  }
+  sourcePage.page = 1;
+  renderTableHead();
+  applyFiltersAndRender();
+}
+
 // Recomputed client-side from whatever rows are currently filtered (not a
 // fixed server-side aggregate) -- this is what makes the dashboard's cards/
 // charts/analyst-activity table actually react to the grid's filters
@@ -440,6 +508,15 @@ function renderDashboardWidgets(rows) {
 
   renderBarList(document.getElementById("typeChart"), Object.entries(byType), (label) => TYPE_COLORS[label] || "#5b8cff");
   renderBarList(document.getElementById("sourceChart"), Object.entries(bySource), () => "#2563eb");
+
+  const byAnalystWorkload = {};
+  rows.forEach((r) => {
+    const m = marksCache[markKey(r)];
+    const name = m && m.assigned_to ? analystName(m.assigned_to) : "Unassigned";
+    byAnalystWorkload[name] = (byAnalystWorkload[name] || 0) + 1;
+  });
+  const workloadEntries = Object.entries(byAnalystWorkload).sort((a, b) => b[1] - a[1]);
+  renderPieChart("analystPieChart", "analystPieLegend", workloadEntries);
 
   const body = document.getElementById("analystActivityBody");
   body.innerHTML = "";
@@ -1406,6 +1483,10 @@ async function loadSourceTable(source) {
   document.getElementById("subtabs").style.display = isDashboard ? "none" : "inline-flex";
   const addMenuWrap = document.getElementById("addMenuWrap");
   if (addMenuWrap) addMenuWrap.style.display = isDashboard ? "none" : "";
+  if (isDashboard) {
+    populateDashboardAnalystFilter();
+    document.getElementById("dashAnalystFilter").value = "";
+  }
 
   const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
   document.querySelector('.subtab-btn[data-subtab="extraction"]').textContent = labels.extraction;
@@ -1589,8 +1670,13 @@ async function init() {
   document.getElementById("clearFiltersBtn").addEventListener("click", () => {
     resetTableState();
     sourcePage.page = 1;
+    const dashSel = document.getElementById("dashAnalystFilter");
+    if (dashSel) dashSel.value = "";
     renderTableHead();
     applyFiltersAndRender();
+  });
+  document.getElementById("dashAnalystFilter").addEventListener("change", (e) => {
+    applyDashboardAnalystFilter(e.target.value);
   });
   document.getElementById("exportCsvBtn").addEventListener("click", exportCSV);
   document.getElementById("sourceWrapBtn").addEventListener("click", toggleSourceWrap);
