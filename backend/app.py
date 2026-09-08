@@ -22,6 +22,7 @@ Run in prod:  gunicorn app:app --bind 0.0.0.0:$PORT
 
 import asyncio
 import os
+import secrets
 from datetime import datetime, timezone
 
 import psycopg2
@@ -549,10 +550,48 @@ def list_companies():
     return jsonify([dict(r) for r in cur.fetchall()])
 
 
-@app.route("/api/analysts")
-def list_analysts():
+@app.route("/api/analysts", methods=["GET", "POST", "OPTIONS"])
+def list_or_create_analysts():
+    if request.method == "OPTIONS":
+        return ("", 204)
+
     db = get_db()
     cur = db.cursor()
+
+    if request.method == "POST":
+        data = request.get_json(force=True) or {}
+        actor_id = data.get("actor_analyst_id")
+        cur.execute("SELECT * FROM analysts WHERE analyst_id = %s", (actor_id,))
+        actor = cur.fetchone()
+        if not actor or actor["role"] != "admin":
+            return jsonify({"error": "admin access required"}), 403
+
+        analyst_name = (data.get("analyst_name") or "").strip()
+        if not analyst_name:
+            return jsonify({"error": "analyst_name is required"}), 400
+        email = (data.get("email") or "").strip() or None
+        role = (data.get("role") or "analyst").strip()
+        if role not in ("analyst", "admin"):
+            return jsonify({"error": "role must be 'analyst' or 'admin'"}), 400
+        # A caller can set their own password; otherwise generate one they'll
+        # need to be told out-of-band (there's no "view password" later --
+        # only the hash is stored, same as every other account).
+        password = data.get("password") or secrets.token_urlsafe(9)
+
+        try:
+            cur.execute(
+                """INSERT INTO analysts (analyst_name, email, role, password_hash)
+                   VALUES (%s,%s,%s,%s) RETURNING analyst_id, analyst_name, email, role, created_at""",
+                (analyst_name, email, role, generate_password_hash(password)),
+            )
+        except psycopg2.errors.UniqueViolation:
+            db.rollback()
+            return jsonify({"error": "an analyst with that email already exists"}), 409
+        new_analyst = dict(cur.fetchone())
+        db.commit()
+        new_analyst["password"] = password  # only ever returned this once, on creation
+        return jsonify(new_analyst), 201
+
     cur.execute("SELECT analyst_id, analyst_name, email, role, created_at FROM analysts ORDER BY analyst_id")
     return jsonify([dict(r) for r in cur.fetchall()])
 
