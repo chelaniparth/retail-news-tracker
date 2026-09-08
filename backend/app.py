@@ -52,10 +52,16 @@ if not all([DB_HOST, DB_USER, DB_PASSWORD]):
         "SUPABASE_DB_USER and SUPABASE_DB_PASSWORD (see ../.env.example)."
     )
 
-# A small pool rather than one connection per process: Render/gunicorn can
-# run multiple worker threads, and each request borrows+returns a connection.
+# A pool rather than one connection per process: Render/gunicorn runs
+# multiple worker threads (see render.yaml), and each request borrows+returns
+# a connection. Sized well above the old default of 5 -- a bulk assignment of
+# 40-50 rows fires that many concurrent requests, and each one was queuing
+# for a free connection instead of running in parallel, dominating bulk
+# operation latency. Supabase's pooler (port 6543, PgBouncer transaction
+# mode) comfortably multiplexes this many client connections onto far fewer
+# real Postgres backends, so this is safe to raise.
 db_pool = psycopg2.pool.ThreadedConnectionPool(
-    1, 5,
+    2, 25,
     host=DB_HOST, port=DB_PORT, dbname=DB_NAME,
     user=DB_USER, password=DB_PASSWORD,
     sslmode="require", cursor_factory=psycopg2.extras.RealDictCursor,
@@ -641,7 +647,7 @@ def article_marks():
         completion_status = (data.get("completion_status") or "").strip() or None
         actor_id = data.get("actor_analyst_id")
 
-        cur.execute("SELECT * FROM analysts WHERE analyst_id = %s", (actor_id,))
+        cur.execute("SELECT role FROM analysts WHERE analyst_id = %s", (actor_id,))
         actor = cur.fetchone()
         if not actor:
             return jsonify({"error": "unknown actor_analyst_id"}), 401
@@ -652,7 +658,11 @@ def article_marks():
         # same ownership model as article assignment itself. An unassigned
         # article can only have its status touched by an admin, which
         # pushes analysts through claim-then-work rather than marking
-        # status on articles nobody has taken.
+        # status on articles nobody has taken. (Unlike article_assignments,
+        # this check can't be folded into the upsert's WHERE guard below --
+        # a bare INSERT for a brand-new article_key would bypass it, and
+        # "nobody's touched this yet" must NOT be treated as fair game the
+        # way an unclaimed assignment is.)
         if actor["role"] != "admin":
             cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
             existing_row = cur.fetchone()
@@ -680,12 +690,13 @@ def article_marks():
                    is_done = EXCLUDED.is_done,
                    marked_by = EXCLUDED.marked_by,
                    marked_at = EXCLUDED.marked_at,
-                   completion_status = EXCLUDED.completion_status""",
+                   completion_status = EXCLUDED.completion_status
+               RETURNING *""",
             (article_key, company_name, is_done, marked_by, marked_at, completion_status),
         )
+        row = cur.fetchone()
         db.commit()
-        cur.execute("SELECT * FROM article_marks_v3 WHERE article_key = %s", (article_key,))
-        return jsonify(dict(cur.fetchone()))
+        return jsonify(dict(row))
 
     cur.execute("SELECT * FROM article_marks_v3")
     return jsonify([dict(r) for r in cur.fetchall()])
@@ -707,37 +718,27 @@ def article_assignments():
     if not article_key or not actor_id:
         return jsonify({"error": "article_key and actor_analyst_id are required"}), 400
 
-    cur.execute("SELECT * FROM analysts WHERE analyst_id = %s", (actor_id,))
+    cur.execute("SELECT role FROM analysts WHERE analyst_id = %s", (actor_id,))
     actor = cur.fetchone()
     if not actor:
         return jsonify({"error": "unknown actor_analyst_id"}), 401
+    is_admin = actor["role"] == "admin"
 
     # Non-admins may only assign an article to themselves, or unassign an
-    # article that is currently assigned to them. Checked against the
-    # current row read inside this same request/transaction, so two
-    # analysts racing to claim the same article can't both "win" -- the
-    # second one here always sees the first one's write and gets rejected,
-    # rather than silently overwriting it (the previous version of this
-    # check only handled the unassign case, not assigning over someone
-    # else's existing claim).
-    if actor["role"] != "admin":
-        if assigned_to not in (None, actor_id):
-            return jsonify({"error": "analysts may only assign articles to themselves"}), 403
+    # article that is currently assigned to them -- a request-shape check,
+    # no DB round-trip needed.
+    if not is_admin and assigned_to not in (None, actor_id):
+        return jsonify({"error": "analysts may only assign articles to themselves"}), 403
 
-        cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
-        current = cur.fetchone()
-        current_assigned_to = current["assigned_to"] if current else None
-
-        if assigned_to is None:
-            if current_assigned_to not in (None, actor_id):
-                return jsonify({"error": "analysts may only unassign their own assignments"}), 403
-        else:
-            if current_assigned_to not in (None, actor_id):
-                return jsonify({
-                    "error": "already assigned to another analyst",
-                    "assigned_to": current_assigned_to,
-                }), 409
-
+    # The ownership check and the write happen as one atomic, conditional
+    # UPSERT instead of a separate SELECT-then-INSERT: the WHERE guard only
+    # lets the update through for an admin, an unclaimed article, or one
+    # already held by this actor, so two analysts racing to claim the same
+    # article can't both "win" -- whichever request's UPDATE actually
+    # matches the guard wins, the other gets nothing back from RETURNING.
+    # (A brand-new article_key has no existing row to conflict with, so the
+    # plain INSERT always succeeds regardless of the guard -- claiming
+    # something nobody has touched yet is exactly the common case.)
     assigned_at = datetime.now(timezone.utc)
     cur.execute(
         """INSERT INTO article_marks_v3 (article_key, company_name, assigned_to, assigned_by, assigned_at)
@@ -746,12 +747,30 @@ def article_assignments():
                company_name = EXCLUDED.company_name,
                assigned_to = EXCLUDED.assigned_to,
                assigned_by = EXCLUDED.assigned_by,
-               assigned_at = EXCLUDED.assigned_at""",
-        (article_key, company_name, assigned_to, actor_id, assigned_at),
+               assigned_at = EXCLUDED.assigned_at
+           WHERE %s
+              OR article_marks_v3.assigned_to IS NULL
+              OR article_marks_v3.assigned_to = %s
+           RETURNING *""",
+        (article_key, company_name, assigned_to, actor_id, assigned_at, is_admin, actor_id),
     )
+    row = cur.fetchone()
+
+    if row is None:
+        # The WHERE guard blocked it -- only reachable when a conflicting
+        # row already existed, i.e. someone else already holds it. This is
+        # the rare/exceptional path, so it's fine to spend one more
+        # round-trip here to report who has it.
+        db.rollback()
+        cur.execute("SELECT assigned_to FROM article_marks_v3 WHERE article_key = %s", (article_key,))
+        current = cur.fetchone()
+        current_assigned_to = current["assigned_to"] if current else None
+        if assigned_to is None:
+            return jsonify({"error": "analysts may only unassign their own assignments"}), 403
+        return jsonify({"error": "already assigned to another analyst", "assigned_to": current_assigned_to}), 409
+
     db.commit()
-    cur.execute("SELECT * FROM article_marks_v3 WHERE article_key = %s", (article_key,))
-    return jsonify(dict(cur.fetchone()))
+    return jsonify(dict(row))
 
 
 @app.route("/api/analyst_activity")
