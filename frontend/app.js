@@ -465,6 +465,49 @@ function applyDashboardAnalystFilter(chosenName) {
   applyFiltersAndRender();
 }
 
+// Same underlying filters.dateappended state the grid's own "Date Added"
+// column filter popover writes to -- reads directly from date_appended, a
+// real DATE column set on every insert, so this is reliable regardless of
+// how inconsistently published_date is formatted across sources.
+function applyDashboardDateFilter() {
+  const from = document.getElementById("dashDateFrom").value;
+  const to = document.getElementById("dashDateTo").value;
+  if (!from && !to) {
+    delete filters.dateappended;
+  } else {
+    filters.dateappended = { from, to };
+  }
+  sourcePage.page = 1;
+  renderTableHead();
+  applyFiltersAndRender();
+}
+
+// Keeps the dashboard's own analyst/date controls showing whatever the
+// underlying filter state actually is, even when it was changed via the
+// grid's own column-filter popovers instead of these controls -- one
+// filter state, reflected consistently everywhere it's shown.
+function syncDashboardFilterControls() {
+  const sel = document.getElementById("dashAnalystFilter");
+  if (sel) {
+    const f = filters.assignedto;
+    if (!f || !f.exclude || !f.exclude.size) {
+      sel.value = "";
+    } else {
+      const col = COLUMNS.find((c) => c.key === "assignedto");
+      const allValues = new Set(currentRows.map((r) => col.getValue(r)));
+      const included = [...allValues].filter((v) => !f.exclude.has(v));
+      sel.value = included.length === 1 ? included[0] : "";
+    }
+  }
+  const fromInput = document.getElementById("dashDateFrom");
+  const toInput = document.getElementById("dashDateTo");
+  if (fromInput && toInput) {
+    const f = filters.dateappended || {};
+    fromInput.value = f.from || "";
+    toInput.value = f.to || "";
+  }
+}
+
 // Recomputed client-side from whatever rows are currently filtered (not a
 // fixed server-side aggregate) -- this is what makes the dashboard's cards/
 // charts/analyst-activity table actually react to the grid's filters
@@ -742,6 +785,20 @@ function anyFilterActive() {
   return globalSearchText || COLUMNS.some(isColFiltered);
 }
 
+// Different sources write published_date in different shapes -- some clean
+// ISO-ish timestamps, some plain strings like "August 29, 2026", some null.
+// A naive first-10-characters slice only works for the ISO ones. This
+// normalizes anything parseable to YYYY-MM-DD; date_appended is always
+// already in that shape so the fast path below covers it too.
+function toISODateOnly(value) {
+  const s = (value || "").toString().trim();
+  if (!s) return "";
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10);
+  const d = new Date(s);
+  if (isNaN(d.getTime())) return "";
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 function rowMatchesFilters(r) {
   for (const col of COLUMNS) {
     const f = filters[col.key];
@@ -752,7 +809,8 @@ function rowMatchesFilters(r) {
       const hay = (col.getSearch ? col.getSearch(r) : col.getValue(r)).toString().toLowerCase();
       if (!hay.includes(f.text.toLowerCase())) return false;
     } else if (col.type === "date" && (f.from || f.to)) {
-      const raw = (col.getValue(r) || "").toString().slice(0, 10); // YYYY-MM-DD
+      const raw = toISODateOnly(col.getValue(r));
+      if (!raw) return false; // unparseable/missing -- can't confirm it's in range
       if (f.from && raw < f.from) return false;
       if (f.to && raw > f.to) return false;
     }
@@ -1145,7 +1203,10 @@ function applyFiltersAndRender() {
   // The dashboard's cards/charts/analyst-activity reflect every currently
   // filtered row (not just the visible page), so they stay in sync with
   // whatever the grid's column filters are doing.
-  if (currentSource === DASHBOARD_SOURCE) renderDashboardWidgets(allRows);
+  if (currentSource === DASHBOARD_SOURCE) {
+    renderDashboardWidgets(allRows);
+    syncDashboardFilterControls();
+  }
 
   const totalPages = Math.max(1, Math.ceil(allRows.length / sourcePage.pageSize));
   if (sourcePage.page > totalPages) sourcePage.page = totalPages;
@@ -1677,6 +1738,13 @@ async function init() {
   });
   document.getElementById("dashAnalystFilter").addEventListener("change", (e) => {
     applyDashboardAnalystFilter(e.target.value);
+  });
+  document.getElementById("dashDateFrom").addEventListener("change", applyDashboardDateFilter);
+  document.getElementById("dashDateTo").addEventListener("change", applyDashboardDateFilter);
+  document.getElementById("dashDateClearBtn").addEventListener("click", () => {
+    document.getElementById("dashDateFrom").value = "";
+    document.getElementById("dashDateTo").value = "";
+    applyDashboardDateFilter();
   });
   document.getElementById("exportCsvBtn").addEventListener("click", exportCSV);
   document.getElementById("sourceWrapBtn").addEventListener("click", toggleSourceWrap);
