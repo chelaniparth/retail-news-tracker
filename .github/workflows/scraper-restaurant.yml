@@ -49,9 +49,10 @@ jobs:
       - name: Run Groq extraction
         env:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+          GROQ_API_KEYS_2: ${{ secrets.GROQ_API_KEYS_2 }}
         run: |
-          if [ -z "${GROQ_API_KEYS}" ]; then
-            echo "GROQ_API_KEYS secret not configured — skipping AI extraction step"
+          if [ -z "${GROQ_API_KEYS}" ] && [ -z "${GROQ_API_KEYS_2}" ]; then
+            echo "No GROQ_API_KEYS/GROQ_API_KEYS_2 secret configured — skipping AI extraction step"
             exit 0
           fi
           python restaurant_auto_extract.py

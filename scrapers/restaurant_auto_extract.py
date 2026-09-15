@@ -15,9 +15,13 @@ Requirements:
     pip install langchain-groq langchain-core requests beautifulsoup4 pandas
 
 Environment:
-    GROQ_API_KEYS  — comma-separated list of Groq keys, rotated per batch and
-                      on rate-limit errors (recommended when processing many
-                      articles). Falls back to a single GROQ_API_KEY if unset.
+    GROQ_API_KEYS    — comma-separated list of Groq keys, rotated per batch and
+                        on rate-limit errors (recommended when processing many
+                        articles). Falls back to a single GROQ_API_KEY if unset.
+    GROQ_API_KEYS_2  — optional additional comma-separated keys, merged into
+                        the same rotation pool as GROQ_API_KEYS (a second
+                        batch of keys added later, kept as a separate secret
+                        so the first batch's value never has to be re-entered).
 """
 
 import json
@@ -42,9 +46,12 @@ MASTER_FILE = MASTER_DIR / "restaurant_master_extraction.csv"
 BATCH_SIZE  = 5
 MAX_CHARS   = 3000   # characters to extract per article body
 
-GROQ_KEYS = [
-    k.strip() for k in os.environ.get("GROQ_API_KEYS", "").split(",") if k.strip()
-] or ([os.environ["GROQ_API_KEY"]] if os.environ.get("GROQ_API_KEY") else [])
+def _parse_keys(env_var: str) -> list:
+    return [k.strip() for k in os.environ.get(env_var, "").split(",") if k.strip()]
+
+GROQ_KEYS = _parse_keys("GROQ_API_KEYS") + _parse_keys("GROQ_API_KEYS_2")
+if not GROQ_KEYS and os.environ.get("GROQ_API_KEY"):
+    GROQ_KEYS = [os.environ["GROQ_API_KEY"]]
 
 SYSTEM_PROMPT = """\
 You are an expert, precise data extractor specialized in retail and restaurant openings and closures. I will provide multiple news articles (each usually starting with its source URL). For EVERY article, extract the following information strictly and only from the text provided — no assumptions, no external knowledge, no guessing zip codes, no inferring dates or statuses:
