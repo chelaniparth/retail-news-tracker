@@ -1,6 +1,8 @@
-name: Scraper - Daily Retail News (manual)
+name: Scraper - Daily Retail News
 
 on:
+  schedule:
+    - cron: '35 21 * * *'  # 3:05 AM IST daily (matches the original project's schedule)
   workflow_dispatch:
 
 permissions:
@@ -28,7 +30,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install feedparser pandas python-dateutil requests python-dotenv googlenewsdecoder openpyxl "supabase>=2.0.0,<3.0.0"
+          pip install feedparser pandas python-dateutil requests python-dotenv googlenewsdecoder openpyxl "supabase>=2.0.0,<3.0.0" \
+            "langchain-groq>=0.1.0,<0.4.0" "langchain-core>=0.2.0,<0.4.0" beautifulsoup4
 
       - name: Run scraper (opening keywords)
         run: python daily_news_articles.py --mode opening
@@ -38,6 +41,19 @@ jobs:
 
       - name: Merge results
         run: python merge_results.py
+
+      - name: Run extraction and load into dashboard (Groq AI)
+        env:
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+          GROQ_API_KEYS_2: ${{ secrets.GROQ_API_KEYS_2 }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          if [ -z "${GROQ_API_KEYS}" ] && [ -z "${GROQ_API_KEYS_2}" ]; then
+            echo "No GROQ_API_KEYS/GROQ_API_KEYS_2 secret configured — skipping AI extraction step"
+            exit 0
+          fi
+          python groq_extract_and_load.py daily_news docs/news_data.json
 
       - name: Sync master file to Supabase
         env:
@@ -51,6 +67,8 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add scrapers/docs/news_data*.json || true
+          git add scrapers/daily_news_extraction_latest.md || true
+          git add scrapers/daily_news_groq_state.json || true
           git add scrapers/master_file/daily_news_master.csv || true
           git diff --staged --quiet || git commit -m "Auto-update: Daily news fetch $(date -u '+%Y-%m-%d %H:%M UTC')"
           pushed=false

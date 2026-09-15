@@ -1,6 +1,8 @@
-name: Scraper - Restaurant News (manual)
+name: Scraper - Restaurant News
 
 on:
+  schedule:
+    - cron: '15 21 * * *'  # 2:45 AM IST daily (matches the original project's schedule)
   workflow_dispatch:
 
 permissions:

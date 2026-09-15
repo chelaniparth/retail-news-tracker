@@ -75,8 +75,23 @@ STATUS_RULES = {
         (["remodel", "new concept", "unveiled"], "remodeling"),
         (["renovat"], "under renovation"),
     ],
+    # Labels match the 6 observation_statuses rows seed_distress_demo() already
+    # created for the Bankruptcy event_type -- the extraction prompt steers the
+    # model toward this exact wording, but free text still needs mapping onto
+    # the DB's fixed status set the same way Opening/Closing/Remodel do.
+    "Bankruptcy": [
+        (["chapter 7"], "chapter 7 filed"),
+        (["chapter 11"], "chapter 11 filed"),
+        (["emerged from bankruptcy", "emerged from chapter", "exited bankruptcy"], "emerged from bankruptcy"),
+        (["asset sale", "selling its", "sell its", "sale of its"], "asset sale sought"),
+        (["liquidat"], "liquidating"),
+        (["restructur"], "restructuring"),
+    ],
 }
-STATUS_FALLBACK = {"Opening": "planned opening", "Closing": "planned closing", "Remodel": "under renovation"}
+STATUS_FALLBACK = {
+    "Opening": "planned opening", "Closing": "planned closing", "Remodel": "under renovation",
+    "Bankruptcy": "chapter 11 filed",
+}
 
 
 def normalize_status(event_type_name: str, status_text: str) -> str:
@@ -228,6 +243,10 @@ def main():
         status_ids = {(eid, label.lower()): sid for eid, label, sid in cur.fetchall()}
         cur.execute("SELECT article_link, company_name FROM store_events WHERE source = %s", (source,))
         existing_keys = {(link, name) for link, name in cur.fetchall()}
+        cur.execute("SELECT company_name FROM companies")
+        canonical_name = {}
+        for (name,) in cur.fetchall():
+            canonical_name.setdefault(name.lower(), name)
         cur.close()
     else:
         event_types = sb_get(SUPABASE_URL, SUPABASE_KEY, "event_types?select=*")
@@ -236,6 +255,9 @@ def main():
         status_ids = {(o["event_type_id"], o["label"].lower()): o["status_id"] for o in obs}
         existing_events = sb_get(SUPABASE_URL, SUPABASE_KEY, f"store_events?source=eq.{source}&select=article_link,company_name")
         existing_keys = {(e["article_link"], e["company_name"]) for e in existing_events}
+        canonical_name = {}
+        for c in sb_get(SUPABASE_URL, SUPABASE_KEY, "companies?select=company_name"):
+            canonical_name.setdefault(c["company_name"].lower(), c["company_name"])
 
     articles_rows, event_rows, companies_seen, skipped = [], [], set(), 0
     articles_seen_links = set()  # scraped_articles is unique per (source, link) --
@@ -257,6 +279,13 @@ def main():
         if not store_name or not article_link or store_name.lower().startswith("no qualifying business"):
             skipped += 1
             continue
+
+        # companies.company_name is unique case-insensitively; store_events/
+        # scraped_articles FK to it by exact string. Two rows differing only
+        # by case (a real occurrence in scraped data) must resolve to the
+        # exact same casing or the companies insert dedupes to one variant
+        # while these rows still reference another, breaking the FK.
+        store_name = canonical_name.setdefault(store_name.lower(), store_name)
 
         loc = parse_location(location)
         if article_link not in articles_seen_links:
@@ -322,7 +351,7 @@ def main():
         from psycopg2.extras import execute_values
         cur = conn.cursor()
         if unique_companies:
-            execute_values(cur, "INSERT INTO companies (company_name) VALUES %s ON CONFLICT (company_name) DO NOTHING",
+            execute_values(cur, "INSERT INTO companies (company_name) VALUES %s ON CONFLICT ((lower(company_name))) DO NOTHING",
                             [(c,) for c in unique_companies])
         if articles_rows:
             cols = ["source", "link", "title", "published_date", "company_name", "summary", "city", "state"]
