@@ -1084,13 +1084,19 @@ function renderTableHead() {
   selectTh.appendChild(selectAllCb);
   tr.appendChild(selectTh);
 
+  // The Dashboard's analyst lock for non-admins would otherwise be one
+  // click away from being undone via this exact column's own filter icon
+  // (pick "everyone" there instead of the disabled dropdown above it).
+  const lockAssignedToFilter = currentSource === DASHBOARD_SOURCE && currentUser.role !== "admin";
+
   visibleCols.forEach((col) => {
     const th = document.createElement("th");
+    const showFilterIcon = col.type && !(lockAssignedToFilter && col.key === "assignedto");
     th.innerHTML = `<span class="th-inner">
         ${typeIcon(col.key, col.type)}
         <span class="th-label">${col.label}</span>
         ${col.sortable ? `<button class="sort-btn" data-key="${col.key}" title="Sort">${sortState.key === col.key ? (sortState.dir === 1 ? "▲" : "▼") : "⇅"}</button>` : ""}
-        ${col.type ? `<button class="filter-icon ${isColFiltered(col) ? "active" : ""}" data-key="${col.key}" title="Filter">▾</button>` : ""}
+        ${showFilterIcon ? `<button class="filter-icon ${isColFiltered(col) ? "active" : ""}" data-key="${col.key}" title="Filter">▾</button>` : ""}
       </span>`;
     if (col.sortable) {
       th.querySelector(".sort-btn").addEventListener("click", () => {
@@ -1100,7 +1106,7 @@ function renderTableHead() {
         applyFiltersAndRender();
       });
     }
-    if (col.type) {
+    if (showFilterIcon) {
       th.querySelector(".filter-icon").addEventListener("click", (e) => openColumnFilter(col, e.currentTarget));
     }
     attachColResize(th, col.key, "sourceColGroup", sourceColWidths, "colWidths_source_v1");
@@ -1626,7 +1632,18 @@ async function loadSourceTable(source) {
   }
   if (isDashboard) {
     populateDashboardAnalystFilter();
-    document.getElementById("dashAnalystFilter").value = "";
+    const sel = document.getElementById("dashAnalystFilter");
+    const isAdmin = currentUser.role === "admin";
+    // Company-wide totals/charts across every analyst are an admin-only
+    // view -- an analyst's Dashboard is locked to their own numbers, both
+    // by disabling the picker here and by hiding the Assigned-to column's
+    // own filter icon below (the other route to the same "show everyone"
+    // state).
+    sel.value = isAdmin ? "" : currentUser.analyst_name;
+    sel.disabled = !isAdmin;
+    sel.title = isAdmin ? "" : "Analysts only see their own dashboard";
+    const lockHint = document.getElementById("dashLockHint");
+    if (lockHint) lockHint.style.display = isAdmin ? "none" : "inline";
   }
 
   const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
@@ -1644,6 +1661,12 @@ async function loadSourceTable(source) {
     loadMarks().catch(() => {}),
   ]);
   currentRows = rows;
+  if (isDashboard && currentUser.role !== "admin") {
+    const col = COLUMNS.find((c) => c.key === "assignedto");
+    const allValues = new Set(currentRows.map((r) => col.getValue(r)));
+    allValues.delete(currentUser.analyst_name);
+    filters.assignedto = { exclude: allValues };
+  }
   renderTableHead();
   applyFiltersAndRender();
   showSubTab("extraction");
@@ -1829,7 +1852,16 @@ async function init() {
     resetTableState();
     sourcePage.page = 1;
     const dashSel = document.getElementById("dashAnalystFilter");
-    if (dashSel) dashSel.value = "";
+    const isLockedDashboard = currentSource === DASHBOARD_SOURCE && currentUser.role !== "admin";
+    if (dashSel) dashSel.value = isLockedDashboard ? currentUser.analyst_name : "";
+    // Reset Filter must not be a way for a non-admin to undo their
+    // Dashboard analyst lock -- re-apply it immediately after the reset.
+    if (isLockedDashboard) {
+      const col = COLUMNS.find((c) => c.key === "assignedto");
+      const allValues = new Set(currentRows.map((r) => col.getValue(r)));
+      allValues.delete(currentUser.analyst_name);
+      filters.assignedto = { exclude: allValues };
+    }
     // Reset Filter clears filters.event along with everything else -- keep
     // the toggle's own highlight (and the add-articles default it drives)
     // in sync instead of leaving it pointing at a filter that's no longer
