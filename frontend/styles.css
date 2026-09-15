@@ -477,6 +477,14 @@ main { padding: 20px 28px 60px; }
   margin: 0;
   border-radius: 0;
   overflow-y: auto;
+  /* Explicit, not left to default -- per the CSS overflow spec, setting only
+     overflow-y forces the browser to compute overflow-x as auto too (never
+     "visible" while the other axis scrolls), which was silently giving this
+     panel its own full-width, unstyled native horizontal scrollbar any time
+     its content ran even slightly wide -- on top of, and separate from, the
+     one already on .table-scroll below. Horizontal scrolling should only
+     ever happen inside .table-scroll, which is already sized to the panel. */
+  overflow-x: hidden;
   padding: 20px 28px;
 }
 body.grid-fullscreen-active { overflow: hidden; }
@@ -596,7 +604,13 @@ body.col-resizing { cursor: col-resize !important; user-select: none; }
   padding: 10px;
   min-width: 220px;
   max-width: 300px;
-  z-index: 100;
+  /* Above the fullscreen overlay's z-index: 1000 -- this popover is a fixed-
+     position child of <body> (appended there so it isn't clipped by the
+     table's own overflow: auto), so it stacks by z-index against the
+     fullscreen panel, not by DOM order. Below that value it was rendering
+     underneath the panel in fullscreen mode -- present, just invisible and
+     unclickable. */
+  z-index: 1100;
 }
 .popover-search input,
 .pf-text {
