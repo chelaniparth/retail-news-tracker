@@ -22,8 +22,10 @@ Usage:
 constraint on store_events.source / scraped_articles.source (banner,
 businessdebut, ct_scoop, restaurant, daily_news, daily_news_bankruptcy).
 
-Environment:
+Environment (either works — REST is tried first):
     SUPABASE_URL, SUPABASE_KEY (service_role)
+    or SUPABASE_DB_HOST/PORT/USER/PASSWORD/NAME (direct Postgres connection,
+    same vars the backend itself uses)
 """
 
 import os
@@ -129,6 +131,17 @@ def sb_post(base: str, key: str, table: str, rows: list, on_conflict: str = None
         raise RuntimeError(f"POST {table} failed [{resp.status_code}]: {resp.text[:500]}")
 
 
+def db_connect():
+    import psycopg2
+    return psycopg2.connect(
+        host=os.environ["SUPABASE_DB_HOST"],
+        port=os.environ.get("SUPABASE_DB_PORT", "6543"),
+        user=os.environ["SUPABASE_DB_USER"],
+        password=os.environ["SUPABASE_DB_PASSWORD"],
+        dbname=os.environ.get("SUPABASE_DB_NAME", "postgres"),
+    )
+
+
 def split_md_row(line: str) -> list:
     cells = line.strip().strip("|").split("|")
     return [c.strip() for c in cells]
@@ -186,8 +199,10 @@ def main():
 
     SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
     SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        print("Set SUPABASE_URL and SUPABASE_KEY environment variables.")
+    use_rest = bool(SUPABASE_URL and SUPABASE_KEY)
+    use_db = bool(os.environ.get("SUPABASE_DB_HOST") and os.environ.get("SUPABASE_DB_PASSWORD"))
+    if not use_rest and not use_db:
+        print("Set SUPABASE_URL + SUPABASE_KEY, or SUPABASE_DB_HOST/PORT/USER/PASSWORD/NAME.")
         sys.exit(1)
 
     all_rows = []
@@ -204,12 +219,23 @@ def main():
         print("No rows parsed — nothing to do.")
         return
 
-    event_types = sb_get(SUPABASE_URL, SUPABASE_KEY, "event_types?select=*")
-    event_type_ids = {e["name"]: e["event_type_id"] for e in event_types}
-    obs = sb_get(SUPABASE_URL, SUPABASE_KEY, "observation_statuses?select=*")
-    status_ids = {(o["event_type_id"], o["label"].lower()): o["status_id"] for o in obs}
-    existing_events = sb_get(SUPABASE_URL, SUPABASE_KEY, f"store_events?source=eq.{source}&select=article_link,company_name")
-    existing_keys = {(e["article_link"], e["company_name"]) for e in existing_events}
+    conn = db_connect() if use_db else None
+    if use_db:
+        cur = conn.cursor()
+        cur.execute("SELECT event_type_id, name FROM event_types")
+        event_type_ids = {name: eid for eid, name in cur.fetchall()}
+        cur.execute("SELECT event_type_id, label, status_id FROM observation_statuses")
+        status_ids = {(eid, label.lower()): sid for eid, label, sid in cur.fetchall()}
+        cur.execute("SELECT article_link, company_name FROM store_events WHERE source = %s", (source,))
+        existing_keys = {(link, name) for link, name in cur.fetchall()}
+        cur.close()
+    else:
+        event_types = sb_get(SUPABASE_URL, SUPABASE_KEY, "event_types?select=*")
+        event_type_ids = {e["name"]: e["event_type_id"] for e in event_types}
+        obs = sb_get(SUPABASE_URL, SUPABASE_KEY, "observation_statuses?select=*")
+        status_ids = {(o["event_type_id"], o["label"].lower()): o["status_id"] for o in obs}
+        existing_events = sb_get(SUPABASE_URL, SUPABASE_KEY, f"store_events?source=eq.{source}&select=article_link,company_name")
+        existing_keys = {(e["article_link"], e["company_name"]) for e in existing_events}
 
     articles_rows, event_rows, companies_seen, skipped = [], [], set(), 0
     articles_seen_links = set()  # scraped_articles is unique per (source, link) --
@@ -286,22 +312,53 @@ def main():
         if event_rows:
             import json
             print(json.dumps(event_rows[0], indent=2, ensure_ascii=False))
+        if conn:
+            conn.close()
         return
 
     unique_companies = sorted(companies_seen)
-    for i in range(0, len(unique_companies), 500):
-        sb_post(SUPABASE_URL, SUPABASE_KEY, "companies",
-                [{"company_name": c} for c in unique_companies[i:i + 500]],
-                on_conflict="company_name", resolution="ignore-duplicates")
 
-    for i in range(0, len(articles_rows), 500):
-        sb_post(SUPABASE_URL, SUPABASE_KEY, "scraped_articles", articles_rows[i:i + 500],
-                on_conflict="source,link", resolution="merge-duplicates")
+    if use_db:
+        from psycopg2.extras import execute_values
+        cur = conn.cursor()
+        if unique_companies:
+            execute_values(cur, "INSERT INTO companies (company_name) VALUES %s ON CONFLICT (company_name) DO NOTHING",
+                            [(c,) for c in unique_companies])
+        if articles_rows:
+            cols = ["source", "link", "title", "published_date", "company_name", "summary", "city", "state"]
+            execute_values(
+                cur,
+                f"INSERT INTO scraped_articles ({', '.join(cols)}) VALUES %s "
+                f"ON CONFLICT (source, link) DO UPDATE SET "
+                + ", ".join(f"{c} = EXCLUDED.{c}" for c in cols if c not in ("source", "link")),
+                [tuple(r[c] for c in cols) for r in articles_rows],
+            )
+        if event_rows:
+            cols = ["source", "article_link", "published_date", "company_name", "store_name",
+                    "event_type_id", "observation_status_id", "event_date_raw", "comment",
+                    "address_line1", "city", "state", "zip_code"]
+            execute_values(
+                cur,
+                f"INSERT INTO store_events ({', '.join(cols)}) VALUES %s",
+                [tuple(r.get(c) for c in cols) for r in event_rows],
+            )
+        conn.commit()
+        cur.close()
+        conn.close()
+    else:
+        for i in range(0, len(unique_companies), 500):
+            sb_post(SUPABASE_URL, SUPABASE_KEY, "companies",
+                    [{"company_name": c} for c in unique_companies[i:i + 500]],
+                    on_conflict="company_name", resolution="ignore-duplicates")
 
-    for i in range(0, len(event_rows), 500):
-        sb_post(SUPABASE_URL, SUPABASE_KEY, "store_events", event_rows[i:i + 500])
+        for i in range(0, len(articles_rows), 500):
+            sb_post(SUPABASE_URL, SUPABASE_KEY, "scraped_articles", articles_rows[i:i + 500],
+                    on_conflict="source,link", resolution="merge-duplicates")
 
-    print(f"\n✅  Loaded {len(articles_rows)} scraped_articles + {len(event_rows)} store_events rows for source={source}")
+        for i in range(0, len(event_rows), 500):
+            sb_post(SUPABASE_URL, SUPABASE_KEY, "store_events", event_rows[i:i + 500])
+
+    print(f"\nLoaded {len(articles_rows)} scraped_articles + {len(event_rows)} store_events rows for source={source}")
 
 
 if __name__ == "__main__":
