@@ -86,7 +86,11 @@ let currentRows = [];          // raw rows from the API for the active source
 let filters = {};              // colKey -> filter state (shape depends on col.type)
 let globalSearchText = "";
 let sortState = { key: null, dir: 1 };
-let hiddenColumns = new Set(); // colKeys hidden via the Columns menu
+// Published / Date Added / Completion start hidden -- the rest of the
+// columns are what an analyst actually needs at a glance; anyone can still
+// flip any of these back on (or off) per session from the Columns menu,
+// but every fresh page load starts from this same set.
+let hiddenColumns = new Set(["published", "dateappended", "markdone"]);
 let selectedIds = new Set();   // event_id values checked for bulk actions
 let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
 // Default to 500 — big enough that this analyst team's actual data volumes

@@ -177,7 +177,7 @@ def seed(cur):
            VALUES (%s,%s,%s,%s,%s) ON CONFLICT (analyst_id) DO NOTHING""",
         [
             ("0000", "Admin", "admin@retailstat.com", "admin", generate_password_hash("admin123")),
-            ("0001", "Parth Chudasama", "parthc@retailstat.com", "analyst", generate_password_hash("analyst123")),
+            ("0001", "Parth", "parthc@retailstat.com", "analyst", generate_password_hash("analyst123")),
             ("0002", "Alex Rivera", "alex.rivera@retailstat.com", "analyst", generate_password_hash("analyst123")),
         ],
     )
