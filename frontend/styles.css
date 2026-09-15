@@ -440,7 +440,20 @@ main { padding: 20px 28px 60px; }
 .bulk-actions { display: flex; align-items: center; gap: 8px; }
 
 /* ---- table ---- */
-.table-scroll { overflow-x: auto; border: 1px solid var(--panel-border); border-radius: var(--radius-md); }
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  scrollbar-width: thin; /* Firefox */
+}
+
+/* The browser's default scrollbar renders very tall/thick on Windows Chrome
+   at these table widths -- shrink it to a slim bar, webkit-only (Firefox
+   already got scrollbar-width: thin above). */
+.table-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.table-scroll::-webkit-scrollbar-track { background: var(--bg); }
+.table-scroll::-webkit-scrollbar-thumb { background: #c7cdd6; border-radius: 999px; }
+.table-scroll::-webkit-scrollbar-thumb:hover { background: #a8b0bc; }
 
 /* Bounded height on the two data grids (Extraction / Articles) only — not
    the dashboard's small Analyst Activity table — so both scrollbars (and
