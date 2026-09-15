@@ -9,8 +9,17 @@ const COMPLETION_STATUSES = [
 const SOURCE_LABELS = {
   banner: "Store News", ct_scoop: "CT Scoop", restaurant: "Restaurant News",
   daily_news: "Daily News", daily_news_bankruptcy: "Distress Signals",
-  businessdebut: "BusinessDebut",
+  businessdebut: "BusinessDebut", google_alerts: "Google Alerts",
 };
+
+// Every source a manually-added article can be filed under, from the All
+// Sources view's own Source picker (every other tab already implies its
+// source). Google Alerts has no scraper/tab of its own -- it only exists
+// as a destination for these manual adds.
+const ADDABLE_SOURCES = [
+  "google_alerts", "banner", "ct_scoop", "restaurant",
+  "daily_news", "businessdebut", "daily_news_bankruptcy",
+];
 
 // The Dashboard tab is just another "source" as far as the grid engine is
 // concerned: fetching store_events with no source param already returns
@@ -1399,12 +1408,28 @@ function parseCsvToRows(text) {
   return rows;
 }
 
+function populateAddMenuSourcePicker() {
+  const select = document.getElementById("addMenuSource");
+  if (!select || select.options.length) return; // populate once, value persists across re-opens
+  select.innerHTML = ADDABLE_SOURCES
+    .map((s) => `<option value="${s}">${SOURCE_LABELS[s] || s}</option>`)
+    .join("");
+}
+
+// Every other tab already implies its own source; only from All Sources
+// does a new article need one picked explicitly via the menu's own select.
+function resolveAddSource() {
+  if (currentSource !== ALL_SOURCES) return currentSource;
+  const select = document.getElementById("addMenuSource");
+  return (select && select.value) || ADDABLE_SOURCES[0];
+}
+
 async function submitBulkRows(rows) {
   const result = await fetchJSON(`${API}/store_events/bulk`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      source: currentSource,
+      source: resolveAddSource(),
       actor_analyst_id: currentUser.analyst_id,
       rows,
     }),
@@ -1588,8 +1613,17 @@ async function loadSourceTable(source) {
   // all-sources view.
   document.getElementById("dashboardWidgets").style.display = isDashboard ? "block" : "none";
   document.getElementById("subtabs").style.display = isAllSources ? "none" : "inline-flex";
+  // "+Add articles" needs one specific source to post to -- every other tab
+  // already implies one, so only the Dashboard's summary view (not All
+  // Sources, which is still a real, addable table) hides it entirely. All
+  // Sources instead shows an explicit Source picker inside the menu.
   const addMenuWrap = document.getElementById("addMenuWrap");
-  if (addMenuWrap) addMenuWrap.style.display = isAllSources ? "none" : "";
+  if (addMenuWrap) addMenuWrap.style.display = isDashboard ? "none" : "";
+  const addSourceWrap = document.getElementById("addMenuSourceWrap");
+  if (addSourceWrap) {
+    addSourceWrap.style.display = source === ALL_SOURCES ? "flex" : "none";
+    if (source === ALL_SOURCES) populateAddMenuSourcePicker();
+  }
   if (isDashboard) {
     populateDashboardAnalystFilter();
     document.getElementById("dashAnalystFilter").value = "";

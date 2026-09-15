@@ -428,6 +428,30 @@ main { padding: 20px 28px 60px; }
 /* ---- add-articles dropdown / bulk-action bar ---- */
 .add-menu { min-width: 300px; max-width: 320px; }
 
+/* Only shown from the All Sources view -- every other tab already implies
+   its own source, but a new article added from here has no source of its
+   own to inherit, so it must be picked explicitly. */
+.add-source-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.add-source-wrap select {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  background: #fff;
+}
+.add-source-wrap select:focus { outline: none; border-color: var(--accent); }
+
 .quick-add { display: flex; align-items: center; gap: 8px; }
 
 #quickAddUrl {
