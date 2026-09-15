@@ -103,6 +103,12 @@ let sourceWrap = false;
 let articlesWrap = false;
 let gridFullscreen = false;
 
+// Which event type the Opening/Closing toolbar toggle is on -- Opening and
+// Closing are worked by two different teams. Persists across tab switches
+// (it's about what gets filed when adding new articles, not the current
+// view), but each fresh page load starts back on Opening.
+let addEventTypeMode = "Opening";
+
 // How much wider each normally-clipped column gets, on top of its current
 // (possibly user-resized) width, while wrap mode is on — makes the toggle
 // visibly do something even for columns whose content already fit on one
@@ -800,6 +806,25 @@ function isColFiltered(col) {
 
 function anyFilterActive() {
   return globalSearchText || COLUMNS.some(isColFiltered);
+}
+
+// Reuses the exact same filters.event exclude-set the Event column's own
+// filter icon writes to, so the column filter, its icon highlight, and
+// Reset Filter all stay in sync with whichever side of the toggle is on.
+function setEventTypeMode(type) {
+  addEventTypeMode = type;
+  document.querySelectorAll(".event-toggle-btn").forEach((b) => {
+    b.classList.toggle("active", b.dataset.eventtype === type);
+  });
+  const hint = document.getElementById("addMenuEventHint");
+  if (hint) hint.innerHTML = `New URLs are filed as <strong>${type}</strong>.`;
+
+  const values = new Set(currentRows.map((r) => r.event_type_name || "—"));
+  values.delete(type);
+  filters.event = { exclude: values };
+  sourcePage.page = 1;
+  renderTableHead();
+  applyFiltersAndRender();
 }
 
 // Different sources write published_date in different shapes -- some clean
@@ -1771,8 +1796,21 @@ async function init() {
     sourcePage.page = 1;
     const dashSel = document.getElementById("dashAnalystFilter");
     if (dashSel) dashSel.value = "";
+    // Reset Filter clears filters.event along with everything else -- keep
+    // the toggle's own highlight (and the add-articles default it drives)
+    // in sync instead of leaving it pointing at a filter that's no longer
+    // applied.
+    addEventTypeMode = "Opening";
+    document.querySelectorAll(".event-toggle-btn").forEach((b) => {
+      b.classList.toggle("active", b.dataset.eventtype === "Opening");
+    });
+    const hint = document.getElementById("addMenuEventHint");
+    if (hint) hint.innerHTML = "New URLs are filed as <strong>Opening</strong>.";
     renderTableHead();
     applyFiltersAndRender();
+  });
+  document.querySelectorAll(".event-toggle-btn").forEach((b) => {
+    b.addEventListener("click", () => setEventTypeMode(b.dataset.eventtype));
   });
   document.getElementById("dashAnalystFilter").addEventListener("change", (e) => {
     applyDashboardAnalystFilter(e.target.value);
@@ -1817,7 +1855,7 @@ async function init() {
     const url = input.value.trim();
     if (!url) return;
     try {
-      const result = await submitBulkRows([{ article_link: url }]);
+      const result = await submitBulkRows([{ article_link: url, event_type: addEventTypeMode }]);
       if (result.inserted) {
         input.value = "";
       } else if (result.skipped_duplicate) {
@@ -1839,6 +1877,9 @@ async function init() {
     try {
       const text = await file.text();
       const rows = parseCsvToRows(text);
+      // Only fill in the toggle's event type where the CSV itself didn't
+      // specify one -- an explicit "event" column in the file still wins.
+      rows.forEach((r) => { if (!r.event_type) r.event_type = addEventTypeMode; });
       if (!rows.length) {
         alert("No usable rows found — make sure the CSV has an article_link column.");
         return;

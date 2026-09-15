@@ -326,6 +326,34 @@ main { padding: 20px 28px 60px; }
   margin-bottom: 12px;
 }
 
+/* Opening/Closing are worked by different teams -- this toggle both
+   narrows the current table to one event type (reuses the exact same
+   filters.event exclude-set the Event column's own filter icon writes to,
+   so Reset Filter and the column filter stay in sync with it) and sets
+   which event type new quick-added articles get filed under. */
+.event-toggle {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+}
+.event-toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.event-toggle-btn:hover { color: var(--text); }
+.event-toggle-btn.active[data-eventtype="Opening"] { background: var(--accent); color: #fff; }
+.event-toggle-btn.active[data-eventtype="Closing"] { background: var(--closing); color: #fff; }
+
 .search-wrap { flex: 1; min-width: 200px; position: relative; }
 .search-wrap .icon-svg {
   position: absolute;

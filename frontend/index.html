@@ -112,11 +112,16 @@
               <svg class="icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input type="text" id="globalSearch" placeholder="Search all columns…" />
             </div>
+            <div class="event-toggle" id="eventTypeToggle" title="Switches the view to just that event type, and sets what new quick-added articles get filed as">
+              <button type="button" class="event-toggle-btn active" data-eventtype="Opening">Opening</button>
+              <button type="button" class="event-toggle-btn" data-eventtype="Closing">Closing</button>
+            </div>
             <div class="toolbar-right">
               <span class="row-count" id="rowCount"></span>
               <div class="dropdown-wrap" id="addMenuWrap">
                 <button type="button" id="addMenuBtn" class="tool-btn">+ Add articles ▾</button>
                 <div id="addMenu" class="popover add-menu" style="display:none">
+                  <p class="add-bar-hint" id="addMenuEventHint">New URLs are filed as <strong>Opening</strong>.</p>
                   <form id="quickAddForm" class="quick-add">
                     <input type="url" id="quickAddUrl" placeholder="Paste an article URL…" required />
                     <button type="submit" class="tool-btn small">Add URL</button>
