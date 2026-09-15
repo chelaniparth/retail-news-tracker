@@ -53,11 +53,11 @@
       <div class="panel" id="sourcePanel">
         <div id="dashboardWidgets" style="display:none">
           <div class="dash-filter-bar">
-            <label for="dashAnalystFilter">Filter every chart by analyst</label>
+            <label for="dashAnalystFilter" id="dashAnalystLabel">Filter every chart by analyst</label>
             <select id="dashAnalystFilter">
               <option value="">All analysts</option>
             </select>
-            <span class="dash-hint" id="dashLockHint" style="display:none">🔒 showing only your own activity</span>
+            <span class="dash-lock-badge" id="dashLockHint" style="display:none">🔒 showing only your own activity</span>
             <span class="dash-filter-sep"></span>
             <label for="dashDateFrom">Date added</label>
             <input type="date" id="dashDateFrom" />

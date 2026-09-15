@@ -1633,17 +1633,20 @@ async function loadSourceTable(source) {
   if (isDashboard) {
     populateDashboardAnalystFilter();
     const sel = document.getElementById("dashAnalystFilter");
+    const label = document.getElementById("dashAnalystLabel");
+    const lockHint = document.getElementById("dashLockHint");
     const isAdmin = currentUser.role === "admin";
     // Company-wide totals/charts across every analyst are an admin-only
-    // view -- an analyst's Dashboard is locked to their own numbers, both
-    // by disabling the picker here and by hiding the Assigned-to column's
-    // own filter icon below (the other route to the same "show everyone"
-    // state).
+    // view -- a non-admin's picker isn't just disabled (a disabled dropdown
+    // still looks clickable, which reads as broken), it's replaced outright
+    // by a plain "locked" badge. The Assigned-to column's own filter icon
+    // is hidden too, below -- the other route to the same "show everyone"
+    // state.
     sel.value = isAdmin ? "" : currentUser.analyst_name;
     sel.disabled = !isAdmin;
-    sel.title = isAdmin ? "" : "Analysts only see their own dashboard";
-    const lockHint = document.getElementById("dashLockHint");
-    if (lockHint) lockHint.style.display = isAdmin ? "none" : "inline";
+    sel.style.display = isAdmin ? "" : "none";
+    if (label) label.style.display = isAdmin ? "" : "none";
+    if (lockHint) lockHint.style.display = isAdmin ? "none" : "inline-flex";
   }
 
   const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
