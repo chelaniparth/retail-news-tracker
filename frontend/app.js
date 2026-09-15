@@ -1646,7 +1646,10 @@ async function loadSourceTable(source) {
     sel.disabled = !isAdmin;
     sel.style.display = isAdmin ? "" : "none";
     if (label) label.style.display = isAdmin ? "" : "none";
-    if (lockHint) lockHint.style.display = isAdmin ? "none" : "inline-flex";
+    if (lockHint) {
+      lockHint.style.display = isAdmin ? "none" : "inline-flex";
+      lockHint.textContent = currentUser.analyst_name;
+    }
   }
 
   const labels = SUBTAB_LABEL_OVERRIDE[source] || { extraction: "Extraction", articles: "Articles" };
