@@ -160,6 +160,16 @@ nav button.active {
   color: white;
 }
 
+#sourceSubnav {
+  padding: 10px 28px 0 40px;
+  background: var(--bg);
+}
+
+#sourceSubnav button {
+  font-size: 12px;
+  padding: 5px 13px;
+}
+
 main { padding: 20px 28px 60px; }
 
 /* ---- Articles / Extraction segmented toggle ---- */

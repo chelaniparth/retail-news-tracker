@@ -24,6 +24,19 @@ const SOURCE_LABELS = {
 const DASHBOARD_SOURCE = "__dashboard__";
 SOURCE_LABELS[DASHBOARD_SOURCE] = "All Events";
 
+// "All Sources" is the same "fetch every source, no source param" trick as
+// the Dashboard, but deliberately without the cards/charts above it -- the
+// ask was one big distraction-free table when you just want to scan every
+// extracted event at once, versus the Dashboard's summary view.
+const ALL_SOURCES = "__all__";
+SOURCE_LABELS[ALL_SOURCES] = "All Sources";
+
+// "Individual Source" is a top-level nav tab that reveals a second row of
+// per-source buttons (Store News, CT Scoop, ...) instead of listing them
+// directly in the main nav. currentSubSource remembers which one was picked
+// last so re-clicking "Individual Source" doesn't reset it.
+let currentSubSource = "banner";
+
 // Distress Signals is one nav tab covering two different pipelines that
 // happen to share a UI: bankruptcy filings (store_events, workflow-enabled)
 // and WARN Act layoff notices (scraped_articles, read-only reference data —
@@ -1532,18 +1545,22 @@ function showSubTab(subtab) {
 async function loadSourceTable(source) {
   currentSource = source;
   const isDashboard = source === DASHBOARD_SOURCE;
+  const isAllSources = source === DASHBOARD_SOURCE || source === ALL_SOURCES;
 
   document.getElementById("sourceTitle").textContent = isDashboard
     ? "All Events — every source, filtered below"
+    : source === ALL_SOURCES
+    ? "All Sources — every extracted event, one table"
     : `${SOURCE_LABELS[source] || source} — extracted events`;
 
   // The dashboard's summary widgets only make sense above the unified
   // "every source" grid; the Articles/Extraction toggle and "+Add articles"
-  // (which needs one specific source to post to) don't apply there.
+  // (which needs one specific source to post to) don't apply to any
+  // all-sources view.
   document.getElementById("dashboardWidgets").style.display = isDashboard ? "block" : "none";
-  document.getElementById("subtabs").style.display = isDashboard ? "none" : "inline-flex";
+  document.getElementById("subtabs").style.display = isAllSources ? "none" : "inline-flex";
   const addMenuWrap = document.getElementById("addMenuWrap");
-  if (addMenuWrap) addMenuWrap.style.display = isDashboard ? "none" : "";
+  if (addMenuWrap) addMenuWrap.style.display = isAllSources ? "none" : "";
   if (isDashboard) {
     populateDashboardAnalystFilter();
     document.getElementById("dashAnalystFilter").value = "";
@@ -1558,7 +1575,7 @@ async function loadSourceTable(source) {
   // Refresh assignment/status state alongside the rows every time a tab is
   // opened, not just once at login -- otherwise switching to a tab someone
   // else has been actively working in shows stale "Assigned to" values.
-  const fetchUrl = isDashboard ? `${API}/store_events` : `${API}/store_events?source=${encodeURIComponent(source)}`;
+  const fetchUrl = isAllSources ? `${API}/store_events` : `${API}/store_events?source=${encodeURIComponent(source)}`;
   const [rows] = await Promise.all([
     fetchJSON(fetchUrl),
     loadMarks().catch(() => {}),
@@ -1573,16 +1590,30 @@ function showView(tab) {
   document.getElementById("view-source").style.display = tab !== "crawl" ? "block" : "none";
   document.getElementById("view-crawl").style.display = tab === "crawl" ? "block" : "none";
 
-  document.querySelectorAll("nav button").forEach((b) => {
+  document.querySelectorAll("#tabs button").forEach((b) => {
     b.classList.toggle("active", b.dataset.tab === tab);
   });
+  document.getElementById("sourceSubnav").style.display = tab === "by_source" ? "flex" : "none";
 
   if (tab === "crawl") {
     // static form — nothing to preload
+  } else if (tab === "by_source") {
+    document.querySelectorAll("#sourceSubnav button").forEach((b) => {
+      b.classList.toggle("active", b.dataset.source === currentSubSource);
+    });
+    loadSourceTable(currentSubSource).catch((e) => setStatus(`error: ${e.message}`, false));
   } else {
-    const source = tab === "dashboard" ? DASHBOARD_SOURCE : tab;
+    const source = tab === "dashboard" ? DASHBOARD_SOURCE : tab === "all_sources" ? ALL_SOURCES : tab;
     loadSourceTable(source).catch((e) => setStatus(`error: ${e.message}`, false));
   }
+}
+
+function selectSubSource(source) {
+  currentSubSource = source;
+  document.querySelectorAll("#sourceSubnav button").forEach((b) => {
+    b.classList.toggle("active", b.dataset.source === source);
+  });
+  loadSourceTable(source).catch((e) => setStatus(`error: ${e.message}`, false));
 }
 
 // ---- Article Extractor (Crawl4AI) -----------------------------------------
@@ -1711,8 +1742,11 @@ async function init() {
     }
   });
 
-  document.querySelectorAll("nav button").forEach((b) => {
+  document.querySelectorAll("#tabs button").forEach((b) => {
     b.addEventListener("click", () => showView(b.dataset.tab));
+  });
+  document.querySelectorAll("#sourceSubnav button").forEach((b) => {
+    b.addEventListener("click", () => selectSubSource(b.dataset.source));
   });
   document.querySelectorAll(".subtab-btn").forEach((b) => {
     b.addEventListener("click", () => showSubTab(b.dataset.subtab));
