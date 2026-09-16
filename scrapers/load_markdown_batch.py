@@ -167,23 +167,24 @@ def is_separator_row(cells: list) -> bool:
 
 
 def parse_markdown_table(text: str) -> list:
-    """Returns a list of dicts with keys matching the 8 master-prompt columns."""
-    lines = text.splitlines()
-    header_idx = None
-    for i, line in enumerate(lines):
-        if "|" in line and "Store" in line and ("Restaurant Name" in line or "Shop" in line):
-            header_idx = i
-            break
-    if header_idx is None:
-        return []
+    """Returns a list of dicts with keys matching the 8 master-prompt columns.
 
-    headers = [h.lower() for h in split_md_row(lines[header_idx])]
+    Handles a file made of several concatenated tables -- e.g.
+    groq_extract_and_load.py joins one Groq response per batch into a single
+    file, so a 79-batch daily_news run produces 79 separate header+table
+    blocks back to back, not one. Re-detecting the header every time it
+    reappears (instead of finding it once and stopping at the first blank
+    line after the first table) is what makes every batch's rows actually
+    get parsed instead of only the first one's."""
+    lines = text.splitlines()
     rows = []
-    for line in lines[header_idx + 1:]:
-        line = line.strip()
-        if not line or "|" not in line:
-            if rows:  # blank line after the table body ends the table
-                break
+    headers = None
+    for raw in lines:
+        line = raw.strip()
+        if "|" in line and "Store" in line and ("Restaurant Name" in line or "Shop" in line):
+            headers = [h.lower() for h in split_md_row(line)]
+            continue
+        if headers is None or "|" not in line:
             continue
         cells = split_md_row(line)
         if is_separator_row(cells):
