@@ -49,7 +49,7 @@ MAX_CHARS   = 3000   # characters to extract per article body
 def _parse_keys(env_var: str) -> list:
     return [k.strip() for k in os.environ.get(env_var, "").split(",") if k.strip()]
 
-GROQ_KEYS = _parse_keys("GROQ_API_KEYS") + _parse_keys("GROQ_API_KEYS_2")
+GROQ_KEYS = _parse_keys("GROQ_API_KEYS") + _parse_keys("GROQ_API_KEYS_2") + _parse_keys("GROQ_API_KEYS_3")
 if not GROQ_KEYS and os.environ.get("GROQ_API_KEY"):
     GROQ_KEYS = [os.environ["GROQ_API_KEY"]]
 
