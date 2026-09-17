@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "data": [
+    {
+      "heading": "ENFIELD SCOOP: Paris Baguette coming soon to Brookside Plaza!",
+      "date": "2026-09-16",
+      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/enfield-scoop-paris-baguette-coming-soon-to-brookside-plaza"
+    },
+    {
+      "heading": "DANBURY SCOOP: Vans Craft Kitchen closes in Danbury",
+      "date": "2026-09-16",
+      "link": "https://www.theconnecticutscoop.com/all-fairfield-county-posts/danbury-scoop-vans-craft-kitchen-closes-in-danbury"
+    },
     {
       "heading": "PLAINVILLE SCOOP: Chipotle under construction, Speeders Car Wash coming soon!",
       "date": "2026-09-15",
@@ -15,21 +25,6 @@
       "heading": "WATERFORD SCOOP: Boot Barn opens in Waterford!",
       "date": "2026-09-15",
       "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/waterford-scoop-boot-barn-opens-in-waterford"
-    },
-    {
-      "heading": "FOXWOODS SCOOP: David Burke Prime Steakhouse to reopen this fall!",
-      "date": "2026-09-14",
-      "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/foxwoods-scoop-david-burke-prime-steakhouse-to-reopen-this-fall"
-    },
-    {
-      "heading": "MIDDLETOWN SCOOP: Sweet Harmony Cafe & Bakery closing, Flour & Fern Bakery & Cafe coming soon just down the street!",
-      "date": "2026-09-14",
-      "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/middletown-scoop-sweet-harmony-cafe-bakery-closing-flour-fern-bakery-cafe-coming-soon-just-down-the-street"
-    },
-    {
-      "heading": "CLINTON & STRATFORD SCOOP: GASFCO opens new locations in Clinton & Stratford",
-      "date": "2026-09-14",
-      "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/clinton-stratford-scoop-gasfco-opens-new-locations-in-clinton-stratford"
     }
   ]
 }
