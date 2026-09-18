@@ -1,7 +1,12 @@
+**Extracted Information**
+
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Paris Baguette | Brookside Plaza | Opening | Not specified | coming soon | Paris Baguette is announced to open soon at Brookside Plaza in Enfield. No further details were provided in the article. | https://www.theconnecticutscoop.com/all-hartford-county-posts/enfield-scoop-paris-baguette-coming-soon-to-brookside-plaza | 2026-09-16 |
-| Vans Craft Kitchen | Danbury | Closing | Not specified | closes | Vans Craft Kitchen is reported to be closing in Danbury. No additional information about the closure was given. | https://www.theconnecticutscoop.com/all-fairfield-county-posts/danbury-scoop-vans-craft-kitchen-closes-in-danbury | 2026-09-16 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/southington-scoop-cava-panda-express-eye-new-locations-in-southington | 2026-09-17 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/south-windsor-new-name-for-south-windsor-retail-development-first-slate-of-tenants-released | 2026-09-17 |
 
-Non-working or unusable articles List:
-• None
+---
+
+**Non-working or unusable articles List:**
+- Article 1 — Reason: no business details provided
+- Article 2 — Reason: no business details provided
