@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -2450,6 +2450,526 @@
       "short_description": "Chef Kendall Williams opened Bluebonnet & Thyme Southern Bistro & Bar in Victory Park, occupying the former Dirty Bones space. After a soft opening on Aug. 7, the 3,386‑sq‑ft venue serves dinner, weekend brunch and happy hour with Cajun‑Texas cuisine. The restaurant features alligator‑skin seating, a patio, and a bar led by Dr. Angela Williams.",
       "article_link": "https://whatnow.com/dallas/restaurants/bluebonnet-thyme-brings-a-cajun-texas-culinary-experience-to-victory-park/",
       "published_date": "September 16, 2026"
+    },
+    {
+      "store_name": "Petros Speakeasy (new location)",
+      "location": "431 Culver Blvd, Playa Del Rey, CA 90293",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Petros announced a new location called Petros Speakeasy at 431 Culver Blvd in Playa del Rey. The company has submitted a liquor‑license application but has not set an opening date.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/petros-working-on-something-secret-at-new-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Petros Manhattan Beach (closure)",
+      "location": "451 Manhattan Beach Boulevard, Manhattan Beach, CA (zip not provided)",
+      "event_type": "Closing",
+      "event_date": "Sunday, September 13",
+      "status": "final day of service",
+      "short_description": "Petros Manhattan Beach announced its final day of service on Sunday, September 13, ending 21 years of operation. The closure was communicated via Instagram thanking the community.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/petros-working-on-something-secret-at-new-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Tumble 22 – Arboretum location",
+      "location": "9761 Great Hills Trail, Suite B, Austin, TX 78759",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "no announced opening date",
+      "short_description": "Tumble 22 listed a new Arboretum location at 9761 Great Hills Trail, Suite B on its website. The company did not provide an opening timeline when contacted.",
+      "article_link": "https://whatnow.com/austin/restaurants/tumble-22-adds-two-austin-locations-to-its-footprint/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Tumble 22 – South Lamar location",
+      "location": "2929 S. Lamar Blvd, Austin, TX 78704",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "no announced opening date",
+      "short_description": "A second Tumble 22 site at 2929 S. Lamar Blvd was also added to the website. No opening date has been confirmed.",
+      "article_link": "https://whatnow.com/austin/restaurants/tumble-22-adds-two-austin-locations-to-its-footprint/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Lemon Leaf Café",
+      "location": "6620 Southpoint Blvd, Jacksonville, FL 32216",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Lemon Leaf Café is planned for 6620 Southpoint Blvd in Jacksonville’s Southpoint area. City records show the project was filed in September and an opening date has not been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/lemon-leaf-cafe-planned-for-southpoint-in-jacksonville/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Pinpoint Cafe",
+      "location": "4250 Executive Square, Suite A, La Jolla, CA 920",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "The Cheesecake Factory",
+      "location": "Loop 303 and W. Waddell Road, Surprise, AZ 85388",
+      "event_type": "Opening",
+      "event_date": "Q4 2027",
+      "status": "plans to open",
+      "short_description": "The Cheesecake Factory announced plans to open a 7,500‑sq‑ft restaurant at Village at Prasada in Surprise, AZ in the fourth quarter of 2027. The location will be on Loop 303 and W. Waddell Road in the shopping center’s Restaurant Row. No exact opening date has been released.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/the-cheesecake-factory-plans-q4-2027-opening-in-surprise/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Asado Life",
+      "location": "100 Marketside Avenue, Suite 301, Ponte Vedra Beach, FL 32081",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet been announced",
+      "short_description": "Asado Life signed a lease for the former Dick’s Wings space at 100 Marketside Avenue, Suite 301, in Nocatee Town Center, adding a third Northeast Florida location. The 3,415‑sq‑ft restaurant will join its St. Augustine and Jacksonville sites. An opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/asado-life-expanding-to-nocatee-with-third-northeast-florida-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Firehouse Subs",
+      "location": "1035 Crosswater Pkwy, Suite A, Nocatee, FL 32081",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet been announced",
+      "short_description": "Firehouse Subs confirmed a new restaurant at 1035 Crosswater Parkway, Suite A, in Nocatee, FL, expanding its presence in St. Johns County. The sandwich chain will add another location to its existing county sites. An opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/firehouse-subs-to-open-new-location-in-st-johns/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Dialog Cafe",
+      "location": "8430 Sunset Blvd, West Hollywood, CA 90069",
+      "event_type": "Opening",
+      "event_date": "October 3, 2026",
+      "status": "soft opening planned on September 21, with its official opening scheduled for October 3",
+      "short_description": "Dialog Cafe is opening a temporary residency at The Sun Rose West Hollywood, 8430 Sunset Boulevard, after flood damage forced its original West Hollywood cafe to close. A soft opening is planned for September 21, with the official opening scheduled for October 3. The lease is for one year.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/dialog-cafe-reopening-temporary-location-at-sun-rose-hotel-following-flooding/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Wendy’s",
+      "location": "4605 Poplar Avenue, Memphis, TN (zip not provided)",
+      "event_type": "Remodel",
+      "event_date": "Not specified",
+      "status": "pending",
+      "short_description": "Wendy’s at 4605 Poplar Avenue in Memphis is slated for demolition and a rebuild, with a 2,280‑sq‑ft building featuring two drive‑thru lanes. The Wendelta franchise submitted an Administrative Site Plan Review that is listed as “pending” as of September 18. The project will replace the existing restaurant on the same lot.",
+      "article_link": "https://whatnow.com/memphis/restaurants/out-with-the-old-wendys-and-in-with-the-new/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Keon’s 105 Bistro",
+      "location": "105 Washington St, Haverhill, MA 01832",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to reopen",
+      "short_description": "Keon’s 105 Bistro in Haverhill closed on June 24, was purchased by new owners on July 22, and is preparing to reopen under new ownership this fall after renovations and licensing approvals.",
+      "article_link": "https://whatnow.com/boston/restaurants/keons-105-bistro-in-haverhill-getting-fresh-start-under-new-owners/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Two Ducks",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "saying goodbye to the pop‑up format",
+      "short_description": "Two Ducks, an underground fine‑dining pop‑up in San Diego, announced it will pause its recurring pop‑up format with two seatings remaining in September and a final dinner, as the brothers work toward a permanent location.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/two-ducks-preparing-for-permanent-san-diego-site/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Tooties",
+      "location": "475 Fayette St, Hammond, IN 46320",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "construction is underway",
+      "short_description": "The city of Hammond announced that Tooties will open at 475 Fayette Street later this year; construction is underway for an upscale restaurant concept, though an opening date has not been set.",
+      "article_link": "https://whatnow.com/chicago/restaurants/owner-of-former-tooties-in-hammond-bringing-name-back-for-new-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Cafecito",
+      "location": "117 W Forsyth St, Jacksonville, FL 32202",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to offer",
+      "short_description": "Cafecito will expand from its Riverside location to a new spot at 117 W. Forsyth Street in downtown Jacksonville as part of the revived Bellwether project, with plans to serve breakfast and coffee, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/cafecito-expanding-to-downtown-jacksonville-with-bellwether/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Lowkey",
+      "location": "1501 Atlantic Blvd., Neptune Beach, FL 32266",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "stay tuned for Lowkey",
+      "short_description": "Lowkey, a new concept from the owners of Reve Brewing, will take over the former Night Moves Supply store at 1501 Atlantic Blvd. in Neptune Beach; the space was purchased last November and details remain limited as the project moves forward.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/something-lowkey-is-coming-to-neptune-beach-from-reve-brewing-owners/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "2 Mt Royal Ave, Marlborough, MA 01752",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "still working its way through the city’s review process",
+      "short_description": "Boston Brewins LLC has submitted an application for a new 7 Brew Coffee drive‑thru at 2 Mount Royal Avenue in Marlborough. The proposal was presented at a September 14 City Council meeting and is now awaiting review by the Urban Affairs Committee. No opening timeline has been announced.",
+      "article_link": "https://whatnow.com/boston/restaurants/7-brew-coffee-eyes-marlborough-as-franchisee-expands-across-greater-boston/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Puffles Waffles & Ice Cream",
+      "location": "654 N University Dr, Pembroke Pines, FL 33024",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date is not known",
+      "short_description": "Puffles Waffles & Ice Cream filed a Florida permitting application for a new store at 654 N University Drive in Pembroke Pines. The permit was recently submitted and an opening date has not been provided. The chain anticipates a fall opening.",
+      "article_link": "https://whatnow.com/miami/restaurants/puffles-waffles-and-ice-cream-eying-new-pembroke-pines-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Tropical Smoothie Cafe",
+      "location": "12650 Northlake Blvd, Ste. #100, West Palm Beach, FL 33412",
+      "event_type": "Opening",
+      "event_date": "before the end of this year or early next year",
+      "status": "anticipated to open",
+      "short_description": "Tropical Smoothie Cafe obtained a permit to open a new location in the Coconut Crossing center at 12650 Northlake Blvd., Ste. #100 in West Palm Beach. The company expects the store to open before the end of this year or early next year. No further details were confirmed.",
+      "article_link": "https://whatnow.com/miami/restaurants/tropical-smoothie-cafe-working-on-its-third-west-palm-beach-opening/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "The Rare Restaurant",
+      "location": "128 E Main St, Columbus, OH 43215, USA",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "expected to open",
+      "short_description": "The Rare Restaurant is being developed in a historic building at 128 E Main St in downtown Mason, with plans for an American bistro and event space. The opening is slated for November 2026, though an exact date has not been set. Renovation work on the building began earlier this year.",
+      "article_link": "https://whatnow.com/columbus/restaurants/the-rare-restaurant-coming-to-mason-in-november-2026/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Cold Stone Creamery",
+      "location": "885 E Commercial Blvd., Oakland Park, FL 33064",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Cold Stone Creamery filed plans for a new shop at 885 E Commercial Blvd. in Oakland Park, expanding its Florida presence. The franchisee filed the plans in September, but an official opening date has not yet been announced. The location will join several nearby Cold Stone stores.",
+      "article_link": "https://whatnow.com/miami/restaurants/cold-stone-creamery-plans-to-sweeten-up-oakland-park-with-new-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Bean & Batter",
+      "location": "51808 Gratiot Ave, New Baltimore, MI 48051",
+      "event_type": "Opening",
+      "event_date": "around Nov. 7",
+      "status": "under construction",
+      "short_description": "Bean & Batter, previously a catering service, is converting to a brick‑and‑mortar location at 51808 Gratiot Avenue in New Baltimore. The space is currently under construction and the owner hopes to open around Nov. 7. The site will join a plaza that includes Leo’s Coney Island and is near Gordon Food Service and Panera Bread.",
+      "article_link": "https://whatnow.com/detroit/restaurants/bean-and-batter-catering-moving-to-brick-and-mortar-in-chesterfield/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "TRIO Burger",
+      "location": "1329 Cameron Ave, Lewis Center, OH 43035, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming Soon",
+      "short_description": "TRIO Burger is planning to open a fast‑food restaurant at 1329 Cameron Ave in Lewis Center, Ohio. The concept has teased a “Coming Soon” post on Instagram but has not announced an exact opening date. Details on ownership and menu remain unconfirmed.",
+      "article_link": "https://whatnow.com/columbus/restaurants/trio-burger-coming-soon-to-columbus-area/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Badam Uyghur Cuisine",
+      "location": "58 Mt Auburn St, Watertown, MA 02472",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "hoping to welcome diners in November 2026",
+      "short_description": "Badam Uyghur Cuisine will replace Home Taste at 58 Mount Auburn Street in Watertown, Massachusetts, offering authentic Uyghur dishes. The owner expects to welcome diners in November 2026. The 850‑sq‑ft space will seat up to 16 guests.",
+      "article_link": "https://whatnow.com/boston/restaurants/badam-uyghur-cuisine-bringing-traditional-dishes-to-watertown-this-fall/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Home Taste",
+      "location": "58 Mt Auburn St, Watertown, MA 02472",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "permanently closed",
+      "short_description": "Home Taste, the longtime local favorite at 58 Mount Auburn Street in Watertown, has been listed as permanently closed after a temporary closure announced in early September. Its Google Business listing now shows the location as permanently closed. The space is slated to be taken over by Badam Uyghur Cuisine.",
+      "article_link": "https://whatnow.com/boston/restaurants/badam-uyghur-cuisine-bringing-traditional-dishes-to-watertown-this-fall/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "The Scoop N Scootery",
+      "location": "335 W Ponce de Leon Ave d, Decatur, GA 30030",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "aiming for a November opening",
+      "short_description": "The Scoop N Scootery, a Massachusetts‑based ice cream brand, is planning its first Georgia location at 335 W. Ponce de Leon Ave., Suite D in Decatur. The brand aims for a November opening, marking its entry into the Georgia market. The site will join the downtown Decatur area.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/the-scoop-n-scootery-planning-first-georgia-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Kwality Ice Cream",
+      "location": "2275 W University Dr, Prosper, TX 75078, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "construction scheduled to be completed by January 2027",
+      "short_description": "Kwality Ice Cream is eyeing a second Frisco‑area shop at 2275 University",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Chuy’s",
+      "location": "1100 South Willow Avenue, Cookeville, TN 38501",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to bring its signature Tex‑Mex fare in late spring or early summer 2027",
+      "short_description": "Chuy’s plans to add a location at The Willows development in Cookeville, Tennessee. Construction is slated to begin Oct. 3, with the restaurant expected to open in late spring or early summer 2027.",
+      "article_link": "https://whatnow.com/nashville/restaurants/chuys-could-bring-its-tex-mex-favorites-to-cookeville-in-2027/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "The Lunch Counter",
+      "location": "893 Main St SW, Gainesville, GA 30501",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting a November opening",
+      "short_description": "The Lunch Counter is moving to a larger space at 893 Main St SW in Gainesville, Georgia. The owners aim for a November opening, more than doubling the restaurant’s footprint and adding on‑site seating.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/the-lunch-counter-relocating-to-larger-space-in-gainesville/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Elk Street Nutrition",
+      "location": "21 S Elk St, Sandusky, MI 48471",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to open in a few weeks",
+      "short_description": "Elk Street Nutrition will open its first brick‑and‑mortar shop at 21 S Elk St in downtown Sandusky, Michigan. The drink‑focused concept hopes to open within a few weeks, pending health‑department approvals.",
+      "article_link": "https://whatnow.com/detroit/restaurants/elk-street-nutrition-to-open-in-downtown-sandusky-this-year/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "General Admission",
+      "location": "3737 N Scottsdale Rd, Scottsdale, AZ 85251",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open this fall",
+      "short_description": "General Admission announced plans for a new full‑service dining and nightlife venue at 3737 N Scottsdale Rd in Old Town Scottsdale, Arizona. The location, previously home to RnR Gastropub, is slated to open this fall.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/general-admission-plans-fall-opening-in-old-town-scottsdale/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Milk Bar",
+      "location": "620 Vanderbilt Ave, Brooklyn, NY 11238",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closing both locations permanently towards the end of this year",
+      "short_description": "Milk Bar confirmed it will permanently close its Brooklyn location at 620 Vanderbilt Ave later this year. The owner indicated the final day has not yet been set.",
+      "article_link": "https://whatnow.com/new-york/restaurants/beloved-neighborhood-cafe-to-closes-its-locations-in-brooklyn/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Milk Bar",
+      "location": "204 6th Ave, Brooklyn, NY 11217",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closing both locations permanently towards the end of this year",
+      "short_description": "Milk Bar confirmed it will permanently close its Brooklyn location at 204 6th Ave later this year. The owner indicated the final day has not yet been set.",
+      "article_link": "https://whatnow.com/new-york/restaurants/beloved-neighborhood-cafe-to-closes-its-locations-in-brooklyn/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Whiskey Saloon",
+      "location": "2219 Carey St, Slidell, LA 70458",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening timelines and full menu rollouts are still developing",
+      "short_description": "The Whiskey Saloon, positioned as a “little sister” to the Whiskey Tavern, will occupy the former Rockin’ Willy’s space at 2219 Carey St in Slidell. It aims to offer an upscale country vibe with craft bourbons, specialty cocktails, live music, steak nights and karaoke. While events are booked for early October, official opening timelines are still developing.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/country-music-spot-with-elevated-vibes-coming-to-slidell/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Maison Fabrice",
+      "location": "365 W 50th St., New York, NY 10019",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Maison Fabrice, an intimate French bistro owned by Fabrice Joseph LeForest, will open in the former Chez Napoleon space at 365 W 50th St, New York. The 38‑seat venue will feature a stand‑up corner bar and a French‑focused menu. An official opening date has not yet been announced, though its Instagram indicates a November 2026 debut.",
+      "article_link": "https://whatnow.com/new-york/restaurants/maison-fabrice-to-debut-as-intimate-french-bistro-in-hells-kitchen/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Wasa",
+      "location": "908 E 5th St., Austin, TX 78702",
+      "event_type": "Opening",
+      "event_date": "September 18, 2026",
+      "status": "Beginning September 18",
+      "short_description": "Wasa is a new walk‑in‑only, 14‑seat Japanese dining concept hidden behind papercut at 908 E 5th St, Austin. It will serve sushi, hand rolls, nigiri and other Japanese‑inspired dishes, with a bar program run by papercut co‑founder Eddie Baty. Beginning September 18, guests can access Wasa through the bar.",
+      "article_link": "https://whatnow.com/austin/restaurants/wasa-brings-a-fresh-perspective-on-japanese-cuisine-to-austin-opening-september-18/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Mercante",
+      "location": "404 NW North River Drive",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing for the late-2026 debut",
+      "short_description": "Mercante, a chic Italian Riviera‑inspired restaurant and piano bar by Nicola Siervo, is slated to open on the Miami River at 404 NW North River Drive. The venue will feature authentic Italian cuisine, house‑made breads, pastas, seafood and a meatball‑beverage pairing menu. Siervo is preparing for the late‑2026 debut.",
+      "article_link": "https://whatnow.com/miami/restaurants/mercante-by-hospitality-veteran-nicola-siervo-opening-late-2026/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "The Gyro Project",
+      "location": "600 9th Ave, New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "October 15, 2026",
+      "status": "The Gyro Project is opening its new location on October 15.",
+      "short_description": "The Gyro Project is opening its 10th restaurant, a Greek street‑food concept, at 600 9th Avenue in Hell’s Kitchen, New York. The 1,200‑sq‑ft space will have 14 indoor seats and serve dine‑",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Edo Ramen (Edo Lounge)",
+      "location": "4313 W 13 Mile Rd, Royal Oak, MI 48073, United States",
+      "event_type": "Closing",
+      "event_date": "September 17, 2026",
+      "status": "closed permanently",
+      "short_description": "Edo Ramen in Royal Oak announced permanent closure after a temporary shutdown caused by a power outage and lease issues. The team posted on September 17, 2026 that they are closing permanently, ending nearly ten years of service.",
+      "article_link": "https://whatnow.com/detroit/restaurants/beloved-royal-oak-ramen-spot-closed-its-doors-just-before-its-10-year-milestone/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Triple Rock Brewery and Alehouse",
+      "location": "1920 Shattuck Ave., Berkeley, CA 94704, United States",
+      "event_type": "Closing",
+      "event_date": "end of 2026",
+      "status": "will permanently close",
+      "short_description": "Triple Rock Brewery and Alehouse in Berkeley will permanently close after four decades. Owners announced on September 17, 2026 that the brewpub will shut down by the end of 2026 as the owners retire.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/one-of-americas-first-brewpubs-is-ending-its-40-year-berkeley-run/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "MoonBeem’s Thai’ish Cafe",
+      "location": "1386 SE Lund Ave., Suite 110, Port Orchard, WA 98366",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "remains closed",
+      "short_description": "MoonBeem’s Thai’ish Cafe plans to open a restaurant at 1386 SE Lund Ave., Suite 110 in Port Orchard, taking over the former Tapatios space. The business is awaiting permits and licenses, and no opening date has been announced.",
+      "article_link": "https://whatnow.com/seattle/restaurants/moonbeems-thaiish-cafe-plans-port-orchard-restaurant/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "The Bếp Teahouse",
+      "location": "1016 W Poplar Ave, Suite 104, Collierville, TN 38017",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "on track to open early next year",
+      "short_description": "The Bếp Teahouse announced a new location at 1016 West Poplar Avenue, Suite 104 in Collierville, slated to open in early 2027. The announcement highlighted the upcoming menu and that the opening date is not yet precise.",
+      "article_link": "https://whatnow.com/memphis/restaurants/the-bep-teahouse-brewing-up-collierville-location/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Anchorhead Coffee",
+      "location": "17801 International Blvd., SeaTac, WA 98158",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "did not provide an opening date",
+      "short_description": "Anchorhead Coffee is planning a location at Seattle‑Tacoma International Airport, 17801 International Blvd., SeaTac. The Port of Seattle has not provided an opening date, and construction is expected to begin in phases in 2027.",
+      "article_link": "https://whatnow.com/seattle/restaurants/anchorhead-coffee-planned-for-sea-airport/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Roll Play Grill",
+      "location": "10955 Fairfax Blvd, Fairfax, VA 22030",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "storefront under construction",
+      "short_description": "Happy Endings Hospitality announced that Roll Play Grill will open at 10955 Fairfax Boulevard in Fairfax. The Instagram post indicates the location should be customer ready in November, and photos show a storefront under construction. The concept promises a larger space and an elevated dine‑in experience.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/roll-play-to-level-up-in-fairfax-this-fall/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Emporia",
+      "location": "714 SW 11th Ave, Portland, OR 97205",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has filed for a liquor license",
+      "short_description": "Emporia LLC filed for a liquor license for a new bar at 714 SW 11th Ave in downtown Portland. The city notice describes plans for live music, DJ sets, dancing, pool tables and art shows, with a 90‑seat capacity and hours to 2 a.m. on weekends. The building, originally constructed in 1926, already contains two commercial kitchens.",
+      "article_link": "https://whatnow.com/portland/restaurants/a-downtown-bar-called-emporia-wants-to-host-art-shows-alongside-its-cocktails/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Howdy Homemade Ice Cream",
+      "location": "1930 N Coit Rd, Richardson, TX 75080, USA",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "planning a new location",
+      "short_description": "Howdy Homemade Ice Cream is planning a new company‑owned location in Richardson at 1930 N. Coit Road, Suite 140. Public filings show a construction completion date of December 2026, and the expansion is part of a plan to open over 60 new stores by 2030. The brand is known for employing adults with intellectual and developmental disabilities.",
+      "article_link": "https://whatnow.com/dallas/restaurants/howdy-homemade-ice-cream-plans-new-richardson-location/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Flavor Hive",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "developing storefront",
+      "short_description": "Flavor Hive is preparing a new brick‑and‑mortar storefront in the Embrey Mills Town Center in Stafford County. Social‑media posts show the restaurant’s signage up and windows covered, indicating work is still ongoing before guests can be welcomed. The food‑truck‑originated concept follows Halal guidelines and is famed for its walking tacos.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/stafford-county-get-ready-to-buzz-into-flavor-hive/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Mikey’s Late Night Slice",
+      "location": "1898 W 25th St, Cleveland, OH 44113, USA",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "Coming Soon",
+      "short_description": "Mikey’s Late Night Slice announced plans to open its first Cleveland‑area location at 1898 W. 25th St. in Ohio City. The project involves a major renovation of a historic three‑story building and is targeting a mid‑2027 opening, though no exact date has been set.",
+      "article_link": "https://whatnow.com/columbus/restaurants/mikeys-late-night-slice-coming-to-clevelands-ohio-city-in-2027/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Luga Decatur",
+      "location": "855 Commerce Dr, Decatur, GA 30030",
+      "event_type": "Opening",
+      "event_date": "October",
+      "status": "slated to open",
+      "short_description": "Chef Robbie Pacheco will bring a contemporary Italian restaurant called Luga Decatur to 855 Commerce Drive in Decatur. The venue is slated to open in October and will feature a chef‑driven menu with rustic Italian dishes, brunch, lunch and dinner.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/chef-robbie-pacheco-bringing-italian-restaurant-to-decatur/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Beef‑a‑Roo",
+      "location": "1680 N Alpine Rd, Rockford, IL 61107",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "looking to open",
+      "short_description": "Beef‑a‑Roo will reopen at 1680 N Alpine Road in Rockford under new ownership by Tom & Jerry’s and Candy Cloud partners. The location closed in July and the owners aim to open sometime in November.",
+      "article_link": "https://whatnow.com/chicago/restaurants/beef-a-roo-location-in-rockford-to-reopen-under-new-ownership/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Salata",
+      "location": "766 FM306, New Braunfels, TX 78130, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning",
+      "short_description": "Salata is planning a new fast‑casual salad restaurant at 766 FM 306 in New Braunfels. Construction is set to begin December 4, 2026 with completion expected by March 4, 2027, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/salata-planning-new-location-in-new-braunfels/",
+      "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Buff’s Burgers & Wings (Buff’s Pub)",
+      "location": "46 Arsenal St, Watertown, MA 02472",
+      "event_type": "Opening",
+      "event_date": "October 19",
+      "status": "currently waiting for its beer and wine license to transfer",
+      "short_description": "Buff’s Pub is expanding to Watertown with a new concept called Buff’s Burgers & Wings at 46 Arsenal Street. The project has a projected conversion completion date of October 19, and the opening is pending transfer of the beer and wine license.",
+      "article_link": "https://whatnow.com/boston/restaurants/buffs-pub-in-newton-bringing-beloved-wings-to-new-watertown-location/",
+      "published_date": "September 17, 2026"
     }
   ],
   "non_working": []
