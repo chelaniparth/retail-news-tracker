@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-19",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -2970,6 +2970,376 @@
       "short_description": "Buff’s Pub is expanding to Watertown with a new concept called Buff’s Burgers & Wings at 46 Arsenal Street. The project has a projected conversion completion date of October 19, and the opening is pending transfer of the beer and wine license.",
       "article_link": "https://whatnow.com/boston/restaurants/buffs-pub-in-newton-bringing-beloved-wings-to-new-watertown-location/",
       "published_date": "September 17, 2026"
+    },
+    {
+      "store_name": "Harold’s Bar",
+      "location": "18 Market Square, Knoxville, TN 37902",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open this fall",
+      "short_description": "Harold’s Bar is a classic American bar concept being developed by Sam Norman. It will occupy the Market Square storefront in downtown Knoxville and is slated to open this fall alongside two other concepts.",
+      "article_link": "https://whatnow.com/nashville/restaurants/harolds-bar-bertie-rose-and-royal-spud-coming-to-downtown-knoxville/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Bertie Rose",
+      "location": "18 Market Square, Knoxville, TN 37902",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open this fall",
+      "short_description": "Bertie Rose will bring a modern Southern breakfast and lunch concept to the same downtown Knoxville address. The restaurant is part of three new concepts sharing the storefront and is expected to open this fall.",
+      "article_link": "https://whatnow.com/nashville/restaurants/harolds-bar-bertie-rose-and-royal-spud-coming-to-downtown-knoxville/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Royal Spud",
+      "location": "18 Market Square, Knoxville, TN 37902",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open this fall",
+      "short_description": "Royal Spud will operate as a walk‑up Dutch fry shop at the Market Square location. It is one of three concepts slated to open this fall in downtown Knoxville.",
+      "article_link": "https://whatnow.com/nashville/restaurants/harolds-bar-bertie-rose-and-royal-spud-coming-to-downtown-knoxville/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Gilligan’s Seafood (Goose Creek)",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closed",
+      "short_description": "Gilligan’s Seafood closed its Goose Creek location about two months ago and is currently searching for a new Goose Creek home. The closure was driven by renovation cost concerns.",
+      "article_link": "https://whatnow.com/charleston/restaurants/gilligans-seafood-looks-for-new-goose-creek-home-plans-moncks-corner-renovation/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Gilligan’s Seafood (Moncks Corner)",
+      "location": "582 Dock Rd, Moncks Corner, SC 29461",
+      "event_type": "Remodel",
+      "event_date": "Not specified",
+      "status": "renovations",
+      "short_description": "Gilligan’s Seafood is preparing to undertake renovations at its Moncks Corner restaurant, describing the work as “an update.” The store expects to stay open for most of the process, closing only about a week.",
+      "article_link": "https://whatnow.com/charleston/restaurants/gilligans-seafood-looks-for-new-goose-creek-home-plans-moncks-corner-renovation/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Spinx (West Columbia)",
+      "location": "3620 Augusta Rd, West Columbia, SC 29170",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Spinx is expanding with a new combination fueling station, convenience store, and food‑on‑the‑go restaurant under construction at 3620 Augusta Road in West Columbia.",
+      "article_link": "https://whatnow.com/charleston/restaurants/spinx-plans-new-west-columbia-store/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Quarter French",
+      "location": "40 Broad St, Charleston, SC 29401",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming soon",
+      "short_description": "Quarter French, a “French‑ish neighborhood bistro” from King Street Hospitality, is set to open at 40 Broad Street. An Instagram post announced the upcoming opening with the phrase “Coming soon.”",
+      "article_link": "https://whatnow.com/charleston/restaurants/king-street-hospitality-opening-french-ish-neighborhood-bistro-quarter-french/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Jam Jam",
+      "location": "30 Liberty St, Rittman, OH 44270, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open soon",
+      "short_description": "Jam Jam is preparing to open its first brick‑and‑mortar Cajun restaurant inside Sweet Harmony Canal at 30 Liberty St. The concept is expected to open soon with initial hours Tuesday‑Friday, 5‑9 p.m.",
+      "article_link": "https://whatnow.com/columbus/restaurants/jam-jam-brings-cajun-flavors-to-canal-winchester/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Bocelli Modern Italian",
+      "location": "5427 Bayshore Blvd, Tampa",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "will open in 2027",
+      "short_description": "Bocelli Modern Italian is slated to join the Horizon West Bay mixed‑use development. The restaurant will serve traditional Italian dishes with modern influences and feature an open‑kitchen concept. It is planned to open in 2027.",
+      "article_link": "https://whatnow.com/tampa/restaurants/opening-at-horizon-west-bay-in-largo-bocelli-modern-italian/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Dead Bob’s",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "will open in 2027",
+      "short_description": "The City of Largo approved a lease for a new Dead Bob’s restaurant at Horizon West Bay. It will open alongside Bocelli Modern Italian, with both slated for 2027. No specific address is given in the article.",
+      "article_link": "https://whatnow.com/tampa/restaurants/opening-at-horizon-west-bay-in-largo-bocelli-modern-italian/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Barberry Brasserie",
+      "location": "110 Lexington Ave., San Antonio, TX 78205, USA",
+      "event_type": "Opening",
+      "event_date": "mid-to-late November 2026",
+      "status": "expected to open",
+      "short_description": "Barberry Brasserie, a new concept from Emmer & Rye Hospitality Group, will open inside the reimagined Sítio El Tropicano on the San Antonio River Walk. The restaurant blends Texas Hill Country and French Country influences and is slated for a mid‑to‑late November 2026 opening.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/barberry-brasserie-coming-to-sitio-el-tropicano-on-san-antonio-river-walk/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Storm Healthy Energy",
+      "location": "2600 4th St N, St. Petersburg, FL 33704",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "will open its first St. Petersburg location there this fall",
+      "short_description": "Storm Healthy Energy, a clean‑energy drink shop from Tampa, will open its first St. Petersburg location at 2600 4th St N. The article says the store will open in the fall of 2026.",
+      "article_link": "https://whatnow.com/tampa/restaurants/storm-healthy-energy-plans-st-pete-de",
+      "published_date": ""
+    },
+    {
+      "store_name": "Live at Dead Bob’s",
+      "location": "440 W Bay Dr, Largo, FL 33770",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Dead Bob’s is preparing to launch a new venue called Live at Dead Bob’s in Largo’s Horizon West Bay development at 440 W Bay Dr. The bar will feature indoor/outdoor seating, sports TV, burgers, wings, and a late‑night menu, and is slated to open next year.",
+      "article_link": "https://whatnow.com/tampa/restaurants/dead-bobs-expanding-to-largo-with-live-at-dead-bobs/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "All Day Darling (second Asheville location)",
+      "location": "567 Fairview Rd, Asheville, NC 28803, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Construction is underway",
+      "short_description": "All Day Darling is constructing its second Asheville location at 567 Fairview Road on the East Side. The Instagram post shows the site with lumber and green wrap, but no opening date has been provided.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/all-day-darling-begins-construction-on-second-asheville-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Tifosi Pizza and Trattoria",
+      "location": "2000 Main St, Irvine, CA 92614",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Tifosi Pizza and Trattoria plans to open at 2000 Main St., Suite 300 in Irvine, offering New York‑style pizza, Italian sandwiches, and a bar program. The opening date has not been disclosed.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/tifosi-pizza-and-trattoria-to-open-in-irvine/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Go Greek Yogurt",
+      "location": "611 Spectrum Center Drive, Irvine, CA 92618",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Go Greek Yogurt will open a new store at 611 Spectrum Center Drive in Irvine’s Spectrum Center, listed as “coming soon” in the center directory. No confirmed opening date has been announced.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/go-greek-yogurt-to-open-irvine-spectrum-center-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Bar nineteen48",
+      "location": "1221 W. Coast Highway, Newport Beach, CA 92663",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to debut",
+      "short_description": "Bar nineteen48 is set to debut at the Balboa Bay Resort in Newport Beach as part of the resort’s 2026 renovation, featuring a mid‑century lounge overlooking the pool. The exact opening date is not provided.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/bar-nineteen48-to-debut-at-balboa-bay-resort/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Naomi Roasters",
+      "location": "832 Seigle Ave, Charlotte, NC 28204, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "moving through the permitting process",
+      "short_description": "Naomi Roasters LLC filed a zoning record for a restaurant and bar at 832 Seigle Ave in Charlotte. The permit is for an ABC inspection, but no opening date or construction details have been released.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/naomi-roasters-seeks-abc-approval-for-charlotte-restaurant-and-bar/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Butter Pecan Bakeshop",
+      "location": "Deer Valley Rd, Antioch, CA 94531",
+      "event_type": "Opening",
+      "event_date": "October",
+      "status": "preparing to open",
+      "short_description": "Butter Pecan Bakeshop will open a new franchise location at The Crossings shopping center in Antioch, operated by Dale and Desirée Ingram. The shop is scheduled to open in October.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/butter-pecan-bakeshop-to-open-antioch-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Coffeebar",
+      "location": "170 State St, Los Altos, CA 94022",
+      "event_type": "Opening",
+      "event_date": "October",
+      "status": "preparing to open",
+      "short_description": "Coffeebar plans to open a new location at 170 State St in Los Altos, which will also serve as its main pastry production facility. The opening is slated for early October.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/coffeebar-to-open-los-altos-location-in-october/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Pizzeria Toro",
+      "location": "807 Halifax St, Raleigh, NC 27604, USA",
+      "event_type": "Opening",
+      "event_date": "fall 2026",
+      "status": "targeting a fall 2026 opening",
+      "short_description": "Pizzeria Toro is expanding to Raleigh with a new restaurant at 807 Halifax St in Seaboard Station. The location is targeting a fall 2026 opening.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/pizzeria-toro-bringing-wood-fired-pizza-to-raleigh/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Tong Sui",
+      "location": "747 W Dana St, Mountain View, CA 94041",
+      "event_type": "Opening",
+      "event_date": "October",
+      "status": "preparing to open",
+      "short_description": "Tong Sui is set to open a new dessert and beverage shop at 747 W. Dana St in Mountain View. The opening is expected in October.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/tong-sui-to-open-mountain-view-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "The Jimmy",
+      "location": "519 Deacon Blvd, Winston‑Salem, NC 27105, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expanding to Winston‑Salem",
+      "short_description": "The Jimmy is adding a new restaurant and bar at 519 Deacon Blvd in Winston‑Salem’s The Grounds mixed‑use development. The concept will offer wood‑fired pizzas, Mediterranean and Italian dishes, and rooftop dining. It is part of the first group of five retailers announced for The Grounds.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/the-jimmy-expands-to-winston-salem-with-new-grounds-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Abanico Coffee Roasters",
+      "location": "424 Irving St, San Francisco, CA 94122",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Abanico Coffee Roasters announced plans to open a roaster and café at 424 Irving St in San Francisco’s Inner Sunset. The location will focus on specialty coffee and café beverages. The opening is still pending.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/albanico-coffee-roasters-to-open-on-irving-street-in-san-francisco/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Pizzeria di Territorio",
+      "location": "301 W. Cabarrus St, Suite 200, Raleigh, NC 27601, USA",
+      "event_type": "Opening",
+      "event_date": "Q1 2027",
+      "status": "targeting Q1 2027",
+      "short_description": "Pizzeria di Territorio will open at 301 W. Cabarrus St., Suite 200 in Raleigh’s Warehouse District, offering artisanal Neapolitan pizza and Italian dishes. The concept is slated for Q1 2027. It shares the space with the speakeasy Stoccaggio.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/pizzeria-di-territorio-and-stoccaggio-bring-regional-italian-dining-to-downtown-raleigh/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Stoccaggio",
+      "location": "301 W. Cabarrus St, Suite 200, Raleigh, NC 27601, USA",
+      "event_type": "Opening",
+      "event_date": "Q1 2027",
+      "status": "targeting Q1 2027",
+      "short_description": "Stoccaggio, a 25‑30 seat Italian‑inspired speakeasy, will operate from the same address (301 W. Cabarrus St., Suite 200) in Raleigh, with a separate entrance. It is also targeting Q1 2027. The venue will serve small plates and prohibition‑era cocktails.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/pizzeria-di-territorio-and-stoccaggio-bring-regional-italian-dining-to-downtown-raleigh/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Happea’s Mediterranean Grill",
+      "location": "2749 NE 193rd St #20, Aventura, FL 33180",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "preparing to open",
+      "short_description": "Happea’s Mediterranean Grill is set to open a fast‑casual Mediterranean location at 2749 NE 193rd St., Suite 20 in Aventura, Florida. The website lists the opening for November 2026. The menu will feature mezze, bowls, salads, and other Mediterranean items.",
+      "article_link": "https://whatnow.com/miami/restaurants/happeas-mediterranean-grill-to-open-aventura-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Pinecrest Bakery",
+      "location": "9929 S Military Trl, Boynton Beach, FL 33436, EUA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Pinecrest Bakery plans to open a new Cuban‑American bakery and coffee shop at 9929 S. Military Trail in Boynton Beach, Florida. The store is listed among the brand’s upcoming locations but no specific opening date is given. The venue will offer bakery items, Cuban sandwiches, and 24‑hour service.",
+      "article_link": "https://whatnow.com/miami/restaurants/pinecrest-bakery-to-open-boynton-beach-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Hadeem",
+      "location": "682 Haight St, San Francisco, CA 94117",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "preparing to open",
+      "short_description": "Hadeem, a California‑Jewish restaurant concept by chef Spencer Horovitz, is set to open a permanent location in San Francisco’s Lower Haight. The space will replace the current Mexican restaurant Otra and is expected to open in 2027.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/hadeem-to-open-in-san-franciscos-lower-haight/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Smish Smash",
+      "location": "1823 Solano Ave., Berkeley, CA 94707",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced a specific opening date",
+      "short_description": "Records from the California Department of Alcoholic Beverage Control indicate Smish Smash may open a new Berkeley location at 1823 Solano Ave. The burger concept currently operates in San Francisco, but no opening timeline has been disclosed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/smish-smash-may-be-coming-to-berkeley/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "WASAII Buffet",
+      "location": "1710 E Hallandale Beach Blvd, Hallandale Beach, FL 33009, USA",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "opening targeted for 2027",
+      "short_description": "WASAII Buffet signed a lease for a 12,548‑sq‑ft space at Hallandale Shopping Center and plans an all‑you‑can‑eat Asian buffet concept. The opening is targeted for 2027, with an exact date to be announced later.",
+      "article_link": "https://whatnow.com/miami/restaurants/wasaii-buffet-signs-lease-for-a-12548-square-foot-all-you-can-eat-concept/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "World Traveler Coffee Roasters",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "exploring a new location",
+      "short_description": "World Traveler Coffee Roasters is in the early stages of planning a new coffee shop in Lincoln, CA. No address or opening timeline has been released yet.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/world-traveler-coffee-roasters-eyes-expansion-to-lincoln/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Mike & Patty’s",
+      "location": "297 Main St, Charlestown, MA 02129",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to open its eighth location",
+      "short_description": "Mike & Patty’s is set to open its eighth sandwich shop in Charlestown, taking over the former Johnny Pomodoro space. A “coming soon” sign is up, but an opening date has not been announced.",
+      "article_link": "https://whatnow.com/boston/restaurants/mike-pattys-taking-over-former-site-of-johnny-pomodoro-in-charlestown/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Pinpoint Cafe",
+      "location": "4250 Executive Square a, La Jolla, CA 92037",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming Soon",
+      "short_description": "Pinpoint Cafe, a women‑owned coffee shop, is adding its seventh location in La Jolla at 4250 Executive Square, Suite A. The company has filed documents with the San Diego County health department but has not announced an exact opening date, listing the site as “Coming Soon” on its website.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/pinpoint-cafe-opening-at-la-jolla-square/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Pip Food + Drink",
+      "location": "2930 Umatilla St, Denver, CO 80211",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open this fall",
+      "short_description": "Pip Food + Drink, the new “little sister” of Edible Beats, will occupy the former Sushi Ronin space on the ground floor beneath El Five in Denver’s LoHi neighborhood. The restaurant is slated to open this fall, though an exact date has not been announced.",
+      "article_link": "https://whatnow.com/denver/restaurants/pip-food-drink-coming-to-lohi-from-edible-beats/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Kwality Ice Cream",
+      "location": "2275 W University Dr, Prosper, TX 75078, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "new shop planned",
+      "short_description": "Kwality Ice Cream is planning a second location in the Dallas area, with the new shop slated for 2275 University Drive. Permitting records indicate construction is scheduled to be completed by January 2027. The company has not responded to inquiries about the opening timeline.",
+      "article_link": "https://whatnow.com/dallas/restaurants/kwality-ice-cream-plans-second-frisco-location/",
+      "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "The Gyro Project",
+      "location": "600 9th Ave, New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "October 15",
+      "status": "is opening its new location on October 15",
+      "short_description": "The Gyro Project is opening its 10th restaurant in Hell’s Kitchen, located at 600 9th Avenue. The 1,200‑sq‑ft venue will have 14 indoor seats and serve Greek street‑food items. It will operate daily from 10 a.m. to midnight.",
+      "article_link": "https://whatnow.com/new-york/restaurants/hells-kitchen-to-welcome-new-greek-restaurant-this-october/",
+      "published_date": "September 18, 2026"
     }
   ],
   "non_working": []
