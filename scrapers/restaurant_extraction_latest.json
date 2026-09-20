@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-20",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -3340,6 +3340,186 @@
       "short_description": "The Gyro Project is opening its 10th restaurant in Hell’s Kitchen, located at 600 9th Avenue. The 1,200‑sq‑ft venue will have 14 indoor seats and serve Greek street‑food items. It will operate daily from 10 a.m. to midnight.",
       "article_link": "https://whatnow.com/new-york/restaurants/hells-kitchen-to-welcome-new-greek-restaurant-this-october/",
       "published_date": "September 18, 2026"
+    },
+    {
+      "store_name": "Zaxbys (Kosciusko)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming",
+      "short_description": "The Gant brothers plan to bring Zaxbys to Kosciusko after first opening a location in Winona. No precise address has been announced for the Kosciusko site.",
+      "article_link": "https://whatnow.com/memphis/restaurants/kosciusko-getting-a-taste-of-a-chicken-heavy-hitter/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Zaxbys (Winona)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "set to be customer‑ready in the next year",
+      "short_description": "The Gant brothers intend to open a Zaxbys in Winona first, with the storefront expected to be ready within the next year. No address has been disclosed.",
+      "article_link": "https://whatnow.com/memphis/restaurants/kosciusko-getting-a-taste-of-a-chicken-heavy-hitter/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Zaxbys (Winona)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipate having the storefront customer‑ready within the next year",
+      "short_description": "Mississippi entrepreneurs Alan, Eddie, and Stefan Gant are working to introduce Zaxbys to Winona, expecting the location to be ready within a year. The exact address remains unrevealed.",
+      "article_link": "https://whatnow.com/memphis/restaurants/zaxbys-flapping-into-winona/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Woodlyns",
+      "location": "947 Eglinton Ave W, York, ON M6C 2C3, Canada",
+      "event_type": "Opening",
+      "event_date": "October",
+      "status": "expected to open in October",
+      "short_description": "Woodlyns announced a new neighborhood‑style restaurant at 947 Eglinton West, slated to open in October. The concept is inspired by local ravines and community feel.",
+      "article_link": "https://whatnow.com/toronto/restaurants/woodlyns-to-bring-neighborhood-restaurant-to-toronto/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Caron & Frères (Third Café)",
+      "location": "Quartier Villeray",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "still in the early stages of development",
+      "short_description": "Caron & Frères is opening a third café in the Quartier Villeray area, though no exact address or timeline has been provided. The announcement coincides with the brand’s fourth anniversary.",
+      "article_link": "https://whatnow.com/montreal/restaurants/caron-freres-opening-third-cafe/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Roti Mediterranean (Forsyth Town Center)",
+      "location": "3125 Ronald Reagan Pkwy #912b, Snellville, GA 30078",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "unclear when the new location … will open",
+      "short_description": "Roti Mediterranean plans to join Forsyth Town Center at the listed address, but the opening date has not been disclosed. The brand is seeking further expansion in the Atlanta area.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/roti-mediterranean-to-open-at-forsyth-town-center/",
+      "published_date": "September 20, 2026"
+    },
+    {
+      "store_name": "Decoy",
+      "location": "104 Main St SW, Gainesville, GA 30501",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "will likely open in 2027",
+      "short_description": "Decoy is relocating from 123 Green Street to 104 Main Street in Gainesville. The new space is still under construction as of late July and is expected to open in 2027.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/decoy-relocating-to-g",
+      "published_date": ""
+    },
+    {
+      "store_name": "Bagels & Co.",
+      "location": "414 Deacon Blvd, Winston‑Salem, NC 27105, USA",
+      "event_type": "Opening",
+      "event_date": "Fall 2027",
+      "status": "set to open",
+      "short_description": "Bagels & Co. announced its first North Carolina location at The Grounds in Winston‑Salem. The 414 Deacon Blvd site will be part of a 42,000‑sq‑ft Retail & Dining Village slated to open in Fall 2027. Construction is underway.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/bagels-co-sets-first-north-carolina-location-at-the-grounds/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Nissan Cafe",
+      "location": "222 North St, Jackson, MS 39201, USA",
+      "event_type": "Opening",
+      "event_date": "October 2026",
+      "status": "anticipates being customer-ready this October",
+      "short_description": "Nissan Cafe, a collaboration with John Tierre and Two Mississippi Museums, plans to open at 222 North St in Jackson. The concept has no firm opening date, but Instagram posts suggest a customer‑ready launch in October 2026. The venue is still under development.",
+      "article_link": "https://whatnow.com/memphis/restaurants/nissan-cafe-pulling-into-jackson/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Joia Burger",
+      "location": "601 F St NW, Washington, DC 20004, USA",
+      "event_type": "Opening",
+      "event_date": "this season",
+      "status": "will be customer-ready this season",
+      "short_description": "Joia Burger will add a location inside Capital One Arena at 601 F St NW, Washington, DC. No specific opening date has been announced, though the brand says it will be ready this season. The move expands the burger concept into the arena’s 100‑Level Concourse.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/capital-one-arena-getting-one-of-the-dmvs-best-burgers/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Scrapped The Plate Bistro",
+      "location": "7199 Stage Rd, Memphis, TN 38133, USA",
+      "event_type": "Opening",
+      "event_date": "earlier this month",
+      "status": "just debuted",
+      "short_description": "Scrapped The Plate Bistro, formerly a food‑truck, opened its first brick‑and‑mortar restaurant at 7199 Stage Rd, Memphis. The restaurant debuted earlier this month after three‑and‑a‑half months of preparation. It now serves a full menu of Southern and soul‑food dishes.",
+      "article_link": "https://whatnow.com/memphis/restaurants/scrapped-the-plate-bistro-brings-food-truck-roots-to-new-memphis-restaurant/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Top of the Morning",
+      "location": "6075 Winchester Rd, Memphis, TN 38115, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "making strides towards being customer-ready",
+      "short_description": "Top of the Morning is preparing its first storefront at 6075 Winchester Rd, Memphis, inside Hickory Ridge Mall. Permitting and a certificate of occupancy are under review, with the owners aiming to be customer‑ready soon. No opening date has been set.",
+      "article_link": "https://whatnow.com/memphis/restaurants/a-new-day-dawning-for-top-of-the-morning/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Train to Mumbai",
+      "location": "609 E Main St, Purcellville, VA 20132",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "construction underway",
+      "short_description": "Train to Mumbai, a popular Virginia Indian restaurant, is moving to a new storefront at 609 E Main St in Purcellville. Construction is underway but the restaurant has not announced an opening timeline. The space previously housed Purcellville Eats.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/train-to-mumbai-bringing-celebrated-indian-cuisine-to-new-location/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Grand Restaurant",
+      "location": "12777 Atlantic Blvd., Suite 10, Jacksonville, FL 32225",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Grand Restaurant is planned to occupy the former Fushimi Grill & Modern Buffet location at 12777 Atlantic Blvd., Suite 10 in Jacksonville. A plan review was submitted on September 16 and is listed as “In process.” No opening date is provided.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/grand-restaurant-planned-for-former-fushimi-buffet-space/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Park Pass Coffee",
+      "location": "4491 Tennyson St Denver, CO 80212",
+      "event_type": "Opening",
+      "event_date": "mid-to-late November",
+      "status": "anticipated opening in mid-to-late November",
+      "short_description": "Park Pass Coffee is preparing its first brick‑and‑mortar cafe at 4491 Tennyson Street in Denver. A lease has been signed and a construction permit is “In Progress,” with an anticipated opening in mid‑to‑late November. The cafe will serve specialty coffee and matcha.",
+      "article_link": "https://whatnow.com/denver/restaurants/park-pass-coffee-plans-first-cafe/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Storm Healthy Energy",
+      "location": "2600 4th St N, St. Petersburg, FL 33704",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open its first St. Petersburg location there this fall",
+      "short_description": "Storm Healthy Energy, a Tampa‑based clean‑energy drink shop with three locations, will open its first St. Petersburg site at 2600 4th St N in a building formerly home to Grand Kitchen and Bath. The menu includes electrolyte and protein shakes with optional add‑ons. Opening is slated for this fall.",
+      "article_link": "https://whatnow.com/tampa/restaurants/storm-healthy-energy-plans-st-pete-debut/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Tia’s Taco Hut",
+      "location": "4721 Roy Richard Dr #101, Schertz, TX 78154, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a new restaurant",
+      "short_description": "Tia’s Taco Hut, a San Antonio‑based Tex‑Mex chain, filed a TDLR project to build a 2,500‑sq‑ft restaurant at 4721 Roy Richards Dr., Suite 101 in Schertz. Construction is scheduled to begin Oct 30 2026 with completion expected by March 26 2027, but no opening date is announced. The filing describes the project as a new restaurant planning.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/tias-taco-hut-planning-new-restaurant-in-schertz-texas/",
+      "published_date": "September 19, 2026"
+    },
+    {
+      "store_name": "Nonna’s Empanada",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "working toward an opening at the end of October",
+      "short_description": "Nonna’s Empanada, a family‑operated food trailer serving gluten‑free empanadas, will begin serving across Pinellas County this fall. The trailer is aiming to open at the end of October. The article highlights the gluten‑free menu and the upcoming launch.",
+      "article_link": "https://whatnow.com/tampa/restaurants/nonnas-empanada-hitting-the-road-in-pinellas-county-this-fall/",
+      "published_date": "September 19, 2026"
     }
   ],
   "non_working": []
