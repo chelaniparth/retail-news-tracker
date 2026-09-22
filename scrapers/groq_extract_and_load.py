@@ -235,8 +235,20 @@ def _fetch_article_selenium(url: str) -> str:
     try:
         driver.get(url)
         time.sleep(3)  # let client-side JS render the article body
+        raw_len = len(driver.page_source)
         rendered = _extract_body_text(driver.page_source)
-        print(f"    (selenium render: {len(rendered)} chars: {rendered[:300]!r})")
+        print(f"    (selenium raw page_source: {raw_len} chars; extracted: {len(rendered)} chars: {rendered[:300]!r})")
+        if raw_len > 5000:
+            # The raw rendered HTML is clearly not empty -- if the extracted
+            # text is still tiny, the div-matching heuristic below is
+            # grabbing the wrong element on this site, not a JS/timing
+            # problem. Print a slice of the full plain text (no div
+            # filtering at all) so the real structure is visible.
+            full_soup = BeautifulSoup(driver.page_source, "html.parser")
+            for tag in full_soup(["script", "style"]):
+                tag.decompose()
+            full_text = full_soup.get_text(separator=" ", strip=True)
+            print(f"    (selenium full page text, no div filter: {len(full_text)} chars: {full_text[:1500]!r})")
         return rendered
     except Exception as exc:
         print(f"    (selenium fetch failed: {exc})")
