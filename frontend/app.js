@@ -891,6 +891,17 @@ function getFilteredSortedRows() {
         return sortState.dir * av.localeCompare(bv, undefined, { numeric: true, sensitivity: "base" });
       });
     }
+  } else {
+    // Default view (no column sort chosen yet): surface what still needs
+    // action -- unassigned rows first, already-assigned ones sink toward
+    // the bottom -- instead of leaving open work mixed in with whatever
+    // someone's already on. Array.sort is stable, so each group keeps its
+    // original (newest-first, per the API) order.
+    rows = rows.slice().sort((a, b) => {
+      const aAssigned = (marksCache[markKey(a)] && marksCache[markKey(a)].assigned_to) ? 1 : 0;
+      const bAssigned = (marksCache[markKey(b)] && marksCache[markKey(b)].assigned_to) ? 1 : 0;
+      return aAssigned - bAssigned;
+    });
   }
   return rows;
 }
