@@ -40,6 +40,12 @@ COMPLETION_STATUSES = {
     "Not Accessible", "Send to the Calling Team",
 }
 
+# The calling team's own outcome on an article an analyst sent them.
+# "Other" isn't a stored value itself -- it just means the calling team's
+# free-text note (calling_team_outcome) is accepted as-is instead of being
+# restricted to one of the other three fixed labels.
+CALLING_TEAM_FIXED_OUTCOMES = {"Confirmed", "Could Not Reach", "Not Relevant"}
+
 DB_HOST = os.environ.get("SUPABASE_DB_HOST")
 DB_PORT = int(os.environ.get("SUPABASE_DB_PORT", "6543"))
 DB_USER = os.environ.get("SUPABASE_DB_USER")
@@ -156,7 +162,11 @@ CREATE TABLE IF NOT EXISTS article_marks_v3 (
     completion_status text CHECK (completion_status IS NULL OR completion_status IN (
                             'Add', 'Edit', 'Already Updated', 'Not Relevant',
                             'Not Accessible', 'Send to the Calling Team'
-                        ))
+                        )),
+    calling_team_notes      text,
+    calling_team_outcome    text,
+    calling_team_outcome_by text REFERENCES analysts(analyst_id),
+    calling_team_outcome_at timestamptz
 );
 """
 
@@ -645,6 +655,7 @@ def article_marks():
             return jsonify({"error": "article_key is required"}), 400
         company_name = data.get("company_name")
         completion_status = (data.get("completion_status") or "").strip() or None
+        calling_team_notes = (data.get("calling_team_notes") or "").strip() or None
         actor_id = data.get("actor_analyst_id")
 
         cur.execute("SELECT role FROM analysts WHERE analyst_id = %s", (actor_id,))
@@ -676,23 +687,40 @@ def article_marks():
             is_done = True
             marked_by = actor_id
             marked_at = datetime.now(timezone.utc)
+            if completion_status == "Send to the Calling Team":
+                if not calling_team_notes:
+                    return jsonify({"error": "notes are required when sending an article to the calling team"}), 400
+            else:
+                calling_team_notes = None
         else:
             is_done = False
             marked_by = None
             marked_at = None
+            calling_team_notes = None
 
+        # Every time an analyst (re)sets completion status here -- including
+        # sending to the calling team again after it was already sent once
+        # before -- starts a clean calling-team outcome cycle, so a stale
+        # Confirmed/Could Not Reach from a prior round never lingers against
+        # a new send. The calling team's own endpoint below is the only
+        # place that ever writes a non-null outcome.
         cur.execute(
             """INSERT INTO article_marks_v3
-               (article_key, company_name, is_done, marked_by, marked_at, completion_status)
-               VALUES (%s,%s,%s,%s,%s,%s)
+               (article_key, company_name, is_done, marked_by, marked_at, completion_status,
+                calling_team_notes, calling_team_outcome, calling_team_outcome_by, calling_team_outcome_at)
+               VALUES (%s,%s,%s,%s,%s,%s,%s,NULL,NULL,NULL)
                ON CONFLICT (article_key) DO UPDATE SET
                    company_name = EXCLUDED.company_name,
                    is_done = EXCLUDED.is_done,
                    marked_by = EXCLUDED.marked_by,
                    marked_at = EXCLUDED.marked_at,
-                   completion_status = EXCLUDED.completion_status
+                   completion_status = EXCLUDED.completion_status,
+                   calling_team_notes = EXCLUDED.calling_team_notes,
+                   calling_team_outcome = NULL,
+                   calling_team_outcome_by = NULL,
+                   calling_team_outcome_at = NULL
                RETURNING *""",
-            (article_key, company_name, is_done, marked_by, marked_at, completion_status),
+            (article_key, company_name, is_done, marked_by, marked_at, completion_status, calling_team_notes),
         )
         row = cur.fetchone()
         db.commit()
@@ -700,6 +728,47 @@ def article_marks():
 
     cur.execute("SELECT * FROM article_marks_v3")
     return jsonify([dict(r) for r in cur.fetchall()])
+
+
+@app.route("/api/calling_team_outcome", methods=["POST", "OPTIONS"])
+def calling_team_outcome():
+    """The calling team's own outcome on an article an analyst already sent
+    them (completion_status = 'Send to the Calling Team'). Open to any
+    logged-in analyst or admin -- unlike assignment/status, this is shared
+    team-queue work, not tied to one owner."""
+    if request.method == "OPTIONS":
+        return ("", 204)
+
+    db = get_db()
+    cur = db.cursor()
+    data = request.get_json(force=True) or {}
+    article_key = data.get("article_key")
+    outcome = (data.get("outcome") or "").strip()
+    actor_id = data.get("actor_analyst_id")
+    if not article_key:
+        return jsonify({"error": "article_key is required"}), 400
+    if not outcome:
+        return jsonify({"error": "outcome is required"}), 400
+
+    cur.execute("SELECT role FROM analysts WHERE analyst_id = %s", (actor_id,))
+    if not cur.fetchone():
+        return jsonify({"error": "unknown actor_analyst_id"}), 401
+
+    cur.execute("SELECT completion_status FROM article_marks_v3 WHERE article_key = %s", (article_key,))
+    row = cur.fetchone()
+    if not row or row["completion_status"] != "Send to the Calling Team":
+        return jsonify({"error": "this article isn't currently in the calling-team queue"}), 409
+
+    cur.execute(
+        """UPDATE article_marks_v3
+           SET calling_team_outcome = %s, calling_team_outcome_by = %s, calling_team_outcome_at = %s
+           WHERE article_key = %s
+           RETURNING *""",
+        (outcome, actor_id, datetime.now(timezone.utc), article_key),
+    )
+    row = cur.fetchone()
+    db.commit()
+    return jsonify(dict(row))
 
 
 @app.route("/api/article_assignments", methods=["POST", "OPTIONS"])

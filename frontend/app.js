@@ -6,6 +6,10 @@ const TYPE_COLORS = { Opening: "#2563eb", Closing: "#0f1115", Remodel: "#9ca3af"
 const COMPLETION_STATUSES = [
   "Add", "Edit", "Already Updated", "Not Relevant", "Not Accessible", "Send to the Calling Team",
 ];
+const CALLING_TEAM_STATUS = "Send to the Calling Team";
+// "Other" isn't stored as-is -- picking it reveals a free-text box instead,
+// and whatever's typed there becomes the stored outcome.
+const CALLING_TEAM_OUTCOMES = ["Confirmed", "Could Not Reach", "Not Relevant", "Other"];
 const SOURCE_LABELS = {
   banner: "Store News", ct_scoop: "CT Scoop", restaurant: "Restaurant News",
   daily_news: "Daily News", daily_news_bankruptcy: "Distress Signals",
@@ -38,6 +42,13 @@ SOURCE_LABELS[DASHBOARD_SOURCE] = "All Events";
 // extracted event at once, versus the Dashboard's summary view.
 const ALL_SOURCES = "__all__";
 SOURCE_LABELS[ALL_SOURCES] = "All Sources";
+
+// Also fetches every source with no source param, same trick as All
+// Sources, but then keeps only rows an analyst has sent to the calling
+// team (completion_status === CALLING_TEAM_STATUS) -- a work queue that
+// spans every source rather than a source of its own.
+const CALLING_TEAM_SOURCE = "__calling_team__";
+SOURCE_LABELS[CALLING_TEAM_SOURCE] = "Call To Confirm";
 
 // "Individual Source" is a top-level nav tab that reveals a second row of
 // per-source buttons (Store News, CT Scoop, ...) instead of listing them
@@ -186,7 +197,7 @@ function saveColWidths(storageKey, widths) {
 const SOURCE_DEFAULT_WIDTHS = {
   source: 130, company: 190, event: 100, status: 150, date: 120, location: 150,
   description: 320, article: 90, published: 110, dateappended: 110, markdone: 190, assignedto: 160,
-  __assign: 170, __action: 190,
+  __assign: 170, __action: 190, __ctsentby: 140, __ctnotes: 260, __ctoutcome: 220,
 };
 const ARTICLE_DEFAULT_WIDTHS = {
   title: 260, company: 170, summary: 320, location: 140, published: 110,
@@ -631,7 +642,7 @@ function renderDashboardWidgets(rows) {
   });
 }
 
-async function setCompletionStatus(articleKey, companyName, status) {
+async function setCompletionStatus(articleKey, companyName, status, callingTeamNotes) {
   try {
     const mark = await fetchJSON(`${API}/article_marks`, {
       method: "POST",
@@ -640,6 +651,7 @@ async function setCompletionStatus(articleKey, companyName, status) {
         article_key: articleKey,
         company_name: companyName,
         completion_status: status,
+        calling_team_notes: callingTeamNotes || undefined,
         actor_analyst_id: currentUser.analyst_id,
       }),
     });
@@ -679,6 +691,29 @@ async function resetCompletionStatus(articleKey, companyName) {
     renderTableHead();
     applyFiltersAndRender();
     alert(`Could not reset status: ${e.message}`);
+  }
+}
+
+// The calling team's own outcome on an article an analyst already sent
+// them -- open to any analyst or admin (shared team-queue work, not tied
+// to one owner, unlike assignment/completion status above).
+async function setCallingTeamOutcome(articleKey, companyName, outcome) {
+  try {
+    const mark = await fetchJSON(`${API}/calling_team_outcome`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        article_key: articleKey,
+        outcome,
+        actor_analyst_id: currentUser.analyst_id,
+      }),
+    });
+    marksCache[mark.article_key] = mark;
+    applyFiltersAndRender();
+  } catch (e) {
+    await loadMarks().catch(() => {});
+    applyFiltersAndRender();
+    alert(`Could not save outcome: ${e.message}`);
   }
 }
 
@@ -932,10 +967,22 @@ function getFilteredSortedRows() {
 
 // ---- popover (Excel-style autofilter dropdown) ---------------------------
 
+// Set by a popover that needs cleanup on ANY dismissal path (explicit
+// Cancel, clicking outside, opening a different popover) -- not just its
+// own Cancel button. Used by the calling-team notes prompt to revert the
+// status dropdown back to its previous value if the prompt gets dismissed
+// without actually submitting.
+let popoverCloseCallback = null;
+
 function closePopover() {
   const existing = document.getElementById("activePopover");
   if (existing) existing.remove();
   document.removeEventListener("mousedown", onDocMouseDown, true);
+  if (popoverCloseCallback) {
+    const cb = popoverCloseCallback;
+    popoverCloseCallback = null;
+    cb();
+  }
 }
 
 function onDocMouseDown(e) {
@@ -964,6 +1011,42 @@ function openPopoverAt(anchorEl, contentEl) {
     }
   });
   setTimeout(() => document.addEventListener("mousedown", onDocMouseDown, true), 0);
+}
+
+// Required before an article can be marked "Send to the Calling Team" --
+// blank notes aren't allowed (enforced again server-side). Any way of
+// dismissing this without hitting Send (Cancel, clicking outside) reverts
+// the status dropdown via popoverCloseCallback instead of leaving it
+// showing a status that was never actually submitted.
+function promptCallingTeamNotes(anchorEl, previousValue, onConfirm) {
+  const box = document.createElement("div");
+  box.innerHTML = `
+    <div class="popover-search">
+      <label style="display:block;font-size:12px;font-weight:600;margin-bottom:6px;color:var(--text)">Notes for the calling team</label>
+      <textarea class="pf-text ct-notes-input" rows="3" placeholder="What should the calling team know?" style="width:100%;resize:vertical;box-sizing:border-box;"></textarea>
+    </div>
+    <div class="popover-footer">
+      <button class="mini-link" data-act="cancel">Cancel</button>
+      <button class="tool-btn small" data-act="send">Send</button>
+    </div>`;
+  const textarea = box.querySelector(".ct-notes-input");
+
+  openPopoverAt(anchorEl, box);
+  textarea.focus();
+  popoverCloseCallback = () => { anchorEl.value = previousValue || ""; };
+
+  box.querySelector('[data-act="cancel"]').addEventListener("click", () => closePopover());
+  box.querySelector('[data-act="send"]').addEventListener("click", () => {
+    const notes = textarea.value.trim();
+    if (!notes) {
+      textarea.style.borderColor = "#dc2626";
+      textarea.focus();
+      return;
+    }
+    popoverCloseCallback = null; // successful submit -- don't revert the dropdown
+    closePopover();
+    onConfirm(notes);
+  });
 }
 
 function openSelectFilter(col, anchorEl) {
@@ -1096,6 +1179,11 @@ function renderSourceColGroup(visibleCols) {
   });
   html += `<col data-colkey="__assign" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__assign")}px">`;
   html += `<col data-colkey="__action" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__action")}px">`;
+  if (currentSource === CALLING_TEAM_SOURCE) {
+    html += `<col data-colkey="__ctsentby" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__ctsentby")}px">`;
+    html += `<col data-colkey="__ctnotes" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__ctnotes")}px">`;
+    html += `<col data-colkey="__ctoutcome" style="width:${colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, "__ctoutcome")}px">`;
+  }
   cg.innerHTML = html;
 }
 
@@ -1171,6 +1259,23 @@ function renderTableHead() {
   actionTh.textContent = "Action";
   attachColResize(actionTh, "__action", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
   tr.appendChild(actionTh);
+
+  if (currentSource === CALLING_TEAM_SOURCE) {
+    const sentByTh = document.createElement("th");
+    sentByTh.textContent = "Sent by";
+    attachColResize(sentByTh, "__ctsentby", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    tr.appendChild(sentByTh);
+
+    const notesTh = document.createElement("th");
+    notesTh.textContent = "Notes";
+    attachColResize(notesTh, "__ctnotes", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    tr.appendChild(notesTh);
+
+    const outcomeTh = document.createElement("th");
+    outcomeTh.textContent = "Outcome";
+    attachColResize(outcomeTh, "__ctoutcome", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    tr.appendChild(outcomeTh);
+  }
 
   thead.innerHTML = "";
   thead.appendChild(tr);
@@ -1267,8 +1372,15 @@ function buildStatusCell(r, existingMark) {
 
   select.addEventListener("change", (e) => {
     const value = e.target.value;
-    if (!value) resetCompletionStatus(markKey(r), r.company_name);
-    else setCompletionStatus(markKey(r), r.company_name, value);
+    if (!value) {
+      resetCompletionStatus(markKey(r), r.company_name);
+    } else if (value === CALLING_TEAM_STATUS) {
+      promptCallingTeamNotes(select, currentStatus, (notes) => {
+        setCompletionStatus(markKey(r), r.company_name, value, notes);
+      });
+    } else {
+      setCompletionStatus(markKey(r), r.company_name, value);
+    }
   });
   td.appendChild(select);
 
@@ -1284,6 +1396,64 @@ function buildStatusCell(r, existingMark) {
       meta.appendChild(document.createTextNode(" · "));
       meta.appendChild(uncheckBtn);
     }
+    td.appendChild(meta);
+  }
+  return td;
+}
+
+// Open to any analyst or admin -- see setCallingTeamOutcome(). Picking
+// "Other" reveals a free-text box instead of submitting immediately;
+// the three fixed options submit as soon as they're chosen.
+function buildCallingTeamOutcomeCell(r, existingMark) {
+  const td = document.createElement("td");
+  const currentOutcome = existingMark ? existingMark.calling_team_outcome : null;
+  const fixedOutcomes = CALLING_TEAM_OUTCOMES.slice(0, -1); // everything but "Other"
+  const isCustom = currentOutcome && !fixedOutcomes.includes(currentOutcome);
+
+  const select = document.createElement("select");
+  select.className = "analyst-select";
+  let opts = `<option value="">— Select outcome —</option>`;
+  CALLING_TEAM_OUTCOMES.forEach((o) => {
+    const selected = o === currentOutcome || (o === "Other" && isCustom);
+    opts += `<option value="${o}" ${selected ? "selected" : ""}>${o}</option>`;
+  });
+  select.innerHTML = opts;
+  td.appendChild(select);
+
+  const customInput = document.createElement("input");
+  customInput.type = "text";
+  customInput.placeholder = "Type the outcome…";
+  customInput.className = "pf-text";
+  customInput.style.marginTop = "6px";
+  customInput.style.display = isCustom ? "block" : "none";
+  if (isCustom) customInput.value = currentOutcome;
+  td.appendChild(customInput);
+
+  function submit(value) {
+    if (!value) return;
+    setCallingTeamOutcome(markKey(r), r.company_name, value);
+  }
+
+  select.addEventListener("change", (e) => {
+    const value = e.target.value;
+    if (value === "Other") {
+      customInput.style.display = "block";
+      customInput.value = "";
+      customInput.focus();
+    } else {
+      customInput.style.display = "none";
+      submit(value);
+    }
+  });
+  customInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { e.preventDefault(); submit(customInput.value.trim()); }
+  });
+  customInput.addEventListener("blur", () => submit(customInput.value.trim()));
+
+  if (currentOutcome) {
+    const meta = document.createElement("div");
+    meta.className = "status-meta";
+    meta.textContent = existingMark.calling_team_outcome_by ? `by ${analystName(existingMark.calling_team_outcome_by)}` : "";
     td.appendChild(meta);
   }
   return td;
@@ -1354,6 +1524,18 @@ function applyFiltersAndRender() {
 
     tr.appendChild(buildAssignCell(r, existingMark));
     tr.appendChild(buildStatusCell(r, existingMark));
+
+    if (currentSource === CALLING_TEAM_SOURCE) {
+      const sentByTd = document.createElement("td");
+      sentByTd.textContent = existingMark && existingMark.marked_by ? analystName(existingMark.marked_by) : "—";
+      tr.appendChild(sentByTd);
+
+      const notesTd = document.createElement("td");
+      notesTd.textContent = (existingMark && existingMark.calling_team_notes) || "—";
+      tr.appendChild(notesTd);
+
+      tr.appendChild(buildCallingTeamOutcomeCell(r, existingMark));
+    }
 
     // Ctrl/Cmd+click toggles one row; Shift+click selects the range from the
     // last-clicked row. Clicks on real controls (links, selects, buttons, the
@@ -1659,12 +1841,15 @@ function showSubTab(subtab) {
 async function loadSourceTable(source) {
   currentSource = source;
   const isDashboard = source === DASHBOARD_SOURCE;
-  const isAllSources = source === DASHBOARD_SOURCE || source === ALL_SOURCES;
+  const isCallingTeam = source === CALLING_TEAM_SOURCE;
+  const isAllSources = source === DASHBOARD_SOURCE || source === ALL_SOURCES || isCallingTeam;
 
   document.getElementById("sourceTitle").textContent = isDashboard
     ? "All Events — every source, filtered below"
     : source === ALL_SOURCES
     ? "All Sources — every extracted event, one table"
+    : isCallingTeam
+    ? "Call To Confirm — articles sent to the calling team, across every source"
     : `${SOURCE_LABELS[source] || source} — extracted events`;
 
   // The dashboard's summary widgets only make sense above the unified
@@ -1678,7 +1863,7 @@ async function loadSourceTable(source) {
   // Sources, which is still a real, addable table) hides it entirely. All
   // Sources instead shows an explicit Source picker inside the menu.
   const addMenuWrap = document.getElementById("addMenuWrap");
-  if (addMenuWrap) addMenuWrap.style.display = isDashboard ? "none" : "";
+  if (addMenuWrap) addMenuWrap.style.display = (isDashboard || isCallingTeam) ? "none" : "";
   const addSourceWrap = document.getElementById("addMenuSourceWrap");
   if (addSourceWrap) {
     addSourceWrap.style.display = source === ALL_SOURCES ? "flex" : "none";
@@ -1721,6 +1906,14 @@ async function loadSourceTable(source) {
     loadMarks().catch(() => {}),
   ]);
   currentRows = rows;
+  if (isCallingTeam) {
+    // A work queue spanning every source, not a source of its own -- keep
+    // only rows an analyst has actually sent to the calling team.
+    currentRows = currentRows.filter((r) => {
+      const m = marksCache[markKey(r)];
+      return m && m.completion_status === CALLING_TEAM_STATUS;
+    });
+  }
   if (isDashboard && currentUser.role !== "admin") {
     const col = COLUMNS.find((c) => c.key === "assignedto");
     const allValues = new Set(currentRows.map((r) => col.getValue(r)));
