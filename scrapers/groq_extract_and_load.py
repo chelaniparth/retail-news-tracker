@@ -236,7 +236,7 @@ def _fetch_article_selenium(url: str) -> str:
         driver.get(url)
         time.sleep(3)  # let client-side JS render the article body
         rendered = _extract_body_text(driver.page_source)
-        print(f"    (selenium render: {len(rendered)} chars)")
+        print(f"    (selenium render: {len(rendered)} chars: {rendered[:300]!r})")
         return rendered
     except Exception as exc:
         print(f"    (selenium fetch failed: {exc})")
