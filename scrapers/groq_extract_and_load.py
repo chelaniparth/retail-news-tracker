@@ -232,24 +232,34 @@ def _fetch_article_selenium(url: str) -> str:
     driver = _get_selenium_driver()
     if not driver:
         return ""
+    marker = "All Mass Posts"  # the final, constant item in this site's nav sidebar
     try:
         driver.get(url)
-        time.sleep(3)  # let client-side JS render the article body
-        # _extract_body_text()'s article/main/".content"-class heuristic
-        # doesn't match this site's markup at all -- it isn't semantic HTML
-        # (no real <nav>/<article> tags) and whatever div DOES match
-        # "content" in its class turned out to be the cookie-consent widget,
-        # not the article. Confirmed by diagnostic: the full unfiltered page
-        # text (17k+ chars) clearly contains the real headline and body --
-        # they just sit right after the last nav item, which this site
-        # always renders as "All Mass Posts" (the final county link in its
-        # sidebar), so slicing from there reliably skips the cookie-consent
-        # banner and full nav tree and keeps only the real content.
+        # A fixed sleep proved unreliable -- across identical runs the page
+        # settled into different transient states (once nav-only text, once
+        # a "$0.00 cart" popup), never the real article. A cookie-consent
+        # overlay sits on top of every page load and is the likely cause,
+        # so try clicking through it while polling for the nav's known
+        # final item to actually appear, instead of guessing a fixed delay.
+        for _ in range(8):
+            if marker in driver.page_source:
+                break
+            try:
+                for el in driver.find_elements(
+                    "xpath",
+                    "//*[self::button or self::a]"
+                    "[contains(translate(text(), 'AGREE', 'agree'), 'agree') "
+                    "or contains(translate(text(), 'ACCEPT', 'accept'), 'accept')]",
+                ):
+                    el.click()
+                    break
+            except Exception:
+                pass
+            time.sleep(0.5)
         soup = BeautifulSoup(driver.page_source, "html.parser")
         for tag in soup(["script", "style"]):
             tag.decompose()
         full_text = soup.get_text(separator=" ", strip=True)
-        marker = "All Mass Posts"
         idx = full_text.rfind(marker)
         content = full_text[idx + len(marker):] if idx != -1 else full_text
         return content.strip()[:MAX_CHARS]
