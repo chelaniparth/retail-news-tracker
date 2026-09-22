@@ -11,8 +11,8 @@
 ---
 
 **Non-working or unusable articles List:**
-- Article 1 — Reason: no business details
-- Article 2 — Reason: no business details
-- Article 3 — Reason: no business details
-- Article 4 — Reason: no business details
-- Article 5 — Reason: no business details
+- Article 1 — Reason: no business details provided
+- Article 2 — Reason: no business details provided
+- Article 3 — Reason: no business details provided
+- Article 4 — Reason: no business details provided
+- Article 5 — Reason: no business details provided
