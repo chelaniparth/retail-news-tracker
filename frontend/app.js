@@ -861,9 +861,15 @@ function rowMatchesFilters(r) {
       if (!hay.includes(f.text.toLowerCase())) return false;
     } else if (col.type === "date" && (f.from || f.to)) {
       const raw = toISODateOnly(col.getValue(r));
-      if (!raw) return false; // unparseable/missing -- can't confirm it's in range
-      if (f.from && raw < f.from) return false;
-      if (f.to && raw > f.to) return false;
+      // A row with no date for this column (common for manually-added
+      // articles like Google Alerts, which skip full extraction) isn't
+      // confirmed out of range -- it's simply unknown, so a date filter on
+      // one column shouldn't silently hide it. Only rows with an actual
+      // date outside the chosen range get excluded.
+      if (raw) {
+        if (f.from && raw < f.from) return false;
+        if (f.to && raw > f.to) return false;
+      }
     }
   }
   if (globalSearchText) {
@@ -1047,7 +1053,7 @@ function openColumnsMenu() {
 
 function renderSourceColGroup(visibleCols) {
   const cg = document.getElementById("sourceColGroup");
-  let html = `<col style="width:34px">`;
+  let html = `<col style="width:34px"><col style="width:48px">`;
   visibleCols.forEach((col) => {
     let w = colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key);
     if (sourceWrap && CLIP_COLUMN_KEYS.has(col.key)) w += WRAP_WIDTH_BUMP;
@@ -1083,6 +1089,14 @@ function renderTableHead() {
   });
   selectTh.appendChild(selectAllCb);
   tr.appendChild(selectTh);
+
+  // Position in the currently filtered/sorted list, not a fixed database
+  // ID -- recomputed on every render, so it always reads 1, 2, 3... for
+  // whatever's actually showing instead of jumping around with the
+  // underlying event_id.
+  const numTh = document.createElement("th");
+  numTh.textContent = "#";
+  tr.appendChild(numTh);
 
   // The Dashboard's analyst lock for non-admins would otherwise be one
   // click away from being undone via this exact column's own filter icon
@@ -1289,6 +1303,11 @@ function applyFiltersAndRender() {
     if (selectedIds.has(r.event_id)) tr.classList.add("row-selected");
 
     tr.appendChild(buildSelectCell(r));
+
+    const numTd = document.createElement("td");
+    numTd.textContent = start + index + 1;
+    numTd.style.color = "var(--muted)";
+    tr.appendChild(numTd);
 
     visibleCols.forEach((col) => {
       const td = document.createElement("td");
