@@ -943,18 +943,25 @@ function getFilteredSortedRows() {
       });
     }
   } else {
-    // Default view (no column sort chosen yet): surface what still needs
-    // action -- unassigned rows and rows assigned to ME stay up top,
-    // rows someone ELSE has already claimed sink toward the bottom.
-    // Deliberately not "any assigned row sinks" -- claiming an article
-    // for yourself must not immediately yank it out of view while you're
-    // still working on it. Array.sort is stable, so each group keeps its
-    // original (newest-first, per the API) order.
+    // Default view (no column sort chosen yet): three tiers -- rows
+    // assigned to ME first (0), unassigned rows next (1), rows someone
+    // ELSE has already claimed sink to the bottom (2). Putting "mine" in
+    // its own top tier (not just lumped in with "unassigned" and then
+    // sorted by date within that shared group) matters: with hundreds of
+    // older unassigned rows, claiming one for yourself would otherwise
+    // still bury it deep in the list behind all of them the instant the
+    // date-based secondary sort ran -- it has to outrank date, not just
+    // outrank "assigned to someone else". Array.sort is stable, so each
+    // tier keeps its original (newest-first, per the API) order beyond
+    // the date sort below.
     rows = rows.slice().sort((a, b) => {
-      const aMark = marksCache[markKey(a)];
-      const bMark = marksCache[markKey(b)];
-      const aAssigned = (aMark && aMark.assigned_to && aMark.assigned_to !== currentUser.analyst_id) ? 1 : 0;
-      const bAssigned = (bMark && bMark.assigned_to && bMark.assigned_to !== currentUser.analyst_id) ? 1 : 0;
+      const rank = (r) => {
+        const m = marksCache[markKey(r)];
+        if (!m || !m.assigned_to) return 1;
+        return m.assigned_to === currentUser.analyst_id ? 0 : 2;
+      };
+      const aAssigned = rank(a);
+      const bAssigned = rank(b);
       if (aAssigned !== bAssigned) return aAssigned - bAssigned;
       // Within each group, oldest date_appended first -- e.g. on the 22nd,
       // the 21st's backlog surfaces before today's, so nothing sits
