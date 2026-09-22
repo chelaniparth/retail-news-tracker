@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "data": [
+    {
+      "title": "3 of the Newest Sarasota County Restaurants Coming Soon",
+      "link": "https://www.businessdebut.com/3-new-coming-soon-sarasota-county-restaurants-2/",
+      "date": "2026-09-21"
+    },
     {
       "title": "New in Zephyrhills: Adesso Pizzeria Opening Soon",
       "link": "https://www.businessdebut.com/new-in-zephyrhills-adesso-pizzeria-opening-soon/",
@@ -27,11 +32,6 @@
       "date": "2026-09-17"
     },
     {
-      "title": "This Couple is Opening West Palm Beach's Newest Coffee Shop (the Smart Way)",
-      "link": "https://www.businessdebut.com/this-couple-is-opening-west-palm-beachs-newest-coffee-shop-the-smart-way/",
-      "date": "2026-09-15"
-    },
-    {
       "title": "New in Panama City: Siren Restaurant & Cocktail Bar Opening Soon",
       "link": "https://www.businessdebut.com/new-in-panama-city-siren-restaurant-cocktail-bar-opening-soon/",
       "date": "2026-09-15"
@@ -47,13 +47,18 @@
       "date": "2026-09-15"
     },
     {
-      "title": "New in Orlando: The French Cafe Opening Second Location",
-      "link": "https://www.businessdebut.com/new-in-orlando-the-french-cafe-opening-second-location/",
-      "date": "2026-09-14"
+      "title": "This Couple is Opening West Palm Beach's Newest Coffee Shop (the Smart Way)",
+      "link": "https://www.businessdebut.com/this-couple-is-opening-west-palm-beachs-newest-coffee-shop-the-smart-way/",
+      "date": "2026-09-15"
     },
     {
       "title": "New in Hiram: Green Tomato Buffet Opening With Southern Favorites",
       "link": "https://www.businessdebut.com/new-in-hiram-green-tomato-buffet-opening-with-southern-favorites/",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "New in Orlando: The French Cafe Opening Second Location",
+      "link": "https://www.businessdebut.com/new-in-orlando-the-french-cafe-opening-second-location/",
       "date": "2026-09-14"
     },
     {
