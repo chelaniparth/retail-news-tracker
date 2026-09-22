@@ -244,10 +244,14 @@ def fetch_article(url: str) -> str:
     text = _fetch_article_plain(url)
     # A JS-rendered page (CT Scoop's site does exactly this) returns a full
     # HTML page -- just nothing but nav/menu chrome, since the real article
-    # body only appears after client-side JS runs. A suspiciously short
-    # extraction is the signal to retry with a real (headless) browser
-    # instead of accepting "no qualifying business found" for every article.
-    if len(text) < 200 and not text.startswith("[Could not fetch"):
+    # body only appears after client-side JS runs. Confirmed directly
+    # against a live CT Scoop URL: that nav-only junk text is ~538 chars on
+    # its own, so a 200-char threshold never actually caught it and the
+    # Selenium fallback silently never fired. 900 sits comfortably above
+    # that junk-text length while still being well under what a real
+    # article body runs (articles here are typically well over 1000 chars,
+    # capped at MAX_CHARS=3000).
+    if len(text) < 900 and not text.startswith("[Could not fetch"):
         rendered = _fetch_article_selenium(url)
         if len(rendered) > len(text):
             return rendered
