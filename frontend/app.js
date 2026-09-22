@@ -584,6 +584,23 @@ function renderDashboardWidgets(rows) {
   renderBarList(document.getElementById("typeChart"), Object.entries(byType), (label) => TYPE_COLORS[label] || "#5b8cff");
   renderBarList(document.getElementById("sourceChart"), Object.entries(bySource), () => "#2563eb");
 
+  // How many of the currently-filtered rows are marked "Add", "Edit", "Send
+  // to the Calling Team", etc. -- non-admins are already locked to just
+  // their own assigned rows elsewhere on this tab, so this naturally reads
+  // as their own tally; Admin (unfiltered) sees the combined total across
+  // everyone. Rows with no completion status set yet aren't counted here --
+  // the "Unassigned"/"Completed" cards above already cover that.
+  const byCompletion = {};
+  rows.forEach((r) => {
+    const m = marksCache[markKey(r)];
+    const status = m && m.completion_status;
+    if (status) byCompletion[status] = (byCompletion[status] || 0) + 1;
+  });
+  const completionEntries = COMPLETION_STATUSES
+    .filter((s) => byCompletion[s])
+    .map((s) => [s, byCompletion[s]]);
+  renderBarList(document.getElementById("completionChart"), completionEntries, () => "#7c3aed");
+
   const byAnalystWorkload = {};
   rows.forEach((r) => {
     const m = marksCache[markKey(r)];
@@ -900,7 +917,15 @@ function getFilteredSortedRows() {
     rows = rows.slice().sort((a, b) => {
       const aAssigned = (marksCache[markKey(a)] && marksCache[markKey(a)].assigned_to) ? 1 : 0;
       const bAssigned = (marksCache[markKey(b)] && marksCache[markKey(b)].assigned_to) ? 1 : 0;
-      return aAssigned - bAssigned;
+      if (aAssigned !== bAssigned) return aAssigned - bAssigned;
+      // Within each group, oldest date_appended first -- e.g. on the 22nd,
+      // the 21st's backlog surfaces before today's, so nothing sits
+      // unnoticed in the queue. Rows with no date (shouldn't normally
+      // happen -- date_appended defaults on insert) sort last within their
+      // group rather than crowding the top.
+      const aDate = toISODateOnly(a.date_appended) || "9999-99-99";
+      const bDate = toISODateOnly(b.date_appended) || "9999-99-99";
+      return aDate < bDate ? -1 : aDate > bDate ? 1 : 0;
     });
   }
   return rows;
