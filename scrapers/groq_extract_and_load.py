@@ -281,7 +281,6 @@ def fetch_article(url: str) -> str:
     # capped at MAX_CHARS=3000).
     if len(text) < 900 and not text.startswith("[Could not fetch"):
         rendered = _fetch_article_selenium(url)
-        print(f"    (plain fetch: {len(text)} chars; selenium fetch: {len(rendered)} chars: {rendered[:200]!r})")
         if len(rendered) > len(text):
             return rendered
     return text
