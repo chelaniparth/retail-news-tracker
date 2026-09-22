@@ -944,13 +944,17 @@ function getFilteredSortedRows() {
     }
   } else {
     // Default view (no column sort chosen yet): surface what still needs
-    // action -- unassigned rows first, already-assigned ones sink toward
-    // the bottom -- instead of leaving open work mixed in with whatever
-    // someone's already on. Array.sort is stable, so each group keeps its
+    // action -- unassigned rows and rows assigned to ME stay up top,
+    // rows someone ELSE has already claimed sink toward the bottom.
+    // Deliberately not "any assigned row sinks" -- claiming an article
+    // for yourself must not immediately yank it out of view while you're
+    // still working on it. Array.sort is stable, so each group keeps its
     // original (newest-first, per the API) order.
     rows = rows.slice().sort((a, b) => {
-      const aAssigned = (marksCache[markKey(a)] && marksCache[markKey(a)].assigned_to) ? 1 : 0;
-      const bAssigned = (marksCache[markKey(b)] && marksCache[markKey(b)].assigned_to) ? 1 : 0;
+      const aMark = marksCache[markKey(a)];
+      const bMark = marksCache[markKey(b)];
+      const aAssigned = (aMark && aMark.assigned_to && aMark.assigned_to !== currentUser.analyst_id) ? 1 : 0;
+      const bAssigned = (bMark && bMark.assigned_to && bMark.assigned_to !== currentUser.analyst_id) ? 1 : 0;
       if (aAssigned !== bAssigned) return aAssigned - bAssigned;
       // Within each group, oldest date_appended first -- e.g. on the 22nd,
       // the 21st's backlog surfaces before today's, so nothing sits
