@@ -10,16 +10,15 @@ const SOURCE_LABELS = {
   banner: "Store News", ct_scoop: "CT Scoop", restaurant: "Restaurant News",
   daily_news: "Daily News", daily_news_bankruptcy: "Distress Signals",
   businessdebut: "BusinessDebut", google_alerts: "Google Alerts",
+  miscellaneous: "Miscellaneous",
 };
 
-// Every source a manually-added article can be filed under, from the All
-// Sources view's own Source picker (every other tab already implies its
-// source). Google Alerts has no scraper/tab of its own -- it only exists
-// as a destination for these manual adds.
-const ADDABLE_SOURCES = [
-  "google_alerts", "banner", "ct_scoop", "restaurant",
-  "daily_news", "businessdebut", "daily_news_bankruptcy",
-];
+// The only two sources a manually-added article can be filed under, from
+// the All Sources view's own Source picker (every other tab already
+// implies its own source, and those are scraper-fed -- not meant for ad-hoc
+// manual adds). Neither has a scraper/tab of its own; they only exist as
+// destinations for these manual adds.
+const ADDABLE_SOURCES = ["google_alerts", "miscellaneous"];
 
 // The Dashboard tab is just another "source" as far as the grid engine is
 // concerned: fetching store_events with no source param already returns
