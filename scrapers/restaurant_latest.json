@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-09-20 23:15 UTC",
+  "last_updated": "2026-09-22 00:05 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/miami/restaurants/air-to-offer-a-french-asian-dining-experience-on-the-miami-river/",
+      "title": "AIR to Offer a French/Asian Dining Experience on the Miami River",
+      "address": "412 NW N River Dr, Miami, FL 33128"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/cascara-coffee-setting-up-third-cafe-in-downtown-fenton-this-year/",
+      "title": "Cascara Coffee Setting Up Third Cafe in Downtown Fenton This Year",
+      "address": "104 S Leroy St, Fenton, MI 48430"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/miami/restaurants/jersey-mikes-to-open-in-wellington/",
+      "title": "Jersey Mike's to Open in Wellington",
+      "address": "4235 Chukka Ln, Lake Wellington, FL 33467"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/miami/restaurants/parma-palm-beach-to-open-with-sandwiches-and-more/",
+      "title": "Parma Palm Beach to Open with Sandwiches and More",
+      "address": "7170 S Dixie Hwy, West Palm Beach, FL 33405"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/new-daves-hot-chicken-under-construction-in-bloomingdale/",
+      "title": "New Dave’s Hot Chicken Under Construction in Bloomingdale",
+      "address": "252 S Gary Ave, Bloomingdale, IL 60108"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/ess-a-bagel-brings-acclaimed-bagels-to-downtown-nyc/",
+      "title": "Ess-a-Bagel Brings Acclaimed Bagels to Downtown NYC",
+      "address": "10 Murray St., New York, NY 10007"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/melway-burgers-upgrading-to-brick-and-mortar-in-hamtramck-storefront/",
+      "title": "Melway Burgers Upgrading to Brick-and-Mortar in Hamtramck Storefront",
+      "address": "10335 Joseph Campau Ave, Hamtramck, MI 48212"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/flavor-with-a-mission-rumblefish-coming-to-philadelphia/",
+      "title": "Flavor With a Mission: Rumblefish Coming to Philadelphia",
+      "address": "1700 N 3rd St., Philadelphia, PA 19122"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/miami/restaurants/vicky-bakery-is-bringing-sweetness-to-oakwood-plaza/",
+      "title": "Vicky Bakery is Bringing Sweetness to Oakwood Plaza",
+      "address": "3501 Oakwood Blvd, Hollywood, FL 33020"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/miami/restaurants/nicola-siervo-to-open-mercante-on-the-miami-river/",
+      "title": "Nicola Siervo to Open Mercante on the Miami River",
+      "address": "404 NW N River Dr, Miami, FL 33128"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/flagship-beach-bar-coming-to-still-rebuilding-mississippi-coast-town/",
+      "title": "Flagship Beach Bar Coming to Still-Rebuilding Mississippi Coast Town",
+      "address": "207 Coleman Ave, Waveland, MS 39576"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/a-new-2500-square-foot-pilates-studio-is-opening-in-midtown-manhattan/",
+      "title": "A New 2,500-Square-Foot Pilates Studio Is Opening in Midtown Manhattan",
+      "address": "600 W 57th St, New York, NY 10019"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/a-franklin-bar-is-closing-after-20-years-following-beer-board-hearing/",
+      "title": "A Franklin Bar Is Closing After 20 Years Following Beer Board Hearing",
+      "address": "9135 Carothers Pkwy #100, Franklin, TN 37067, United States"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/rancho-cantina-expands-to-danville-with-ranch-to-table-dining-offering-grand-opening-chances-to-win-500-in-free-tacos-and-free-tacos-for-a-year/",
+      "title": "Rancho Cantina Expands to Danville with Ranch-To-Table Dining, Offering Grand Opening Chances to Win $500 in Free Tacos and Free Tacos for a Year | What Now San Francisco",
+      "address": "501 Hartz Ave, Danville, CA 94526"
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-across-metro-atlanta-last-week-sep-14-20/",
+      "title": "5 Upcoming Restaurant Openings We Reported Across Metro Atlanta Last Week (Sep 14-20)",
+      "address": ""
+    },
+    {
+      "date": "September 21, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/a-tacoma-taproom-is-closing-september-26-after-7-years-at-its-current-location/",
+      "title": "A Tacoma Taproom Is Closing September 26 After 7 Years at Its Current Location",
+      "address": "2115 S C St, Tacoma, WA 98402"
+    },
     {
       "date": "September 20, 2026",
       "url": "https://whatnow.com/memphis/restaurants/kosciusko-getting-a-taste-of-a-chicken-heavy-hitter/",
@@ -409,102 +505,6 @@
       "url": "https://whatnow.com/miami/restaurants/cold-stone-creamery-plans-to-sweeten-up-oakland-park-with-new-location/",
       "title": "Cold Stone Creamery Plans to Sweeten Up Oakland Park With New Location",
       "address": "885 E Commercial Blvd., Oakland Park, FL 33064"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/bean-and-batter-catering-moving-to-brick-and-mortar-in-chesterfield/",
-      "title": "Bean and Batter Catering Moving to Brick-and-Mortar in Chesterfield",
-      "address": "51808 Gratiot Ave, New Baltimore, MI 48051"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/trio-burger-coming-soon-to-columbus-area/",
-      "title": "TRIO Burger Coming Soon to Columbus Area",
-      "address": "1329 Cameron Ave, Lewis Center, OH 43035, USA"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/boston/restaurants/badam-uyghur-cuisine-bringing-traditional-dishes-to-watertown-this-fall/",
-      "title": "Badam Uyghur Cuisine Bringing Traditional Dishes to Watertown This Fall",
-      "address": "58 Mt Auburn St, Watertown, MA 02472"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/the-scoop-n-scootery-planning-first-georgia-location/",
-      "title": "The Scoop N Scootery Planning First Georgia Location | What Now Atlanta",
-      "address": "335 W Ponce de Leon Ave d, Decatur, GA 30030"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/kwality-ice-cream-plans-second-frisco-location/",
-      "title": "Kwality Ice Cream Plans Second Frisco Location",
-      "address": "2275 W University Dr, Prosper, TX 75078, USA"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/chuys-could-bring-its-tex-mex-favorites-to-cookeville-in-2027/",
-      "title": "Chuy’s Could Bring Its Tex-Mex Favorites to Cookeville in 2027",
-      "address": "Cookeville, TN 38501, USA"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/the-lunch-counter-relocating-to-larger-space-in-gainesville/",
-      "title": "The Lunch Counter Relocating to Larger Space in Gainesville | What Now Atlanta",
-      "address": "893 Main St SW, Gainesville, GA 30501"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/elk-street-nutrition-to-open-in-downtown-sandusky-this-year/",
-      "title": "Elk Street Nutrition to Open in Downtown Sandusky This Year",
-      "address": "21 S Elk St, Sandusky, MI 48471"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/general-admission-plans-fall-opening-in-old-town-scottsdale/",
-      "title": "General Admission Plans Fall Opening in Old Town Scottsdale",
-      "address": "3737 N Scottsdale Rd, Scottsdale, AZ 85251"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/beloved-neighborhood-cafe-to-closes-its-locations-in-brooklyn/",
-      "title": "Beloved Neighborhood Cafe to Closes Its Locations in Brooklyn",
-      "address": ""
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/country-music-spot-with-elevated-vibes-coming-to-slidell/",
-      "title": "Country Music Spot with Elevated Vibes Coming to Slidell",
-      "address": "2219 Carey St, Slidell, LA 70458"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/maison-fabrice-to-debut-as-intimate-french-bistro-in-hells-kitchen/",
-      "title": "Maison Fabrice to Debut as Intimate French Bistro in Hell’s Kitchen",
-      "address": "365 W 50th St., New York, NY 10019"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/austin/restaurants/wasa-brings-a-fresh-perspective-on-japanese-cuisine-to-austin-opening-september-18/",
-      "title": "Wasa Brings a Fresh Perspective on Japanese Cuisine to Austin, Opening September 18 | What Now Austin",
-      "address": "908 E 5th St., Austin, TX 78702"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/miami/restaurants/mercante-by-hospitality-veteran-nicola-siervo-opening-late-2026/",
-      "title": "Mercante By Hospitality Veteran Nicola Siervo Opening Late-2026 | What Now Miami",
-      "address": "404 NW North River Drive"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/hells-kitchen-to-welcome-new-greek-restaurant-this-october/",
-      "title": "Hell’s Kitchen to Welcome New Greek Restaurant This October",
-      "address": "600 9th Ave, New York, NY 10036"
-    },
-    {
-      "date": "September 18, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/beloved-royal-oak-ramen-spot-closed-its-doors-just-before-its-10-year-milestone/",
-      "title": "Beloved Royal Oak Ramen Spot Closed Its Doors Just Before Its 10-Year Milestone",
-      "address": "4313 W 13 Mile Rd, Royal Oak, MI 48073, United States"
     }
   ]
 }
