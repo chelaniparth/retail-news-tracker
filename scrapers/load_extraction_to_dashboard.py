@@ -169,11 +169,22 @@ def build_scraped_articles(source: str, raw_df: pd.DataFrame, cfg: dict) -> list
 
 
 def build_store_events(source: str, ext_df: pd.DataFrame, existing_keys: set,
-                        event_type_ids: dict, status_ids: dict) -> list:
+                        event_type_ids: dict, status_ids: dict, canonical_name: dict) -> list:
     rows = []
 
     for _, r in ext_df.iterrows():
         store_name = (r.get("store_name") or "").strip()
+        # companies.company_name is unique case-insensitively (a separate
+        # index from the exact-match one); store_events/scraped_articles FK
+        # to it by exact string. Resolving every row's name to the first-seen
+        # casing for that lowercase key -- both existing companies and ones
+        # first seen earlier in this same batch -- keeps every row's FK
+        # pointing at whichever single casing actually gets inserted, instead
+        # of the companies upsert silently deduping to one variant while a
+        # row here still references another (this is exactly what made a
+        # "Rōmyō" vs "rōmyō" collision fail the whole run on 2026-09-16).
+        if store_name:
+            store_name = canonical_name.setdefault(store_name.lower(), store_name)
         article_link = (r.get("article_link") or "").strip()
         event_type = (r.get("event_type") or "").strip()
         status = (r.get("status") or "").strip()
@@ -246,10 +257,23 @@ def main():
     existing_events = sb_get(SUPABASE_URL, SUPABASE_KEY, f"store_events?source=eq.{source}&select=article_link,company_name")
     existing_keys = {(e["article_link"], e["company_name"]) for e in existing_events}
 
-    articles_rows = build_scraped_articles(source, raw_df, cfg)
-    event_rows = build_store_events(source, ext_df, existing_keys, event_type_ids, status_ids)
+    canonical_name = {}
+    for c in sb_get(SUPABASE_URL, SUPABASE_KEY, "companies?select=company_name"):
+        canonical_name.setdefault(c["company_name"].lower(), c["company_name"])
+    existing_lower = set(canonical_name.keys())
 
-    unique_companies = sorted({r["company_name"] for r in event_rows if r["company_name"]})
+    articles_rows = build_scraped_articles(source, raw_df, cfg)
+    event_rows = build_store_events(source, ext_df, existing_keys, event_type_ids, status_ids, canonical_name)
+
+    # Only companies not already present (case-insensitively) need inserting --
+    # the REST upsert's on_conflict=company_name only matches the exact-case
+    # unique constraint, not the separate case-insensitive one, so a name
+    # differing only by case from an existing row would otherwise 409 instead
+    # of deduping.
+    unique_companies = sorted({
+        r["company_name"] for r in event_rows
+        if r["company_name"] and r["company_name"].lower() not in existing_lower
+    })
     unmapped_status = sum(1 for r in event_rows if r["event_type_id"] and not r["observation_status_id"])
 
     print(f"Source: {source}")

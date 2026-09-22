@@ -171,22 +171,97 @@ def make_chain(api_key: str, system_prompt: str):
     return prompt_template | llm | StrOutputParser()
 
 
-def fetch_article(url: str) -> str:
+def _extract_body_text(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
+        tag.decompose()
+    body = (
+        soup.find("article")
+        or soup.find("main")
+        or soup.find("div", class_=lambda c: c and "content" in c.lower())
+        or soup
+    )
+    return body.get_text(separator=" ", strip=True)[:MAX_CHARS]
+
+
+def _fetch_article_plain(url: str) -> str:
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
-            tag.decompose()
-        body = (
-            soup.find("article")
-            or soup.find("main")
-            or soup.find("div", class_=lambda c: c and "content" in c.lower())
-            or soup
-        )
-        return body.get_text(separator=" ", strip=True)[:MAX_CHARS]
+        return _extract_body_text(resp.text)
     except Exception as exc:
         return f"[Could not fetch article: {exc}]"
+
+
+# Lazily created, reused across every article in the run, and only ever
+# started at all if a plain fetch turns out too thin to need it -- most
+# sources never touch this. None = not yet tried; False = tried and
+# unavailable (no selenium installed / no Chrome on this runner), so later
+# calls skip straight past it instead of retrying a doomed import each time.
+_selenium_driver = None
+
+
+def _get_selenium_driver():
+    global _selenium_driver
+    if _selenium_driver is not None:
+        return _selenium_driver
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        from selenium.webdriver.chrome.service import Service
+
+        options = Options()
+        options.add_argument("--headless=new")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument(f"user-agent={HEADERS['User-Agent']}")
+        chrome_bin = os.environ.get("CHROME_BIN")
+        if chrome_bin:
+            options.binary_location = chrome_bin
+        driver_path = os.environ.get("CHROMEDRIVER_PATH")
+        service = Service(driver_path) if driver_path else Service()
+        _selenium_driver = webdriver.Chrome(service=service, options=options)
+        print("  (Selenium/Chrome available -- will use it for JS-rendered article pages)")
+    except Exception as exc:
+        print(f"  (Selenium unavailable, staying on plain-HTTP fetch only: {exc})")
+        _selenium_driver = False
+    return _selenium_driver
+
+
+def _fetch_article_selenium(url: str) -> str:
+    driver = _get_selenium_driver()
+    if not driver:
+        return ""
+    try:
+        driver.get(url)
+        time.sleep(2)  # let client-side JS render the article body
+        return _extract_body_text(driver.page_source)
+    except Exception:
+        return ""
+
+
+def fetch_article(url: str) -> str:
+    text = _fetch_article_plain(url)
+    # A JS-rendered page (CT Scoop's site does exactly this) returns a full
+    # HTML page -- just nothing but nav/menu chrome, since the real article
+    # body only appears after client-side JS runs. A suspiciously short
+    # extraction is the signal to retry with a real (headless) browser
+    # instead of accepting "no qualifying business found" for every article.
+    if len(text) < 200 and not text.startswith("[Could not fetch"):
+        rendered = _fetch_article_selenium(url)
+        if len(rendered) > len(text):
+            return rendered
+    return text
+
+
+def close_selenium_driver():
+    global _selenium_driver
+    if _selenium_driver:
+        try:
+            _selenium_driver.quit()
+        except Exception:
+            pass
+    _selenium_driver = None
 
 
 # ── Field normalization — every scraper spells these slightly differently ──
@@ -371,4 +446,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        close_selenium_driver()
