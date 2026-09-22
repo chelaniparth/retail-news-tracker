@@ -1,11 +1,18 @@
-**Extracted Business Information**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Hartford Flavor Cocktail Parlour | Address not specified | Closing | Not specified | closes | Hartford Flavor Cocktail Parlour has closed. The owners hope to reopen the venue under new ownership. | https://www.theconnecticutscoop.com/all-hartford-county-posts/hartford-scoop-hartford-flavor-cocktail-parlour-closes-hoping-to-reopen-under-new-ownership | 2026-09-21 |
-| Little Fox Bookshop | Address not specified | Opening | Not specified | opening this weekend | Little Fox Bookshop is set to open this weekend in Southbury. The announcement was made in a local news post. | https://www.theconnecticutscoop.com/all-new-haven-county-posts/southbury-scoop-little-fox-bookshop-opening-this-weekend-in-southbury | 2026-09-21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/hartford-scoop-hartford-flavor-cocktail-parlour-closes-hoping-to-reopen-under-new-ownership | 2026-09-21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/southbury-scoop-little-fox-bookshop-opening-this-weekend-in-southbury | 2026-09-21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/south-windsor-scoop-lenas-restaurant-to-close-in-south-windsor | 2026-09-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/manchester-scoop-shoprite-to-add-new-coffee-shop-to-manchester-store | 2026-09-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/bristol-scoop-phantom-fall-fest-opens-at-lake-compounce | 2026-09-20 |
 
 ---
 
-Non-working or unusable articles List:
-• None
+**Non-working or unusable articles List:**
+- Article 1 — Reason: no business details
+- Article 2 — Reason: no business details
+- Article 3 — Reason: no business details
+- Article 4 — Reason: no business details
+- Article 5 — Reason: no business details
