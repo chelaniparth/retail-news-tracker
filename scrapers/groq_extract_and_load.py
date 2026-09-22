@@ -235,21 +235,24 @@ def _fetch_article_selenium(url: str) -> str:
     try:
         driver.get(url)
         time.sleep(3)  # let client-side JS render the article body
-        raw_len = len(driver.page_source)
-        rendered = _extract_body_text(driver.page_source)
-        print(f"    (selenium raw page_source: {raw_len} chars; extracted: {len(rendered)} chars: {rendered[:300]!r})")
-        if raw_len > 5000:
-            # The raw rendered HTML is clearly not empty -- if the extracted
-            # text is still tiny, the div-matching heuristic below is
-            # grabbing the wrong element on this site, not a JS/timing
-            # problem. Print a slice of the full plain text (no div
-            # filtering at all) so the real structure is visible.
-            full_soup = BeautifulSoup(driver.page_source, "html.parser")
-            for tag in full_soup(["script", "style"]):
-                tag.decompose()
-            full_text = full_soup.get_text(separator=" ", strip=True)
-            print(f"    (selenium full page text, no div filter: {len(full_text)} chars: {full_text[:1500]!r})")
-        return rendered
+        # _extract_body_text()'s article/main/".content"-class heuristic
+        # doesn't match this site's markup at all -- it isn't semantic HTML
+        # (no real <nav>/<article> tags) and whatever div DOES match
+        # "content" in its class turned out to be the cookie-consent widget,
+        # not the article. Confirmed by diagnostic: the full unfiltered page
+        # text (17k+ chars) clearly contains the real headline and body --
+        # they just sit right after the last nav item, which this site
+        # always renders as "All Mass Posts" (the final county link in its
+        # sidebar), so slicing from there reliably skips the cookie-consent
+        # banner and full nav tree and keeps only the real content.
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        for tag in soup(["script", "style"]):
+            tag.decompose()
+        full_text = soup.get_text(separator=" ", strip=True)
+        marker = "All Mass Posts"
+        idx = full_text.rfind(marker)
+        content = full_text[idx + len(marker):] if idx != -1 else full_text
+        return content.strip()[:MAX_CHARS]
     except Exception as exc:
         print(f"    (selenium fetch failed: {exc})")
         return ""
