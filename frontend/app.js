@@ -50,6 +50,25 @@ SOURCE_LABELS[ALL_SOURCES] = "All Sources";
 const CALLING_TEAM_SOURCE = "__calling_team__";
 SOURCE_LABELS[CALLING_TEAM_SOURCE] = "Call To Confirm";
 
+// Same "fetch everything" trick again, kept to completed work only
+// (is_done) -- but excluding anything currently in the calling-team queue,
+// since that's Call To Confirm's own subset and showing it in both would
+// just be duplication. A top-level tab of its own (not under Individual
+// Source) since it spans every source, same reasoning as Call To Confirm.
+const COMPLETED_SOURCE = "__completed__";
+SOURCE_LABELS[COMPLETED_SOURCE] = "Articles Completed";
+
+// Tabs where completed work (is_done) is filtered OUT of the grid -- it
+// belongs in Articles Completed instead. Calling Team and Articles
+// Completed are themselves specific subsets of completed work, so they're
+// exempt; everything else (Dashboard, All Sources, every real source) is a
+// "still active" working view. Dashboard's own summary cards/charts are
+// unaffected by this -- they're computed before this filter runs, from
+// whatever the column filters already produced, same as always.
+function isMainWorkGrid(source) {
+  return source !== CALLING_TEAM_SOURCE && source !== COMPLETED_SOURCE;
+}
+
 // "Individual Source" is a top-level nav tab that reveals a second row of
 // per-source buttons (Store News, CT Scoop, ...) instead of listing them
 // directly in the main nav. currentSubSource remembers which one was picked
@@ -1510,26 +1529,40 @@ function applyFiltersAndRender() {
   const rowCount = document.getElementById("rowCount");
   const visibleCols = COLUMNS.filter((c) => !hiddenColumns.has(c.key));
 
-  rowCount.textContent = anyFilterActive()
-    ? `${allRows.length} of ${currentRows.length} events match`
-    : `${currentRows.length} events`;
-  document.getElementById("clearFiltersBtn").classList.toggle("active", anyFilterActive());
-
   // The dashboard's cards/charts/analyst-activity reflect every currently
-  // filtered row (not just the visible page), so they stay in sync with
-  // whatever the grid's column filters are doing.
+  // filtered row (not just the visible page or the grid's own completed-
+  // work exclusion below), so they stay in sync with whatever the grid's
+  // column filters are doing, and still count completed work as a summary
+  // stat even though the grid itself no longer lists it row by row.
   if (currentSource === DASHBOARD_SOURCE) {
     renderDashboardWidgets(allRows);
     syncDashboardFilterControls();
   }
 
-  const totalPages = Math.max(1, Math.ceil(allRows.length / sourcePage.pageSize));
+  // Completed work (is_done) moved to its own Articles Completed tab --
+  // Dashboard's own table, All Sources, and every Individual Source tab
+  // are "still active" views and no longer list it directly. Call To
+  // Confirm and Articles Completed are themselves specific subsets of
+  // completed work, so isMainWorkGrid() exempts them from this.
+  const gridRows = isMainWorkGrid(currentSource)
+    ? allRows.filter((r) => {
+        const m = marksCache[markKey(r)];
+        return !(m && m.is_done);
+      })
+    : allRows;
+
+  rowCount.textContent = anyFilterActive()
+    ? `${gridRows.length} of ${currentRows.length} events match`
+    : `${gridRows.length} events`;
+  document.getElementById("clearFiltersBtn").classList.toggle("active", anyFilterActive());
+
+  const totalPages = Math.max(1, Math.ceil(gridRows.length / sourcePage.pageSize));
   if (sourcePage.page > totalPages) sourcePage.page = totalPages;
   const start = (sourcePage.page - 1) * sourcePage.pageSize;
-  const rows = allRows.slice(start, start + sourcePage.pageSize);
+  const rows = gridRows.slice(start, start + sourcePage.pageSize);
   currentPageRows = rows;
 
-  renderPaginationBar("sourcePagination", sourcePage, allRows.length, applyFiltersAndRender);
+  renderPaginationBar("sourcePagination", sourcePage, gridRows.length, applyFiltersAndRender);
 
   body.innerHTML = "";
   if (!rows.length) {
@@ -1883,7 +1916,8 @@ async function loadSourceTable(source) {
   currentSource = source;
   const isDashboard = source === DASHBOARD_SOURCE;
   const isCallingTeam = source === CALLING_TEAM_SOURCE;
-  const isAllSources = source === DASHBOARD_SOURCE || source === ALL_SOURCES || isCallingTeam;
+  const isCompleted = source === COMPLETED_SOURCE;
+  const isAllSources = source === DASHBOARD_SOURCE || source === ALL_SOURCES || isCallingTeam || isCompleted;
 
   document.getElementById("sourceTitle").textContent = isDashboard
     ? "All Events — every source, filtered below"
@@ -1891,6 +1925,8 @@ async function loadSourceTable(source) {
     ? "All Sources — every extracted event, one table"
     : isCallingTeam
     ? "Call To Confirm — articles sent to the calling team, across every source"
+    : isCompleted
+    ? "Articles Completed — resolved work, across every source"
     : `${SOURCE_LABELS[source] || source} — extracted events`;
 
   // The dashboard's summary widgets only make sense above the unified
@@ -1904,7 +1940,7 @@ async function loadSourceTable(source) {
   // Sources, which is still a real, addable table) hides it entirely. All
   // Sources instead shows an explicit Source picker inside the menu.
   const addMenuWrap = document.getElementById("addMenuWrap");
-  if (addMenuWrap) addMenuWrap.style.display = (isDashboard || isCallingTeam) ? "none" : "";
+  if (addMenuWrap) addMenuWrap.style.display = (isDashboard || isCallingTeam || isCompleted) ? "none" : "";
   const addSourceWrap = document.getElementById("addMenuSourceWrap");
   if (addSourceWrap) {
     addSourceWrap.style.display = source === ALL_SOURCES ? "flex" : "none";
@@ -1954,6 +1990,14 @@ async function loadSourceTable(source) {
       const m = marksCache[markKey(r)];
       return m && m.completion_status === CALLING_TEAM_STATUS;
     });
+  } else if (isCompleted) {
+    // Resolved work, across every source -- excluding anything currently
+    // in the calling-team queue, since that already has its own tab and
+    // showing it in both would just be duplication.
+    currentRows = currentRows.filter((r) => {
+      const m = marksCache[markKey(r)];
+      return m && m.is_done && m.completion_status !== CALLING_TEAM_STATUS;
+    });
   }
   if (isDashboard && currentUser.role !== "admin") {
     const col = COLUMNS.find((c) => c.key === "assignedto");
@@ -1983,7 +2027,10 @@ function showView(tab) {
     });
     loadSourceTable(currentSubSource).catch((e) => setStatus(`error: ${e.message}`, false));
   } else {
-    const source = tab === "dashboard" ? DASHBOARD_SOURCE : tab === "all_sources" ? ALL_SOURCES : tab;
+    const source = tab === "dashboard" ? DASHBOARD_SOURCE
+      : tab === "all_sources" ? ALL_SOURCES
+      : tab === "completed" ? COMPLETED_SOURCE
+      : tab;
     loadSourceTable(source).catch((e) => setStatus(`error: ${e.message}`, false));
   }
 }
