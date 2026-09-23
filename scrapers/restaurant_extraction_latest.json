@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -3949,6 +3949,396 @@
       "status": "will open",
       "short_description": "Carnegie Diner & Cafe is set to open at City Point, 445 Gold Street in Brooklyn on September 23. The 150‑seat diner will occupy the former Sixpoint Brewery space and serve all‑day American comfort food.",
       "article_link": "https://whatnow.com/new-york/restaurants/a-new-150-seat-diner-is-opening-at-city-point-in-downtown-brooklyn/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Hudson House",
+      "location": "5307 Broadway, Alamo Heights, TX 78209, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to make its San Antonio debut",
+      "short_description": "Hudson House is planning its first San Antonio restaurant at 5307 Broadway in Alamo Heights. Construction is slated to start Nov 1 2026 and finish by Apr 30 2027, but no opening date has been announced. The project involves remodeling an existing shell building.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/hudson-house-plans-first-san-antonio-location-in-alamo-heights/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Salad House",
+      "location": "15805 Crain Hwy, Brandywine, MD 20613",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will be opening its doors this fall",
+      "short_description": "Salad House will open a new location at 15805 SW Robert Crain Highway, bringing fresh, healthier menu options to the community. Construction is well underway and the restaurant is expected to open this fall. Franchisee Toshia Ellis emphasized the concept’s fit for local diners.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/salad-house-bringing-healthy-options-and-delicious-dining-to-brandywine/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Stoner's Pizza Joint",
+      "location": "4136 Rosewood Dr, Killeen, TX 76542, USA",
+      "event_type": "Opening",
+      "event_date": "February",
+      "status": "targeting a February opening",
+      "short_description": "Stoner’s Pizza Joint plans a second Central Texas location at 4136 Rosewood Dr., Suite 120 in Killeen Dollar Tree Plaza. The owners target a February opening, with March as a backup, pending permits and construction. The fast‑casual chain is expanding its build‑your‑own pizza concept.",
+      "article_link": "https://whatnow.com/austin/restaurants/stoners-pizza-joint-plans-second-central-texas-location-in-killeen/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Jersey Mike’s",
+      "location": "15031 Babcock Rd #106, San Antonio, TX 78249, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not yet been announced",
+      "short_description": "Jersey Mike’s is set to add a new San Antonio site at 15031 Babcock Road, Suite 106. Construction is scheduled to begin Nov 1 2026 with completion aimed for Jan 1 2027, but an opening date has not been announced. The project will involve interior tenant finish‑out work.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/jersey-mikes-plans-new-location-in-san-antonio/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Clink Mahjong Social",
+      "location": "200 E 5th Ave, Naperville, IL",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Crispy Cones",
+      "location": "18130 San Pedro Ave., Suite 100, San Antonio, TX 78232",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet been announced",
+      "short_description": "Crispy Cones is preparing a new San Antonio location at 18130 San Pedro Ave., Suite 100 in the Northwoods development. Construction is slated to start Oct 1 and finish Feb 1, 2027. An opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/crispy-cones-to-open-new-san-antonio-location-at-northwoods/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Natural Blends Nutrition Cafe",
+      "location": "10101 Southern Blvd, Suite 180, Royal Palm Beach, FL 33411",
+      "event_type": "Opening",
+      "event_date": "first of December",
+      "status": "will likely be around the first of December",
+      "short_description": "Natural Blends Nutrition Cafe will open a new site at 10101 Southern Blvd, Suite 180 in Royal Palm Beach. Permit filings indicate the opening is expected around the first of December. The cafe joins three existing Florida locations.",
+      "article_link": "https://whatnow.com/miami/restaurants/natural-blends-nutrition-cafe-to-serve-healthy-options-in-royal-palm-beach/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses Steak Escape’s brand refresh, menu changes, and testing at its existing Ohio locations, but does not mention any new openings or closures.",
+      "article_link": "https://whatnow.com/columbus/restaurants/steak-escape-rebuilds-columbus-brand-with-new-menu-rebranding-and-expansion-plans/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "B’s Bagels & Butters",
+      "location": "3222 56th St, Gig Harbor, WA 98335",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "hopes to open the new shop in spring 2027",
+      "short_description": "B’s Bagels & Butters plans to move from 3308 Uddenberg Ln to the former O’Looney’s Irish Pub at 3222 56th St in Gig Harbor. Renovations have begun and the owner hopes to open the new shop in spring 2027. The larger space will double usable area and allow wholesale sales.",
+      "article_link": "https://whatnow.com/seattle/restaurants/bs-bagels-butters-plans-move-to-larger-gig-harbor-space/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Flame & Ember",
+      "location": "55 Chestnut St., Elmer, NJ 08318",
+      "event_type": "Opening",
+      "event_date": "Spring 2027",
+      "status": "aiming for a Spring 2027 debut",
+      "short_description": "Flame & Ember, a Vineland roadside BBQ stand, will open its first permanent location at 55 Chestnut St in the former Dodge’s Market building in Elmer, NJ. The team is targeting a Spring 2027 debut while continuing weekend stand service. The venue will also include a market and deli.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/flame-ember-to-open-permanent-bbq-spot-in-elmer/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Sbarro",
+      "location": "400 S Wilson Rd, Sunbury, OH 43074, USA",
+      "event_type": "Opening",
+      "event_date": "October 15",
+      "status": "expected to open on October 15",
+      "short_description": "Sbarro is adding a company‑owned restaurant to Tanger Outlets Columbus in Sunbury. The 2,500‑sq‑ft location at 400 S. Wilson Road will feature both service‑line and dining‑room seating and is expected to open on October 15. The menu will include New York‑style pizza, stromboli, pastas and subs.",
+      "article_link": "https://whatnow.com/columbus/restaurants/sbarro-to-open-company-owned-restaurant-at-tanger-outlets-columbus-in-sunbury/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Café Zupas",
+      "location": "3726 W Dublin-Granville Rd, Columbus, OH 43235, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date for the new Dublin‑area Café Zupas has not been announced.",
+      "short_description": "Café Zupas will take over the former Torchy’s Tacos space at 3726 W. Dublin‑Granville Road in Columbus. The fast‑casual concept will replace the taco restaurant, expanding its Central Ohio footprint. An opening date has not been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/cafe-zupas-plans-new-restaurant-at-former-torchys-tacos-space-near-dublin/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Chops Lobster Bar",
+      "location": "2140 Medley Blvd, Johns Creek, GA 30097, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will join the forthcoming 150‑key lifestyle hotel",
+      "short_description": "Chops Lobster Bar will occupy an 8,000‑sq‑ft ground‑floor space in the upcoming Medley mixed‑use development in Johns Creek. The restaurant will anchor a 150‑key lifestyle hotel that is slated to open in 2028. The bar will serve USDA Prime steaks, wagyu and Nova Scotia lobster.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/chops-lobster-bar-to-anchor-hotel-at-medley/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Bogeys and Hoagies",
+      "location": "2101 N 2nd St., Harrisburg, PA 17110",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans a fall opening",
+      "short_description": "Bogeys and Hoagies, a golf‑themed neighborhood spot, will open at 2101 N. 2nd St. in Harrisburg. The owners plan a fall debut featuring pizza, cheesesteaks, burgers and a mini‑golf menu for children. The space will feature turf flooring and wood accents.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/bogeys-and-hoagies-brings-surprise-pizza-comeback-to-harrisburg/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Beertown Public House",
+      "location": "780 Erskine Ave, Peterborough, ON K9J 5T9, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening this fall",
+      "short_description": "Beertown Public House intends to open its 13th location at 780 Erskine Ave. in Peterborough, next to One Fine Food and Lansdowne Place. The shopping centre lists the venue as opening this fall. No specific opening date has been provided.",
+      "article_link": "https://whatnow.com/toronto/restaurants/beertown-public-house-plans-fall-opening-in-peterborough/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Izola Artisan Bakery",
+      "location": "9276 Scranton Rd, San Diego, CA 92121",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting an opening by the end of 2026",
+      "short_description": "Izola Artisan Bakery is preparing to open a second location at 9276 Scranton Road in Sorrento Mesa, taking over the space currently occupied by California English. California English is slated to close on September 25, and Izola aims to open by the end of 2026.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/izola-artisan-bakery-expanding-to-sorrento-mesa/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Montcalm Pub Gourmand",
+      "location": "64 Boulevard René-Lévesque O, Québec, QC G1R 2A4, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open between mid-October and early November",
+      "short_description": "Montcalm Pub Gourmand, a new restaurant from the Shawbridge team, plans to open at 64 Boulevard René‑Lévesque Ouest in Quebec City’s Montcalm neighborhood. Renovations are underway and the opening is expected between mid‑October and early November.",
+      "article_link": "https://whatnow.com/montreal/restaurants/montcalm-pub-gourmand-plans-fall-opening/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Mystic Kitchen",
+      "location": "2 King St W, Hamilton, ON L8R 3K1, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening inside Jackson Square at 2 King Street West",
+      "short_description": "Mystic Kitchen, the next chapter of Mystic Ramen, will open inside Jackson Square at 2 King Street West, occupying the former Crack Me Up diner space. The original location closed in August, but no specific opening date has been announced.",
+      "article_link": "https://whatnow.com/toronto/restaurants/hamiltons-favorite-ramen-spot-is-coming-back-closer-to-home-than-ever/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Herand’s Kitchen",
+      "location": "2601 Baylor St, Houston, TX 77009",
+      "event_type": "Closing",
+      "event_date": "September 22, 2026",
+      "status": "has closed",
+      "short_description": "Herand’s Kitchen in Houston Heights announced its closure on September 22, ending two years of operation at 2601 Baylor Street. The chef decided to step away from the restaurant to begin a new chapter.",
+      "article_link": "https://whatnow.com/houston/restaurants/after-moving-from-california-this-houston-restaurant-has-now-closed/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Casa Pasha",
+      "location": "6920 N Rochester Rd, Rochester Hills, MI 48306",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "set to open in a few weeks pending approvals",
+      "short_description": "Casa Pasha, a new steak and seafood concept by Detroit chef James Henry, is set to open at 6920 N Rochester Road in Rochester Hills, taking over the former Dime Store brunch space. Final approvals are pending and the restaurant is expected to open in a few weeks.",
+      "article_link": "https://whatnow.com/detroit/restaurants/detroit-chef-opening-casa-pasha-steak-and-seafood-concept-in-rochester-hills/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Smoke & Honey",
+      "location": "3301 Bienville St, New Orleans, LA 70119, United States",
+      "event_type": "Closing",
+      "event_date": "September 27",
+      "status": "To Close Permanently",
+      "short_description": "Smoke & Honey, a Greek‑Jewish street‑food restaurant in New Orleans’ Mid‑City, announced it will close its brick‑and‑mortar location at 3301 Bienville Street. The venue, opened in January 2024, will shut permanently on September 27 after a final week of service.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/a-new-orleans-restaurant-combining-greek-and-jewish-traditions-is-closing-september-27/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Everdine’s Grilled Cheese",
+      "location": "227 W Wilson St, Batavia, IL 60510",
+      "event_type": "Closing",
+      "event_date": "September 27",
+      "status": "permanently close its doors",
+      "short_description": "Everdine’s Grilled Cheese, a casual sandwich spot in downtown Batavia, announced it will permanently close its 227 W Wilson Street location. The owners said the restaurant will close on Sunday, September 27 as they prepare for an international move.",
+      "article_link": "https://whatnow.com/chicago/restaurants/grilled-cheese-restaurant-in-downtown-batavia-is-closing-after-a-brief-run/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Lavender Coffee",
+      "location": "575 LA-1085, Madisonville, LA 70447",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "slated to open in a few months",
+      "short_description": "Lavender Coffee is preparing to open a new café and bakery at 575 Hwy 1085 in Madisonville. While the build‑out continues, the owners are staging pop‑up events and expect the brick‑and‑mortar to open in a few months.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/cafe-and-bakery-coming-to-the-northshore/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "1818 American Grille",
+      "location": "1070 Ghent Rd, Akron, OH 44333, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "1818 American Grille plans to launch a full‑service restaurant in Bath Township at 1070 Ghent Road, Akron. The concept will feature a wood‑fire grill and multiple dining areas, with opening details not yet announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/1818-american-grille-to",
+      "published_date": ""
+    },
+    {
+      "store_name": "Greenlee's Mexican Kitchen",
+      "location": "6001 Hwy Blvd, Katy, TX 77494",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipated to open",
+      "short_description": "Greenlee's Mexican Kitchen, a new concept from Piper Hospitality, is planned for 6001 Highway Blvd in Katy. The sister concept to Preslee’s Southern Good Eatery is expected to open later this year or early next year, though official opening dates have not been announced.",
+      "article_link": "https://whatnow.com/houston/restaurants/greenlees-mexican-kitchen-to-open-in-katy/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Beacon Falls Cafe",
+      "location": "472 Main St, Beacon, NY 12508",
+      "event_type": "Closing",
+      "event_date": "October 3",
+      "status": "is closing",
+      "short_description": "Beacon Falls Cafe, a family‑owned American bistro on Main Street in Beacon, announced it will close on October 3 as the owners retire. The cafe has been operating for about 18 years and is known for breakfast, brunch, and comfort food.",
+      "article_link": "https://whatnow.com/new-york/restaurants/long-running-cafe-in-beacon-falls-is-serving-its-final-plates-this-october/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "36 Handles Public House",
+      "location": "1010 White Rock Rd Ste 100, El Dorado Hills, CA 95762",
+      "event_type": "Closing",
+      "event_date": "September 26",
+      "status": "is preparing to close its doors permanently",
+      "short_description": "36 Handles Public House, a popular pub with 36 rotating craft beers, announced it will close permanently, serving its final meal on Saturday, September 26. The El Dorado Hills location offered half‑price draft beers during its final week before shutting down.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/el-dorado-hills-pub-featuring-36-beer-taps-is-closing-soon/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Mendocino Farms (South Lamar)",
+      "location": "1100 S Lamar Blvd, Suite 1125, Austin, TX 78704",
+      "event_type": "Opening",
+      "event_date": "September 22",
+      "status": "opened",
+      "short_description": "Mendocino Farms opened its third Austin restaurant at 1100 South Lamar Boulevard on September 22. The fast‑casual chain adds a 102nd location nationwide and will operate daily from 10:30 am to 9:00 pm.",
+      "article_link": "https://whatnow.com/austin/restaurants/mendocino-farms-expands-texas-footprint-with-third-austin-restaurant/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Mesquite Fresh Street Mex (Laveen)",
+      "location": "5535 W Baseline Rd, Laveen, AZ 85339",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "officially opens its doors",
+      "short_description": "Mesquite Fresh Street Mex is expanding to Laveen with a new restaurant at 5535 W. Baseline Road, slated to open later this fall. The location will feature a drive‑thru, grab‑and‑go window, and a patio, continuing the brand’s Valley growth.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/mesquite-fresh-street-mex-expands-to-laveen-with-11th-valley-restaurant/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Messhall Kitchen",
+      "location": "4500 Los Feliz Blvd, Los Angeles, CA 90027",
+      "event_type": "Closing",
+      "event_date": "October 17",
+      "status": "will close",
+      "short_description": "Messhall Kitchen announced it will close its Los Feliz location at 4500 Los Feliz Boulevard. The restaurant said it will close on October 17 and invited customers to enjoy a final meal during its last month. The closure was announced via social media without a stated reason.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-14-year-old-los-feliz-restaurant-known-for-fresh-oysters-is-closing/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Punch Bowl Social",
+      "location": "2221 Iron Works Dr, Raleigh, NC 27604, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to bring",
+      "short_description": "Punch Bowl Social filed a building permit to bring its eatertainment concept to 2221 Iron Works Drive, Suite 90 in Raleigh. The permit calls for renovations to the former Jaguar Bolera space, which closed in March. An opening date has not been announced.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/punch-bowl-social-sets-its-sights-on-raleigh-iron-works/",
+      "published_date": "September 23, 2026"
+    },
+    {
+      "store_name": "Luna Grill Mediterranean Kitchen",
+      "location": "140 Bessie Coleman Blvd, Waxahachie, TX 75165, USA",
+      "event_type": "Opening",
+      "event_date": "May 2027",
+      "status": "is planning",
+      "short_description": "Luna Grill Mediterranean Kitchen plans a new restaurant at 140 Bessie Coleman Blvd, Suite 100 in Waxahachie. Construction is expected to be completed by May 2027. The project adds to the chain’s expansion across Texas.",
+      "article_link": "https://whatnow.com/dallas/restaurants/luna-grill-mediterranean-kitchen-plans-new-location-in-waxahachie/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "563 Pavilions Lane, Sacramento, CA 95825",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening",
+      "short_description": "Joe & The Juice is set to open its first Sacramento-area store at 563 Pavilions Lane inside the Pavilions shopping center. The listing confirms the upcoming tenancy, though no firm opening date has been announced. The brand is expanding its juice and coffee concept to the region.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/a-danish-juice-and-coffee-chain-is-making-its-sacramento-debut-at-pavilions/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Crawford Caviar Company",
+      "location": "618 N Person St, Raleigh, NC 27604, USA",
+      "event_type": "Opening",
+      "event_date": "holiday season 2026",
+      "status": "launching",
+      "short_description": "Crawford Hospitality is launching Crawford Caviar Company at 618 N Person St in Raleigh, with a debut slated for the 2026 holiday season. Details on the concept’s format and menu have not been released. The venture adds a specialty‑food concept to the group’s portfolio.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/scott-crawford-adds-crawford-caviar-company-to-raleighs-culinary-lineup/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Pikasso Swig Craft Bar",
+      "location": "400 Fayetteville St, Raleigh, NC 27601, USA",
+      "event_type": "Opening",
+      "event_date": "fall 2026",
+      "status": "is coming",
+      "short_description": "Pikasso Swig Craft Bar announced a new location at The Sir Walter, 400 Fayetteville Street in downtown Raleigh. The DIY craft bar will offer over 50 projects and food and beverage options, with a planned opening in fall 2026. No official opening date has been released.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/pikasso-swig-craft-bar-brings-a-new-kind-of-night-out-to-downtown-raleigh/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Dear Grain (Summerhill bakery)",
+      "location": "5 Scrivener Square, Toronto, ON M4W 3X9, Canada",
+      "event_type": "Opening",
+      "event_date": "late October or early November",
+      "status": "expected to open in late October or early November",
+      "short_description": "Dear Grain announced a new bakery at The James retail development, located at 5 Scrivener Square near Summerhill Station, slated to open in late October or early November. The expansion is part of Big League Food Company's growth plan. The bakery will join the Shops at The James.",
+      "article_link": "https://whatnow.com/toronto/restaurants/dear-grain-plans-two-new-toronto-bakeries/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Dear Grain (Waterworks bakery)",
+      "location": "511 Richmond St W, Toronto, ON M5V 1Y4, Canada",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "planned for early 2027",
+      "short_description": "Dear Grain also plans a second bakery at the Waterworks complex, located at 511 Richmond St W, scheduled for early 2027. The location is part of the company's broader expansion.",
+      "article_link": "https://whatnow.com/toronto/restaurants/dear-grain-plans-two-new-toronto-bakeries/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Baekjeong Black",
+      "location": "49 West 32nd Street, New York, NY 10001, USA",
+      "event_type": "Opening",
+      "event_date": "September 23, 2026",
+      "status": "opening on September 23",
+      "short_description": "Baekjeong Black, a new Korean barbecue restaurant, is set to open on September 23 at 49 West 32nd Street in New York’s Koreatown. The 8,000‑square‑foot space occupies the Martinique New York building and will feature a cocktail bar and a full barbecue floor. The opening marks the brand’s return after a two‑year absence.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-8000-square-foot-restaurant-is-opening-in-new-yorks-koreatown/",
+      "published_date": "September 22, 2026"
+    },
+    {
+      "store_name": "Maria’s Buena Cocina",
+      "location": "Highway Ave, Highland, IN 46322",
+      "event_type": "Closing",
+      "event_date": "September 26th",
+      "status": "shut its doors permanently",
+      "short_description": "Maria’s Buena Cocina, a longtime Mexican restaurant in downtown Highland, announced it will close permanently after 30 years. The owners posted that the final day of service will be Saturday, September 26th and invited patrons to stop by before then. The closure is tied to the owners’ retirement.",
+      "article_link": "https://whatnow.com/chicago/restaurants/longtime-highland-favorite-mexican-spot-announces-closure-after-3-decades/",
       "published_date": "September 22, 2026"
     }
   ],
