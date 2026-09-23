@@ -112,6 +112,9 @@ let sortState = { key: null, dir: 1 };
 let hiddenColumns = new Set(["published", "dateappended", "markdone"]);
 let selectedIds = new Set();   // event_id values checked for bulk actions
 let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
+// The exact rows applyFiltersAndRender() last put on the page -- selection
+// clicks reuse this instead of a full re-render (see syncRowSelectionUI).
+let currentPageRows = [];
 // Default to 500 — big enough that this analyst team's actual data volumes
 // (dozens to a few hundred rows per source) render as a single page in
 // practice, while the pagination bar stays in place as a safety net if any
@@ -788,7 +791,10 @@ async function bulkAssign(assignedTo) {
   await loadMarks().catch(() => {});
 
   selectedIds.clear();
-  renderTableHead();
+  // No renderTableHead() here -- headers/filters/colgroup don't depend on
+  // assignment state, and applyFiltersAndRender() already syncs the
+  // select-all checkbox itself; skipping it saves a rebuild that matters
+  // more the larger the batch and the table are.
   applyFiltersAndRender();
   updateBulkBar();
 
@@ -834,6 +840,34 @@ function updateBulkBar() {
     btn.textContent = "Assign selected to me";
     btn.addEventListener("click", () => bulkAssign(currentUser.analyst_id));
     actions.appendChild(btn);
+  }
+}
+
+// A pure selection change (checkbox, ctrl-click, shift-click) never alters
+// which rows are visible, their sort order, or their cell contents -- it
+// used to still run a full applyFiltersAndRender() every time, rebuilding
+// every visible row's Assign/Status dropdowns from scratch (each with a
+// dozen-plus <option> elements). At up to 500 rows a page that was slow
+// enough that a fast shift-click sequence could land mid-rebuild and get
+// dropped, which is exactly what made multi-select feel like it "needed
+// two or three tries." This only ever toggles the checkbox + highlight on
+// the rows already in the DOM, using currentPageRows instead of
+// recomputing anything.
+function syncRowSelectionUI() {
+  const body = document.getElementById("sourceTableBody");
+  if (!body) return;
+  body.querySelectorAll("tr[data-event-id]").forEach((tr) => {
+    const id = Number(tr.dataset.eventId);
+    const selected = selectedIds.has(id);
+    tr.classList.toggle("row-selected", selected);
+    const cb = tr.querySelector('td:first-child input[type="checkbox"]');
+    if (cb) cb.checked = selected;
+  });
+  const selectAllCb = document.getElementById("selectAllCb");
+  if (selectAllCb) {
+    const allSelected = currentPageRows.length > 0 && currentPageRows.every((r) => selectedIds.has(r.event_id));
+    selectAllCb.checked = allSelected;
+    selectAllCb.indeterminate = !allSelected && currentPageRows.some((r) => selectedIds.has(r.event_id));
   }
 }
 
@@ -1218,7 +1252,7 @@ function renderTableHead() {
       if (e.target.checked) selectedIds.add(r.event_id);
       else selectedIds.delete(r.event_id);
     });
-    applyFiltersAndRender();
+    syncRowSelectionUI();
     updateBulkBar();
   });
   selectTh.appendChild(selectAllCb);
@@ -1343,14 +1377,8 @@ function buildSelectCell(r) {
     if (e.target.checked) selectedIds.add(r.event_id);
     else selectedIds.delete(r.event_id);
     selectionAnchorId = r.event_id;
+    syncRowSelectionUI();
     updateBulkBar();
-    const selectAllCb = document.getElementById("selectAllCb");
-    if (selectAllCb) {
-      const rows = getFilteredSortedRows();
-      const allSelected = rows.length > 0 && rows.every((row) => selectedIds.has(row.event_id));
-      selectAllCb.checked = allSelected;
-      selectAllCb.indeterminate = !allSelected && rows.some((row) => selectedIds.has(row.event_id));
-    }
   });
   td.appendChild(cb);
   return td;
@@ -1499,6 +1527,7 @@ function applyFiltersAndRender() {
   if (sourcePage.page > totalPages) sourcePage.page = totalPages;
   const start = (sourcePage.page - 1) * sourcePage.pageSize;
   const rows = allRows.slice(start, start + sourcePage.pageSize);
+  currentPageRows = rows;
 
   renderPaginationBar("sourcePagination", sourcePage, allRows.length, applyFiltersAndRender);
 
@@ -1514,6 +1543,7 @@ function applyFiltersAndRender() {
 
   rows.forEach((r, index) => {
     const tr = document.createElement("tr");
+    tr.dataset.eventId = r.event_id;
     const existingMark = marksCache[markKey(r)];
     if (existingMark && existingMark.is_done) tr.classList.add("marked-done");
     if (selectedIds.has(r.event_id)) tr.classList.add("row-selected");
@@ -1560,7 +1590,7 @@ function applyFiltersAndRender() {
         if (selectedIds.has(r.event_id)) selectedIds.delete(r.event_id);
         else selectedIds.add(r.event_id);
         selectionAnchorId = r.event_id;
-        applyFiltersAndRender();
+        syncRowSelectionUI();
         updateBulkBar();
       } else if (e.shiftKey) {
         const anchorIndex = rows.findIndex((row) => row.event_id === selectionAnchorId);
@@ -1569,7 +1599,7 @@ function applyFiltersAndRender() {
           : anchorIndex < index ? [anchorIndex, index] : [index, anchorIndex];
         for (let i = start; i <= end; i++) selectedIds.add(rows[i].event_id);
         selectionAnchorId = r.event_id;
-        applyFiltersAndRender();
+        syncRowSelectionUI();
         updateBulkBar();
       }
     });
@@ -2175,7 +2205,7 @@ async function init() {
   document.getElementById("logoutBtn").addEventListener("click", doLogout);
   document.getElementById("bulkClearBtn").addEventListener("click", () => {
     selectedIds.clear();
-    applyFiltersAndRender();
+    syncRowSelectionUI();
     updateBulkBar();
   });
 

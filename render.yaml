@@ -4,7 +4,7 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r backend/requirements.txt && python -m playwright install chromium chromium-headless-shell
-    # --worker-class gthread --threads 8: without this, gunicorn defaults to
+    # --worker-class gthread --threads 16: without this, gunicorn defaults to
     # a single synchronous worker, meaning the whole server handles exactly
     # one HTTP request at a time no matter how many the browser fires in
     # parallel -- a 40-50 row bulk-assign (each request already needing a
@@ -12,7 +12,12 @@ services:
     # Threads (not more worker *processes*) to stay within the free tier's
     # memory budget -- each full process would separately load Crawl4AI/
     # Playwright, which is heavy; psycopg2's pool is already thread-safe.
-    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --worker-class gthread --workers 1 --threads 8
+    # Raised from 8 to 16: still comfortably under the DB pool's 25-connection
+    # ceiling (db_pool = ThreadedConnectionPool(2, 25) in backend/app.py), and
+    # each request here is I/O-bound waiting on the DB, not CPU-bound, so more
+    # threads genuinely buys more concurrent throughput for larger batches
+    # instead of just adding overhead.
+    startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --worker-class gthread --workers 1 --threads 16
     envVars:
       - key: SUPABASE_DB_HOST
         sync: false
