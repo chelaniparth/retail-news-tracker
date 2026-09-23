@@ -23,7 +23,7 @@ Run in prod:  gunicorn app:app --bind 0.0.0.0:$PORT
 import asyncio
 import os
 import secrets
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 import psycopg2
 import psycopg2.extras
@@ -964,14 +964,23 @@ def bulk_add_store_events():
                 city = location
 
         event_date_raw = (raw.get("event_date") or "").strip() or None
+        # A bare-URL quick-add has no article of its own to read a real
+        # publish date from, so it was landing with published_date NULL --
+        # combined with date filters treating an unknown date as "not
+        # confirmed out of range" (so it can't be excluded), that made these
+        # rows show up no matter what date range was picked. Recording the
+        # entry date here as published_date instead means Published-date
+        # filtering actually means something for these rows too, same as
+        # every scraped source already gets from its own article.
+        published_date = (raw.get("published_date") or "").strip() or date.today().isoformat()
 
         cur.execute(
             """INSERT INTO store_events
                (source, article_link, company_name, event_type_id, observation_status_id,
-                event_date_raw, city, state, entered_by)
-               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                event_date_raw, published_date, city, state, entered_by)
+               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
             (source, article_link, company_name, event_type_id, status_id,
-             event_date_raw, city, state, actor_id),
+             event_date_raw, published_date, city, state, actor_id),
         )
         inserted += 1
 
