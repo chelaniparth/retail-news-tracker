@@ -130,7 +130,15 @@ CREATE TABLE IF NOT EXISTS store_events (
     zip_code                text,
     county                  text,
     comment                 text,
-    date_appended           date DEFAULT CURRENT_DATE,
+    -- The DB server runs in UTC, but the scraper crons are deliberately
+    -- timed to land at 2:30-6:00 AM IST (see the .github/workflows/*.yml
+    -- comments) -- that window is 21:00-00:30 UTC of the *previous* UTC
+    -- calendar day, so a plain CURRENT_DATE default stamped every
+    -- automated run's rows with "yesterday" from the team's own IST
+    -- perspective. Computing the date in Asia/Kolkata instead keeps
+    -- "today" meaning the same thing here as it does for the people
+    -- actually using this column to filter for it.
+    date_appended           date DEFAULT ((now() AT TIME ZONE 'Asia/Kolkata')::date),
     entered_by              text REFERENCES analysts(analyst_id)
 );
 
@@ -146,7 +154,7 @@ CREATE TABLE IF NOT EXISTS scraped_articles (
     state           text,
     city            text,
     extra_data      jsonb DEFAULT '{}'::jsonb,
-    date_appended   date DEFAULT CURRENT_DATE,
+    date_appended   date DEFAULT ((now() AT TIME ZONE 'Asia/Kolkata')::date),  -- see store_events.date_appended
     UNIQUE (source, link)
 );
 
