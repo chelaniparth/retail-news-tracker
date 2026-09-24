@@ -761,7 +761,7 @@ tr.row-selected.marked-done td { opacity: 0.6; }
 .assign-readonly { font-size: 12px; color: var(--muted); }
 
 /* ---- completion status ---- */
-.status-select { min-width: 150px; font-weight: 500; }
+.status-select { min-width: 0; width: 100%; font-weight: 500; }
 .status-meta { font-size: 10px; color: var(--muted); margin-top: 3px; }
 
 select.status-select[data-status="Add"] { border-color: #bfdbfe; background: var(--accent-light); color: var(--accent); }
