@@ -232,7 +232,7 @@ const ARTICLE_DEFAULT_WIDTHS = {
   employees: 140, layoffdate: 120, closuretype: 140, link: 90,
 };
 
-let sourceColWidths = loadColWidths("colWidths_source_v1");
+let sourceColWidths = loadColWidths("colWidths_source_v2");
 let articlesColWidths = loadColWidths("colWidths_articles_v1");
 
 function colWidth(widths, defaults, key) {
@@ -1397,34 +1397,34 @@ function renderTableHead() {
     if (showFilterIcon) {
       th.querySelector(".filter-icon").addEventListener("click", (e) => openColumnFilter(col, e.currentTarget));
     }
-    attachColResize(th, col.key, "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    attachColResize(th, col.key, "sourceColGroup", sourceColWidths, "colWidths_source_v2");
     tr.appendChild(th);
   });
 
   const assignTh = document.createElement("th");
   assignTh.textContent = "Assign";
-  attachColResize(assignTh, "__assign", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+  attachColResize(assignTh, "__assign", "sourceColGroup", sourceColWidths, "colWidths_source_v2");
   tr.appendChild(assignTh);
 
   const actionTh = document.createElement("th");
   actionTh.textContent = "Action";
-  attachColResize(actionTh, "__action", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+  attachColResize(actionTh, "__action", "sourceColGroup", sourceColWidths, "colWidths_source_v2");
   tr.appendChild(actionTh);
 
   if (currentSource === CALLING_TEAM_SOURCE) {
     const sentByTh = document.createElement("th");
     sentByTh.textContent = "Sent by";
-    attachColResize(sentByTh, "__ctsentby", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    attachColResize(sentByTh, "__ctsentby", "sourceColGroup", sourceColWidths, "colWidths_source_v2");
     tr.appendChild(sentByTh);
 
     const notesTh = document.createElement("th");
     notesTh.textContent = "Notes";
-    attachColResize(notesTh, "__ctnotes", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    attachColResize(notesTh, "__ctnotes", "sourceColGroup", sourceColWidths, "colWidths_source_v2");
     tr.appendChild(notesTh);
 
     const outcomeTh = document.createElement("th");
     outcomeTh.textContent = "Outcome";
-    attachColResize(outcomeTh, "__ctoutcome", "sourceColGroup", sourceColWidths, "colWidths_source_v1");
+    attachColResize(outcomeTh, "__ctoutcome", "sourceColGroup", sourceColWidths, "colWidths_source_v2");
     tr.appendChild(outcomeTh);
   }
 
