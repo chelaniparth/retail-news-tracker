@@ -54,9 +54,21 @@ def sb_headers(key: str) -> dict:
 
 
 def sb_get(base: str, key: str, path: str) -> list:
-    resp = requests.get(f"{base}/rest/v1/{path}", headers=sb_headers(key), timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+    """Paginates via PostgREST's Range header -- a single unpaginated request
+    silently truncates at PostgREST's configured max-rows (commonly 1000),
+    which companies/store_events are both past by now."""
+    all_rows, page_size, offset = [], 1000, 0
+    while True:
+        headers = sb_headers(key)
+        headers["Range-Unit"] = "items"
+        headers["Range"] = f"{offset}-{offset + page_size - 1}"
+        resp = requests.get(f"{base}/rest/v1/{path}", headers=headers, timeout=30)
+        resp.raise_for_status()
+        page = resp.json()
+        all_rows.extend(page)
+        if len(page) < page_size:
+            return all_rows
+        offset += page_size
 
 
 def sb_post(base: str, key: str, table: str, rows: list) -> None:
