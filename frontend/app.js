@@ -367,7 +367,11 @@ const COLUMNS = [
   },
   {
     key: "article", label: "Article", type: null, sortable: false,
-    getValue: () => "",
+    // getValue (not just render) needs the real URL -- CSV export reads
+    // every visible column through getValue, so leaving this blank (it
+    // used to be, since the grid cell itself renders via render() below
+    // instead) meant the exported "Article" column came out empty.
+    getValue: (r) => r.article_link || "",
     render: (r) => `<a class="link" href="${r.article_link}" target="_blank" rel="noopener">open ↗</a>`,
   },
   {
@@ -1744,7 +1748,13 @@ function exportCSV() {
   rows.forEach((r) => {
     lines.push(visibleCols.map((c) => esc(c.getValue(r))).join(","));
   });
-  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8;" });
+  // Excel on Windows ignores the Blob's charset and opens a BOM-less CSV
+  // using the system's legacy codepage instead of UTF-8 -- multi-byte
+  // UTF-8 characters (em dashes, curly quotes, etc., both already in the
+  // data and in the "—" placeholder this app itself writes for blanks)
+  // then get misread as three separate CP-1252 characters each (e.g. "—"
+  // -> "â€""). A leading UTF-8 BOM is what tells Excel to read it as UTF-8.
+  const blob = new Blob(["﻿" + lines.join("\n")], { type: "text/csv;charset=utf-8;" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
