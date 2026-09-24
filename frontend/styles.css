@@ -571,16 +571,21 @@ body.grid-fullscreen-active { overflow: hidden; }
 #sourcePanel.grid-fullscreen .table-scroll {
   max-height: calc(100vh - 230px);
 }
+/* width: 100% + table-layout: fixed is what actually gives the wanted
+   behavior on its own, per the fixed-table-layout algorithm: the table's
+   real width is the GREATER of the specified width (100% of the panel)
+   and the sum of the <col> widths. So when the columns add up to less
+   than the panel (the normal default view), the table stretches to fill
+   it exactly -- no horizontal scrollbar, ever, by construction. When
+   columns are added back or Wrap is turned on and the sum exceeds the
+   panel, the table grows to its real (larger) width instead of shrinking
+   to fit, and .table-scroll's overflow-x: auto below is what turns that
+   into a scrollbar. A prior attempt here switched this to width: auto,
+   which stopped the stretch-when-under-full but also removed that
+   guarantee: on any panel narrower than the (still fixed, unstretching)
+   column sum, it overflowed and scrolled even in the plain default view --
+   worse than the mild stretch it was trying to avoid. */
 table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
-/* The two grid tables (Extraction/Articles) size their columns explicitly
-   via <col> elements in a colgroup. width: auto (overriding the 100% above,
-   scoped to just these two so the plain stat-table elsewhere keeps filling
-   its container as before) makes the table end exactly where those column
-   widths add up to, instead of table-layout: fixed's default behavior of
-   stretching every column proportionally to fill the full container
-   whenever their combined width is less than it -- which is what was
-   ballooning the gap after whichever column sat before the widest one. */
-#sourceTableScroll table, #articlesTableScroll table { width: auto; min-width: 0; }
 th { text-align: left; color: var(--muted); font-weight: 600; padding: 8px; border-bottom: 1px solid var(--panel-border); white-space: nowrap; position: sticky; top: 0; background: #fbfbfc; z-index: 2; }
 td { padding: 10px 8px; border-bottom: 1px solid #f1f3f6; vertical-align: top; color: var(--text); overflow: hidden; }
 tbody tr:last-child td { border-bottom: none; }

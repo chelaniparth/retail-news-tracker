@@ -216,16 +216,16 @@ function saveColWidths(storageKey, widths) {
   try { localStorage.setItem(storageKey, JSON.stringify(widths)); } catch (e) { /* ignore */ }
 }
 
-// Trimmed hard enough that the default visible-column set (Description
-// hidden, see hiddenColumns below) adds up to well under a typical laptop
-// viewport, so the grid fits on one page with no horizontal scroll unless
-// someone re-adds columns via the picker or turns Wrap on -- both of which
-// widen columns past what fits and are expected to bring the scrollbar
-// back (table { width: auto } in styles.css is what makes that automatic).
+// table { width: 100% } + table-layout: fixed in styles.css stretches
+// these to fill the panel whenever they add up to less than it (which is
+// the point -- see the comment there), so this doesn't need to be shaved
+// down to a hard pixel budget: it just needs Description hidden by
+// default (see hiddenColumns below) and reasonably-sized columns, and the
+// stretch + real-overflow-when-exceeded behavior handles the rest.
 const SOURCE_DEFAULT_WIDTHS = {
-  source: 85, company: 140, event: 85, status: 100, date: 90, location: 90,
-  description: 320, article: 65, published: 110, dateappended: 110, newsdate: 95, markdone: 190, assignedto: 115,
-  __assign: 125, __action: 150, __ctsentby: 140, __ctnotes: 260, __ctoutcome: 220,
+  source: 100, company: 190, event: 100, status: 130, date: 120, location: 110,
+  description: 320, article: 90, published: 110, dateappended: 110, newsdate: 110, markdone: 190, assignedto: 160,
+  __assign: 170, __action: 190, __ctsentby: 140, __ctnotes: 260, __ctoutcome: 220,
 };
 const ARTICLE_DEFAULT_WIDTHS = {
   title: 260, company: 170, summary: 320, location: 140, published: 110,
@@ -1322,7 +1322,7 @@ function openColumnsMenu() {
 
 function renderSourceColGroup(visibleCols) {
   const cg = document.getElementById("sourceColGroup");
-  let html = `<col style="width:26px"><col style="width:32px">`;
+  let html = `<col style="width:30px"><col style="width:38px">`;
   visibleCols.forEach((col) => {
     let w = colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key);
     if (sourceWrap && CLIP_COLUMN_KEYS.has(col.key)) w += WRAP_WIDTH_BUMP;
