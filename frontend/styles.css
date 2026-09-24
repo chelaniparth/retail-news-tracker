@@ -572,6 +572,15 @@ body.grid-fullscreen-active { overflow: hidden; }
   max-height: calc(100vh - 230px);
 }
 table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+/* The two grid tables (Extraction/Articles) size their columns explicitly
+   via <col> elements in a colgroup. width: auto (overriding the 100% above,
+   scoped to just these two so the plain stat-table elsewhere keeps filling
+   its container as before) makes the table end exactly where those column
+   widths add up to, instead of table-layout: fixed's default behavior of
+   stretching every column proportionally to fill the full container
+   whenever their combined width is less than it -- which is what was
+   ballooning the gap after whichever column sat before the widest one. */
+#sourceTableScroll table, #articlesTableScroll table { width: auto; min-width: 0; }
 th { text-align: left; color: var(--muted); font-weight: 600; padding: 8px; border-bottom: 1px solid var(--panel-border); white-space: nowrap; position: sticky; top: 0; background: #fbfbfc; z-index: 2; }
 td { padding: 10px 8px; border-bottom: 1px solid #f1f3f6; vertical-align: top; color: var(--text); overflow: hidden; }
 tbody tr:last-child td { border-bottom: none; }
@@ -635,8 +644,13 @@ body.col-resizing { cursor: col-resize !important; user-select: none; }
 .pagination-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  /* flex-start, not space-between -- with a table narrower than the panel
+     (see table { width: auto } above), space-between was stretching the
+     count/controls/page-size groups all the way across the full panel
+     width, leaving big gaps between them. Keeping them bunched together
+     on the left reads as one compact control instead. */
+  justify-content: flex-start;
+  gap: 16px;
   flex-wrap: wrap;
   margin-top: 10px;
   font-size: 12px;
