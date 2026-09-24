@@ -139,6 +139,23 @@ CREATE TABLE IF NOT EXISTS store_events (
     -- "today" meaning the same thing here as it does for the people
     -- actually using this column to filter for it.
     date_appended           date DEFAULT ((now() AT TIME ZONE 'Asia/Kolkata')::date),
+    -- The scraper crons fire early morning (2:30-6:00 AM IST) scanning the
+    -- last ~48 hours, so date_appended (when the row landed) is almost
+    -- always one day ahead of the news cycle it actually represents --
+    -- e.g. Tuesday's run is overwhelmingly Monday's news. news_date backs
+    -- that up by one day, business-day-aware: Monday's run -> Friday (skips
+    -- the weekend entirely, since retail/business press mostly follows a
+    -- Mon-Fri cycle), Sunday's run -> Friday too, everything else is just
+    -- the previous calendar day (which is already a weekday Tue-Sat).
+    -- GENERATED (not a plain default) so it can never drift out of sync
+    -- with date_appended and doesn't need to appear in every INSERT.
+    news_date date GENERATED ALWAYS AS (
+        date_appended - (CASE EXTRACT(ISODOW FROM date_appended)::int
+            WHEN 1 THEN 3  -- Monday -> Friday
+            WHEN 7 THEN 2  -- Sunday -> Friday
+            ELSE 1
+        END)
+    ) STORED,
     entered_by              text REFERENCES analysts(analyst_id)
 );
 
@@ -155,6 +172,11 @@ CREATE TABLE IF NOT EXISTS scraped_articles (
     city            text,
     extra_data      jsonb DEFAULT '{}'::jsonb,
     date_appended   date DEFAULT ((now() AT TIME ZONE 'Asia/Kolkata')::date),  -- see store_events.date_appended
+    news_date date GENERATED ALWAYS AS (      -- see store_events.news_date
+        date_appended - (CASE EXTRACT(ISODOW FROM date_appended)::int
+            WHEN 1 THEN 3 WHEN 7 THEN 2 ELSE 1
+        END)
+    ) STORED,
     UNIQUE (source, link)
 );
 

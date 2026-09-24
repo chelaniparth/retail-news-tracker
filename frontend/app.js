@@ -218,7 +218,7 @@ function saveColWidths(storageKey, widths) {
 
 const SOURCE_DEFAULT_WIDTHS = {
   source: 130, company: 190, event: 100, status: 150, date: 120, location: 150,
-  description: 320, article: 90, published: 110, dateappended: 110, markdone: 190, assignedto: 160,
+  description: 320, article: 90, published: 110, dateappended: 110, newsdate: 110, markdone: 190, assignedto: 160,
   __assign: 170, __action: 190, __ctsentby: 140, __ctnotes: 260, __ctoutcome: 220,
 };
 const ARTICLE_DEFAULT_WIDTHS = {
@@ -376,6 +376,16 @@ const COLUMNS = [
     // so it's the one to actually rely on for date-range filtering.
     key: "dateappended", label: "Date Added", type: "date", sortable: true,
     getValue: (r) => r.date_appended || "",
+  },
+  {
+    // The scraper crons run early morning IST scanning the last ~48 hours,
+    // so date_appended (when the row landed) is almost always one day
+    // ahead of the news cycle it actually represents. news_date backs that
+    // up by one day, business-day-aware (Monday's run -> Friday, skipping
+    // the weekend; Sunday's run -> Friday too) -- computed in the DB itself
+    // (a GENERATED column) so it can't drift out of sync.
+    key: "newsdate", label: "News Date", type: "date", sortable: true,
+    getValue: (r) => r.news_date || "",
   },
   {
     key: "markdone", label: "Completion", type: "select", sortable: true,
@@ -1520,7 +1530,7 @@ function buildCallingTeamOutcomeCell(r, existingMark) {
 // Columns whose values are always short/single-line — clipped with ellipsis
 // so a resized-narrow column behaves like the reference grid. Company and
 // Description can run long and stay as normal wrapping text instead.
-const CLIP_COLUMN_KEYS = new Set(["source", "company", "event", "status", "date", "location", "description", "published", "dateappended", "markdone", "assignedto"]);
+const CLIP_COLUMN_KEYS = new Set(["source", "company", "event", "status", "date", "location", "description", "published", "dateappended", "newsdate", "markdone", "assignedto"]);
 
 function applyFiltersAndRender() {
   const allRows = getFilteredSortedRows();
