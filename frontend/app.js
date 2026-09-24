@@ -128,7 +128,7 @@ let sortState = { key: null, dir: 1 };
 // columns are what an analyst actually needs at a glance; anyone can still
 // flip any of these back on (or off) per session from the Columns menu,
 // but every fresh page load starts from this same set.
-let hiddenColumns = new Set(["published", "dateappended", "markdone"]);
+let hiddenColumns = new Set(["published", "dateappended", "markdone", "description"]);
 let selectedIds = new Set();   // event_id values checked for bulk actions
 let selectionAnchorId = null;  // event_id of the last row clicked, for shift-click ranges
 // The exact rows applyFiltersAndRender() last put on the page -- selection
@@ -217,7 +217,7 @@ function saveColWidths(storageKey, widths) {
 }
 
 const SOURCE_DEFAULT_WIDTHS = {
-  source: 130, company: 190, event: 100, status: 150, date: 120, location: 150,
+  source: 100, company: 190, event: 100, status: 130, date: 120, location: 110,
   description: 320, article: 90, published: 110, dateappended: 110, newsdate: 110, markdone: 190, assignedto: 160,
   __assign: 170, __action: 190, __ctsentby: 140, __ctnotes: 260, __ctoutcome: 220,
 };
@@ -386,6 +386,7 @@ const COLUMNS = [
     // (a GENERATED column) so it can't drift out of sync.
     key: "newsdate", label: "News Date", type: "date", sortable: true,
     getValue: (r) => r.news_date || "",
+    render: (r) => formatDateShort(r.news_date),
   },
   {
     key: "markdone", label: "Completion", type: "select", sortable: true,
@@ -549,7 +550,7 @@ function applyDashboardDateFilter() {
   if (!from && !to) {
     delete filters.dateappended;
   } else {
-    filters.dateappended = { from, to };
+    filters.dateappended = normalizeDateRange(from, to);
   }
   sourcePage.page = 1;
   renderTableHead();
@@ -1006,6 +1007,28 @@ function toISODateOnly(value) {
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}-${String(d.getUTCDate()).padStart(2, "0")}`;
 }
 
+// Turns a From/To pair into what the user actually means: filling in only
+// one side is a single-day filter ("just the 15th"), not an open-ended
+// "15th onward"/"up to the 15th" range -- the other bound gets mirrored to
+// match. Both sides filled is a real range and passes through unchanged.
+function normalizeDateRange(from, to) {
+  if (from && !to) return { from, to: from };
+  if (!from && to) return { from: to, to };
+  return { from, to };
+}
+
+const SHORT_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+// "24 Sep 2026" instead of a raw ISO/RFC date string -- for compact,
+// unambiguous display in narrow date columns (unlike MM/DD/YY, this reads
+// the same regardless of the viewer's own locale date-order habits).
+function formatDateShort(value) {
+  const iso = toISODateOnly(value);
+  if (!iso) return "—";
+  const [y, m, d] = iso.split("-");
+  return `${parseInt(d, 10)} ${SHORT_MONTHS[parseInt(m, 10) - 1]} ${y}`;
+}
+
 function rowMatchesFilters(r) {
   for (const col of COLUMNS) {
     const f = filters[col.key];
@@ -1250,7 +1273,13 @@ function openDateFilter(col, anchorEl) {
       <button class="mini-link" data-act="clear">Clear</button>
       <button class="tool-btn small" data-act="apply">Apply</button>
     </div>`;
-  const commit = (from, to) => { filters[col.key] = { from, to }; sourcePage.page = 1; closePopover(); renderTableHead(); applyFiltersAndRender(); };
+  const commit = (from, to) => {
+    filters[col.key] = (from || to) ? normalizeDateRange(from, to) : { from, to };
+    sourcePage.page = 1;
+    closePopover();
+    renderTableHead();
+    applyFiltersAndRender();
+  };
   box.querySelector('[data-act="apply"]').addEventListener("click", () => {
     commit(box.querySelector(".pf-from").value, box.querySelector(".pf-to").value);
   });
@@ -1287,7 +1316,7 @@ function openColumnsMenu() {
 
 function renderSourceColGroup(visibleCols) {
   const cg = document.getElementById("sourceColGroup");
-  let html = `<col style="width:34px"><col style="width:48px">`;
+  let html = `<col style="width:30px"><col style="width:38px">`;
   visibleCols.forEach((col) => {
     let w = colWidth(sourceColWidths, SOURCE_DEFAULT_WIDTHS, col.key);
     if (sourceWrap && CLIP_COLUMN_KEYS.has(col.key)) w += WRAP_WIDTH_BUMP;
