@@ -582,6 +582,40 @@ function syncDashboardFilterControls() {
   }
 }
 
+// A small, always-unlocked summary -- team-wide assigned vs. remaining
+// counts, visible to every analyst (not just admins) and unaffected by the
+// dashboard's own analyst/date filters or the per-analyst lock applied to
+// the rest of this view. Takes currentRows directly (not the filtered
+// allRows renderDashboardWidgets gets) so it always reflects the whole team.
+function renderTeamOverview(rows) {
+  const cards = document.getElementById("teamOverviewCards");
+  if (!cards) return;
+  cards.innerHTML = "";
+
+  const total = rows.length;
+  const assigned = rows.filter((r) => {
+    const m = marksCache[markKey(r)];
+    return m && m.assigned_to;
+  }).length;
+  const remaining = rows.filter((r) => {
+    const m = marksCache[markKey(r)];
+    return !(m && m.is_done);
+  }).length;
+
+  const cardDefs = [
+    ["Total articles", total],
+    ["Assigned", assigned],
+    ["Unassigned", total - assigned],
+    ["Remaining (not completed)", remaining],
+  ];
+  cardDefs.forEach(([label, value]) => {
+    const c = document.createElement("div");
+    c.className = "card";
+    c.innerHTML = `<div class="label">${label}</div><div class="value">${value}</div>`;
+    cards.appendChild(c);
+  });
+}
+
 // Recomputed client-side from whatever rows are currently filtered (not a
 // fixed server-side aggregate) -- this is what makes the dashboard's cards/
 // charts/analyst-activity table actually react to the grid's filters
@@ -961,7 +995,15 @@ function toISODateOnly(value) {
   if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10);
   const d = new Date(s);
   if (isNaN(d.getTime())) return "";
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  // date_appended (and any other API date) arrives as a GMT/UTC timestamp
+  // (e.g. "Wed, 23 Sep 2026 00:00:00 GMT") -- extracting via getFullYear()/
+  // getMonth()/getDate() reads it back in the *viewer's* local time zone
+  // instead, which can silently shift the date by a day for anyone west of
+  // UTC (the stored UTC midnight becomes the previous evening locally).
+  // Using the UTC variants keeps this matching the same calendar date the
+  // server actually stored, for every viewer regardless of their own
+  // browser's time zone.
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}-${String(d.getUTCDate()).padStart(2, "0")}`;
 }
 
 function rowMatchesFilters(r) {
@@ -1546,6 +1588,7 @@ function applyFiltersAndRender() {
   // stat even though the grid itself no longer lists it row by row.
   if (currentSource === DASHBOARD_SOURCE) {
     renderDashboardWidgets(allRows);
+    renderTeamOverview(currentRows);
     syncDashboardFilterControls();
   }
 
