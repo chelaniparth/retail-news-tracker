@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -5720,6 +5720,176 @@
       "short_description": "King Coffee plans to relocate from its Tempe location to 1620 W University Drive, Suite 3 in Mesa. The new 2,000‑sq‑ft café will feature twice the seating, a full kitchen, and space for community events, with the move expected to be finished by the end of 2026 while the Tempe shop stays open.",
       "article_link": "https://whatnow.com/phoenix/restaurants/king-coffee-relocating-from-tempe-to-mesa/",
       "published_date": "September 25, 2026"
+    },
+    {
+      "store_name": "Wonder",
+      "location": "43135 Broadlands Center Plaza, Ashburn, VA 20148",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "will be opening",
+      "short_description": "Wonder, a fast‑casual mealtime platform, announced it will open a new location at 43135 Broadlands Center Plaza in Ashburn, Virginia. The site is slated to be customer‑ready in November, adding to the brand’s growing presence in the DMV area.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/ashburn-to-welcome-fast-growing-fast-casual-juggernaut/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "The Country Club",
+      "location": "535 S Highland St, Memphis, TN 38111",
+      "event_type": "Opening",
+      "event_date": "late October",
+      "status": "will be opening its doors",
+      "short_description": "The Country Club, a line‑dancing restaurant concept, is set to open at 535 S Highland Street in Memphis, Tennessee. The owners plan a late‑October debut featuring a mechanical bull, pool tables, and a VIP balcony.",
+      "article_link": "https://whatnow.com/memphis/restaurants/the-country-club-line-dancing-into-memphis/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "Denver Table Market",
+      "location": "12444 Albrook Dr, Denver, CO 80239",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Denver Table Market, a nonprofit community grocery, is being developed on the FreshLo Campus at 12444 Albrook Drive in Denver’s Montbello neighborhood. The market’s website lists its hours as “Coming Soon,” and no specific opening date has been announced.",
+      "article_link": "https://whatnow.com/denver/restaurants/denver-table-market-preparing-to-open-in-montbello/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "Da Higher Note Cigar Bar",
+      "location": "1056 E Brooks Rd, Memphis, TN 38116",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has filed papers to set up shop",
+      "short_description": "Da Higher Note Cigar Bar has filed for a certificate of occupancy to open at 1056 East Brooks Road in Memphis, Tennessee. The 300‑square‑foot cigar bar/restaurant is still under review, with no opening date provided.",
+      "article_link": "https://whatnow.com/memphis/restaurants/new-cigar-bar-has-memphis-aspirations/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "MilePost 7",
+      "location": "8000 Flower Ave, Takoma Park, MD 20912",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will be greeting customers",
+      "short_description": "MilePost 7, a new restaurant concept by chef Brad Feickert, will occupy the former Mansa Kunda space at 8000 Flower Avenue in Takoma Park, Maryland. An opening date has not been announced, but the venue will feature a pub‑style menu and extensive beverage options.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/milepost-7-preparing-to-serve-takoma-park/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "The Orange Violet",
+      "location": "3157 Tchoupitoulas St, New Orleans, LA 70115",
+      "event_type": "Opening",
+      "event_date": "mid-March",
+      "status": "targeting a mid-March opening",
+      "short_description": "The Orange Violet, a multi‑use concept featuring a restaurant, three bars, a pool and a 200‑seat comedy venue, is planned for 3157 Tchoupitoulas St in New Orleans. Owner Andrew Stephens aims to open the venue in mid‑March, targeting the spring of 2027. The space will offer daytime pool access and evening comedy shows with QR‑code ordering.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/comedy-venue-and-pool-bar-coming-to-irish-channel-complex/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "Thai Candle",
+      "location": "5155 Peachtree Pkwy NW, Suite 320, Norcross, GA 30092",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "remains unclear",
+      "short_description": "Thai Candle, a Northern Thai restaurant currently operating in Alpharetta, plans to open a new location at The Forum Peachtree Corners at 5155 Peachtree Pkwy NW, Suite 320 in Norcross. The mall’s website confirms the address but no opening timeline has been provided. The concept emphasizes fresh seafood and an elegant bar.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/thai-candle-joining-the-forum-peachtree-corners/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "Olive’s Frozen Yogurt",
+      "location": "550 Somerset Terrace NE, Atlanta, GA 30306",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "targeting a spring 2027 opening",
+      "short_description": "Olive’s Frozen Yogurt is set to join the Common Ground development on the Atlanta Beltline at 550 Somerset Terrace NE. Co‑owner Shoba Zaidi says the shop is targeting a spring 2027 opening, though menu and design details remain unclear. The brand is named after Zaidi’s dog, Oliver.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/olives-frozen-yogurt-planning-opening-at-common-ground-development/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "The Teche",
+      "location": "201 Railroad Ave, Morgan City, LA 70380",
+      "event_type": "Opening",
+      "event_date": "by the end of the year",
+      "status": "will likely open by the end of the year",
+      "short_description": "The Teche, a Taiwanese‑American restaurant led by chef‑owners Jason and Chelsea Lin, is planned for 201 Railroad Ave in Morgan City. The Lin couple describes the project as still in early stages and expects to open by the end of the year. The menu will blend Taiwanese flavors with Louisiana ingredients.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/chef-driven-taiwanese-american-spot-coming-to-morgan-city/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "Fish & Chicken",
+      "location": "219 W Wilson St, Villa Rica, GA 30180",
+      "event_type": "Opening",
+      "event_date": "early November",
+      "status": "targeting an early November opening",
+      "short_description": "Fish & Chicken, a new concept from Collins Family Foods & BBQ, will open at 219 W Wilson St in Villa Rica. Owner Joe Collins says the restaurant is targeting an early November opening and will feature fried chicken, fish, burgers and a retro‑styled dining area. The venue will seat about 35 inside with additional outdoor space.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/collins-family-foods-bbq-opening-new-villa-rica-restaurant/",
+      "published_date": "September 27, 2026"
+    },
+    {
+      "store_name": "The Lil’ Cafe",
+      "location": "360 S. Lakeview Dr., Unit 1, Lake Helen, FL",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "Temporarily Closed",
+      "short_description": "The Lil’ Cafe announced on Facebook that it is “Temporarily Closed … until we move to our new location.” The cafe’s former address is 360 S. Lakeview Dr., Unit 1, in Lake Helen.",
+      "article_link": "https://whatnow.com/orlando/restaurants/the-lil-cafe-in-lake-helen-relocating-on-lakeview-drive/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "The Lil’ Cafe",
+      "location": "493 S. Lakeview Dr #1, Lake Helen, FL 32744",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "reopening soon",
+      "short_description": "A plan review shows the Lil’ Cafe will reopen at 493 S. Lakeview Dr., Suite 1, near the Innovate Health Organic Co‑Op. The article states the cafe is “Opening at 493 S. Lakeview Dr.” and will be “reopening soon.”",
+      "article_link": "https://whatnow.com/orlando/restaurants/the-lil-cafe-in-lake-helen-relocating-on-lakeview-drive/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "Hooked on the Water",
+      "location": "110 Anglers Way, Lexington, SC 29072",
+      "event_type": "Opening",
+      "event_date": "January 1",
+      "status": "open on January 1",
+      "short_description": "Hooked on the Water is a new lakeside dining and entertainment destination slated to open on January 1. The developers say they hope to have it ready before Christmas and will “open on January 1.”",
+      "article_link": "https://whatnow.com/charleston/restaurants/hooked-on-the-water-to-bringing-lakeside-dining-and-entertainment-to-lexington/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "Nimit Palace (new North Indian restaurant)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to expand",
+      "short_description": "Nimit Palace, a family‑owned North Indian restaurant from New Jersey, is planning to open a new location in Philadelphia. No address, size, or opening timeline has been disclosed. The existing flagship remains at 104 White Horse Road East, Voorhees, NJ.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/nimit-palace-plans-new-north-indian-restaurant-in-philadelphia/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "Poogan’s Southern Kitchen",
+      "location": "101 Nexton Square Dr, Summerville, SC 29486",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "will close this week",
+      "short_description": "Poogan’s Southern Kitchen in Summerville will close this week for a short renovation period. After the work, it will reopen under a new concept, Poogan’s Smokehouse. The change is part of Poogan’s Hospitality Group’s pivot to barbecue.",
+      "article_link": "https://whatnow.com/charleston/restaurants/poogans-southern-kitchen-transforming-into-poogans-smokehouse/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "Poogan’s Smokehouse",
+      "location": "101 Nexton Square Dr, Summerville, SC 29486",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will reopen as Poogan’s Smokehouse",
+      "short_description": "Poogan’s Southern Kitchen will reopen as Poogan’s Smokehouse after renovations, shifting focus to barbecue while retaining some Southern Kitchen dishes. The new smokehouse will operate at the same Nexton Square location. The transformation follows a decade‑long successful concept.",
+      "article_link": "https://whatnow.com/charleston/restaurants/poogans-southern-kitchen-transforming-into-poogans-smokehouse/",
+      "published_date": "September 26, 2026"
+    },
+    {
+      "store_name": "Tí Cafe",
+      "location": "1910 S Havana St, Aurora, CO 80014",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "coming soon",
+      "short_description": "Tí Cafe is expanding to Aurora with a second location at 1910 S. Havana Street in the former 7‑Eleven space at Birchtree Shopping Center. The new shop is listed as coming soon with an expected fall 2026 opening. It will serve Vietnamese coffee and snacks.",
+      "article_link": "https://whatnow.com/denver/restaurants/ti-cafe-expanding-to-aurora-with-new-havana-street-location/",
+      "published_date": "September 26, 2026"
     }
   ],
   "non_working": [
