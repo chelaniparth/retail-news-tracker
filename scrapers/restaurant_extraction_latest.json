@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -6040,6 +6040,336 @@
       "short_description": "CAVA is opening its doors to the Surprise community on 09/30/26 at 23350 North 163rd Ave, Suite 120. The fast‑casual Mediterranean‑inspired restaurant will operate from 10:30 a.m. to 10 p.m. and will employ 25‑40 local people.",
       "article_link": "https://whatnow.com/phoenix/restaurants/cava-opens-in-surprise-on-9-30/",
       "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Phoenix Concert Theatre",
+      "location": "1605 Queen St W, Toronto, ON M6R 1A9, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to relocate",
+      "short_description": "The Phoenix Concert Theatre announced plans to relocate to the historic Parkdale Hall at 1605 Queen St. W in Toronto. The move will occur after rezoning and city approvals, with the venue remaining at its current Sherbourne Street location through 2027 while construction proceeds.",
+      "article_link": "https://whatnow.com/toronto/restaurants/iconic-concert-venue-set-to-relocate-to-historic-1920s-theatre/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Taqueria El Puerto De Vallarta",
+      "location": "8409 Elk Grove Florin Rd, Elk Grove, CA 95624",
+      "event_type": "Opening",
+      "event_date": "February or March",
+      "status": "targeting a February or March opening",
+      "short_description": "Taqueria El Puerto De Vallarta is preparing to open a second restaurant at 8409 Elk Grove Florin Road in Elk Grove, California. The business has taken possession of the building and aims for a February or March opening pending permits, with renovations already underway.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/taqueria-el-puerto-de-vallarta-plans-second-elk-grove-location/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has confirmed it’s planning a second Sacramento-area location",
+      "short_description": "Joe & The Juice confirmed it will open a second Sacramento‑area store, though the exact location has not been disclosed. The announcement follows the upcoming summer 2027 opening of its first Sacramento location.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/joe-the-juice-confirms-plans-for-a-second-sacramento-area-store/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Cold Stone Creamery",
+      "location": "305 E Farm To Market 544 #908, Murphy, TX 75094, USA",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "targeting a spring 2027 opening",
+      "short_description": "Cold Stone Creamery filed plans to open a new ice‑cream shop at 305 E. Farm to Market 544, Suite 908 inside Murphy Marketplace in Murphy, Texas. Franchisee Anteneh Abera is targeting a spring 2027 opening, subject to permits and construction.",
+      "article_link": "https://whatnow.com/dallas/restaurants/cold-stone-creamery-plans-murphy-location/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Dampf Good BBQ",
+      "location": "321 W Geer St, Durham, NC 27701, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is set to open",
+      "short_description": "Dampf Good BBQ will open its first permanent restaurant at the former The Pit space, 321 W. Geer St., in downtown Durham, North Carolina. The Texas‑style barbecue concept is transitioning from a pop‑up to a brick‑and‑mortar location, with no opening date announced.",
+      "article_link": "https://whatnow.com/nashville/restaurants/dampf-good-bbq-fires-up-a-new-durham-home-on-geer-street/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Hunter’s Bagels",
+      "location": "19905 W Catawba Ave, Cornelius, NC 28031, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Hunter’s Bagels is preparing to bring a bagel‑focused breakfast and lunch concept to Cornelius. The owners describe the shop as “coming soon” and are collecting email sign‑ups for opening updates.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/hunters-bagels-brings-a-family-bagel-tradition-to-cornelius/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Europa",
+      "location": "76 Merrimack St, Lowell, MA 01852",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "targeting a November 2026 opening",
+      "short_description": "Europa will occupy the third floor of 76 Merrimack Street as a nightclub, bar, lounge and live‑entertainment venue. Managers say the team is targeting a November 2026 opening while working through the inspection process.",
+      "article_link": "https://whatnow.com/boston/restaurants/new-nightclub-lounge-and-live-entertainment-venue-coming-to-downtown-lowell/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Lago",
+      "location": "1808 Waukegan Rd, Glenview, IL 60025",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "under construction",
+      "short_description": "Lago is expanding from Lake Zurich with a second location at 1808 Waukegan Road in Glenview. The two‑story restaurant is under construction and an opening is expected sometime in November.",
+      "article_link": "https://whatnow.com/chicago/restaurants/lake-zurichs-lago-expanding-with-new-location-in-glenview/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Sandough (Burbank)",
+      "location": "4007 W Riverside Dr, Burbank, CA 91505",
+      "event_type": "Opening",
+      "event_date": "mid‑November",
+      "status": "expected to open in mid‑November",
+      "short_description": "Sandough is adding a Burbank location at 4007 W. Riverside Drive, which will replace the former Smashed AF Burgers site. The owner says the shop is expected to open in mid‑November.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/sandough-expanding-to-burbank-and-glendale/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Sandough (Glendale)",
+      "location": "126 S Brand Blvd, Glendale, CA 91204",
+      "event_type": "Opening",
+      "event_date": "late November or early December",
+      "status": "planned for late November or early December",
+      "short_description": "Sandough will also open a Glendale location at 126 S Brand Boulevard, taking over the former Mediterranean Delight space. The opening is planned for late November or early December.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/sandough-expanding-to-burbank-and-glendale/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Vinyl on 6th",
+      "location": "141 N 6th St, Baton Rouge, LA 70802",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "building out",
+      "short_description": "Restaurateur Cornelius Quarels is building out a new coffee shop called Vinyl on 6th in a converted 1,200‑sq‑ft cottage. Permit filings show minor renovations but no opening date has been provided.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/baton-rouge-restaurateur-building-out-new-coffee-shop/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Cache 58",
+      "location": "6600 Topanga Canyon Blvd, Canoga Park, CA 91303",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Cache 58, a fine Mexican restaurant led by Chef Ruben Barragan, is set to open at Westfield Topanga in Los Angeles. The exact opening date has not been announced. The location will join another upcoming site at Victoria Gardens.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/cache-58-coming-to-westfield-topanga/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Pho Bar Vietnamese Kitchen",
+      "location": "2515 E Atlantic Blvd., Pompano Beach, FL 33062",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming soon!",
+      "short_description": "Pho Bar Vietnamese Kitchen will open a new location at Pompano Beach Shopping Center, adding to its existing sites in Florida and an express location in Boston. No official opening date has been announced, with the website stating “Coming soon!”.",
+      "article_link": "https://whatnow.com/miami/restaurants/pho-bar-vietnamese-kitchen-expands-to-pompano-beach/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Batch & Box",
+      "location": "2646 Del Mar Heights Road",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced when the new location will open",
+      "short_description": "Batch & Box is working on its third location, a ghost kitchen at 2646 Del Mar Heights Road in Del Mar, and a retail shop in San Marcos later this year. The company has not announced an opening date for either site.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/batch-box-working-on-third-location-in-del-mar/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Nonla Burger",
+      "location": "2090 Celebration Dr NE, Grand Rapids, MI 49525",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "construction is nearing completion",
+      "short_description": "Nonla Burger is adding a second Grand Rapids location at 2090 Celebration Drive NE, with construction nearing completion. An opening date has not been announced, but the owners say they will open the doors soon.",
+      "article_link": "https://whatnow.com/detroit/restaurants/nonla-burger-team-continuing-expansion-with-new-grand-rapids-spot/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Kitchen + Kocktails",
+      "location": "7 Times Sq, New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "October 3",
+      "status": "will open on October 3",
+      "short_description": "Kitchen + Kocktails, founded by Kevin Kelley, is opening its first New York location at 7 Times Square. The restaurant will serve Southern‑inspired comfort food and cocktails, opening on October 3.",
+      "article_link": "https://whatnow.com/new-york/restaurants/kevin-kelleys-soul-food-restaurant-is-opening-at-7-times-square/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "L&M Fine Foods",
+      "location": "321 S Jefferson St Floor 1, Chicago, IL 60661",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not yet been announced",
+      "short_description": "Owner Rebecca Goldfarb of L&M Fine Foods submitted a liquor license application for 321 S Jefferson St in Chicago’s West Loop, marking a second location for the deli. The new storefront will serve cafe and deli items, but an opening date has not yet been announced. The existing North Center location opened in late 2019.",
+      "article_link": "https://whatnow.com/chicago/restaurants/l-and-m-fine-foods-deli-owner-applies-for-new-space-in-west-loop/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Lakeside Asia Cafe",
+      "location": "11130 South Lakes Dr J, Reston, VA 20191",
+      "event_type": "Closing",
+      "event_date": "September 30",
+      "status": "has announced its closure",
+      "short_description": "Lakeside Asia Cafe, a Sichuan restaurant in Reston’s South Lakes Village Shopping Center, announced it will close on September 30 after 13 years in business. The closure was shared on the restaurant’s website on September 22. The final meal will be served at 11130 South Lakes Dr J.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/a-reston-sichuan-restaurant-is-closing-after-13-years-in-business/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Don Juanz Baja Beach Tacos",
+      "location": "2011 Kaliste Saloom Rd, Lafayette, LA 70508",
+      "event_type": "Opening",
+      "event_date": "spring of 2026",
+      "status": "slated to open in the spring of 2026",
+      "short_description": "Don Juanz Baja Beach Tacos plans to expand to Lafayette, Louisiana, with a new location at 2011 Kaliste Saloom Rd. Owner Don O’Byrne said the spot is slated to open in the spring of 2026 as part of a regional push. The concept is known for its California‑meets‑Sonora coastal menu.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/bossier-city-based-cali-mex-restaurant-expanding-to-southern-louisiana/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Dragon Alley",
+      "location": "1501 McGavock St, Nashville, TN 372",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Birria El Gordo",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 3",
+      "status": "closed its doors earlier this month",
+      "short_description": "Birria El Gordo, a Mexican restaurant in Marietta, closed its doors earlier this month after more than six years of operation, citing rising operating costs. The team posted a farewell message thanking the community.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-metro-atlanta-restaurants-close-their-locations-this-september-2026/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "O’Charley’s",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 9",
+      "status": "permanently closed its locations",
+      "short_description": "O’Charley’s permanently closed its Stockbridge and Canton locations following a corporate decision and an assignment for the benefit of creditors. The chain thanked customers for their patronage.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-metro-atlanta-restaurants-close-their-locations-this-september-2026/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Humble Mumble",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 14",
+      "status": "closed permanently this month",
+      "short_description": "Humble Mumble, a Black‑owned sandwich shop inside the Collective Food Hall at Coda Tech Square in Midtown Atlanta, closed permanently this month. The owners announced the closure with a simple “Peace and Love ATL” message.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-metro-atlanta-restaurants-close-their-locations-this-september-2026/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Bon Ton",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 30",
+      "status": "will close September 30",
+      "short_description": "Bon Ton, a seafood restaurant in Midtown Atlanta, announced it will close on September 30, ending its nine‑year run. No reason for the decision was shared.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-metro-atlanta-restaurants-close-their-locations-this-september-2026/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Osen Urban Table",
+      "location": "2610 E Katella Ave, Anaheim, CA 92806",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Osen Hospitality Group will open Osen Urban Table, a standalone restaurant, in OCVIBE’s Urban Plaza next year. The concept refines the flagship Izakaya Osen into a casual environment suitable for lunch and dinner.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/orange-countys-osen-hospitality-group-will-bring-two-new-dining-concepts-to-ocvibe/",
+      "published_date": "September 29, 2026"
+    },
+    {
+      "store_name": "Osen Handroll",
+      "location": "2610 E Katella Ave, Anaheim, CA 92806",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Osen Hospitality Group will also launch Osen Handroll,",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Sam Diego’s Mexican Cookery and Bar",
+      "location": "950 Iyannough Rd, Hyannis, MA 02601",
+      "event_type": "Closing",
+      "event_date": "November 15, 2026",
+      "status": "shut down",
+      "short_description": "Sam Diego’s Mexican Cookery and Bar, a 44‑year‑old Mexican restaurant in Hyannis, announced it will close its doors. The owners posted that the final day of service will be November 15, 2026 after failing to find a buyer. Customers are encouraged to visit before the closure to use gift certificates and enjoy a final meal.",
+      "article_link": "https://whatnow.com/boston/restaurants/a-44-year-old-hyannis-mexican-restaurant-is-closing-this-november/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Chops Lobster Bar",
+      "location": "Atlanta (Medley mixed‑use development in Johns Creek)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening a new location",
+      "short_description": "Chops Lobster Bar will open a new restaurant in the Medley mixed‑use development in Johns Creek, Atlanta. The 8,000‑sq‑ft ground‑floor space will feature a bar in the hotel lobby and a menu of USDA Prime steaks and seafood.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/7-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-21-27/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Park Bench",
+      "location": "Centennial Yards",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Park Bench plans to open its second location at Centennial Yards, featuring live music and dueling piano shows. No opening timeline has been announced.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/7-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-21-27/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Thai Candle",
+      "location": "5155 Peachtree Pkwy, Suite 320",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Thai Candle is set to open at The Forum Peachtree Corners at 5155 Peachtree Pkwy, Suite 320. The restaurant will serve Northern Thai cuisine, though an opening timeline remains unclear.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/7-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-21-27/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Linton’s Bar & Grill",
+      "location": "Buckhead Center along Peachtree Road, Buckhead Village",
+      "event_type": "Opening",
+      "event_date": "late spring 2027",
+      "status": "targeting a late spring opening in 2027",
+      "short_description": "Linton’s Bar & Grill, a new concept by Chef Linton Hopkins, will occupy a 7,000‑sq‑ft space in Buckhead Center along Peachtree Road. The venue aims for a late‑spring 2027 opening.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/7-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-21-27/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Biscuit Belly",
+      "location": "8921 Christenbury Pkwy, Concord, NC 28027, USA",
+      "event_type": "Opening",
+      "event_date": "late fall 2026",
+      "status": "transition expected in late fall 2026",
+      "short_description": "Biscuit Belly will convert the Maple Street Biscuit Company location at 8921 Christenbury Pkwy, Concord, NC 28027 into its brand later this fall. The conversion is the first North Carolina Maple Street-to‑Biscuit Belly transition and is expected in late fall 2026.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/concord-maple-street-location-to-become-biscuit-bellys-first-north-carolina-conversion/",
+      "published_date": "September 28, 2026"
+    },
+    {
+      "store_name": "Cooper’s Hawk Winery & Restaurant",
+      "location": "1131 Parkside Main St, Cary, NC 27519, USA",
+      "event_type": "Opening",
+      "event_date": "November 9, 2026",
+      "status": "opening November 9",
+      "short_description": "Cooper’s Hawk Winery & Restaurant is opening a new location at 1131 Parkside Main St, Cary, NC 27519. The restaurant and Napa‑style tasting room are slated to open on November 9, 2026.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/coopers-hawk-winery-restaurant-bringing",
+      "published_date": ""
     }
   ],
   "non_working": [
