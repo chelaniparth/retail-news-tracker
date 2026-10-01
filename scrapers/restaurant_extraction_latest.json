@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -6370,6 +6370,306 @@
       "short_description": "Cooper’s Hawk Winery & Restaurant is opening a new location at 1131 Parkside Main St, Cary, NC 27519. The restaurant and Napa‑style tasting room are slated to open on November 9, 2026.",
       "article_link": "https://whatnow.com/charlotte/restaurants/coopers-hawk-winery-restaurant-bringing",
       "published_date": ""
+    },
+    {
+      "store_name": "Ceviche Arigato",
+      "location": "4898 S. Kirkman Rd., Orlando, FL 32811",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new Ceviche Arigato opening",
+      "short_description": "Ceviche Arigato, a Japanese‑Peruvian fusion restaurant, is preparing to expand to Orlando. Plan‑review documents show the new location will occupy the former Ahi Sushi space at 4898 S. Kirkman Rd. The article notes the restaurant is “preparing to expand” to a third location.",
+      "article_link": "https://whatnow.com/orlando/restaurants/south-floridas-ceviche-arigato-is-coming-to-orlando/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "La Michoacana Ice Cream",
+      "location": "738 S. Bluford Ave, Ocoee, FL 34761",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening is just a few weeks away",
+      "short_description": "La Michoacana Tradicion Natural plans to open a new ice‑cream shop in Ocoee. Plan‑review documents list the address as 738 S. Bluford Ave, and a restaurant representative says the opening is “just a few weeks away.” The location will join a retail center with several other eateries.",
+      "article_link": "https://whatnow.com/orlando/restaurants/la-michoacana-expanding-with-another-new-ice-cream-and-more-shop/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "College Street Cafe",
+      "location": "635 SW College St, Portland, OR 97201, USA",
+      "event_type": "Opening",
+      "event_date": "first week of November",
+      "status": "plans to open",
+      "short_description": "College Street Cafe intends to open at 635 SW College St in Portland during the first week of November. Owner Amy Nichols confirmed the plan, describing the spot as a breakfast‑and‑coffee venue aimed at the nearby university crowd. A recent liquor‑license filing shows the space will seat 60 inside and 20 outdoors.",
+      "article_link": "https://whatnow.com/portland/restaurants/new-breakfast-cafe-opening-near-psu-in-early-november/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Chianti South",
+      "location": "2109 US-17, Little River, SC 29566",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to make its return before the start of winter",
+      "short_description": "After closing in 2024, Chianti South is slated to return to Little River under new ownership. An announcement says the restaurant “is returning with a renewed vision” and is “expected to make its return before the start of winter.” No specific opening date has been announced.",
+      "article_link": "https://whatnow.com/charleston/restaurants/chianti-south-is-coming-home-a-comeback-is-in-the-works-in-little-river/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Modern Cone",
+      "location": "65800 Van Dyke Ave, Washington, MI 48095",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date will be sometime next year, pending construction progress",
+      "short_description": "Modern Cone, an ice‑cream shop from St. Clair Shores, signed a lease for a second location at 65800 Van Dyke Road. The article states the “opening date will be sometime next year, pending construction progress.” The new spot will sit across from Art & Jake’s Sports Bar & Grill and other local businesses.",
+      "article_link": "https://whatnow.com/detroit/restaurants/modern-cone-owners-sign-lease-for-second-location-in-washington/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Tidewater Grill & Bistro",
+      "location": "1799 Hwy 17 N, North Myrtle Beach, SC 29582",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipating late spring or early summer of next year for opening",
+      "short_description": "Tidewater Grill & Bistro, a North Myrtle Beach seafood restaurant founded in 2015, will relocate to the Exchange at Sunset Grove at 1799 Hwy 17 N, doubling its size. Owner Sarah Arnold says the new space will open in late spring or early summer of next year, with a larger bar and private dining room.",
+      "article_link": "https://whatnow.com/charleston/restaurants/tidewater-grill-relocating-to-the-exchange-at-sunset-grove-next-year/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Angelita’s Mexican Bar & Cuisine",
+      "location": "16301 Boulevard Pl, Plainfield, IL 60586",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Angelita’s Mexican Bar & Cuisine, a family‑owned Mexican restaurant concept, is under construction at 16301 Boulevard Place in Joliet. Co‑owner Enrique Melendez says the team hopes to open in a few weeks, with authentic Mexican dishes and a bar.",
+      "article_link": "https://whatnow.com/chicago/restaurants/family-introducing-angelitas-mexican-bar-and-cuisine-in-joliet/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Courtyard by Marriott",
+      "location": "116 E Main St, Lexington, SC 29072",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "on track for an opening in the spring of 2027",
+      "short_description": "The Courtyard by Marriott hotel in Lexington, a four‑story, 111‑room property with a terrace and Bistro, is on schedule for a March 2027 opening at 116 E Main St. Construction is proceeding as planned, and the developers expect to be open in spring.",
+      "article_link": "https://whatnow.com/charleston/restaurants/courtyard-by-marriott-on-track-to-open-in-lexington-this-spring/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Heavenly Donuts and Deli",
+      "location": "10825 Gulf Blvd, Treasure Island, FL 33706",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "ready to welcome you this December",
+      "short_description": "Heavenly Donuts and Deli, previously in Gulfport, will move to 10825 Gulf Boulevard on Treasure Island. The owners plan to be ready for customers in December 2026, offering donuts and deli sandwiches at the new location.",
+      "article_link": "https://whatnow.com/tampa/restaurants/heavenly-donuts-and-deli-moving-to-treasure-island/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Ravello",
+      "location": "738 S 11th St., Philadelphia, PA 19147",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Ravello, an Amalfi Coast‑inspired Italian restaurant, will open in Philadelphia’s Bella Vista neighborhood at 738 S. 11th St., taking over the former Two Robbers Spirit Co. space. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/amalfi-coast-inspired-italian-restaurant-coming-to-bella-vista/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "The Hungry Greek",
+      "location": "8859 Little Rd, New Port Richey, FL 34654",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening planned for mid-October",
+      "short_description": "The Hungry Greek franchise is set to open a new fast‑casual location at 8859 Little Road in New Port Richey. The opening is planned for mid‑October and will be the second spot for franchisee Adil in the area. The menu will feature salads, pitas, bowls and Greek entrees.",
+      "article_link": "https://whatnow.com/tampa/restaurants/the-hungry-greek-opening-in-new-port-richey-next-month/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Crust Baking Company",
+      "location": "203 W Grand River Ave, Howell, MI 48843",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipating a February opening date",
+      "short_description": "Crust Baking Company is expanding to a new downtown Howell site at 203 W Grand River Ave. Co‑owner Chad Brennan said construction is beginning and a February opening is anticipated. The bakery will serve breads, pastries, breakfast and lunch items.",
+      "article_link": "https://whatnow.com/detroit/restaurants/crust-baking-company-finds-new-location-in-downtown-howell/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Little Saint Cocktail Co.",
+      "location": "640 St Albans Dr, Raleigh, NC 27609, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting a spring 2027 opening",
+      "short_description": "Little Saint Cocktail Co. is slated to debut in Raleigh’s North Hills Innovation District at 640 St. Albans Drive. The concept is the first standalone cocktail bar in the area and is targeting a spring 2027 opening. Details on menu and design have not yet been released.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/sapphire-rain-co-to-debut-new-gift-boutique-in-concord-this-october/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "CJ’s Sandwiches & Catering",
+      "location": "17471 Gulf Blvd, Redington Shores, FL 33708",
+      "event_type": "Opening",
+      "event_date": "October 15",
+      "status": "opening on October 15",
+      "short_description": "CJ’s Sandwiches & Catering plans to open at 17471 Gulf Blvd in Redington Shores. Plan review documents list an opening date of October 15. The website is under construction and menu details are pending.",
+      "article_link": "https://whatnow.com/tampa/restaurants/cjs-sandwiches-and-catering-opening-in-redington-shores/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "MoreYogurt",
+      "location": "37-05 Prince St, Flushing, NY 11354",
+      "event_type": "Opening",
+      "event_date": "October 2-4",
+      "status": "celebrating the grand opening",
+      "short_description": "MoreYogurt is opening its first New York City store at 37‑05 Prince Street in Flushing. After a soft opening from September 27‑29, the grand opening runs October 2‑4 with giveaways and promotions. The shop will serve avocado‑based yogurt smoothies and other drinks.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-yogurt-shop-is-opening-in-flushing-with-avocado-smoothies-and-more/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Better Buzz Coffee",
+      "location": "39837 US‑27, Davenport, FL 33837",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Opening in the US‑27 location",
+      "short_description": "Better Buzz Coffee submitted plan review paperwork for a new location in Davenport at 39837 US‑27. The article notes the site is moving forward with an opening and will join other restaurants in St. Charles Plaza.",
+      "article_link": "https://whatnow.com/tampa/restaurants/better-buzz-coffee-plans-davenport-location/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Tulipán (Hungarian‑inspired restaurant)",
+      "location": "1065 Madison Ave., New York, NY 10028",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "plans to open in spring 2027",
+      "short_description": "The Tulipán Foundation will open a Hungarian‑inspired restaurant in a restored 1890s townhouse on the Upper East Side. The ground floor will house the restaurant, with additional gallery and marketplace spaces above. The team plans to open in spring 2027.",
+      "article_link": "https://whatnow.com/new-york/restaurants/new-hungarian-inspired-destination-coming-to-upper-east-side/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Boathouse Avondale",
+      "location": "3951 St Johns Ave, Jacksonville, FL 32205",
+      "event_type": "Opening",
+      "event_date": "around Thanksgiving 2026",
+      "status": "may be opening soon",
+      "short_description": "Boathouse Avondale is set to take over the former Ale Pie House space on St. Johns Avenue, focusing on sushi‑forward fare. Restaurateurs Nathan Stuart and Margo Klar expect an opening around Thanksgiving 2026, though no exact date is announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/boathouse-avondale-bringing-sushi-and-seafood-to-st-johns-avenue/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Agape Grill",
+      "location": "845 Stewart Dr A, Sunnyvale, CA 94085, United States",
+      "event_type": "Closing",
+      "event_date": "October 2, 2026",
+      "status": "will close its Sunnyvale location on October 2",
+      "short_description": "Agape Grill announced it will close its Sunnyvale restaurant on October 2, 2026 after more than 16 years, citing lease expiration. The family‑run Greek and Mediterranean eatery will serve customers until 2:30 p.m. that day and hopes to find a new location.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/beloved-sunnyvale-greek-restaurant-bids-farewell-after-17-years/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Gotham Burger Social Club",
+      "location": "216 Grand St, New York, NY 10013",
+      "event_type": "Opening",
+      "event_date": "September 23, 2026",
+      "status": "has opened its second location",
+      "short_description": "Gotham Burger Social Club opened its second restaurant in Brooklyn’s Williamsburg neighborhood on September 23, 2026. The new 1,500‑sq‑ft space adds a full bar and cocktail program, seating 57 guests.",
+      "article_link": "https://whatnow.com/new-york/restaurants/cult-favorite-burger-concept-expands-with-new-brooklyn-opening/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "All‑Day Café and Pizza Joint",
+      "location": "2835 Orleans Ave, New Orleans, LA 70119",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming",
+      "short_description": "A new all‑day café and pizza joint is set to occupy the ground‑floor of 2835 Orleans Ave in the Bayou Saint John neighborhood. The permit filing lists the entity as Orleans Ave Store, LLC and notes the concept will center around a wood‑burning oven. The location will replace the former Orleans Food Store.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/all-day-cafe-and-pizza-joint-coming-to-bayou-saint-john-storefront/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Thirsty Lion Gastropub",
+      "location": "8335 Park Meadows Center Dr, Lone Tree, CO 80124",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "opening planned for December 2026",
+      "short_description": "Thirsty Lion Gastropub is adding a second Colorado location at 8335 Park Meadows Center Drive in Lone Tree, taking over the former Earls Kitchen + Bar space. The 7,900‑sq‑ft restaurant is slated to open in December 2026. This expansion will extend the brand’s presence into the southern Denver metro area.",
+      "article_link": "https://whatnow.com/denver/restaurants/thirsty-lion-gastropub-expanding-to-lone-trees-park-meadows/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Admiral Maltings (malthouse)",
+      "location": "651A W Tower Ave, Alameda, CA 94501, United States",
+      "event_type": "Closing",
+      "event_date": "October 2, 2026",
+      "status": "permanent closure",
+      "short_description": "Admiral Maltings, a floor‑malting facility, and its attached taproom The Rake at 651A W Tower Ave in Alameda will permanently close in October 2026. The malthouse will cease operations on October 2 after its final batch, while the taproom will close on October 18. The closures follow economic challenges in producing and selling malt.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/alameda-malthouse-and-taproom-will-permanently-close-this-october/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "The Rake (taproom)",
+      "location": "651A W Tower Ave, Alameda, CA 94501, United States",
+      "event_type": "Closing",
+      "event_date": "October 18, 2026",
+      "status": "permanent closure",
+      "short_description": "Admiral Maltings, a floor‑malting facility, and its attached taproom The Rake at 651A W Tower Ave in Alameda will permanently close in October 2026. The malthouse will cease operations on October 2 after its final batch, while the taproom will close on October 18. The closures follow economic challenges in producing and selling malt.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/alameda-malthouse-and-taproom-will-permanently-close-this-october/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Brooklyn Pizza",
+      "location": "200 Riverside Ave, Jacksonville, FL 32202",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date for the Riverside location has not yet been announced.",
+      "short_description": "Brooklyn Pizza plans to open a second Jacksonville location at 200 Riverside Avenue, Suite 1, within the Vista Brooklyn mixed‑use development. The restaurant will offer New York‑style and Sicilian pies along with other Italian‑American fare. An opening date has not yet been announced, though the project was expected to open during 2026.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/brooklyn-pizza-expanding-to-downtown-jacksonville-with-new-r",
+      "published_date": ""
+    },
+    {
+      "store_name": "Mimi Cheng’s Dumplings",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 11, 2026",
+      "status": "closed",
+      "short_description": "Mimi Cheng’s Dumplings closed on September 11, 2026 as the brand shifts to a nationwide frozen‑dumpling business. The closure coincided with the expiration of the restaurant’s lease and was announced via social media.",
+      "article_link": "https://whatnow.com/new-york/restaurants/these-7-new-york-restaurants-permanently-closed-in-september-2026/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Francesca’s Pizzeria",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 13, 2026",
+      "status": "closed its doors",
+      "short_description": "Francesca’s Pizzeria ended its 35‑year run in Great Neck, New York, closing its doors on September 13, 2026. The restaurant cited business circumstances and posted a notice on its website stating it was out of business.",
+      "article_link": "https://whatnow.com/new-york/restaurants/these-7-new-york-restaurants-permanently-closed-in-september-2026/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Gourmet Burger Bistro",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 15, 2026",
+      "status": "did not open its doors",
+      "short_description": "Gourmet Burger Bistro in Port Jefferson announced its permanent closure on September 15, 2026. Owner Mike Napoli apologized for the sudden shutdown, noting it was the first day the restaurant did not open.",
+      "article_link": "https://whatnow.com/new-york/restaurants/these-7-new-york-restaurants-permanently-closed-in-september-2026/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Oren’s Hummus",
+      "location": "Stevens Creek Boulevard, Cupertino",
+      "event_type": "Closing",
+      "event_date": "September 11, 2026",
+      "status": "permanently closed",
+      "short_description": "Oren’s Hummus permanently closed its Cupertino location on Stevens Creek Boulevard on September 11, 2026 after ten years of service. The closure was announced by co‑owner Mistie Boulton, while other locations remain open.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/3-bay-area-restaurants-have-closed-this-september-2026/",
+      "published_date": "September 30, 2026"
+    },
+    {
+      "store_name": "Prelude",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "September 19, 2026",
+      "status": "officially shut its operations",
+      "short_description": "Prelude, an upscale Southern‑inspired restaurant inside The Jay hotel, officially shut its operations on September 19, 2026. Slow business led to the closure, and the restaurant group plans to reopen the space with a new concept.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/3-bay-area-restaurants-have-closed-this-september-2026/",
+      "published_date": "September 30, 2026"
     }
   ],
   "non_working": [

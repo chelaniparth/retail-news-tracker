@@ -1,510 +1,222 @@
 {
-  "last_updated": "2026-09-30 00:25 UTC",
-  "total": 84,
+  "last_updated": "2026-10-01 00:34 UTC",
+  "total": 36,
   "data": [
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/south-floridas-ceviche-arigato-is-coming-to-orlando/",
+      "title": "",
+      "address": ""
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/la-michoacana-expanding-with-another-new-ice-cream-and-more-shop/",
+      "title": "La Michoacana Expanding With Another New Ice Cream (and More) Shop",
+      "address": "738 S Bluford Ave, Ocoee, FL 34761"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/portland/restaurants/new-breakfast-cafe-opening-near-psu-in-early-november/",
+      "title": "New Breakfast Café Opening Near PSU in Early November",
+      "address": "635 SW College St, Portland, OR 97201, USA"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/chianti-south-is-coming-home-a-comeback-is-in-the-works-in-little-river/",
+      "title": "“Chianti South Is Coming Home”: A Comeback Is in the Works in Little River",
+      "address": "2109 US-17, Little River, SC 29566"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/modern-cone-owners-sign-lease-for-second-location-in-washington/",
+      "title": "Modern Cone Owners Sign Lease for Second Location in Washington",
+      "address": "65800 Van Dyke Ave, Washington, MI 48095"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/tidewater-grill-relocating-to-the-exchange-at-sunset-grove-next-year/",
+      "title": "Tidewater Grill Relocating to the Exchange at Sunset Grove Next Year",
+      "address": "1799 Hwy 17 N, North Myrtle Beach, SC 29582"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/family-introducing-angelitas-mexican-bar-and-cuisine-in-joliet/",
+      "title": "Family Introducing ‘Angelita’s Mexican Bar and Cuisine’ in Joliet",
+      "address": "16301 Boulevard Pl, Plainfield, IL 60586"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/courtyard-by-marriott-on-track-to-open-in-lexington-this-spring/",
+      "title": "Courtyard by Marriott on Track to Open in Lexington This Spring",
+      "address": "116 E Main St, Lexington, SC 29072"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/heavenly-donuts-and-deli-moving-to-treasure-island/",
+      "title": "Heavenly Donuts and Deli Moving to Treasure Island",
+      "address": "10825 Gulf Blvd, Treasure Island, FL 33706"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/amalfi-coast-inspired-italian-restaurant-coming-to-bella-vista/",
+      "title": "Amalfi Coast-Inspired Italian Restaurant Coming to Bella Vista",
+      "address": "738 S 11th St., Philadelphia, PA 19147"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/the-hungry-greek-opening-in-new-port-richey-next-month/",
+      "title": "The Hungry Greek Opening in New Port Richey Next Month",
+      "address": "8859 Little Rd, New Port Richey, FL 34654"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/crust-baking-company-finds-new-location-in-downtown-howell/",
+      "title": "Crust Baking Company Finds New Location in Downtown Howell",
+      "address": "203 W Grand River Ave, Howell, MI 48843"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/charlotte/restaurants/sapphire-rain-co-to-debut-new-gift-boutique-in-concord-this-october/",
+      "title": "Sapphire Rain Co. to Debut New Gift Boutique in Concord This October",
+      "address": "640 St Albans Dr, Raleigh, NC 27609, USA"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/cjs-sandwiches-and-catering-opening-in-redington-shores/",
+      "title": "CJ’s Sandwiches and Catering Opening in Redington Shores",
+      "address": "17471 Gulf Blvd, Redington Shores, FL 33708"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/a-new-yogurt-shop-is-opening-in-flushing-with-avocado-smoothies-and-more/",
+      "title": "A New Yogurt Shop Is Opening in Flushing with Avocado Smoothies and More",
+      "address": "37-05 Prince St, Flushing, NY 11354"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/better-buzz-coffee-plans-davenport-location/",
+      "title": "Better Buzz Coffee Plans Davenport Location",
+      "address": "39837 US-27, Davenport, FL 33837"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/new-hungarian-inspired-destination-coming-to-upper-east-side/",
+      "title": "New Hungarian-Inspired Destination Coming to Upper East Side",
+      "address": "1065 Madison Ave., New York, NY 10028"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/boathouse-avondale-bringing-sushi-and-seafood-to-st-johns-avenue/",
+      "title": "Boathouse Avondale Bringing Sushi and Seafood to St. Johns Avenue",
+      "address": "3951 St Johns Ave, Jacksonville, FL 32205"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/beloved-sunnyvale-greek-restaurant-bids-farewell-after-17-years/",
+      "title": "Beloved Sunnyvale Greek Restaurant Bids Farewell After 17 Years",
+      "address": "845 Stewart Dr A, Sunnyvale, CA 94085, United States"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/cult-favorite-burger-concept-expands-with-new-brooklyn-opening/",
+      "title": "Cult-Favorite Burger Concept Expands with New Brooklyn Opening",
+      "address": "216 Grand St, New York, NY 10013"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/all-day-cafe-and-pizza-joint-coming-to-bayou-saint-john-storefront/",
+      "title": "All-Day Café and Pizza Joint Coming to Bayou Saint John Storefront",
+      "address": "2835 Orleans Ave, New Orleans, LA 70119"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/denver/restaurants/thirsty-lion-gastropub-expanding-to-lone-trees-park-meadows/",
+      "title": "Thirsty Lion Gastropub Expanding to Lone Tree’s Park Meadows",
+      "address": "8335 Park Meadows Center Dr, Lone Tree, CO 80124"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/alameda-malthouse-and-taproom-will-permanently-close-this-october/",
+      "title": "Alameda Malthouse and Taproom Will Permanently Close This October",
+      "address": "651A W Tower Ave, Alameda, CA 94501, United States"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/brooklyn-pizza-expanding-to-downtown-jacksonville-with-new-riverside-location/",
+      "title": "Brooklyn Pizza Expanding to Downtown Jacksonville With New Riverside Location",
+      "address": "200 Riverside Ave, Jacksonville, FL 32202"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/denver/restaurants/sourdough-co-expanding-to-auroras-southlands/",
+      "title": "Sourdough & Co. Expanding to Aurora’s Southlands",
+      "address": "6295 S Main St, Aurora, CO 80016"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/these-7-new-york-restaurants-permanently-closed-in-september-2026/",
+      "title": "These 7 New York Restaurants Permanently Closed in September 2026",
+      "address": ""
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/3-bay-area-restaurants-have-closed-this-september-2026/",
+      "title": "3 Bay Area Restaurants Have Closed This September 2026",
+      "address": ""
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/charlotte/restaurants/hunters-bagels-set-to-open-in-cornelius-with-brooklyn-roots/",
+      "title": "Hunter’s Bagels Set to Open in Cornelius With Brooklyn Roots",
+      "address": "19905 W Catawba Ave, Cornelius, NC 28031, USA"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/tropical-smoothie-cafe-set-for-new-murfreesboro-location/",
+      "title": "Tropical Smoothie Cafe Set for New Murfreesboro Location",
+      "address": "3411 Memorial Blvd, Murfreesboro, TN 37129, USA"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/what-now-accelerate-event-in-new-orleans-brings-operators-and-industry-partners-together/",
+      "title": "What Now Accelerate Event in New Orleans Brings Operators and Industry Partners Together",
+      "address": "2209 Lapalco Blvd Ste FF, Harvey, LA 70058"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/denver/restaurants/denver-fb-community-connects-at-what-now-media-groups-local-accelerate-event/",
+      "title": "Denver F&B Community Connects at What Now Media Group’s Local Accelerate Event",
+      "address": "1096 S Gaylord St, Denver, CO 80209"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/dallas-industry-leaders-connect-at-what-now-media-group-accelerate-event/",
+      "title": "Dallas Industry Leaders Connect at What Now Media Group Accelerate Event",
+      "address": "14655 Dallas Pkwy, Dallas, TX 75254"
+    },
+    {
+      "date": "September 29, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/what-now-media-group-hosts-las-vegas-hospitality-networking-event/",
+      "title": "What Now Media Group Hosts Las Vegas Hospitality Networking Event",
+      "address": "855 E Twain Ave #107, Las Vegas, NV 89169"
+    },
+    {
+      "date": "September 29, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/olive-garden-plans-dallas-location-on-west-illinois-avenue/",
+      "title": "Olive Garden Plans New Dallas Location on West Illinois Avenue",
+      "address": "575 W Illinois Ave, Dallas, TX 75224, USA"
+    },
+    {
+      "date": "September 29, 2026",
+      "url": "https://whatnow.com/austin/restaurants/twist-buckle-to-make-its-north-american-debut/",
+      "title": "Twist & Buckle to Make Its North American Debut",
+      "address": "6929 Airport Blvd, Austin, TX 78752, USA"
+    },
     {
       "date": "September 29, 2026",
       "url": "https://whatnow.com/toronto/restaurants/iconic-concert-venue-set-to-relocate-to-historic-1920s-theatre/",
       "title": "Iconic Concert Venue Set to Relocate to Historic 1920s Theatre",
       "address": "1605 Queen St W, Toronto, ON M6R 1A9, Canada"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/sacramento/restaurants/taqueria-el-puerto-de-vallarta-plans-second-elk-grove-location/",
-      "title": "Taqueria El Puerto De Vallarta Plans Second Elk Grove Location",
-      "address": "8409 Elk Grove Florin Rd, Elk Grove, CA 95624"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/sacramento/restaurants/joe-the-juice-confirms-plans-for-a-second-sacramento-area-store/",
-      "title": "Joe & The Juice Confirms Plans for a Second Sacramento-Area Store",
-      "address": ""
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/cold-stone-creamery-plans-murphy-location/",
-      "title": "Cold Stone Creamery Plans Murphy Location",
-      "address": "305 E Farm To Market 544 #908, Murphy, TX 75094, USA"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/dampf-good-bbq-fires-up-a-new-durham-home-on-geer-street/",
-      "title": "Dampf Good BBQ Fires Up A New Durham Home On Geer Street",
-      "address": "321 W Geer St, Durham, NC 27701, USA"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/hunters-bagels-brings-a-family-bagel-tradition-to-cornelius/",
-      "title": "Hunter’s Bagels Brings a Family Bagel Tradition to Cornelius",
-      "address": "19905 W Catawba Ave, Cornelius, NC 28031, USA"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/boston/restaurants/new-nightclub-lounge-and-live-entertainment-venue-coming-to-downtown-lowell/",
-      "title": "New Nightclub, Lounge, and Live-Entertainment Venue Coming to Downtown Lowell",
-      "address": "76 Merrimack St, Lowell, MA 01852"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/lake-zurichs-lago-expanding-with-new-location-in-glenview/",
-      "title": "Lake Zurich’s Lago Expanding with New Location in Glenview",
-      "address": "1808 Waukegan Rd, Glenview, IL 60025"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/los-angeles/restaurants/sandough-expanding-to-burbank-and-glendale/",
-      "title": "Sandough Expanding to Burbank and Glendale",
-      "address": ""
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/baton-rouge-restaurateur-building-out-new-coffee-shop/",
-      "title": "Baton Rouge Restaurateur Building Out New Coffee Shop",
-      "address": "141 N 6th St, Baton Rouge, LA 70802"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/los-angeles/restaurants/cache-58-coming-to-westfield-topanga/",
-      "title": "Cache 58 Coming to Westfield Topanga",
-      "address": "6600 Topanga Canyon Blvd, Canoga Park, CA 91303"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/miami/restaurants/pho-bar-vietnamese-kitchen-expands-to-pompano-beach/",
-      "title": "Pho Bar Vietnamese Kitchen Expands to Pompano Beach",
-      "address": "2515 E Atlantic Blvd., Pompano Beach, FL 33062"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/batch-box-working-on-third-location-in-del-mar/",
-      "title": "Batch & Box Working on Third Location in San Marcos",
-      "address": ""
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/nonla-burger-team-continuing-expansion-with-new-grand-rapids-spot/",
-      "title": "Nonla Burger Team Continuing Expansion with New Grand Rapids Spot",
-      "address": "2090 Celebration Dr NE, Grand Rapids, MI 49525"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/kevin-kelleys-soul-food-restaurant-is-opening-at-7-times-square/",
-      "title": "Kevin Kelley’s Soul Food Restaurant Is Opening at 7 Times Square",
-      "address": "7 Times Sq, New York, NY 10036"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/l-and-m-fine-foods-deli-owner-applies-for-new-space-in-west-loop/",
-      "title": "L and M Fine Foods Deli Owner Applies for New Space in West Loop",
-      "address": "321 S Jefferson St Floor 1, Chicago, IL 60661"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/a-reston-sichuan-restaurant-is-closing-after-13-years-in-business/",
-      "title": "A Reston Sichuan Restaurant Is Closing After 13 Years in Business",
-      "address": "11130 South Lakes Dr J, Reston, VA 20191"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/bossier-city-based-cali-mex-restaurant-expanding-to-southern-louisiana/",
-      "title": "Bossier City-Based Cali-Mex Restaurant Expanding to Southern Louisiana",
-      "address": "2011 Kaliste Saloom Rd, Lafayette, LA 70508"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/dragon-alley-brings-asian-street-food-to-nashvilles-midtown/",
-      "title": "Dragon Alley Brings Asian Street Food to Nashville’s Midtown",
-      "address": "1501 McGavock St, Nashville, TN 37203, USA"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/los-angeles/restaurants/7-longtime-los-angeles-restaurants-closed-this-september-2026/",
-      "title": "7 Longtime Los Angeles Restaurants Closed This September 2026",
-      "address": ""
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/5-metro-atlanta-restaurants-close-their-locations-this-september-2026/",
-      "title": "5 Metro Atlanta Restaurants Close Their Locations This September 2026",
-      "address": ""
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/orange-countys-osen-hospitality-group-will-bring-two-new-dining-concepts-to-ocvibe/",
-      "title": "Orange County’s Osen Hospitality Group Will Bring Two New Dining Concepts To OCVIBE | What Now Orange County",
-      "address": "2610 E Katella Ave, Anaheim, CA 92806"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/miami/restaurants/lito-opens-in-wynwood-with-a-fresh-take-on-southern-european-dining/",
-      "title": "LITO Opens In Wynwood With A Fresh Take on Southern European Dining | What Now Miami",
-      "address": "137 NW 26th St, Miami, FL 33127"
-    },
-    {
-      "date": "September 29, 2026",
-      "url": "https://whatnow.com/miami/restaurants/palm-verde-preparing-for-fall-2026-debut-in-downtown-melbourne/",
-      "title": "Palm Verde Preparing For Fall 2026 Debut In Downtown Melbourne",
-      "address": "849 E New Haven Ave, Melbourne, FL 32901, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/austin/restaurants/kilwins-plans-new-cedar-park-location/",
-      "title": "Kilwins Plans New Cedar Park Location",
-      "address": ""
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/sabai-thai-street-food-filling-a-gap-in-the-market/",
-      "title": "Sabai Thai Street Food Filling a Gap in the Market",
-      "address": "3333 S Orange Ave #105, Orlando, FL 32806"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/nashvilles-radish-kitchen-sets-north-carolina-debut-in-charlotte/",
-      "title": "Nashville’s Radish Kitchen Sets North Carolina Debut In Charlotte",
-      "address": "2820 Selwyn Ave, Charlotte, NC 28209, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/austin/restaurants/lemberg-roastery-bakery-to-bring-ukrainian-coffee-tradition-to-austin/",
-      "title": "Lemberg Roastery & Bakery to Bring Ukrainian Coffee Tradition to Austin",
-      "address": ""
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/portland/restaurants/new-family-bakery-rising-from-flour-markets-closure/",
-      "title": "New Family Bakery Rising From Flour Market's Closure",
-      "address": "2523 SE 9th Ave, Portland, OR 97202, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/portland/restaurants/longtime-oregon-franchisee-set-to-open-sixth-handels-ice-cream-location-in-redmond/",
-      "title": "Longtime Oregon Franchisee Set to Open Sixth Handel's Ice Cream Location in Redmond",
-      "address": "612 SW 5th St, Redmond, OR 97756, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/dragon-alley-brings-asian-street-food-to-new-midtown-towers-ground-floor/",
-      "title": "Dragon Alley Brings Asian Street Food to New Midtown Tower's Ground Floor",
-      "address": "1501 McGavock St, Nashville, TN 37203, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/company-bagel-to-open-on-ossington-avenue/",
-      "title": "Company Bagel to Open on Ossington Avenue",
-      "address": "92 Ossington Ave, Toronto, ON M6J 2Z4, Canada"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/5-upcoming-restaurant-openings-we-reported-across-new-york-city-last-week-sep-21-25/",
-      "title": "5 Upcoming Restaurant Openings We Reported Across New York City Last Week (Sep 21-25)",
-      "address": ""
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/boston/restaurants/a-44-year-old-hyannis-mexican-restaurant-is-closing-this-november/",
-      "title": "A 44-Year-Old Hyannis Mexican Restaurant Is Closing This November",
-      "address": "950 Iyannough Rd, Hyannis, MA 02601"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/portland/restaurants/a-james-beard-nominated-wine-restaurant-is-ending-its-25-year-run-on-hawthorne/",
-      "title": "A James Beard-Nominated Wine Restaurant Is Ending Its 25-Year Run on Hawthorne",
-      "address": "1758 SE Hawthorne Blvd, Portland, OR 97214"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/7-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-21-27/",
-      "title": "7 Upcoming Restaurant Openings We Reported Last Week Across Metro Atlanta (Sep 21-27)",
-      "address": ""
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/concord-maple-street-location-to-become-biscuit-bellys-first-north-carolina-conversion/",
-      "title": "Concord Maple Street Location to Become Biscuit Belly’s First North Carolina Conversion",
-      "address": "8921 Christenbury Pkwy, Concord, NC 28027, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/coopers-hawk-winery-restaurant-bringing-new-location-to-cary/",
-      "title": "Cooper’s Hawk Winery & Restaurant Bringing New Location to Cary",
-      "address": "1131 Parkside Main St, Cary, NC 27519, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/russos-new-york-pizzeria-opens-second-arizona-location-in-tempe/",
-      "title": "Russo's New York Pizzeria Opens Second Arizona Location in Tempe | What Now Phoenix",
-      "address": "521 S College Ave, Tempe, AZ 85281"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/from-naan-tacos-to-pupusas-tikka-tequila-lands-on-franklin-street/",
-      "title": "From Naan Tacos to Pupusas, Tikka Tequila Lands on Franklin Street",
-      "address": "504 W Franklin St, Chapel Hill, NC 27516, USA"
-    },
-    {
-      "date": "September 28, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/cava-opens-in-surprise-on-9-30/",
-      "title": "CAVA Opens in Surprise on 9/30 | What Now Phoenix",
-      "address": "23350 N 163rd Ave, Surprise, AZ 85387"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/ashburn-to-welcome-fast-growing-fast-casual-juggernaut/",
-      "title": "Ashburn to Welcome Fast Growing Fast-Casual Juggernaut",
-      "address": "43135 Broadlands Center Plaza, Ashburn, VA 20148"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/the-country-club-line-dancing-into-memphis/",
-      "title": "The Country Club Line Dancing into Memphis",
-      "address": "535 S Highland St, Memphis, TN 38111"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/denver/restaurants/denver-table-market-preparing-to-open-in-montbello/",
-      "title": "Denver Table Market Preparing to Open in Montbello",
-      "address": "12444 Albrook Dr, Denver, CO 80239"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/new-cigar-bar-has-memphis-aspirations/",
-      "title": "New Cigar Bar Has Memphis Aspirations",
-      "address": "1056 E Brooks Rd, Memphis, TN 38116"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/milepost-7-preparing-to-serve-takoma-park/",
-      "title": "MilePost 7 Preparing to Serve Takoma Park",
-      "address": "8000 Flower Ave, Takoma Park, MD 20912"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/comedy-venue-and-pool-bar-coming-to-irish-channel-complex/",
-      "title": "Comedy Venue and Pool Bar Coming to Irish Channel Complex",
-      "address": "3157 Tchoupitoulas St, New Orleans, LA 70115"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/thai-candle-joining-the-forum-peachtree-corners/",
-      "title": "Thai Candle Joining The Forum Peachtree Corners | What Now Atlanta",
-      "address": "5155 Peachtree Pkwy NW, Norcross, GA 30092"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/olives-frozen-yogurt-planning-opening-at-common-ground-development/",
-      "title": "Olive’s Frozen Yogurt Planning Opening at Common Ground Development | What Now Atlanta",
-      "address": "550 Somerset Terrace NE, Atlanta, GA 30306"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/chef-driven-taiwanese-american-spot-coming-to-morgan-city/",
-      "title": "Chef-Driven Taiwanese-American Spot Coming to Morgan City",
-      "address": "201 Railroad Ave, Morgan City, LA 70380"
-    },
-    {
-      "date": "September 27, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/collins-family-foods-bbq-opening-new-villa-rica-restaurant/",
-      "title": "Collins Family Foods & BBQ Opening New Villa Rica Restaurant | What Now Atlanta",
-      "address": "219 W Wilson St, Villa Rica, GA 30180"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/venezuela-bakery-expanding-to-clermont-for-fifth-location/",
-      "title": "Venezuela Bakery Expanding to Clermont For Fifth Location",
-      "address": "1740 US-27 Ste 31-32, Clermont, FL 34714"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/plans-submitted-for-new-dominos-pizza-in-leesburg/",
-      "title": "Plans Submitted for New Domino’s Pizza in Leesburg",
-      "address": "10830 County Rd 44, Leesburg, FL 34788"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/new-bagel-and-coffee-spot-planned-for-st-cloud/",
-      "title": "New Bagel and Coffee Spot Planned for St. Cloud",
-      "address": "1340 S Narcoossee Rd, St Cloud, FL 34771"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/the-lil-cafe-in-lake-helen-relocating-on-lakeview-drive/",
-      "title": "The Lil’ Cafe in Lake Helen Relocating on Lakeview Drive",
-      "address": "493 S Lakeview Dr #1, Lake Helen, FL 32744"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/hooked-on-the-water-to-bringing-lakeside-dining-and-entertainment-to-lexington/",
-      "title": "Hooked on the Water to Bringing Lakeside Dining and Entertainment to Lexington",
-      "address": "110 Anglers Way, Lexington, SC 29072"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/bay-street-biergarten-expanding-to-west-ashley/",
-      "title": "Bay Street Biergarten Expanding to West Ashley",
-      "address": "3955-3961 W Ashley Cir, Charleston, SC 29414"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/family-friendly-entertainment-destination-the-press-room-launching-in-bluffton-next-summer/",
-      "title": "“Family-Friendly Entertainment Destination” The Press Room Launching in Bluffton Next Summer",
-      "address": "10 Buck Island Rd, Bluffton, SC 29910"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/elsewhere-bringing-tapas-style-southern-european-fusion-to-bay-street-in-savannah/",
-      "title": "Elsewhere Bringing Tapas-Style Southern European Fusion to Bay Street in Savannah",
-      "address": "18 E Bay St, Savannah, GA 31401"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/nimit-palace-plans-new-north-indian-restaurant-in-philadelphia/",
-      "title": "Nimit Palace Plans New North Indian Restaurant in Philadelphia",
-      "address": ""
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/poogans-southern-kitchen-transforming-into-poogans-smokehouse/",
-      "title": "Poogan’s Southern Kitchen Transforming Into Poogan’s Smokehouse",
-      "address": "101 Nexton Square Dr, Summerville, SC 29486"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/outside-bbq-expanding-with-fourth-restaurant-outside-seafood/",
-      "title": "Outside BBQ Expanding with Fourth Restaurant: Outside Seafood",
-      "address": "6844 N 50th St, Tampa, FL 33610"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/new-coffee-shop-planned-on-north-hercules-avenue-in-clearwater/",
-      "title": "New Coffee Shop Planned on North Hercules Avenue in Clearwater",
-      "address": "1909 N Hercules Ave, Clearwater, FL 33763"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/kalemart24-plans-rapid-expansion-across-quebec-and-ontario/",
-      "title": "KaleMart24 Plans Rapid Expansion Across Quebec and Ontario",
-      "address": "601 Yonge St, Toronto, ON M4Y 1Z5, Canada"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/lascalas-fire-to-open-new-restaurant-at-the-village-at-newtown/",
-      "title": "LaScala’s Fire to Open New Restaurant at The Village at Newtown",
-      "address": "2948 S Eagle Rd, Newtown, PA 18940, USA"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/ti-cafe-expanding-to-aurora-with-new-havana-street-location/",
-      "title": "Tí Cafe Expanding to Aurora With New Havana Street Location",
-      "address": "1910 S Havana St, Aurora, CO 80014"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/joyride-bringing-bikes-coffee-and-community-to-fort-collins/",
-      "title": "Joyride Bringing Bikes, Coffee and Community to Fort Collins",
-      "address": "830 S College Ave, Fort Collins, CO 80524"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/kpot-korean-bbq-hot-pot-coming-to-colorado-springs/",
-      "title": "KPOT Korean BBQ & Hot Pot Coming to Colorado Springs",
-      "address": "7695 N Academy Blvd, Colorado Springs, CO 80920"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/den-thai-street-bringing-thai-street-food-to-capitol-hill/",
-      "title": "Den Thai Street Bringing Thai Street Food to Capitol Hill",
-      "address": "800 Sherman St, Denver, CO 80203"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/som-dee-signature-sets-sights-on-early-2027-opening-in-larimer-square/",
-      "title": "Som Dee Signature Sets Sights on Early 2027 Opening in Larimer Square",
-      "address": "1442 Larimer St, Denver, CO 80202"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/denver/restaurants/sunny-eats-planned-for-former-imperial-chinese-space-in-denver/",
-      "title": "Sunny Eats Planned for Former Imperial Chinese Space in Denver",
-      "address": "431 S Broadway, Denver, CO 80209"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/miami/restaurants/senses-sins-planning-hollywood-location/",
-      "title": "Senses & Sins Planning Hollywood Location",
-      "address": "26.01091868322251"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/the-bonacker-to-open-in-san-francisco/",
-      "title": "The Bonacker To Open In San Francisco",
-      "address": "568 Sacramento St., San Francisco, CA 94111"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/irving-subs-to-open-second-san-francisco-location/",
-      "title": "Irving Subs To Open Second San Francisco Location",
-      "address": "1355 Market St., San Francisco, CA 94103"
-    },
-    {
-      "date": "September 26, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/prime-pizza-planning-cypress-location/",
-      "title": "Prime Pizza Planning Cypress Location",
-      "address": "9543 Valley View St., Building 1, Cypress, CA 90630"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/la-la-land-cafe-to-open-new-location-in-orange-county/",
-      "title": "La La Land Cafe To Open New Location in Orange County",
-      "address": "424 E. 17th St., Costa Mesa, CA 92627"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/osen-handroll-to-open-at-ocvibe/",
-      "title": "Osen Handroll To Open At OCVIBE",
-      "address": "2610 E. Katella Ave., Anaheim, CA 92806"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/austin/restaurants/laynes-chicken-fingers-plans-new-hays-location/",
-      "title": "Layne's Chicken Fingers Plans New Hays Location",
-      "address": "381 Old San Antonio Rd, Buda, TX 78610, USA"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/miami/restaurants/pepes-cantina-is-coming-to-lighthouse-point/",
-      "title": "Pepe's Cantina is Coming to Lighthouse Point",
-      "address": "2410 N Federal Hwy, Pompano Beach, FL 33064"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/boston/restaurants/tidal-wave-nutrition-coming-to-peabody-with-shakes-teas-and-more/",
-      "title": "Tidal Wave Nutrition Coming to Peabody With Shakes, Teas, and More",
-      "address": "6 Bourbon St, Unit F, Peabody, MA 01960"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/taco-bell-plans-new-granbury-location/",
-      "title": "Taco Bell Plans New Granbury Location",
-      "address": "4115 East US Hwy 377, Granbury, TX 76049, USA"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/houston/restaurants/hudson-house-to-open-its-third-greater-houston-eatery/",
-      "title": "Hudson House to Open its Third Greater Houston Eatery",
-      "address": "1085 Gessner Rd, Houston, TX 77055"
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/qyn-coffee-planning-fremont-location-as-part-of-bay-area-expansion/",
-      "title": "QYN Coffee Planning Fremont Location As Part Of Bay Area Expansion",
-      "address": ""
-    },
-    {
-      "date": "September 25, 2026",
-      "url": "https://whatnow.com/austin/restaurants/7-brew-coffee-to-open-drive-thru-location-in-lampasas/",
-      "title": "7 Brew Coffee to Open Drive-Thru Location in Lampasas",
-      "address": "606 S Key Ave, Lampasas, TX 76550, USA"
     }
   ]
 }
