@@ -1,12 +1,288 @@
 {
-  "last_updated": "2026-10-01 00:34 UTC",
-  "total": 36,
+  "last_updated": "2026-10-02 00:46 UTC",
+  "total": 84,
   "data": [
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/nothing-bundt-cakes-prepares-new-bellevue-bakery-on-sawyer-brown-road/",
+      "title": "Nothing Bundt Cakes Prepares New Bellevue Bakery on Sawyer Brown Road",
+      "address": "8133 Sawyer Brown Rd b1 604, Nashville, TN 37221, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/286-noodle-house-to-bring-24-hour-simmered-pho-to-mansfield/",
+      "title": "286 Noodle House to Bring 24-Hour Simmered Pho to Mansfield",
+      "address": "2201 E Broad St, Mansfield, TX 76063, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/cafe-maghreb-working-on-hollywood-boulevard-location/",
+      "title": "Café Maghreb Working on Hollywood Boulevard Site",
+      "address": "5158 Hollywood Blvd, Los Angeles, CA 90027"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/portland/restaurants/foxchase-tavern-is-coming-to-ne-killingsworth-street/",
+      "title": "Foxchase Tavern is coming to NE Killingsworth Street",
+      "address": "3000 NE Killingsworth St, Portland, OR 97211, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/miami/restaurants/ellas-coffee-house-expanding-to-fort-lauderdale/",
+      "title": "Ella's Coffee House Expanding to Fort Lauderdale",
+      "address": "1520 N Federal Hwy, Fort Lauderdale, FL 33305, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/miami/restaurants/new-restaurant-from-chef-robyn-almodovar-targets-winter-opening/",
+      "title": "New Restaurant From Chef Robyn Almodóvar Targets Winter Opening",
+      "address": "4204 NW 2nd Ave, Miami, FL 33127, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/memphis/restaurants/mississippi-juice-company-bringing-healthy-options-to-indianola/",
+      "title": "Mississippi Juice Company Bringing Healthy Options to Indianola",
+      "address": "1013 US-82, Indianola, MS 38751"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/houston/restaurants/7-brew-cafe-to-open-within-the-atascocita-town-center/",
+      "title": "7 Brew Cafe to Open Within the Atascocita Town Center",
+      "address": "9250 W Lake Houston Pkwy, Atascocita, TX 77346"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/stix-asia-announces-its-first-three-restaurants/",
+      "title": "Stix Asia Announces its First Three Restaurants",
+      "address": "6840 Helen Toland St, Las Vegas, NV 89113"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/sacco-getting-ready-to-debut-in-brentwood/",
+      "title": "Sacco Getting Ready to Debut in Brentwood",
+      "address": "11677 San Vicente Blvd, Los Angeles, CA 90049"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/louisiana-red-sauce-chain-set-to-add-larose-location/",
+      "title": "Louisiana Red Sauce Chain Set to Add Larose Location",
+      "address": "13960 W Main St, Larose, LA 70373"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/montreal/restaurants/poulet-rouge-franchisees-consider-more-bas-saint-laurent-locations/",
+      "title": "Poulet Rouge Franchisees Consider More Bas-Saint-Laurent Locations",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/blank-street-coffee-making-chicago-debut-in-wicker-park/",
+      "title": "Blank Street Coffee Making Chicago Debut in Wicker Park",
+      "address": "1588 N Milwaukee Ave, Chicago, IL 60622"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/new-restaurant-embracing-italian-american-tradition-coming-to-bleecker-street/",
+      "title": "New Restaurant 'Embracing Italian-American Tradition' Coming to Bleecker Street",
+      "address": "168 Bleecker St., New York, NY 10012"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/muchacho-planning-decatur-location/",
+      "title": "Muchacho Planning Decatur Location | What Now Atlanta",
+      "address": "129 Church St, Decatur, GA 30030"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/houston/restaurants/southern-jerks-announces-major-expansion/",
+      "title": "Southern Jerks Announces Major Expansion",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/columbus/restaurants/ox-bs-closing-lancaster-location-plans-new-brick-and-mortar-restaurant/",
+      "title": "OX-B’s Closing Lancaster Location, Plans New Brick-and-Mortar Restaurant",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/wagyu-factory-to-open-in-oakland/",
+      "title": "Wagyu Factory To Open In Oakland",
+      "address": "528 34th St, Oakland, CA 94609,"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/hola-cabrito-plans-new-phoenix-location/",
+      "title": "Hola Cabrito Plans New Phoenix Location",
+      "address": "888 N 1st Ave, Suite 114, Phoenix, AZ 85003"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/denver/restaurants/los-dos-potrillos-bringing-mexican-restaurant-to-lovelands-centerra/",
+      "title": "Los Dos Potrillos Bringing Mexican Restaurant to Loveland’s Centerra",
+      "address": "6015 Sky Pond Dr, Loveland, CO 80538"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/san-diego/restaurants/3cat-working-on-even-more-san-diego-locations/",
+      "title": "3CAT Working on Even More San Diego Locations",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/bourbon-lit-bringing-cocktails-and-books-to-atlanta/",
+      "title": "Bourbon + Lit Bringing Cocktails and Books to Atlanta | What Now Atlanta",
+      "address": "528 Main St NE, Atlanta, GA 30324"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/lolos-bowls-expanding-in-the-northern-suburbs-with-new-evanston-location/",
+      "title": "Lolo’s Bowls Expanding in the Northern Suburbs with New Evanston Location",
+      "address": "523 Davis St, Evanston, IL 60201"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/7-brew-seeking-new-site-in-rome/",
+      "title": "7 Brew Seeking New Site in Rome | What Now Atlanta",
+      "address": "2219 Shorter Ave NW, Rome, GA 30165"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/lorenzos-steaks-hoagies-to-open-fourth-location-in-boyertown/",
+      "title": "Lorenzo’s Steaks & Hoagies to Open Fourth Location in Boyertown",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/three-dollar-cafe-joining-woodstock-mill-district/",
+      "title": "Three Dollar Cafe Joining Woodstock Mill District | What Now Atlanta",
+      "address": "150 Towne Lake Pkwy, Woodstock, GA 30188"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/sun-sushi-and-grill-plans-west-phoenix-opening/",
+      "title": "Sun Sushi and Grill Plans West Phoenix Opening",
+      "address": "3301 W Greenway Rd, Phoenix, AZ 85053"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/denver/restaurants/community-favorite-fort-collins-bakery-and-pie-truck-to-close-its-doors/",
+      "title": "Community-Favorite Fort Collins Bakery and Pie Truck to Close Its Doors",
+      "address": "446 S Link Ln, Fort Collins, CO 80524, United States"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/san-diego/restaurants/bik-lun-exploring-potential-permanent-residencies/",
+      "title": "Bik-Lun Exploring Potential Permanent Residencies",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/a-california-roadside-restaurant-is-bringing-its-concept-to-the-santa-monica-coast/",
+      "title": "A California Roadside Restaurant Is Bringing Its Concept to the Santa Monica Coast",
+      "address": "401 Wilshire Blvd, Santa Monica, CA 90401"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/dash-plans-fall-opening-in-mccormick-ranch/",
+      "title": "Dash Plans Fall Opening in McCormick Ranch",
+      "address": "9619 N. Hayden Road, Suite 101, Scottsdale, AZ 85258"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/cuevacia-inks-lease-to-join-lulah-hills-in-decatur/",
+      "title": "Cuevacía Inks Lease To Join Lulah Hills in Decatur",
+      "address": "2042 Lawrenceville Hwy Ste F-22, Decatur, GA 30033"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/columbus/restaurants/coastline-coffee-company-plans-second-delaware-location-this-winter/",
+      "title": "Coastline Coffee Company Plans Second Delaware Location This Winter",
+      "address": "7775 Dublin Rd, Delaware, OH 43015, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/a-fifth-generation-baker-is-bringing-sourdough-bagels-to-park-slope/",
+      "title": "A Fifth-Generation Baker is Bringing Sourdough Bagels to Park Slope",
+      "address": "81 5th Ave, Brooklyn, NY 11217"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/the-voyage-irish-pub-sets-sail-for-nycs-east-village/",
+      "title": "The Voyage Irish Pub Sets Sail for NYC’s East Village",
+      "address": ""
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/gathered-grounds-plans-first-permanent-cafe-in-uptown-phoenix/",
+      "title": "Gathered Grounds Plans First Permanent Cafe in Uptown Phoenix",
+      "address": "4 W Camelback Rd, Phoenix, AZ 85013"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/boston/restaurants/a-beloved-medford-burger-spot-just-served-its-last-patty-after-14-years/",
+      "title": "A Beloved Medford Burger Spot Just Served Its Last Patty After 14 Years",
+      "address": "454 High St, Medford, MA 02155, United States"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/columbus/restaurants/fronteras-mexican-cuisine-plans-second-location-in-grandview-heights/",
+      "title": "Fronteras Mexican Cuisine Plans Second Location in Grandview Heights",
+      "address": "6608 E Broad St, Columbus, OH 43213, USA"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/miami/restaurants/beer-church-brewing-co-plans-first-florida-location/",
+      "title": "Beer Church Brewing Co. Plans First Florida Location",
+      "address": "135 Duval St, Key West, FL 33040"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/cheesesteaks-and-pizza-spot-coming-to-mid-city/",
+      "title": "Cheesesteaks-and-Pizza Spot Coming to Mid-City",
+      "address": "216 N Carrollton Ave, New Orleans, LA 70119"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/miami/restaurants/a-miami-beach-restaurant-known-for-spanish-tapas-is-closing/",
+      "title": "A Miami Beach Restaurant Known for Spanish Tapas Is Closing",
+      "address": "512 Española Wy, Miami Beach, FL 33139"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/chandara-house-to-reopen-under-new-ownership/",
+      "title": "Chandara House to Reopen Under New Ownership",
+      "address": "655 Front St, Suite 10, Lynden, WA 98264"
+    },
+    {
+      "date": "October 01, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/a-30-year-old-tempe-restaurant-has-closed-following-financial-difficulties/",
+      "title": "A 30-Year-Old Tempe Restaurant Has Closed Following Financial Difficulties",
+      "address": "849 W University Dr, Tempe, AZ 85281"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/washington-dc/restaurants/bullfrog-bagels-returning-life-to-h-street-storefront/",
+      "title": "Bullfrog Bagels Returning Life to H Street Storefront",
+      "address": "1300 H St NW, Washington, DC 20005"
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/toronto/restaurants/bushido-plans-japanese-omakase-experience-at-casa-loma/",
+      "title": "Bushido Plans Japanese Omakase Experience at Casa Loma",
+      "address": ""
+    },
+    {
+      "date": "September 30, 2026",
+      "url": "https://whatnow.com/austin/restaurants/wonder-food-hall-plans-second-austin-location-at-the-triangle/",
+      "title": "Wonder Food Hall Plans Second Austin Location at The Triangle",
+      "address": "4615 N Lamar Blvd, Austin, TX 78751, USA"
+    },
     {
       "date": "September 30, 2026",
       "url": "https://whatnow.com/orlando/restaurants/south-floridas-ceviche-arigato-is-coming-to-orlando/",
-      "title": "",
-      "address": ""
+      "title": "South Florida’s Ceviche Arigato Is Coming to Orlando",
+      "address": "4898 S Kirkman Rd, Orlando, FL 32811"
     },
     {
       "date": "September 30, 2026",
@@ -217,6 +493,18 @@
       "url": "https://whatnow.com/toronto/restaurants/iconic-concert-venue-set-to-relocate-to-historic-1920s-theatre/",
       "title": "Iconic Concert Venue Set to Relocate to Historic 1920s Theatre",
       "address": "1605 Queen St W, Toronto, ON M6R 1A9, Canada"
+    },
+    {
+      "date": "September 29, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/taqueria-el-puerto-de-vallarta-plans-second-elk-grove-location/",
+      "title": "Taqueria El Puerto De Vallarta Plans Second Elk Grove Location",
+      "address": "8409 Elk Grove Florin Rd, Elk Grove, CA 95624"
+    },
+    {
+      "date": "September 29, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/joe-the-juice-confirms-plans-for-a-second-sacramento-area-store/",
+      "title": "Joe & The Juice Confirms Plans for a Second Sacramento-Area Store",
+      "address": ""
     }
   ]
 }
