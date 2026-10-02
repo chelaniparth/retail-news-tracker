@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "data": [
+    {
+      "heading": "MANCHESTER SCOOP: All the great things coming to The Shoppes at Buckland Hills!",
+      "date": "2026-10-01",
+      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/manchester-scoop-all-the-great-things-coming-to-the-shoppes-at-buckland-hills"
+    },
+    {
+      "heading": "NORTH HAVEN SCOOP: YoYo Chicken coming to North Haven!",
+      "date": "2026-10-01",
+      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/north-haven-scoop-yoyo-chicken-coming-to-north-haven"
+    },
+    {
+      "heading": "SHELTON SCOOP: The Market by Key Food opens in Shelton",
+      "date": "2026-10-01",
+      "link": "https://www.theconnecticutscoop.com/all-fairfield-county-posts/shelton-scoop-the-market-by-key-food-opens-in-shelton"
+    },
+    {
+      "heading": "BRAINTREE SCOOP: Ross Dress for Less coming soon!",
+      "date": "2026-10-01",
+      "link": "https://www.theconnecticutscoop.com/all-mass-posts/braintree-scoop-ross-dress-for-less-coming-soon"
+    },
     {
       "heading": "OLD SAYBROOK SCOOP: Jersey Mike's officially signs on to new Old Saybrook plaza!",
       "date": "2026-09-30",
@@ -15,26 +35,6 @@
       "heading": "HOLYOKE SCOOP: Starbucks closes at Holyoke Mall while food court prepares to reopen!",
       "date": "2026-09-30",
       "link": "https://www.theconnecticutscoop.com/all-mass-posts/holyoke-scoop-starbucks-closes-at-holyoke-mall-while-food-court-prepares-to-reopen"
-    },
-    {
-      "heading": "EAST WINDSOR SCOOP: Aldi opening on 10/01 in East Windsor!",
-      "date": "2026-09-29",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/east-windsor-scoop-aldi-opening-on-1001-in-east-windsor"
-    },
-    {
-      "heading": "CANTON SCOOP: Restaurant updates at The Shops at Farmington Valley!",
-      "date": "2026-09-29",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/canton-scoop-restaurant-updates-at-the-shops-at-farmington-valley"
-    },
-    {
-      "heading": "HAMDEN SCOOP: bagel bagel opens in Hamden!",
-      "date": "2026-09-29",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/hamden-scoop-bagel-bagel-opens-in-hamden"
-    },
-    {
-      "heading": "XMAS SCOOP: Spirit Christmas opening 3 MA locations this year!",
-      "date": "2026-09-29",
-      "link": "https://www.theconnecticutscoop.com/all-mass-posts/xmas-scoop-spirit-christmas-opening-3-ma-locations-this-year"
     }
   ]
 }
