@@ -1,0 +1,8 @@
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| Nuestra Finca Colombian Restaurant | 3153 Sugarloaf Pkwy Suite 114, Lawrenceville, GA 30045 | Opening | mid‑October | Targeting an opening around mid‑October | Nuestra Finca Colombian Restaurant is planned for Lawrenceville at 3153 Sugarloaf Pkwy Suite 114. The owners aim to open around mid‑October, offering full‑service Colombian cuisine, a cafe, ice‑cream and a liquor bar. The project is being led by Laura Suarez and Christian Vivas. | https://www.businessdebut.com/3-new-coming-soon-gwinnett-county-restaurants/ | 2026-10-02 |
+| Eggscape | 4955 Sugarloaf Pkwy Suite 110, Lawrenceville, GA 30044 | Opening | Not specified | No exact opening date yet, but soon! | Eggscape is a breakfast and brunch bar slated for 4955 Sugarloaf Pkwy Suite 110 in Lawrenceville. It will sit beside owner Nahom Mekonnen’s Illusion Sports Bar and Grill and feature a full cocktail program. No exact opening date has been set. | https://www.businessdebut.com/3-new-coming-soon-gwinnett-county-restaurants/ | 2026-10-02 |
+| Bite Theory | 4895 Stone Mountain Hwy Ste A, Lilburn, GA 30047 | Opening | Not specified | No exact date yet, but soon! | Bite Theory will be a fast‑food restaurant with drive‑thru at 4895 Stone Mountain Hwy Ste A in Lilburn. Owner Obada Karaki plans Nashville‑style fried chicken and seafood, along with takeout and a small dine‑in area. An opening date has not been announced. | https://www.businessdebut.com/3-new-coming-soon-gwinnett-county-restaurants/ | 2026-10-02 |
+
+Non-working or unusable articles List:
+• None
