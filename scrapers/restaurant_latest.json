@@ -1,7 +1,199 @@
 {
-  "last_updated": "2026-10-03 00:29 UTC",
+  "last_updated": "2026-10-03 23:49 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/family-behind-terra-cafe-specialty-coffee-opening-la-flama-taqueria/",
+      "title": "Family Behind Terra Cafe Specialty Coffee Opening La Flama Taqueria",
+      "address": "2731 S Woodland Blvd, DeLand, FL 32720"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/mi-tierra-pupuseria-bakery-expanding-to-second-location/",
+      "title": "Mi Tierra Pupuseria & Bakery Expanding to Second Location",
+      "address": "7343 Lake Underhill Rd, Orlando, FL 32822"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/jai-restaurant-group-bringing-7-brew-to-deltona/",
+      "title": "JAI Restaurant Group Bringing 7 Brew to Deltona",
+      "address": "FL-472 & Howland Blvd, Deltona, FL 32725"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/casa-opening-in-melbourne/",
+      "title": "CASA Opening in Melbourne",
+      "address": "1565 Sarno Rd Ste d, Melbourne, FL 32935"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/the-boathouse-expanding-to-second-location-in-murrells-inlet-next-spring/",
+      "title": "The Boathouse Expanding to Second Location in Murrells Inlet Next Spring",
+      "address": "4139 US-17 BUS, Murrells Inlet, SC 29576"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/ura-sushi-namba-plans-miami-restaurant-in-allapattah/",
+      "title": "Ura Sushi Namba Plans Miami Restaurant In Allapattah",
+      "address": "1335 NW 22nd St., Miami, FL 33142"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/punta-medano-to-open-in-newport-beach/",
+      "title": "Punta Medano To Open In Newport Beach",
+      "address": "3305 Newport Blvd., Suite A, Newport Beach, CA 92663"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/piccadilly-to-go-taking-over-former-del-taco-space-in-riverdale/",
+      "title": "Piccadilly To Go Taking Over Former Del Taco Space in Riverdale | What Now Atlanta",
+      "address": "6791 GA-85, Riverdale, GA 30274"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/pirata-plans-new-restaurant-along-miami-river/",
+      "title": "Pirata Plans New Restaurant Along Miami River",
+      "address": "325 NW S River Dr, Miami, FL 33128, USA"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/tin-drum-asian-kitchen-joining-woodstock-mills-district/",
+      "title": "Tin Drum Asian Kitchen Joining Woodstock Mills District | What Now Atlanta",
+      "address": ""
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/farm-hospitality-looks-to-be-planning-pizzeria-in-savannah/",
+      "title": "FARM Hospitality Looks to Be Planning Pizzeria in Savannah",
+      "address": "574 Indian St, Savannah, GA 31401"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/impeccable-restaurants-opens-scs-first-drive-thru-only-del-taco-plans-conway-location-next/",
+      "title": "Impeccable Restaurants Opens SC’s First Drive-Thru-Only Del Taco, Plans Conway Location Next",
+      "address": "3425 US-501, Conway, SC 29526"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/carupano-kitchen-opening-first-brick-and-mortar-restaurant-in-st-pete/",
+      "title": "Carúpano Kitchen Opening First Brick-and-Mortar Restaurant in St. Pete",
+      "address": "1040 4th St N, St. Petersburg, FL 33701"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/frays-donut-house-opening-in-south-pasadena/",
+      "title": "Fray’s Donut House Opening in South Pasadena",
+      "address": "1200 Pasadena Ave S, South Pasadena, FL 33707"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/jacks-old-fashion-hamburger-house-plans-miami-expansion/",
+      "title": "Jack's Old Fashion Hamburger House Plans Miami Expansion",
+      "address": ""
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/naked-farmer-plans-new-miami-location-as-farm-to-table-brand-expand/",
+      "title": "Naked Farmer Plans New Miami Location as Farm-to-Table Brand Expand",
+      "address": ""
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/san-antonio/restaurants/bitelo-brazilian-steakhouse-set-to-open-new-location-in-san-antonios-far-northwest-side/",
+      "title": "Bitelo Brazilian Steakhouse Set to Open New Location in San Antonio’s Far Northwest Side",
+      "address": ""
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/intenso-hospitality-southern-italian-eatery-with-locations-in-switzerland-to-debut-in-miami-beach/",
+      "title": "Intenso Hospitality, Southern Italian Eatery with Locations in Switzerland, to Debut in Miami Beach",
+      "address": "640 Lincoln Rd, Miami Beach, FL 33139"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/houston/restaurants/el-tiempo-cantina-in-webster-to-reopen-under-new-management/",
+      "title": "El Tiempo Cantina in Webster to Reopen Under New Management",
+      "address": "20237 Gulf Fwy, Webster, TX 77598"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/montreal/restaurants/d-spot-dessert-cafe-to-open-an-ottawa-shop/",
+      "title": "D Spot Dessert Cafe to Open an Ottawa Shop",
+      "address": ""
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/houston/restaurants/onesweat-boutique-fitness-concept-announced-as-retail-tenant-at-the-new-central-park-post-oak/",
+      "title": "ONESWEAT, Boutique Fitness Concept, Announced as Retail Tenant at the New Central Park Post Oak",
+      "address": "1990 Post Oak Blvd, Houston, TX 77056"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/black-bear-diner-to-open-in-redwood-city/",
+      "title": "Black Bear Diner To Open In Redwood City",
+      "address": "1135 Veterans Boulevard, Redwood City, CA 94063"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/wetzels-pretzels-is-coming-to-north-las-vegas/",
+      "title": "Wetzel's Pretzels is Coming to North Las Vegas",
+      "address": "1807 W Craig Rd, North Las Vegas, NV 89032"
+    },
+    {
+      "date": "October 03, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/tacote-to-open-takeout-mexican-restaurant-in-napa/",
+      "title": "Tacote To Open Takeout Mexican Restaurant In Napa",
+      "address": "610 1st St. #CM-6, Napa, CA 94559"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/boston/restaurants/beacon-hill-based-bon-specialty-coffee-expanding-to-the-fenway/",
+      "title": "Beacon Hill-Based BON! Specialty Coffee Expanding to the Fenway",
+      "address": "1249 Boylston St, Boston, MA 02215"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/houston/restaurants/remington-restaurant-to-get-a-a-2-5-million-dollarfacelift/",
+      "title": "Remington Restaurant to Get a 2.5 Million Dollar Facelift",
+      "address": "1919 Briar Oaks Ln, Houston, TX 77027"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/savage-supper-club-the-brand-behind-the-pop-up-experience-at-edc-las-vegas-to-open-store/",
+      "title": "Savage Supper Club, The Brand Behind the Pop-Up Experience at EDC Las Vegas to Open Store",
+      "address": "2764 N Green Valley Pkwy, Henderson, NV 89014"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/boston/restaurants/bb-q-chicken-plots-four-new-greater-boston-locations/",
+      "title": "bb.q Chicken Plots Four New Greater Boston Locations",
+      "address": ""
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/austin/restaurants/la-volta-pizza-club-is-bringing-its-italian-inspired-concept-to-east-austin/",
+      "title": "La Volta Pizza Club Is Bringing Its Italian-Inspired Concept to East Austin",
+      "address": "1141 Shady Ln, Austin, TX 78721, USA"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/memphis/restaurants/hallbergs-headed-to-starkville/",
+      "title": "Hallberg’s Headed to Starkville",
+      "address": "105 Eckford Ln, Starkville, MS 39759"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/girograno-pizza-rodizio-to-debut-inside-the-miracle-mile-shops-at-planet-hollywood/",
+      "title": "GiroGrano Pizza Rodizio to Debut Inside the Miracle Mile Shops at Planet Hollywood",
+      "address": "3663 S Las Vegas Blvd, Las Vegas, NV 89109"
+    },
+    {
+      "date": "October 02, 2026",
+      "url": "https://whatnow.com/houston/restaurants/seven-sushi-robata-to-open-in-midtown/",
+      "title": "Seven Sushi & Robata to Open in Midtown",
+      "address": "3304 Milam St, Houston, TX 77006"
+    },
     {
       "date": "October 02, 2026",
       "url": "https://whatnow.com/washington-dc/restaurants/nalley-fresh-setting-up-shop-in-federal-hill/",
@@ -313,198 +505,6 @@
       "url": "https://whatnow.com/los-angeles/restaurants/sacco-getting-ready-to-debut-in-brentwood/",
       "title": "Sacco Getting Ready to Debut in Brentwood",
       "address": "11677 San Vicente Blvd, Los Angeles, CA 90049"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/louisiana-red-sauce-chain-set-to-add-larose-location/",
-      "title": "Louisiana Red Sauce Chain Set to Add Larose Location",
-      "address": "13960 W Main St, Larose, LA 70373"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/montreal/restaurants/poulet-rouge-franchisees-consider-more-bas-saint-laurent-locations/",
-      "title": "Poulet Rouge Franchisees Consider More Bas-Saint-Laurent Locations",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/blank-street-coffee-making-chicago-debut-in-wicker-park/",
-      "title": "Blank Street Coffee Making Chicago Debut in Wicker Park",
-      "address": "1588 N Milwaukee Ave, Chicago, IL 60622"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/new-restaurant-embracing-italian-american-tradition-coming-to-bleecker-street/",
-      "title": "New Restaurant 'Embracing Italian-American Tradition' Coming to Bleecker Street",
-      "address": "168 Bleecker St., New York, NY 10012"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/muchacho-planning-decatur-location/",
-      "title": "Muchacho Planning Decatur Location | What Now Atlanta",
-      "address": "129 Church St, Decatur, GA 30030"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/houston/restaurants/southern-jerks-announces-major-expansion/",
-      "title": "Southern Jerks Announces Major Expansion",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/ox-bs-closing-lancaster-location-plans-new-brick-and-mortar-restaurant/",
-      "title": "OX-B’s Closing Lancaster Location, Plans New Brick-and-Mortar Restaurant",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/wagyu-factory-to-open-in-oakland/",
-      "title": "Wagyu Factory To Open In Oakland",
-      "address": "528 34th St, Oakland, CA 94609,"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/hola-cabrito-plans-new-phoenix-location/",
-      "title": "Hola Cabrito Plans New Phoenix Location",
-      "address": "888 N 1st Ave, Suite 114, Phoenix, AZ 85003"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/denver/restaurants/los-dos-potrillos-bringing-mexican-restaurant-to-lovelands-centerra/",
-      "title": "Los Dos Potrillos Bringing Mexican Restaurant to Loveland’s Centerra",
-      "address": "6015 Sky Pond Dr, Loveland, CO 80538"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/3cat-working-on-even-more-san-diego-locations/",
-      "title": "3CAT Working on Even More San Diego Locations",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/bourbon-lit-bringing-cocktails-and-books-to-atlanta/",
-      "title": "Bourbon + Lit Bringing Cocktails and Books to Atlanta | What Now Atlanta",
-      "address": "528 Main St NE, Atlanta, GA 30324"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/lolos-bowls-expanding-in-the-northern-suburbs-with-new-evanston-location/",
-      "title": "Lolo’s Bowls Expanding in the Northern Suburbs with New Evanston Location",
-      "address": "523 Davis St, Evanston, IL 60201"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/7-brew-seeking-new-site-in-rome/",
-      "title": "7 Brew Seeking New Site in Rome | What Now Atlanta",
-      "address": "2219 Shorter Ave NW, Rome, GA 30165"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/lorenzos-steaks-hoagies-to-open-fourth-location-in-boyertown/",
-      "title": "Lorenzo’s Steaks & Hoagies to Open Fourth Location in Boyertown",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/three-dollar-cafe-joining-woodstock-mill-district/",
-      "title": "Three Dollar Cafe Joining Woodstock Mill District | What Now Atlanta",
-      "address": "150 Towne Lake Pkwy, Woodstock, GA 30188"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/sun-sushi-and-grill-plans-west-phoenix-opening/",
-      "title": "Sun Sushi and Grill Plans West Phoenix Opening",
-      "address": "3301 W Greenway Rd, Phoenix, AZ 85053"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/denver/restaurants/community-favorite-fort-collins-bakery-and-pie-truck-to-close-its-doors/",
-      "title": "Community-Favorite Fort Collins Bakery and Pie Truck to Close Its Doors",
-      "address": "446 S Link Ln, Fort Collins, CO 80524, United States"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/bik-lun-exploring-potential-permanent-residencies/",
-      "title": "Bik-Lun Exploring Potential Permanent Residencies",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/los-angeles/restaurants/a-california-roadside-restaurant-is-bringing-its-concept-to-the-santa-monica-coast/",
-      "title": "A California Roadside Restaurant Is Bringing Its Concept to the Santa Monica Coast",
-      "address": "401 Wilshire Blvd, Santa Monica, CA 90401"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/dash-plans-fall-opening-in-mccormick-ranch/",
-      "title": "Dash Plans Fall Opening in McCormick Ranch",
-      "address": "9619 N. Hayden Road, Suite 101, Scottsdale, AZ 85258"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/cuevacia-inks-lease-to-join-lulah-hills-in-decatur/",
-      "title": "Cuevacía Inks Lease To Join Lulah Hills in Decatur",
-      "address": "2042 Lawrenceville Hwy Ste F-22, Decatur, GA 30033"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/coastline-coffee-company-plans-second-delaware-location-this-winter/",
-      "title": "Coastline Coffee Company Plans Second Delaware Location This Winter",
-      "address": "7775 Dublin Rd, Delaware, OH 43015, USA"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/a-fifth-generation-baker-is-bringing-sourdough-bagels-to-park-slope/",
-      "title": "A Fifth-Generation Baker is Bringing Sourdough Bagels to Park Slope",
-      "address": "81 5th Ave, Brooklyn, NY 11217"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/the-voyage-irish-pub-sets-sail-for-nycs-east-village/",
-      "title": "The Voyage Irish Pub Sets Sail for NYC’s East Village",
-      "address": ""
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/gathered-grounds-plans-first-permanent-cafe-in-uptown-phoenix/",
-      "title": "Gathered Grounds Plans First Permanent Cafe in Uptown Phoenix",
-      "address": "4 W Camelback Rd, Phoenix, AZ 85013"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/boston/restaurants/a-beloved-medford-burger-spot-just-served-its-last-patty-after-14-years/",
-      "title": "A Beloved Medford Burger Spot Just Served Its Last Patty After 14 Years",
-      "address": "454 High St, Medford, MA 02155, United States"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/fronteras-mexican-cuisine-plans-second-location-in-grandview-heights/",
-      "title": "Fronteras Mexican Cuisine Plans Second Location in Grandview Heights",
-      "address": "6608 E Broad St, Columbus, OH 43213, USA"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/miami/restaurants/beer-church-brewing-co-plans-first-florida-location/",
-      "title": "Beer Church Brewing Co. Plans First Florida Location",
-      "address": "135 Duval St, Key West, FL 33040"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/cheesesteaks-and-pizza-spot-coming-to-mid-city/",
-      "title": "Cheesesteaks-and-Pizza Spot Coming to Mid-City",
-      "address": "216 N Carrollton Ave, New Orleans, LA 70119"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/miami/restaurants/a-miami-beach-restaurant-known-for-spanish-tapas-is-closing/",
-      "title": "A Miami Beach Restaurant Known for Spanish Tapas Is Closing",
-      "address": "512 Española Wy, Miami Beach, FL 33139"
-    },
-    {
-      "date": "October 01, 2026",
-      "url": "https://whatnow.com/seattle/restaurants/chandara-house-to-reopen-under-new-ownership/",
-      "title": "Chandara House to Reopen Under New Ownership",
-      "address": "655 Front St, Suite 10, Lynden, WA 98264"
     }
   ]
 }
