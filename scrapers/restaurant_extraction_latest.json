@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -8050,6 +8050,126 @@
       "short_description": "Charm Café & Restaurant is set to replace Koto Asian Fusion Restaurant in downtown Lowell at 76 Merrimack Street. The roughly 2,000‑square‑foot venue will open this fall, offering European‑ and Mediterranean‑inspired day‑to‑night dining. The owners are finalizing the space ahead of the planned opening in the coming weeks.",
       "article_link": "https://whatnow.com/boston/restaurants/charm-cafe-restaurant-to-bring-european-and-mediterranean-flavors-to-downtown-lowell/",
       "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "The Brunswick Rail Yard",
+      "location": "5197 Brunswick Rd, Arlington, TN 38002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "set to open before the year is out",
+      "short_description": "The Brunswick Rail Yard is converting a historic building at 5197 Brunswick Road into a multi‑concept restaurant space. The owners plan four stalls with rotating tenants and additional amenities such as a video game room and mural. The venue is slated to open before the end of the year.",
+      "article_link": "https://whatnow.com/memphis/restaurants/the-brunswick-rail-yard-bringing-innovative-dining-experience-to-arlington/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Addiction Smash Burger",
+      "location": "3139 Poplar Ave, Memphis, TN 38111",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not yet have an official opening date available but aims to be customer‑ready within the next 6 months",
+      "short_description": "Addiction Smash Burger will open its first storefront in the former Vibe Foods Superfood Bar location at 3139 Poplar Avenue. The 1,247‑sq‑ft space is slated for a restaurant serving burgers, fries and milkshakes. No official opening date has been set, though the owner hopes to be ready within six months.",
+      "article_link": "https://whatnow.com/memphis/restaurants/addiction-smash-burger-readies-first-brick-and-mortar/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Lou’s Speakeasy",
+      "location": "525 S Main St, Memphis, TN 38103",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has submitted a beer permit application",
+      "short_description": "Lou’s Speakeasy has applied for a beer permit to serve on‑premise at 525 South Main Street. The permit covers interior lounge, seating, food‑service and an outdoor patio. No opening date has been announced.",
+      "article_link": "https://whatnow.com/memphis/restaurants/new-memphis-speakeasy-seeks-beer-permit/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Taziki's Mediterranean Cafe",
+      "location": "1395 W Poplar Ave #106, Collierville, TN 38017",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening planned in the not‑too‑distant future",
+      "short_description": "Taziki’s Mediterranean Cafe is preparing to open a new fast‑casual location at 1395 West Poplar Avenue, #106 in Collierville. The restaurant’s Facebook page indicates a late‑autumn opening, though no specific date is given. The concept will bring Mediterranean fare to the area.",
+      "article_link": "https://whatnow.com/memphis/restaurants/collierville-dining-scene-to-gain-an-exciting-new-addition/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Jack's Old Fashion Hamburger House",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to expand",
+      "short_description": "Jack’s Old Fashion Hamburger House is planning to expand into the Miami area, according to Florida DBPR records. The brand currently operates locations in Pompano Beach (591 S. Cypress Road) and Oakland Park (4201 N. Federal Highway). Details about the new Miami location, including address, size, ownership and anticipated opening date, were not available.",
+      "article_link": "https://whatnow.com/miami/restaurants/jacks-old-fashion-hamburger-house-plans-miami-expansion/",
+      "published_date": "October 03, 2026"
+    },
+    {
+      "store_name": "Savage Supper Club",
+      "location": "2764 N Green Valley Pkwy, Suite 800, Henderson, NV 89014",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "to open",
+      "short_description": "Savage Supper Club is set to open a retail outpost in Henderson’s Green Valley Plaza shopping center that will sell its hot sauces. The plan, revealed through a City of Las Vegas permit, lists the address at 2764 N Green Valley Pkwy, Suite 800. Co‑owner Alexander Bespalko confirmed the opening but did not provide a timeline.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/savage-supper-club-the-brand-behind-the-pop-up-experience-at-edc-las-vegas-to-open-store/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "bb.q Chicken",
+      "location": "1459 Dorchester Ave, Dorchester, MA 02122",
+      "event_type": "Opening",
+      "event_date": "October 2026",
+      "status": "slated to open",
+      "short_description": "bb.q Chicken plans to open a new location at 1459 Dorchester Ave in Dorchester, slated for October 2026. The expansion is part of a four‑store rollout across Greater Boston. Franchisee Jacky Zheng announced the timeline.",
+      "article_link": "https://whatnow.com/boston/restaurants/bb-q-chicken-plots-four-new-greater-boston-locations/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "bb.q Chicken",
+      "location": "1019 Trapelo Rd, Waltham, MA 02452",
+      "event_type": "Opening",
+      "event_date": "October 2026",
+      "status": "slated to open",
+      "short_description": "bb.q Chicken plans to open a new location at 1019 Trapelo Rd in Waltham, slated for October 2026. The expansion is part of a four‑store rollout across Greater Boston. Franchisee Jacky Zheng announced the timeline.",
+      "article_link": "https://whatnow.com/boston/restaurants/bb-q-chicken-plots-four-new-greater-boston-locations/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "bb.q Chicken",
+      "location": "27 Temple St, Framingham, MA 01702",
+      "event_type": "Opening",
+      "event_date": "late 2026 or early 2027",
+      "status": "targeting openings",
+      "short_description": "bb.q Chicken aims to open a new restaurant at 27 Temple St in Framingham, targeting a late 2026 or early 2027 opening. It is one of four planned Greater Boston sites. The project was disclosed by franchisee Jacky Zheng.",
+      "article_link": "https://whatnow.com/boston/restaurants/bb-q-chicken-plots-four-new-greater-boston-locations/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "bb.q Chicken",
+      "location": "339 Squire Rd, Revere, MA 02151",
+      "event_type": "Opening",
+      "event_date": "late 2026 or early 2027",
+      "status": "targeting openings",
+      "short_description": "bb.q Chicken aims to open a new restaurant at 339 Squire Rd in Revere, targeting a late 2026 or early 2027 opening. It is one of four planned Greater Boston sites. The project was disclosed by franchisee Jacky Zheng.",
+      "article_link": "https://whatnow.com/boston/restaurants/bb-q-chicken-plots-four-new-greater-boston-locations/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "La Volta Pizza Club",
+      "location": "1141 Shady Ln, Austin, TX 78721, USA",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "targeting a spring 2027 opening",
+      "short_description": "La Volta Pizza Club is planning a second restaurant in East Austin at 1141 Shady Ln. The owner says the project is targeting a spring 2027 opening, pending permits and construction. The new spot will expand the brand’s community‑focused concept.",
+      "article_link": "https://whatnow.com/austin/restaurants/la-volta-pizza-club-is-bringing-its-italian-inspired-concept-to-east-austin/",
+      "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "Hallberg’s",
+      "location": "105 Eckford Ln, Starkville, MS 39759",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "projected could be open as soon as November",
+      "short_description": "Hallberg’s, a new restaurant concept by Eric Hallberg, will open at 105 Eckford Ln in Starkville. The filing indicates",
+      "article_link": "",
+      "published_date": ""
     }
   ],
   "non_working": [
