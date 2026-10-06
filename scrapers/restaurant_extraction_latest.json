@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-06",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -8170,6 +8170,216 @@
       "short_description": "Hallberg’s, a new restaurant concept by Eric Hallberg, will open at 105 Eckford Ln in Starkville. The filing indicates",
       "article_link": "",
       "published_date": ""
+    },
+    {
+      "store_name": "Culinary Dropout",
+      "location": "14401 Wentwood Ave., Suite D170, Frisco",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Culinary Dropout, a Phoenix‑based concept, plans to open a location at 14401 Wentwood Ave., Suite D170 in Fields West, Frisco. Public filings show a construction completion target of July 2027 and phased openings expected late 2027‑2028. What Now reached out but received no response.",
+      "article_link": "https://whatnow.com/dallas/restaurants/culinary-dropout-to-open-at-friscos-fields-west/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Kura Revolving Sushi",
+      "location": "347 W Esplanade Dr, Oxnard, CA 93036, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeted to open in spring 2027",
+      "short_description": "Kura Revolving Sushi intends to open a new restaurant at 347 W. Esplanade Dr., Unit 24 in Oxnard, listed as “Coming Soon.” The brand says the location is targeted to open in spring 2027. The article notes the chain’s rapid expansion across Southern California.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/kura-revolving-sushi-plans-spring-2027-opening-in-oxnard/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Cuantos Tacos",
+      "location": "808 Justin Ln, Austin, TX 78752, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Cuantos Tacos, a Michelin Bib Gourmand‑recognized taco truck, is preparing to open its first brick‑and‑mortar restaurant at 808 Justin Lane in North Austin. The opening is expected in early 2027. The piece highlights the truck’s menu and accolades.",
+      "article_link": "https://whatnow.com/austin/restaurants/michelin-recognized-austin-taco-truck-plans-first-restaurant/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Grandma Bob’s",
+      "location": "8044 Kercheval Ave, Detroit, MI 48214",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "under construction",
+      "short_description": "Grandma Bob’s pizza is planning a second location at 8044 Kercheval Ave in Detroit, with co‑owners hoping to debut the spot this December. The new shop is under construction on the south side of Kercheval Avenue near Sister Pie. The concept has been serving Detroit‑style pizza for seven years.",
+      "article_link": "https://whatnow.com/detroit/restaurants/grandma-bobs-to-open-second-pizza-spot-at-former-marrow-location/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Wingstop",
+      "location": "635 Cibolo Valley Dr., #160, Cibolo, TX 78108",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date ... yet to be announced",
+      "short_description": "Wingstop will open a new restaurant at 635 Cibolo Valley Dr., Suite 160 in Cibolo, Texas. Construction is slated to begin in December with completion expected by March 2027, but an official opening date has not been announced. The article outlines the brand’s flavor lineup and franchisee.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/wingstop-spicing-things-up-with-new-cibolo-location/",
+      "published_date": "October"
+    },
+    {
+      "store_name": "Il Gigante (new East Village location)",
+      "location": "99 2nd Ave., New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Il Gigante, a Michelin Guide‑recognized Italian restaurant, filed a liquor license for a new East Village location at 99 2nd Ave. in Manhattan. The flagship opened in Queens in early 2025, and the new space will offer table and bar seating. No official opening date has been announced.",
+      "article_link": "https://whatnow.com/new-york/restaurants/michelin-guide-recognized-italian-restaurant-eyes-east-village-expansion/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Starwood Cafe (Corinth location)",
+      "location": "4451 FM 2181, Suite 125, Corinth, TX 76210",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not set a specific opening date but hopes to be operating by December",
+      "short_description": "Starwood Cafe intends to open a new restaurant at 4451 FM 2181, Suite 125 in Corinth, Texas, occupying a former Genti’s Pizza & Pasta space. The project filing estimates work from late October through mid‑December, and the team hopes to be operating by December, though no specific date is set. This would be the chain’s 13th location.",
+      "article_link": "https://whatnow.com/dallas/restaurants/starwood-cafe-plans-corinth-location/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Tini Bar (under LIA Tavern)",
+      "location": "11 W Illinois St, Chicago, IL 60654",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to debut the bar around late November or early December",
+      "short_description": "LIA Tavern is adding a 30‑seat basement cocktail bar called Tini Bar at 11 W Illinois St in Chicago’s River North. The bar will serve 15‑20 cocktails in a 60s‑style setting and is expected to debut in late November or early December. No official opening date has been released.",
+      "article_link": "https://whatnow.com/chicago/restaurants/lia-tavern-owners-building-30-seat-cocktail-bar-under-the-restaurant/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Occhiolino",
+      "location": "106 Norfolk St., New York, NY 10002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Occhiolino, an all‑day cafe and Italian bistro inspired by Ischia, plans to open at 106 Norfolk St in New York’s Lower East Side. The venue will feature table and bar seating plus an outdoor sidewalk cafe. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/new-york/restaurants/ischia-inspired-bistro-coming-to-lower-east-side/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Luxe Purr Lounge (Woodridge cat cafe)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to debut the spot in February",
+      "short_description": "Luxe Purr Lounge, an upscale cat café concept, is planned for Woodridge, Illinois, off Interstate 355, with a 5,000‑sq‑ft space for 25‑30 cats. Owner Alina Sziler hopes to debut the spot in February of next year. The exact address has not been disclosed.",
+      "article_link": "https://whatnow.com/chicago/restaurants/new-luxe-purr-lounge-cat-cafe-to-join-woodridge-next-year/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "HUMM",
+      "location": "435 Hudson St, New York, NY 10014",
+      "event_type": "Opening",
+      "event_date": "October 10",
+      "status": "is set to open at 435 Hudson Street on October 10",
+      "short_description": "Chef Daniel Humm is opening a new restaurant called HUMM at 435 Hudson Street in New York’s West Village. The restaurant will focus on seasonal, modern American cooking with a wood‑fired oven and is set to open on October 10.",
+      "article_link": "https://whatnow.com/new-york/restaurants/chef-daniel-humm-is-bringing-a-new-restaurant-to-new-yorks-west-village/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Dukem Ethiopian Restaurant",
+      "location": "1114-1118 U St NW, Washington, DC 20009",
+      "event_type": "Closing",
+      "event_date": "November 7",
+      "status": "will serve its final customers on November 7",
+      "short_description": "Dukem Ethiopian Restaurant announced it will close its Washington, DC location after nearly three decades. The restaurant will serve its final customers on November 7.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/iconic-ethiopian-restaurant-announces-closure-of-its-washington-dc-location/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Kera",
+      "location": "95 2nd Ave., New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An official opening date has not yet been announced",
+      "short_description": "Kera, an all‑day cafe and wine bar, will open in the East Village at 95 2nd Ave. The business is still preparing for launch, and an official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/new-york/restaurants/new-all-day-georgian-cafe-set-to-open-in-east-village/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Matilda’s Bakery and Cafe",
+      "location": "3200 Airport Ave, Santa Monica, CA 90405",
+      "event_type": "Opening",
+      "event_date": "October 2",
+      "status": "opened its doors",
+      "short_description": "Matilda’s Bakery and Cafe opened in Santa Monica following a soft opening on October 2. The bakery offers European‑style breads and pastries with a California twist.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-european-rooted-bakery-with-a-california-accent-lands-in-santa-monica/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "The Curve Restaurant",
+      "location": "4379 SE Military Dr, San Antonio, TX 78222",
+      "event_type": "Closing",
+      "event_date": "December 2026",
+      "status": "will shut its operations by the end of December 2026",
+      "short_description": "The Curve Restaurant, a 51‑year‑old Tex‑Mex eatery in San Antonio, announced it will permanently close. The restaurant will shut its operations by the end of December 2026.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/half-century-old-tex-mex-restaurant-in-san-antonio-is-closing-in-december/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Piccadilly To Go",
+      "location": "6791 GA-85, Riverdale",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date has not yet been announced.",
+      "short_description": "Piccadilly To Go is opening a new takeout‑focused location in Riverdale, taking over the former Del Taco space at 6791 GA‑85. The brand’s eighth Greater Atlanta location has no announced opening date.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-28-oct-3/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Tin Drum Asian Kitchen & Boba Tea Bar",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening timeline of the new restaurant is yet to be announced.",
+      "short_description": "Tin Drum Asian Kitchen & Boba Tea Bar will expand into the Woodstock Mills District as part of a 28,000‑square‑foot development under construction. The opening timeline has not been announced.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-28-oct-3/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Muchacho",
+      "location": "129 Church Street, Decatur",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open this fall",
+      "short_description": "Muchacho plans a third Decatur location at 129 Church Street, slated to open this fall. No specific opening date has been provided.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-28-oct-3/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Bourbon + Lit",
+      "location": "528 Main Street NE, Atlanta",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open in Atlanta’s Lindbergh neighborhood.",
+      "short_description": "Bourbon + Lit, a new bookstore‑bar concept, will open at 528 Main Street NE in Atlanta’s Lindbergh neighborhood. The opening date has not been announced.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-sep-28-oct-3/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Scott’s Generations",
+      "location": "742 E Glendale Ave #142, Phoenix, AZ 85020",
+      "event_type": "Closing",
+      "event_date": "October 25",
+      "status": "permanently shut down by October 25",
+      "short_description": "Scott’s Generations, a New York‑style Jewish deli in Phoenix, announced it will permanently close by October 25. The closure ends 37 years of service at 742 E Glendale Ave #142.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/a-new-york-style-deli-serving-phoenix-for-37-years-has-announced-its-closure",
+      "published_date": ""
+    },
+    {
+      "store_name": "Hallberg’s",
+      "location": "105 Eckford Ln, Starkville, MS 39759",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "plans to open later this year",
+      "short_description": "Hallberg’s, a new restaurant concept by Eric Hallberg, will open at 105 Eckford Lane in Starkville, MS. The LLC was filed on August 27, 2026 and the opening is projected for as early as November. The project is still in development with few details released.",
+      "article_link": "https://whatnow.com/memphis/restaurants/hallbergs-headed-to-starkville/",
+      "published_date": "October 02, 2026"
     }
   ],
   "non_working": [
