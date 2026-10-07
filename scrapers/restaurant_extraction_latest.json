@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -8380,6 +8380,296 @@
       "short_description": "Hallberg’s, a new restaurant concept by Eric Hallberg, will open at 105 Eckford Lane in Starkville, MS. The LLC was filed on August 27, 2026 and the opening is projected for as early as November. The project is still in development with few details released.",
       "article_link": "https://whatnow.com/memphis/restaurants/hallbergs-headed-to-starkville/",
       "published_date": "October 02, 2026"
+    },
+    {
+      "store_name": "Onigiri Burgers",
+      "location": "2621 Marconi Ave, Sacramento, CA 95821, USA",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "the restaurant is not open yet but is moving toward a launch this year",
+      "short_description": "Onigiri Burgers is preparing a second Sacramento location at 2621 Marconi Ave. Owner Rick You says the restaurant is not open yet but aims for a November opening this year. The existing Sacramento restaurant remains at 4001 Freeport Blvd.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/onigiri-burgers-preparing-second-sacramento-location/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Gus’s World Famous Fried Chicken",
+      "location": "710 Red River St, Austin, TX 78701, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open a 4,400-square-foot location",
+      "short_description": "Gus’s World Famous Fried Chicken intends to relocate to a new 4,400‑square‑foot site at 710 Red River St in downtown Austin. Franchisee Janeth Hickerson says the move will provide a long‑term home and the current San Jacinto location will stay open until its lease ends in early 2028. Renovations may take a year or more.",
+      "article_link": "https://whatnow.com/austin/restaurants/guss-world-famous-fried-chicken-to-plant-roots-on-red-river-street/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Elmisa Cafe",
+      "location": "16773 Bernardo Center Dr, San Diego, CA 92128, USA",
+      "event_type": "Opening",
+      "event_date": "mid-November 2026",
+      "status": "opening targeted for mid-November 2026",
+      "short_description": "Elmisa Cafe will move from 11611 Rancho Bernardo Road to a larger space at 16773 Bernardo Center Drive in The Plaza Rancho Bernardo. Owner Eddy Jabbour says the new site will open in mid‑November 2026, aiming to be ready before December. The menu will stay largely the same.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/elmisa-cafe-to-relocate-to-larger-space-in-rancho-bernardo/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Back Yard Burgers",
+      "location": "8430 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34747, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "about three weeks away from opening pending final approval",
+      "short_description": "Back Yard Burgers is adding a new restaurant at 8430 W Irlo Bronson Memorial Highway in Kissimmee, near Walt Disney World. Franchise owner Corey Balze says the team is about three weeks away from opening pending final approval. The location will sit across from The Reserve Golf Course.",
+      "article_link": "https://whatnow.com/orlando/restaurants/backyard-burger-planning-new-location-near-walt-disney-world/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses the history and operations of Fideuá Taste of Spain but does not mention any opening, closing, or remodel event.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/fideua-taste-of-spain-builds-a-spanish-restaurant-legacy-in-las-vegas/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Woods Beer & Wine Co",
+      "location": "649 San Anselmo Ave., San Anselmo, CA 94960",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Woods Beer & Wine Co is preparing to open a new bar‑cafe at 649 San Anselmo Ave. in San Anselmo. The location will serve the company’s craft beer and natural wine and is listed as coming soon, with plans to break ground later this year. The brand currently operates six locations across San Francisco.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/woods-beer-wine-co-to-open-in-downtown-san-anselmo/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "The Body Shop Bar & Grill",
+      "location": "2229 Hickory Ave, Harahan, LA 70123",
+      "event_type": "Opening",
+      "event_date": "mid-October",
+      "status": "aiming for a soft opening",
+      "short_description": "The Body Shop Bar & Grill, an automotive‑themed hospitality concept, will convert the former McKinley’s Irish Pub at 2229 Hickory Ave. in Harahan into a bar, grill and active body shop. The owners aim for a soft opening in mid‑October with a grand opening in December. The venue will feature a front bar, rear warehouse garage and an outdoor stage.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/automotive-themed-restaurant-coming-to-harahan/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "3207 S Main St, Lindale, TX 75771",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "7 Brew Coffee intends to open its first Lindale location at 3207 S. Main St., operating from a 510‑square‑foot prefabricated drive‑thru stand. Construction is scheduled for March‑June 2027, but no opening date has been announced. The project was filed with the Texas Department of Licensing and Regulation.",
+      "article_link": "https://whatnow.com/dallas/restaurants/7-brew-plans-first-lindale-location/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Saint & Rebel",
+      "location": "1800 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+      "event_type": "Opening",
+      "event_date": "late fall",
+      "status": "targeting late fall for a soft opening",
+      "short_description": "Saint & Rebel will open in the former Café Roma at 1800 Oretha Castle Haley Blvd. in New Orleans, offering an elevated social dining experience with Creole dishes and craft cocktails. The space is undergoing cosmetic renovations and the owners are targeting a soft opening in late fall. The concept blends traditional Southern hospitality with a rebellious culinary approach.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/elevated-dining-concept-with-live-music-set-to-add-to-central-citys-growing-options/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Steak 48",
+      "location": "4829 McKinney Ave, Dallas, TX 75205",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "early stages of approvals",
+      "short_description": "Steak 48 has submitted permitting documents to open a high‑end steakhouse at 4829 McKinney Ave. in Dallas. The project is in the early stages of approvals and no opening date has been set. The restaurant would be the brand’s second location in Texas.",
+      "article_link": "https://whatnow.com/dallas/restaurants/steak-48-team-making-dallas-debut-in-knox-henderson-this-year/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Vicky Bakery",
+      "location": "1154 N Federal Hwy, Pompano Beach, FL 33062, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "“Baking Soon.”",
+      "short_description": "Vicky Bakery is planning a new location at 1154 N. Federal Highway in Pompano Beach. The site is currently listed by the bakery as “Baking Soon,” and no opening date has been announced.",
+      "article_link": "https://whatnow.com/miami/restaurants/vicky-bakery-to-open-new-location-in-pompano-beach/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Zees Subs",
+      "location": "913 King St, Jacksonville, FL 32204",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "“could be coming soon”",
+      "short_description": "A new Zees Subs sandwich shop is planned for 913 King Street in Jacksonville’s Riverside neighborhood. The project has a building permit and is in the build‑out phase, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/zees-subs-planned-for-riverside/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "The Kookaburra",
+      "location": "1200 Riverplace Blvd, Jacksonville, FL 32207",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "“may be opening soon”",
+      "short_description": "The Kookaburra, an Australian‑inspired coffee and pie shop, is set to open at 1200 Riverplace Blvd in Jacksonville’s Southbank. The location occupies first‑floor retail space in the Hanania building, but an opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/the-kookaburra-bringing-australian-inspired-coffee-and-pies-to-jacksonville/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "One Bryant Park",
+      "location": "135 W 42nd St, New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "October 15",
+      "status": "“is opening”",
+      "short_description": "One Bryant Park, a new Japanese fine‑dining restaurant, will open at 135 W. 42nd Street in Midtown Manhattan. The 10,000‑square‑foot space, previously Charlie Palmer Steak, is slated to open on October 15.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-japanese-restaurant-is-opening-in-midtown-manhattan-with-a-menu-inspired-by-72-microseasons/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Annam Tan",
+      "location": "33 E 33rd St., New York, NY 10016",
+      "event_type": "Opening",
+      "event_date": "early February 2027",
+      "status": "“plans to open”",
+      "short_description": "Annam Tan, a Vietnamese cafe and restaurant, is slated to open at 33 E. 33rd Street in New York’s NoMad neighborhood. The team aims to launch in early February 2027.",
+      "article_link": "https://whatnow.com/new-york/restaurants/new-vietnamese-cafe-and-restaurant-coming-to-nomad-in-2027/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Hills Nutrition",
+      "location": "27861 Orchard Lake Rd, Farmington Hills, MI 48334",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "there is no opening date",
+      "short_description": "Hills Nutrition is planning to open a new location at 27861 Orchard Lake Road in Farmington Hills, taking over the former Dubon Nutrition space. Owner Jamie Craig has received the keys but no opening date has been announced. The storefront shares the building with several other businesses.",
+      "article_link": "https://whatnow.com/detroit/restaurants/hills-nutrition-coming-to-orchard-12-plaza-shopping-center/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Mandarin Cuisine",
+      "location": "238 Highland Ave, Needham, MA 02494",
+      "event_type": "Closing",
+      "event_date": "October 31",
+      "status": "will close on October 31",
+      "short_description": "Mandarin Cuisine, a 37‑year‑old Chinese restaurant in Needham, announced it will close its doors. Owner Joan confirmed the restaurant will serve its final meal on October 31. The space will be handed over to new ownership after the closure.",
+      "article_link": "https://whatnow.com/boston/restaurants/this-37-year-old-needham-restaurant-has-set-october-31-as-its-final-day/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Angry Chickz",
+      "location": "1042 W Gladstone St, San Dimas, CA 91773",
+      "event_type": "Opening",
+      "event_date": "October 16",
+      "status": "will open its San Dimas location on October 16 at 11 a.m.",
+      "short_description": "Angry Chickz is opening its first San Dimas restaurant at 1042 W. Gladstone Street. The grand opening is scheduled for October 16 at 11 a.m., featuring giveaways and a jersey for the first 100 guests. This marks the brand’s debut in the San Dimas area.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-48-location-chicken-chain-is-opening-its-first-san-dimas-restaurant/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Taqueria Las Vias",
+      "location": "116 E Philadelphia Ave., Boyertown, PA 19512",
+      "event_type": "Opening",
+      "event_date": "first week of November",
+      "status": "plans to open during the first week of November",
+      "short_description": "Taqueria Las Vias will open a new Mexican restaurant in downtown Boyertown, occupying the former Carmelo’s Pizza and Italian Ice space. Owner Pablo Cruz says the menu will mirror his sister concept, Taqueria El Habanero. The opening is slated for the first week of November.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/a-new-taqueria-coming-to-downtown-boyertown-this-fall/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Lotus Room Chinese Cuisine",
+      "location": "6004 Torrey Rd H, Flint, MI 48507",
+      "event_type": "Closing",
+      "event_date": "October 10",
+      "status": "will host its last day of service on October 10",
+      "short_description": "Lotus Room Chinese Cuisine announced its permanent closure after 19 years of service in Flint. Owner Jack Yang said the restaurant will serve its final dinner on October 10, though it could close earlier if supplies run out. A new Vietnamese concept, “PHO,” is expected to take over the space.",
+      "article_link": "https://whatnow.com/detroit/restaurants/popular-michigan-chinese-restaurant-announces-closure-after-nearly-20-years/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Pecan Street Station Deli and Grill",
+      "location": "1005 W Pecan St, Pflugerville, TX 78660, United States",
+      "event_type": "Closing",
+      "event_date": "October 11, 2026",
+      "status": "permanently shutter",
+      "short_description": "Pecan Street Station Deli and Grill in Pflugerville will close this weekend after 26 years in business. The owner announced the final service day will be October 11, and the building is up for sale. The closure ends the deli’s operation at the listed address.",
+      "article_link": "https://whatnow.com/austin/restaurants/a-scratch-made-southern-deli-that-defined-pflugerville-is-closing-its-doors/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Spacca Tutto",
+      "location": "15255 Palisades Village Ln, Pacific Palisades, CA 90272",
+      "event_type": "Opening",
+      "event_date": "October 15, 2026",
+      "status": "opening",
+      "short_description": "Spacca Tutto is opening its doors in Pacific Palisades on October 15. The Italian‑American steakhouse concept comes from chef Nancy Silverton and will be located in Palisades Village. The restaurant will offer a menu that blends Italian cooking with American steakhouse traditions.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-new-pacific-palisades-steakhouse-from-nancy-silverton-opens-october-15/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "The Truth",
+      "location": "440 Chestnut St, Nashville, TN 37203",
+      "event_type": "Opening",
+      "event_date": "October 1, 2026",
+      "status": "opened",
+      "short_description": "The Truth, a 4,400‑capacity live music venue in Nashville’s Wedgewood‑Houston neighborhood, opened on October 1 with a sold‑out Miranda Lambert show. The venue, developed by Live Nation and AJ Capital, features raw brick architecture and a menu designed for concertgoers. It will host a packed season of performances through the end of the year.",
+      "article_link": "https://whatnow.com/nashville/restaurants/an-ode-to-music-city-the-truth-opens-in-nashville/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "The Flying Biscuit Café",
+      "location": "1660 S Mason Rd, Katy, TX 77450",
+      "event_type": "Opening",
+      "event_date": "late November 2026",
+      "status": "targeted to open",
+      "short_description": "Franchise partners Mario and Ifeoma Harper have signed a lease for their first The Flying Biscuit Café in Katy. The all‑day breakfast and lunch café is targeted to open in late November 2026 at the listed location. It will offer full‑service catering and a brunch‑forward menu.",
+      "article_link": "https://whatnow.com/houston/restaurants/the-flying-biscuit-cafe-signs-katy-lease-expanding-in-the-houston-market/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Glass Box",
+      "location": "8670 W Sunset Rd, Las Vegas, NV 89148",
+      "event_type": "Opening",
+      "event_date": "September 26, 2026",
+      "status": "opened",
+      "short_description": "Glass Box opened its first expansion location in The Bend, Southwest Las Vegas on September 26. The Asian coastal‑inspired kitchen and sushi bar is led by owner‑chef Ethan Yang and adds an AYCE option to its menu. The 75‑seat restaurant features an open kitchen and a 500‑square‑foot patio.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/southern-californias-glass-box-opens-new-location-in-southwest-las-vegas-led-by-owner-and-executive-chef-ethan-yang/",
+      "published_date": "October 06, 2026"
+    },
+    {
+      "store_name": "Scott’s Generations",
+      "location": "742 E Glendale Ave #142, Phoenix, AZ 85020",
+      "event_type": "Closing",
+      "event_date": "October 25",
+      "status": "permanently shut down",
+      "short_description": "After more than 37 years, the New York‑style Jewish deli Scott’s Generations announced it will permanently shut down by October 25. The owners said they will not renew the lease and thanked the community, inviting patrons to visit one more time.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/a-new-york-style-deli-serving-phoenix-for-37-years-has-announced-its-closure/",
+      "published_date": "October 05, 2026"
+    },
+    {
+      "store_name": "Wonder",
+      "location": "6400 Ridge Rd, Sykesville, MD 21784",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will be customer‑ready at some point next month",
+      "short_description": "Wonder, a fast‑casual multi‑restaurant concept, plans to open a new location at 6400 Ridge Road in Sykesville as part of the Eldersburg Commons shopping center. The company says the site will be customer‑ready sometime next month, though no exact opening date was given.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/fast-casual-heavy-hitter-to-open-new-maryland-location-this-fall/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Royal Farms",
+      "location": "Forest Drive and Tyler Avenue, Annapolis, MD (address not specified in article)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "received conditional approval",
+      "short_description": "Royal Farms received conditional approval to develop a convenience‑store and gas‑pump site on the former Annapolis Seafood Market property at Forest Drive and Tyler Avenue. The plan reduces the original pump count and the approval is tentative, with no confirmed opening date.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/royal-farms-takes-tentative-steps-towards-annapolis/",
+      "published_date": "October 04, 2026"
+    },
+    {
+      "store_name": "Always Ice Cream Company",
+      "location": "11802-B Rockville Pike, Rockville, MD 20852",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "aims to be customer‑ready by late November",
+      "short_description": "Always Ice Cream Company is opening its ninth store at 11802‑B Rockville Pike in the Pike & Rose area of Rockville. The owners aim to be customer‑ready by late November, but a precise opening date has not been set.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/always-ice-cream-company-bringing-celebrated-scoops-to-rockville/",
+      "published_date": "October 04, 2026"
     }
   ],
   "non_working": [
