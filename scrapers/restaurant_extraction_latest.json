@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -9360,6 +9360,636 @@
       "short_description": "Casa Donato, an Italian restaurant and café from the team behind Montreal’s Ristorante Donato, is opening in Toronto’s Harbord Village at 660 Spadina Ave. The first phase, a counter‑service café, is scheduled to open on October 15, with a larger dining room and bar to follow in a second phase.",
       "article_link": "https://whatnow.com/toronto/restaurants/montreal-based-casa-donato-to-open-in-toronto/",
       "published_date": "October 07, 2026"
+    },
+    {
+      "store_name": "Fruity Loopy LLC",
+      "location": "1339 N Germantown Pkwy, Cordova, TN 38016",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "certificate of occupancy remains under review as of October 8",
+      "short_description": "Fruity Loopy LLC has filed paperwork to open an ice‑cream shop at 1339 N Germantown Parkway in Cordova, TN. The certificate of occupancy is under review and no opening timeline has been provided.",
+      "article_link": "https://whatnow.com/memphis/restaurants/new-ice-cream-shop-scooping-into-memphis/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Butter Dream Bakery & Wine Bar",
+      "location": "291 North Main Street, Mansfield, MA 02048",
+      "event_type": "Opening",
+      "event_date": "mid‑November 2026",
+      "status": "targeting a mid‑November 2026 opening",
+      "short_description": "Butter Dream Bakery & Wine Bar is converting a historic 1930 fire station at 291 North Main Street in Mansfield, MA into a bakery, café and wine bar. The owners are targeting a mid‑November 2026 opening.",
+      "article_link": "https://whatnow.com/boston/restaurants/butter-dream-bakery-wine-bar-to-open-in-historic-mansfield-fire-station-next-month/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Pichudo Mexican Grill",
+      "location": "corner of Lyman Lane and Artists Lane, La Jolla",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "timeline has not been publicly confirmed",
+      "short_description": "Pichudo Mexican Grill plans to open a second location at the base of UC San Diego’s Design and Innovation Building, at the corner of Lyman Lane and Artists Lane in La Jolla. A public filing announced the expansion, but no opening date has been confirmed.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/pichudo-mexican-grill-plans-to-expand/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Creekside Restaurant & Bar",
+      "location": "30865 Gateway Place, Suite E-6, Rancho Mission Viejo, CA 92694",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "no specific opening date is listed",
+      "short_description": "Creekside Restaurant & Bar will open at 30865 Gateway Place, Suite E‑6 in Rancho Mission Viejo, CA, offering American fare. The website provides a “Stay In The Know” option but does not list a specific opening date.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/creekside-restaurant-bar-to-open-in-rancho-mission-viejo/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Paris Baguette",
+      "location": "280 School St, Mansfield, MA 02048",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "slated to open in early 2027",
+      "short_description": "Paris Baguette franchisees plan to open a bakery‑café at the Mansfield Crossing shopping center, 280 School Street, Mansfield, MA. The Mansfield location is slated to open in early 2027 as part of a broader Greater Boston expansion.",
+      "article_link": "https://whatnow.com/boston/restaurants/paris-baguette-franchisees-eye-20-greater-boston-locations-with-mansfield-up-next/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "The Burger Fix",
+      "location": "1511 Shattuck Ave., Suite A, Berkeley, CA 94709",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "The Burger Fix is set to occupy a counter space at Epicurious Garden food hall in Berkeley’s Gourmet Ghetto. The business will be located at 1511 Shattuck Ave., Suite A, and is preparing to open according to a California Department of Alcoholic Beverage Control record. No menu or ownership details have been confirmed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/the-burger-fix-preparing-to-open-in-berkeley/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Frenchie Wine Bistro",
+      "location": "560 Tremont St, Boston, MA 02118",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "preparing to close its doors",
+      "short_description": "Frenchie Wine Bistro, a longtime French bistro in Boston’s South End, is preparing to close its doors at 560 Tremont Street. The closure will make way for a new Italian concept, Osteria560, from The Aquitaine Group. The article notes the license transfer and upcoming redesign.",
+      "article_link": "https://whatnow.com/boston/restaurants/osteria560-to-replace-frenchie-wine-bistro-in-bostons-south-end/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Osteria560",
+      "location": "560 Tremont St, Boston, MA 02118",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting an opening in late 2026 or early 2027",
+      "short_description": "Osteria560, a stripped‑down Italian restaurant, will replace Frenchie Wine Bistro at 560 Tremont Street in Boston’s South End. Founder Seth Woods describes the concept as ingredient‑driven cucina, with a redesign of the 1,900‑square‑foot space. The project is targeting an opening in late 2026 or early 2027.",
+      "article_link": "https://whatnow.com/boston/restaurants/osteria560-to-replace-frenchie-wine-bistro-in-b",
+      "published_date": ""
+    },
+    {
+      "store_name": "Myth & Legend",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "bringing a new location to Kennesaw this November",
+      "short_description": "Myth & Legend announced a new coffee shop location in Kennesaw slated for November. The brand has not released an address for the site. This will add to its existing locations in Cumming, Johns Creek, Clarkesville and St. Augustine.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/myth-legend-bringing-coffee-to-kennesaw/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Double Dippin",
+      "location": "235 Riverside Dr, Holly Hill, FL 32117",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Double Dippin is constructing its first brick‑and‑mortar location at 235 Riverside Dr in Holly Hill, FL. The project is under construction with hopes to open by the end of the year. The site will share a building with Dark Alchemy Coffee.",
+      "article_link": "https://whatnow.com/orlando/restaurants/double-dippin-food-truck-owner-applies-for-location-near-daytona-beach/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/methi-indian-nepalese-cuisine-to-change-ownership-in-walnut-creek/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Moka & Co.",
+      "location": "Boston Metropolitan Area",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Moka & Co. is preparing to open its first Massachusetts café in Boston, as announced on social media. No specific address has been disclosed yet. The opening timeline has not been provided.",
+      "article_link": "https://whatnow.com/boston/restaurants/specialty-yemeni-coffee-chain-moka-co-to-open-first-massachusetts-location-in-boston/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Third Round Social",
+      "location": "18494 E 104th Ave, Commerce City, CO 80022",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has begun a phased opening",
+      "short_description": "Third Round Social has started a phased opening at 18494 E. 104th Avenue, Suite 130 in Commerce City, serving coffee and ice cream while construction continues. Additional dining and entertainment areas are expected to open in October and late November. The venue will eventually offer games, a bar, and a full restaurant.",
+      "article_link": "https://whatnow.com/denver/restaurants/third-round-social-begins-opening-in-commerce-city-with-more-to-come/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Shemroon Kabab House",
+      "location": "2109-2111 W Chicago Avenue, Chicago, IL 60622",
+      "event_type": "Opening",
+      "event_date": "around the end of November",
+      "status": "hoping to open around the end of November",
+      "short_description": "Shemroon Kabab House is seeking a second location in Ukrainian Village, filing a liquor license for 2109‑2111 W Chicago Avenue. Co‑owner Asrin Ebrahimpour says they hope to open around the end of November. The original restaurant opened in November 2022 in Park Ridge.",
+      "article_link": "https://whatnow.com/chicago/restaurants/shemroon-kabab-team-seeking-new-location-in-ukrainian-village/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Pico",
+      "location": "365 19th St, Oakland, CA 94612",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "preparing to open",
+      "short_description": "Chef Jacob Croom’s Mexican‑inspired concept Pico is set to open at 365 19th St in Oakland in December. It will combine a restaurant and bar and feature seasonal Mexican dishes and bar snacks. A specific opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/pico-preparing-to-open-oakland-restaurant-and-bar/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Kyoto Sushi and Hibachi",
+      "location": "1362 S Hwy 97, Redmond, OR 97756",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Kyoto Sushi and Hibachi has filed a liquor license to open a new restaurant at 1362 S Highway 97 in Redmond, Oregon. The venue will blend sushi and hibachi styles for family‑friendly dining. No opening date has been announced.",
+      "article_link": "https://whatnow.com/portland/restaurants/kyoto-sushi-and-hibachi-planning-redmond-restaurant/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Mosaic Chai House",
+      "location": "4900 W 46th Ave, Denver, CO 80212",
+      "event_type": "Opening",
+      "event_date": "early January 2027",
+      "status": "opening early next year",
+      "short_description": "Mosaic Chai House plans to open at 4900 W 46th Ave in Denver’s Berkeley neighborhood, across from Berkeley Lake Park. The owner targets an early January 2027 opening and envisions a community gathering space with chai, coffee, vintage clothing, and events. The concept is described as a “third place” for neighbors.",
+      "article_link": "https://whatnow.com/denver/restaurants/mosaic-chai-house-to-bring-a-community-gathering-spot-to-denvers-berkeley-neighborhood/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "La Marquerida",
+      "location": "1801 Rodd Field Rd, Corpus Christi, TX 78412",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming to",
+      "short_description": "La Marquerida is slated to open at 1801 Rodd Field Rd in Corpus Christi, occupying Suites 107 and 108 of the Lakeview Drive Retail Center. Interior construction began on Oct 5 2026 and is scheduled to finish by April 5 2027. The project is a new build‑out for the restaurant.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/la-marquerida-restaurant-coming-to-corpus-christi/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Excelsior",
+      "location": "1132 4th St, San Rafael, CA 94901",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "projected opening month",
+      "short_description": "Excelsior, a new brewpub from Magnolia Brewing Co. founder Dave McLean, will occupy the former State Room Brewery at 1132 4th St in San Rafael. The San Francisco Chronicle projects a November 2026 opening, with indoor and patio seating for about 105 guests.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/excelsior-planning-november-opening-in-san-rafael/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "El Chingon",
+      "location": "3330 N Brighton Blvd, Unit 105, Denver, CO 80216",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "opening targeted for fall 2026",
+      "short_description": "El Chingon is returning to Denver with a new location at The Source Hotel, 3330 N Brighton Blvd, Unit 105. After a kitchen fire forced closure in June 2025, the restaurant plans a fall 2026 opening in a 3,100‑sq‑ft space with a patio.",
+      "article_link": "https://whatnow.com/denver/restaurants/el-chingon-to-return-with-new-rino-location-at-the-source-hotel/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Wingstop",
+      "location": "3547 US‑441, Suite 13, Okeechobee, FL 34974",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "site is under construction",
+      "short_description": "Wingstop plans a new restaurant at 3547 US‑441, Suite 13, Okeechobee, FL. The site is under construction and the company has not announced an opening date.",
+      "article_link": "https://whatnow.com/orlando/restaurants/wingstop-coming-to-okeechobees-northlake-village/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Raise The Bar",
+      "location": "3500 E Parmer Ln, Suite 2152, Austin, TX 78754",
+      "event_type": "Opening",
+      "event_date": "Spring 2027",
+      "status": "should open by next Spring",
+      "short_description": "Raise The Bar, a cocktail lounge, will be built in building 2 of the East Village Town Center at 3500 E Parmer Ln, Suite 2152, Austin. Permit filings show construction to start early next month and finish by mid‑March 2027, with an anticipated opening in spring 2027.",
+      "article_link": "https://whatnow.com/austin/restaurants/raise-the-bar-new-cocktail-lounge-to-debut-in-upper-east-side/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Jack & Harry’s",
+      "location": "5307 Broadway, San Antonio, TX 78209, USA",
+      "event_type": "Opening",
+      "event_date": "Summer 2027",
+      "status": "expected to open in summer 2027",
+      "short_description": "Jack & Harry’s, a New Orleans‑inspired chophouse, will open in the renovated Nix Health building at 5307 Broadway, San Antonio, in summer 2027. The opening follows plans for a second concept, Hudson House, at the same location.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/jack-harrys-to-open-new-orleans-inspired-chophouse-in-alamo-heights/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Kura Revolving Sushi Bar",
+      "location": "1101 El Camino Real, Space F1D, Redwood City, CA 94063",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Kura Revolving Sushi Bar is preparing to open a location at 1101 El Camino Real, Space F1D in Redwood City. The restaurant will feature a revolving conveyor and touchscreen ordering. An opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/kura-revolving-sushi-bar-to-open-in-redwood-city/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Crosscut Warming Hut No. 4",
+      "location": "700 W Canopy Wy, Sisters, OR 97759",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "opening in Sisters this November",
+      "short_description": "Crosscut Warming Hut No. 4 will open in Sisters, Oregon this November at 700 W Canopy Way within the Sisters Woodlands development. The taproom will include three commercial kitchen suites for lease. It is the second location for the brand.",
+      "article_link": "https://whatnow.com/portland/restaurants/crosscut-warming-hut-opening-second-location-in-sisters/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Whataburger",
+      "location": "NWQ Hwy 105 & Loop 336 (Conroe, TX)",
+      "event_type": "Opening",
+      "event_date": "next spring",
+      "status": "should open by next spring",
+      "short_description": "Whataburger plans its fifth Conroe restaurant at the NWQ Hwy 105 & Loop 336 intersection. Construction is slated to begin in early November and finish by early April 2027, with the restaurant expected to open by next spring. Project manager Neal Tjon‑A‑Joe is overseeing the development.",
+      "article_link": "https://whatnow.com/houston/restaurants/whataburger-to-open-new-location-in-conroe/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "North Italia",
+      "location": "7221 W Ray Rd, Chandler, AZ 85226",
+      "event_type": "Opening",
+      "event_date": "November 11",
+      "status": "will open",
+      "short_description": "North Italia will open its seventh Arizona restaurant in Chandler on November 11 at 7221 W Ray Road, located in The Shoppes at Casa Paloma. The 8,397‑sq ft space seats 203 inside and 44 on a patio and includes an open kitchen and mural. The site occupies the former Z’Tejas Southwestern Grill location.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/north-italia-sets-november-11-opening-in-chandler/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Cotoa",
+      "location": "1111 NE 125th St, Ste. 200, North Miami, FL 33161",
+      "event_type": "Opening",
+      "event_date": "this fall",
+      "status": "expected to open ... this fall",
+      "short_description": "Cotoa is moving from its North East 6th Court location to a larger venue at 1111 NE 125th St., Ste 200 in North Miami. The Ecuadorian restaurant plans to open the new 80‑seat space this fall. The move follows a September premiere and aims to accommodate growth.",
+      "article_link": "https://whatnow.com/miami/restaurants/cotoa-to-move-to-larger-venue/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Potbelly Sandwich Shop",
+      "location": "323 Creekside Crossing, Suite 105, New Braunfels, TX 78130",
+      "event_type": "Opening",
+      "event_date": "November 6",
+      "status": "has officially opened",
+      "short_description": "Potbelly Sandwich Shop opened its first New Braunfels location at 323 Creekside Crossing, Suite 105 in Town Center at Creekside. The 1,750‑sq‑ft restaurant features toasted sandwiches, soups, salads and more. A grand‑opening celebration is scheduled for November 6.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/potbelly-sandwich-shop-opens-in-new-braunfels/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Tahini’s",
+      "location": "1485 Huron Church Rd, Unit A, Windsor, ON N9E 4T8, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to open",
+      "short_description": "Tahini’s announced plans to open a new restaurant at 1485 Huron Church Road, Unit A in Windsor. The location is listed in the chain’s “Coming Soon” section but no opening date has been provided. The menu will feature Mediterranean‑fusion items such as shawarma wraps and platters.",
+      "article_link": "https://whatnow.com/toronto/restaurants/tahinis-expanding-to-windsor-and-milton/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Tahini’s",
+      "location": "1216 Steeles Ave E #5, Milton, ON L9T 6R1, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to open",
+      "short_description": "Tahini’s is also preparing to open a Milton location at 1216 Steeles Avenue East, Suite 5 inside the Milton Crossroads shopping centre. The opening date has not been announced. The restaurant will serve similar Middle Eastern menu items.",
+      "article_link": "https://whatnow.com/toronto/restaurants/tahinis-expanding-to",
+      "published_date": ""
+    },
+    {
+      "store_name": "Rustic & Rye",
+      "location": "1320 Celebrity Cir, Myrtle Beach, SC 29577",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Coastal Concepts Hospitality will open Rustic & Rye, a bar and grill specializing in craft cocktails and sandwiches, at 1320 Celebrity Cir in Myrtle Beach’s Broadway at the Beach development. The concept will replace Roosters Restaurant & Bar and is slated to open next year.",
+      "article_link": "https://whatnow.com/charleston/restaurants/opening-at-broadway-by-the-beach-rustic-rye/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Blue Agave Tex Mex",
+      "location": "14900 Avery Ranch Blvd B100, Austin, TX 78717, United States",
+      "event_type": "Closing",
+      "event_date": "October 8",
+      "status": "has closed",
+      "short_description": "Blue Agave Tex Mex in Austin closed after a ten‑month run, announcing the shutdown on social media. The restaurant served its final meal on October 8 at 14900 Avery Ranch Blvd B100.",
+      "article_link": "https://whatnow.com/austin/restaurants/woman-owned-tex-mex-restaurant-in-austin-shuts-down-after-a-short-run/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "NAYA",
+      "location": "1745 S Easton Rd., Doylestown, PA 18901",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet been announced",
+      "short_description": "NAYA, a fast‑casual Middle Eastern chain, plans to open a new location at the redeveloped Barn Plaza shopping center at 1745 S Easton Rd in Doylestown. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/naya-expands-greater-philadelphia-footprint-with-new-location-in-doylestown/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Swig",
+      "location": "9980 GA-92, Woodstock, GA 30188",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has plans to open",
+      "short_description": "Swig, the dirty‑soda chain, filed construction plans to convert an existing building at 9980 GA‑92 in Woodstock into a drive‑thru location. The company has plans to open the site, but an opening timeline remains unclear.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/swig-planning-new-location-in-woodstock/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Rosalia’s Mexican Restaurant",
+      "location": "1302 Main Hwy, Bamberg, SC 29003",
+      "event_type": "Opening",
+      "event_date": "October 24",
+      "status": "grand opening is set for October 24",
+      "short_description": "Rosalia’s Mexican Restaurant is expanding to Bamberg with a new site at 1302 Main Hwy, and a grand opening is set for October 24. The new restaurant will offer the same menu of tacos, burritos, and other Mexican dishes.",
+      "article_link": "https://whatnow.com/charleston/restaurants/orangeburgs-rosalias-mexican-restaurant-expanding-to-bamberg/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "District 142 Bar and Listening Lounge",
+      "location": "150 Maple St, Wyandotte, MI 48192",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be as soon as later this month",
+      "short_description": "District 142 in Wyandotte is adding a new bar and listening lounge at 150 Maple Street. The owners have not announced an official opening date, but suggest it could open later this month. The space will feature a full bar, vinyl DJ’s, and small dishes.",
+      "article_link": "https://whatnow.com/detroit/restaurants/district-142-to-debut-new-bar-and-listening-lounge-next-door/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Good Company",
+      "location": "343 W Broadway, New York, NY 10013",
+      "event_type": "Opening",
+      "event_date": "October 8, 2026",
+      "status": "opened",
+      "short_description": "Good Company opened its doors at 343 W Broadway in SoHo on October 8, 2026. The two‑level restaurant offers seasonal American cuisine and a cocktail bar. It is backed by the team behind Yesterday’s and designed by Yakka Studio.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-restaurant-has-arrived-in-soho-with-a-menu-full-of-american-classics/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Cone N’ Swirl",
+      "location": "9910 W Loop 1604 N, San Antonio, TX 78254, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Cone N’ Swirl plans to open its first brick‑and‑mortar storefront at 9910 W Loop 1604 N, Suite 104 in the Braun Pointe shopping center. The dessert shop, known for customizable Hungarian chimney cones filled with blended ice cream, currently operates from a food trailer. Owners say the new location will give customers a permanent spot.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/cone-n-swirl-to-open-first-storefront-in-san-antonio/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "7 Brew",
+      "location": "MENARDS, 5806 State St, Saginaw, MI 48603",
+      "event_type": "Opening",
+      "event_date": "Dec. 14, 2026",
+      "status": "estimated opening date is around Dec. 14",
+      "short_description": "7",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Ship of Fools",
+      "location": "1152 1st Ave., New York, NY 10065",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will return",
+      "short_description": "Ship of Fools is set to take over the former Baker Street Irregulars space at 1152 First Ave. The bar, originally opened in 1996 and closed in 2012, will return after a 16‑year hiatus with a neighborhood bar concept and Welsh influences. Owner Glenn Treacher plans to retain original furnishings and bring back former staff.",
+      "article_link": "https://whatnow.com/new-york/restaurants/ship-of-fools-to-return-after-16-year-hiatus-getting-band-back-together/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Park Tavern",
+      "location": "32 SE 2nd Ave, Delray Beach, FL 33444",
+      "event_type": "Closing",
+      "event_date": "October 18, 2026",
+      "status": "permanently shut its doors",
+      "short_description": "Park Tavern, a downtown Delray Beach brunch and tavern spot, announced it will close its doors on October 18, ending a 15‑year run. The restaurant cited a permanent shutdown and thanked the community via social media. The location is at 32 SE 2nd Avenue.",
+      "article_link": "https://whatnow.com/miami/restaurants/beloved-delray-beach-brunch-spot-bids-farewell-after-15-years/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Malia’s Restaurant",
+      "location": "120 Laurens St SW, Aiken, SC 29801",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "reopening",
+      "short_description": "Malia’s Restaurant in Aiken, a local institution since 1987, is currently closed for renovations and is slated to reopen in November under new owners Greg Pierce and Angelia Roberts of the Feed Sack. The reopening will feature the original menu and some returning staff.",
+      "article_link": "https://whatnow.com/charleston/restaurants/owners-of-the-feed-sack-opening-reopening-malias-restaurant-in-aiken/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Southern Social",
+      "location": "1320 Celebrity Cir, Myrtle Beach, SC 29577",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will launch",
+      "short_description": "Coastal Concepts Hospitality plans to open Southern Social, a music‑inspired cafe and club, at 1320 Celebrity Circle in Myrtle Beach, replacing the American Tap House. The venue aims to combine dining with live entertainment and is slated for next year.",
+      "article_link": "https://whatnow.com/charleston/restaurants/coastal-concepts-hospitality-opening-southern-social-in-myrtle-beach/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Mythily",
+      "location": "129 Havemeyer St, Brooklyn, NY 11211",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opens",
+      "short_description": "Chef Rasika Venkatesa has opened Mythily, a 45‑seat progressive South Indian restaurant, at 129 Havemeyer Street in Williamsburg, Brooklyn. The concept draws on family recipes and Tamil Nadu traditions, with co‑founders Varun Kandadi and Nicolas Chavotier.",
+      "article_link": "https://whatnow.com/new-york/restaurants/chef-rasika-venkatesa-opens-mythily-in-williamsburg/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Gap Factory",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening this September",
+      "short_description": "Vestar announced that Gap Factory will be among the shops opening this September at Verrado Marketplace, a new 500,000‑sq‑ft retail and lifestyle destination in Buckeye, Arizona.",
+      "article_link": "https://whatnow.com/phoenix/retail",
+      "published_date": ""
+    },
+    {
+      "store_name": "Ayni Peruvian Restaurant",
+      "location": "3900 Paradise Rd, Ste N, Las Vegas, NV 89169",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is set to open",
+      "short_description": "Ayni Peruvian Restaurant is a new Peruvian concept slated to open in The Collective shopping center in the Paradise neighborhood of Las Vegas. The permit indicates the location at 3900 Paradise Rd, Ste N, and the owner is Gonealo Quispe. The opening is planned for this fall.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/ayni-peruvian-restaurant-to-open-within-the-collective/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Lox + Schmear",
+      "location": "1030 St. Clair Ave. W., Toronto (zip not provided)",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closed",
+      "short_description": "Lox + Schmear, a small‑batch fish smokehouse in Toronto, has experienced multiple equipment failures and a fire, leading to several closures throughout 2026. The current location at 1030 St. Clair Ave. W. has been closed multiple times, including a three‑week shutdown in August.",
+      "article_link": "https://whatnow.com/toronto/restaurants/lox-schmear-launches-campaign-to-fund-toronto-relocation/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Lox + Schmear",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hopes to welcome customers in early 2027",
+      "short_description": "The owners are seeking funds to relocate and hope to reopen the shop at a new Toronto site in early 2027, though the new address has not been disclosed.",
+      "article_link": "https://whatnow.com/toronto/restaurants/lox-schmear-launches-campaign-to-fund-toronto-relocation/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Joseph’s Trattoria Bakery & Cafe",
+      "location": "15 Knipe Rd, Haverhill, MA 01835",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to reopen in the spring of 2027",
+      "short_description": "Joseph’s Trattoria broke ground on a new restaurant at its original Ward Hill site, 15 Knipe Rd, as part of the Oxford Crossing development. The project replaces the location that closed after flood damage in 2023 and is slated to reopen in spring 2027.",
+      "article_link": "https://whatnow.com/boston/restaurants/josephs-trattoria-breaks-ground-on-new-haverhill-restaurant-set-to-reopen-next-spring/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Elephants Delicatessen",
+      "location": "13 NW 23rd Pl, Portland, OR 97210",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to reopen in early 2027",
+      "short_description": "Elephants Delicatessen has been acquired by The Ground, which plans to reopen the deli at 13 NW 23rd",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Five Guys",
+      "location": "10572 W Colonial Dr, Ocoee, FL 34761",
+      "event_type": "Opening",
+      "event_date": "late fourth quarter 2026",
+      "status": "will open in the former home of The Original Mattress Factory in late fourth quarter 2026",
+      "short_description": "Five Guys plans a new location at 10572 W. Colonial Drive in Ocoee, Florida. The restaurant will open in the former home of The Original Mattress Factory in late fourth quarter 2026. It will be the first Five Guys in Ocoee.",
+      "article_link": "https://whatnow.com/orlando/restaurants/five-guys-planning-new-sites-in-ocoee-and-st-cloud/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Five Guys",
+      "location": "880 E Irlo Bronson Memorial Hwy, St Cloud, FL 34769",
+      "event_type": "Opening",
+      "event_date": "late first quarter 2027",
+      "status": "will open ... in late first quarter 2027",
+      "short_description": "Five Guys plans a new location at 880 E Irlo Bronson Memorial Highway in St. Cloud, Florida. The restaurant is slated to open in late first quarter 2027. It will be the first Five Guys in St. Cloud.",
+      "article_link": "https://whatnow.com/orlando/restaurants/five-guys-planning-new-sites-in-ocoee-and-st-cloud/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Little Boat Bagels",
+      "location": "3213 W McGraw St, Seattle, WA 98199",
+      "event_type": "Opening",
+      "event_date": "late‑November",
+      "status": "targeting a late‑November opening",
+      "short_description": "Little Boat Bagels is planning a new storefront at 3213 W. McGraw St. in Seattle’s Magnolia neighborhood. The owner aims for a late‑November opening, pending permitting. The concept differs from the team’s Backyard Bagel locations.",
+      "article_link": "https://whatnow.com/seattle/restaurants/little-boat-bagels-coming-to-magnolia-this-fall/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Del Mar’s Market Restaurant + Bar",
+      "location": "3702 Via De La Valle, Del Mar, CA 92014, USA",
+      "event_type": "Closing",
+      "event_date": "September 21",
+      "status": "closed",
+      "short_description": "Market Restaurant + Bar at 3702 Via De La Valle in Del Mar closed on September 21. The closure follows a change of ownership in September 2025. The restaurant is temporarily shut while undergoing renovation.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/del-mars-market-restaurant-bar-targets-spring-reopening/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Del Mar’s Market Restaurant + Bar",
+      "location": "3702 Via De La Valle, Del Mar, CA 92014, USA",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "expected to reopen in spring 2027",
+      "short_description": "The same restaurant is slated to reopen in spring 2027 after a complete renovation that will add new design, expanded sushi, and larger dining areas. The reopening is expected per the San Diego Union‑Tribune.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/del-mars-market-restaurant-bar-targets-spring-reopening/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "American‑style chophouse (name not announced)",
+      "location": "20 Kyles Ln, Fort Wright, KY 41011, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open sometime this winter",
+      "short_description": "A new American‑style chophouse is planned for the former Frisch’s Big Boy site at 20 Kyles Lane in Fort Wright. The concept, developed by Billy Grise and Mitch Arens, has no announced name and is expected to open sometime this winter. The restaurant will seat about 160 guests and include an outdoor patio.",
+      "article_link": "https://whatnow.com/nashville/restaurants/american-chophouse-coming-to-former-frischs-location-in-fort-wright/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Habit Burger & Grill (Drexel Hill)",
+      "location": "5010 State Rd., Drexel Hill, PA (zip not specified)",
+      "event_type": "Opening",
+      "event_date": "second‑quarter 2027",
+      "status": "targeting a second‑quarter 2027 opening",
+      "short_description": "Habit Burger & Grill will open a new location at 5010 State Rd. in Drexel Hill, Pennsylvania. The site is slated to open in the second quarter of 2027. The expansion is part of the chain’s growth in the Philadelphia market.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/habit-burger-grill-to-open-2-new-philly-area-locations-in-2027/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Habit Burger & Grill (Northeast Philadelphia)",
+      "location": "9201 Roosevelt Blvd., Northeast Philadelphia, PA (zip not specified)",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "slated to open in 2027",
+      "short_description": "Habit Burger & Grill plans a second new restaurant at 9201 Roosevelt Blvd. in Northeast Philadelphia, taking over a former KFC space. The opening is slated for 2027. The venue will operate as a freestanding drive‑thru restaurant.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/habit-burger-grill-to-open-2-new-philly-area-locations-in-2027/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Matcha Magic",
+      "location": "10246 Main St., Old Bellevue",
+      "event_type": "Closing",
+      "event_date": "Nov. 1",
+      "status": "prepares to close",
+      "short_description": "Matcha Magic is searching for a new Eastside location and will close its original cafe at 10246 Main St. in Old Bellevue on Nov. 1. The property is slated for redevelopment as part of the North of Main project. No new address has been selected yet.",
+      "article_link": "https://whatnow.com/seattle/restaurants/matcha-magic-plans-eastside-relocation/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Flamin’ Feathers",
+      "location": "132 London Rd, Delaware, OH 43015, USA",
+      "event_type": "Opening",
+      "event_date": "mid-December",
+      "status": "under construction",
+      "short_description": "Flamin’ Feathers is preparing to open a new location at 132 London Rd in Delaware, Ohio. The restaurant is under construction and targeting a mid‑December opening, with a grand opening planned that will include free sandwiches for guests.",
+      "article_link": "https://whatnow.com/columbus/restaurants/flamin-feathers-to-open-new-location-in-delaware-ohio/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Flamin’ Feathers",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closed",
+      "short_description": "A previous Flamin’ Feathers location in Lewis Center closed several months after opening because of building‑related issues, including fire hazards.",
+      "article_link": "https://whatnow.com/columbus/restaurants/flamin-feathers-to-open-new-location-in-delaware-ohio/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Divers Club",
+      "location": "733 S 4th St., Philadelphia, PA 19147",
+      "event_type": "Opening",
+      "event_date": "this fall",
+      "status": "will debut this fall",
+      "short_description": "Divers Club will open a European‑inspired wine bar at 733 S 4th St. in Queen Village. The owners say the space will channel the feel of a European neighborhood wine bar and is expected to debut this fall.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/divers-club-to-bring-european-inspired-wine-bar-to-queen-village/",
+      "published_date": "October 08, 2026"
     }
   ],
   "non_working": [
