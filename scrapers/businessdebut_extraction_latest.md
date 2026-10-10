@@ -2,11 +2,11 @@
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Pour Your Decisions Sportsbar | 7090 Concourse Pkwy Suite B, Douglasville, GA 30134 | Opening | January 1 | preparing to open | Pour Your Decisions Sportsbar is set to open around January 1 at 7090 Concourse Pkwy Suite B in Douglasville, GA. Owner Kelz Markkell described the venue as a sports bar, media outlet and social space with programming from Hits 92.3. Construction and setup are moving forward and the project remains on schedule. | https://www.businessdebut.com/pour-your-decisions-opening-a-new-sports-bar-in-douglasville/ | 2026-10-08 |
-| RimLay Thai Seafood | 3428 East Atlantic Blvd, Pompano Beach, FL 33069 | Opening | December 1 | preparing to open | RimLay, a Thai‑influenced seafood boil restaurant, plans to open after Thanksgiving at 3428 East Atlantic Blvd in Pompano Beach, FL. Owners Tammy and Dusadee Boonlong aim to seat about 40 guests inside and 40 outside, blending Cajun boil formats with Thai flavors. They are targeting an opening no later than December 1. | https://www.businessdebut.com/rimlay-thai-seafood-opening-soon-in-pompano-beach/ | 2026-10-08 |
-| Outside Seafood | 6844 N 50th St, Tampa, FL 33617 | Opening | Not specified | preparing to open | Outside Seafood, a sister concept to Outside BBQ, is preparing to open at 6844 N 50th St in Tampa, FL. Owner Jevonta Godwin says the venue will focus on locally sourced seafood with about 20 indoor seats and a takeout model. Soft openings are expected this month. | https://www.businessdebut.com/outside-seafood-opening-soon-in-tampa/ | 2026-10-08 |
+| Go Greek Yogurt | 7535 SW 88th Street, Suite 2021B, Miami, FL 33156 | Opening | Not specified | preparing to open | Go Greek Yogurt is preparing to open a new yogurt bar at 7535 SW 88th Street, Suite 2021B, Miami, FL 33156 inside Dadeland Mall. The 867‑sq‑ft storefront will offer fresh and frozen Greek yogurt, smoothies and a rotating vegan flavor, and aims to create a Greek‑inspired environment. | https://www.businessdebut.com/go-greek-yogurt-opening-in-dadeland-mall/ | 2026-10-09 |
+| Techspresso | 1013 Transmitter Rd, Panama City, FL 32401 | Opening | November 2026 | preparing to open | Techspresso is preparing to open a new coffee shop at 1013 Transmitter Rd, Panama City, FL 32401 in November. The location will serve specialty‑grade coffee in a smaller space without study rooms, and the owner targets a mid‑November opening. | https://www.businessdebut.com/techspresso-planning-a-panama-city-location/ | 2026-10-09 |
+| Heavenly Donuts and Deli | 10825 A Gulf Blvd, Treasure Island, FL 33706 | Opening | Not specified | preparing to open | Heavenly Donuts and Deli is preparing to open later this year at 10825 A Gulf Blvd, Treasure Island, FL 33706, offering decorated donuts, Boar’s Head sandwiches, coffee and grab‑and‑go items. The owner is targeting an opening in December, with a possible late‑November start, but no later than January. | https://www.businessdebut.com/heavenly-donuts-and-deli-launching-in-treasure-island/ | 2026-10-09 |
 
 ---
 
-**Non-working or unusable articles List:**  
-None
+Non-working or unusable articles List:
+• None
