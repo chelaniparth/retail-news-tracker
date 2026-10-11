@@ -1,16 +1,12 @@
-**Extracted Data**
+**Extracted Business Openings/Closures**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-tolland-county-posts/vernon-scoop-doro-marketplace-coming-to-vernon | 2026-10-09 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/hamden-scoop-ross-dress-for-less-opens-in-hamden | 2026-10-09 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/new-haven-scoop-mila-cafe-opens-in-new-haven | 2026-10-09 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-middlesex-county-posts/portland-scoop-brownstone-marketplace-by-red-fox-opens-in-portland | 2026-10-09 |
+| Starbucks | Foxon Road | Opening | Not specified | progress | The article highlights progress on a new Starbucks development located on Foxon Road. No further details are provided. | https://www.theconnecticutscoop.com/all-new-haven-county-posts/east-haven-scoop-check-out-the-progress-on-new-starbuckschipotle-development-on-foxon-road | 2026-10-10 |
+| Chipotle | Foxon Road | Opening | Not specified | progress | The article highlights progress on a new Chipotle development located on Foxon Road. No further details are provided. | https://www.theconnecticutscoop.com/all-new-haven-county-posts/east-haven-scoop-check-out-the-progress-on-new-starbuckschipotle-development-on-foxon-road | 2026-10-10 |
+| Arnie's Art Cafe | Downtown Middletown | Opening | Not specified | opens | Arnie's Art Cafe has opened in Downtown Middletown. No additional information is given. | https://www.theconnecticutscoop.com/all-middlesex-county-posts/middletown-scoop-arnies-art-cafe-opens-in-downtown-middletown | 2026-10-10 |
 
 ---
 
-**Non-working or unusable articles List:**
-- Article 1 — Reason (no business details)
-- Article 2 — Reason (no business details)
-- Article 3 — Reason (no business details)
-- Article 4 — Reason (no business details)
+Non-working or unusable articles List:
+• None

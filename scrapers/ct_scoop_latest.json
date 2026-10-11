@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-11",
   "data": [
+    {
+      "heading": "EAST HAVEN SCOOP: Check out the progress on new Starbucks/Chipotle development on Foxon Road!",
+      "date": "2026-10-10",
+      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/east-haven-scoop-check-out-the-progress-on-new-starbuckschipotle-development-on-foxon-road"
+    },
+    {
+      "heading": "MIDDLETOWN SCOOP: Arnie's Art Cafe opens in Downtown Middletown!",
+      "date": "2026-10-10",
+      "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/middletown-scoop-arnies-art-cafe-opens-in-downtown-middletown"
+    },
     {
       "heading": "VERNON SCOOP: DORO Marketplace coming to Vernon",
       "date": "2026-10-09",
@@ -20,21 +30,6 @@
       "heading": "PORTLAND SCOOP: Brownstone Marketplace by Red Fox opens in Portland",
       "date": "2026-10-09",
       "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/portland-scoop-brownstone-marketplace-by-red-fox-opens-in-portland"
-    },
-    {
-      "heading": "EAST WINDSOR SCOOP: Smultronstalle Cafe opening soon in East Windsor",
-      "date": "2026-10-08",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/east-windsor-scoop-smultronstalle-cafe-opening-soon-in-east-windsor"
-    },
-    {
-      "heading": "BRISTOL SCOOP: Sei Bella Freestyle Italian opens in Bristol",
-      "date": "2026-10-08",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/bristol-scoop-sei-bella-freestyle-italian-opens-in-bristol"
-    },
-    {
-      "heading": "ORANGE SCOOP: Three new restaurants coming to Noble Station in Orange!",
-      "date": "2026-10-08",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/orange-scoop-three-new-restaurants-coming-to-noble-station-in-orange"
     }
   ]
 }
