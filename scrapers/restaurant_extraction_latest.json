@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-11",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -9989,6 +9989,376 @@
       "status": "will debut this fall",
       "short_description": "Divers Club will open a European‑inspired wine bar at 733 S 4th St. in Queen Village. The owners say the space will channel the feel of a European neighborhood wine bar and is expected to debut this fall.",
       "article_link": "https://whatnow.com/philadelphia/restaurants/divers-club-to-bring-european-inspired-wine-bar-to-queen-village/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Taconganas",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "construction has officially begun",
+      "short_description": "Taconganas announced that construction has started on its new brick‑and‑mortar location in Bartlett, TN. Founder Greg Diaz posted a video showing the lot cordoned off and a sign announcing the concept’s impending arrival. No opening timeline has been provided.",
+      "article_link": "https://whatnow.com/memphis/restaurants/construction-begins-on-bartlett-taconganas/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Peaks Cafe",
+      "location": "1889 S Patrick Dr, Indian Harbour Beach, FL 32937, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date ... not yet been announced",
+      "short_description": "Peaks Cafe is planning a new location at 1889 S Patrick Drive in Indian Harbour Beach, FL. Records show the business is active but no opening date or further details have been released.",
+      "article_link": "https://whatnow.com/orlando/restaurants/peaks-cafe-plans-new-location-in-indian-harbour-beach/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Hydration Room",
+      "location": "1510 Cottonwood Creek #150, Highland Village, TX 75077, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not independently confirm the clinic’s public opening date",
+      "short_description": "Hydration Room filed paperwork to renovate a 1,090‑sq‑ft space at The Shops at Highland Village for a new wellness clinic. Construction is slated to begin Dec 2026 with completion Feb 2027, but the public opening date is not confirmed.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/hydration-room-plans-new-wellness-clinic-in-highland-village/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Ha Long Bay Sandwich",
+      "location": "3904 W Hillsborough Ave, Tampa, FL 33614",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "target opening is for late November",
+      "short_description": "The Ha Long Bay team announced a fast‑casual sandwich concept called “Ha Long Bay Sandwich” to open at Horizon Park Shopping Center. No specific address is given, and the target opening is slated for late November.",
+      "article_link": "https://whatnow.com/tampa/restaurants/team-behind-ha-long-bay-plans-two-new-restaurant-concepts/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "2 Whisks",
+      "location": "3904 W Hillsborough Ave, Tampa, FL 33614",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "target opening is for late November",
+      "short_description": "“2 Whisks,” a new Japanese matcha‑focused concept, is also planned for Horizon Park Shopping Center by the Ha Long Bay team. The opening is targeted for late November, with no exact address disclosed.",
+      "article_link": "https://whatnow.com/tampa/restaurants/team-behind-ha-long-bay-plans-two-new-restaurant-concepts/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Mocha Bay Coffee House",
+      "location": "401 1st Ave N, St. Petersburg, FL 33701",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "We’re opening in a few weeks",
+      "short_description": "Mocha Bay Coffee House will open this fall at 401 First Ave N in St. Pete, offering coffee traditions from Yemen, Lebanon, Turkey, and more. Owner Hamdi Ali says the shop will open in “four or five weeks.”",
+      "article_link": "https://whatnow.com/tampa/restaurants/mocha-bay-coffee-house-opening-in-st-pete-this-fall/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/orlando/restaurants/fl-bakery-listed-in-orlando-as-puerto-rican-bakery-and-restaurant/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "SpiceQ",
+      "location": "5600 State Hwy 71, Spicewood, TX 78669, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "SpiceQ filed a plan for a 10,008‑sq‑ft mixed‑use restaurant and retail building at 5600 State Highway 71 in Spicewood, with construction slated to start Jan 15 2027 and finish July 30 2028. The filing does not confirm an opening date or restaurant concept.",
+      "article_link": "https://whatnow.com/austin/restaurants/spiceq-plans-new-restaurant-and-retail-development-near-austin/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Golden Corral",
+      "location": "2250 Tyrone Blvd N, St. Petersburg, FL 33710",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new Golden Corral opening",
+      "short_description": "Plan‑review paperwork shows St. Pete Corral LLC proposing a new Golden Corral at 2250 Tyrone Blvd N, St. Peterburg, to join the Tyrone Square mall. No opening date is provided in the filing.",
+      "article_link": "https://whatnow.com/tampa/restaurants/plans-submitted-for-new-st-petersburg-golden-corral/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Cold Stone Creamery",
+      "location": "3824 Sun City Center Blvd, Sun City Center, FL (coordinates 27.715166391761514, -82.37437831260688)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening is still several weeks away",
+      "short_description": "Plan‑review documents filed by Odeh Saad Enterprise LLC indicate a new Cold Stone Creamery will open at 3824 Sun City Center Blvd in Sun City Center, with the opening still several weeks away. The location will be part of Cypress Village Plaza.",
+      "article_link": "https://whatnow.com/tampa/restaurants/another-new-cold-stone-creamery-is-opening-soon-in-tampa-bay/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Sal’s Pizzeria",
+      "location": "27680 Marguerite Pkwy., Suite A, Mission Viejo, CA 92692",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "An Orange County plan‑review filing shows Sal’s Pizzeria will be built at 27680 Marguerite Parkway, Suite A, Mission Viejo, but no confirmed opening date is given. The pizzeria will serve New York‑style pizza and related Italian dishes.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/sals-pizzeria-preparing-to-open-in-mission-viejo/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Neeld Family Vineyards",
+      "location": "16 Morning Light, Newport Coast, CA 92657",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a Newport Beach operation",
+      "short_description": "Neeld Family Vineyards is planning a Newport Beach operation at 16 Morning Light, Newport Coast, CA 92657. An ABC license record dated October 10 2026 shows pending applications for a beer and wine wholesaler and an off‑sale beer and wine license. The filing does not specify an opening date or the intended use of the site.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/neeld-family-vineyards-planning-newport-beach-location/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Black Rock Coffee Bar",
+      "location": "2751 W Orangethorpe Ave, Fullerton, CA 92833",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be planning a new location",
+      "short_description": "Black Rock Coffee Bar may be planning a new location at 2751 W Orangethorpe Ave, Fullerton, CA 92833, according to an Orange County plan‑review record. The filing does not confirm an opening date or provide detailed project information. The article notes the company’s menu and background but offers no further specifics.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/black-rock-coffee-bar-may-be-planning-new-orange-county-location/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Sunshine Breakfast Bar",
+      "location": "25720 N Lake Pleasant Pkwy, Peoria, AZ 85383",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "submitted a site plan and design review application",
+      "short_description": "Sunshine Breakfast Bar has submitted a site‑plan and design‑review application for a third restaurant at 25720 N Lake Pleasant Pkwy, Peoria, AZ 85383. Co‑owner Dina Mati says construction has not started and the project is at least a year away, with no opening date set. The proposed two‑story building would include a drive‑thru and an upstairs event space.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/sunshine-breakfast-bar-plans-third-location-in-peoria/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Habit Burger & Grill",
+      "location": "26801 Portola Pkwy, Foothill Ranch, CA 92610",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "associated with a proposed Orange County restaurant project",
+      "short_description": "Habit Burger & Grill is linked to a proposed Orange County restaurant project at 26801 Portola Pkwy, Foothill Ranch, CA 92610, according to a plan‑review filing. The article notes the filing is not proof that the restaurant is operating or construction is complete, and no opening date is provided.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/habit-burger-grill-may-be-planning-orange-county-location/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Luna Grill",
+      "location": "126 W Orangethorpe Ave, Fullerton, CA 92832",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be planning a location",
+      "short_description": "Luna Grill may be planning a Fullerton location at 126 W Orangethorpe Ave, Fullerton, CA 92832, based on an Orange County plan‑review record. The filing does not confirm that the restaurant has opened or that construction is finished, and no opening timeline is given.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/luna-grill-may-open-fullerton-location/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Hako San Café & Bar",
+      "location": "177 Central Way, Kirkland, WA 98033",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hopes to open in mid- to late summer 2027",
+      "short_description": "Hako San Café & Bar will occupy about 3,060 sq ft on the ground floor of Central Peak Residences at 177 Central Way in downtown Kirkland. Owner Alen Fikic says he aims to open the café and bar in mid‑ to late summer 2027, offering breakfast, coffee, light lunch, and an evening cocktail bar. The concept blends American, European, and Japanese influences.",
+      "article_link": "https://whatnow.com/seattle/restaurants/hako-san-cafe-bar-targets-summer-2027-opening-in-kirkland/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Monks Meadery",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to expand",
+      "short_description": "Monks Meadery announced plans to open a new location in Stone Mountain in early 2027. The site will be near Outrun Brewing Company. No further details were provided.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/monks-meadery-planning-stone-mountain-location/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "3011 North Druid Hills Road, Atlanta, GA 30329",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction, nearing completion",
+      "short_description": "Super Chix franchisee Brandon Flash is constructing a Toco Hills location at 3011 North Druid Hills Road. The site is slated to open in about two weeks. It is one of three under‑construction locations in the Atlanta area.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/super-chix-franchisees-have-three-locations-under-construction-nearing-completion/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "265 Ponce de Leon Place, Suite Q, Decatur, GA 30030",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction, nearing completion",
+      "short_description": "A Downtown Decatur Super Chix is being built at 265 Ponce de Leon Place, Suite Q, with an opening expected later this year. It is part of three new sites under construction.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/super-chix-franchisees-have-three-locations-under-construction-nearing-completion/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "7140 McGuinness Ferry Road, Suwanee, GA 30024",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction, nearing completion",
+      "short_description": "Super Chix is adding a Suwanee location at 7140 McGuinness Ferry Road, also expected to open later this year. This will be the brand’s 50th restaurant.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/super-chix-franchisees-have-three-locations-under-construction-nearing-completion/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Kappa Bar",
+      "location": "1702 W Sunset Blvd, Los Angeles, CA 90026, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a location",
+      "short_description": "Kappa Bar, a Sweden‑based restaurant and gaming concept, is planning to open a location at 1702 W. Sunset Blvd in Echo Park, Los Angeles. The filing shows a 2,447‑sq‑ft space with 60 indoor seats, extended operating hours, and a menu of pizzas, burgers, fries, and non‑alcoholic beverages. No opening timeline was provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/kappa-bar-plans-to-debut-in-los-angeles/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "The Readery",
+      "location": "9 Harbourside Ln #1a, Hilton Head Island, SC 29928",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "looking to open before the end of the year",
+      "short_description": "The Readery will open at 9 Harbourside Ln, Suite 1A on Hilton Head Island, offering books, coffee, charcuterie and a full bar. Owner Reiley Bozeman says construction starts next week and the venue aims to open before the end of the year. The space will have over 40 seats and will serve breakfast and lunch.",
+      "article_link": "https://whatnow.com/charleston/restaurants/the-readery-bringing-books-bites-coffee-and-booze-to-hilton-head-island/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Donatos",
+      "location": "15906 Woodland Hills Dr, Humble, TX 77396",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "should open before the end of this year",
+      "short_description": "Donatos filed a permit to open its first Greater Houston location at 15906 Woodland Hills Drive, Suite 200 in Humble, TX. Construction is underway and is expected to be completed by the end of next month, with the restaurant slated to open before the end of the year. The 1,730‑square‑foot site will feature a new kitchen and dining area.",
+      "article_link": "https://whatnow.com/houston/restaurants/donatos-booming-pizza-chain-to-open-its-first-houston-storefront/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "GoodGood Bakery",
+      "location": "Heritage Park occupies a city block at Gilbert Road and Juniper Avenue in the town’s Heritage District",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "expected to open",
+      "short_description": "GoodGood, an artisanal bakery, is expected to open at Heritage Park in Gilbert in 2027. The concept is a reinvention of August Rhodes Bakery and was announced by interior designer Kaitlyn Wolfe on social media. Heritage Park is located at Gilbert Road and Juniper Avenue in the Heritage District.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/goodgood-bakery-plans-2027-opening-in-gilbert/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "7 Brew",
+      "location": "MENARDS, 5806 State St, Saginaw, MI 48603",
+      "event_type": "Opening",
+      "event_date": "Dec. 14",
+      "status": "coming soon",
+      "short_description": "7 Brew, a drive‑thru coffee spot, is adding its first Saginaw location at 5806 State Street in Saginaw Township. Signage has been installed and franchisee Salem Najjar estimates the store will open around Dec. 14. The site is in a plaza next to Menard’s, alongside Mooney’s Ice Cream and Applebee’s Grill + Bar.",
+      "article_link": "https://whatnow.com/detroit/restaurants/7-brew-franchise-bringing-new-location-to-saginaw-township/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Cheeky",
+      "location": "151 Meeting St, Charleston, SC 29401",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "now open",
+      "short_description": "Cheeky, a “Bolder, Louder, Livelier” restaurant by Neighborhood Dining Group, opened at 151 Meeting St., Charleston, SC 29401. The restaurant serves seafood and is currently open for dinner five days a week, with plans to expand hours later.",
+      "article_link": "https://whatnow.com/charleston/restaurants/neighborhood-dining-group-celebrates-cheeky-opening-with-new-project-in-store-for-2027/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "(Unnamed) New Restaurant",
+      "location": "1434 Ira Rd, Mt Pleasant, SC 29464",
+      "event_type": "Opening",
+      "event_date": "Summer 2027",
+      "status": "opening is expected for Summer 2027",
+      "short_description": "Neighborhood Dining Group announced a new, unnamed restaurant will debut at 1434 Ira Rd, Mt Pleasant, SC 29464, with an opening expected for Summer 2027. The name and menu are still under development.",
+      "article_link": "https://whatnow.com/charleston/restaurants/neighborhood-dining-group-celebrates-cheeky-opening-with-new-project-in-store-for-2027/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Gap Factory",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening",
+      "short_description": "Verrado Marketplace will add Gap Factory among several retailers opening in September 2026 as part of its next wave of openings.",
+      "article_link": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Just Sports",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening",
+      "short_description": "Just Sports is listed among the shops slated to open at Verrado Marketplace in September 2026.",
+      "article_link": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Paramount Hair & Extensions",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening",
+      "short_description": "Paramount Hair & Extensions will join the September 2026 openings at Verrado Marketplace.",
+      "article_link": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Pacific Dental Services",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening",
+      "short_description": "Pacific Dental Services is among the retailers scheduled to open at Verrado Marketplace in September 2026.",
+      "article_link": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Zara Nails & Spa",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "September 2026",
+      "status": "opening",
+      "short_description": "Zara Nails & Spa will open its doors at Verrado Marketplace in September 2026.",
+      "article_link": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "The District",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "October 15, 2026",
+      "status": "debut",
+      "short_description": "The District is",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Gallery Cocktails & Bites",
+      "location": "642 N High St #12, Columbus, OH 43215, USA",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "expected December 2026 opening",
+      "short_description": "Gallery Cocktails & Bites, a new cocktail lounge and small‑bites concept, is slated to open in Columbus’ Short North at 642 N High St #12. Owners Raeshon Antrum and Elvis Sarfo are developing the 1,800‑sq‑ft space from the ground up, with an expected opening in December 2026. Additional details about the grand‑opening will be announced closer to the date.",
+      "article_link": "https://whatnow.com/columbus/restaurants/gallery-cocktails-bites-to-open-in-columbus-short-north/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Elephants Delicatessen",
+      "location": "13 NW 23rd Pl, Portland, OR 97210",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "plans to reopen in early 2027",
+      "short_description": "Elephants Delicatessen, a longtime Portland deli, has been acquired by The Ground and will relocate to 13 NW 23rd Pl in the Uptown Shopping Center. The renovated space is planned to reopen in early 2027 after the former location was damaged by a fire. The deal transfers a majority stake while keeping the deli locally owned and independently operated.",
+      "article_link": "https://whatnow.com/portland/restaurants/elephants-delicatessen-acquired-by-the-ground/",
+      "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Long Play Hifi Cafe",
+      "location": "1101 25th St, San Diego, CA 92102, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "no opening timeline has been confirmed",
+      "short_description": "Long Play Hifi Cafe may be preparing to open at 1101 25th St in San Diego, according to public filings. Owner Gibran Huerta declined to comment and the article notes it is unclear whether the address is for a second location or a relocation, with no confirmed opening date.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/long-play-hifi-cafe-could-be-planning-a-new-san-diego-location/",
       "published_date": "October 08, 2026"
     }
   ],

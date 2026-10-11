@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-10-10 00:48 UTC",
+  "last_updated": "2026-10-11 00:15 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/memphis/restaurants/construction-begins-on-bartlett-taconganas/",
+      "title": "Construction Begins on Bartlett Taconganas",
+      "address": ""
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/peaks-cafe-plans-new-location-in-indian-harbour-beach/",
+      "title": "Peaks Cafe Plans New Location in Indian Harbour Beach",
+      "address": "1889 S Patrick Dr, Indian Harbour Beach, FL 32937, USA"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/san-antonio/restaurants/hydration-room-plans-new-wellness-clinic-in-highland-village/",
+      "title": "Hydration Room Plans New Wellness Clinic in Highland Village",
+      "address": "1510 Cottonwood Creek #150, Highland Village, TX 75077, USA"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/team-behind-ha-long-bay-plans-two-new-restaurant-concepts/",
+      "title": "Team Behind Ha Long Bay Plans Two New Restaurant Concepts",
+      "address": "3904 W Hillsborough Ave, Tampa, FL 33614"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/mocha-bay-coffee-house-opening-in-st-pete-this-fall/",
+      "title": "Mocha Bay Coffee House Opening in St. Pete This Fall",
+      "address": "401 1st Ave N, St. Petersburg, FL 33701"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/fl-bakery-listed-in-orlando-as-puerto-rican-bakery-and-restaurant/",
+      "title": "FL Bakery Listed in Orlando as Puerto Rican Bakery and Restaurant",
+      "address": "1654 N Semoran Blvd, Orlando, FL 32807, USA"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/austin/restaurants/spiceq-plans-new-restaurant-and-retail-development-near-austin/",
+      "title": "SpiceQ Plans New Restaurant and Retail Development Near Austin",
+      "address": "5600 State Hwy 71, Spicewood, TX 78669, USA"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/plans-submitted-for-new-st-petersburg-golden-corral/",
+      "title": "Plans Submitted for New St. Petersburg Golden Corral",
+      "address": "2250 Tyrone Blvd N, St. Petersburg, FL 33710"
+    },
+    {
+      "date": "October 10, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/another-new-cold-stone-creamery-is-opening-soon-in-tampa-bay/",
+      "title": "Another New Cold Stone Creamery Is Opening Soon in Tampa Bay",
+      "address": "27.715166391761514, -82.37437831260688"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/sals-pizzeria-preparing-to-open-in-mission-viejo/",
+      "title": "Sal’s Pizzeria Preparing To Open In Mission Viejo",
+      "address": "27680 Marguerite Pkwy., Suite A, Mission Viejo, CA 92692"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/neeld-family-vineyards-planning-newport-beach-location/",
+      "title": "Neeld Family Vineyards Planning Newport Beach Location",
+      "address": "16 Morning Light, Newport Coast, CA 92657"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/black-rock-coffee-bar-may-be-planning-new-orange-county-location/",
+      "title": "Black Rock Coffee Bar May Be Planning New Orange County Location",
+      "address": "2751 W Orangethorpe Ave, Fullerton, CA 92833"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/sunshine-breakfast-bar-plans-third-location-in-peoria/",
+      "title": "Sunshine Breakfast Bar Plans Third Location in Peoria",
+      "address": "25720 N Lake Pleasant Pkwy, Peoria, AZ 85383"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/habit-burger-grill-may-be-planning-orange-county-location/",
+      "title": "Habit Burger & Grill May Be Planning Orange County Location",
+      "address": "26801 Portola Pkwy, Foothill Ranch, CA 92610"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/luna-grill-may-open-fullerton-location/",
+      "title": "Luna Grill May Open Fullerton Location",
+      "address": "126 W Orangethorpe Ave, Fullerton, CA 92832"
+    },
+    {
+      "date": "October 09, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/hako-san-cafe-bar-targets-summer-2027-opening-in-kirkland/",
+      "title": "Hako San Café & Bar Targets Summer 2027 Opening in Kirkland",
+      "address": "177 Central Way, Kirkland, WA 98033"
+    },
     {
       "date": "October 09, 2026",
       "url": "https://whatnow.com/memphis/restaurants/new-ice-cream-shop-scooping-into-memphis/",
@@ -409,102 +505,6 @@
       "url": "https://whatnow.com/miami/restaurants/rimlay-seafood-restaurant-coming-to-pompano-beach/",
       "title": "RimLay Seafood Restaurant Coming to Pompano Beach",
       "address": "3428 E Atlantic Blvd, Pompano Beach, FL 33062"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/north-carolinas-own-crave-dessert-bar-headed-to-dc/",
-      "title": "North Carolina’s Own Crave Dessert Bar Headed to DC",
-      "address": "2 Massachusetts Ave NW, Washington, DC 20001"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/bluestone-lane-brewing-up-new-upper-east-side-cafe/",
-      "title": "Bluestone Lane Brewing Up New Upper East Side Café",
-      "address": "1556 2nd Ave., New York, NY 10075"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/flint-farmers-market-getting-new-unnamed-restaurant-addition/",
-      "title": "Flint Farmers’ Market Getting New Unnamed Restaurant Addition",
-      "address": "300 E 1st St, Flint, MI 48502"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/breakfast-republic-to-open-in-huntington-beach/",
-      "title": "Breakfast Republic To Open In Huntington Beach",
-      "address": "19079 Beach Blvd., Huntington Beach, CA 92648"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/houston/restaurants/tacos-dona-lena-is-on-the-move/",
-      "title": "Tacos Doña Lena is on the Move",
-      "address": "2030 Bingle Rd, Houston, TX 77055"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/american-chophouse-coming-to-former-frischs-location-in-fort-wright/",
-      "title": "American Chophouse Coming to Former Frisch’s Location in Fort Wright",
-      "address": "20 Kyles Ln, Fort Wright, KY 41011, USA"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/habit-burger-grill-to-open-2-new-philly-area-locations-in-2027/",
-      "title": "Habit Burger & Grill to Open 2 New Philly-Area Locations in 2027",
-      "address": ""
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/jersey-mikes-beefing-up-texas-footprint-with-new-location/",
-      "title": "Jersey Mike’s Beefing Up Texas Footprint With New Location",
-      "address": "26556 E University Dr., Aubrey, TX 76227"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/rivers-and-roads-cafe-introducing-market-and-ice-cream-shop/",
-      "title": "Rivers and Roads Cafe Introducing Market and Ice Cream Shop",
-      "address": "1257 W Devon Ave, Chicago, IL 60660"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/seattle/restaurants/matcha-magic-plans-eastside-relocation/",
-      "title": "Matcha Magic Plans Eastside Relocation",
-      "address": ""
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/flamin-feathers-to-open-new-location-in-delaware-ohio/",
-      "title": "Flamin’ Feathers to Open New Location in Delaware, Ohio",
-      "address": "132 London Rd, Delaware, OH 43015, USA"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/divers-club-to-bring-european-inspired-wine-bar-to-queen-village/",
-      "title": "Divers Club to Bring European-Inspired Wine Bar to Queen Village",
-      "address": "733 S 4th St., Philadelphia, PA 19147"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/oroshi-fish-co-to-open-second-toronto-location/",
-      "title": "Oroshi Fish Co. to Open Second Toronto Location",
-      "address": "2564 Yonge St., Toronto, ON M4P 2J3, Canada"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/times-square-is-getting-a-new-bagel-spot-with-two-nyc-inspired-offerings/",
-      "title": "Times Square Is Getting a New Bagel Spot With Two NYC-Inspired Offerings",
-      "address": "1501 Broadway, New York, NY 10036"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/upcoming-baton-rouge-lounge-prepares-for-a-halloween-debut/",
-      "title": "Upcoming Baton Rouge Lounge Prepares for a Halloween Debut",
-      "address": "10467 Airline Hwy, Baton Rouge, LA 70816"
-    },
-    {
-      "date": "October 08, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/an-italian-riviera-inspired-rooftop-restaurant-is-debuting-near-times-square/",
-      "title": "An Italian Riviera-Inspired Rooftop Restaurant Is Debuting Near Times Square",
-      "address": "132 W 47th St, New York, NY 10036"
     }
   ]
 }
