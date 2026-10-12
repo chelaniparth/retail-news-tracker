@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -10360,6 +10360,176 @@
       "short_description": "Long Play Hifi Cafe may be preparing to open at 1101 25th St in San Diego, according to public filings. Owner Gibran Huerta declined to comment and the article notes it is unclear whether the address is for a second location or a relocation, with no confirmed opening date.",
       "article_link": "https://whatnow.com/san-diego/restaurants/long-play-hifi-cafe-could-be-planning-a-new-san-diego-location/",
       "published_date": "October 08, 2026"
+    },
+    {
+      "store_name": "Our Mom Eugenia",
+      "location": "5315 Zenith Overlook, Bethesda, MD 20816",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Our Mom Eugenia, a popular DMV Greek restaurant, has received a permit and begun construction on its first Maryland stand‑alone storefront in Westbard Square at 5315 Zenith Overlook, Bethesda, MD 20816. The restaurant has no official opening date set yet.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/progress-heats-up-on-popular-greek-restaurants-inaugural-maryland-location/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Dalts American Grill",
+      "location": "38 White Bridge Pike, Nashville, TN 37205",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Welcoming You Back Soon",
+      "short_description": "Dalts American Grill is being revived at its longtime West Nashville location after new owners acquired the venue that closed in December. A building permit for a 7,731‑sq‑ft restaurant has been issued, but a reopening date has not been announced.",
+      "article_link": "https://whatnow.com/nashville/restaurants/permits-reveal-details-about-dalts-revival/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Maylo’s Cafe",
+      "location": "8021 Centreville Rd, Manassas, VA 20111",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not yet have a definitive opening date",
+      "short_description": "Maylo’s Cafe plans to bring authentic Cambodian cuisine to 8021 Centreville Rd, Manassas, VA 20111, with owners hoping to be customer‑ready by the end of the year, possibly as early as November, though no firm opening date is given.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/maylos-cafe-bringing-taste-of-cambodia-to-northern-virginia/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Memphis Gift Basket",
+      "location": "183 Chelsea Ave, Memphis, TN 38107",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not yet have an opening date",
+      "short_description": "Memphis Gift Basket is converting 183 Chelsea Ave into its first brick‑and‑mortar storefront with a coffee bar and grab‑and‑go area after receiving a commercial addition permit. The owner hopes to open after Christmas, but no specific date is set.",
+      "article_link": "https://whatnow.com/memphis/restaurants/memphis-gift-basket-readies-first-brick-and-mortar/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Chemistry Kitchen & Cocktails by Big Boogie",
+      "location": "4205 Hacks Cross Rd, Memphis, TN 38125",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "remains under review",
+      "short_description": "Chemistry Kitchen & Cocktails by Big Boogie is preparing to open at 4205 Hacks Cross Rd, Memphis, TN 38125. A certificate of occupancy application is under review, and no construction has begun or opening date announced.",
+      "article_link": "https://whatnow.com/memphis/restaurants/chemistry-kitchen-cocktails-by-big-boogie-bringing-food-drinks-and-hookah-to-memphis/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "The Willow",
+      "location": "46 W Plant St, Winter Garden, FL 34787",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "The Willow is slated to occupy the former Driftwood Market space at 46 W. Plant Street in Winter Garden. The project is a partnership between Ryan Melnik and chef Denis Ramos and is moving through the permitting process, with no exact opening date announced.",
+      "article_link": "https://whatnow.com/orlando/restaurants/the-willow-to-bring-an-upscale-dining-concept-to-winter-garden/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Go Greek Yogurt",
+      "location": "7535 SW 88th Street, Suite 2021B, Miami, FL 33156",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Go Greek Yogurt plans a new yogurt bar and café in Dadeland Mall, located at 7535 SW 88th Street, Suite 2021B, Miami. Permit information shows the site is listed as coming soon, but an opening date has not been announced.",
+      "article_link": "https://whatnow.com/miami/restaurants/go-greek-yogurt-heads-to-dadeland-mall-with-its-greek-inspired-yogurt-bar/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Burrito Guyz",
+      "location": "2895 Ocoee Apopka Rd, Building 2, Suite C, Apopka, FL 32703",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "expected to open",
+      "short_description": "Burrito Guyz intends to launch its first Florida restaurant in Apopka at 2895 Ocoee Apopka Road, Building 2, Suite C, within the Lake Carter Exchange development. The Apopka Chief reports the location is expected to open in December 2026, though no exact date is given.",
+      "article_link": "https://whatnow.com/orlando/restaurants/burrito-guyz-to-open-first-florida-location-in-apopka/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Freebirds World Burrito",
+      "location": "8507 N Navarro St, Victoria, TX 77904, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Freebirds World Burrito filed a TDLR record to finish‑out a 2,382‑sq‑ft restaurant at 8507 N. Navarro Street in Victoria, Texas. Construction is slated to begin Nov 23 2026 with completion projected for Apr 9 2027, but no public opening date is provided.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/freebirds-world-burrito-plans-restaurant-finish-out-in-victoria/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Hard Rock Hotel Jacksonville",
+      "location": "500 E Bay St, Jacksonville, FL 32202",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "proposed",
+      "short_description": "A proposed Hard Rock Hotel is planned for 500 E. Bay Street in downtown Jacksonville, featuring a 30‑story tower with hotel rooms, residences, and amenities. The development is in the final‑planning stage with construction targeted for 2027, and no opening date is set.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/hard-rock-hotel-jacksonville-plans-take-shape-for-downtown-riverfront/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Daye’s Liquor & Lounge",
+      "location": "11939 Pulaski Rd, Jacksonville, FL 32218",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Daye’s Liquor & Lounge is planned for a new commercial development at 11939 Pulaski Road in Jacksonville’s Northside. A permit application was submitted in October and the property is undergoing construction, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/dayes-liquor-lounge-planned-for-jacksonvilles-northside/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Blue Noir",
+      "location": "3518 Riverdale Rd, Memphis, TN 38115",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "certificate of occupancy under review",
+      "short_description": "Blue Noir is being developed as a bar and grill at 3518 Riverdale Road in Memphis. The project has a certificate of occupancy under review and plans a 7,918‑square‑foot space with lounge, bar, and dining areas, but no opening date is provided.",
+      "article_link": "https://whatnow.com/memphis/restaurants/blue-noir-bringing-superior-dining-experience-to-a-comfortable-memphis-environment/",
+      "published_date": "October 10, 2026"
+    },
+    {
+      "store_name": "Kyuramen Express",
+      "location": "40 Gold St, New York, NY 10038",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has opened",
+      "short_description": "KYURAMEN opened Kyuramen Express, its first fast‑casual format, at 40 Gold Street in Manhattan’s Financial District. The venue offers a streamlined menu of ramen, udon, rice bowls, sushi and more. It is now open daily from 11 am to 10 pm.",
+      "article_link": "https://whatnow.com/new-york/restaurants/kyuramen-expands-portfolio-with-kyuramen-express-and-new-bao-dumpling-concept/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Bao Dumpling",
+      "location": "40 Gold St, New York, NY 10038",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has opened",
+      "short_description": "KYURAMEN introduced the Bao Dumpling concept at the same 40 Gold Street location, offering Chinese‑takeout‑style dumpling bowls such as Spicy Kung Pao Chicken and Orange Beef. The new concept is part of a multi‑brand fast‑casual destination and is open daily.",
+      "article_link": "https://whatnow.com/new-york/restaurants/kyuramen-expands-portfolio-with-kyuramen-express-and-new-bao-dumpling-concept/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Aokō Matcha",
+      "location": "40 Gold St, New York, NY 10038",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has opened",
+      "short_description": "Aokō Matcha, a matcha‑focused brand, launched at 40 Gold Street alongside Kyuramen Express and Bao Dumpling, serving matcha drinks, gelato, parfaits and soft‑serve. The venue is open daily from 11 am to 10 pm.",
+      "article_link": "https://whatnow.com/new-york/restaurants/kyuramen-expands-portfolio-with-kyuramen-express-and-new-bao-dumpling-concept/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Swedish Hill",
+      "location": "6322 N New Braunfels Ave, San Antonio, TX 78209, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to make its San Antonio debut",
+      "short_description": "Swedish Hill, an Austin‑based bakery and café, is preparing to open its first San Antonio location at 6322 N. New Braunfels Ave in the Sunset Ridge shopping center. The space will occupy the former Twin Sisters Bakery & Cafe, but no official opening date has been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/swedish-hill-to-open-first-san-antonio-location-near-alamo-heights/",
+      "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Tonchin Ramen",
+      "location": "965 N High St, Columbus, OH 43201, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open its first Columbus location",
+      "short_description": "Tonchin, a Tokyo‑founded ramen restaurant, is preparing to open its first Columbus location at 965 N. High St in the Short North, taking over the former Mecha Noodle Bar space. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/tonchin-ramen-to-open-first-columbus-location-in-short-north/",
+      "published_date": "October 09, 2026"
     }
   ],
   "non_working": [
