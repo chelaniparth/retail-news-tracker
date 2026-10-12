@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "data": [
+    {
+      "heading": "LISBON SCOOP: Ross Dress for Less eyes new Lisbon location!",
+      "date": "2026-10-11",
+      "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/lisbon-scoop-ross-dress-for-less-eyes-new-lisbon-location"
+    },
     {
       "heading": "EAST HAVEN SCOOP: Check out the progress on new Starbucks/Chipotle development on Foxon Road!",
       "date": "2026-10-10",
@@ -10,26 +15,6 @@
       "heading": "MIDDLETOWN SCOOP: Arnie's Art Cafe opens in Downtown Middletown!",
       "date": "2026-10-10",
       "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/middletown-scoop-arnies-art-cafe-opens-in-downtown-middletown"
-    },
-    {
-      "heading": "VERNON SCOOP: DORO Marketplace coming to Vernon",
-      "date": "2026-10-09",
-      "link": "https://www.theconnecticutscoop.com/all-tolland-county-posts/vernon-scoop-doro-marketplace-coming-to-vernon"
-    },
-    {
-      "heading": "HAMDEN SCOOP: Ross Dress for Less opens in Hamden!",
-      "date": "2026-10-09",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/hamden-scoop-ross-dress-for-less-opens-in-hamden"
-    },
-    {
-      "heading": "NEW HAVEN SCOOP: Mila Cafe opens in New Haven",
-      "date": "2026-10-09",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/new-haven-scoop-mila-cafe-opens-in-new-haven"
-    },
-    {
-      "heading": "PORTLAND SCOOP: Brownstone Marketplace by Red Fox opens in Portland",
-      "date": "2026-10-09",
-      "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/portland-scoop-brownstone-marketplace-by-red-fox-opens-in-portland"
     }
   ]
 }
