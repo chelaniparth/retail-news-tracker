@@ -1,12 +1,8 @@
-**Extracted Business Openings**
-
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Go Greek Yogurt | 7535 SW 88th Street, Suite 2021B, Miami, FL 33156 | Opening | Not specified | preparing to open | Go Greek Yogurt is preparing to open a new yogurt bar at 7535 SW 88th Street, Suite 2021B, Miami, FL 33156 inside Dadeland Mall. The 867‑sq‑ft storefront will offer fresh and frozen Greek yogurt, smoothies and a rotating vegan flavor, and aims to create a Greek‑inspired environment. | https://www.businessdebut.com/go-greek-yogurt-opening-in-dadeland-mall/ | 2026-10-09 |
-| Techspresso | 1013 Transmitter Rd, Panama City, FL 32401 | Opening | November 2026 | preparing to open | Techspresso is preparing to open a new coffee shop at 1013 Transmitter Rd, Panama City, FL 32401 in November. The location will serve specialty‑grade coffee in a smaller space without study rooms, and the owner targets a mid‑November opening. | https://www.businessdebut.com/techspresso-planning-a-panama-city-location/ | 2026-10-09 |
-| Heavenly Donuts and Deli | 10825 A Gulf Blvd, Treasure Island, FL 33706 | Opening | Not specified | preparing to open | Heavenly Donuts and Deli is preparing to open later this year at 10825 A Gulf Blvd, Treasure Island, FL 33706, offering decorated donuts, Boar’s Head sandwiches, coffee and grab‑and‑go items. The owner is targeting an opening in December, with a possible late‑November start, but no later than January. | https://www.businessdebut.com/heavenly-donuts-and-deli-launching-in-treasure-island/ | 2026-10-09 |
+| Burrito Guyz | 2895 Ocoee Apopka Rd, Suite C Building 2, Apopka, FL 32703 | Opening | January | opening targeted for January | Canadian fast‑casual franchise Burrito Guyz is preparing its first U.S. location in Apopka, Florida at the address above. The project is in the permitting stage and the opening is targeted for January. The owners plan to eventually open 16 locations in Central Florida. | https://www.businessdebut.com/canadian-franchise-burrito-guyz-opening-in-apopka-with-several-more-in-development/ | 2026-10-12 |
+| D Third Place | 12659 South Dixie Hwy, Pinecrest, FL 33156 | Opening | October 23 | targeting October 23 opening | D Third Place, a bookstore, cafe and champagne bar, plans to open at the address above in Pinecrest, Florida. Co‑owners Issy Delch and Francis Alonso Gonzalez are targeting an October 23 opening and construction is nearing completion. The venue will feature books, coffee, champagne, boba drinks and event space. | https://www.businessdebut.com/d-third-place-bookstore-and-cafe-opening-in-pinecrest/ | 2026-10-12 |
+| Morgan's on Main | 5811 Main St, New Port Richey, FL 34652 | Opening | before Thanksgiving | aims to open before Thanksgiving | Morgan's on Main is an upscale neighborhood bar and restaurant slated for the address above in New Port Richey, Florida. Owner Morgan Brown says the 120‑seat venue aims to open before Thanksgiving, pending city permitting and inspections. The concept will include a large wrap‑around bar, a full food menu and mocktails. | https://www.businessdebut.com/hospitality-veteran-opening-morgans-on-main-in-new-port-richey/ | 2026-10-12 |
 
----
-
-Non-working or unusable articles List:
-• None
+**Non-working or unusable articles List:**  
+None
