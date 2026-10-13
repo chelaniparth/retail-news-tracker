@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -10530,6 +10530,156 @@
       "short_description": "Tonchin, a Tokyo‑founded ramen restaurant, is preparing to open its first Columbus location at 965 N. High St in the Short North, taking over the former Mecha Noodle Bar space. An official opening date has not yet been announced.",
       "article_link": "https://whatnow.com/columbus/restaurants/tonchin-ramen-to-open-first-columbus-location-in-short-north/",
       "published_date": "October 09, 2026"
+    },
+    {
+      "store_name": "Hula’s Chinese Bar‑B‑Q",
+      "location": "426 Walker St, Orland, CA 95963, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "targeting January 2027",
+      "short_description": "Hula’s Chinese Bar‑B‑Q is set to reopen in Orland at its former location, 426 Walker St. Owners Leasa Hill and family aim to launch in January 2027, offering build‑your‑own stir‑fry bowls on a Mongolian‑style grill. The concept emphasizes house‑made sauces and soups.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/hulas-chinese-bar-b-q-is-coming-back-to-orland/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "Suite Nine Bar & Lounge in Rancho Cordova has been sold to S9 Ventures LLC, led by Carlos Peña. The change of ownership is pending state approval and includes a full bar license, but no details on future plans have been announced.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/suite-nine-bar-lounge-changes-hands-in-rancho-cordova/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "IKI Nori",
+      "location": "3688 Overland Ave, Los Angeles, CA 90034, USA",
+      "event_type": "Opening",
+      "event_date": "next year, maybe at quarter one or two",
+      "status": "plans to open",
+      "short_description": "IKI Nori, a hand‑roll and sushi bar from the IKI Hospitality group, plans to open a new location at 3688 Overland Ave in the Palms neighborhood. The owners target the first or second quarter of 2027 for the opening, aiming to combine IKI Ramen + Sushi and IKI Nori under one roof.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/iki-nori-plans-to-expand-to-palms/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "6672 NW Loop 820, Fort Worth, TX 76135, USA",
+      "event_type": "Remodel",
+      "event_date": "February 2027",
+      "status": "construction planned to wrap up in February 2027",
+      "short_description": "Texas Roadhouse at 6672 NW Loop 820 in Fort Worth is converting its covered patio into an enclosed dining room. Construction is expected to finish by February 2027, adding 476 sq ft of indoor seating for year‑round service.",
+      "article_link": "https://whatnow.com/dallas/restaurants/texas-roadhouse-expanding-dining-room-in-fort-worth/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Firehouse Subs",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "planning to open",
+      "short_description": "Firehouse Subs announced plans to open several new restaurants in the Dallas‑Fort Worth area, with the first site in Roanoke slated for early 2027. Lease negotiations are ongoing for additional locations in North Fort Worth, Denton and The Colony, but no addresses have been confirmed.",
+      "article_link": "https://whatnow.com/dallas/restaurants/firehouse-subs-planning-multiple-restaurants-in-north-texas/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Sunny Side Up",
+      "location": "Hammond, La.",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand",
+      "short_description": "Sunny Side Up, a locally owned family eatery, announced plans to add a third Louisiana location in Hammond. The new restaurant will expand the brand’s regional footprint to the Northshore. Ownership has not provided a street address, project timeline, or official opening date.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/sunny-side-up-adding-a-hammond-location/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Bad Elephant",
+      "location": "1732 W Division St, Chicago, IL 60622",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Bad Elephant is a new restaurant concept being developed by Wild Thing Restaurant Group at 1732 W Division Street in Chicago. The group aims to debut the plant‑based focused concept early next year, but no exact opening date has been announced.",
+      "article_link": "https://whatnow.com/chicago/restaurants/owners-of-spirit-elephant-in-winnetka-working-on-wicker-park-restaurant/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Jersey Mike’s",
+      "location": "8855 SE Bridge Rd., Hobe Sound, FL 33455",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Jersey Mike’s announced a new location at 8855 SE Bridge Rd. in Hobe Sound, Florida. The franchise will feature the brand’s full menu, but an official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/orlando/restaurants/jersey-mikes-to-open-new-location-in-hobe-sound/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Little Ghost",
+      "location": "20567 Mack Ave, Grosse Pointe Woods, MI 48236",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "anticipating a January 2027 opening",
+      "short_description": "Little Ghost is planning its second restaurant at 20567 Mack Avenue in Grosse Pointe Woods. The burger‑focused concept expects to open in January 2027 and will offer dine‑in, grab‑and‑go, and online ordering.",
+      "article_link": "https://whatnow.com/detroit/restaurants/little-ghost-owners-planning-second-location-in-grosse-pointe-woods/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Carnegie Diner & Cafe",
+      "location": "20 Hudson Yards, New York, NY 10001",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "plans to open",
+      "short_description": "Carnegie Diner & Cafe will open its seventh New York City location at 20 Hudson Yards, featuring a large 11,500‑sq‑ft space with over 300 seats. The Hudson Yards location plans to open in February 2027 and will include a grab‑and‑go Express concept.",
+      "article_link": "https://whatnow.com/new-york/restaurants/carnegie-diner-cafe-expands-nyc-footprint-with-hudson-yards-location/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Hawaiian Bros Island Grill",
+      "location": "6705 Jonesboro Rd, Morrow, GA 30260",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening timeline for the location has not been revealed yet.",
+      "short_description": "Hawaiian Bros Island Grill may open a new location in Morrow, GA, at the former Del Taco site at 6705 Jonesboro Road. No opening timeline has been provided, and a company spokesperson could not give further details. The brand is expanding in the Southeast through franchise group MRCO.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/hawaiian-bros-island-grill-appears-to-have-new-morrow-location-in-the-works/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Fork to Fit Kitchen",
+      "location": "21114 U.S. Hwy 281 N, San Antonio, TX 78259",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Fork to Fit Kitchen will open at the Enrico Heights Retail Center.",
+      "short_description": "Fork to Fit Kitchen plans to open a new restaurant at the Enrico Heights Retail Center in San Antonio, located at 21114 U.S. Hwy 281 N. The article notes the location is in development and mentions additional sites slated for later in the year. Founder details and menu description are included.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/fork-to-fit-kitchen-expands-san-antonio-area-footprint-with-more-locations-planned/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "STIR",
+      "location": "3165 Medley Blvd, Johns Creek, GA 30097",
+      "event_type": "Opening",
+      "event_date": "October 29",
+      "status": "STIR is celebrating its grand opening alongside Medley’s with a ribbon‑cutting ceremony.",
+      "short_description": "STIR, a craft cocktail and seafood restaurant, is set to open its Georgia debut at Medley in Johns Creek on October 29, featuring a grand opening ribbon‑cutting ceremony. The venue will include a separate Tonic House bar and a raw bar with oysters. It marks the brand’s first Georgia location.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/a-new-restaurant-is-bringing-hand-carved-ice-and-an-extensive-cocktail-menu-to-medley/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Tar & Roses",
+      "location": "602 Santa Monica Blvd, Santa Monica, CA 90401",
+      "event_type": "Closing",
+      "event_date": "October 24",
+      "status": "will be closing its doors permanently on October 24.",
+      "short_description": "Tar & Roses, a Santa Monica wood‑fired restaurant, announced it will permanently close on October 24 after",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "CHOPT",
+      "location": "4000 Wisconsin Ave, Washington, DC 20016",
+      "event_type": "Opening",
+      "event_date": "November 11",
+      "status": "aiming to open",
+      "short_description": "CHOPT, a healthy fast‑casual chain, will open at 4000 Wisconsin Ave NW in Washington, DC. The restaurant is targeting an opening around November 11, 2026. The concept describes itself as a “creative salad company” offering salads, wraps and bowls.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/creative-salad-company-to-start-feeding-dc-next-month/",
+      "published_date": "October 11, 2026"
     }
   ],
   "non_working": [

@@ -1,7 +1,133 @@
 {
-  "last_updated": "2026-10-12 00:35 UTC",
+  "last_updated": "2026-10-13 02:35 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/hulas-chinese-bar-b-q-is-coming-back-to-orland/",
+      "title": "Hula’s Chinese Bar-B-Q Is Coming Back to Orland",
+      "address": "426 Walker St, Orland, CA 95963, USA"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/suite-nine-bar-lounge-changes-hands-in-rancho-cordova/",
+      "title": "Suite Nine Bar & Lounge Changes Hands in Rancho Cordova",
+      "address": "11050 Coloma Rd, Rancho Cordova, CA 95670, USA"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/iki-nori-plans-to-expand-to-palms/",
+      "title": "IKI Nori Plans to Expand to Palms",
+      "address": "3688 Overland Ave, Los Angeles, CA 90034, USA"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/texas-roadhouse-expanding-dining-room-in-fort-worth/",
+      "title": "Texas Roadhouse Expanding Dining Room in Fort Worth",
+      "address": "6672 NW Loop 820, Fort Worth, TX 76135, USA"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/firehouse-subs-planning-multiple-restaurants-in-north-texas/",
+      "title": "Firehouse Subs Planning Multiple Restaurants in North Texas",
+      "address": ""
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/sunny-side-up-adding-a-hammond-location/",
+      "title": "Sunny Side Up Adding a Hammond Location",
+      "address": "Hammond, La."
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/owners-of-spirit-elephant-in-winnetka-working-on-wicker-park-restaurant/",
+      "title": "Owners of Spirit Elephant in Winnetka Working on Wicker Park Restaurant",
+      "address": "1732 W Division St, Chicago, IL 60622"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/jersey-mikes-to-open-new-location-in-hobe-sound/",
+      "title": "Jersey Mike’s to Open New Location in Hobe Sound",
+      "address": "8855 SE Bridge Rd., Hobe Sound, FL 33455"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/little-ghost-owners-planning-second-location-in-grosse-pointe-woods/",
+      "title": "Little Ghost Owners Planning Second Location in Grosse Pointe Woods",
+      "address": "20567 Mack Ave, Grosse Pointe Woods, MI 48236"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/carnegie-diner-cafe-expands-nyc-footprint-with-hudson-yards-location/",
+      "title": "Carnegie Diner & Cafe Expands NYC Footprint With Hudson Yards Location",
+      "address": "20 Hudson Yards, New York, NY 10001"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/hawaiian-bros-island-grill-appears-to-have-new-morrow-location-in-the-works/",
+      "title": "Hawaiian Bros Island Grill Appears to Have New Morrow Location in the Works | What Now Atlanta",
+      "address": "6705 Jonesboro Rd, Morrow, GA 30260"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/san-antonio/restaurants/fork-to-fit-kitchen-expands-san-antonio-area-footprint-with-more-locations-planned/",
+      "title": "Fork to Fit Kitchen Expands San Antonio-Area Footprint With More Locations Planned",
+      "address": "21114 U.S. Hwy 281 N, San Antonio, TX 78259"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/a-new-restaurant-is-bringing-hand-carved-ice-and-an-extensive-cocktail-menu-to-medley/",
+      "title": "A New Restaurant Is Bringing Hand-Carved Ice and an Extensive Cocktail Menu to Medley",
+      "address": "3165 Medley Blvd, Johns Creek, GA 30097"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/the-wood-fired-kitchen-that-shaped-santa-monica-dining-is-closing/",
+      "title": "The Wood-Fired Kitchen That Shaped Santa Monica Dining Is Closing",
+      "address": "602 Santa Monica Blvd, Santa Monica, CA 90401"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/recess-is-back-at-woodinvilles-old-schoolhouse-as-flatstick-pub-moves-in/",
+      "title": "Recess Is Back at Woodinville's Old Schoolhouse as Flatstick Pub Moves In | What Now Seattle",
+      "address": "13205 NE 175th St, Woodinville, WA 98072"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/montreal/restaurants/pub-gaijin-brings-a-taste-of-japan-to-rosemont/",
+      "title": "Pub Gaijin Brings a Taste of Japan to Rosemont! | What Now Montreal",
+      "address": "808 Bd Rosemont, Montréal, QC H2S 1Z6, Canada"
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-5-9/",
+      "title": "5 Upcoming Restaurant Openings We Reported Last Week Across Metro Atlanta (Oct 5-9)",
+      "address": ""
+    },
+    {
+      "date": "October 12, 2026",
+      "url": "https://whatnow.com/charlotte/restaurants/brava-rooftop-restaurant-and-bar-set-to-open-in-fayetteville/",
+      "title": "Brava Rooftop Restaurant and Bar Set to Open in Fayetteville",
+      "address": "1209 Hay St, Fayetteville, NC 28305"
+    },
+    {
+      "date": "October 11, 2026",
+      "url": "https://whatnow.com/charlotte/restaurants/west-end-bagels-plans-second-location-in-waxhaw/",
+      "title": "West End Bagels Plans Second Location in Waxhaw",
+      "address": "1526 Providence Rd S, Waxhaw, NC 28173"
+    },
+    {
+      "date": "October 11, 2026",
+      "url": "https://whatnow.com/charlotte/restaurants/michaels-english-muffins-plans-raleigh-relocation/",
+      "title": "Michael’s English Muffins Plans Raleigh Relocation",
+      "address": "Suite 110, 4620, 3611 Spring Forest Rd, Raleigh, NC 27616"
+    },
+    {
+      "date": "October 11, 2026",
+      "url": "https://whatnow.com/washington-dc/restaurants/creative-salad-company-to-start-feeding-dc-next-month/",
+      "title": "“Creative Salad Company” to Start Feeding DC Next Month",
+      "address": "4000 Wisconsin Ave, Washington, DC 20016"
+    },
     {
       "date": "October 11, 2026",
       "url": "https://whatnow.com/washington-dc/restaurants/progress-heats-up-on-popular-greek-restaurants-inaugural-maryland-location/",
@@ -379,132 +505,6 @@
       "url": "https://whatnow.com/phoenix/restaurants/goodgood-bakery-plans-2027-opening-in-gilbert/",
       "title": "GoodGood Bakery Plans 2027 Opening in Gilbert",
       "address": ""
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/opening-at-broadway-by-the-beach-rustic-rye/",
-      "title": "Opening at Broadway at the Beach: Rustic & Rye",
-      "address": "1320 Celebrity Cir, Myrtle Beach, SC 29577"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/austin/restaurants/woman-owned-tex-mex-restaurant-in-austin-shuts-down-after-a-short-run/",
-      "title": "Woman-Owned Tex-Mex Restaurant in Austin Shuts Down After a Short Run",
-      "address": "14900 Avery Ranch Blvd B100, Austin, TX 78717, United States"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/naya-expands-greater-philadelphia-footprint-with-new-location-in-doylestown/",
-      "title": "NAYA Expands Greater Philadelphia Footprint With New Location in Doylestown",
-      "address": "1745 S Easton Rd., Doylestown, PA 18901"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/swig-planning-new-location-in-woodstock/",
-      "title": "Swig Planning New Location in Woodstock | What Now Atlanta",
-      "address": "9980 GA-92, Woodstock, GA 30188"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/orangeburgs-rosalias-mexican-restaurant-expanding-to-bamberg/",
-      "title": "Orangeburg’s Rosalia’s Mexican Restaurant Expanding to Bamberg",
-      "address": "1302 Main Hwy, Bamberg, SC 29003"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/district-142-to-debut-new-bar-and-listening-lounge-next-door/",
-      "title": "District 142 to Debut New Bar and Listening Lounge Next Door",
-      "address": "150 Maple St, Wyandotte, MI 48192"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/a-new-restaurant-has-arrived-in-soho-with-a-menu-full-of-american-classics/",
-      "title": "A New Restaurant Has Arrived in SoHo With a Menu Full of American Classics",
-      "address": "343 W Broadway, New York, NY 10013"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/san-antonio/restaurants/cone-n-swirl-to-open-first-storefront-in-san-antonio/",
-      "title": "Cone N’ Swirl to Open First Storefront in San Antonio",
-      "address": "9910 W Loop 1604 N, San Antonio, TX 78254, USA"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/7-brew-franchise-bringing-new-location-to-saginaw-township/",
-      "title": "7 Brew Franchise Bringing New Location to Saginaw Township",
-      "address": "MENARDS, 5806 State St, Saginaw, MI 48603"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/neighborhood-dining-group-celebrates-cheeky-opening-with-new-project-in-store-for-2027/",
-      "title": "Neighborhood Dining Group Celebrates Cheeky Opening, with New Project in Store for 2027",
-      "address": ""
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/ship-of-fools-to-return-after-16-year-hiatus-getting-band-back-together/",
-      "title": "Ship of Fools to Return After 16-Year Hiatus: 'Getting Band Back Together'",
-      "address": "1152 1st Ave., New York, NY 10065"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/miami/restaurants/beloved-delray-beach-brunch-spot-bids-farewell-after-15-years/",
-      "title": "Beloved Delray Beach Brunch Spot Bids Farewell After 15 Years",
-      "address": "32 SE 2nd Ave, Delray Beach, FL 33444"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/owners-of-the-feed-sack-opening-reopening-malias-restaurant-in-aiken/",
-      "title": "Owners of The Feed Sack Opening Reopening Malia’s Restaurant in Aiken",
-      "address": "120 Laurens St SW, Aiken, SC 29801"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/coastal-concepts-hospitality-opening-southern-social-in-myrtle-beach/",
-      "title": "Coastal Concepts Hospitality Opening Southern Social in Myrtle Beach",
-      "address": "1320 Celebrity Cir, Myrtle Beach, SC 29577"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/chef-rasika-venkatesa-opens-mythily-in-williamsburg/",
-      "title": "Chef Rasika Venkatesa Opens Mythily in Williamsburg | What Now New York",
-      "address": "129 Havemeyer St, Brooklyn, NY 11211"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/phoenix/retail/verrado-marketplace-announces-next-wave-of-retail-dining-and-entertainment-openings-through-end-of-2026/",
-      "title": "Verrado Marketplace Announces Next Wave of Retail, Dining and Entertainment Openings Through End of 2026 | What Now Phoenix",
-      "address": ""
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/kyuramen-expands-portfolio-with-kyuramen-express-and-new-bao-dumpling-concept/",
-      "title": "KYURAMEN Expands Portfolio With Kyuramen Express and New Bao Dumpling Concept | What Now New York",
-      "address": "40 Gold St, New York, NY 10038"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/san-antonio/restaurants/swedish-hill-to-open-first-san-antonio-location-near-alamo-heights/",
-      "title": "Swedish Hill to Open First San Antonio Location Near Alamo Heights",
-      "address": "6322 N New Braunfels Ave, San Antonio, TX 78209, USA"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/tonchin-ramen-to-open-first-columbus-location-in-short-north/",
-      "title": "Tonchin Ramen to Open First Columbus Location in Short North",
-      "address": "965 N High St, Columbus, OH 43201, USA"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/gallery-cocktails-bites-to-open-in-columbus-short-north/",
-      "title": "Gallery Cocktails & Bites to Open in Columbus’ Short North",
-      "address": "642 N High St #12, Columbus, OH 43215, USA642 N High St #12, Columbus, OH 43215, USA"
-    },
-    {
-      "date": "October 09, 2026",
-      "url": "https://whatnow.com/las-vegas/restaurants/ayni-peruvian-restaurant-to-open-within-the-collective/",
-      "title": "Ayni Peruvian Restaurant to Open Within The Collective",
-      "address": "3900 Paradise Rd, Las Vegas, NV 89169"
     }
   ]
 }
