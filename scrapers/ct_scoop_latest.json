@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "data": [
+    {
+      "heading": "SPRINGFIELD SCOOP: CAVA & Jersey Mike's coming to Springfield",
+      "date": "2026-10-14",
+      "link": "https://www.theconnecticutscoop.com/all-mass-posts/springfield-scoop-cava-jersey-mikes-coming-to-springfield"
+    },
     {
       "heading": "VERNON SCOOP: Synergy Performance Center, a new gym, coming to Vernon!",
       "date": "2026-10-13",
@@ -40,11 +45,6 @@
       "heading": "WESTBROOK SCOOP: Check out the new Beach Donuts in Westbrook",
       "date": "2026-10-13",
       "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/westbrook-scoop-check-out-the-new-beach-donuts-in-westbrook"
-    },
-    {
-      "heading": "HAMDEN SCOOP: Panda Express eyes new location in Hamden Plaza",
-      "date": "2026-10-12",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/hamden-scoop-panda-express-eyes-new-location-in-hamden-plaza"
     }
   ]
 }
