@@ -10890,6 +10890,456 @@
       "short_description": "The Corner Store, a breakout SoHo sensation, will debut its West Coast location at The Cosmopolitan of Las Vegas on November 9. The restaurant, situated on the resort’s third floor, will serve elevated American classics and a curated cocktail program, with reservations now available online or by phone.",
       "article_link": "https://whatnow.com/las-vegas/restaurants/the-cosmopolitan-of-las-vegas-to-unveil-the-corner-store-november-9/",
       "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "The Silver Platter",
+      "location": "1403 W 3rd St, Los Angeles, CA 90017, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "The Silver Platter, a Latino gay bar that has operated at 2700 W. 7th St. since 1963, is preparing to reopen at 1403 W 3rd St in a 1927 building previously occupied by the Taxi Sports Bar. The bar secured a conditional use permit for alcohol sales and a neon sign, but an opening timeline was not provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/the-silver-platter-plans-to-reopen-in-westlake/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Boston Fish Memphis LLC",
+      "location": "811 S Highland St, Memphis, TN 38111",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "It’s not yet clear when, precisely, Boston Fish will be opening its doors",
+      "short_description": "Boston Fish Memphis LLC filed a permit to open a drive‑thru fast‑food seafood restaurant at 811 S Highland Street. The application shows a 2,219‑square‑foot storefront and a certificate of occupancy under review, but the exact opening date has not been disclosed.",
+      "article_link": "https://whatnow.com/memphis/restaurants/new-restaurant-to-bring-drive-thru-seafood-to-memphis/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Roma Pizza Pasta and Subs",
+      "location": "2235 Whitten Rd, Suite 102, Memphis, TN 38133",
+      "event_type": "Opening",
+      "event_date": "November 1",
+      "status": "will be opening on November 1",
+      "short_description": "Roma Pizza Pasta and Subs plans to open a limited‑service restaurant/pizzeria at 2235 Whitten Road, Suite 102. The business holds a certificate of occupancy under review and a Google entry states it will open on November 1.",
+      "article_link": "https://whatnow.com/memphis/restaurants/roma-pizza-pasta-and-subs-bringing-authentic-italian-cuisine-to-whitten-road/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Sourdough & Co.",
+      "location": "7017 W Spring Mountain Rd, Las Vegas, NV 89117",
+      "event_type": "Opening",
+      "event_date": "by early Spring 2027",
+      "status": "expected to open at 7017 Spring Mountain Rd . in the Rainbow Springs Shopping Center by early Spring 2027",
+      "short_description": "Sourdough & Co. announced a new fast‑casual sandwich shop at 7017 Spring Mountain Rd in the Rainbow Springs Shopping Center. The franchisee expects the location to open by early Spring 2027, though further details were not available.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/sourdough-and-co-is-coming-to-the-rainbow-springs-shopping-center/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Casa Acapulco Panderia",
+      "location": "1975 S Congress Ave, Palm Springs, FL 33406",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not yet been announced",
+      "short_description": "Casa Acapulco Panderia, a bakery and ice‑cream concept, filed a permit to open at 1975 S Congress Avenue. No opening date has been announced and the owners have not commented.",
+      "article_link": "https://whatnow.com/miami/restaurants/casa-acapulco-bakery-and-ice-cream-shop-proposed-for-palm-springs/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "bb.q Chicken",
+      "location": "65 Main St, Stoneham, MA 02180",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "bb.q Chicken franchisee Jacky Zheng confirmed plans for a sixth restaurant in Stoneham’s Redstone Shopping Center at 65 Main Street. A “coming soon” sign has been posted and the lease has been signed, but no opening date or suite number has been disclosed. The chain currently operates over 3,500 locations worldwide.",
+      "article_link": "https://whatnow.com/boston/restaurants/bb-q-chicken-adds-stoneham-to-its-greater-boston-expansion-lineup/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Bafang Dumpling",
+      "location": "915 N Shepherd Dr, Houston, TX 77008",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned to start",
+      "short_description": "Bafang Dumpling filed a Texas permit to open its second Texas location in The Heights at 915 N Shepherd Drive, Suite H. Construction is planned to start in mid‑December and finish by mid‑June 2027, with a hoped‑for debut by next summer. No further details were provided by the company.",
+      "article_link": "https://whatnow.com/houston/restaurants/bafang-dumpling-taiwanese-popular-dumpling-chain-to-debut-in-houston/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Läderach",
+      "location": "535 N Michigan Ave, Chicago, IL 60611",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening later this fall",
+      "short_description": "Läderach announced a new chocolate shop at 535 N Michigan Avenue in River North, Chicago, slated to open later this fall. The store will be the brand’s first Chicago location outside a mall and will sit near the Shops at North Bridge. A grand opening date has not yet been released.",
+      "article_link": "https://whatnow.com/chicago/restaurants/laderach-debuting-magnificent-mile-location-near-the-shops-at-north-bridge/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Chicken Salad Chick",
+      "location": "220 W Frontier Pkwy #100, Prosper, TX 75078, USA",
+      "event_type": "Remodel",
+      "event_date": "Jan. 5, 2027",
+      "status": "interior renovation",
+      "short_description": "Chicken Salad Chick filed a Texas construction project for an interior renovation of a 1,500‑sq ft space at 220 W Frontier Parkway, Suite 100 in Celina. Construction is scheduled to begin Jan. 5, 2027 and finish by March 21, 2027, but no opening date has been announced. The renovation is funded privately and does not involve exterior changes.",
+      "article_link": "https://whatnow.com/dallas/restaurants/chicken-salad-chick-plans-renovation-for-new-celina-restaurant/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Crysandra’s",
+      "location": "740 S Rampart Blvd, Las Vegas, NV 89145",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "anticipated to open",
+      "short_description": "Crysandra’s plans to open an upscale social‑dining restaurant",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Queen City Collective Coffee (new café)",
+      "location": "3850 Blake St, Denver, CO 80205",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new café planned",
+      "short_description": "Queen City Collective Coffee announced plans for a new café in the NICO residential development at 3850 Blake Street in Denver’s River North Art District. The project is part of broader development around the 38th & Blake A‑Line Station. No opening date has been confirmed.",
+      "article_link": "https://whatnow.com/denver/restaurants/queen-city-collective-coffee-plans-new-cafe-at-rinos-nico-development/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Burtons Grill & Bar (second PA location)",
+      "location": "1745 S Easton Rd., Doylestown, PA 18901",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Burtons Grill & Bar is planning its second Pennsylvania location in the redeveloped Barn Plaza shopping center at 1745 S. Easton Rd., Doylestown. The restaurant will join other new tenants such as Shake Shack and Starbucks. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/burtons-grill-bar-plans-second-pennsylvania-location/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Sichuan Ember",
+      "location": "1134-1136 Beacon St, Newton, MA 02461",
+      "event_type": "Opening",
+      "event_date": "November 16, 2026",
+      "status": "targeting a November 16, 2026 grand opening date",
+      "short_description": "Sichuan Ember intends to open a Chinese restaurant in the former Scafidi Bros. Market space at 1134‑1136 Beacon Street in Newton Highlands. Permit filings show a renovation plan and a targeted grand opening on November 16, 2026. The menu and online presence are not yet available.",
+      "article_link": "https://whatnow.com/boston/restaurants/sichuan-ember-bringing-fiery-chinese-cuisine-to-newton-this-fall/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "The Wayman (indoor golf & rooftop restaurant)",
+      "location": "1015 W Wayman St, Chicago, IL 60607",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date will be set in the near future",
+      "short_description": "The Wayman is developing an indoor golf and dining concept at 1015 W Wayman Street in Chicago’s Fulton Market. The venue will feature a clubhouse lounge, a rooftop restaurant, simulators and event spaces. An opening date will be set in the near future.",
+      "article_link": "https://whatnow.com/chicago/restaurants/new-the-wayman-golf-club-to-feature-clubhouse-and-rooftop-restaurant/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Blackeye Burgers, Dogs and Fries",
+      "location": "3 2nd Ave., Pitman, NJ 08071",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Blackeye Burgers, Dogs and Fries will open a fast‑casual restaurant at 3 2nd Ave. in Pitman, New Jersey. Founder Aaron Haines plans to serve burgers, hot dogs and loaded fries, incorporating his food‑truck concepts. No opening date has been provided.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/a-taste-of-nostalgia-blackeye-burgers-dogs-and-fries-to-open-in-pitman/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Shawn O’Donnell’s American Grill and Irish Pub",
+      "location": "5645 Guide Meridian Rd, Bellingham, WA 98226",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "plans to open",
+      "short_description": "Shawn O’Donnell’s American Grill and Irish Pub announced plans to open its seventh location in Bellingham at 5645 Guide Meridian Road, occupying the former Hilltop Restaurant. Renovations have begun after receiving the keys, but an exact opening date has not been announced. The restaurant is slated to open in spring 2027.",
+      "article_link": "https://whatnow.com/seattle/restaurants/shawn-odonnells-plans-seventh-location-in-bellingham/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "275 N Randall Rd, Batavia, IL 60510",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will be built",
+      "short_description": "A new Texas Roadhouse is planned for the Windpointe Retail Center in Batavia at 275 N Randall Road. The project has been recently approved and is awaiting site plan work with the city. No opening date has been provided.",
+      "article_link": "https://whatnow.com/chicago/restaurants/new-texas-roadhouse-planned-for-batavia-shopping-center/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "The Acadian",
+      "location": "1575 Boulder St, Denver, CO 80211, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is set to welcome",
+      "short_description": "The Acadian, a Cajun restaurant by chef David Simpson, will open in Denver’s LoHi neighborhood at 1575 Boulder Street in the former Dimestore Delibar space. The 4,900‑square‑foot venue will feature a second‑story bar, rooftop dining and an outdoor patio. An opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/denver/restaurants/the-acadian-brings-a-taste-of-louisiana-to-denvers-lohi-neighborhood/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Sweet Heart Wine & Cider at RainDance (Sweet Heart Winery)",
+      "location": "2191 Covered Bridge Pkwy, Windsor, CO 80550",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will serve up",
+      "short_description": "Sweet Heart Winery is building a new Windsor location called Sweet Heart Wine & Cider at RainDance at 2191 Covered Bridge Parkway. The venue will combine a full restaurant with a cider taproom and include indoor and outdoor gathering areas. The location is listed as coming soon with no opening date yet.",
+      "article_link": "https://whatnow.com/denver/restaurants/sweet-heart-winerys-windsor-location-will-serve-up-brunch-cider-and-live-music/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "The Original Tavern",
+      "location": "5350 E High St, Phoenix, AZ 85054",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "plans to open",
+      "short_description": "The Original Tavern, part of Square One Concepts, plans to open in 2027 at 5350 E High Street in Phoenix’s City North development, taking over the former Mellow Mushroom space. The 8,000‑square‑foot restaurant will feature a patio, indoor‑outdoor bar, golf simulator and sports viewing amenities. An exact opening date has not been announced.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/the-original-tavern-plans-2027-opening-at-city-north/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Mornings in Medellin Cafe",
+      "location": "1229 S 6th St., Philadelphia, PA 19147",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "plans to open in January 2027",
+      "short_description": "Mornings in Medellin Cafe, owned by Francisco and Michelle Velasquez, will open at 1229 S. 6th St. in South Philadelphia. The Colombian‑themed cafe will serve drip coffee, espresso drinks, baked goods and offers a two‑tiered subscription program. The owners plan to open in January 2027.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/coffee-culture-and-colombia-new-cafe-plans-south-philly-debut/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Tommy’s Pizza",
+      "location": "69305 LA-21, Covington, LA 70433",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is set to offer a range of pizzas and Italian‑American classics",
+      "short_description": "Tommy’s Pizza is expanding from Hammond to Covington, establishing a new location at 69305 LA‑21. The restaurant will serve scratch‑made dough, stone‑baked pies and a variety of Italian‑American dishes. The article notes the concept is being brought across parish lines after a 2024 interior renovation.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/northshore-pizza-icon-adding-second-location/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Ambitious Ales",
+      "location": "696 Randolph Ave ste b, Costa Mesa, CA 92626, United States",
+      "event_type": "Opening",
+      "event_date": "October 24, 2026",
+      "status": "will open at 11 a.m. on Saturday, October 24",
+      "short_description": "Ambitious Ales is opening its first Orange County brewery and tasting room at The LAB Anti‑Mall, 696 Randolph Avenue, Suite B, Costa Mesa. The tasting room will serve beers starting at 11 a.m. on Saturday, October 24, and Sunday, October 25, with food partners and live DJs. The opening weekend includes merchandise and community events.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/award-winning-brewery-is-opening-its-first-orange-county-location-this-month/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Moderno Tacos & Tex Mex",
+      "location": "10455 Briar Forest Dr Ste 150, Houston, TX 77042",
+      "event_type": "Closing",
+      "event_date": "October 24, 2026",
+      "status": "will be closing at the end of October, with our final day on October 24th",
+      "short_description": "Moderno Tacos & Tex Mex, a popular Mexican restaurant in Houston’s Westchase District, announced it will permanently close. The final dinner service is scheduled for October 24, 2026, after which its breakfast tacos will move to Palazzo’s kitchen. The closure is due to the lease ending.",
+      "article_link": "https://whatnow.com/houston/restaurants/classic-tex-mex-staple-in-houston-is-closing-its-doors-this-month/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "PRESS Coffee",
+      "location": "3133 E Camelback Rd, Phoenix, AZ 85016",
+      "event_type": "Opening",
+      "event_date": "Nov. 7‑8, 2026",
+      "status": "will celebrate the grand opening of its new Camelback Corridor location Saturday and Sunday, Nov. 7-8",
+      "short_description": "PRESS Coffee is celebrating the grand opening of its new Camelback Corridor Café at 3133 E. Camelback Road in Phoenix. The grand opening events will take place on Saturday and Sunday, Nov. 7‑8, 2026, featuring complimentary treats, giveaways, a food truck and a DJ. The 2,029‑sq‑ft café adds to the brand’s 23rd location.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/press-coffee-announces-grand-opening-of-camelback-corridor-cafe-2/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Common Room (and The Brooklyn Room Speakeasy)",
+      "location": "2032 Harrison St, Hollywood, FL 33020",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "grand opening",
+      "short_description": "BOL Hospitality Group celebrated the grand opening of Common Room, a modern neighborhood American restaurant, and its hidden speakeasy The Brooklyn Room in downtown Hollywood. The ribbon‑cutting ceremony featured city officials and BOL executives, and highlighted the menu’s comfort‑food offerings.",
+      "article_link": "https://whatnow.com/miami/restaurants/common-room-and-the-brooklyn-room-speakeasy-celebrate-grand-opening/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "First Watch",
+      "location": "1389 Concord Pkwy N, Concord, NC 28025",
+      "event_type": "Opening",
+      "event_date": "October 12, 2026",
+      "status": "opened",
+      "short_description": "First Watch opened a new 6,300‑sq‑ft restaurant at 1389 Concord Parkway N in North Concord on Monday, October 12, 2026. The location seats over 210 guests, offers a chef‑inspired menu and a rotating seasonal lineup, and provides unlimited Project Sunrise coffee to diners through October 16.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/first-watch-opens-new-restaurant-in-north-concord/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Bar Bambino",
+      "location": "1990 Post Oak Blvd, Houston, TX 77056",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "set to open",
+      "short_description": "Bar Bambino, a Los Angeles‑based concept from the Wish You Were Here Group, has signed a lease to open in the renewed Central Park Post Oak mixed‑use development in Houston. The restaurant is slated to open when the complex completes, with retail openings expected in Fall 2026.",
+      "article_link": "https://whatnow.com/houston/restaurants/bar-bambino-and-elephante-listed-as-upcoming-tenants-for-renewed-uptown-complex/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Élephante",
+      "location": "1990 Post Oak Blvd, Houston, TX 77056",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "set to open",
+      "short_description": "Élephante, also from the Wish You Were Here Group, will join Bar Bambino as a dining tenant at Central Park Post Oak, with a “coming soon” listing for its Houston debut. The venue is expected to open alongside the complex’s Fall 2026 retail rollout.",
+      "article_link": "https://whatnow.com/houston/restaurants/bar-bambino-and-elephante-listed-as-upcoming-tenants-for-renewed-uptown-complex/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "906 W University Dr, Denton, TX 76201, USA",
+      "event_type": "Opening",
+      "event_date": "October 2027",
+      "status": "plans to open",
+      "short_description": "7 Brew Coffee announced plans to open a drive‑thru‑only location at 906 W University Drive in Denton, Texas. Public filings show an estimated construction completion date of October 2027, though the exact opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/dallas/restaurants/7-brew-coffee-to-open-new-drive-thru-location-in-denton/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Sauce Society",
+      "location": "11925 Ventura Blvd, Studio City, CA 91604, United States",
+      "event_type": "Opening",
+      "event_date": "early November 2026",
+      "status": "targeting opening",
+      "short_description": "Sauce Society, a fast‑casual build‑your‑own pasta concept, plans to open at 11925 Ventura Blvd in Studio City. Co‑founder Michael Zaratsian said the restaurant is targeting an opening in early November 2026.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/sauce-society-to-bring-build-your-own-pasta-concept-to-studio-city/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Cali’s Kitchen",
+      "location": "839 Santa Clara Pl, San Diego, CA 92109, USA",
+      "event_type": "Opening",
+      "event_date": "late November 2026",
+      "status": "targeting a late November opening",
+      "short_description": "Cali’s Kitchen plans to open its first Fresh Baja Kitchen at 839 Santa Clara Place in Mission Beach. The walk‑up kitchen will feature Baja‑inspired coastal food with breakfast items, ceviche, tacos and more, and is targeting a late‑November 2026 opening. The concept is intended to serve hotel guests of The Boardwalk Hotel and local residents.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/calis-kitchen-to-open-first-fresh-baja-kitchen-in-mission-beach/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "The Cream & Crumb",
+      "location": "1546 E Stacy Rd, Allen, TX 75002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "The Cream & Crumb is set to open an ice‑cream shop at 1546 E. Stacy Road, Suite 160 in Allen, Texas. A project registration indicates the space will be renovated and completed by November 30 2026, but no official opening date has been announced. The shop will offer ice cream, cones, cups and sundaes.",
+      "article_link": "https://whatnow.com/dallas/restaurants/the-cream-crumb-to-open-in-allen/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Shake Shack",
+      "location": "1505 N Verrado Way Ste 102, Buckeye, AZ 85396, United States",
+      "event_type": "Opening",
+      "event_date": "Tuesday, October 20",
+      "status": "set to launch",
+      "short_description": "Shake Shack is opening a new restaurant at Verrado Marketplace in Buckeye, Arizona. The location at 1505 N Verrado Way, Suite 102 will open on Tuesday, October 20 at 10 a.m. Opening‑day guests will receive custom tote bags and the company will donate $1 per sandwich to St. Mary’s Food Bank.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/a-national-burger-chain-is-expanding-its-presence-in-arizona-with-a-new-location/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Hawaiian Bros",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to enter",
+      "short_description": "Hawaiian Bros is preparing to enter Florida, with Jacksonville among four target markets for expansion. The chain has partnered with Southern Rock Restaurants to develop locations over the next six years, but no specific Jacksonville address or opening date has been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/hawaiian-bros-plans-florida-expansion-with-jacksonville-among-four-target-markets/",
+      "published_date": "October 13, 2026"
+    },
+    {
+      "store_name": "Tar & Roses",
+      "location": "602 Santa Monica Blvd, Santa Monica, CA 90401",
+      "event_type": "Closing",
+      "event_date": "October 24",
+      "status": "closing its doors permanently",
+      "short_description": "Tar & Roses, a wood‑fired restaurant at 602 Santa Monica Blvd, announced it will close permanently on October 24. The closure was shared on social media, inviting patrons to visit for a final meal during the two‑week period. No reason for the closure was disclosed.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/the-wood-fired-kitchen-that-shaped-santa-monica-dining-is-closing/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Flatstick Pub",
+      "location": "13205 NE 175th St, Woodinville, WA 98072",
+      "event_type": "Opening",
+      "event_date": "Oct. 17",
+      "status": "grand opening on Oct. 17",
+      "short_description": "Flatstick Pub will celebrate the grand opening of its Woodinville location on Saturday, Oct. 17, during an opening weekend that runs Oct. 16‑18. The venue occupies the restored Old Woodinville School and features a second‑floor mini‑golf course, Duffleboard, darts, and a larger kitchen for a new menu. The opening includes a ceremonial first putt and ticket giveaways.",
+      "article_link": "https://whatnow.com/seattle/restaurants/recess-is-back-at-woodinvilles-old-schoolhouse-as-flatstick-pub-moves-in/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Pub Gaijin",
+      "location": "808 Bd Rosemont, Montréal, QC H2S 1Z6, Canada",
+      "event_type": "Opening",
+      "event_date": "November 5",
+      "status": "official opening on November 5",
+      "short_description": "Pub Gaijin will hold its official opening on Thursday, November 5 at 808 Boulevard Rosemont. After a quiet soft launch months earlier, the new neighbourhood spot offers Asian‑inspired shareable dishes, unique cocktails, and a private room for up to 80 guests. The concept aims to become a lasting gathering place in Rosemont.",
+      "article_link": "https://whatnow.com/montreal/restaurants/pub-gaijin-brings-a-taste-of-japan-to-rosemont/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Pilar Coffee Bar",
+      "location": "1544 Piedmont Avenue NE, Atlanta, GA (Ansley Mall)",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "plans to open",
+      "short_description": "Pilar Coffee Bar plans to open a new location in Ansley Mall, Atlanta, at 1544 Piedmont Avenue NE in early 2027. The 1,800‑sq‑ft space will house the upscale specialty coffee shop and bistro concept, featuring mountain‑grown coffee, gelato, and European‑style fare. The brand expects to operate more than 20 locations by the end of 2027.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-5-9/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Swig",
+      "location": "9980 GA Highway 92, Woodstock, GA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming opening",
+      "short_description": "Swig is adding a new drive‑thru location in Woodstock at 9980 GA Highway 92. The brand will transform an existing building into a dirty‑soda outlet, though an opening date has not been announced. The location will serve the chain’s specialty “dirty sodas” and other menu items.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-5-9/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Myth & Legend",
+      "location": "Address not specified (Kennesaw, GA)",
+      "event_type": "Opening",
+      "event_date": "this November",
+      "status": "upcoming opening",
+      "short_description": "Myth & Legend will open a new coffee‑house location in Kennesaw, with the exact address not yet revealed. The opening is slated for this November. The specialty coffee chain focuses on craft coffee, community, and storytelling, offering espresso drinks, nitro cold brew, and pastries.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-5-9/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "Address not specified (Toco Hills, Atlanta, GA)",
+      "event_type": "Opening",
+      "event_date": "later this month",
+      "status": "expected to open",
+      "short_description": "Super Chix is planning three new Atlanta locations, with a Toco Hills site expected to open later this month. Additional openings are slated for Downtown and another area, though details are pending. The fast‑casual chain is rapidly expanding its presence in the metro area.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/5-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-5-9/",
+      "published_date": "October 12,"
+    },
+    {
+      "store_name": "Brava Rooftop Restaurant and Bar",
+      "location": "1209 Hay St, Fayetteville, NC 28305",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "set to open",
+      "short_description": "Brava Rooftop Restaurant and Bar will debut in January 2027 at 1209 Hay Street in Fayetteville, NC. The tapas‑style venue will seat about 60 guests and feature shareable dishes, craft cocktails and live entertainment as part of the expanded 1209 Stages complex.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/brava-rooftop-restaurant-and-bar-set-to-open-in-fayetteville/",
+      "published_date": "October 12, 2026"
+    },
+    {
+      "store_name": "West End Bagels",
+      "location": "1526 Providence Rd S, Waxhaw, NC 28173",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "West End Bagels plans to open a second location in Waxhaw, NC at New Town Market, 1526 Providence Road South, taking over the former Java’s Brewing Bakery space. The new shop is targeted to open in the next few months, with hopes to welcome customers by the end of 2026, though no exact date is confirmed.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/west-end-bagels-plans-second-location-in-waxhaw/",
+      "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "Michael’s English Muffins",
+      "location": "Suite 110, 4620, 3611 Spring Forest Rd, Raleigh, NC 27616",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand its footprint",
+      "short_description": "Michael’s English Muffins intends to relocate within its Raleigh property from Suite 114 to Suite 110 at 3611 Spring Forest Road, tripling its space. The move aims to be completed before the 2027 holiday season to support growing wholesale and retail operations.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/michaels-english-muffins-plans-raleigh-relocation/",
+      "published_date": "October 11, 2026"
     }
   ],
   "non_working": [
