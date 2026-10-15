@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -11340,6 +11340,356 @@
       "short_description": "Michael’s English Muffins intends to relocate within its Raleigh property from Suite 114 to Suite 110 at 3611 Spring Forest Road, tripling its space. The move aims to be completed before the 2027 holiday season to support growing wholesale and retail operations.",
       "article_link": "https://whatnow.com/charlotte/restaurants/michaels-english-muffins-plans-raleigh-relocation/",
       "published_date": "October 11, 2026"
+    },
+    {
+      "store_name": "The Taylor Tea House",
+      "location": "506 Porter St, Taylor, TX 76574",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "The Taylor Tea House is a new tea house concept being built at 506 Porter Street in downtown Taylor. Construction is underway in a historic 1880s house and an opening date has not yet been set. The team is finishing touches and plans to serve leaf tea, finger sandwiches, pastries and desserts.",
+      "article_link": "https://whatnow.com/austin/restaurants/new-tea-house-under-construction-in-downtown-taylor/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Zay’s Place",
+      "location": "529 W Centennial Blvd, Springfield, OR 97477, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "applying for a liquor license",
+      "short_description": "Zay’s Place is seeking a liquor license for a new restaurant or bar at 529 W. Centennial Blvd in Springfield. The filing indicates a new location will replace the former Twisted Duck Pub. No opening date has been announced.",
+      "article_link": "https://whatnow.com/portland/restaurants/zays-place-is-coming-to-centennial-boulevard-in-springfield/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Bun’s (Acadiana Burger Joint) – Lafayette location",
+      "location": "2424 Ambassador Caffery Pkwy, Lafayette, LA 70506",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "currently undergoing a total overhaul",
+      "short_description": "Bun’s is adding a second location in Lafayette at 2424 Ambassador Caffery Pkwy. The site is undergoing a total overhaul with custom design elements and is slated for a grand opening later this fall. The new outlet will offer the same menu as the Baton Rouge original.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/acadiana-burger-joint-adding-second-location-planning-nola-spot/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Coquine",
+      "location": "6839 SE Belmont St, Portland, OR 97215, USA",
+      "event_type": "Closing",
+      "event_date": "late October",
+      "status": "will close in late October",
+      "short_description": "Coquine, located at 6839 SE Belmont St in Portland, will close in late October as part of a remodel. Owner Chef Katy Millard plans to combine the restaurant with an adjacent cafe and market. The closure is not due to business trouble.",
+      "article_link": "https://whatnow.com/portland/restaurants/coquine-is-becoming-katy-janes-after-a-remodel/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Katy Jane’s",
+      "location": "6839 SE Belmont St, Portland, OR 97215, USA",
+      "event_type": "Opening",
+      "event_date": "mid‑November",
+      "status": "expected to reopen in mid‑November",
+      "short_description": "The remodel will reopen the space as Katy Jane’s in mid‑November, featuring a more casual menu and a larger dining area. The new concept will retain many Coquine favorites while adding seafood towers and other dishes. The market will remain open during",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Migration Brewing",
+      "location": "2035 NW Front Ave, Portland, OR 97209, USA",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "target opening of March 2027",
+      "short_description": "Migration Brewing is expanding to Northwest Portland with a new pub and pizza kitchen at 2035 NW Front Ave inside the Field Office building. The 3,000‑sq‑ft outpost will feature a patio, fire features and a private event space, and is targeted to open in March 2027.",
+      "article_link": "https://whatnow.com/portland/restaurants/migration-brewing-is-bringing-a-pizza-kitchen-and-craft-beer-pub-to-nw-portlands-slabtown/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "200 Towne Lake Pkwy, Woodstock, GA 30188",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "currently in the permitting process",
+      "short_description": "Super Chix franchisee Chunara Group plans to open a 2,500‑sq‑ft location at the Woodstock Mill District, 200 Towne Lake Pkwy. The site is currently in the permitting process and will become the brand’s 51st restaurant in Georgia.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/super-chix-expanding-to-woodstock-mill-district/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Sbarro",
+      "location": "5340 W Charleston Blvd, Las Vegas, NV 89146, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open",
+      "short_description": "Sbarro, with franchisee LV Petroleum Food Services, is slated to open inside the Charleston & Mohawk Conoco travel center at 5340 W Charleston Blvd in Charleston Heights. A city permit indicates the Italian fast‑casual pizza chain is expected to open later this year, with a ribbon‑cutting and grand opening a month after the actual opening.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/sbarro-to-open-in-charleston-heights/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "The Blue Elephant",
+      "location": "66 E Lancaster Ave., Ardmore, PA 19003",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "plans to open",
+      "short_description": "WIN Hospitality will bring The Blue Elephant to 66 E Lancaster Ave, Ardmore, occupying part of the space currently home to Mikado Thai Pepper. The Asian‑fusion restaurant is scheduled to open in November, offering a refreshed interior with greenery, velvet seating and brass touches.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/the-blue-elephant-brings-a-fun-refresh-to-ardmore-this-fall/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Postern Coffee",
+      "location": "2421 Van Fleet Cir Ste 124, Doraville, GA 30360",
+      "event_type": "Opening",
+      "event_date": "beginning of November",
+      "status": "will begin replacing their distilling equipment with their roasting equipment",
+      "short_description": "Postern Coffee will take over the full Minhwa Spirits space at 2421 Van Fleet Cir Ste 124, Doraville, after Minhwa concludes service at the beginning of November. Postern plans to replace the distilling equipment with roasting equipment to expand its roastery while remaining open through the transition.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/postern-coffee-expanding-in-doraville-as-minhwa-spirits-relocates/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Grit and Grind Coffee Shop",
+      "location": "15444 State Hwy 105 W, Suite C, Montgomery, TX 77356",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "should open by early 2027",
+      "short_description": "Grit and Grind Coffee Shop is filing a permit to open its second Texas cafe in the West Lake Shopping Center, Montgomery. Construction began and is expected to finish mid‑January, with the cafe slated to open by early 2027.",
+      "article_link": "https://whatnow.com/houston/restaurants/grit-and-grind-coffee-shop-to-open-its-second-lone-star-state-cafe/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Minhwa Spirits",
+      "location": "1198 Howell Ml Rd, Atlanta, GA 30318",
+      "event_type": "Closing",
+      "event_date": "beginning of November",
+      "status": "end service in the Doraville space at the beginning of November",
+      "short_description": "Minhwa Spirits, a Doraville‑based grain‑to‑glass brewstillery, will end service at its current Doraville location at the beginning of November. The space will be taken over by Postern Coffee after the closure.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/minhwa-spirits-relocating-to-westside-provisions-district/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Minhwa Spirits",
+      "location": "Westside Provisions District, former Aziza space",
+      "event_type": "Opening",
+      "event_date": "early next year",
+      "status": "relocating early next year",
+      "short_description": "Minhwa Spirits is relocating to Atlanta’s Westside Provisions District, taking over the former Aziza space. The move is planned for early next year, adding a full Korean kitchen and vinyl listening lounge.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/minhwa-spirits-relocating-to-westside-provisions-district/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Salata Salad Kitchen",
+      "location": "Woodruff Road, Greenville",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "planned for November",
+      "short_description": "Salata Salad Kitchen plans its South Carolina debut on Woodruff Road in Greenville, with the opening slated for November. After Greenville, the brand has two additional locations under contract in Myrtle Beach and Charleston.",
+      "article_link": "https://whatnow.com/charleston/restaurants/salata-kitchen-prepares-for-greenville-launch-before-heading-to-the-atlantic-coast/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Buc‑ee’s",
+      "location": "Summerville, SC",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new location planned for Summerville",
+      "short_description": "Buc‑ee’s is considering a new 74,000‑sq‑ft store in Summerville, SC, along the I‑26 corridor, as part of its South Carolina expansion. The proposed location would feature over 116 fuel pumps and a full Buc‑ee’s menu.",
+      "article_link": "https://whatnow.com/charleston/restaurants/buc-ees-looks-to-be-headed-to-summerville/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "The Heartbreak Chef",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening a second Toronto location",
+      "short_description": "The Heartbreak Chef is set to open a second Toronto restaurant, though the address and opening date have not been disclosed. The original location is at 170 Baldwin Street in Kensington Market.",
+      "article_link": "https://whatnow.com/toronto/restaurants/the-heartbreak-chef-is-opening-a-second-toronto-location/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Brasserie 1796",
+      "location": "36457 Alfred St, New Baltimore, MI 48047",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Brasserie 1796 is under construction at 36457 Alfred Street in downtown New Baltimore, replacing the former Anchor Bay Aquarium. Co‑owner Billy Sengstock says they hope to open in mid‑to‑late November. The French‑style restaurant will feature a dining area and a wine bar.",
+      "article_link": "https://whatnow.com/detroit/restaurants/brasserie-1796-owners-preparing-to-open-restaurant-in-new-baltimore/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Dave’s Hot Chicken",
+      "location": "2550 Augusta Hwy, Lexington, SC 29072",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "No opening date has been announced yet",
+      "short_description": "Dave’s Hot Chicken will join the Victory Village retail center in Lexington, SC, located at 2550 Augusta Highway. The franchise has not announced an opening date for the new location. The article notes the brand’s growth and new menu items.",
+      "article_link": "https://whatnow.com/charleston/restaurants/opening-at-victory-villag​e-daves-hot-chicken/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Texas de Brazil",
+      "location": "3596 SW 32nd Ct, Gainesville, FL 32608, USA",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "spring 2027 opening",
+      "short_description": "Texas de Brazil will open its first Gainesville location at Butler Town Center, 3596 SW 32nd Court, Suite 60. The Brazilian churrascaria is slated for a spring 2027 opening. The 6,300‑sq ft space will offer rodízio‑style dining and a large salad bar.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/texas-de-brazil-is-coming-to-gainesville-with-a-spring-2027-opening/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Sno Swell",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Sno Swell, a Hawaiian‑style shave‑ice concept, plans to open a location at West Harbor in San Pedro’s waterfront development. The company did not provide an opening timeline. The outlet will add tropical frozen treats to the growing tenant mix.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/sno-swell-plans-to-open-at-west-harbor-in-san-pedro/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Miles Tavern",
+      "location": "1512-1514 W Fulton St, Chicago, IL 60607",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Underscore Hospitality filed a liquor license for 1512‑1514 W Fulton Street to open a new restaurant called Miles Tavern. The concept will feature an outdoor patio and will be near their existing Maxwells Trading. No further details or opening date have been released.",
+      "article_link": "https://whatnow.com/chicago/restaurants/underscore-hospitality-to-open-miles-tavern-in-fulton-market/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Bacio di Latte",
+      "location": "1151 Galleria Blvd, Roseville, CA 95678, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "No opening date has been announced yet",
+      "short_description": "Bacio di Latte announced a new location at Westfield Galleria at Roseville, marking its first entry into the greater Sacramento market. The gelato shop will offer rotating flavors and vegan options. No opening date has been announced.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/bacio-di-latte-is-bringing-brazilian-gelato-to-westfield-galleria-at-roseville/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "San Miguel Mexican Grill & Bar",
+      "location": "3955 W Ashley Cir, Charleston, SC 29414",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to come to fruition next year",
+      "short_description": "San Miguel Mexican Grill & Bar will join a new retail center in West Ashley, with a location at 3955 W Ashley Cir. The development is under construction and the restaurant is slated to open next year. The article provides menu highlights but no specific opening date.",
+      "article_link": "https://whatnow.com/charleston/restaurants/san-miguel-mexican-grill-bar-opening-west-ashley-location/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Smoothie King (North Myrtle Beach)",
+      "location": "4515 Hwy 17 S, North Myrtle Beach, SC 29582",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "preparing to open this December",
+      "short_description": "Smoothie King is set to open a new location at 4515 Hwy 17 S, North Myrtle Beach, replacing the former 45th Ave Crab House & Bar. The franchise plans to open the site this December and will feature a drive‑thru. It will be the brand’s tenth location in the area.",
+      "article_link": "https://whatnow.com/charleston/restaurants/smoothie-king-replacing-former-45th-ave-crab-house-bar-in-north-myrtle-beach/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Portage Bay Cafe (West Seattle)",
+      "location": "4725 42nd Ave SW, Seattle, WA 98116",
+      "event_type": "Closing",
+      "event_date": "October 25, 2026",
+      "status": "permanently closing",
+      "short_description": "Portage Bay Cafe announced the permanent closure of its West Seattle location. The cafe will serve its final brunch on Sunday, October 25, 2026, citing limited indoor seating and rising costs. The other four Seattle locations will remain open.",
+      "article_link": "https://whatnow.com/seattle/restaurants/a-west-seattle-restaurant-is-closing-after-nearly-four-years-in-the-neighborhood/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Tesla's Kitchen",
+      "location": "8480 Morrison Rd., Suite B, New Orleans, LA 70127",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "when it opens this fall",
+      "short_description": "Tesla's Kitchen, a Honduran‑American concept, is slated to open in New Orleans East. The restaurant will be located at 8480 Morrison Rd., Suite B, and will offer dine‑in and takeout. Owner Tesla Arzu is completing final inspections and expects to announce an official opening date soon.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/honduran-american-spot-coming-to-new-orleans-east/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Flo Cafe and Bar",
+      "location": "1434 W Chicago Ave, Chicago, IL 60642, United States",
+      "event_type": "Closing",
+      "event_date": "December 20, 2026",
+      "status": "will close",
+      "short_description": "Flo Cafe and Bar announced it will close its West Town location at 1434 W Chicago Ave. The final service day is set for December 20, 2026, after the building was sold. The restaurant thanked patrons for 25 years of support.",
+      "article_link": "https://whatnow.com/chicago/restaurants/a-chicago-restaurant-will-close-its-west-town-location-in-december-after-the-building-was-sold/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Wabi on Rose",
+      "location": "512 F Rose Ave, Venice, CA 90291",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "has permanently closed",
+      "short_description": "Wabi on Rose announced it has permanently closed its Venice location at 512 F Rose Ave, Suite F. The sushi and cocktail bar ended its six‑year run after posting a closure notice on October 14. No reason for the shutdown was provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-los-angeles-sushi-and-cocktail-bar-closes-after-a-six-year-run-on-rose-avenue/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Almond & Oat",
+      "location": "1300 S Casino Center Blvd, Las Vegas, NV 89104",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is now open",
+      "short_description": "Almond & Oat, a modern coffee bar, has opened in the shareDOWNTOWN Arts District at 1300 S Casino Center Blvd. The 1,400‑sq‑ft space offers vegan‑friendly drinks, pastries, and seating for about 30 guests. The opening was announced by developer Cherry Development.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/new-coffee-bar-almond-oat-opens-at-sharedowntown-arts-district/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Spectators Bar & Grill",
+      "location": "1259 Grand Central Parkway, Conroe, TX 77304",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opened",
+      "short_description": "Spectators Bar & Grill opened a new location in Conroe at 1259 Grand Central Parkway. The 6,500‑sq‑ft venue features a family‑friendly menu, 215 seats, and multiple televisions. The restaurant operates daily with extended hours and accepts reservations via OpenTable.",
+      "article_link": "https://whatnow.com/houston/restaurants/spectators-bar-grill-now-open-in-conroe/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Coast Coffee Co.",
+      "location": "2525 El Camino Real, Suite 131B, Carlsbad, CA 92008, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Coast Coffee Co. is preparing to return to Carlsbad at 2525 El Camino Real. The brand’s Carlsbad location closed earlier this year and the company announced a “comeback” on Instagram, but no opening date was given.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/coast-coffee-co-to-return-to-carlsbad/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Soulful Eatery",
+      "location": "6475 W Charleston Blvd, Las Vegas, NV 89146, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Grand Opening Coming Soon",
+      "short_description": "Soulful Eatery will open its first brick‑and‑mortar restaurant in the Campus Commons Food Court at 6475 W Charleston Blvd. An Instagram post says the space is secured and a grand opening is “coming soon,” though no specific date is provided.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/soulful-eatery-to-open-its-first-brick-and-mortar-spot-in-canyon-gate/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Sushi REV",
+      "location": "3201 Louisiana St, Suite 108, Houston, TX 77006, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "should open by next summer",
+      "short_description": "Sushi REV filed a permit to open a revolving‑sushi restaurant at 3201 Louisiana St in Midtown Houston. Construction is slated to start mid‑December and wrap up by mid‑June 2027, with the venue expected to open “by next summer.”",
+      "article_link": "https://whatnow.com/houston/restaurants/sushi-rev-california-based-revolving-sushi-eatery-to-debut-in-houston/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Kinkan",
+      "location": "12121 W Olympic Blvd, Los Angeles, CA 90064, United States",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening timeline has been delayed",
+      "short_description": "Kinkan announced plans to open a new West‑Edge location at 12121 W Olympic Blvd. The owner said the opening timeline has been delayed because of construction challenges, but no new date was disclosed.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/kinkan-to-open-new-location-in-west-la/",
+      "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Crysandra’s",
+      "location": "740 S Rampart Blvd, Las Vegas, NV 89145",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "is planning to open March 2027",
+      "short_description": "Crysandra’s, an upscale social dining restaurant, is planned to open in Boca Park, Las Vegas, in March 2027. The venue will feature brunch, afternoon tea, cocktails and dinner in a glamorous, experience‑driven atmosphere.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/crysandras-to-bring-an-upscale-social-dining-experience-to-boca-park/",
+      "published_date": "October 14, 2026"
     }
   ],
   "non_working": [
