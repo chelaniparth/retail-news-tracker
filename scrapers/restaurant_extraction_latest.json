@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-16",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -11690,6 +11690,416 @@
       "short_description": "Crysandra’s, an upscale social dining restaurant, is planned to open in Boca Park, Las Vegas, in March 2027. The venue will feature brunch, afternoon tea, cocktails and dinner in a glamorous, experience‑driven atmosphere.",
       "article_link": "https://whatnow.com/las-vegas/restaurants/crysandras-to-bring-an-upscale-social-dining-experience-to-boca-park/",
       "published_date": "October 14, 2026"
+    },
+    {
+      "store_name": "Asado Gaucho",
+      "location": "789 W Harbor Dr, San Diego, CA 92101, USA",
+      "event_type": "Opening",
+      "event_date": "April 2027",
+      "status": "Coming Soon",
+      "short_description": "Asado Gaucho is set to bring Argentine barbecue to downtown San Diego at 789 West Harbor Dr. The restaurant is listed as “Coming Soon” and the owner says the opening is targeted for April 2027 while the property undergoes renovation.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/asado-gaucho-to-bring-argentinian-barbecue-to-the-headquarters-drive/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Gig Harbor Wine Co.",
+      "location": "3202 Harborview Dr, Gig Harbor, WA 98335",
+      "event_type": "Opening",
+      "event_date": "before the end of 2026",
+      "status": "hopes to open before the end of 2026",
+      "short_description": "Gig Harbor Wine Co. plans to relocate its tasting room to 3202 Harborview Drive in downtown Gig Harbor. The owners say they hope to open before the end of 2026 but are awaiting permits and have not set an exact opening date.",
+      "article_link": "https://whatnow.com/seattle/restaurants/gig-harbor-wine-co-plans-downtown-move/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Penelope’s Coffee",
+      "location": "507 Main St, Windermere, FL 34786, USA",
+      "event_type": "Opening",
+      "event_date": "fall 2026",
+      "status": "preparing to open",
+      "short_description": "Penelope’s Coffee is preparing to open a new café at 507 Main St in downtown Windermere, Florida. Renovations are near completion and the café is expected to open in fall 2026, though no specific date has been announced.",
+      "article_link": "https://whatnow.com/orlando/restaurants/penelopes-coffee-plans-new-cafe-in-downtown-windermere-florida/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Dorothy’s Bar & Grill",
+      "location": "21409 John R Rd, Hazel Park, MI 48030",
+      "event_type": "Opening",
+      "event_date": "by the end of the year",
+      "status": "hoping to open by the end of the year",
+      "short_description": "Dorothy’s Bar & Grill is a new concept slated for 21409 John R Road in Hazel Park, Michigan. The developer hopes to open by the end of the year, with details on menu and drinks to be released closer to the opening.",
+      "article_link": "https://whatnow.com/detroit/restaurants/dorothys-to-bring-new-bar-and-grill-option-to-hazel-park/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "COJE Management Group – new concepts (Italian restaurant & members‑only club)",
+      "location": "10 Post Office Square, Boston, MA 02109",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "COJE Management Group intends to add at least two new concepts, including a Sicilian restaurant and a members‑only club, at 10 Post Office Square in Boston’s Financial District. Construction is underway but names, details and anticipated opening dates have not yet been announced.",
+      "article_link": "https://whatnow.com/boston/restaurants/coje-management-group-plans-at-least-two-new-concepts-in-downtown-boston/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Thibodeaux’s",
+      "location": "505 W Pont Des Mouton Rd, Lafayette, LA 70507",
+      "event_type": "Opening",
+      "event_date": "late October",
+      "status": "An opening date is set for late October",
+      "short_description": "Thibodeaux’s will replace The Original Patti at 505 W Pont Des Mouton Rd in Lafayette. The Cajun‑style restaurant is slated to open in late October. It will feature seafood, steaks, oysters and live music.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/popular-dining-location-in-lafayette-to-get-a-classic-cajun-concept/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Original Patti",
+      "location": "505 W Pont Des Mouton Rd, Lafayette, LA 70507",
+      "event_type": "Closing",
+      "event_date": "August 2026",
+      "status": "closed abruptly",
+      "short_description": "The Original Patti, which occupied 505 W Pont Des Mouton Rd in Lafayette, closed abruptly in August 2026. The space is being taken over by Thibodeaux’s.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/popular-dining-location-in-lafayette-to-get-a-classic-cajun-concept/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Sugar ’N Spice",
+      "location": "5269 E. 2nd St, Long Beach, CA 90803",
+      "event_type": "Opening",
+      "event_date": "first week of December",
+      "status": "opening is targeted for the first week of December",
+      "short_description": "Family‑owned Sugar ’N Spice is expanding to Belmont Shore in Long Beach, occupying the former European Wax Center at 5269 E. 2",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "Four Silos Coffee & Brewery at 143 S. Higley Rd in Gilbert has new owners, Neil and Julie Garcia, who took over on October 1. The couple plan to maintain the existing menu and live‑music format with no major changes announced.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/longtime-customers-take-over-four-silos-in-gilbert/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Bamboo Chinese Restaurant",
+      "location": "138 W Central Ave, Sutherlin, OR 97479, USA",
+      "event_type": "Opening",
+      "event_date": "January",
+      "status": "is opening",
+      "short_description": "Bamboo Chinese Restaurant will open at 138 W. Central Ave in Sutherlin, with the owner stating it will not open before January. The restaurant has applied for a liquor license and will serve Chinese cuisine on the city’s main commercial street.",
+      "article_link": "https://whatnow.com/portland/restaurants/bamboo-chinese-restaurant-is-coming-to-sutherlin/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Magic Collective",
+      "location": "4212 Magazine St, Uptown, (zip code not specified)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to open",
+      "short_description": "Magic Collective, an online fashion retailer with South Asian influences, is preparing to open its first brick‑and‑mortar boutique at 4212 Magazine St in Uptown. A city permit filing confirms the upcoming store will offer clothing, accessories, and select home merchandise.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/local-online-retailer-with-south-asian-influences-opening-magazine-street-shop/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Wild Eggs",
+      "location": "9814 Fry Rd, Suite 240, Cypress, TX 77433",
+      "event_type": "Opening",
+      "event_date": "early next year",
+      "status": "is set to open",
+      "short_description": "Wild Eggs, a breakfast‑brunch chain, is set to open its first Texas location in Cypress at 9814 Fry Rd, Suite 240. A permit shows construction has begun and is slated to finish by mid‑January 2027, with the restaurant expected to open early next year.",
+      "article_link": "https://whatnow.com/houston/restaurants/wild-eggs-popular-scratch-made-breakfast-brunch-and-lunch-restaurant-chain-to-debut-in-texas/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "What A Soup",
+      "location": "125 River St, Cambridge, MA 02139",
+      "event_type": "Closing",
+      "event_date": "October 10, 2026",
+      "status": "officially closed",
+      "short_description": "What A Soup, a Thai noodle‑soup restaurant at 125 River St, Cambridge, closed on October 10, 2026, ending its service at that location. The closure was reported by Boston Restaurant Talk.",
+      "article_link": "https://whatnow.com/boston/restaurants/enya-robatayaki-sake-bar-to-replace-what-a-soup-in-cambridge-this-fall/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "EN’YA Robatayaki & Sake Bar",
+      "location": "125 River St, Cambridge, MA 02139",
+      "event_type": "Opening",
+      "event_date": "later this fall",
+      "status": "expected to open later this fall",
+      "short_description": "EN’YA Robatayaki & Sake Bar will replace What A Soup at 125 River St, Cambridge, with plans to open later this fall. The",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Local Hive Pizza Co.",
+      "location": "8310 W Jefferson St, Peoria, AZ 85345",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "hopes to open in mid- to late November 2026. An exact date has not been set.",
+      "short_description": "Local Hive Pizza Co. plans to open its first permanent restaurant at Jefferson House in downtown Peoria. Owner Jamin Dunn said the opening is targeted for mid‑ to late November 2026, though no exact date is set. The location will feature a large courtyard, bar, and seating for over 300.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/local-hive-pizza-co-to-open-first-permanent-restaurant/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Tenth Line",
+      "location": "639 10th Ave., New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "The team is currently working through the permitting and licensing process.",
+      "short_description": "The Tenth Line gastropub will debut in the Scruffy Duffy’s space in Hell’s Kitchen. Co‑owners Eamon Donnelly and Aoife Canny plan to serve elevated pub fare once the permitting and licensing process is complete.",
+      "article_link": "https://whatnow.com/new-york/restaurants/the-tenth-line-gastropub-to-bring-elevated-pub-fare-to-hells-kitchen/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Kham Koon",
+      "location": "456 9th Ave., New York, NY 10018",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "The team is currently working through the permitting and licensing process.",
+      "short_description": "Kham Koon, a Thai‑Vietnamese fusion restaurant, is set to open in Midtown Manhattan with 14 tables and a service bar. Owner Ekachai Jui said the project is moving through permitting and licensing before opening.",
+      "article_link": "https://whatnow.com/new-york/restaurants/thai-vietnamese-fusion-restaurant-plans-midtown-manhattan-debut/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "K‑Town Korean BBQ",
+      "location": "4921 E Ray Rd, Suite 103, Phoenix, AZ 85044",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date has not been announced.",
+      "short_description": "K‑Town Korean BBQ plans to open in the former Wicked Brews, Bites & Spirits space in Ahwatukee. A liquor‑license application lists November 1, 2026 as the estimated completion date for renovations, but no opening date is given.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/k-town-korean-bbq-plans-ahwatukee-restaurant/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Boochie Bar",
+      "location": "5500 44th St SE, Grand Rapids, MI 49512",
+      "event_type": "Opening",
+      "event_date": "Nov. 15, 2026",
+      "status": "estimated opening date right now is Nov. 15.",
+      "short_description": "Boochie Bar will open its second location at Gerald R. Ford Airport’s Terminal B, offering acai bowls, wraps, and kombucha. Owner Jennifer Makowski estimates the opening for Nov. 15, 2026.",
+      "article_link": "https://whatnow.com/detroit/restaurants/rockfords-boochie-bar-to-serve-up-acai-bowls-at-gerald-r-ford-airport/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Linx Golf Bar",
+      "location": "101 S Main St #1, Wildwood, FL 34785",
+      "event_type": "Opening",
+      "event_date": "mid‑November",
+      "status": "preparing for an opening next month",
+      "short_description": "Linx Golf Bar is preparing to open a sports bar with golf simulators and a 9‑hole mini‑golf course in Wildwood. The venue will be at 101 S Main St., Suite 101 and is targeting a mid‑November opening. Owner Bryan Carraciolo says it will serve sandwiches, bar bites, and have a rooftop bar.",
+      "article_link": "https://whatnow.com/tampa/restaurants/linx-golf-bar-bringing-drinks-bar-bites-golf-simulators-and-9-hole-mini-golf-to-wildwood/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Muse Coffee",
+      "location": "1212 E 7th St, Suite 101, Austin, TX 78702",
+      "event_type": "Opening",
+      "event_date": "late February or early March 2027",
+      "status": "plans to open",
+      "short_description": "Muse Coffee intends to open its first brick‑and‑mortar café at 1212 E 7th Street, Suite 101 in Austin, according to a state filing. Owner Adryan Brown expects the café to open in late February or early March 2027 while the existing coffee truck will keep operating. The space is 1,300 sq ft in East Austin.",
+      "article_link": "https://whatnow.com/austin/restaurants/muse-coffee-plans-first-brick-and-mortar-cafe/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Future Self Brewing",
+      "location": "111 W 24th St., New York, NY 10011",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "proposed",
+      "short_description": "Future Self Brewing has submitted an application to open a microbrewery and restaurant at 111 W 24th St. in Chelsea. The plan includes a basement brewery with tours and a ground‑floor restaurant seating up to 165 guests. The project is still in the permitting and licensing stage.",
+      "article_link": "https://whatnow.com/new-york/restaurants/new-microbrewery-and-restaurant-proposed-for-chelsea/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Jake’s Place (Milly’s Pizza concept)",
+      "location": "4159 N Western Ave, Chicago, IL 60618",
+      "event_type": "Opening",
+      "event_date": "Dec. 1, 2026",
+      "status": "anticipating a Dec. 1 opening",
+      "short_description": "Milly’s Pizza is adding a new concept called “Jake’s Place” at the former Armand’s Pizzeria, 4159 N Western Avenue in Chicago’s North Center. Owner Robert Maleski says the location is slated to open on Dec. 1. The venue will serve thin‑crust pizzas similar to the brand’s other locations.",
+      "article_link": "https://whatnow.com/chicago/restaurants/millys-pizza-owner-preparing-jakes-place-concept-in-north-center/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Sassy Basskets",
+      "location": "330 S Bridge St, LaBelle, FL 33935",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "announced the future home of its restaurant",
+      "short_description": "Sassy Basskets announced plans for a downtown LaBelle brick‑and‑mortar restaurant at 330 S Bridge St. The brand’s Facebook page lists the location outside the",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Chalfont Tavern Pizza & Restaurant",
+      "location": "4 N Main St, Chalfont, PA 18914",
+      "event_type": "Closing",
+      "event_date": "December 2026",
+      "status": "preparing to shut its operations in December 2026",
+      "short_description": "The Italian‑American tavern announced it will close after less than a year of rebranding. The owners thanked the community and will remain open until the end of December 2026.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/neighborhood-staple-tavern-in-pennsylvania-is-preparing-to-close-this-december/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Gyro Project (Hell’s Kitchen)",
+      "location": "787 8th Ave., New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming soon",
+      "short_description": "The modern Greek fast‑casual chain is adding a new Hell’s Kitchen location. Signage is up and the website states the venue is “Coming soon.”",
+      "article_link": "https://whatnow.com/new-york/restaurants/the-gyro-project-expands-manhattan-footprint-with-2-new-locations/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Gyro Project (Union Square)",
+      "location": "107 E 14th St., New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Coming soon",
+      "short_description": "A second Manhattan expansion will bring The Gyro Project to Union Square. The location is announced but no opening date has been given.",
+      "article_link": "https://whatnow.com/new-york/restaurants/the-gyro-project-expands-manhattan-footprint-with-2-new-locations/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Grain & Berry",
+      "location": "19830 Wellen Pk Blvd suite 6106, Venice, FL 34293",
+      "event_type": "Opening",
+      "event_date": "December 5, 2026",
+      "status": "working toward a launch on December 5",
+      "short_description": "The healthy fast‑casual concept is set to open in Venice’s Wellen Park. A representative said the launch is planned for December 5, 2026.",
+      "article_link": "https://whatnow.com/tampa/restaurants/grain-berry-opening-in-venices-wellen-park/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Dirty Latte Co.",
+      "location": "1620 26th St, Santa Monica, CA 90404",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has established its first brick & mortar location",
+      "short_description": "Dirty Latte Co., a Los Angeles specialty‑coffee brand, opened its first permanent café at Water Garden in Santa Monica. The 800‑sq‑ft space replaces the original coffee cart.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/dirty-latte-co-opens-first-brick-mortar-cafe-at-water-garden-in-santa-monica/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Puesto",
+      "location": "991 Exchange Lane, Nashville, TN 37203",
+      "event_type": "Opening",
+      "event_date": "Oct. 23, 2026",
+      "status": "will open",
+      "short_description": "Puesto will debut in Nashville Yards on Friday, Oct. 23, marking its first location outside California. The 380‑seat restaurant will feature indoor and outdoor dining areas.",
+      "article_link": "https://whatnow.com/nashville/restaurants/puesto-makes-tennessee-debut-with-opening-of-nashville-yards-location/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Lulu Green (South Boston location)",
+      "location": "246 West Broadway, Boston, MA 02127",
+      "event_type": "Closing",
+      "event_date": "Saturday, October 17",
+      "status": "closing permanently on Saturday, October 17",
+      "short_description": "Lulu Green announced the closure of its South Boston cafe at 246 West Broadway. The restaurant will close permanently on Saturday, October 17 after seven years of operation. Its second location in Kendall Square, Cambridge will remain open.",
+      "article_link": "https://whatnow.com/boston/restaurants/a-vegan-restaurant-in-boston-is-consolidating-its-operations-at-one-location/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Independent Pizzeria",
+      "location": "4235 E Madison St, Seattle, WA 98112",
+      "event_type": "Closing",
+      "event_date": "October 16",
+      "status": "preparing to close permanently",
+      "short_description": "The Independent Pizzeria, a family‑owned wood‑fired pizza shop in Seattle, is preparing to close permanently. The owners will serve the last slice on October 16, two days earlier than originally planned. They are also working on handing the space to new owners.",
+      "article_link": "https://whatnow.com/seattle/restaurants/after-nearly-17-years-a-madison-street-pizzeria-bids-farewell/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Scruffy Duffy’s Sports Bar",
+      "location": "639 10th Ave, New York, NY 10036",
+      "event_type": "Closing",
+      "event_date": "November 29",
+      "status": "closing its doors permanently",
+      "short_description": "Scruffy Duffy’s Sports Bar announced it will close its doors permanently on November 29. The bar, a longtime Hell’s Kitchen gathering spot, thanked the community in its closure announcement. The venue will cease operations after nearly three decades.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-hells-kitchen-gathering-spot-will-shut-down-at-the-end-of-november/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Deb",
+      "location": "516 N West St, Raleigh, NC 27603",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting a late‑fall opening",
+      "short_description": "The Deb, an all‑day wine bar and lounge, is slated to take over the former Garlic Bay sandwich counter at 516 N. West St. The concept blends Italian, French, and Asian influences and is targeting a late‑fall opening. It is being developed by the team behind CUYA Cafe + Cocina.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/smoky-hollow-expecting-an-all-day-wine-bar-and-fusion-tapas-spot/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Cup A Joe (third location)",
+      "location": "Hillsborough & Gorman, Raleigh, NC 27607",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand",
+      "short_description": "Cup A Joe is preparing to expand with a third location at the intersection of Hillsborough and Gorman streets. The family‑owned coffee shop has signed a lease for the former restaurant space and is in the beginning stages of planning. The new site will be less than a mile from its original location.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/cup-a-joe-plans-a-third-location/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Tin Roof 2",
+      "location": "9135 Carothers Pkwy #100, Franklin, TN",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Tanoor Lebanese Grill & BBQ",
+      "location": "1905 S 72nd St, Tacoma, WA 98408",
+      "event_type": "Opening",
+      "event_date": "January or February 2027",
+      "status": "hopes to welcome customers in early 2027",
+      "short_description": "Tanoor Lebanese Grill & BBQ plans to open a fourth restaurant in Tacoma at 1905 S 72nd Street, taking over the former Famous Dave’s space. Owner Wassim Fayed expects to welcome customers in early 2027, likely January or February, with two banquet halls and a menu that adds halal barbecue. The location will be the chain’s largest at 8,800 sq ft.",
+      "article_link": "https://whatnow.com/seattle/restaurants/tanoor-plans-fourth-restaurant-in-tacoma/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "The Pocket",
+      "location": "1332 F St NW, Washington, DC 20004",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date not yet set",
+      "short_description": "The Pocket, a large bar with pool tables and food, is slated for the National Press Building at 1332 F Street NW in Washington, D.C. The 12,000‑sq‑ft space will feature nine pool tables, two bars, and a tavern‑style menu. An opening date has not yet been set, but the owner anticipates being ready in about three months.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/the-pocket-bringing-pool-food-and-libations-to-dc/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Baltik’s Bagel",
+      "location": "2022 Jefferson Ave, Richmond, VA 23223",
+      "event_type": "Opening",
+      "event_date": "next month",
+      "status": "aiming to be customer‑ready next month",
+      "short_description": "Baltik’s Bagel will open its second location in the former Alamo BBQ space at 2022 Jefferson Avenue in Richmond’s Church Hill. Founder Yero Rudzinskas says the bakery aims to be customer‑ready next month, continuing its scratch‑made bagels. No official opening date has been announced.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/richmond-bagel-heavy-hitter-sets-sights-on-church-hill/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Shuckin’ Shack Oyster Bar",
+      "location": "2151 Boyce Street",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "headed into the construction phase",
+      "short_description": "Shuckin’ Shack Oyster Bar, a growing franchise with about 18 locations, is constructing its fifth South Carolina restaurant in Columbia’s BullStreet District. The new spot will be at 2151 Boyce Street and will feature oysters, po‑boys, fish and chips, and other seafood favorites. The project is currently in the construction phase.",
+      "article_link": "https://whatnow.com/charleston/restaurants/shuckin-shack-oyster-bar-opening-in-columbias-bullstreet-district/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Dave’s Hot Chicken",
+      "location": "2550 Augusta Hwy, Lexington, SC 29072",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "No opening date has been announced yet for the Victory Village location.",
+      "short_description": "Dave’s Hot Chicken is set to join the new Victory Village retail center in Lexington, SC. The article notes the broader retail transformation along Augusta Highway but does not provide an opening date for this location.",
+      "article_link": "https://whatnow.com/charleston/restaurants/opening-at-victory-village-daves-hot-chicken/",
+      "published_date": "October 15, 2026"
     }
   ],
   "non_working": [
