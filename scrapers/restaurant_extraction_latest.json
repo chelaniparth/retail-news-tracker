@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -12099,6 +12099,326 @@
       "status": "No opening date has been announced yet for the Victory Village location.",
       "short_description": "Dave’s Hot Chicken is set to join the new Victory Village retail center in Lexington, SC. The article notes the broader retail transformation along Augusta Highway but does not provide an opening date for this location.",
       "article_link": "https://whatnow.com/charleston/restaurants/opening-at-victory-village-daves-hot-chicken/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Nicosu Lounge",
+      "location": "221 Newell Ave, San Antonio, TX 78215, USA",
+      "event_type": "Remodel",
+      "event_date": "November 1, 2026",
+      "status": "planning a renovation",
+      "short_description": "Nicosi Lounge is planning to convert its existing dining room at Pullman Market into a listening lounge. The Texas licensing filing lists a projected start date of November 1 2026 and an expected completion on January 29 2027. No opening date has been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/nicosi-lounge-plans-new-listening-lounge-at-pullman-market/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Hopdoddy Burger Bar",
+      "location": "18574 IH 35 N.",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "aiming to open",
+      "short_description": "Hopdoddy Burger Bar intends to open its first Schertz, Texas location in the Schertz Station development. Construction is slated to finish by early April 2027, and the company hopes to open in spring or summer 2027, though no exact date is given.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/hopdoddy-burger-bar-set-to-open-first-schertz-location-in-2027/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "ASTROLAB Matcha Studio",
+      "location": "1600 W Lane Ave, Upper Arlington, OH 43221, USA",
+      "event_type": "Opening",
+      "event_date": "tomorrow",
+      "status": "scheduled to open tomorrow",
+      "short_description": "ASTROLAB Matcha Studio, a new matcha concept by Jason Lam, will open in Upper Arlington, Ohio at 1600 W. Lane Avenue, Suite 160. The announcement says the studio is scheduled to open tomorrow. No further details were provided.",
+      "article_link": "https://whatnow.com/columbus/restaurants/astrolab-matcha-studio-set-to-open-in-ohio/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Hawaiian Bros Island Grill",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will bring",
+      "short_description": "Hawaiian Bros Island Grill has signed a 52‑unit franchise agreement with Southern Rock Restaurants to bring the concept to Florida markets, including Tampa. Specific Tampa locations and opening timelines have not been disclosed.",
+      "article_link": "https://whatnow.com/tampa/restaurants/52-unit-development-deal-will-bring-hawaiian-bros-island-grill-to-tampa/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Nocterra Brewing",
+      "location": "41 Depot St, Powell, OH 43065, USA",
+      "event_type": "Closing",
+      "event_date": "August 31",
+      "status": "closed",
+      "short_description": "Nocterra Brewing closed its two Central Ohio taprooms on August 31 2026, with the Powell location at 41 Depot St and the former Audubon location at 516 Maier Place. The closures were described as a temporary pause, and no reopening date has been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/nocterra-brewing-hints-at-possible-return-to-central-ohio/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "The Old Mohawk",
+      "location": "819 Mohawk St, Columbus, OH 43206, USA",
+      "event_type": "Remodel",
+      "event_date": "October 7",
+      "status": "partial approval",
+      "short_description": "The Old Mohawk received partial approval from the German Village Commission to expand its first‑floor dining room and patio and to add roof dormers, while other elements were rejected. The proposal was reviewed at an October 7 meeting. The restaurant’s new owners plan to submit revised plans for the remaining changes.",
+      "article_link": "https://whatnow.com/columbus/restaurants/the-old-mohawk-gets-partial-approval-for-expansion-in-german-village/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "A Bar Called PUP",
+      "location": "5932 Hamilton Ave, Cincinnati, OH 45224, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "A Bar Called PUP is set to open a new wine bar and restaurant in Cincinnati’s College Hill neighborhood, taking over the former Kiki space at 5932 Hamilton Ave. Developers Katie Reeder and chef Justin Koontz aim to offer a curated wine list and creative food menu. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/a-bar-called-pup-to-bring-new-wine-bar-and-restaurant-to-cincinnati/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Tropical Smoothie Cafe (Innovation Springs)",
+      "location": "7812 Invention Rd, Wesley Chapel, FL 33545",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Hariras LLC submitted plans for a Tropical Smoothie Cafe at the corner of Overpass Road and Curley Road in Wesley Chapel, located at 7812 Invention Rd. The planned location would add smoothies, flatbreads, and acai bowls to the Innovation Springs development. No opening date has been announced.",
+      "article_link": "https://whatnow.com/tampa/restaurants/new-tropical-smoothie-cafe-planned-for-wesley-chapel/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Linea (Campagna Hospitality Group)",
+      "location": "465 5th Ave S, Naples, FL 34102",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Campagna Hospitality Group’s Stellapirelli LLC filed a plan review for a new restaurant called “Linea” at 465 Fifth Ave S in Naples. The project would become the group’s fifth concept, situated near existing local eateries. The group has not confirmed the project and no opening date is provided.",
+      "article_link": "https://whatnow.com/tampa/restaurants/team-behind-osteria-tulia-looks-to-be-at-work-on-a-new-restaurant-in-naples/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Opinions Sports Bar & Grill",
+      "location": "19201 Cortez Blvd, Brooksville, FL 34601",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "reopening",
+      "short_description": "Opinions Sports Bar & Grill is preparing to reopen at 19201 Cortez Blvd in Brooksville after submitting plan review documents for “Opinions Sports Bar N Grill.” The bar’s Facebook posts indicate strong community anticipation. An opening date has not been disclosed.",
+      "article_link": "https://whatnow.com/tampa/restaurants/opinions-sports-bar-grill-reopening-in-brooksville/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Barry’s Jerk Delight",
+      "location": "3100 SW College Rd, Suite 334, Ocala, FL 34474",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening",
+      "short_description": "Plan review paperwork shows Barry’s Jerk Delight will open at the Paddock Artisan Market location in Ocala. The article notes the business previously closed in the Ocala Mall and is now planning a return. Owner was not available for comment.",
+      "article_link": "https://whatnow.com/tampa/restaurants/barrys-jerk-delight-looks-to-be-coming-back-to-ocala/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Sunset Grill",
+      "location": "North York, ON M6L 1A7, Canada",
+      "event_type": "Opening",
+      "event_date": "Fall 2026",
+      "status": "preparing to open",
+      "short_description": "Sunset Grill is preparing to open a new Toronto location near Keele Street and Lawrence Avenue. The site is listed on the chain’s “Coming Soon Locations” page for a fall 2026 opening, but no exact address or grand‑opening date has been announced.",
+      "article_link": "https://whatnow.com/toronto/restaurants/sunset-grill-plans-new-toronto-location-for-fall-2026-opening/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Blue Willy’s Barbecue",
+      "location": "1190 E Commercial Blvd, Oakland Park, FL 33334, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "set to return",
+      "short_description": "Blue Willy’s Barbecue appears in a new DBPR filing for a restaurant project at its former Oakland Park address. The filing is an initial plan review and does not confirm a construction timeline or opening date. It is unclear if the project is a reopening, renovation, or other change.",
+      "article_link": "https://whatnow.com/miami/restaurants/blue-willys-barbecue-set-to-return-to-oakland-park/",
+      "published_date": "October 17, 2026"
+    },
+    {
+      "store_name": "Mizzica Gelateria & Cafe",
+      "location": "1080 St Clair Ave W, Toronto, ON M6E 1A7, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Mizzica Gelateria & Cafe is preparing to open its third Toronto location on St. Clair Avenue West, with signage already installed. An official opening date has not been announced, but the space appears to be progressing toward its debut.",
+      "article_link": "https://whatnow.com/toronto/restaurants/mizzica-gelateria-cafe-to-open-third-toronto-location/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Wingstop",
+      "location": "3189 Denton Hwy, Suite 40, Haltom City, TX 76117, USA",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "planning",
+      "short_description": "Wingstop is planning a new location in Haltom City, with public filings showing construction slated to begin in late December 2026 and a completion target of March 2027. The franchisee did not respond for comment, and dates in filings are not always definitive.",
+      "article_link": "https://whatnow.com/dallas/restaurants/wingstop-plans-to-open-new-location-in-haltom-city/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "CasaGela",
+      "location": "1345 Kingwood Dr, Kingwood, TX 77339",
+      "event_type": "Opening",
+      "event_date": "Spring 2027",
+      "status": "anticipated to open",
+      "short_description": "CasaGela is preparing its US debut in Greater Houston, choosing The Shoppes at Kingsgate, 1345 Kingwood Drive, Suite A as its first location. The company filed a Texas permit and plans to open the Kingwood CasaGela in Spring 2027, featuring in‑house gelato made by Italian chefs.",
+      "article_link": "https://whatnow.com/houston/restaurants/casagela-to-open-first-us-flagship-gelato-and-coffee-house-in-greater-houston/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Bacari",
+      "location": "451 Manhattan Beach Blvd, Manhattan Beach, CA 90266, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand",
+      "short_description": "Bacari intends to bring its Mediterranean small‑plates concept to Manhattan Beach, locating at 451 Manhattan Beach Boulevard, Suite B110. Public filings show the restaurant is preparing to expand, though no opening date has been provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/bacari-to-bring-its-small-plates-concept-to-manhattan-beach/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Oblix",
+      "location": "50 Park Plaza, Boston, MA 02116",
+      "event_type": "Opening",
+      "event_date": "end of July 2027",
+      "status": "expected to open",
+      "short_description": "Oblix, a London‑based upscale restaurant and bar, plans its first U.S. location at the Hilton Boston Park Plaza Hotel, 50 Park Plaza, Boston, MA. The new venue is slated to open toward the end of July 2027 and will occupy the former Strip by Strega space.",
+      "article_link": "https://whatnow.com/boston/restaurants/londons-oblix-restaurant-coming-to-bostons-back-bay-in-2027/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Lacy Burger",
+      "location": "42 Main St, Hopkinton, MA 01748",
+      "event_type": "Opening",
+      "event_date": "before end of November 2026",
+      "status": "targeting an opening",
+      "short_description": "Blue Square Pizza founder Troy Sproul is launching Lacy Burger behind the original Blue Square Pizza at 42 Main Street, Hopkinton, MA. Sproul says the concept aims to open before the end of November 2026, offering a limited smash‑burger menu and arcade games.",
+      "article_link": "https://whatnow.com/boston/restaurants/blue-square-pizza-founder-to-launch-new-smashburger-spot-in-hopkinton/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Sugar ’N Spice",
+      "location": "5269 E. 2nd St., Long Beach, CA 90803",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "targeted for the first week of December",
+      "short_description": "The family‑owned Sugar ’N Spice is expanding from its Balboa Island location to Belmont Shore in Long Beach. The new shop will occupy the former European Wax Center space at 5269 E. 2nd St. and is aimed to open in the first week of December, pending permits and construction.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/sugar-n-spice-to-open-belmont-shore-location-in-december/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Zaika PSL Indian Cuisine",
+      "location": "2860 SW Port St Lucie Blvd, Port St. Lucie, FL 34953, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "Zaika PSL Indian Cuisine filed a DBPR plan‑review indicating a new restaurant will be built at 2860 SW Port St Lucie Blvd. The filing, dated October 7 2026, shows the project is still in the planning stage with no confirmed opening date or construction details.",
+      "article_link": "https://whatnow.com/orlando/restaurants/zaika-psl-indian-cuisine-plans-new-restaurant-in-port-st-lucie-florida/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Battle Grounds Gaming Cafe",
+      "location": "1005 Broadway St, Vancouver, WA 98660, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "open no later than early January 2027",
+      "short_description": "Battle Grounds Gaming Cafe is opening a new 4,119‑sq‑ft location at 1005 Broadway in downtown Vancouver, Washington. The cafe plans to open no later than early January 2027, with a possible open house in mid‑December, and will feature a cafe, gaming area, retail space, and private rooms.",
+      "article_link": "https://whatnow.com/portland/restaurants/battle-grounds-gaming-cafe-is-moving-to-downtown-vancouver/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Battle Grounds Gaming Cafe",
+      "location": "3738 NE Sandy Blvd, Portland",
+      "event_type": "Closing",
+      "event_date": "August",
+      "status": "closed in August",
+      "short_description": "The Battle Grounds Gaming Cafe is moving from its Portland Hollywood District location at 3738 NE Sandy Blvd, where it operated for about two and a half years. The Portland site closed in August as the business prepares to relocate to Vancouver, WA.",
+      "article_link": "https://whatnow.com/portland/restaurants/battle-grounds-gaming-cafe-is-moving-to-downtown-vancouver/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "401 E. Las Olas Blvd, Suite 125, Fort Lauderdale, FL 33301",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned to open",
+      "short_description": "Joe & The Juice filed a permit to open its first Fort Lauderdale storefront at 401 E. Las Olas Blvd, Suite 125 in the Las Olas City Centre. The brand expects to open later this year or early next year, though no specific date has been announced.",
+      "article_link": "https://whatnow.com/miami/restaurants/joe-and-the-juice-is-coming-to-ft-lauderdale/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Sassy Basskets",
+      "location": "330 S Bridge St, LaBelle, FL 33935",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Sassy Basskets announced plans for a new brick‑and‑mortar location at 330 S Bridge St in downtown LaBelle, FL. The restaurant currently operates from a mobile setup and the plan review documents indicate a future opening at that address. No opening date was provided.",
+      "article_link": "https://whatnow.com/tampa/restaurants/sassy-basskets-plans-downtown-labelle-opening/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Tin Roof 2",
+      "location": "9135 Carothers Pkwy #100, Franklin, TN 37067",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closing",
+      "short_description": "Tin Roof 2 announced it would be closing after nearly 20 years of operation. New ownership acquired the bar’s assets this week. The closure follows issues with the Franklin Beer Board and numerous police calls.",
+      "article_link": "https://whatnow.com/nashville/restaurants/tin-roof-2-rebrands-as-the-rafters-under-new-ownership/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "The Rafters",
+      "location": "9135 Carothers Pkwy #100, Franklin, TN 37067",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "awaiting a new beer permit and liquor license",
+      "short_description": "The Rafters is the new name for the former Tin Roof 2 under new ownership. The kitchen is operating while the venue awaits a new beer permit and liquor license. Adjusted hours and a more family‑friendly atmosphere are planned.",
+      "article_link": "https://whatnow.com/nashville/restaurants/tin-roof-2-rebrands-as-the-rafters-under-new-ownership/",
+      "published_date": "October 16, 2026"
+    },
+    {
+      "store_name": "Desert Soul Lounge",
+      "location": "711 S Central Ave, Phoenix, AZ 85004",
+      "event_type": "Opening",
+      "event_date": "late November 2026",
+      "status": "soft opening in late November 2026, followed by a grand opening in the first weeks of December",
+      "short_description": "Desert Soul Lounge is slated to occupy the former Plush Kitchen space at 711 S. Central Avenue in Phoenix. Owner Jeff Sheard plans a soft opening in late November 2026 followed by a grand opening in the first weeks of December, featuring Caribbean‑soul cuisine and live R&B music.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/desert-soul-lounge-bringing-live-rb-to-phoenix/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "The Harbor Hideout",
+      "location": "3207 57th St Ct, Gig Harbor, WA 98335",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "now operates as The Harbor Hideout",
+      "short_description": "The former Locust Cider taproom at 3207 57th Street Court in Gig Harbor has reopened under new ownership as The Harbor Hideout. New owner Arthur Rodenhauser will retain the existing staff and arcade games while seeking approvals to add food.",
+      "article_link": "https://whatnow.com/seattle/restaurants/locust-ciders-gig-harbor-taproom-becomes-the-harbor-hideout/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Locust Cider (Gig Harbor taproom)",
+      "location": "3207 57th St Ct, Gig Harbor, WA 98335",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "will no longer operate its own taprooms",
+      "short_description": "Locust Cider announced it will cease operating its own taprooms, including the Gig Harbor location, and will focus on wholesale cider production. The taproom’s staff and brand will remain on tap under the new Harbor Hideout.",
+      "article_link": "https://whatnow.com/seattle/restaurants/locust-ciders-gig-harbor-taproom-becomes-the-harbor-hideout/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Emberance",
+      "location": "7667 N 16th St, Phoenix, AZ 85020",
+      "event_type": "Opening",
+      "event_date": "late fall 2026",
+      "status": "plans to open in late fall 2026",
+      "short_description": "Emberance is set to open in late fall 2026 at the Hilton Phoenix Resort at The Peak, 7667 N. 16th Street. The 7,366‑square‑foot restaurant will serve breakfast, lunch and dinner with a menu inspired by the Sonoran Desert.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/emberance-plans-late-fall-opening-in-phoenix/",
+      "published_date": "October 15, 2026"
+    },
+    {
+      "store_name": "Juke Garden",
+      "location": "1016 M.L.K. Jr Way, Tacoma, WA 98405",
+      "event_type": "Opening",
+      "event_date": "November 7, 2026",
+      "status": "targeting November 7 for a soft opening",
+      "short_description": "Juke Garden, a Black‑owned cocktail lounge and event space, plans a soft opening on November 7, 2026 at 1016 Martin Luther King Jr Way in Tacoma’s Hilltop neighborhood. The venue will feature an open dance floor, DJ platform, lounge seating and a private karaoke room.",
+      "article_link": "https://whatnow.com/seattle/restaurants/juke-garden-to-open-a-cocktail-lounge-in-tacoma/",
       "published_date": "October 15, 2026"
     }
   ],
