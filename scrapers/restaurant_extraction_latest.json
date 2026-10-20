@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-20",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -12589,6 +12589,196 @@
       "status": "coming soon",
       "short_description": "Easy Açaí plans to open a shop at Nocatee Town Center, taking over the former Clean Juice space to serve Brazilian açaí bowls, fruit juices and pastries. The company lists the location as “coming soon” and has not provided an exact opening date.",
       "article_link": "https://whatnow.com/jacksonville/restaurants/easy-acai-is-bringing-a-taste-of-brazil-to-nocatee-town-center/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Bean Our Guest",
+      "location": "4354 Tujunga Ave, Studio City, CA 91604, USA",
+      "event_type": "Opening",
+      "event_date": "late November 2026",
+      "status": "opening is targeted for late November 2026",
+      "short_description": "Bean Our Guest is preparing a new coffee café at 4354 Tujunga Ave in Studio City. The concept will serve Puerto Rican coffee and typical café staples, with a planned opening in late November 2026.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/bean-our-guest-to-open-new-cafe-in-studio-city/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Pita Inn",
+      "location": "4035 N Cicero Ave, Chicago, IL 60641",
+      "event_type": "Opening",
+      "event_date": "this winter",
+      "status": "exact opening date has not been announced, but it will debut sometime this winter",
+      "short_description": "Pita Inn is adding a new location at 4035 N Cicero Avenue in Chicago’s Six Corners plaza. Signage is up and the site replaces a former Sears Auto Center, with an opening expected sometime this winter.",
+      "article_link": "https://whatnow.com/chicago/restaurants/pita-inn-team-introducing-newest-location-at-six-corners-in-old-irving-park/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Cafe Tanjarine",
+      "location": "3801 Washington Ave, New Orleans, LA 70125",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming fast‑casual restaurant is coming to the Hoffman Triangle",
+      "short_description": "Cafe Tanjarine plans to open a brick‑and‑mortar fast‑casual spot at 3801 Washington Ave in New Orleans’ Hoffman Triangle. The menu will feature West African dishes and plant‑based options, expanding from its Tanjariné Kitchen food truck.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/upcoming-spot-bringing-plant-based-fare-and-international-flavors-to-the-hoffman-triangle/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Bar Nostra",
+      "location": "2101 Chestnut St., Philadelphia, PA 19103",
+      "event_type": "Opening",
+      "event_date": "late fall",
+      "status": "awaiting construction completion and final approvals, with plans to open by late fall",
+      "short_description": "Bar Nostra will take over the former Mix Bar and Grill space at 2101 Chestnut St in Center City. The wood‑fired pizza concept, featuring international fusion toppings, is slated to open by late fall after renovations.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/bar-nostra-to-bring-international-fusion-pizzas-to-center-city-this-fall/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Heytea",
+      "location": "863 Broadway, New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "October 16",
+      "status": "has opened",
+      "short_description": "Heytea opened its first U.S. Gelato Lab+ store at 863 Broadway in Union Square on October 16. The location offers fresh gelato and sorbet flavors and includes limited‑edition collaborations through the end of October.",
+      "article_link": "https://whatnow.com/new-york/restaurants/beverage-brand-makes-its-u-s-gelato-lab-debut-with-new-store-in-nyc/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Temaki Bar",
+      "location": "575 S Coast Hwy 101, Encinitas, CA 92024",
+      "event_type": "Opening",
+      "event_date": "Monday, Oct. 19",
+      "status": "will reopen on Monday, Oct. 19",
+      "short_description": "Temaki Bar, a sushi spot in Encinitas, is set to reopen on Monday, Oct. 19 after a fire that temporarily closed it in early September. The restaurant will donate proceeds from a specialty hand roll to the Encinitas Firefighter’s Association and will resume its regular menu and monthly bingo night.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/temaki-bar-handroll-sushi-sake-sets-reopening-date-following-september-fire/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Moondog Pub & Grub",
+      "location": "5077 Peachtree Rd, Chamblee, GA 30341",
+      "event_type": "Closing",
+      "event_date": "October 30",
+      "status": "will be closing on October 30",
+      "short_description": "Moondog Pub & Grub, a neighborhood pub in Chamblee, announced it will close its doors on October 30 due to financial challenges. The owners invited the community to visit for a final two weeks, with closing performances scheduled before the shutdown.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/chamblee-neighborhood-pub-to-close-its-doors-this-month/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Havana Harry’s",
+      "location": "4612 S Le Jeune Rd, Coral Gables, FL 33146",
+      "event_type": "Opening",
+      "event_date": "Monday, October 19",
+      "status": "returns to Coral Gables on Monday October 19",
+      "short_description": "Havana Harry’s, a Cuban comfort‑food restaurant in Coral Gables, is re‑opening on Monday, October 19, initially for lunch and dinner with breakfast returning Dec 1. The first 50 diners will receive a $20 gift card and a week‑long promotion offers a free menu item for diners spending $10.",
+      "article_link": "https://whatnow.com/miami/restaurants/havana-harrys-re-opens-in-coral-gables-on-monday-october-19/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Zio Fraedo’s",
+      "location": "23 Harbor Way, Vallejo, CA 94590, United States",
+      "event_type": "Closing",
+      "event_date": "Sunday, October 25",
+      "status": "will be closing on Sunday, October 25",
+      "short_description": "Zio Fraedo’s, a waterfront Italian restaurant in Vallejo, announced it will close on Sunday, October 25 after two decades due to rising rent and landlord issues. The owners thanked the community and encouraged a final visit before the shutdown.",
+      "article_link": "https://whatnow",
+      "published_date": ""
+    },
+    {
+      "store_name": "Zoto’s Diner",
+      "location": "1100 Bethlehem Pike, Line Lexington, PA 18932",
+      "event_type": "Closing",
+      "event_date": "October 25, 2026",
+      "status": "closing its doors permanently",
+      "short_description": "Zoto’s Diner, a longtime American diner in Line Lexington, Pennsylvania, announced it will close permanently after 53 years of service. The owners said the final day of service will be Sunday, October 25, 2026. The property is slated for demolition to make way for a new Sheetz convenience store.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/historical-pennsylvania-diner-to-close-after-more-than-five-decades-of-service/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Yemeni Cafe",
+      "location": "403 Irving St, San Francisco, CA 94122",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "A Yemeni cafe and dessert lounge is planned for 403 Irving St. in San Francisco, occupying the former Shin Dig venue. Owner Yahya Munsar of KJ Produce intends to open the cafe early next year with a full coffee bar and late‑night hours. The announcement notes the space has remained vacant since around 2020.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/yemeni-cafe-planning-inner-sunset-opening/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Bacio di Latte",
+      "location": "1500 Mt Diablo Blvd, Walnut Creek, CA 94596",
+      "event_type": "Opening",
+      "event_date": "Dec. 11, 2026",
+      "status": "scheduled a grand opening for Dec. 11, 2026",
+      "short_description": "Bacio di Latte will open a gelato shop at 1500 Mt Diablo Blvd. in Walnut Creek, taking over the former Vineyard Vines space. The shop has scheduled a grand opening for Dec. 11, 2026. The location will feature over 22 flavors and a separate tea chain unit.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/bacio-di-latte-to-open-in-walnut-creek-in-december/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Beignets & Brew",
+      "location": "11345 Legacy Ave, Building 11, Suite 300, Palm Beach Gardens, FL 33410",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Beignets & Brew is set to open at 11345 Legacy Ave., Building 11, Suite 300 in Palm Beach Gardens,",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Wonder",
+      "location": "18011 Garland Groh Blvd, Hagerstown, MD 21740",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "opening soon",
+      "short_description": "Wonder, a fast‑casual mealtime platform, is setting up shop in Hagerstown. The company says the restaurant will open at some point in November, though a precise date is not yet available. The location will feature a small dine‑in area with about six seats.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/a-new-maryland-wonder-is-on-the-horizon/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "LongHorn Steakhouse",
+      "location": "2800 Innovation Blvd, Hutto, TX 78634",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "LongHorn Steakhouse filed a project registration to build a new restaurant at 2800 Innovation Blvd in the Innovation Business Park. No size, hiring plans, or opening date have been announced. The filing indicates the chain is planning the construction of the new location.",
+      "article_link": "https://whatnow.com/austin/restaurants/longhorn-steakhouse-planning-new-texas-restaurant/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "The Yard",
+      "location": "1521 Mt Diablo Blvd, Walnut Creek, CA 94596",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "might open",
+      "short_description": "A license application shows that The Yard may open at 1521 Mt Diablo Blvd in Walnut Creek. The application is tied to Jeffrey Dudum of Diablo Restaurant Group, but no menu, concept, or opening date has been released. The business currently has no website or social‑media presence.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/the-yard-might-be-planning-walnut-creek-opening/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "SENA",
+      "location": "2695 E Katella Ave, Anaheim, CA 92806",
+      "event_type": "Opening",
+      "event_date": "2029",
+      "status": "expected to open in 2029",
+      "short_description": "SENA, a Marriott Autograph Collection hotel, will open at OCVIBE with a signature restaurant from Chef José Andrés. The hotel and its dining venue are slated to open in 2029 as part of the mixed‑use development surrounding the Honda Center.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/sena-to-open-at-ocvibe-in-anaheim-in-2029/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Mezza Mediterranean Kitchen & Tap",
+      "location": "28120 Jefferson Ave, Temecula, CA 92590",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Mezza Mediterranean Kitchen & Tap filed a beer‑and‑wine license to open at 28120 Jefferson Ave, Suite A101 in Temecula. The application indicates the restaurant will serve Mediterranean dishes and draft beer, but no menu or opening date has been disclosed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/mezza-mediterranean-kitchen-tap-planning-temecula-restaurant/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Flavor Hive",
+      "location": "11500 Midlothian Turnpike, Richmond, VA 23235",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening a new location",
+      "short_description": "Flavor Hive is planning a new Chesterfield County restaurant at 11500 Midlothian Turnpike, the former Five Guys site. An opening timeline has not been announced, though a manager says they aim to open before the end of the year.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/flavor-hive-working-on-chesterfield-county-location/",
       "published_date": "October 18, 2026"
     }
   ],
