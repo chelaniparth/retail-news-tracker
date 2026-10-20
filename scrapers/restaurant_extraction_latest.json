@@ -12780,6 +12780,346 @@
       "short_description": "Flavor Hive is planning a new Chesterfield County restaurant at 11500 Midlothian Turnpike, the former Five Guys site. An opening timeline has not been announced, though a manager says they aim to open before the end of the year.",
       "article_link": "https://whatnow.com/washington-dc/restaurants/flavor-hive-working-on-chesterfield-county-location/",
       "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Taco Spot",
+      "location": "1770 N Germantown Pkwy, Cordova, TN 38016",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in review",
+      "short_description": "Taco Spot has filed a certificate of occupancy application for a new 1,400‑sq‑ft taco shop at 1770 N Germantown Parkway in Cordova. The application is “in review” as of October 19 and a sign permit was submitted on October 20, indicating the project is moving forward.",
+      "article_link": "https://whatnow.com/memphis/restaurants/taco-spot-makes-cordova-plans/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "O’Laichii Cafe",
+      "location": "1490 Eureka Rd, Suite 170, Roseville, CA 95661, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to announce a grand opening date",
+      "short_description": "O’Laichii Cafe is taking over an existing cafe space at 1490 Eureka Road, Suite 170 in Roseville and is preparing to announce a grand opening date. Owner Hardeep Hundal says the opening is expected in the coming weeks.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/olaichii-cafe-is-taking-over-a-cafe-space-in-roseville/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Mezzmiz",
+      "location": "55 University Ave #3, Toronto, ON M5J 2H7, Canada",
+      "event_type": "Opening",
+      "event_date": "late November or early December 2026",
+      "status": "targeting a soft opening",
+      "short_description": "Mezzmiz plans its first Toronto restaurant at 55 University Avenue, Suite 3, targeting a soft opening in late November or early December 2026. The 1,500‑sq‑ft space will replace Mofer Coffee and have direct PATH access.",
+      "article_link": "https://whatnow.com/toronto/restaurants/mezzmiz-expanding-with-first-toronto-restaurant/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Peak Pizza",
+      "location": "5050 Factory Shops Blvd, Suite 660, Castle Rock, CO 80108",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Peak Pizza will open a New York‑style fast‑casual pizzeria in Suite 660 at 5050 Factory Shops Blvd, Castle Rock, with a grand‑opening date not yet announced. The outlet is listed as a “coming‑soon” tenant at the Outlets at Castle Rock.",
+      "article_link": "https://whatnow.com/denver/restaurants/peak-pizza-brings-a-new-slice-to-the-outlets-at-castle-rock/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Santos Café & Grill",
+      "location": "410 E 7th Ave, Denver, CO 80203",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "expected to open in November 2026",
+      "short_description": "Santos Café & Grill is preparing a second Denver location at the former Syrup space, 410 E 7th Ave, expected to open in November 2026. The family‑run Mexican comfort‑food restaurant will join the Capitol Hill neighborhood.",
+      "article_link": "https",
+      "published_date": ""
+    },
+    {
+      "store_name": "Gen Korean BBQ",
+      "location": "26 Brattle St, Cambridge, MA 02138",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "still at least a year away from opening",
+      "short_description": "Gen Korean BBQ is proposing to convert the former Dickson Bros. True Value store at 26 Brattle Street in Harvard Square into a multi‑floor Korean barbecue restaurant with a rooftop deck. The project is still at least a year away from opening and awaits licensing approvals.",
+      "article_link": "https://whatnow.com/boston/restaurants/gen-korean-bbq-eyes-harvard-square-for-massive-new-restaurant/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Forgotten Bakery",
+      "location": "2107 L St, Sacramento, CA 95816",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "being built",
+      "short_description": "Forgotten Bakery is constructing a second location at 2107 L St in Midtown Sacramento. The new shop will expand the brand’s hand‑rolled bagels and Chilean‑style empanadas after the original store on Stockton Blvd.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/forgotten-bakery-is-heading-to-midtown-sacramento/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Kobuta & Ookami",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "plans to open",
+      "short_description": "Kobuta & Ookami announced plans to open its third restaurant in Mountlake Terrace, targeting early 2027. The partners are currently working through permitting and have not disclosed the exact address.",
+      "article_link": "https://whatnow.com/seattle/restaurants/kobuta-ookami-plans-third-restaurant-in-mountlake-terrace/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "The Filipino Table",
+      "location": "9625 Elk Grove Florin Rd, Elk Grove, CA 95624",
+      "event_type": "Opening",
+      "event_date": "mid‑November",
+      "status": "hoping to begin full operation in mid‑November",
+      "short_description": "The Filipino Table will open at 9625 Elk Grove Florin Road in Elk Grove, aiming for full operation in mid‑November. The restaurant is currently operating limited hours under a temporary permit while awaiting a public hearing.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/the-filipino-table-plans-a-mid-november-opening-in-elk-grove/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Smalls Sliders",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "late 2027",
+      "status": "will debut in late 2027",
+      "short_description": "Smalls Sliders franchise Stacked Hospitality signed a deal for four new locations along Florida’s Atlantic Coast, with openings slated for late 2027. Exact addresses have not been released yet.",
+      "article_link": "https://whatnow.com/miami/restaurants/franchise-company-bringing-four-small-sliders-locations-to-southeast-florida/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Radish Kitchen",
+      "location": "2820 Selwyn Ave, Charlotte, NC 28209, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "targets January 2027 opening",
+      "short_description": "Radish Kitchen is targeting a January 2027 opening at 2820 Selwyn Ave in Charlotte’s Myers Park. The Nashville‑based concept will add breakfast, coffee, matcha and frozen yogurt, and will feature more seating and an outdoor patio. The landlord subdivided the space to create a corner location.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/radish-kitchen-targets-january-opening-in-charlottes-myers-park/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Stoop Kid",
+      "location": "8310 W Jefferson St, Peoria, AZ 85345",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Stoop Kid intends to open a third location at Jefferson House, 8310 W. Jefferson Street in downtown Peoria. Jefferson House is slated for a November 2026 opening, but Stoop Kid’s specific opening date has not been confirmed. The venue will include a courtyard, bar, stage and splash pad.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/stoop-kid-bringing-smashburgers-to-downtown-peoria/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "BloomBar Café et Fleurs",
+      "location": "1226 3rd Ave., New York, NY 10021",
+      "event_type": "Opening",
+      "event_date": "first week of November",
+      "status": "will open",
+      "short_description": "BloomBar Café et Fleurs will open its newest Upper East Side shop at 1226 3rd Ave, offering coffee, matcha drinks, pastries and a boutique of flowers and gifts. The 3,000‑sq‑ft space shares the building with a women’s clothing store and a jewelry shop. The opening is planned for the first week of November.",
+      "article_link": "https://whatnow.com/new-york/restaurants/bloombar-cafe-et-fleurs-to-bring-matcha-flowers-and-gifts-to-upper-east-side/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Hope’s Frybread",
+      "location": "8310 W Jefferson St, Peoria, AZ 85345",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Hope’s Frybread plans to open a new restaurant at Jefferson House, 8310 W. Jefferson Street in downtown Peoria. The development targets a November 2026 opening, but no specific date has been set for Hope’s Frybread. The venue will feature a shared courtyard with over 300 seats.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/hopes-frybread-plans-peoria-location-at-jefferson-house/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "DePaul’s Pronto",
+      "location": "917 S 20th St., Philadelphia, PA 19146",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "expects to open in late November",
+      "short_description": "DePaul’s Table is launching a fast‑casual Italian concept called DePaul’s Pronto at 917 S.",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Butterdrop Bakeshop",
+      "location": "250 Detroit St, Denver, CO 80206",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Butterdrop Bakeshop, a women‑owned bakery, is set to open its first brick‑and‑mortar location in Denver’s Cherry Creek neighborhood at 250 Detroit Street. The shop will offer handcrafted sweet and savory items and will sit next to Aviano Coffee. No opening date has been announced.",
+      "article_link": "https://whatnow.com/denver/restaurants/butterdrop-bakeshop-brings-a-sweet-new-addition-to-cherry-creek/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Niveen’s Steakhouse",
+      "location": "26116 W Warren Ave, Dearborn Heights, MI 48127",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date is set to be announced soon.",
+      "short_description": "Niveen’s Steakhouse, a new modern American steakhouse concept, will open at 26116 W Warren Avenue in Dearborn Heights. The restaurant will feature outdoor seating, brunch, and a Miami‑type vibe. An opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/detroit/restaurants/new-niveens-steakhouse-to-serve-dearborn-heights-this-fall/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Egg Lush Cafe",
+      "location": "1360 N. Grant Street",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a location",
+      "short_description": "Egg Lush Cafe, currently operating in Colorado Springs, plans to open a Denver location at 1360 N. Grant Street. The cafe will focus on egg‑based breakfast items and casual dining. No opening date has been announced.",
+      "article_link": "https://whatnow.com/denver/restaurants/egg-lush-cafe-sets-its-sights-on-denver-with-new-grant-street-location/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Maya Bohem Coffee",
+      "location": "2000 NJ-38, Cherry Hill Township, NJ 08002",
+      "event_type": "Opening",
+      "event_date": "between Dec. 1 and Jan. 1",
+      "status": "will open",
+      "short_description": "Maya Bohem Coffee, a Turkish café, will open its first U.S. location in the former Bistro space inside Cherry Hill Mall’s Macy’s wing. The shop will serve coffee, pastries, pizza, pasta, burgers, and gelato. The opening is targeted for between Dec. 1 and Jan. 1.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/maya-bohem-coffee-brews-first-u-s-location-at-cherry-hill-mall/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Paleteria Daisy",
+      "location": "199 US-175 Frontage Rd, Suite 110, Seagoville, TX 75159",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Paleteria Daisy, a family‑owned ice‑cream shop, plans to open a new location at 199 U.S. 175 Frontage Road, Suite 110 in Seagoville. Construction is slated to start Oct 26 2026 and finish Jan 26 2027, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/dallas/restaurants/paleteria-daisy-plans-ice-cream-shop-in-seagoville/",
+      "published_date": "October"
+    },
+    {
+      "store_name": "LongHorn Steakhouse",
+      "location": "3350 NC-87, Sanford, NC 27332, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "proposed",
+      "short_description": "LongHorn Steakhouse has applied to open a new restaurant at 3350 NC‑87 in Sanford’s Adams Crossing. The application does not include an opening or construction start date, and the project remains in the proposal stage.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/longhorn-steakhouse-proposed-for-sanfords-adams-crossing/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Crispy Cones",
+      "location": "3900 Berkman Dr, Suite 103, Austin, TX 78723",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Crispy Cones intends to open a location at 3900 Berkman Drive, Suite 103 in Austin, with interior build‑out work slated to begin Dec 1 2026 and finish May 25 2027. No opening date has been announced.",
+      "article_link": "https://whatnow.com/austin/restaurants/crispy-cones-plans-austin-location-on-berkman-drive/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Prince Street Pizza",
+      "location": "2472 Yonge St, Toronto, ON M4P 2H5, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Prince Street Pizza plans to open its second Toronto restaurant in the former Cibo Wine Bar space at 2472 Yonge Street. Coming‑soon signage is up, but an opening date has not been provided.",
+      "article_link": "https://whatnow.com/toronto/restaurants/prince-street-pizza-plans-second-toronto-location/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "FiveO3 Pupusas",
+      "location": "7007 Friars Rd, San Diego, CA 92108, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "In Transition",
+      "short_description": "FiveO3 Pupusas is preparing to add a location at 7007 Friars Road in San Diego, listed as “In Transition” on its website. The business says the transition is in its final stages, but no opening date is given.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/fiveo3-pupusas-eyes-fashion-valley-location/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Rooster’s Wood‑Fired Kitchen",
+      "location": "9239 Valley Blvd, Blowing Rock, NC 28605, USA",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "may join",
+      "short_description": "Rooster’s Wood‑Fired Kitchen may become part of the Green Park Inn redevelopment at 9239 Valley Blvd, Blowing Rock, with the overall project targeting a 2027 opening. Specific details about the restaurant’s status and timeline have not been confirmed.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/roosters-wood-fired-kitchen-may-join-blowing-rocks-green-park-inn-development/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Olive Garden",
+      "location": "3350 NC-87, Sanford, NC 27332, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date and construction timeline have not been announced",
+      "short_description": "Olive Garden has applied to open a restaurant at 3350 NC‑87 in the planned Adams Village development in Sanford. The application was noted by the Triangle Business Journal, but no details on size, design, or opening timeline were provided.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/olive-garden-could-join-adams-crossing-in-sanford/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "La La Land Kind Café",
+      "location": "1930 Camden Rd, Charlotte, NC 28203, USA",
+      "event_type": "Opening",
+      "event_date": "late 2026 or early 2027",
+      "status": "targeting late 2026 or early 2027 for the opening",
+      "short_description": "La La Land Kind Café is preparing to open its first Charlotte location in the former Bitty & Beau’s Coffee space at 1930 Camden Road. The Dallas‑based coffee chain aims for a late‑2026 or early‑2027 opening, according to an Instagram post.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/la-la-land-kind-cafe-targets-charlottes-south-end-for-first-nc-location/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Zio Fraedo’s",
+      "location": "23 Harbor Way, Vallejo, CA 94590, United States",
+      "event_type": "Closing",
+      "event_date": "October 25",
+      "status": "will be closing",
+      "short_description": "Zio Fraedo’s, a waterfront Italian and seafood restaurant in Vallejo, announced it will close its location at 23 Harbor Way after two decades of service. The owners cited rising rent and landlord issues as reasons. The final day of service is scheduled for Sunday, October 25.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/iconic-waterfront-restaurant-in-vallejo-is-closing-this-weekend-due-to-rent-issue/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Hawaiian Bros Island Grill",
+      "location": "6705 Jonesboro Road, Morrow",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening a new location",
+      "short_description": "Hawaiian Bros Island Grill is set to open a new location in the Atlanta area, taking over a former Del Taco site at 6705 Jonesboro Road in Morrow. The fast‑casual chain will offer its Hawaiian‑style plate lunches, though an opening date has not been announced.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-12-18/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Postern Coffee",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to remain in the space and expand its operations",
+      "short_description": "Postern Coffee will take over the former Minhwa Spirits space in Doraville, replacing distilling equipment with its own roasting gear after Minhwa relocates in November. The Asian‑American‑owned specialty coffee roaster plans to expand its operations, but no opening date is provided.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-12-18/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Super Chix",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning to expand its presence",
+      "short_description": "Super Chix plans to add a new restaurant in the Woodstock Mill District, occupying a 2,500‑square‑foot space as its 51st location. The fast‑casual chicken sandwich chain will also open additional sites in Toco Hills, Downtown Decatur, and Suwanee, though specific opening dates are not given.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/6-upcoming-restaurant-openings-we-reported-last-week-across-metro-atlanta-oct-12-18/",
+      "published_date": "October 19, 2026"
+    },
+    {
+      "store_name": "Beignets & Brew",
+      "location": "11345 Legacy Ave, Palm Beach Gardens, FL 33410",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Beignets & Brew, a cafe founded in Destin, Florida, is planning to open a location at 11345 Legacy Ave in Palm Beach Gardens. The menu will feature New Orleans‑style beignets, specialty coffee and catering options. No opening date has been announced.",
+      "article_link": "https://whatnow.com/miami/restaurants/beignets-brew-to-open-in-palm-beach-gardens/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Zov’s",
+      "location": "17420 17th St, Tustin, CA 92780",
+      "event_type": "Remodel",
+      "event_date": "Not specified",
+      "status": "may be expanding",
+      "short_description": "Zov’s may be expanding its original Tustin restaurant into a larger neighboring space at 17420 17th St. The flagship will stay open during construction and later reopen as an anchor tenant in an expanded and remodeled 8,200‑square‑foot area. A timeline for the move has not been announced.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/zovs-appears-set-to-expand-its-tustin-flagship-into-neighboring-space/",
+      "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "Zov’s (Costa Mesa)",
+      "location": "428 E. 17th St., Costa Mesa",
+      "event_type": "Opening",
+      "event_date": "late 2026",
+      "status": "opening expected in late 2026",
+      "short_description": "Zov’s is planning a fifth location in Costa Mesa at the former Playa Mesa space, 428 E. 17th St. An opening is expected in late 2026. The expansion adds to its existing sites in Tustin, Irvine, Newport Coast and San Clemente.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/zovs-appears-set-to-expand-its-tustin-flagship-into-neighboring-space/",
+      "published_date": "October 18, 2026"
     }
   ],
   "non_working": [
