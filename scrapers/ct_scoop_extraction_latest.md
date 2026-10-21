@@ -2,30 +2,26 @@
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/rocky-hill-scoop-central-diner-coming-soon-to-former-on-the-border-space | 2026-10-18 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/bristol-scoop-flock-flour-bakery-coming-soon-to-forestville | 2026-10-18 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/west-haven-scoop-little-caesars-pizza-coming-soon | 2026-10-18 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/milford-scoop-athleta-closes-milford-store-after-5-years | 2026-10-18 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-london-county-posts/mohegan-sun-scoop-the-spookeasy-opens-for-the-season-at-mohegan-sun | 2026-10-18 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-windham-county-posts/killingly-scoop-staples-closing-in-december | 2026-10-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/newington-scoop-sallys-apizza-to-open-newington-location-on-1028 | 2026-10-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-fairfield-county-posts/norwalk-scoop-7-brew-sets-opening-date | 2026-10-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-middlesex-county-posts/middletown-scoop-crescent-eagle-coffee-house-coming-soon-to-middletown | 2026-10-20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-middlesex-county-posts/clinton-scoop-the-pike-a-new-eatery-coming-soon-to-clinton | 2026-10-20 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 1 — no business details
-- Article 2 — no business details
-- Article 3 — no business details
-- Article 4 — no business details
-- Article 5 — no business details
+- Article 1 — Reason: no business details
+- Article 2 — Reason: no business details
+- Article 3 — Reason: no business details
+- Article 4 — Reason: no business details
+- Article 5 — Reason: no business details
 
-**Extracted Business Openings**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| New Italian restaurant (name not provided) | Killingworth Inn & Cafe site | Opening | Not specified | coming | The article announces a new Italian restaurant planned for the Killingworth Inn & Cafe site. No further details such as the restaurant’s name, exact address, or opening date are provided. | https://www.theconnecticutscoop.com/all-middlesex-county-posts/killingworth-scoop-new-italian-restaurant-coming-to-killingworth-inn-cafe-site | 2026-10-18 |
-| Panera (new) & Chase Bank (new) | Address not specified | Opening | Not specified | Construction progresses | The article reports that construction is progressing on a new Panera and a new Chase Bank. No specific address, opening date, or additional details are given. | https://www.theconnecticutscoop.com/all-middlesex-county-posts/clinton-scoop-construction-progresses-on-new-panera-chase-bank | 2026-10-18 |
-| New barbershop (name not provided) | Meriden Mall | Opening | Not specified | opens | The article states that a new barbershop has opened at Meriden Mall. No further information such as the shop’s name, exact address, or opening date is included. | https://www.theconnecticutscoop.com/all-new-haven-county-posts/meriden-scoop-new-barbershop-opens-at-meriden-mall | 2026-10-17 |
+| Taco John's | Address not specified | Opening | Not specified | opens | Taco John's has opened its first Connecticut location in Newington. The article announces the new restaurant. | https://www.theconnecticutscoop.com/all-hartford-county-posts/newington-scoop-taco-johns-opens-first-ct-location-in-newington | 2026-10-19 |
 
----
-
-Non-working or unusable articles List:
-• None
+**Non-working or unusable articles List:**  
+None
