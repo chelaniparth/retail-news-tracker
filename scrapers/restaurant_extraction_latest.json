@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-22",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -13120,12 +13120,416 @@
       "short_description": "Zov’s is planning a fifth location in Costa Mesa at the former Playa Mesa space, 428 E. 17th St. An opening is expected in late 2026. The expansion adds to its existing sites in Tustin, Irvine, Newport Coast and San Clemente.",
       "article_link": "https://whatnow.com/orange-county/restaurants/zovs-appears-set-to-expand-its-tustin-flagship-into-neighboring-space/",
       "published_date": "October 18, 2026"
+    },
+    {
+      "store_name": "BewBew Home Cafe",
+      "location": "1022 W El Norte Pkwy, Escondido, CA 92026, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "targeting a January 2027 grand opening",
+      "short_description": "BewBew Home Cafe, a Vietnamese café from San Marcos, is expanding to Escondido with a second North County location at 1022 W. El Norte Parkway. Owner Soudalath Naosavath says the team is in final stages of preparation and targeting a January 2027 grand opening. The existing San Marcos location remains open.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/bewbew-home-cafe-to-open-second-north-county-location-in-escondido/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Halal Eatz",
+      "location": "341 Cochituate Rd, Framingham, MA 01701",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open its third location",
+      "short_description": "Halal Eatz plans to open its third restaurant at 341 Cochituate Road in the Route 30 Mall in Framingham, adjacent to NY Bagel Factory. The Board of License Commissioners approved the location with extended hours until 2 a.m. daily. The chain currently operates in Burlington and Revere.",
+      "article_link": "https://whatnow.com/boston/restaurants/halal-eatz-plans-third-location-in-framingham-seeks-late-night-hours/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "PLNT Cafe",
+      "location": "655 K St NW, Washington, DC 20001",
+      "event_type": "Opening",
+      "event_date": "November or December 2026",
+      "status": "does not have an opening date available yet, however the PLNT team plans to be customer‑ready in November or December of this year",
+      "short_description": "PLNT Cafe, a new concept from the PLNT Burger brand, will debut at 655 K Street NW in Washington, D.C., occupying the former Shouk storefront. The 1,521‑square‑foot space seats up to 26 guests and will serve plant‑based tacos, salads and wraps. The team aims to be ready for customers in November or December 2026.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/plnt-cafe-blossoming-into-dc/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Church's Chicken",
+      "location": "5725 Lockwood Dr, Houston, TX 77026",
+      "event_type": "Opening",
+      "event_date": "Summer 2027",
+      "status": "should open by summer 2027",
+      "short_description": "Church’s Chicken is set to open a new restaurant at 5725 Lockwood Drive in Houston, on the border of the Trinity/Houston Gardens and Kashmere Gardens neighborhoods. A permit indicates construction will start early 2027 and finish by July, with an anticipated opening in summer 2027. The site previously housed a convenience store and an older Church’s Chicken.",
+      "article_link": "https://whatnow.com/houston/restaurants/churchs-chicken-to-open-on-lockwood-drive/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "ChefMan Mediterranean Concept",
+      "location": "353 S Kennedy Dr, Bradley, IL 60915",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not yet have an opening date",
+      "short_description": "ChefMan Mediterranean Bowls is developing a new Mediterranean‑style concept at 353 S Kennedy Drive in Bradley, Illinois, near the corner of Blatt Boulevard. Owner Hamza Malhees has not announced an opening date yet. The menu will feature customizable bowls with shawarma, proteins, toppings and sauces.",
+      "article_link": "https://whatnow.com/chicago/restaurants/chefman-mediterranean-concept-to-open-near-downtown-bradley/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Rosalita",
+      "location": "80 N High St #72, Columbus, OH 43215, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "expected to open in January 2027",
+      "short_description": "Rosalita, a modern Mexican restaurant by chef Josh Dalton, is slated to open in downtown Columbus at 80 N High St #72. The opening has been delayed from 2025 and is now expected in January 2027. The space is within the historic Madison and White‑Haines buildings.",
+      "article_link": "https://whatnow.com/columbus/restaurants/rosalita-plans-january-2027-opening-in-downtown-columbus/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Mayday Ice Cream",
+      "location": "250 Palm Coast Pkwy NE #403, Palm Coast, FL 32137",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is coming",
+      "short_description": "Mayday Handcrafted Ice Cream will open a new scoop shop at 250 Palm Coast Pkwy NE, Suite 403 in Palm Coast. The shop will be owned by Anne Patala and adds the brand’s presence in Flagler County. Mayday is known for small‑batch ice cream and rotating seasonal flavors.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/mayday-ice-cream-is-coming-to-palm-coast/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Aladdin’s Eatery (Westerville)",
+      "location": "732 N. State St., Columbus, OH (address as given)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has opened",
+      "short_description": "Aladdin’s Eatery opened a new Westerville restaurant at 732 N. State St., taking over the former MiaMar Grill space. The Lebanese‑American chain continues its Central Ohio expansion. No opening date is provided.",
+      "article_link": "https://whatnow.com/columbus/restaurants/aladdins-eatery-plans-new-location-near-ohio-state-university-in-columbus/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Aladdin’s Eatery (University District)",
+      "location": "1607 N High St, Columbus, OH 43201, USA",
+      "event_type": "Opening",
+      "event_date": "October 2026",
+      "status": "expected to open later in October 2026",
+      "short_description": "Aladdin’s Eatery plans a sixth Columbus‑area location in the Gateway‑University District at 1607 N High St., near Ohio State University. The restaurant is expected to open later in October 2026. It will serve students, faculty and downtown commuters.",
+      "article_link": "https://whatnow.com/columbus/restaurants/aladdins-eatery-plans-new-location-near-ohio-state-university-in-columbus/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Seoul Meat Co",
+      "location": "11401 NW 12th St, Miami, FL 33172",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is coming",
+      "short_description": "Seoul Meat Co, a Korean barbecue brand, is slated to open a restaurant in Dolphin Mall at 11401 NW 12th St., Suite E504",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Mike’s Red Tacos",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "expected to open",
+      "short_description": "Mike’s Red Tacos, a fast‑casual taco chain, signed a 36‑unit development agreement to expand across Orlando and Tampa. The brand currently has four locations in San Diego and plans its first Florida location to open in 2027. Expansion will continue over the next several years.",
+      "article_link": "https://whatnow.com/orlando/restaurants/mikes-red-taco-brings-birria-taco-craze-to-orlando-and-tampa/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Archer’s Book Lounge",
+      "location": "39 S Monroe St, Monroe, MI 48161",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open sometime later this fall",
+      "short_description": "Archer’s Book Lounge is constructing a three‑story cocktail bar, coffee shop and bookstore at 39 S Monroe Street in downtown Monroe. The owners say the venue will open sometime later this fall, with second and third floors already receiving bookcases. The space will feature handcrafted coffees, cocktails, and community events.",
+      "article_link": "https://whatnow.com/detroit/restaurants/archers-book-lounge-to-debut-in-downtown-monroe-later-this-year/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "‘TBA’ Bar (Three Cherries Hospitality)",
+      "location": "15 1st Ave., New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Three Cherries Hospitality is developing a new bar‑focused concept at 15 1st Ave. in the former La Linea space in New York’s East Village. The venue will feature eight TVs for game‑day viewing, a custom 16‑seat bar, and classic bites. Permitting and licensing are still in progress.",
+      "article_link": "https://whatnow.com/new-york/restaurants/three-cherries-hospitality-plans-new-east-village-bar-with-game-day-focus/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "DiAnoche",
+      "location": "3 London Rd, Asheville, NC 28803, USA",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "is set to open",
+      "short_description": "DiAnoche will open at 3 London Road in Asheville, North Carolina, in January 2027, offering Mexican‑inspired coffee by day and an agave‑focused cocktail bar by night. It will be the concept’s second location and will sit next to the London Road Pub. The owners are building out the space ahead of the new year.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/dianoche-brings-daytime-coffee-and-agave-cocktails-to-asheville/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Smalls Sliders (Stacked Hospitality)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "looking to open",
+      "short_description": "Smalls Sliders franchise Stacked Hospitality is pursuing a Vero Beach location on Florida’s east coast, with plans to open around fall 2027. The company has signed a four‑unit lease deal for the region and is finalizing addresses. Two additional locations are expected to open by November 2027.",
+      "article_link": "https://whatnow.com/orlando/restaurants/smalls-sliders-franchise-seeking-vero-beach-location-for-next-year/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Snooze (A.M. Eatery)",
+      "location": "18725 FM 685 Building 1, Suite 230, Pflugerville, TX 78660",
+      "event_type": "Opening",
+      "event_date": "June 2027",
+      "status": "will open in June 2027",
+      "short_description": "Snooze plans its first Pflugerville restaurant at 18725 FM 685, Building 1, Suite 230. A project filing shows construction to start Jan 15 2027 and finish May 28, with a target opening in June 2027. CEO Josh Kern confirmed the June 2027 opening.",
+      "article_link": "https://whatnow.com/austin/restaurants/snooze-targets-june-opening-for-first-pflugerville-restaurant/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/magee-hospitality-group-taps-former-gas-light-for-new-dining-concept/",
+      "published_date": "N/A"
+    },
+    {
+      "store_name": "Field of Greens",
+      "location": "222 Lakeview Ave, Suite 160, West Palm Beach, FL 33401, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under review",
+      "short_description": "Field of Greens has filed a permit for a proposed restaurant at 222 Lakeview Avenue, Suite 160, West Palm Beach. The filing, dated Oct 15 2026, lists the project as under review and does not confirm construction or an opening date. The article notes the location could add to the brand’s South Florida presence if approved.",
+      "article_link": "https://whatnow.com/miami/restaurants/field-of-greens-could-add-another-west-palm-beach-location/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Ketkoot",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new location planned",
+      "short_description": "Ketkoot, an Iraqi‑style chargrilled chicken chain from Mississauga, is planning a downtown Toronto outlet near Yonge and Dundas. The exact address and opening timeline have not been disclosed. The company also mentions future locations in Vaughan and elsewhere.",
+      "article_link": "https://whatnow.com/toronto/restaurants/ketkoot-plans-downtown-toronto-location/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Middle Ground Coffeehouse",
+      "location": "12794 West Forest Hill Blvd, Suite 5B, Wellington, FL 33414, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in process for plan review",
+      "short_description": "Middle Ground Coffeehouse has submitted a commercial permit for a potential Wellington Mall location at 12794 W. Forest Hill Blvd, Suite 5B. The permit, dated Oct 15 2026, shows the project is in process for plan review, with no construction or opening date confirmed. The coffeehouse’s menu and design details remain unannounced.",
+      "article_link": "https://whatnow.com/miami/restaurants/middle-ground-coffeehouse-heads-to-wellington/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses Hawaiian Bros Island Grill’s agreement to develop 52 restaurants in Florida, but no specific store opening or closure is detailed.",
+      "article_link": "https://whatnow.com/orlando/restaurants/hawaiian-bros-island-grill-secures-52-restaurant-florida-expansion/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "5311 Rigsby Ave, San Antonio, TX 78222, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new drive‑thru location",
+      "short_description": "7 Brew Coffee filed a Texas Department of Licensing and Regulation project for a 510‑sq‑ft drive‑thru coffee stand at 5311 Rigsby Ave, San Antonio. Construction is slated to begin Jan 4 2027 and finish Mar 16 2027, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/7-brew-plans-new-drive-thru-coffee-stand-in-san-antonio/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Nana’s Dim Sum and Dumplings",
+      "location": "2401 Preston Rd, Frisco, TX 75034, USA",
+      "event_type": "Remodel",
+      "event_date": "Not specified",
+      "status": "remodel",
+      "short_description": "Nana’s Dim Sum and Dumplings filed a Texas Department of Licensing and Regulation renovation project for 2401 Preston Road, Frisco. The 8,725‑sq‑ft remodel is scheduled to start Oct 19 2026 and finish Mar 1 2027, with no opening date disclosed.",
+      "article_link": "https://whatnow.com/dallas/restaurants/nanas-dim-sum-and-dumplings-plans-frisco-location/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Glades Restaurant LLC",
+      "location": "1533 NW Ave L #3, Belle Glade, FL 33430, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "In Process",
+      "short_description": "Glades Restaurant LLC is listed in Florida licensing records for a restaurant project at 1533 NW Avenue L, Suite 3, Belle Glade. The project is marked “In Process” under plan review, with no confirmed opening date.",
+      "article_link": "https://whatnow.com/miami/restaurants/glades-restaurant-plans-for-belle-glade-location/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Fresh Kitchen",
+      "location": "818 S Orlando Ave, Winter Park, FL 32789, USA",
+      "event_type": "Opening",
+      "event_date": "November 17, 2026",
+      "status": "scheduled to open on November 17, 2026",
+      "short_description": "Fresh Kitchen will occupy the former Chicken Guy! space at 818 S. Orlando Ave, Winter Park, and is set to open on November 17 2026. The fast‑casual concept offers customizable bowls and is part of the Ciccio Restaurant Group.",
+      "article_link": "https://whatnow.com/orlando/restaurants/fresh-kitchen-sets-opening-date-for-new-winter-park-location/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Lingo",
+      "location": "27 Greenpoint Ave, Brooklyn, NY 11222",
+      "event_type": "Closing",
+      "event_date": "October 25",
+      "status": "closing its doors permanently on October 25",
+      "short_description": "Lingo, a Japanese‑American restaurant in Greenpoint, announced it will close permanently on October 25 after three and a half years. The closure will make way for a new concept in the same space.",
+      "article_link": "https://whatnow.com/new-york/restaurants/michelin-guide-recognized-brooklyn-restaurant-announces-closure/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "AB Kitchen",
+      "location": "299-2 Atlantic Blvd, Atlantic Beach, FL 32233",
+      "event_type": "Closing",
+      "event_date": "November 16",
+      "status": "will serve its final meal on November 16",
+      "short_description": "Atlantic Beach bistro AB Kitchen said it will shutter operations after its lease expires, with the final service scheduled for November 16. Owners thanked the community and noted staff will have opportunities at other locations.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/atlantic-beach-bistro-to-serve-its-final-meal-in-november-after-five-years/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Atwater (Grosse Pointe Park taproom)",
+      "location": "1175 Lakepointe St, Grosse Pointe Park, MI 48230",
+      "event_type": "Closing",
+      "event_date": "October 23",
+      "status": "preparing for its final farewell on October 23",
+      "short_description": "Atwater Brewery announced the Grosse Pointe Park taproom will close, planning a farewell celebration before its final day on October 23. The location will remain closed while other Atwater sites stay open.",
+      "article_link": "https://whatnow.com/detroit/restaurants/popular-michigan-brewery-announces-closure-of-grosse-pointe-park-taproom/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Shake Shack",
+      "location": "2100 Medley Blvd, Johns Creek, GA 30097",
+      "event_type": "Opening",
+      "event_date": "October 30",
+      "status": "opening at Medley in Johns Creek on October 30",
+      "short_description": "Shake Shack is set to open its 11th Georgia location in the Medley mixed‑use development in Johns Creek on October 30. The opening will feature giveaways and a $1 donation per sandwich to Camp Twin Lakes.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/popular-burger-chain-to-open-11th-georgia-location-this-month/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Deacon’s New South",
+      "location": "401 Church St, Nashville, TN 37219, United States",
+      "event_type": "Closing",
+      "event_date": "October 24",
+      "status": "will serve its last customers on October 24",
+      "short_description": "Deacon’s New South, a downtown Nashville steakhouse, announced it will close permanently, serving its final guests on October 24. The decision was driven by economic pressures, while its sister restaurant Puckett’s will stay open.",
+      "article_link": "https://whatnow.com/nashville/restaurants/beloved-downtown-nashville-steakhouse-to-close-its-doors-this-weekend/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Kiki Izakaya",
+      "location": "5255 S Decatur Blvd Ste 118-119, Las Vegas, NV 89118",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipated to open",
+      "short_description": "Kiki Izakaya, a modern Japanese fusion restaurant, plans to open a new location in southwest Las Vegas at the address above. The opening is anticipated for sometime next year according to a Clark County permit. No further details were obtained from the owners.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/kiki-izakaya-to-debut-in-the-las-vegas-valley/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "PJ's Coffee",
+      "location": "11510 FM 1488, Suite 100, Magnolia, TX 77354",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "should open in Magnolia by spring 2027",
+      "short_description": "PJ’s Coffee is set to open its second Magnolia location at the address listed. Permit filings indicate construction will finish by the end of February 2027, with the shop projected to open in spring 2027. The franchisee has not provided additional comment.",
+      "article_link": "https://whatnow.com/houston/restaurants/pjs-coffee-is-working-on-its-second-magnolia-coffee-shop/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Copper Cowboy",
+      "location": "820 Fifth Ave, San Diego, CA 92101",
+      "event_type": "Opening",
+      "event_date": "mid‑January 2027",
+      "status": "planning to open",
+      "short_description": "Copper Cowboy, a Western‑inspired restaurant, live‑music saloon and hat bar, is planning to open in San Diego’s Gaslamp Quarter in mid‑January 2027. The concept will occupy the former Coyote Ugly space inside the historic Keating Hotel and is expected to create 40‑50 jobs.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/copper-cowboy-plans-to-bring-restaurant-live-music-and-hat-bar-to-san-diegos-gaslamp-quarter/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "9716 San Jose Blvd., Jacksonville, FL 32257",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "Texas Roadhouse is planning a new restaurant at the listed Jacksonville address. Permit filings show plans for an 8,403‑sq‑ft interior with an outdoor patio, but no opening timeline has been announced. The site is owned by Ash Properties.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/texas-roadhouse-plans-new-restaurant-on-san-jose-boulevard-in-jacksonville/",
+      "published_date": "October 20, 202"
+    },
+    {
+      "store_name": "Zunzibar",
+      "location": "90 Riverside Avenue, Suite 601, Jacksonville, FL 32202",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Zunzibar is preparing its first Jacksonville location at Brooklyn Station, occupying the former Burrito Gallery space. The 6,025‑sq‑ft coastal‑inspired restaurant has been under construction since June and is targeting a fall 2026 opening.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/zunzibar-brings-coastal-dining-and-rooftop-cocktails-to-jacksonvilles-brooklyn-neighborhood/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Kiss the Beast",
+      "location": "713 College Street, Toronto, ON M6G 1C2, Canada",
+      "event_type": "Opening",
+      "event_date": "October 25, 2026",
+      "status": "soft opening",
+      "short_description": "Kiss the Beast plans to open a Singaporean chicken rice shop at the former Kiss My Pans space on College Street. A soft opening is scheduled for Sunday, October 25, 2026 from noon to 9 p.m., with giveaways for the first customers.",
+      "article_link": "https://whatnow.com/toronto/restaurants/kiss-the-beast-plans-chicken-rice-shop-on-college-street/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Alijay’s Kitchen and Catering",
+      "location": "20 W. Adams Street, Jacksonville, FL 32202",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Alijay’s Kitchen and Catering, led by chef Celestia Mobley and her daughter, will open a new restaurant in downtown Jacksonville. The 5,069‑sq‑ft space, formerly Jumpin’ Jax House of Food, is slated to open in November 2026.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/alijays-kitchen-and-catering-brings-seafood-and-soul-food-to-downtown-jacksonville/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Bread Head",
+      "location": "2200 E Thousand Oaks Blvd, Thousand Oaks, CA 91362",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeted for spring 2027",
+      "short_description": "Bread Head, a Santa Monica sandwich brand, plans to open a new location at The Lakes in the former Umami Burger space. The lease is signed and the team hopes to break ground by early 2027, with a spring 2027 opening target.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/bread-head-to-open-at-the-lakes-at-thousand-oaks/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Santos Café & Grill",
+      "location": "410 E 7th Ave, Denver, CO 80203",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "New Santos Café & Grill location coming soon",
+      "short_description": "Santos Café & Grill is opening a second full‑service location in Denver’s Capitol Hill neighborhood, taking over the former Syrup space at 410 E 7th Avenue. The restaurant is expected to open in November 2026. The new spot will bring the family‑run Mexican comfort‑food concept to a new area.",
+      "article_link": "https://whatnow.com/denver/restaurants/santos-cafe-grill-expands-to-capitol-hill-with-second-denver-location/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "DePaul’s Pronto",
+      "location": "917 S 20th St., Philadelphia, PA 19146",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "expects to open in late November",
+      "short_description": "The team behind DePaul’s Table is launching a fast‑casual Italian concept called DePaul’s Pronto at 917 S. 20th St. in Philadelphia’s Graduate Hospital neighborhood. The restaurant will serve elevated Italian‑American takeout items and a few dine‑in tables, with opening expected in late November.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/depauls-table-team-to-bring-fast-casual-italian-spot-to-graduate-hospital/",
+      "published_date": "October 20, 2026"
     }
   ],
   "non_working": [
     {
       "identifier": "Article 2",
       "reason": "Reason: no business opening or closure details (expansion of existing cart, no new restaurant opening/closure)."
+    },
+    {
+      "identifier": "Article 17",
+      "reason": "Reason: could not fetch article (response ended prematurely)"
     }
   ]
 }
