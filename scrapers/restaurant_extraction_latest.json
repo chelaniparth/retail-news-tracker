@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -13519,6 +13519,476 @@
       "status": "expects to open in late November",
       "short_description": "The team behind DePaul’s Table is launching a fast‑casual Italian concept called DePaul’s Pronto at 917 S. 20th St. in Philadelphia’s Graduate Hospital neighborhood. The restaurant will serve elevated Italian‑American takeout items and a few dine‑in tables, with opening expected in late November.",
       "article_link": "https://whatnow.com/philadelphia/restaurants/depauls-table-team-to-bring-fast-casual-italian-spot-to-graduate-hospital/",
+      "published_date": "October 20, 2026"
+    },
+    {
+      "store_name": "Bar Tartare",
+      "location": "704 1st Ave, Seattle, WA 98104",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Bar Tartare, co‑owners Sara Rosewall and Jake Whipple, plan to open a 40‑seat bar at 704 First Avenue in Seattle’s Pioneer Square. The concept will focus on tartares and a cocktail program, and they hope to welcome customers before the end of 2026 pending permits.",
+      "article_link": "https://whatnow.com/seattle/restaurants/bar-tartare-plans-pioneer-square-opening/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Honeygrow",
+      "location": "2094 N High St, Columbus, OH 43201",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not announced an opening date",
+      "short_description": "Honeygrow filed building plans to open a new fast‑casual restaurant at 2094 N. High Street in Columbus, a site previously occupied by a United Dairy Farmers store. The company has not announced an opening date for the location.",
+      "article_link": "https://whatnow.com/columbus/restaurants/honeygrow-planning-new-restaurant-near-osu/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Good Trouble",
+      "location": "8310 W Jefferson St, Peoria, AZ 85345",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "estimated to open in eight to twelve weeks",
+      "short_description": "Good Trouble intends to open a neighborhood bar inside Jefferson House at 8310 W. Jefferson Street in downtown Peoria, AZ. The bar will feature 24 draft beers and a container‑style design, with an estimated opening eight to twelve weeks after the interview, but no exact date has been set.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/good-trouble-plans-neighborhood-bar-at-jefferson-house/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Hill Yeah",
+      "location": "17337 Monterey Rd, Morgan Hill, CA 95037",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to open",
+      "short_description": "Hill Yeah, a sports bar and retail concept, is preparing to open at 17337 Monterey Road in downtown Morgan Hill. The company has signed a lease and applied for a liquor license, but an exact opening date has not been announced.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/hill-yeah-coming-to-downtown-morgan-hill/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Salad and Go",
+      "location": "3299 E Williams Field Rd, Gilbert, AZ 85295",
+      "event_type": "Opening",
+      "event_date": "November 2026",
+      "status": "target of opening within about 45 days of taking possession",
+      "short_description": "Salad and Go is preparing to reopen its former Gilbert location at",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Curry Leaf Indian Cuisine",
+      "location": "109 Tchoupitoulas St, New Orleans, LA 70130",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Set to open",
+      "short_description": "Curry Leaf Indian Cuisine is set to open in the former Toula’s Creole Kitchen at 109 Tchoupitoulas St., New Orleans. The owners have filed for a full liquor license and plan to serve traditional South Asian dishes with sit‑down service.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/classic-indian-restaurant-planned-for-the-central-business-district/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Café 66",
+      "location": "66 King St W, Dundas, ON L9H 1T8",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Café 66 is preparing to open at 66 King St. W. in downtown Dundas, alongside House 66 Beauty + Wellness. No firm opening date has been announced, though posters indicate both businesses plan to open soon.",
+      "article_link": "https://whatnow.com/toronto/restaurants/cafe-66-preparing-to-open-in-dundas/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Jollibee",
+      "location": "999 Upper Wentworth St, Hamilton, ON L9A 4X5",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "planning to open",
+      "short_description": "Jollibee is planning to open a restaurant inside Lime Ridge Mall at 999 Upper Wentworth St., Hamilton, with seating. The location is expected to open in spring 2027 and will be the chain’s first permanent spot in Hamilton.",
+      "article_link": "https://whatnow.com/toronto/restaurants/jollibee-planning-hamilton-restaurant-at-lime-ridge-mall/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Freddy’s Frozen Custard & Steakburgers",
+      "location": "1441 Beasie Rd, Murfreesboro, TN 37128, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Freddy’s Frozen Custard & Steakburgers is under construction at 1441 Beasie Rd., Murfreesboro, near Costco and I‑24. Construction is in early stages and no opening date has been announced.",
+      "article_link": "https://whatnow.com/nashville/restaurants/freddys-frozen-custard-steakburgers-under-construction-near-costco-in-murfreesboro/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Southport Grocery and Cafe",
+      "location": "3552 N Southport Ave, Chicago, IL 60657",
+      "event_type": "Closing",
+      "event_date": "end of the year",
+      "status": "closing",
+      "short_description": "Southport Grocery and Cafe is closing after nearly 23 years at 3552 N Southport Ave., Chicago, with the closure slated for the end of the year. Owner Lisa Santos will replace it with Dollop Finer Diner.",
+      "article_link": "https://whatnow.com/chicago/restaurants/southport-grocery-and-cafe-closing-to-be-replaced-by-dollop-finer-diner/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Dollop Finer Diner",
+      "location": "3552 N Southport Ave, Chicago, IL 60657",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will debut after the grocery store and cafe closes",
+      "short_description": "Dollop Finer Diner will replace Southport Grocery and Cafe at 3552 N Southport Ave., Chicago, after the existing business closes at the end of the year. An opening date has not yet been set.",
+      "article_link": "https",
+      "published_date": ""
+    },
+    {
+      "store_name": "Pizza Nostra",
+      "location": "802 The Queensway, Etobicoke, ON M8Z 1N5",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Pizza Nostra, a family‑run pizzeria with two Mississauga locations, is preparing to open its first Toronto site at 802 The Queensway in Etobicoke. An opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/toronto/restaurants/pizza-nostra-preparing-to-open-first-toronto-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Lavender Cafe and Bookstore",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning",
+      "short_description": "Activist Kyle DeVries is planning Lavender Cafe and Bookstore, a combined all‑day café and LGBTQ‑focused bookstore, and is scouting downtown New Orleans locations. The concept is currently operating through pop‑up events while a permanent space is sought.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/local-lgbtq-activist-planning-bookstore-and-cafe-concept/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Starwood Café",
+      "location": "371 N State Hwy 78 #100, Lavon, TX 75166",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning",
+      "short_description": "Starwood Café filed a registration to build a first‑generation restaurant in the Elevon West shopping center at 371 N State Hwy 78, Suite 100, Lavon, TX. Construction is slated to start Nov 16 and finish March 29 2027.",
+      "article_link": "https://whatnow.com/dallas/restaurants/starwood-cafe-planning-lavon-restaurant/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Pinstripes",
+      "location": "11643 Daryl Carter Pkwy., #3108, Orlando, FL 32821",
+      "event_type": "Opening",
+      "event_date": "Nov. 11",
+      "status": "will reopen",
+      "short_description": "Pinstripes will reopen its Orlando entertainment venue at 11643 Daryl Carter Pkwy., #3108 under new ownership by Punch Bowl Social. The fully renovated space is scheduled to reopen on Nov. 11.",
+      "article_link": "https://whatnow.com/orlando/restaurants/pinstripes-to-reopen-orlando-entertainment-venue-under-new-ownership-this-fall/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Giorgio’s Pizzeria",
+      "location": "1613 4th St, San Rafael, CA 94901",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Giorgio’s Pizzeria announced plans to open a new location at 1613 4th St, San Rafael, CA. Construction is underway, with an expected opening in late 2025 or early 2026, though no specific date has been set.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/giorgios-pizzeria-planning-san-rafael-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Brasiliana Pizza",
+      "location": "1039 Grant St SE #100, Atlanta, GA 30315",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "just started construction",
+      "short_description": "Brasiliana Pizza began construction on a 2,500‑sq‑ft brick‑and‑mortar location at The Beacon in Grant Park. Owner Thiago Machado says the restaurant is slated to open in February 2027, expanding the brand beyond its food‑court sites.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/brasiliana-pizza-expanding-to-the-beacon-in-grant-park/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Willie’s Grill & Icehouse",
+      "location": "15801 San Pedro Ave, San Antonio, TX 78232, USA",
+      "event_type": "Remodel",
+      "event_date": "November 16, 2026",
+      "status": "is planning",
+      "short_description": "Willie’s Grill & Icehouse filed plans for a $250,000 expansion at its San Pedro Avenue site, adding a dedicated bar and bar‑dining area. Construction is set to start on November 16 2026 with completion aimed for April 5 2027.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/willies-grill-icehouse-plans-250k-additions-at-san-pedro-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Cantina Monarca",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "plans to open",
+      "short_description": "Cantina Monarca announced a second restaurant at Lake Union Piers in Seattle, targeting a summer 2027 opening. The flagship will occupy about 8,300 sq ft indoors and 2,700 sq ft outdoors, though a specific address has not been released.",
+      "article_link": "https://whatnow.com/seattle/restaurants/cantina-monarca-plans-seattle-flagship-at-lake-union-piers/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Picky Barista",
+      "location": "2321 Broadway, New York, NY 10024",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expects to open in the “next couple of months”",
+      "short_description": "Picky Barista is adding a new café at 2321 Broadway on the Upper West Side, joining its existing Manhattan locations. An official opening date has not been set, but the owner expects the shop to open within the next couple of months.",
+      "article_link": "https://whatnow.com/new-york/restaurants/picky-barista-continues-nyc-expansion-with-new-broadway-cafe/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "The Lox Bagel Shop",
+      "location": "2140 Ikea Wy, Columbus, OH 43240, USA",
+      "event_type": "Opening",
+      "event_date": "mid-November",
+      "status": "targeting mid-November opening",
+      "short_description": "The Lox Bagel Shop plans to open a second location in the Galaxy at Polaris development, aiming for a mid‑November launch. The 500‑sq‑ft space will feature a larger kitchen and will mirror the menu of its Short North flagship.",
+      "article_link": "https://whatnow.com/columbus/restaurants/the-lox-bagel-shop-targets-mid-november-opening-in-polaris-columbus/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Jittery Joe’s Coffee",
+      "location": "299 Grayson Highway, Lawrenceville",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opened",
+      "short_description": "Jittery Joe’s opened its first drive‑thru and first franchise location at 299 Grayson Highway in Lawrenceville. Franchise owners Jeff Bates and Adam Gillis aim to expand further in Georgia.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/athens-based-jittery-joes-coffee-expanding-in-atlanta/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Mister O1 Pizza",
+      "location": "1081 Juniper St NE, Atlanta, GA 30309",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open next year",
+      "short_description": "Signage was spotted for a new Mister O1 pizza location at 1081 Juniper Street in Atlanta’s The Juniper. The 2,043‑sq‑ft space is expected to open next year.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/mister-o1-expanding-to-midtown-atlanta/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Casa de Crepes",
+      "location": "12736 S Rte 59 #110, Plainfield, IL 60585",
+      "event_type": "Opening",
+      "event_date": "mid‑November",
+      "status": "pending final approvals",
+      "short_description": "Casa de Crepes announced a second location at 12736 S Route 59, Unit 110 in Plainfield, Illinois. Co‑owner Victor Diaz said the store aims to open around mid‑November, pending approvals.",
+      "article_link": "https://whatnow.com/chicago/restaurants/oakbrook-terraces-casa-de-crepes-finds-new-location-in-plainfield/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "The Flying Biscuit Café",
+      "location": "2447 N Judge Ely Blvd, Abilene, TX 79601",
+      "event_type": "Opening",
+      "event_date": "first quarter of 2027",
+      "status": "plans to open",
+      "short_description": "The Flying Biscuit Café filed plans to build a 3,845‑sq‑ft restaurant at 2447 N. Judge Ely Boulevard in Abilene, Texas. Construction is set to start Dec 1 2026 with a target opening in the first quarter of 2027.",
+      "article_link": "https://whatnow.com/dallas/restaurants/flying-biscuit-cafe-bringing-everyday-brunch-to-abilene/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Cini Coffee",
+      "location": "1175 Cambridge St, Cambridge, MA 02139",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "under construction",
+      "short_description": "Cini Coffee is constructing its first permanent café at 1175 Cambridge Street in Cambridge, Massachusetts. Founder Nefisa Siraj expects the 854‑sq‑ft shop to open in January 2027.",
+      "article_link": "https://whatnow.com/boston/restaurants/cini-coffee-to-open-first-cafe-in-cambridge-serving-ethiopian-coffee-and-tea/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Misha’s Cupcakes",
+      "location": "2714 Ponce de Leon Blvd, Coral Gables, FL 33134, United States",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closing permanently",
+      "short_description": "Misha’s Cupcakes, a Miami cupcake chain founded in 2005, announced it will close all storefronts. The owner said locations will stay open through the end of October before shutting down permanently, with products still available through select retail partners.",
+      "article_link": "https://whatnow.com/miami/restaurants/a-miami-bakery-that-started-in-a-home-kitchen-is-closing-after-21-years/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "P. Terry’s Burger Stand",
+      "location": "10990 TX-29, Liberty Hill, TX 78642",
+      "event_type": "Opening",
+      "event_date": "fourth‑quarter 2027",
+      "status": "prepare to open",
+      "short_description": "P. Terry’s Burger Stand announced plans for a new 4,000‑square‑foot location in Liberty Hill, Texas, in front of the newly opened Target. Construction is slated to begin in January, and the site targets a fourth‑quarter 2027 opening as the chain’s 41st Texas outlet.",
+      "article_link": "https://whatnow.com/austin/restaurants/p-terrys-burger-stand-fires-up-plans-for-new-texas-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Good Night John Boy",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "will launch in March",
+      "short_description": "Forward Hospitality Group will bring the disco‑themed bar Good Night John Boy to Savannah as its ninth location. The venue will open in March 2027 after a holiday‑season pop‑up, offering a 1970s‑inspired nightclub experience.",
+      "article_link": "https://whatnow.com/charleston/restaurants/good-night-john-boy-headed-to-savannah-for-ninth-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Mike’s Red Tacos",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "expected to launch next year",
+      "short_description": "Mike’s Red Tacos signed a franchise agreement with Built Different Brands to open 36 locations across Orlando and Tampa, with the first Florida restaurant expected in 2027. The San Diego birria chain will expand its presence in Florida while continuing to sell through its existing channels.",
+      "article_link": "https://whatnow.com/tampa/restaurants/36-unit-deal-bringing-mikes-red-tacos-to-tampa/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Taqueria El Chato",
+      "location": "347 Bedford Ave., Brooklyn, NY 11211",
+      "event_type": "Opening",
+      "event_date": "Oct. 30, 2026",
+      "status": "will open Oct. 29 for family and friends before welcoming the public Oct. 30",
+      "short_description": "Taqueria El Chato is set to open its largest restaurant at 347 Bedford Ave. in Williamsburg, Brooklyn. A soft opening for family and friends is scheduled for Oct. 29, 2026, with the public opening on Oct. 30, 2026.",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Yume Ga Arukara",
+      "location": "271 Fifth Avenue, New York, NY 10016",
+      "event_type": "Opening",
+      "event_date": "October 21, 2026",
+      "status": "has opened its doors",
+      "short_description": "Yume Ga Arukara opened its first New York City location at 271 Fifth Avenue in Manhattan’s NoMad neighborhood on October 21, 2026. The udon‑focused restaurant, created by Juan Carlos Vidal and Chef Tsuyoshi Nishioka, brings their signature dishes and a minimalist design to NYC.",
+      "article_link": "https://whatnow.com/new-york/restaurants/the-udon-restaurant-behind-a-bon-appetit-hot-10-has-opened-its-first-nyc-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Makeup by Meggan",
+      "location": "143 Allen Toussaint Blvd, New Orleans, LA 70124",
+      "event_type": "Opening",
+      "event_date": "November 6, 2026",
+      "status": "opens its doors on Nov. 6",
+      "short_description": "Makeup by Meggan will open a new retail cosmetics store and makeup‑service location at 143 Allen Toussaint Blvd in New Orleans’ Lakeview on Nov. 6, 2026. The shop will offer curated beauty products and professional makeup application, expanding from its Canal Place location.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/makeup-by-meggan-bringing-beauty-products-and-services-to-lakeview/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Castaways Sports Grill",
+      "location": "1217 Del Prado Blvd S, Cape Coral, FL 33990",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Castaways Sports Grill plans to open a full‑service restaurant and bar at 1217 Del Prado Blvd S in Cape Coral, featuring TVs, live entertainment and daily food specials. The project’s opening timeline has not been disclosed, and details are pending.",
+      "article_link": "https://whatnow.com/tampa/restaurants/castaways-sports-grill-bringing-tvs-live-entertainment-and-daily-food-specials-to-cape-coral/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Cafe Fiorello DC",
+      "location": "1001 Pennsylvania Ave NW, Washington, DC 20004, United States",
+      "event_type": "Closing",
+      "event_date": "October 28, 2026",
+      "status": "will permanently close after service on October 28",
+      "short_description": "Cafe Fiorello DC, a landmark Italian restaurant in Washington, D.C., will permanently close after its final service on October 28, 2026. The closure follows Fireman Hospitality Group’s Chapter 11 proceedings.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/two-italian-restaurants-linked-to-fireman-hospitality-group-are-closing-in-the-d-c-area/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Fiorella Italian",
+      "location": "",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Zeds Real Fruit Ice Cream",
+      "location": "7959 Broadway, San Antonio, TX 78209, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Zeds Real Fruit Ice Cream, an Austin‑based ice‑cream shop known for New Zealand‑style fruit‑blended soft‑serve, is preparing to open its first San Antonio location in the Alamo Heights area at The Collection shopping center. Work is scheduled to begin in December, but an official opening date has not been announced.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/zeds-real-fruit-ice-cream-plans-first-san-antonio-location/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Milk & Maple Coffeehouse",
+      "location": "730 Ponce de Leon Place NE, Atlanta, GA 30306",
+      "event_type": "Opening",
+      "event_date": "November 1",
+      "status": "is opening",
+      "short_description": "Milk & Maple Coffeehouse, a new kosher coffee concept, is set to open on Atlanta’s BeltLine at 730 Ponce de Leon Place NE on November 1. The grand opening will feature giveaways, family entertainment, and a ribbon‑cutting ceremony, with doors opening at 7 a.m.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/atlantas-beltline-is-getting-its-first-certified-kosher-coffeehouse/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Punk Wok",
+      "location": "4101 Charlotte Ave., Suite G-20, Nashville, TN 37209, United States",
+      "event_type": "Closing",
+      "event_date": "October 25",
+      "status": "will close",
+      "short_description": "West Nashville sushi restaurant Punk Wok announced it will close on October 25, ending its operation at 4101 Charlotte Ave., Suite G‑20 in the Sylvan Supply development. The closure was shared via a social‑media post inviting a final toast.",
+      "article_link": "https://whatnow.com/nashville/restaurants/nashville-faces-two-more-business-closures-with-one-happening-this-weekend/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "51 North Taproom",
+      "location": "704 51st Avenue N, Nashville, TN 37209, United States",
+      "event_type": "Closing",
+      "event_date": "December 13",
+      "status": "will close",
+      "short_description": "Nashville bar 51 North Taproom confirmed it will close on December 13, concluding ten years at 704 51st Avenue N in The Nations neighborhood. Owners cited ongoing business challenges as the reason for the permanent shutdown.",
+      "article_link": "https://whatnow.com/nashville/restaurants/nashville-faces-two-more-business-closures-with-one-happening-this-weekend/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Cranky Frankie’s Bagel Co.",
+      "location": "80 East Grove Street, Middleborough, MA 02346",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Cranky Frankie’s Bagel Co., a new bagel concept from Nellie Rose Restaurants, is slated to launch at 80 East Grove Street in Middleborough, taking over the former laundromat site. While an exact opening date hasn’t been set, the team hopes to welcome customers before Christmas 2026.",
+      "article_link": "https://whatnow.com/boston/restaurants/cranky-frankies-bagel-co-to-bring-boiled-and-baked-bagels-to-middleborough/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Tin & Pig",
+      "location": "509 7th Ave S, Seattle, WA 98104",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Tin & Pig, a Korean comfort‑food gastropub, plans to open at 509 7th Avenue S in Seattle’s Chinatown‑International District, occupying the former Baegopa space. An exact opening date is pending, though the owner hopes to launch by November.",
+      "article_link": "https",
+      "published_date": ""
+    },
+    {
+      "store_name": "Meet Me at 6 (proposed)",
+      "location": "600 S La Brea Ave, Los Angeles, CA 90036",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Public filings show a new restaurant is planned for the southeast corner of South La Brea Avenue and Sixth Street in Los Angeles. The proposed concept may be called Meet Me at 6 and would occupy 5,707 sq ft with up to 135 indoor seats. The space previously housed the 6th & La Brea Brewery & Restaurant, which has closed.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/new-restaurant-planned-for-la-brea-avenue-in-los-angeles/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "SuKarne (Vista Meat Shop)",
+      "location": "727 E Vista Way, Vista, CA 92084",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "“coming soon”",
+      "short_description": "SuKarne announced a “coming soon” reopening of its Vista meat shop at 727 E Vista Way after the location had been listed as permanently closed. A filing and a Facebook post indicate the project is underway, though no reopening date has been set. The store previously operated since 2021.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/sukarne-plans-to-reopen-its-vista-meat-shop/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Seoul Meat Co",
+      "location": "11401 NW 12th St., Suite E504, Miami, FL 33172",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is in the works",
+      "short_description": "Seoul Meat Co, a Korean barbecue brand, is planning to open a restaurant in Dolphin Mall at 11401 NW 12th St., Suite E504, Miami. The project is being run by ICC Hospitality and is listed as “in the works” in state business records. The brand also has a “coming soon” location at Fashion Fair in Fresno, California.",
+      "article_link": "https://whatnow.com/miami/restaurants/seoul-meat-co-plans-a-korean-bbq-restaurant-at-dolphin-mall/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "Jimmie Lou’s",
+      "location": "1201 Broadway, Cincinnati, OH 45202, USA",
+      "event_type": "Opening",
+      "event_date": "fall 2026",
+      "status": "was expected to open in fall 2026",
+      "short_description": "Jimmie Lou’s, a New Orleans‑inspired restaurant, is preparing to return to Cincinnati in the Pendleton neighborhood at 1201 Broadway. The new spot will occupy the former Razzo space and follows a preview pop‑up held in September. The restaurant was expected to open in fall 2026, though a specific grand‑opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/columbus/restaurants/jimmie-lous-to-return-to-cincinnatis-pendleton-neighborhood/",
+      "published_date": "October 21, 2026"
+    },
+    {
+      "store_name": "The Taco Stand",
+      "location": "5500 Grossmont Center Dr 22 d, La Mesa, CA 91942",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be preparing to open",
+      "short_description": "The Taco Stand is reportedly eyeing a space at 5500 Grossmont Center Drive, Suite 22‑D in La Mesa for a new location. An opening timeline remains unclear.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/the-taco-stand-may-open-at-grossmont-center/",
       "published_date": "October 20, 2026"
     }
   ],
