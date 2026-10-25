@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-10-24 23:10 UTC",
+  "last_updated": "2026-10-25 23:14 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/washington-dc/restaurants/dc-getting-a-new-and-good-neighbor/",
+      "title": "DC Getting a New and Good Neighbor",
+      "address": "429 8th St SE, Washington, DC 20003"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/baqba-mexican-grill-preparing-orangefair-location/",
+      "title": "BAQBA Mexican Grill Preparing Orangefair Location",
+      "address": "209 E Orangefair Mall, Fullerton, CA 92832"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/washington-dc/restaurants/loudn-roasted-finds-a-new-home-in-herndon/",
+      "title": "Loud’n Roasted Finds a New Home in Herndon",
+      "address": "2309 Woodland Crossing Dr, Herndon, VA 20171"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/orange-county/restaurants/souplantation-may-be-preparing-fountain-valley-return/",
+      "title": "Souplantation May Be Preparing Fountain Valley Return",
+      "address": "11179 Talbert Ave, Fountain Valley, CA 92708,"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/puma-yus-team-opening-new-cafe-and-cocktail-bar-in-athens/",
+      "title": "Puma Yu’s Team Opening New Cafe and Cocktail Bar in Athens | What Now Atlanta",
+      "address": ""
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/montreal/restaurants/lobbie-bar-preparing-to-open-at-quebec-city-airport/",
+      "title": "Lobbie Bar Preparing To Open At Québec City Airport",
+      "address": "505 Rue Principale, Québec, QC G2G 0J4"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/montreal/restaurants/shaker-cuisine-mixologie-planning-val-dor-restaurant/",
+      "title": "Shaker Cuisine & Mixologie Planning Val-d’Or Restaurant",
+      "address": "1830 3e Avenue, Val-d\\'Or, QC J9P 7A9,"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/burger-king-preparing-glen-st-mary-location/",
+      "title": "Burger King Preparing Glen St. Mary Location",
+      "address": "6862 E Mount Vernon St, Glen St Mary, FL 32040"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/the-donut-guy-relocating-sandhill-store-to-winnsboro/",
+      "title": "The Donut Guy Relocating Sandhill Store to Winnsboro",
+      "address": ""
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/fords-garage-preparing-second-st-johns-county-restaurant-in-beachwalk/",
+      "title": "Ford’s Garage Preparing Second St. Johns County Restaurant In Beachwalk",
+      "address": "102 Beachwalk Boulevard, St Johns, FL 32259"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/charleston/restaurants/burrell-flynns-farm-to-open-new-restaurant-after-renovations/",
+      "title": "Burrell & Flynn’s Farm to Open New Restaurant After Renovations",
+      "address": "3057 Charleston Hwy, Aiken, SC 29801"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/crooked-cow-creamery-bringing-specialty-ice-cream-to-sanibel/",
+      "title": "Crooked Cow Creamery Bringing Specialty Ice Cream to Sanibel",
+      "address": "2330 Palm Ridge Rd, Sanibel, FL 33957"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/sol-tequila-taking-over-former-mr-tequila-space-in-fort-myers-beach/",
+      "title": "Sol Tequila Taking Over Former Mr. Tequila Space in Fort Myers Beach",
+      "address": "1661 Estero Blvd #11-14, Fort Myers Beach, FL 33931"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/bobs-caribbean-bbq-making-the-trek-from-idaho-to-florida/",
+      "title": "Bob’s Caribbean BBQ Making the Trek from Idaho to Florida",
+      "address": ""
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/new-dunkin-planned-for-venice/",
+      "title": "New Dunkin’ Planned for Venice",
+      "address": "405 Serano Way, Nokomis, FL 34275"
+    },
+    {
+      "date": "October 25, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/port-charlottes-priceypoo-bakery-looks-to-be-preparing-for-a-new-location/",
+      "title": "Port Charlotte’s Priceypoo Bakery Looks to Be Preparing for a New Location",
+      "address": "3755 S Tamiami Trl, Suite B, Port Charlotte, FL 33952"
+    },
     {
       "date": "October 24, 2026",
       "url": "https://whatnow.com/washington-dc/restaurants/piccolo-buco-by-coopers-hawk-eying-fairfax-county/",
@@ -409,102 +505,6 @@
       "url": "https://whatnow.com/new-orleans/restaurants/classic-indian-restaurant-planned-for-the-central-business-district/",
       "title": "Classic Indian Restaurant Planned for the Central Business District",
       "address": "109 Tchoupitoulas St, New Orleans, LA 70130"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/cafe-66-preparing-to-open-in-dundas/",
-      "title": "Café 66 Preparing To Open In Dundas",
-      "address": "66 King St W, Dundas, ON L9H 1T8"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/jollibee-planning-hamilton-restaurant-at-lime-ridge-mall/",
-      "title": "Jollibee Planning Hamilton Restaurant At Lime Ridge Mall",
-      "address": "999 Upper Wentworth St, Hamilton, ON L9A 4X5"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/freddys-frozen-custard-steakburgers-under-construction-near-costco-in-murfreesboro/",
-      "title": "Freddy’s Frozen Custard & Steakburgers Under Construction Near Costco in Murfreesboro",
-      "address": "1441 Beasie Rd, Murfreesboro, TN 37128, USA"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/southport-grocery-and-cafe-closing-to-be-replaced-by-dollop-finer-diner/",
-      "title": "Southport Grocery and Cafe Closing, to be Replaced by Dollop Finer Diner",
-      "address": "3552 N Southport Ave, Chicago, IL 60657"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/pizza-nostra-preparing-to-open-first-toronto-location/",
-      "title": "Pizza Nostra Preparing To Open First Toronto Location",
-      "address": "802 The Queensway, Etobicoke, ON M8Z 1N5"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/local-lgbtq-activist-planning-bookstore-and-cafe-concept/",
-      "title": "Local LGBTQ+ Activist Planning Bookstore and Cafe Concept",
-      "address": ""
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/starwood-cafe-planning-lavon-restaurant/",
-      "title": "Starwood Café Planning Lavon Restaurant",
-      "address": "371 N State Hwy 78 #100, Lavon, TX 75166"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/pinstripes-to-reopen-orlando-entertainment-venue-under-new-ownership-this-fall/",
-      "title": "Pinstripes to Reopen Orlando Entertainment Venue Under New Ownership This Fall",
-      "address": "11643 Daryl Carter Pkwy., #3108, Orlando, FL 32821"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/giorgios-pizzeria-planning-san-rafael-location/",
-      "title": "Giorgio’s Pizzeria Planning San Rafael Location",
-      "address": "1613 4th St, San Rafael, CA 94901"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/brasiliana-pizza-expanding-to-the-beacon-in-grant-park/",
-      "title": "Brasiliana Pizza Expanding to The Beacon in Grant Park | What Now Atlanta",
-      "address": "1039 Grant St SE #100, Atlanta, GA 30315"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/san-antonio/restaurants/willies-grill-icehouse-plans-250k-additions-at-san-pedro-location/",
-      "title": "Willie’s Grill & Icehouse Plans $250K Additions at San Pedro Location",
-      "address": "15801 San Pedro Ave, San Antonio, TX 78232, USA"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/seattle/restaurants/cantina-monarca-plans-seattle-flagship-at-lake-union-piers/",
-      "title": "Cantina Monarca Plans Seattle Flagship at Lake Union Piers",
-      "address": ""
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/picky-barista-continues-nyc-expansion-with-new-broadway-cafe/",
-      "title": "Picky Barista Continues NYC Expansion With New Broadway Cafe",
-      "address": "2321 Broadway, New York, NY 10024"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/columbus/restaurants/the-lox-bagel-shop-targets-mid-november-opening-in-polaris-columbus/",
-      "title": "The Lox Bagel Shop Targets Mid-November Opening in Polaris, Columbus",
-      "address": "2140 Ikea Wy, Columbus, OH 43240, USA"
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/athens-based-jittery-joes-coffee-expanding-in-atlanta/",
-      "title": "Athens-Based Jittery Joe’s Coffee Expanding in Atlanta | What Now Atlanta",
-      "address": ""
-    },
-    {
-      "date": "October 22, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/mister-o1-expanding-to-midtown-atlanta/",
-      "title": "Mister O1 Expanding to Midtown Atlanta | What Now Atlanta",
-      "address": "1081 Juniper St NE, Atlanta, GA 30309"
     }
   ]
 }

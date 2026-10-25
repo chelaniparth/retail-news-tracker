@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24",
+  "last_updated": "2026-10-25",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -14719,6 +14719,196 @@
       "status": "preparing to open",
       "short_description": "Grand Fir Brewing is planning a second taproom at 15252 S.E. Oregon 224 on the edge of Damascus and Happy Valley. The team is waiting on permits and doing light renovations before opening the doors this fall. The new 1,100‑sq‑ft taproom will feature a large smoker, beer garden, solarium, and food trucks.",
       "article_link": "https://whatnow.com/portland/restaurants/grand-fir-brewing-plans-second-taproom-near-clackamas-river/",
+      "published_date": "October 22, 2026"
+    },
+    {
+      "store_name": "Good Neighbor",
+      "location": "429 8th St SE, Washington, DC 20003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "slated to open",
+      "short_description": "Good Neighbor, a Baltimore shop, plans its first DC location at 429 8th St SE. The article notes the building size and that no opening timeline is available yet.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/dc-getting-a-new-and-good-neighbor/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "BAQBA Mexican Grill",
+      "location": "209 E Orangefair Mall, Unit 11, Fullerton, CA 92832",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "BAQBA Mexican Grill is preparing to open a fast‑casual Mexican restaurant at 209 E Orangefair Mall, Unit 11 in Fullerton. A plan review has been filed, but no opening date is provided.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/baqba-mexican-grill-preparing-orangefair-location/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Loud’n Roasted",
+      "location": "2309 Woodland Crossing Dr, Herndon, VA 20171",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening timeline impossible to project",
+      "short_description": "Loud’n Roasted is set to open a new cafe space at 2309 Woodland Crossing Drive in Herndon, replacing the former Meanwhile Coffee site. The article says an opening timeline cannot be projected.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/loudn-roasted-finds-a-new-home-in-herndon/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Souplantation",
+      "location": "11179 Talbert Ave, Fountain Valley, CA 92708",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "might be reopening",
+      "short_description": "Souplantation may reopen at 11179 Talbert Ave in Fountain Valley, occupying about 7,800 sq ft in The Shoppes at Costco Plaza. No specific opening date has been announced.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/souplantation-may-be-preparing-fountain-valley-return/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Hin (cocktail bar & Cafe Hin)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "will open",
+      "short_description": "The team behind Puma Yu’s will launch a cocktail bar called Hin and a daytime cafe Hin in Athens’ Five Points, with plans to open in 2027. No further details on location or design are provided.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/puma-yus-team-opening-new-cafe-and-cocktail-bar-in-athens/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Lobbie Bar",
+      "location": "505 Rue Principale, Québec, QC G2G 0J4",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Lobbie, a bar and restaurant concept by Blaxton, is set to open inside the terminal at Québec City Jean Lesage International Airport. The airport announced the project for winter 2027, with the venue to be located after security near gates 29 and 30 and seat up to 75 guests.",
+      "article_link": "https://whatnow.com/montreal/restaurants/lobbie-bar-preparing-to-open-at-quebec-city-airport/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Shaker Cuisine & Mixologie",
+      "location": "1830 3e Avenue, Val‑d’Or, QC J9P 7A9",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a restaurant",
+      "short_description": "Shaker Cuisine & Mixologie is planning a new restaurant in Val‑d’Or at 1830 3e Avenue. The paperwork has been signed but the project has not been officially confirmed and no opening date has been announced.",
+      "article_link": "https://whatnow.com/montreal/restaurants/shaker-cuisine-mixologie-planning-val-dor-restaurant/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Burger King",
+      "location": "6862 E Mount Vernon St, Glen St Mary, FL 32040",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Burger King is preparing to open a new restaurant at 6862 E. Mount Vernon St. in Glen St. Mary, Florida. Details on size, drive‑thru configuration and opening timeline have not been released.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/burger-king-preparing-glen-st-mary-location/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "The Donut Guy Sandhill",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closing",
+      "short_description": "The Donut Guy’s Sandhill location in the Village at Sandhill is closing after about three years of operation. The closure was announced via a Facebook post stating “The Donut Guy Sandhill is closing”.",
+      "article_link": "https://whatnow.com/charleston/restaurants/the-donut-guy-relocating-sandhill-store-to-winnsboro/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Donut Guy Express",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to be open within the next 30 days",
+      "short_description": "The brand will relocate to Winnsboro under the name Donut Guy Express, with hopes to open within the next 30 days, though the new address has not been disclosed.",
+      "article_link": "https://whatnow.com/charleston/restaurants/the-donut-guy-relocating-sandhill-store-to-winnsboro/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Ford’s Garage",
+      "location": "102 Beachwalk Boulevard, St Johns, FL 32259",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Ford’s Garage is preparing to open a second St. Johns County restaurant at 102 Beachwalk Boulevard in St. Johns, Florida. No opening date has been announced and the location does not yet appear on the company’s website.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/fords-garage-preparing-second-st-johns-county-restaurant-in-beachwalk/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Burrell & Flynn’s Farmhouse Kitchen",
+      "location": "3057 Charleston Hwy, Aiken, SC 29801",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "still undergoing extensive renovations",
+      "short_description": "Burrell & Flynn’s Farm is converting the former Old Montmorenci Winery at 3057 Charleston Hwy in Aiken, SC into a new restaurant called Burrell & Flynn’s Farmhouse Kitchen. The space is currently undergoing extensive restoration and renovation, and no opening date has been set yet. The farm plans to source fresh, seasonal produce for a lunch and dinner menu.",
+      "article_link": "https://whatnow.com/charleston/restaurants/burrell-flynns-farm-to-open-new-restaurant-after-renovations/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Crooked Cow Creamery",
+      "location": "2330 Palm Ridge Rd, Sanibel, FL 33957",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open a brick-and-mortar",
+      "short_description": "Crooked Cow Creamery, a Cape Coral‑based ice‑cream food truck, has submitted plans to open a brick‑and‑mortar location at 2330 Palm Ridge Rd, Unit 9 in Sanibel, FL. The new restaurant will offer a range of classic, THC‑, CBD‑, and alcohol‑infused ice‑cream flavors. No opening date has been announced.",
+      "article_link": "https://whatnow.com/tampa/restaurants/crooked-cow-creamery-bringing-specialty-ice-cream-to-sanibel/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Sol Tequila",
+      "location": "1661 Estero Blvd #11-14, Fort Myers Beach, FL 33931",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "opening is being targeted for December",
+      "short_description": "Sol Tequila will take over the former Mr. Tequila space at 1661 Estero Blvd, Suites 11‑14 on Fort Myers Beach, FL. Plan review documents show the restaurant is targeting an opening in December. Details beyond the location remain under wraps.",
+      "article_link": "https://whatnow.com/tampa/restaurants/sol-tequila-taking-over-former-mr-tequila-space-in-fort-myers-beach/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Bob’s Caribbean BBQ",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to hit the streets in Central Florida Soon",
+      "short_description": "Bob’s Caribbean BBQ, an Idaho‑based Jamaican food truck, is preparing to relocate to Central Florida, with potential bases mentioned in Winter Haven and Poinciana. The owners have not disclosed a specific address or opening date. The truck will continue serving authentic Jamaican cuisine after the move.",
+      "article_link": "https://whatnow.com/tampa/restaurants/bobs-caribbean-bbq-making-the-trek-from-idaho-to-florida/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Dunkin’ (new location)",
+      "location": "405 Serano Way, Nokomis, FL 34275",
+      "event_type": "Opening",
+      "event_date": "mid-to-late Q1 2027",
+      "status": "opening projected for mid-to-late Q1 2027",
+      "short_description": "A new Dunkin’ is planned for 405 Serano Way in Nokomis, FL, across from Northeast Venice Park. Construction is slated to start in December, with the opening projected for mid‑to‑late Q1 2027. The announcement also highlighted new seasonal menu items.",
+      "article_link": "https://whatnow.com/tampa/restaurants/new-dunkin-planned-for-venice/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Priceypoo Bakery",
+      "location": "3755 S Tamiami Trl, Suite B, Port Charlotte, FL 33952",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Looks to be preparing for a new location",
+      "short_description": "Priceypoo Bakery currently operates at 3880 Tamiami Trail, Suite A in Port Charlotte. Plan review documents show a proposed new location at 3755 Tamiami Trail, Suite B. No comment was given and an opening date has not been announced.",
+      "article_link": "https://whatnow.com/tampa/restaurants/port-charlottes-priceypoo-bakery-looks-to-be-preparing-for-a-new-location/",
+      "published_date": "October 25, 2026"
+    },
+    {
+      "store_name": "Taru Coffee & Play",
+      "location": "2300 24th Ave E, Seattle, WA 98112",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "soft opening planned for fall 2026",
+      "short_description": "Fuel Coffee’s Montlake location at 2300 24th Ave E will reopen as Taru Coffee & Play, a café with an indoor children’s play area. The new owner announced a temporary closure beginning October 1 and a soft opening planned for fall 2026. The space will serve Stamp Act coffee, pastries, and an expanded menu for adults and children.",
+      "article_link": "https://whatnow.com/seattle/restaurants/taru-plans-cafe-with-childrens-play-area-in-montlake/",
+      "published_date": "October 23, 2026"
+    },
+    {
+      "store_name": "Huey Magoo’s",
+      "location": "1560 W. Princeton Dr., Suite 107",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning",
+      "short_description": "Huey Magoo’s is planning a new drive‑thru restaurant in Princeton, Texas, located in an end‑cap space at Princeton Meadows, 1560 W. Princeton Dr., Suite 107. Interior construction is slated to begin in December with completion expected in early 2027.",
+      "article_link": "https://whatnow.com/dallas/restaurants/huey-magoos-plans-princeton-restaurant/",
       "published_date": "October 22, 2026"
     }
   ],
