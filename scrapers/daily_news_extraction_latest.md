@@ -2,352 +2,211 @@
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnhOUzByNHFkTGFIZl85eS1adndIRFhtRkItNzJTUXpvd09nNmNRSnJidm5xMFFyOHBSVy1KNzdDTVhkYzVGUFdDNEtZWWRaQzNzdlVMM2pNUDdOcXhtOG55X0hkWWlJSEZ3aVdGcWxxc0t5Y3FCUS0yY3RwQ0wxY1YtNy1pRVpvTHlCWWF4dWJhcy12TlNKLXJHOFI2X09OVlFjbFBabnVYV0Fnb05UZjJqTVQ1UXRZb1N30gHAAUFVX3lxTE8tSTdSV2xWd2ZOOWwwZUJwVGtWQmZQQm1PZk5NcGwxSWlYakpsWWpvckZpNzRxWkY5VlVGVWJ4akRhelhOQk90ZHRhNUhXMWtYYUp1aDNqcnhHSDdYVkNvVUZRblpxeC1hSWJHUFFhbWFWclloNV9sVUtLb21GNkJzVGl3aVY1RlNWRW83OUFyWGh6SWhxMy0yQVJNVTU0N0dtYjI5SGV3X2R4ZnFBLTE5WjZIeE51akMtVTNpTU4yTQ?oc=5 | 2026-10-24 23:13:47 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiowFBVV95cUxPOHdqWlVCVW9MQkJGb21UMXdpRUNZXzRkalpkSzRBdmh6Y3htYllnX1ZBM2JFblFUcHF6VjlLRk5weUM4LXRHLXAxWm1KbmRKel9UaDZ3VlhkMXdIZWhIMzRIZi1xa05ybHdSekRiRExodTFtZ3BVUlRHRW9rSUxJRnZ2TTRsZ3V5eGRVSjV0UlV3NnJtNnRnMzNlSDBYTFdnVjhr?oc=5 | 2026-10-24 12:06:08 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdFNvRXQwTUxSR1A5alB4V0RBd1R5cEcybFozM040SEVLUHYzU0QwZ2RrcG9aLVJKM3Q4b2RuTzZDM3h0d0JfT0RUbHpKTk50SDVZRVJzNWkyeW8zeWFfNVpvb1lINWQ2YzdFSzhPR05VcTNaU1N6N1Yxd2hDWmgwcExSMmExT0JuOWlERlBkdFFXbF96NkFEc09XZWxDNklfU1Jhd1IzNDM1d9IBvgFBVV95cUxPcGEycnRTREx2TDBmYXd2TTRwQ01Rc1l3eU0xYzU2MXZUNlRXNUVGUUVUTW5WdkZqc05yM2FQY0FzNnR4TDdHVXNFZzRVRjNVQlRXbFhTNkZXMnBKWXFjYW4zWjZPSGIwTUdjOERQRjNya2l0OUJ2SGlrWHVTRlVlMEU4UFprZ2d1TGdHbDFCdmx4eGoxTDJqSktlaVJZWU5DWThVZllfLVl5a0toeFFWUnNDemk0UXJpd2dWQklR?oc=5 | 2026-10-24 03:20:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vYWNDdjA2RUdjMWVlZ0FtYXFMa094dHRURHVwc3VXLUxoczFndV9VRTJmOWh4eXlGT3lrdEJwVHVleXpzLXloQ1JDb1lIVUk?oc=5 | 2026-10-24 01:32:34 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVHJPRmhQbWdzR1NjMTM4NG5iYUZsV1FzcXFMc0FjTXpSalhzR3AzME5nblhSRHZxclBvWEg3VTV1YUxRZmpJMWRJTzVmWXhYS25ySDVVY2F0eExtS0VTUXZrbjhmdjg2NEhFYlpMLXdsTnU3UmhBbE51VmVUeEVMSUNFYWQtTV9pdEZCTGtjSXVGUFhJWXdNLTllN3NWVEVKdDlqZENwbEd6Y2laNmk0NDByS3IxbUlSa1lDQ1FPQ1FvNGNmLWtzTlc5R3BKU2huZ0FRUnRuOHlVNDJVNVE?oc=5 | 2026-10-24 21:16:02 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMingFBVV95cUxPdWZkR004ZGpTSmRhRC1NLXpyNXh2RUpFQzh6SnhvdmVUS1BFSXdCYmlqb3Nkbm5jbGtyVVZCR1l5TFNIUDFEbVZDcnZfek1UZHBfMXpDNlBGU05ZbEc5WWVrTi1tNHVxUExMZXN0d3ZYWUx3OU51U1JhcTI4RklXSG1JUUFGTHg3R3R6SV9QZ3U5LWpGbFpqY2REYlBsZw?oc=5 | 2026-10-25 20:43:21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sbWRnSVhLeGc0bWp0bXdKMUVFdHl0LWhYU2l4eFlEWjhuM1dmSXd3dGRZV3hKYk93S2ZtcjgwdkVoMWUyZzhOMWF2MWdRbmJORW9J?oc=5 | 2026-10-25 23:32:07 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxOZnpYRVlhVEgzVzVRR0ZiOWZhX0xfWmdmRmR4UktKdlJiMFNKU2VYUUNuUVQtUktIUGRidHpvYnVZZDA4NHNEUS1RMTZCcTlHMm5ia1lnRTMwOUUzVmpBSnlZYlR5T1NMWFowaUZIRFdIS3lfRWZaV0xXSGFmNnJMSGNobWdKUGtCWEFMSldwMmRjVUFoUGtXVUJOaGh3MXM?oc=5 | 2026-10-25 20:31:58 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2IwUXJJekM1RU5PUDV2S090RjUzOXktUERudEhEWmgtMkpnbFRsaWtneVEwcnU2dDlld0FOWWhNRU1PTXJtWFFnc3J6MFNBQTJ6SEtlNm1hOGtYZVd2SUhPS0dob3hEeW9CLXZ2QnNZX1pmWEZTWW84UjVybC1sMVo1eE1iakI1dDZZMmRFRXN4bHlx?oc=5 | 2026-10-25 17:37:32 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMidEFVX3lxTE5aR01EYTE5TWI4ZWRlbG4xZU9CZGgzWXJDNTNLa0p3UXlSUzR4Y2ctb0R6ejdCWG5ZYVBJNEU0bmlSSGo1WmZGd3NQdnM0V1ZKWEdJcFJnZEVmZ09kd0VZeHhxYlVVd1pLQk5iVVhJNWZrcDdj0gF6QVVfeXFMTjM2U3dDLVRPY09qbTBNc0Y4VVRNQlBjZmwzb3kxcFVLdXc0TnBrYmJVaWY2cmVzTXVLakNSVVYyVXptRENjc1FaNjgwQVJycU5BZVRWbm9JSEVUNDZja0VhUDdiZFNzRzd0RHpYTkN1Zk1WYTRrQzgyVHc?oc=5 | 2026-10-25 16:06:00 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 1 — Reason: 503 Server Error: Service Unavailable
-- Article 2 — Reason: 503 Server Error: Service Unavailable
-- Article 3 — Reason: 503 Server Error: Service Unavailable
-- Article 4 — Reason: 503 Server Error: Service Unavailable
-- Article 5 — Reason: 503 Server Error: Service Unavailable
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi9wFBVV95cUxNb1g3c09DOUQwU0JmZTZXWkxfWHBTdEZaQ0YxdVBlTHpLcVMtcTZvSjVOZEZ4TnlXbWN1dmx3Tkg3b1NpY3BGQm5jUnFWOE1xTVNHZTNMd0NseS1SenNmQ293dUVER05wbHhjWEdPS3BsUUplbkU1ZmhHUTBKWklqb3FSUEg1d25SZW1YRmdmcHJZNmc5b3FFWUZTN285aC0xTnNwT1NsSGE4NS1vZ0x0SEYyM2pwNENaVW5VaEYzOG1KWkdTaGVYWS16UjAxNHhvd2NJQjRicXozQXJ6amZuVUxuQ0dGS3BaYkp4UWtNSlpGbTg5VFI0?oc=5 | 2026-10-24 17:41:19 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxQdFQ0c2RGbmNYMWl2SmdtV2pncG5aYVZtMXdzRm15S1MxMlR2RE5DaDRiUkNaOGNzemJqWVhHaFh6OGdkeXdLcTZGU1VxTTBRcjMwYU5vXzRXWmY5UUw1dXVwSWNXT2hKVWN0Q01jR0c4VmpFQTF0Mjd3X2d3UHRNR19qekkwZnFHQUxuWGZXeURXX2ZIMnVveXk1MFNYeWM1d1E?oc=5 | 2026-10-24 16:28:03 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3JJeTVqMHRaMFM2UEZGNk8tcmZFYVloMlJmdS11SHQ0YjlzVVFGWmMwc2dpY2lQYjl5el84dGRZc3VlWTRrR25QbnRjRjlTSTZiUFRRQVdfaThKaU5Od
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMivgFBVV95cUxPQzZLLTVEY1ZDNnVZbUhDR0ZRZjJ3eWRjTmJQVzNxa19zeml2NG9OTl9qbjRmcDB2cFhpazl1RkJLSy10ZjN2TUtVSlQ1LXZDQ2JDTnpWYzVHV2VOcV9qOGNUN0Mwb3JEVDhJbXVrMlg1bF9scnhsWm9JN0l0SEJqQUxTT2NoRXkyUlp6VjduQ3hzT3FqVHI1U0tnRlBwMU5HYk5pUnM0MUNLNm94cGkzNmlPN1JGSHpWTFRMQ1Bn?oc=5 | 2026-10-24 13:10:41 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT080Y3Z4SDBNSmZCNmFwakpLcjd2RGcyVU5EcmVKOWxhTXpzWThETmh5dnJrbWdJZm5VOXM5TVRZVzcyVTlUT1lacTRjdk5JX2c4alREekthdDBScEFHaEJfNzFiWWo5a1k2alRyelVydVhEaFE3THBSNFBZS285TFlGSW45SHBtVjEydFQxMTNYU1Ztd1RtN1BPWDBNb3doRDBGRzViQWt0Z0pCaEhxaVdjZkxZTmlZYkRlWDhQM2VGRi1xRmw4S0ZQN3FaeHlJMUtR?oc=5 | 2026-10-24 12:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxQcFhNQS1ucHF6YmNQNjgzQkhZa3JuWUtPVWNnblRZVXczMjBhWGVvTGJEZ0RZdDBGdTNrY01PVEs0WjhTdHoteFN1V1hmcEMyUll5b19UQzZwbE1sRTJmOGtHZmZRQzRmaHdVY0JYNG1XLVY3S0dtc3U2SVRWM3Z2S0g1NW1FdFRJUDQ4Nl9qOEdCak9MMnM0WWRR?oc=5 | 2026-10-24 10:55:58 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A |
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ0ZkUXRoMXctWWpUOVhCVnVPQ0gybmZYWmpMT3RjM1hUSi1VREVmenljSG1tRHZtM1NqeGItanNCQkxzYXZnVng2cWZuSW0xSi1GUUpaT29YWEZ6aEl0S1ZLSHRFTVJPOFhuNHVOY084TFNJQnZFQ3JXLVphWWhiTVZORGo3UVdjT0ozZ1FmYUl4V19zVE84aG8wNEREZDhaalFlTmFHelRaaV8xNUtEN3JOT3BQbHpDekRhb0JSaUxBQTFaR2pvWQ?oc=5 | 2026-10-24 04:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxNUkV1M1paRDJKclBmc0YzQmV6Zk9mLXUybmxMYTFyMEtKdmFEU1I0RVlBcVdyUm40SkYyQ1JWd1I4d1lPTGFPR2E5ZXduN2xtUFFTam92TklSeHZydzlyWjVkQnB4OXlEQkxqaUFKOTlBSzNaVXhUTktRQUJzX3JfQlBWeTRCQ0tXalQxODVrdFFKcVZEa2xfd2JXaGNxWVk?oc=5 | 2026-10-23 23:03:21 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSzNjZnFZMXZwUXRZWVVpZ0dPQmE2aE1tR0JnbjVGeWF4YzhvaDAzb28tU1Z4NkFzSWxUZHVaYXlCZDF1RDJTU01XTTFGUldManJ6TFd1SjJuRlAwTkJqY0ttZkRqOE5hMjdtczZnRktJdWpqR1RvWWJpNERIVWFSLTlrYjVlS0FrRW5GcHlHVy1fUllaSW52WHV6Qk5UZWpNUG9oR2dJTGN5RG5aUWVEcXJGUXhhd29DWkxlRjBielhEc3U1TWlZc25TWUtpVzM1TXZ1bHVjT3lrd0I1QkxYN1UtY1pxemI0cnNJLXJkYlVXVlZUaFZ0SQ?oc=5 | 2026-10-23 19:46:05 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkhEc3dEcHVqakZkd0QybUpyM2NwT0syUzNfaDJabjkwYklGcnYxcG1uZUFQWFRhMnJKVUtma0RLOWF6QXBEa3Zoay15ZnFTZ2dmU01pbC00cGNrcUJjbVlsQy1Ga0VXWjhiemRuSUZ1WE9kVFJvV0ZfLTdEV1RfUi1KQV9XX1RDcm8xVk4wWGVaSjMxSE5uZ3Z6RXlaSktJalZYSlVwb0pHUHJFUmNQZFl6M1JHcjlLaEZjMjlxZDQxZ0ZyVVB3V05CMGs?oc=5 | 2026-10-23 18:40:06 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUN3ZTZFdkVXamJQNU9zdTlfZVhLcE9COVQyc0lVNnVIZVlvQkFGcXpZV1pTYzEwWnVYaEJ3UGtHZE41SW85NlNwV2xENlhHd1QxNms3RzR3c2d1NTB6d1ZlS0k1RDJEYTJYZW1NVEprYllOekZIRmpheFNYQ1JlMHRuMm5GSGtTMmtCRGFCVDlfZ0x3RWNIZV9sWmJ0a2RsMlRNRnZtZFoxVXVVVWtJ0gGvAUFVX3lxTE51Q3dlNkV2RVdqYlA1T3N1OV9lWEtwT0I5VDJzSVU2dUhlWW9CQUZxellXWlNjMTBadVhoQndQa0dkTjVJbzk2U3BXbEQ2WEd3VDE2azdHNHdzZ3U1MHp3VmVLSTVEMkRhMlhlbU1USmtiWU56RkhGamF4U1hDUmUwdG4ybkZIa1Mya0JEYUJUOV9nTHdFY0hlX2xaYnRrZGwyVE1Gdm1kWjFVdVVVa0k?oc=5 | 2026-10-23 17:50:58 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 16 — Reason: 503 Server Error (Service Unavailable)
-- Article 17 — Reason: 503 Server Error (Service Unavailable)
-- Article 18 — Reason: 503 Server Error (Service Unavailable)
-- Article 19 — Reason: 503 Server Error (Service Unavailable)
-- Article 20 — Reason: 503 Server Error (Service Unavailable)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMidkFVX3lxTE5XVU9wVXBESEFrbTh4SWhuUEo4QWdXQnpRVjBzQllkdE9POGNfRUVtbW1RWHJpMGVJenFRV1prOUJvamllOUJ2YTZ1WklVUWMtQ3dFczVDZ09adVpBTTdCN2xyLXBESkE5ZDBzTXhFcGxyVkppVlE?oc=5 | 2026-10-23 15:51:15 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixAFBVV95cUxPbVc2OG42djg1R0FEaEVqQjdndEZFX3pvUXJ1VUhzc05xXzNPcGFNMExKaVJQbWtVVjZpLXZLLVluWFc3M2NSZEVKNFlic256ZG9NOGNrUmpCSGxsZ19mYUtUY01HMXFqeEVPNWVrMGQ1RDE2MENZX3VpVkJ6eUdaVlJtVEx4ZnY2UGZDc0ROMXNyb1pMUnlua1luN1JuU0t6ZVhLQmxROU9fYUQ2dVMwd3lWNWxtbnlnZDNBTGhreXNYMG910gHEAUFVX3lxTE9tVzY4bjZ2ODVHQURoRWpCN2d0RkVfem9RcnVVSHNzTnFfM09wYU0wTEppUlBta1VWNmktdkstWW5YVzczY1JkRUo0WWJzbnpkb004Y2tSakJIbGxnX2ZhS1RjTUcxcWp4RU81ZWswZDVEMTYwQ1lfdWlWQnp5R1pWUm1UTHhmdjZQZkNzRE4xc3JvWkxSeW5rWW43Um5TS3plWEtCbFE5T19hRDZ1UzB3eVY1bG1ueWdkM0FMaGt5c1gwb3U?oc=5 | 2026-10-23 14:51:11 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxNTnJpcXVhMXlYd2NGVDROdFRHdm5idEMzVnhJUlJQdkJqVm1ibkN3M2Q3THhtcFo0WTFheXllc0tLT2JxT2FwODdGVFc3QnhPQ09uak1ERTY0RXA4TG5vdHhJWl9ZbU1CWEVtY0pTUkoxMm5VaGRqS0YxNXY2Qmx2NHJWdVVHUQ?oc=5 | 2026-10-23 14:18:06 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVVdpTnY3QzhiUGlmWVhyMlBfbGlQT3g2ZEkzZGt0S05nd0FNY1hTdEUtZzVRRVk1NG5MRXdBQjZJZ0c2Z0xCc2FkeUpHUlNtNHlsT25PYXk4Tm1HRW1QTjl3bTNQZ01aNVBDV05uM3NMRllNdlNxVzZ5RVVWa1g5RENZVDhnUDNWcWdieWJyRTZzb0NKeEx0cm9XZkw5dmVLUmdCV0J2VURsOWNKYUFQRTF3QnpMbXNxNnRqU0p2LTdIWE53bDJWMVo1WUJONkJTM3ppcGZUaHRES2lKdnQ2UGtVU3VvNW9ad3pIbmlHNXFYay1fMDRmLUhZbw?oc=5 | 2026-10-23 12:44:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAJBVV95cUxPTUR0NlhsSDdHdk4yYzcwRGl3aUNMajV4LVZkOFNTOU04eld4Q3BRNWpDd1B0UnpHVzVYcl9HZ0hWTVU1UnZ2RUpjV2tXalpGakREZDdlOVFrSTE3WmxlWXJMdnplSzB6RlJzekRISzdxUHUtWU40aXZhUi1YNjU2a2o3OTFmNlptcFh6WDI5VkszZ09KN2tmX2dJRTM0c3dYVzR0d3BXTzBzaDdXWXk2N2JMUmdiaHIzNkw5Y05NTThPOFNtVHEwZFpadENJNzRTak95Z0JTX2JjS1NTLVFubk5ZMjEyZlpPMFY2Q2xwMTN4eWk5NmZxaXV4YkVBWFVF?oc=5 | 2026-10-23 11:47:00 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 21 — Reason: 503 Server Error: Service Unavailable
-- Article 22 — Reason: 503 Server Error: Service Unavailable
-- Article 23 — Reason: 503 Server Error: Service Unavailable
-- Article 24 — Reason: 503 Server Error: Service Unavailable
-- Article 25 — Reason: 503 Server Error: Service Unavailable
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxNdzJpeUtYSXF6djNuaTF2VXhuVkJWOEdTcklpdktKb1U0OFlYTGo4dEF1TW14a0NBLUx2SVNZQ0NaY2VDV1R1TTRsbFo0a2k3dllOd3IzUlc2SkJsUnJVVXBQMld0SkNWa0ROTldtSkhBeXpsTzIzNkZnTjE0RnFheXYtUXY?oc=5 | 2026-10-23 10:33:55 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixgFBVV95cUxPejYtQkRzZHNKTlNJUFhyejVycFlqZ3NqaTkwUnFoYWtqVGdZQ3ZxZWFGem15MkpsXzZsWWt3QVppMFRVNmZ5TWlFSmhqekxvd2RPd1R0MXBYRlFIY1Rpek9mN1RoYWw1eVVjNVBGQU1nU0lfZHJxNXFMUjFwY2R0RWdPTnhCb0RWVHpmU0czdzJubUxIb3RRNG1tWnlzOVlNb0xOcUlsX2NPdGdlcnB3UjRabUVnZk4wVHEyQjhJYkpsSTItQkE?oc=5 | 2026-10-23 09:37:29 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdDBLV2lrVWdhUFQxMEU4dWlIaEQwMmVwcWtneWNQMFhob2dhbmZrbjNBQnBhOERVTENCN21YTXZtMzgzYWpUWEJ6eVpTeG9BSV9yMl9uR3NkbXh1eGprUlM1MFh6OXNtZjk2dXBreGdnd0YtbFozTnpFaE1QU2lESW9fd2lRWloxQm0tYk00dE0wajZBRFJLcVlXSGxmTDBWeFVUUENtUlQzaVN5azUycV9MVFRaVF9pZngyNFFxRDBFc3c?oc=5 | 2026-10-23 09:11:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54TUtxMVFWUXRQZGYwSkpuZjVFdkdxNXd0aE9LR0tJTXBIZWk2VUJUNDNORnZsWmNGbzcwbnlrTGNYVFF0UXlwUVpRN3l1Sm1KU3lUbURPSW0xb0JVYnZadFdBVXFzcnM?oc=5 | 2026-10-23 08:29:32 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxNZE0tZGlBNmkwbkhHLXJYZGZzTDdvV1lhTVgwUlFpVXY4YkYyb2IxOWlIZ0YzWmg4U0d0M040Y2xHZE1BYXFTc2V0Tml4b011NlhGNjVod1djdDZqSzVHM20wQkxTRmxpa3hfZEViVWJETzVLZ19hWkk2UjlHNDZCaTY4R0NuOVZoT1l5R3MxOTlqRlpzamVoeUNMejNaVTQ?oc=5 | 2026-10-23 04:00:00 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 26 — Reason: text missing / fetch error (503 Server Error)
-- Article 27 — Reason: text missing / fetch error (503 Server Error)
-- Article 28 — Reason: text missing / fetch error (503 Server Error)
-- Article 29 — Reason: text missing / fetch error (503 Server Error)
-- Article 30 — Reason: text missing / fetch error (503 Server Error)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxNY1hMUXdUTjFZYzlFWkk2bExuQVdFY1hydENOUTBHWVo0dHVRT1JoTk92UGs2TWdHWXBjYzAwcUtCX3B6SGJ0UkxvUlRWOHBpVmt0bW5Ddk1EcXdsUWZpcjJybVVCS1AzdmJ4UmZjUDN2WC1ncS1NamVjQ1dpaUJycDQ2LU91QXU3MmIxZXd3?oc=5 | 2026-10-23 01:30:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYkU3TkVtdGhCa05HYkE5dllBR2ZENDYzVzN3emlTd2cyTk9GSG94VWRpMGtYaWliVjVpMENCRjdRaVVJUW5NV3daUDdmVy12WkhibmtWMEhxS1pQMzhEZGR4Tk93cVpYLXRQTU5kSUo5bkVud2Qtb2QwX2hQaGhoSGFFdmxHeXQydE9FZnQxZXJfbzNMT29iempoSkg5Q1JPdDhoNmFnRGTSAcIBQVVfeXFMTlV0azFKdFVfM0R0b1hrdHBldEs0UVA0c1JhNFlvd3dVSHFKM3JyaTNpTGY3NG1PWW5mZjNhMFdsczFGSHRXMmxmNUpCZEZOdzNiVDcwV2NjMjhmRVY2SWtBbC0tWXhnamRHeWJUUTNWam1ZaDJXc3RvdVlJMFlVSURmTjY5cWJsM0pwVTUzVWFSR3k4a2tPYkVhMDBPZ0t1TldwSzdxQTlJbmt1SWMtN1kwVFZVNlo4MkhvV0FQWTBvQmc?oc=5 | 2026-10-24 23:32:38 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnJrVjdHbjBiRkU1bDJxb2tZckFHVEs4S1puUUpYeXBPby14WWVOU1AwM094Nlp1Q2ZybWZraTBhUDlPX3ZNLTBzR25zb2lVMWNBRFdUajNheExPVmR5T0diclJsUG5NaEZ6VDVFbENsUzN2RVVGT1JuaGdmcVI4X2hFeWJkbjVDa2Fac0syVzVjc3F0OEc0ZTZSLU9mNFlReHc5SE54QjluVFU?oc=5 | 2026-10-24 22:46:49 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxOaXU0N1IxelAxcWtnMk85d2gzc0F2VXVGQ0NkbDItaVRpTTdZZHRvTll0Y1lYZ2c0UW1TTVE0NzY3TDY5TkhTTjQ5REpuaUF6cU9LbGxIcElib1B5bWJtaVllaEd2Wm9VdG8wclpQejVDSHN0THNiZ1lpR3BWSmVOYXNobFUxMk5RekhoQ3BXdDlIMVdwc01NWEJobW4?oc=5 | 2026-10-24 18:00:03 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMibEFVX3lxTE5wSWVsZHVFcGpGOGhUV0NYVXhLRUMybXFWenFicy1Ramh3WFBJVldpWnhQQVFKNWF5MmVqaTIzTnBFMmNpZ3lWTmNVXzBJUUo1eE1JQXpScnlmRkhrR0RHWXptVlZCTFNhTjAzLdIBbEFVX3lxTE81N1R4d1l2QXhFTHo4ejVGV3JIVHRYNEtOdmNra2dNZTF3VDBXTzVxeU1kM0pCbXNzblFLRTZCMGtoQmcyRWNTOGtNTVJTTTluWEdJZGtfSFRYaDAteHdMVFM3QTM4ZU9JN1ZEMQ?oc=5 | 2026-10-24 15:00:00 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 31 — Service unavailable (503 error)
-- Article 32 — Service unavailable (503 error)
-- Article 33 — Service unavailable (503 error)
-- Article 34 — Service unavailable (503 error)
-- Article 35 — Service unavailable (503 error)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGFyWGx6RUljZmZkWDNucGhTeEFmS2preHNYLXNYd1F5RDNpeGg0Yk1vWGNKRWIwWXpCYkZkb2sxQnJxTnp3U0V0VUJqUUlJa0pYVkhkR2thOFozQ0pwQVFmOC1FNmxYRktia09LN2JCdHVtMHViWTg1bWxvem5mU01LTmowY1JJdnRablBpM1pNX0J1X2VOczZBRWFrc1ZBcGJrUXp3?oc=5 | 2026-10-24 15:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2ZGeTFjbU5VNGNiTDY3VkduX0FMZXkxS3l1UGhqejJDWTE2Mi11Tl9YWTVMcV94b2tPNnZFV1pNRGtrQnJIakp4TkRBd2JOZG9COU13T0RkYTRMWGpXX1M4aFdONThWb2ZNeFROb0R5dVMybzVXbm9wb28tYmNXdkowbEZhSDhEZ3V0M3FnQXFIVGJpdERBSE5R?oc=5 | 2026-10-24 14:52:31 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWJ5eGpqR3Q4TXVDRW5xRkVYRHkxOTA1MXRpLUVGUFdXZDNWRHFpcjRmWTdxNmVFaUpPeXhacHRjMlJsc0ptNk4xQmRTTGYxbE5VRzVzdnBFVC10TDhpMVJ1V1JsZ0lfV3V4cHF5Wlh6QktNUDl6akZzZUdFMFhyN1Bhem91cm9KN2pEWkNvZWRKR0Z5MmczcGlCWmI0VEdVOE1uVFNMVQ?oc=5 | 2026-10-24 14:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxQblUxMmtHV0xTVm1nc3NQYTZ1UW1jTU94QjdxTUxUZU5abm5pcWVZMnlqQ0U4cDkza21feFlLbmhwTS0tSlFMMDZsMjlVRERqV2xYM0Z5dlRFdFhjcnpQT3MxT08xcmxJR19GNGh1NFFfNWRvS2VfNlY0Vy00dXVDNjRsX3dNdDlKWktLUE9tbWF4Tk11YUEzbjhrUy0?oc=5 | 2026-10-24 11:55:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisgFBVV95cUxPe
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxOdmI0NGZQODRkanJQbEdqY21Kd0RsV2JjRG4zNW9JYWRTZHZ4VmZZcnQyODkxd3IyanBTbFN1d0JpUlZRWFJmVjFkcGFOT2xsQ2RZZ1BWalU5Y0hkZ3lwaGdBNTFraFFJZkdqLUh6SFpJT3FLZ3FoMGwzRGtSRWVBdG5veDBZOXA3VnlfQ3NtTUpoU2xnNXNkdWItZk4xYmxWMGc?oc=5 | 2026-10-24 04:30:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWdKY0p4Z2MxQTJVNlczeTJnWWFoaVJFeTF2SnBXLTdIWXNJeDJ0M2JQZDZYVHFTYVhMWXc5NlVNWlE3MmxERjdIZXNKOHlrSGF2cVlKMzVTRzJ2dHJBS1hpdV9iam9SZHo0YUxrdnRkMFpQNEhrWld0aVkwZndsbVFTY0l3dmd6NGJoQzhndUtwV3Y2bDlRMkRCSk1DRkI4MVE?oc=5 | 2026-10-24 00:30:30 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMingFBVV95cUxQak1sZEk0ZHJ5dE5LNUktYUZBWGpWeDNVR0pMYmJYcExRcGRDX2NrLUN6RGhuWnBkdGtZMHhWUkxaRG1jU0tnUDQ4YnBIUFp5aVBtYVFCVGpMMTdKcl9HNl9GVUlQTllodkpvT1NkNTBZdDRBSmRMQnlybVhRTlZaSDVEOERaMEdKN1dudlVWUm1YdXk2M3ZzUERXdUo5Zw?oc=5 | 2026-10-23 22:01:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Wa1gxZFFUOTNBcllQM0ZUdXhpbkV5WThVWWJ6al9SSktVYmNFSE54U1hHem5MUXpVaG5JTzhJSE9GOG5kYWxmQ1ZxOTZVYUhscHotbVV5ZFUzeHBjSlJCYUFDRlJlZXY0?oc=5 | 2026-10-23 21:16:05 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxPRXhDYUc2NDRNODFHMGo1VTdRVHJmQzB4aFVvQXJIVnFTVzl5bmJnN2dpWUNjaUtidWV2VDZ0MnhJNjNqQWVqeThXbXduRnlma0hON2c0ckZMa0MwbXNLMWlscG1YbmNLMGxTajhkUEhjaGZTeXpGLXpOb3ZtW
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2lJOGwwN0g0RFlCZWRUbDlZSDVLeElYZ1ZzRjZtdERocVkzdm5YcDU2Y1FpbWZSdmE2Tkt6cFN0VVBpNVZSWWMtZE16MUpmN0F0dUFJUDhrcmNHNzh6UEpkT3J3QlJpSmMxZWhVc2NDNzZiTXhNWDJXNTNHWFh0U21OVmRObHJJekQ3VWxVWjJxOXBmUDM4bg?oc=5 | 2026-10-23 18:17:09 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEM5d3VtdlRPcWpFSG5WSUhJSXpIX1FSWUJLdEdQbUFRVTBfWHhhalROV1JadDQ1anBkaXVoQWl3cEpkd0hxWUhUWk8xYVFfTjZoVlJyT1p6TklqSWZRT2k4MEVSOFBKRTJPXzAzd2pyQkdCZ09kcmFjaV94WHI4NGphWVpSQlFkN3lBTkVjM20tVWtHQ3fSAZYBQVVfeXFMUGhDOXd1bXZUT3FqRUhuVklISUl6SF9RUllCS3RHUG1BUVUwX1h4YWpUTldSWnQ0NWpwZGl1aEFpd3BKZHdIcVlIVFpPMWFRX042aFZSck9aek5JaklmUU9pODBFUjhQSkUyT18wM3dqckJHQmdPZHJhY2lfeFhyODRqYVlaUkJRZDd5QU5FYzNtLVVrR0N3?oc=5 | 2026-10-23 15:43:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMifEFVX3lxTE8wUHFHcGVsWm9aMGVBTFNDdWljZmxtRElSSTNfVUJydWR6ZjNMNGtTZHZ5TDJHZHRCSXV3bEZ1QUFwbGRUaXpnQzBYWi1JZVBtTncwZUVpdW9UaER1VXp5ZGFPSDZ4N2d2enJnYXBWcDM1M2pWNHVFblZtZ0Y?oc=5 | 2026-10-23 14:37:19 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXRuamtTU1pTblNVZWplX1VQNTBvVXFuNmVuN2RlRF90WkxSRHNSVUVtR0M0SFNzaVByREI3dUxseUJPaVZQLUVHSWZTU1BoWEtLeFBBbzgzaWF0N0FuejM0TGM2aTdGX2VXa1lKLTFqNlVrTUxZNldiWDhJY0N3TTU4aFgtdmROWUZjdHZlMnZXQdIB1gFBVV95cUxNZENkMF9lMlhqeE1pMnpkZWJfZ1NJdW56WFFnMFNLQmRtM0RnZXZXZ1plYUYtN3VkYS1ORGluU0dKcWljRTdHbmxLUnAzb003RGplRG0tY2Q4NmczM2t0dEVTUVhzb096OHV3UzRhWm1pMktqdWlCSUliTXFCNjljSTJINUVEd1FhcW12UjdoUUZQbmVnd1JUTDlFVWRPd1laTVBpUEFwclZPMUdnNGFpTElibjRfYUh4eDk4ZzBCQmliVm5HRDlCMVZEbl9UUWZfNEMwMnFn?oc=5 | 2026-10-23 13:51:01 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwJBVV95cUxNdjZOM3BfaDAwbEJzaDVwRGwxR3dQY0tiQk9wZ0FjUmdkVVhPVzhQMjUyanUtbTRpMlRlVXpETnUtenRJZ3NLY2FBNUdMYU5JMld4em44dFEyc1ZYaTNNMU9YMTZXczZPcllSSXFUcXRDekotWHlmeGtzTnpDbGc3Y193M2F2aTFHbXlSNlNiVzhCTmJWbkx5cEhKT1M2clpKUzBKeHlKSDVfYzdnM20wak52Q2RkYXlRX0JULXlWcTZCMWVoa21QbUVkZ3RIaHM2Q29IYWQteE8wWHZnN1BQbjdmUFU3Yi1GVzFGYXozaUdDZUxXUHRPOFBtemxFaWc2bjVj?oc=5 | 2026-10-23 09:01:00 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 46 — Reason: fetch error (503 Service Unavailable)
-- Article 47 — Reason: fetch error (503 Service Unavailable)
-- Article 48 — Reason: fetch error (503 Service Unavailable)
-- Article 49 — Reason: fetch error (503 Service Unavailable)
-- Article 50 — Reason: fetch error (503 Service Unavailable)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDNqZF9nUVZYZ0dLSlFJbHJIVFR2bnFvUi11MXlQWFI3OFBjSk94MXlMeWg1ZFBiZFZkM3JLR0xvdk9WVFNCNXdmcGRQVWphaUU2MWw5NHNnYlpCZlM2dEYxMmV2MnQyX01TQ1FkdGdVaE9jNEZJNzJRdVQ5UzB3M1hSck83eTY5VkFqVzZ2VFZlQ1k4TDFOWA?oc=5 | 2026-10-24 18:10:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxOb0RWUVRWZklMQ0k0Y3F2Smh0QU45ZmVFSGpDVUJicTZIeS15SU9DcXRHUnhwTTNKSHNPcjVLTUhXalFXeFBId18xSHh5eDhUM3JqWm9jQ2VjUFgxWENabF9PbmtYY3FhcUxTQ05OaExDU2xBbnFpOHppX0tNZmZhZm1FdUg3bEFZR1doRC1jUXV4dFN0YXpYbXYzdzJsX0pn?oc=5 | 2026-10-24 17:59:47 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihwFBVV95cUxPbk0wWmQyemZHYUFrbHE5Uzh3Ql9wbkpKZ0NMQ2w1bFBNX0RaNTgzQXIyUmV3R2NBblJ5NWJsUDJmeFdmOU4xNWVPM0YxZkFObVZhcUxXRU1LcWFVNmxxMWE3NWwwOGJoa1RJSTRQVTM1NEZTVTRTS0ZxX3VxVVNGeFByRnl3ams?oc=5 | 2026-10-24 16:52:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgJBVV95cUxPOXNQZXQ2UWJudXptUmE1QmJvcDJEd09BSzh4VmcxTHJWYjFfNzlRXzJXalhBSWRRcnMxUjJvV1JUaUFoUDBoQk1RSFF4VEpoOFMtZnNqUS10dkRVSEdMVEdCdHVfQTM2OVdGUEdJY1A0SG5KMGdMbjhqdjU5Rm1xNGhrOHFUMW9BNWExaEowVF9VOUJlUTgwbUVVYXZQT1V5eF9iRmJEVUtHaWRoNllmc28zaDJ5bFdXZEdybWdBbGZwYzFCWmhYaV9xUDMwWktBSDg0MUx2UUU4VTZiUDZZaG03VTdvTXhpQnh2UVIxQ3h1ZlMyQi1abk80MDJCN0ZPVkVNMEl3?oc=5 | 2026-10-24 16:45:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihwFBVV95cUxNMFl6QlJ3aHNrb1NTdko5NzEwaHV0MDN3VEdTNDhaT3hnb3BPMlBadjBYTG56VkE5U2ZQdEdoLVdWeWdqY3NYaVBWbkItb01pMThMc05CbzVlTmlJcmNVSzQ1SGxsSlZQNk1Sd2gxMjVsVnhQaVMwem5mNm5TamxnMy1OZWlnNFk?oc=5 | 2026-10-24 15:25:00 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 51 — Service Unavailable (503)
-- Article 52 — Service Unavailable (503)
-- Article 53 — Service Unavailable (503)
-- Article 54 — Service Unavailable (503)
-- Article 55 — Service Unavailable (503)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAFBVV95cUxQV1o5dF8tUzB3MHNfWDF1c3o2T1ZHd3BsNG95V1paMzhuSU5TNmlqcE5HanV5ODVLakhpMy0wTlZDOE9PUWxwOEw2V2RiMWIyWVJGWnV5ZlFDTmZhckc2b2hCcVBWVmRuWVdIMGJKQ1FTTmdRVXBOdFZqbDEyVExVSQ?oc=5 | 2026-10-24 15:18:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjQyblcxNXlWbDdDRGl6amJLTzRUbFNpQkVQbUhfLVk2SjI2dFVEOE41LWx6VDNlRkc2MEtXaUFYXzFIeFhJUkc0NGtiUXJRZlJGdHdoaXRFMXd2Y3FCc1pNdXpDR3dWaXRMVGt2ZjMtakFYRmlwN1F3WW1tSkRtcXdQcw?oc=5 | 2026-10-24 14:35:16 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMickFVX3lxTE83YjlmTm05NlJCUktfUWdQY0JwU0ZXTFRqeTE0R2V4M0Y2X1NWek1Ga3FuVWh5cEVTd2pRSjBvRWgxcnlPa2szcjBwS3V1VkV5dEpTekZxSW01MktGNkdUUjZtZzlPLWd2OERpTlZXTC1ad9IBckFVX3lxTFA0bC1qRTVCUXlXbjVfSlVidWI0SzNWY1R5ZU9PUzllSzV2VDVFS2lFdDV1NmVmOEhXZ0FiQm83TG5CbFFnM3ZYb2xRZ2NmX0puYWw1bEYtcmlxVHNwaG5GU0pFZ3daU3BOTWkwbFRvWnZ3dw?oc=5 | 2026-10-24 14:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMkIyQmpsY1lCRWdFUU1oLW5WOHZXbzJ3c0dyV2tjVmJUR3R6RWd3WlQwYkRYT2k1NW9kOXZ3TFkzNUY1d1paWjY4VTlWX0hxOGsyN2hfU2k4SkFLVTNvTGViVTVKRmZBSHNjZ1J6dXVHN3otcWhwV2JUM0g0SXpzXy1TS09xVXpTZWlIWndsNUxzdVlkV2c1cGZ3dWxENTNOWFlxdWJwbHhSN0lycmJlV09CWW5xaERWNjlCaDI2OXhDMGV5N2tZWVpnM0lRTWlQaFFWZXhlQi1uSDU1NGFyamsxdHNMZW5w?oc=5 | 2026-10-24 13:12:02 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi9wFBVV95cUxPM0JBMWlMWjNGQXZVbFp6bnFmbkRPMUlNdFVKUEdsRVJmcEdrWHJaWnpvYjczUjhKMnMxNWoyOTVOQnlHeWtRQUdmRUFiM2VfRUFId2tKeWtMTENsa1FqR3Y5RWxLdDJTUlZSZFRKTTlLdi1EcFBmQjUyNmU0NkZHcGJwaW13d0ctUkg2MkUydGhQRDFnZElEZmlzUHROR1VXb1hGT0lnY2xXeEltbTVXWFo3dTdSXzJxZnFFX0lUbFVzYjBvY2tOdXczYzNOTTJPMGRkNmc1RXVOdGtlQ3E0NWVBV0JuQzR3VWItRHBMZVM4SG5odjFJ?oc=5 | 2026-10-24 13:12:02 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 56 — Reason: Could not fetch article (503 Service Unavailable)
-- Article 57 — Reason: Could not fetch article (503 Service Unavailable)
-- Article 58 — Reason: Could not fetch article (503 Service Unavailable)
-- Article 59 — Reason: Could not fetch article (503 Service Unavailable)
-- Article 60 — Reason: Could not fetch article (503 Service Unavailable)
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxPX1NRVWZvelpVLUdsa0VGMU1URG9GTjVhS1hyM0poSUxiZzZETTZRN0VGMzZpREplRV96WHl4Vm54RTRMbHdCc3N1MU9abVhLWU41akxaQUZJNENrUEZYcF9RYzNaV2lXVDEwZ2hlOWFaTi1RS1BIaTdjMGptZV81bG42ejNUMGIyRDR6Qw?oc=5 | 2026-10-24 13:00:37 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWNRTGxqQThsdGtHY0pZb0JHWE9NYnlhRlY2Tk5TNUd3R1lYUDJZNUlHR3F2NTBZNk9XNTZCWFpkN2tnSlc3bms1dGh4VnJuWWp2NEhodkdEN3lNc0NpYk1ITkdiNFBjYzVadVI5RGhxOU1pNzYzQjVfdUpRR3N2V2VVb00yR0hDRmRXMFVTS3JMVEJ0WHhnVkJVQU53bUFham8zeDVHVUlfdUxIM1FJUg?oc=5 | 2026-10-24 13:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxNSDVMa1ZwUU53dHA0MGM1TExYcVl6ODRvek1xSjZRbFUwMTZXc0hiMktzWmZoMkI2OWptTjBXR1BBSkg4QlFWd21ydHp5X1JVUjJiNzJYUVg2aVFrUVhEQjZkRDE0TW5xdm9tUFBYc2Z6R1dvdGI0ZWM3aVc0aTByZ2dTN05QYkVvd2sydg?oc=5 | 2026-10-24 12:30:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWkJrMnFuZFFpcVdnQTQ2R1dxQmRUMzF0c0g2ZVF4RHk0d05JRE5OaUp6dlpuSmR0Umdtei1VME81Q2Q2UlV2YWd0RVJXSGRpQ1hvalNoLXBTOXpSYVd5T3dRZmxPWDZVVGw4YkpCQ2F2S0RXYUItTDByYl9lcDNPdHdBdVZURkUyRnktblU3MHEwQndtQVdHai1HM0JRQzNIdi1hdGg5LUVkblFjdUJodUoxZkpjbVVpWVNlbTViMGQ?oc=5 | 2026-10-24 11:27:44 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikAFBVV95cUxQdjBSQ1JKbE1zMHp6bnlhU01uVHZIM2hGeGt3dUpEa3U0N0xuQ3RvbHVaSHVBcW1Fb2hiTldvWWhnU1M5aEx0Y2ZGX3JBUHpUZnA2WkxZNXNJOGllcV9mUEkyZlhRX05wNnFYNXhXY3VhU3VmUlBVRW9DS3NZT1ZnYzg0WFRuejdwa21LWmlsNmfSAZABQVVfeXFMUHYwUkNSSmxNczB6em55YVNNblR2SDNoRnhrd3VKRGt1NDdMbkN0b2x1Wkh1QXFtRW9oYk5Xb1loZ1NTOWhMdGNmRl9yQVB6VGZwNlpMWTVzSThpZXFfZlBJMmZYUV9OcDZxWDV4V2N1YVN1ZlJQVUVvQ0tzWU9WZ2M4NFhUbno3cGttS1ppbDZn?oc=5 | 2026-10-24 10:33:41 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 61 — Reason: 503 Server Error (Service Unavailable)
-- Article 62 — Reason: 503 Server Error (Service Unavailable)
-- Article 63 — Reason: 503 Server Error (Service Unavailable)
-- Article 64 — Reason: 503 Server Error (Service Unavailable)
-- Article 65 — Reason: 503 Server Error (Service Unavailable)
+- Article 1 — Content not fetched (503 Server Error)
+- Article 2 — Content not fetched (503 Server Error)
+- Article 3 — Content not fetched (503 Server Error)
+- Article 4 — Content not fetched (503 Server Error)
+- Article 5 — Content not fetched (503 Server Error)
 
 **Extracted Information**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijwJBVV95cUxQeGcyQjFOR1dKd1AtcXIxRk1jZ2dmZUpmZW9JaG1MUWhSb0huRFlJRGNYejFuNEZJeGhwZDZtbkFZM3Q3T0FCOXNIVUh0UHNKTzBkNDg2WlByaGJzRDI2UXJJaEhiTUpldllyYWQ4eGlkMDdUSmxNZWJiNTFoZ1NtRWh1bDV4bnlqdTEtRU5YWU41c3dmUkFPd3MxbE5LWnM5OUxvOHluTndtREN3SWliaHdVS0FJRnROUTgwbjBxNFpsMU9oYjE0eEhGTjZOQ1padlM5bUFqSE9wQml0SmF0akVKeVlKaHFQXzhqZ2I5YUZSeEhJUXB1OHo2WnVGYTlyTWgwSjVmNnVWM0FYVTUw?oc=5 | 2026-10-24 09:07:21 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMia0FVX3lxTE1RQVRzOVNjRW9KbXl4SWN0SEd6ZlZySU40T2ZFS1lOM1k0YlNmQlh5TURwRjJna1NQMzdkZGgtdVUxcVg3elBRV0h3UmxXb2JrVTRXcXRvZFptejZORUtJNUJHSzBEQThkV09V?oc=5 | 2026-10-24 08:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yel8tdkNmUjlwRnhiSWJSbFoxUU1TNTJZRy04Wk1CRlZJaklMVDV3RkNKTXIwWlZYMjMxaWl3VW1YakZxMG5xZ3R1M0lBWEdTbWstRE1kX1ZpV3VXT3JlMTRtTDFidw?oc=5 | 2026-10-24 07:41:56 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwJBVV95cUxOR2FWVjRvaVNFSkxHblJmLVNJX2lvTmxYb2Z0VE1GUlZFUHVFdjZqdlFMa2haWEZuQ29QcmswTDhuSTdkb01WQk5hdTdVa2R0d2EyLU1yS0RIdk5EWUZUQ1hiZDg2RFRtWWVxaVVLLWVuY3BobktNazIxeHlPLUdiTUxteEVpVGQ4SFBVcUJEdWEtUnNKemF2aTU2Y1ZTZEhNYnh2Q2wteEw3ZzI5NGJnWjdpSEVsWDBUaWtIUVF3VFI1eGhGNDlmU3V2STl1eHdyVjJtMmdwanNlWXlWbzJzWnY5SEpUemZyRmlreHZoVndsczF3dDcydVdRbXc3OHdRaFo0?oc=5 | 2026-10-24 07:22:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqwFBVV95cUxOckNjdUh0dXpkSmJPYjB5dDc2VGpQRlhVZVppdnZSQkRVOVo1UEY1MmI4UjNiMFhxcnRfLVR5VGQzMkR2N3BfUVBhMkVTSktscDdzX21PX0QzOUpTR251V0hQTGFjbjNOVERndUVSeTQyV1ZnUlVqa1dFWHNLUDNUWUdDRTczbWxVX0t0cDFIa3FJdDZrMHRLYkJTVEg4cTVIV0d3LTNod2hRNUU?oc=5 | 2026-10-24 06:40:17 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 66 — 503 Service Unavailable (content not fetched)
-- Article 67 — 503 Service Unavailable (content not fetched)
-- Article 68 — 503 Service Unavailable (content not fetched)
-- Article 69 — 503 Service Unavailable (content not fetched)
-- Article 70 — 503 Service Unavailable (content not fetched)
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcjBCa1h5dDRRT1Y0TTFnWWNPb3RGZmNkQldNbUt2bDBtTFdTMHBxWDBLOUZJV2owNTd5eEhhTVFJNFE5RlpJMkk3MkhqQ21PdkE3ajlrMWlRT2VRMnZtLWk4dnRRanJuVFByZHltY2EtelhvaDdRRkNMOTZSRWFUaU00NXdhWk03OVBDaVdDRGhiN0RneGg1UFVONEhyR0d4MGcwVUJWRlMxcjJfdzZWQ0ZGUFNobnJqNHpldGNPWUphamY1U01hUQ?oc=5 | 2026-10-25 15:45:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWtJRDZxczZSczBTV1QtNDFmbWxmTWJsM3R2OWtPd2s2OGdEdmo5b3d2YTJJOUQ5VWNlYW1GV0o5aFhXek9DSFZqdTYxc3pnTVBxTURYem44QkpqQUlsSVBzc3BQcUhTQ2tSVEdkQVFnZDAtUFQyZklXbUdVWEpJU2pnOVFPaGRyZTJicmRfclpQekU?oc=5 | 2026-10-25 14:55:05 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisgFBVV95cUxOVnQ4M2tfTGpRb0hTRjlOMUdGdnFGSmlQV2lPa3ZPOU90MmZhVkk5S2Rsc1ZmTktfbV9uaW9UOVU1d2c5ZHNGVWlXT0xmT21hNkF5SlRDdExXWkpXcHVJOVFrY0k1M2RDZkRqMk81Mk5HTXpPZ0pQYXNQN2I2aUJHNEZjN292amZVOUo1aHh1LV9RQUhkZklJaGp1SjdDZjdhN1hLMVVldWdybk5pYXdmdERn?oc=5 | 2026-10-25 12:56:02 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzMxOFV3LXBSVVhqc3o1VDExdVJPTThpTGtEeXZGWmtEZk1WanMwbDBQdDkyTXJTYlFTWGplLUpybWk3Zjk4RDN0WkZV
 
 **Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1pMSWJhT1I5TkpIRFltWWM1dVNxcmUwT3dweG5xalI4UDlrZ0tIWEhDVUVVNG5JdnBLdGdWQ3lYYnZ4bGlLUDZnRkt5STJxQXJicU1ubVBwZkR2V2ZmU2hObXFlUjJUTVpNcHB6TE9sU2VZUktKc2cybHhITWFzU0IzbV95VzJ4b0VpNG5jVzlQdXZuSjJnbDFlaw?oc=5 | 2026-10-24 04:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZ0ZhSjdJbE5aNDVkTDJ1Y3V2SDZheThCekhnQWx1ZkpRd2J2ZDJjOExfTXJmVXFqZHpTUHdUc1VQXzd2WVlfNnBXYWtnZzBaNkJWRW1zclFxRGs5LWN6S2ZrZmF3ckJEd3dhRjdOa2FwbnJjUEpydEpqS21zQTNCaU8tSTFxS0dEM096NExvNWRyQXNsZnM0bGMzUFBKYTVsMHFSdEJOQWhmMU10RWxKM3l0clFMc1ZfdlQ4bjlJTkhHM3RiZ3U5UUtzQjJPMzhMU2pUeWxMczd6Ym1uSHE00gHkAUFVX3lxTE5ndU5wZEFCVTJPNHRJUXVkRGpWd0VBeWdEOWxLTFpsVFVwR0l1a3M4QUlnOFJvUEFIXzAzR19yalZxM3pMUGZsRlhfN1p0clJjd1F1RkpOb2JWcXotc0R0dUxtX1BnTy1mM0UzUzM3UWlyby02NGdfTXlTakZFQnRQLVhXR04xOV95RVFlWGxSbkhnZGw4NzFkUjUwVkNWU0VSRHU3YnI5N0tYdzlaLWNTbXVCcmw3Q0ZPWno0WHBuUUlFQ21LMUhBTEpXS3NMT052b3ZNbFJ5bmJkM0s3MnE0SGN3dQ?oc=5 | 2026-10-24 03:00:40 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikwFBVV95cUxOM2I0MmpGQzkwQVFlbG45c0NxQVBZV1VQZDRDNk9YSkJjTWpiLTJNTmU1QkxqSVZRUkJJVmszTkJnM0VtV0hKcld4VXFIeGFrUThScmt0LTA4NE91MjltRi1JWGJ6S21xd0dTT1QwZm9LY2hVZFhjMWlzUTRsQUpONWY3ZmdGSjJsLXFsa1NxbWNJajQ?oc=5 | 2026-10-24 02:04:14 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixAFBVV95cUxQSnE3bDM1VGUtakpzSjBsMlFRU0RKZmlYQ0RBMHZNaWZzN3RuZGRkTGE1TjQ0ZjZYQXU3ajQzenBveFlnbTZLQWdBWURUNHhxcTBEaGwySUNjYVBlZVZGcVNYdUVMai1FMXlJLWRwTjd1TWZBd28xcmJUVkZaeFRXeG1HRFBRdnBvWExzMUh3SElHSkpOMl9XVC12bXZCNjFwZm51VGs1eWVMU2R2N1U0NndrNEtldlhteUNQUkxFVHJFeTZv?oc=5 | 2026-10-24 01:26:07 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiywFBVV95cUxQT01VSDNVUUo3SV93M0haODByYTNzNHlXNm1ORWJ5dE1CMWRteVh1Q3k0YTM4WlNoQk16VzBHblpnQ2ZiRG1MRzZWNjcybjZlSnNKY0dsc2R5ZnZlM2xVSzdNaTJ2QnczYjBhWkN6TDlJTm82Zm9SZ21NS0kySXdONGtBOHp5U21tWDA4Rmdzb1lRUmVWcDh2c19pdlV0YlhsVk1wYUZUT2ZYVHJzOGVyNlVPMVNDVUlIWmZfUTR5SzdoRGRGWVNZeGUwcw?oc=5 | 2026-10-24 01:06:12 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 71 — Service unavailable (503) / no article content retrieved  
-- Article 72 — Service unavailable (503) / no article content retrieved  
-- Article 73 — Service unavailable (503) / no article content retrieved  
-- Article 74 — Service unavailable (503) / no article content retrieved  
-- Article 75 — Service unavailable (503) / no article content retrieved
+| No qualifying business found | N/A | N/A | N/A | N/A | The article could not be fetched due to a server error. No information about openings or closures is available. | https://news.google.com/rss/articles/CBMiowFBVV95cUxNb3J1cWhuNXVySDU3YkF0dFEyTU1uQ3M5OTFabWx6N3NicmtJM2I5MWQ3U1JFQ09iRmlUUWQxdjl5MktNcjVPMC11ZjNLSDJ0NHpnMjlTVWFCNEhKZndLdjFpRXktcGxXZTFoeTZNazJfZDJKSG1qU3VUMVR1ZnVFaFFwbElzLTNuM0hRYm9zV0lubEdqYTRFc2gzLUNxNkMyMWdN?oc=5 | 2026-10-24 15:23:07 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article could not be fetched due to a server error. No information about openings or closures is available. | https://news.google.com/rss/articles/CBMiygFBVV95cUxOcDlSWEgzRTNMdjR2dnlIdmQweWtfSVFJdVlLUXhfRjdiUURLNDFCVzJBS21HOUwtVWRuMndOSTVPSzg1U2N2bHo3SlpRR1ZNSVA5OEVjU3hBVVNhTTQ4VE80dlNoMWk1LV82cDFTMnBUM0dCM1psaHgwUmdaR1hxa01YOVFZNWR0Vjd6X21rR2RRNGhOaTB1elBlMTYxZW5aNkxKc0kxU1NtTmNleVZiYnhXMG95UDlXTTVqcVR1WkNwNFEyaHg1cDVB?oc=5 | 2026-10-24 04:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article could not be fetched due to a server error. No information about openings or closures is available. | https://news.google.com/rss/articles/CBMioAFBVV95cUxOYUo1VGZsa1h0cTZjS1BRbWZUb2Y5SmJ3SUI2NHBSWHZiY0RYWXFFdHlVYUxXZVNMWGtXQkV2Y2dkZWotNE53VXpGaW5kS1BOVU9SUFl1ZlV3X3NVTk5JLUNoR1pydFgwYVdoRDlnd2lTajRFMmxnZFdEZ29RVHZ3ZndOQkVtSnBZOThiRHY2SGs5NXFfUjJGNVdEOWIwMlRl?oc=5 | 2026-10-25 19:10:19 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article could not be fetched due to a server error. No information about openings or closures is available. | https://news.google.com/rss/articles/CBMiggFBVV95cUxNdHFDbDUxTG1pdXJma3NBNWRoSDkzMm8xRkxRR0dIT
 
 **Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilAFBVV95cUxQUHIwNUFtZzRXc2RYeDQ3MUc5c0ZGZWJlaENGRkRjZGU2NWJNdVhuQWs5bGJtcTBvTDJ3czNYRmUtVEtfNU9VZzdmaHV0dlRZVnlMRU00SktTYzFEUXNyVWJSdVJxajI2X1FiUUNvbDBDWWd5WFUyWmF3TkRFOWttWUItd1h2WTJyQmw4MmF0TWhSYk9w?oc=5 | 2026-10-24 01:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirwFBVV95cUxNNkIzcEZFNVpEMkZNeFhlZ0JHRkFPQjVMWU4xT25aRnROa1g5cnQ1TUc3UTFOelptSEM2WWJxbUdVUF8tdlM2dml0QXVDU1dSV1ZpUXR0ZzRGMHBFWlJnSjR1LVlPbkczVUFQU3dvY2toY2k2ZV9QRlNSY3pFdmRLcVUySkZsYnN4eFpfMzd4b2lRLUV3TFYzX1VtM2Y2LWhleThoSUt5WE5RZTdXNmRj?oc=5 | 2026-10-24 01:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxONnc3anE0d0Q0UzBVUDBOMzlBenQxdDhBYTRCVU5LQ3VXTktvRXNCZHh5bUx2Vm1QOW1rWUhqMVJpaFZrX1hoVVhVRDZ1Q1hBZTBLMnY2UWtKR0pnMElSYU9oVWY2Um4xTlJURHVlS1l3aGNqSndZak9ObFduRXVlc1RnRHRvWFh6ZXFoTGNUMG1yelVGdVJpenZRYXg?oc=5 | 2026-10-24 00:20:32 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT19oSF9LOWtLVDIwYXk3b2xRSXpEd05Hcm1xLVhjS3VpUTRRenlRSzBBVjNscG1LWnZLTVBBcS1FUTBpb3puWEpSbVdWMnFVcnZsNlREV0otTVk5VkhkUWotby1YNzJ2X3cxNWw4N3pJZzdLbXNzeHdwS0FtSjh6Z2F3OXBpTEJaOGNz?oc=5 | 2026-10-23 22:24:47 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXlwNEJ2YmY4cVJFUHhVY3VJd1VnTkluMFZmaHdoZ1ZWcm0tQWUwRTBYaHdlUG04NkZZZU4yWmpySGluQjFGZU9YMDBvOWZSTEFyWUUxUjlvMXZFNDdnWTEtVWJLUXBDSW5aY01SbVBqOEV5dFg5ck4xT1kzUlVJSUtwY2ZINkYxQXRPWllxd0xxb3FTV3hPa055RVVPemZ6OVc2eHRhY1RWYzZYN0l4Tg?oc=5 | 2026-10-23 22:15:18 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikAJBVV95cUxNekl3SkpYZDBoOEp1cUlDOVQzZTRVd0EzR0o3YmNXRlM1M2thQk1XYXk4UVkyTzdNZENuY3JOdzJEcE40c1FuUlJrMDc4dTVGSWdZdUtJZXlOVFJqVTNhaTZsS1RFVi02dUlwdVFKYy00bHN1Rl8tNFJGanEybnFsQ3dWU3IyNnhWWXQxMjdGS3NwX083NG41ejE0S050RjNkUlhIS3ZmZ2hGTDY3UHUxRzFSY2hzRXNHYjg3dE14SV8tV3BpUHNtT0lOcnlXeVBsRVd0NWlrRHlEMUFSMV8zVk52ZEZxNkFuaWtuUkhpS0NwYks3b1VNUzRXdGFlZVJpZDc2Y0tyV2lzNnJyRnZ6dg?oc=5 | 2026-10-25 10:18:46 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVzFSRWJWNVJOaGZtYUoyNm82Z0M2bDNld1pPbWx3cndGcXBweExYRjVuOG1nb2ltaGJQZVM5MGJsNkFNSmlLcEZxTmdFcFY2bTVaWUpiMUVwZ1VYTnJZODBMU2hjQUk2d3NxaGxHM2I1czQxMjRYQVRYS2FyMG5XZGp5czRSXzdheGI1M1dqblM0TnNlaUliZHR2RVhUNHRWQ2puZ01EdlNZeTlpTUVQQW9vX1NILWFnb2RqVlZTQnBmU1FaclNaaDUwcE5zZDlh?oc=5 | 2026-10-25 09:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXByNzZRZi1FZ3p5RWZUeHBsX2g5b1NYN0VzM09kSkRvb1RIOFdydFViTTBCYWYzM25zN2wzbzhEX3hLNXEwelNfelpvckdMMjZ6M1RDM0NwXzhVQU9IQUZBcEhVaVNaUXVXbi00RS1aZUJvWFZ2X252LVFMdHoxMHJnNHFwbmg3eWR6YlhHOFBKV251S1V3TlphY1djeUY2NjlCSXZfNE4xRVJwQjBR?oc=5 | 2026-10-25 08:25:22 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiigFBVV95cUxQWWJKU2pQTno1b191ZTNZWjZMUDYyeG5sSDFfNlZPVjhQVEo5Y2c5NEduZGkyQy1oZDhleXVBdHM0Q2hxQ3A2OXcyQk5YM0FweUZIeHhjWXNYaGJIcGpGbjJ1bVZZckc0NXc0Q011em40bEdkcmozZnZ4dVgxOWdHODgwT1Y0UVVpMVHSAYoBQVVfeXFMUFliSlNqUE56NW9fdWUzWVo2TFA2MnhubEgxXzZWT1Y4UFRKOWNnOTRHbmRpMkMtaGQ4ZXl1QXRzNENocUNwNjl3MkJOWDNBcHlGSHh4Y1lzWGhiSHBqRm4ydW1WWXJHNDV3NENNdXpuNGxHZHJqM2Z2eHVYMTlnRzg4ME9WNFFVaTFR?oc=5 | 2026-10-25 07:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisgFBVV95cUxPbG9OMXdnN2pid3VCMWE5ZDNLcktwVnRGYldocHZxWlFuemR3U3AtYmEwbXZkRUpfaHo2dk9wbTU5RFVfTTFkMUhNaGVhd3M0RVhxdkJUa01HS0dJLUpxZ01nckxVQUY2WlB0a3JRM2V0bktSLVVad1UxWnVBVHhvbFFDUmo1bTN3U3NXaUNsSWJGbjJhUG1qMUJvQ0tkdy1PNld2VWVHWllrS1VYc05XZVVn?oc=5 | 2026-10-25 06:57:40 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 76 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 77 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 78 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 79 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 80 — Reason: 503 Service Unavailable (could not fetch article)
+- Article 16 — Could not fetch article: 503 Server Error
+- Article 17 — Could not fetch article: 503 Server Error
+- Article 18 — Could not fetch article: 503 Server Error
+- Article 19 — Could not fetch article: 503 Server Error
+- Article 20 — Could not fetch article: 503 Server Error
 
 **Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZFRTJncEZMWnhXNnN5NVZobS1MdUJacGJKVXNMWkx4WV9nMTNGcE9nblF0T3h3TXE1bk9KNGZCUjc4UHBSRERwTnFrMFV5OFpSMG5uRFhRcTNoT0NUM29NYkE3UkpvbE5LTEhCMUN3U0dPQUMzRkxKZnJEZ3Mtc0dDaUlTNzdCeUw2TUFBN1pkc3B2LWNXSEU1TGtQSWtJTHRHWk1UY0dmWmRYa2Y4NlZ2Wk1iSkMz0gHcAUFVX3lxTE1JQWhHcjN3MlRZS3k0U2FCMF9pd2RuUG1JSmQyRHc1UllTSEVwaVQySDVGazgwXzdkNGZ1Q2VrczZDLXdjOHRreDFxM0YwbzZoVFBtNldQd2VrRmZLaGdDOFVNWWxIZnlmUkZiUi1PYkJJWjdpTVBKb094NXdwNGNIQUVyaXJKanBXa1o0dm9IQS1uZWc3YW1sLXBIcnpVSXJDQTBod3RQV3JPRzJjM1ZrUWo0M0tGNnU4OEp3Z3VrXy1lMWRFaUYxaERCeGJyVEdiMVNCczFHWUMwcU4?oc=5 | 2026-10-23 21:46:23 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMie0FVX3lxTE1wTHhuY0FTempYY1JidnVGdnN5U25mTlcybUR1WGFta21WdEFtRmVtRk42cDZ5RXluM04yR29FMnNDVzRjbTdFREVMSkpnNTQtYjVGUDRob0NpRmxIZ0hsNEJoQXh1d1FnUU1sTk1hT3Atb1psZFV5UDBqcw?oc=5 | 2026-10-23 21:45:46 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDhyWFdYV1hhaFh2bldLUEkyVEd1RE5kTFM1UVBLOHFGV0ZUWjhxa3NOY09zZmU3WmtKQkdZTWMwcVg3aXJRWkxnTGdweHBuNlNVeFVUVG9WWXZQb1pvaWkyUHgwT0VCMHVUblVoY21vUWlUSnFja0lIVURHcnZxNEdWOWZrTUVSaHVaMGZkRkl5YzhUQUlyeXVzemZzXzVn?oc=5 | 2026-10-23 21:24:04 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxOUWdPMndtek1sNG1JVFlnQ3QySDNHMjJzSlk3bzZzSkpicGtkb3ZGMjVienRLS1lnQmdmcFd4aEhDRDNFS3A1QVlNV3g0WUxrOWdEa2g0b25SMzRObzVMTlM5UDhjNDlhLW9mbjNQcEtTd09hck5mNzV2ekg1S2pRZzNtTDBQUQ?oc=5 | 2026-10-23 20:59:08 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjNEZUUzNXRtczBaSlBIWmlXR1BoUUFCbU9XMDJDc01KRVp3c3BYQndiR0F5bFExd25hTWFQYXRkcGhlcmRmV1BOeVlHd1dMdVlPczZnd0VSQVR2VzNlMXBKNnJFMmtWS3FEbzBqbGN1QzBxYXhGT1NsaF8zZzI0OWRTRzZFOWJIWU9oc25LaHFSM3h4a21jVzY3Zw?oc=5 | 2026-10-23 20:33:44 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxNU0E2bU9BRnZtRzdJYU9VaEhuU3lmRlJNRGVKUmxSMzdjbDliTUFKNlhXWlExY0tZS0F4Y25EVXRodTJpSEdGdVBRdjQwMHF4emZ1amRmUnQxYmxJQ0Rmb2xYMGVDbGZTVnVHa18wYnlCSjBqaXJtamlYUzI4Vi00VUxqVkVoYVJMVXNMeDlFU2M4eXFkN1ZpZ0ExMFlXamhR?oc=5 | 2026-10-25 06:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxNVG5aTWtDTG1MVDNvRVZUcWJHVThXaHFJaVJ3Mkg4dFJGNEpCUVNWRzFNc1BsSW9VUlBrdHhKSGpuZmxRa3BYb19uT1RURDViUEtwdFhkb0xySGlmcXp2SnNCQkY3R21Wc2lKaXBhSURja09wNW5QRVpTQUFXN0VLUUlQb2pmZw?oc=5 | 2026-10-24 16:00:13 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi3AFBVV95cUxQS213WE0xUnZ0MnRiNUlLMU1lS3hjR19hR0tvTVFYb0NUX0pEQXdyRjNFZ01kUjV5anJaYlA2NUEycDZMR2FlZUlNYnRsZkZSZWtyaVJyYS03UDBXR3hHaldxQ3A5MEdwaXkyOVpVazJpaFNwLVNGa0RseEVWZ0NvanpjaW9CX25mZzJGQWs1WnVUbEFkaEQ4TkpWRkd2dXUwcEFQcmVhYkVKMkVTX1hqazc0QUYtMVJqSVRMX0JrSURHYXR5UlRFa1lLeWxzM1pvdnRZTGtnbzdVSmlN?oc=5 | 2026-10-24 10:20:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilAFBVV95cUxNX2tWaGhoZXlnNWlIenJvNnZFbjVULWxGWkU3STZ1R0czZUY4MXpqRkh2ZWNnaU4wWXktcW1WQ0NJNnlEUDBaTnFiMHVERnMtdm52VmtDcy1aMC1iVm5VOG56RkxuUUhqSjBON2Y2SGFDZG9NTGk3X3VPblFIZjdIU3h6VHM2S2c1cEZ5d2hzbEtjQXhO?oc=5 | 2026-10-24 09:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcHRUZ1ZkbWZfeTFxYVpkTXBSTkt6TTdrWkRsV0k0NUR1U1FicDg1SUx4R0o5QVpieFp6UzEtOEswc1dkY3UxWjVpNXdpQThDZTRIN2ZRd0lPT3dOZHVXMmoyZ25STGpzZWxVcDBOWVVncDkwV2VKMEdSVEZCQnctUkMyMlRaQm1qNXd4Q1NCNHFZaWV0LVNqZlFaUWlYa3VNUXp2ek8tb2FMM0ctNHpDUHJOM0h6OF9r?oc=5 | 2026-10-25 23:03:12 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 81 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 82 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 83 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 84 — Reason: 503 Service Unavailable (could not fetch article)
-- Article 85 — Reason: 503 Service Unavailable (could not fetch article)
+- Article 21 — Reason: text missing (503 Server Error)
+- Article 22 — Reason: text missing (503 Server Error)
+- Article 23 — Reason: text missing (503 Server Error)
+- Article 24 — Reason: text missing (503 Server Error)
+- Article 25 — Reason: text missing (503 Server Error)
 
 **Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMif0FVX3lxTE1JckVUWHRjWEVtYmxmMnNoeTRJVktWTXVDMUd3NjFmaVJ6bENyOTNpeWdqQnBmOEJkSlU4UlhfS04ydFVWQjVLT2p0SXdaMjZBUjVSajBrWDZWQmFQWGVNYWZETnhDTllzNjBKQVBtZUxEdTAyQ0J5UTZQa0Rmalk?oc=5 | 2026-10-23 19:52:53 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxOYnI3TTAwQVp6MFpxZjFLcWoxR3ctZXc0Qk0tU0E2anpqUDkzMnJkLXp4eTRiMFVQU0VYUnZQLXhUaGxWQ09CWTFDXzFpakxqTmFyVXh6Q2NnbnFZS1JuaW1JRWQxWHVRdDRVVDgxdUtRN2VycHZ3MXdMelptZkg3S2hFMGxJWmtDeHNDeUhaU3lzV01kNzNr?oc=5 | 2026-10-23 18:04:23 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMie0FVX3lxTE1KeWhibHNZQ3JBMFlvcmd5eldXRHd0b2E5dzYxOWpxcVYxNlc1alhkQk5uSmhaWWpFc0ZOcjlraE9FRmdFMVBCOWg5ZXlTcDAxeE5ZVjhUVG5GdjdJbGhwd1RTbG1wX3AtWW5NX0sxRTE5SFFOR2E1b0tGdw?oc=5 | 2026-10-23 17:25:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTFvQWt0ZkU3UzNnSGFFOW9vcTFRbjFpV29zVzZzSVhqYmpqYWdkYTZNZHFtSERyeUcyTGxHZDJOaUhOaG5yZTY3eG01VXR0VWlIMlYwWmh1czFjT0tKV05neEphREV0b1MyMWg5M2lHbzdybFRDQjVhRzNmanBoTHVhRUg2Uk5hZFo1TURlRVVDWFFJLVREVWhZRlVEZFEyNy10RzYwSG4tU19HWDlWeEpQUkp2RTRPUmZMTXpFc3h4MmJUdFE?oc=5 | 2026-10-23 17:20:57 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihwFBVV95cUxQdWpHOGpYdE9obG9CUTl6bDdJYWQ1QXMyNkRKSkNiV0E4Y0dreVVlSlVGTVhCWFFscEV3MFJfLXJ1bGxudGhUUnp2cndzMW1ycDQySm1qQjU2QkIwcUo1MElUb0pkdE9oYlZfSW5MZ2pOUDk5TXRvWThRMFRzamoxNGxhZTVRV3M?oc=5 | 2026-10-23 17:08:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitAFBVV95cUxOZlFCRmtyVW94LXNCVlJ0Vm5JMEtXZWFIYWV4d3NpQnQ3LXliTDRtbG5Pb3hvRjlEWC1XczZzZW1KZ0xqT1ZEaTVfMFU4SGthckdJdEJuUFg4QlMxR2hwcEFyMmFjc25KcENVM3ZBVER4TWdJZFZ2NmR3dTNfWlpxbjlRc0lzcWNHcXNyTENMQl9YQWVwRzl0VTY1d0g2QnZUU3FjeXNhV25fVmJJQ3MyUjdoc1rSAbgBQVVfeXFMTUEtbEZqcGVYalM0NVFfd196MkVrdWZubFZQSnF3eGF6dFY3SWlqTktqazhyM0djWmQ2ZmFrOEFqSmhQbDBPNklkNm9USDJtV3RpTk52anBmTFhITUVnV0V0QjlMcUtMRGxfcjFiZEhESHRHWlRJbEcwakxQTnE2R1NBWFF6WVRPb3Y2ZlZCbnlPZjRBTkJTSEppVE5ZTUV5TUh5WE05czhqYlh6WTFNWVdzTFpSZFhkTQ?oc=5 | 2026-10-25 21:11:07 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxOUGJuXzRKVDZWZU0wZmFBV000QmZmNEotY0tRRjc5UFJpTzFKXzVubjBUdS1SZWR5MGRxOFcwVWhnU1pDMFJ2REx0MXdhbHFLbHpkNEgyak15aHRGTjhJZVJaOGxra0hsVGRpZmx3YmJHd3JlUVJCY0hDWHBISFdJUHQwSG52OEdNWEs4OE5PN1V3NGh0aDFWcnE5RlBnZnc?oc=5 | 2026-10-25 20:27:40 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY0sxUEtBUHFqVEVkdjFEM3VjLVpZZDFRd3BHM0UtMmtSZmFQSnhfUGd0dW0zbC1nYl9MalJfWldrRkdUT3lRc3dQb180NE0tWTJScUZncExXbWh1TmhMbzhKN3NFM2ZsMVM2eFN4dWpXQmlJdF90d3pkdm9KdUY3LUxhVm4xZmRJV2NZbHE1azBVSnBEd0VZcDV4YlVIdGpQeXQ4eWtiaW5MTEpTR3MzeXF5blBmUXM5V3YxQ0w4SkNtNnR0c3FUemhHMmVrcmZiVVdOdW5QaGVJVWJSSlE?oc=5 | 2026-10-25 18:41:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixwFBVV95cUxQVk9mNGRXRWk3NXpmakVlWjJIQ0drd3FDMlUxckNKTkx3YkZLQnZYY2N0VE9PQmlHb0FYQjdzLVE3N2JfQ3hrSTRkRzg4X3c2V25sMzBIa0dMWFpISTVZaFlnUXJwN1FrTTdfWURxYXVKUWhXcDhpS1VvNlBvWHNRMVZvcUhxUzVCOUtHOENieTZoc2ktczZGb1BqV2ladEFHVDdzR196WEN5RWZ3ZFV3NzRaOTJFWFN5Tl85OXRldVIxcmp3V0xR?oc=5 | 2026-10-25 18:24:20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxOSmhscnVad01keDJiajNZWWptdHJqeTRnYzQ4Z2QyUm8zNXBPcndyWkhLb0l2TFRSUjRuTHY4VUs5VVRSSWJrNzBScmo3eF9KQWppR3hQR3U4WUpiWEZOZFFKTXpoVGhpYjZxZm81T2ZMZEYzMC00TTgyY1RWRFJmQldldjhQcDZnSHBoSTF2RUtmS2gtNHQ1bDZR?oc=5 | 2026-10-25 17:59:00 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 86 — Reason: 503 Server Error (Service Unavailable)
-- Article 87 — Reason: 503 Server Error (Service Unavailable)
-- Article 88 — Reason: 503 Server Error (Service Unavailable)
-- Article 89 — Reason: 503 Server Error (Service Unavailable)
-- Article 90 — Reason: 503 Server Error (Service Unavailable)
+- Article 26 — Reason: 503 Server Error: Service Unavailable (could not fetch article)
+- Article 27 — Reason: 503 Server Error: Service Unavailable (could not fetch article)
+- Article 28 — Reason: 503 Server Error: Service Unavailable (could not fetch article)
+- Article 29 — Reason: 503 Server Error: Service Unavailable (could not fetch article)
+- Article 30 — Reason: 503 Server Error: Service Unavailable (could not fetch article)
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEdKSEhTaWpnT2pjcGR3YUFXLXdDd1ZmQnpkLUJZZGdjRmJ6aUxJRXNrVVo2UGswN2c5bzVGNjJpTmlRSFRVTUtLTDZzWXUxZEd0UXRkUVFxM2FkamVGWnE3M2l5NDhHVktIbGFpdlByZk1yOFBnS1o0M0FobTFFcmlJdVdpYkx1WE1RbldYUGV3dUgxMkdGWHVia0s4OXJfYWZBZDUyZnFpMkhHSTVmak0yV0paUQ?oc=5 | 2026-10-25 16:48:57 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxNdzBfa2RDWnM4X19CUVBkYUxTWHlaWlJEQm9nSXFUd2ZnT3JnWW04b1Z5RXVjTkNwRTFwTDgxdUxQcUtfWG1Db1RrNWs4dFctSXV4cV90WTNremhFSk1ZYk1jYU9PVkF3QlBUNTFaVGk1bkJyQU5uVkNMZ0s1cGZjT0g5alVvaE9acGN3WUVpV0RZUUNuMFI5Q2ZwOG5fdlZm?oc=5 | 2026-10-25 16:27:55 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWY2eUpnMGFuaUM1S3BhTmQxWEVCaWNWTE9NMWxpQldwdElTbWtFazZBTGJyQ2gxd0VUbHlzdU90b0piWHNkUjE1VHdyQjR0X3ItcVBjeFJmaWpGQmtmbndYMlRzemUtUDZDS0F6eUlyWVoyQ01fM2FPeThUYnlnR2ZtR1hWRGV2VTkwRGdJbw?oc=5 | 2026-10-25 16:09:36 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiekFVX3lxTE5PSDRENWUxS01qY2NFUmVXNVI2eWFmUkVKaHFnVkFhWE1fblhCSjk2Mm1EX3Zkd01Jd1QtZTRMN3pvY2dJQnh3dnpLN0VUSHNXQ0xpZ2FaQVRZWktKRTV0dDduajR4OWJka3V3eklpNkdIYjBPZHl6cjNR?oc=5 | 2026-10-25 15:05:39 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirAFBVV95cUxOVTZLUVNqb0x1dnZub3hFZWNGaDBPNmpMa0lxVV9TYUd5RDZETm9jaXdPOHBrd0RSSzN6SHlVMV9Kd1pwUnhOemtMRUctZGk0cjhJeVhoYUdmc0lyOTlYZ0Jfclh6Rk9LVHhQRmpUbG8wZ2xPdXRNcjN1aHFKZ0NfUHp6Y1k2VlV5SV9TR0IyOU9QQjRwOXNJYW5LLWRlWEZ3bGRjQjJsUl9nWWRY?oc=5 | 2026-10-25 14:00:43 |
+
+**Non-working or unusable articles List:**
+- Article 31 — Reason: 503 Service Unavailable (content not fetched)
+- Article 32 — Reason: 503 Service Unavailable (content not fetched)
+- Article 33 — Reason: 503 Service Unavailable (content not fetched)
+- Article 34 — Reason: 503 Service Unavailable (content not fetched)
+- Article 35 — Reason: 503 Service Unavailable (content not fetched)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirgFBVV95cUxQdHhyOF91RXFBUnU0QlJ3MmlLU2txeVdyWktHVUZTSGlmSWNVeEpOYUNQZEEyQ3BLaHF5SThTVlRWMllQbHd0YVEzejJUUXFRODN5cndZWGZMdWgtaGhicFR6RVcwelo1djJBVmVfMldBOEYzdG16MmZtbjhqeEdKdmRKQUE5dGJTSlE4Wnh5Tm5kejl0SjhNZ0tPX19QcU9kY3VWWTJLaUdTSnliZHc?oc=5 | 2026-10-25 12:55:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMicEFVX3lxTE9MNG9ZM2x2MUdVdXd5Y3pGeWRnTTl2MmJibU5aT3JCR05Jb0RvR0lJVnpsbnhPNXM0RWMtMmpQSEVTRm13ZzhHTGV3eHU2c2tNUEZNZ3NsRFphNC1yaWRjdl9mOHNSYkFfbHhpRDVLdmXSAXBBVV95cUxOX0JsLWFSSmpJM0JjNVhrZ0diRjl5eHZ2ektvVVRjc0xJVlZsR09rV01mS3ljM0hGUlB4ZzlLNFFreFJTR1laVTEyLUVCYUZJMm1yTE95Qk5hQ2xjUmJBc1N5QjU0bWdyRkg1enVFdW5X?oc=5 | 2026-10-25 12:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimwFBVV95cUxNVXF5OEdFZEctUjk3aGNVNTB4YllEdUlOTXEwUGYyXzBsNDUzakZ5dkwya3JZcWR0M21rX2g3NEQxY0V4VzVfQ0JzZmhNWGZlaHVUbUxPQnpGRWg0OEhUNl9aVEV1SDltTUJ5QVg1NUtMUjB6cHBSemxpNHlJT3ZCaDI3N0VwU2w4VnB5UkEzMHd5M2ZObW5sRmtYRQ?oc=5 | 2026-10-25 11:30:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEZfTHBORWxWaVJaZHhKT3NLMkdleEFpa0JMcXVyYjNLM0RteFlqWE1uUnJBUms5ckZWUFdwamlNZTdrQmxaYVJBSi1ZX3o3djk3RTk4TnZCNUhWMzNGT1VyOGlqNE1jR0p6dkRpQ1p1bVZtWU0tc0k3N3JmTmJka2pGUzN6Zw?oc=5 | 2026-10-25 10:11:52 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAJBVV95cUxQc1IwWDVKWXA0YUJvUTlaV2JtbHZyZXlqOXdBUDVPdG92WXZBSVQ4S1prejc2cHVMQzdlUUVuWDBhYlpQZGFQeWNEZndoSnNKdmgtNTdILWlPRHBxMVBrb0hCMlBnQks2aHlPUDdfbWxQRnoxVllqWVhzUk5aenJKMDRINHpBTC1LakExM1ZVT2FmcVZTRkRHWG9FWjYtaGlMWG1Uc2dXNDRURkpRQW9WX0luLVhmY0hjUXVjX2lVZ05MMV9UMFBJMExCMnVUSVVDTHZoMDFpZXlRME92dTU3V0xhYnJOd1U4emlSM0pOQTBRNkdhdFlPeS1CM0J5dEpH?oc=5 | 2026-10-25 10:03:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 36 — Service Unavailable (could not fetch article)
+- Article 37 — Service Unavailable (could not fetch article)
+- Article 38 — Service Unavailable (could not fetch article)
+- Article 39 — Service Unavailable (could not fetch article)
+- Article 40 — Service Unavailable (could not fetch article)
+
+**Extracted Business Opening/Closing Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxNOExnQXFxdU90MzVZakctUVU2NzU0d1N4aXgwcHVRZHNWY1RBMUJYY1ppMTFXcUVWUThqZmtzNlhhSUZEeTJCRnpFcU9fUjlSVFl4ZGZrRkhVdm5Vd1VybkpDWjJKT3d1UHhtUWJYMEQxSlFfSnN6RU1STlJQWHJuaFlxNkrSAYQBQVVfeXFMUGZoVkdzOVQ3WFZIV1kzUHUteC1sMHJLcl9Ib0ZtR3JDUFMwREEzZHpEbEVvY3lKR2ZuTlZDQ3o1MGIwbVVmb0k3VHVYdjZpMmpXOWIteFAzNG1sakVEUDg5OGVPTkVjVzZBY0tvdDZpeHphMzFjX1IwN1NzTmExR1Fkcngz?oc=5 | 2026-10-25 10:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxPZUNhNXBNbzZsZmlPeU5xUnFfelNmaXdwcUhaa1k5WFAtREtZYVVSX3AtLUhLa1JCajNFMVl2VndiY
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiakFVX3lxTE05YlliQzIwNzRPTFJKRTlfSncwdFRVYlFpRnI4YVY4VzZuZjJRcUtaMlFlZjlTbDhhN3VvaWdSVzYzRlo1VEFPVDg3a1hiUkEwQW9Xbk43T0txTmtRby1RNnl2NElmVVZQUkE?oc=5 | 2026-10-25 08:07:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxOdlY1dnB3d2ZoSE9pWEdJSkZueEtrN2NDOUR3LVhyWmpHUHRrS3VuRTliYlhPWGhFZGxLYUdXV2M4YWpWRUZsZjMwV3FIYjNfMEFUSS1WWWc0dHpaWDBMTjJEc25NV09BQ2ZhQ09VaXZKZzdFekFmbXZPRGVfanZRWlczYnNKRVlLTzAyNXNwUVI1LU1uWmlUdEFjdGp4dVZtZW12Xw?oc=5 | 2026-10-25 07:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxPUTU0N1lCRm5CS1pGTXNBWDZza3otVHo2WFlZRmIwR05sVHpQN0FwV0hReUVsamdjNkVWVE4taWhoYVlES2gwbWtrbW5MZURKdjFORHk0czhCMGxUMDBjR0dwaUFhVFUxY0t5aEp6QUpHZkw1WG5vU2NSSjgzdWdCWi1UMDVXa0FjcW5teFVST0dyWEhwUndBN050TGZGTUlK?oc=5 | 2026-10-25 05:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMickFVX3lxTFBBTlM3S0MyVTIyTUdoN2dYRko1dFljX3pvdU5xUEM2ckcyWVdvdkFsV05PQVVGOXFaMDQyVUJnU3k1T3YxRWFmR25NeVRCRU1hd0hRS3NtYmMwQzNKWjVEdndUaHZ0VjQzMTFqS1hJNVV6UQ?oc=5 | 2026-10-25 03:32:46 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikgFBVV95cUxQbTFiMG1YRGE2LWs4OHBveVZRSDAyOFdEN0I0RjhVcFBTdm80Y3NSN1VEdHZPTTI0MEZqcWRja0YzSzJPbDFwN0ZqLVhXa0FpbTFGS3hyTHhYRjZaY2NORlJZYUhDS3hOa256MnhaV1hmUzY0N3N5Slh6WVRMSEE0TTF2MEVKSEY1cmVmcldYWjF4QQ?oc=5 | 2026-10-25 02:52:37 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 46 — Reason: text missing (fetch error)
+- Article 47 — Reason: text missing (fetch error)
+- Article 48 — Reason: text missing (fetch error)
+- Article 49 — Reason: text missing (fetch error)
+- Article 50 — Reason: text missing (fetch error)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxPWDc3NVFxZ00za01ZaVlGT01BTUN5b19iVXRBay0zXzhWaDg0WFhWZnRQUW1QenE1NUFYSVREOGFYclQ5Z2plRlJNejRIRzliSklGazI1a3lOUW1wbjlYTmw4RmVJdXlVM3BIQ21KOF8tVmpOamF6cFJaRTBsWjJrczFXNkxlQU9CU0djNDQwWUZNb01JbnlXR213?oc=5 | 2026-10-25 01:00:05 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilAFBVV95cUxNclJfZTgyTURvY2xzMWJINzgxSGVkY2FKQ1NmOTByZmR5SmNEQW11cUhaTWNOM3FjV2puanA0cTF4NUNaemNkMlNDNkVZOXQxWlIwLVlNRmozYnJ5SHdELTRjSWJUUGhyUTZOc0pkYVpaZk1rcHJCNkpsNjZ4d3ZuZHB1WXR4RVp1OUMtSWxkSnV3SVdF?oc=5 | 2026-10-25 00:53:38 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAFBVV95cUxPSjZucmRuX2JvWGU3UXd2WmFtNDBaamxOU1pRQW9VRkVDUFg5RHViTHJjMjVBbk9CdTdvVHFBLWx3dHpoVnVaVXVHNUZOLU5XLVJrbEFlTmRwdUNPS0cza1NELXBaZkpQZHBsWVJhSDJVd1BPa1M1dTFndzd0UjZ0aQ?oc=5 | 2026-10-24 20:46:35 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAFBVV95cUxQVDQ5c3BWN204SGdOYlVYRlBsdExscDBvZUwySXp0WDlSRjB3M0QtS3I5SW9CMEZMeTFJcHdoZkFYWFJhRzducF96SXZyX2lNQkowbUtkQmtjazdpS3NkX21FZFFOalR3MVBTdm5oVnM2bkhPR01pNG0tcjBXbTBwdzI1Wjl3aWIxaW9xSGlOLUFvSkhYOWJSY3MxNU8zQ1k3?oc=5 | 2026-10-24 20:27:19 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxPNGViNDFSODdXN1dCQ1FMX04zRkVlME1NUzJHMkRIMmxySXVwVGxuQy1oTThnUzN3a2k3NUVKWTY5RXM5U2ItYzEyV2d1Y1JHNzlaZGhCUzk0eTl2RXJnbmJFVGV0anZMWDNoaWt1VHBrWVVPSjNlR2NOdXl5Rl
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxORmNtd2NCTE1uSUg5S1JwVkxHZ2NCS25fSFRmVmVpV0JPSEdReU5KMU5lTko0STg1MmVrbzE1R0Uzc0liLUkwT3FLTWt1TU9zYU0xWkdKWVlQeGlDNmRMczFad1JEblNhbmFUVDlkT1RNOThoVEM3aTJWTGRBMWFFZGlHRTJjc1E2YXhrbWJUaVFtYzdXcGRsdjZ5UE1aSHc0d1l6Vg?oc=5 | 2026-10-24 14:51:57 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiggFBVV95cUxQT1k5WHVYNkN4N2lWVUVOemNfUUtCSWk1eHRXLWQtVTEzUDdZUVBpbFRaS2ZqT0pscjF3VWxzTjJaSklRNDJoTzFScnA5UXZBZzFjVWtOV0VlYmpxZ0ZUeElta0ZwVzlVbXducWJZNmI1VkRLV2twb1Z4dkVTLXlvYl9B?oc=5 | 2026-10-24 14:35:16 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMif0FVX3lxTE9VeTY3N3BIdlNXYXBGd24tRk1USndQLUtiWVNjdVJfel9CRjVEampLS1FZQXhnTFFMTDdjUjRjZVZFaFoyam5ocktJcDZXTFFCWUpRWk1faDdkaWhCc2JkNzdwcTYwSHNOZDJpVExndzJhaVFYTTFlVVZxRVB4a3c?oc=5 | 2026-10-24 12:56:15 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxNaEVlaDczTExxZnBYZGdTSVJKaXFXeTZFX3dXaFMweUJXVElvZlFhVkhiaFVRSHdZOVdpM21uUl9sNnJWZ3IzWGRMRkt6cWFFVDY1dmRoUGZkYkpPYWxKZzJSTnJ6MFl5TEpCeFlTVk5uY1ROWktTLWV5cDZ2alAyblZRVGJfZHBfd0VZVWtZeGxnemc2Qm9R?oc=5 | 2026-10-24 11:58:22 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxNZU1oZ1JmOG9aRGhFQmhMY0pnODE1akVnR0o5REFQclRKNVIzN05pWXhLQUVZc0JGT1VmeU9RZjlkRWdxMF9LQ1JQZXd5aHpaeFp4RU94TW8yYWVObVo2YlVhamlhekF3ZTJFU1U1aFJCSjBTRGwxYnZSX1JTd1VRNy02S0lramthd0trQ0hR?oc=5 | 2026-10-24 11:37:00 |
+
+---
+
+**Non-working or unusable articles List:**
+• Article 56 — Reason: Could not fetch article (503 Service Unavailable)  
+• Article 57 — Reason: Could not fetch article (503 Service Unavailable)  
+• Article 58 — Reason: Could not fetch article (503 Service Unavailable)  
+• Article 59 — Reason: Could not fetch article (503 Service Unavailable)  
+• Article 60 — Reason: Could not fetch article (503 Service Unavailable)  
+
+**Extracted Business Information**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeDVGMTlaSVE4S0JVR1daXzd0OTF1UGFhRGdUTk04WnBPXzZFM19COTF0dW5UeEJDT21ZblpUNUF6MWZMaUhKTTFLUTF0U211aElYei1wcE5fMHJPWjNtMGZpalo0cVZmTGpVdFZXT3dwZEZkYjJOaGtlLVhXS1RXOUFvQlUxeTBk?oc=5 | 2026-10-24 09:03:26 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgJBVV95cUxQc0FSXzNacDR1THZsdTZPM01iME5iRFJIaXhxclh0N0NWaFNlX29GeHNpaXlxTTUwQzBnZmc5MW82Ni1Zb04xaExqRERnNXFZZU5keXdiZGNqbnJHeGU4ZlotTEpmWjFzd2xIR2s0cmwxTGRGOVZsX2k4QXdPank5YllOZ0JHaE1FamNjdlpqM3NQYUphaC1IZ0tMWVVuMXpNTHdvcFRkWXZhZ205NFhjX0Q3VEJVWWNQbHFUeFBYWVltSURyYjlkcUZ4SGZiYWJ3dlktVzFLYnNhNHZ3aWE3NzB3Z1pBanA0eWNTaTdJckMzWkpPOUJ0VzNyWnBod2VLdDRTZ2FzbUZEV0EtSHfSAewBQVVfeXFMUDRMY21DRmVrVEZkOC1jQVV3X25lVTJqOVNRWE1jR1dlZ1dMa0RORzNPbEc4NEN2bU81V1VvYm9nTndoSG0tNG8xZmtkS3gxaXVlcjU1bUdYamV5NllscGc4SDFEUTZGb29ZRU01ZE8wTzFHRVdrTzZHYXpPVTU0bGpPUVV6eFdEelM4aXNubUZVWWRmX0ljbEhYS21uYzc5RmlLQkZfeUd2TTNZUG1kUTN4M0UzRXp2UnJFUlBSWHVfcm9MZzZ2NEgxa0tDWVdNdFBtbktNdUlINEFibVFHQXhKN1F0S2xXd3pFMzk?oc=5 | 2026-10-24 06:11:02 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcUs4V2pBVmYyWFI5d2hKWUI2aWl3OWIxMzV5bTRQV29DUkY3Mld2OU5wRVZkeDRSVTlNb184bmlNdnFFa2xtejgyVV9JYmpaeTFPeXVnMGd6cDRrZUczRmdOWlNsZV9IbjJjOXlVVUR4VjBXU2pqOFAyOWs1OWEwVmxjTzFxc2Zpczh4RGlMUDlKUzFMcXg1QTlnOVdSXzRIN1k3XzNGRHBJX0F6N1M0bndpbVVvTDh1cU5ybGQtOVRaOXh2NVplaURjOFUxQjV0eDY5SU9qSUpnY1ZjY0g0djNDNWlvbXRnemc?oc=5 | 2026-10-24 05:25:09 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1FFbEx1UjNoMUE1OGJRSk5SbFo5NEJNZEFQOXJsN0JJTE5ESFNmeFBxUms2QUdSd3N0OXpadDlFYTl1UlA3YWp4V3JvbzJ6YkJjNC1BVnI3bURsOGw4QVQ3bzcwc0VpUWtFV0lVcS05MnhxeDM5YzRmNE1WR1NkMjJNX0lxanBRMG5QUHJyWHNwWmRHYnkyRThnanc4U2g3d25XVVprcw?oc=5 | 2026-10-24 03:56:24 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX1VsMWd6ZW84SzNULXIxS1NHSG5GNzVJVk9FLXZRV1pSYjh3ZDVpN3JlRWw2U21OTFlVcTJjUjBacmdBRmlacnU0cGNXcHZ4M2h5VWJkUm1IV3N6ZlNvamoxWUtrT3NwZmZKbDVSNjl6cDI2bEMxZ1JmUmFQY2FXVURicG1fTUUxSU9jeGJmRUVmLU45aDIwbVVNNkN3aEdtV0hJSFdXLWU0NlR4cGRVRE84d3g1ZEpZYmNDUXJOWmNkTWxkbXBhcjJNaXdqN1ItNVE?oc=5 | 2026-10-24 01:30:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 61 — Reason: 503 Service Unavailable (no article content)
+- Article 62 — Reason: 503 Service Unavailable (no article content)
+- Article 63 — Reason: 503 Service Unavailable (no article content)
+- Article 64 — Reason: 503 Service Unavailable (no article content)
+- Article 65 — Reason: 503 Service Unavailable (no article content)
 
 **Extracted Information**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMidEFVX3lxTFA0TUhNQ2dWeTlHbWcybVdaUlNSU3RRTENmNmhobE95VnVGeHN4UHhQMHBBSVZqVTJsOTdzd1ZVdk1aNHhKVUM4VGktXzlPWVF5RU5HM3o2cGRvNzFQS21Fal9IUVg2azhHb3pqZVdna3AyNEtL?oc=5 | 2026-10-23 16:30:04 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihwFBVV95cUxNa2UyMEowZTNuM0YzN1M0dlpoT2pJUG9KYWFGUVFzazhKaFVja0NNejdUM0NZME9XTUViaFAwbHdfYnJMT1hZT1I1djlnY215SF9JdXNsbFcxcGppTHhIWjM0ejZPUlYzbzNUV1J4UERLdjVtUFoyejhDZllLbGlHU0dKQ2pvUDQ?oc=5 | 2026-10-23 15:35:39 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxPMmpZTjJiVDB3RmhLV0w3V1BCZDNyNU9EVXVRMzFCNnFLTEIwS2drTGpJeC10RmRfNG5ucUo1eWFJYncwdmhrQl9fZ2hlVlVDVmxPRXlVZHhKWDkzR19wSEYxQ0Z5UFpPbk56aVZZY1l0dHR0T3lVZTdOS0k1bG4wWWN5NVE?oc=5 | 2026-10-23 14:07:36 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1ZKNUd6Ny1JejhNWU01ZkV1dmp6OU9ybkZ0ZEdYMnlibGhON09GaklBeUdQYnY4YkpFZzBrMkRMR09iM1FMY1hQQzlMdVoycVdUTUNNYzBXcHE5d3ZOV09pQnQ1UGw2S1VSOUVKbmlKTVlZR3dKdXRxOWx3blplbXRIOFhyU0FyUURJenpOLU1KZ1J1OWtELVo3RzNENzFod1oyNQ?oc=5 | 2026-10-23 14:03:22 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbHZVQktGR1dPYTF2ZjA2ODEwQ0hFOXBHOGVreXdzaUk4VTFDRDNmbDQ5aloydEQ1OVhMdGFYLXRPVnVFWlRtaEVRazRYSGdOSkE0ZDRNbXR5XzRfYUZjV0RXYlFYQUZudkFnVENqUk1tUEFFdDN0U2N5dUhqR2o4TzBha2UwR0FmRkZhYlRfbGI2eEVjSjhrdVZndHplNjBWNWFRY2FzUFlEYk82Mmg4QVFpdHJPZFllZVNXdHZLRldwSEUxYkhUTzMzYWcxMVc0RUlFZ0tsQzlId9IB3wFBVV95cUxNamoxTmlnZHd3WWhsdE8zdHc2Wjc1N2pDbHpJWWlKQ1RqdmNCcXh3emVXcjJJbE93cmJNdmM1Z29xdXFaZnF3SFJsSlllX0VSeVByVVR1emd2d3c1c2ZCczVidmpVbDQ3TUQzMHQ5SnFIRE9fakJ0R095OUMyMWhFZnYyRlk5V1lmVk5LSEVYX1AyLUY0X3lKeTBXSmVNNmhibUloVjNhSFUwQVVKbTdWVmhDR1Qwb0Rlc0F0VUM3TkpZUGZMQnlYcWE4bG8tZl9JclJ1X2haNnlQdGZkZUpR?oc=5 | 2026-10-23 13:53:23 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxPM1l0Qk9CSnZ3bUt1VmREOUpBdFR2X0U2V1EzdmFXR0xZaVByLU9kSEpVQjBERGs4R25zc3BNS0FzaTVlUVRYaWR3YThsVVpaSzRnQ1pjS1Q4T1ZESWZuZjNQcEdtUTJZc0VpbzdLb1FoQzdGcnhFSGZPZmlYcnBaUk9jMUJsYm1qYlhBMVlpTWFFcHdLaEZEZVhR | 2026-10-24 01:02:10 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 91 — 503 Server Error: Service Unavailable
-- Article 92 — 503 Server Error: Service Unavailable
-- Article 93 — 503 Server Error: Service Unavailable
-- Article 94 — 503 Server Error: Service Unavailable
-- Article 95 — 503 Server Error: Service Unavailable
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjFGLUdibk5pdDFjdVB2bGYyOTNnMXZrZmFsVmdHRWZiWm85bTFLd0hpd3N5N2FlZE5adE8yYUJBejBsTW03WmVaZGg2cVFBWGpLWURZVkRvOThsa25zY1dTWlBpdFVqcVc1TXpsR0w0M1BPQ2JSWTg5amxvYnNZTE1tZjhheUQ0cjR4bWtqd3d0bzkxLXpZRWh3Vmt2eEF2WVA4?oc=5 | 2026-10-23 11:30:01 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGEzVGpnZVhDSWlhNGI2TlNIWmdZbXhjRzhJYUk0OHVMU3NESXg0dDdYNjBxNDRQMGhPMWtVX2NTR2VrZ1RvajhZSzlLXzdWZkdzd19SZGU5WGZiLW1yQzh4M1VPV2RoRWpCdEpnMlRzRm5lbU40Y1FHcVlLQkhsNmxLazhleWJGUmZVTEduQXR4ZGRWT1JPRjkxU3dvdjhad250V245WTR4ZFVZTm1QbWFpVk9aSzVzb0pDLUluZXpONTdlY3RUaTRR?oc=5 | 2026-10-23 11:20:28 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHB3SnFtVXVXMXdPSXQ4ZGlhOWh2VE1BYTVSUEdtd2s4ZmJsTUNpbkhKdkhIaDQ0dS1ISi1tWXlrZEg5MHA2dXptMHlqbGVyQnZnMlZONVNGWWNQaEhkVUdzTm1fLTA5MlkzeDVvTk5OSktiMDJrMnVWNTJqenBGSnhnMjgzNWdOUUVZTVBQNDVCUDYtSGk1UkNURTNpR2VPR0drRkNjRGVWVFJwaDZJSm5tYjRtc1ZpQ0tEQlhCWEZfZms?oc=5 | 2026-10-23 10:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaWJBeFN6UnVXeHA1aC1RZUttbGdGdURXcEQtNnhJYTRoNG1UNlZMb1RyNU9FQkhQLVVic0ktX0NaVm5oZndnOUREQ3BmVzVjQnNjQnpkTkNjb1ppbkNGaVFGUVZtQW9PdWhVdUYwTC1NNnM0UXgtRDFLazJQVkpvNmd1WUR6Ukl6NmtscVNJa0poa3ZsenNtbVpYNWxhb1l4aFktVWJlU25ZMUtPaFFoU1ZwQVJvMWtWdkJJT3RxdVllVWxGUGJWdzd5T01FSG1PN3lCRQ?oc=5 | 2026-10-23 09:57:19 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxOQlR6Ti1fVVFnVjByV2VEdUh4LW9PbzkxUUZDSEtUekVZN1o4ZTNDR1JUVlJYcFBCNDlEZjh1VEN4ZWVoYXV1di10blVPNmRkdTdJQ1FyVHpiWkVHUEFDTmNrNVBaMWhiemVfMWZQbHR0eWFrbEVwNi1qVnRicm1EcWZlTmJxUl9saE9FTVloZXkyRUNUVzhSRGpJR2pDNnZVX2c?oc=5 | 2026-10-23 08:52:48 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 96 — Reason: 503 Server Error: Service Unavailable
-- Article 97 — Reason: 503 Server Error: Service Unavailable
-- Article 98 — Reason: 503 Server Error: Service Unavailable
-- Article 99 — Reason: 503 Server Error: Service Unavailable
-- Article 100 — Reason: 503 Server Error: Service Unavailable
-
-**Extracted Data**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc2doaWdKZ0sxUC1XU28yRWFYTlBwazB1MmV3cjBXU01nZHdXU0J5OE1seDhTVG0zWVNwQW9jTUotSV9IOFh6djhrMkxrWktGNzJMM3J3cUd2MmYyNjFYUkN3MWFDcTVqUVNMSExkUVFLTUdMYVoxbi1fWmVnXzhYejg2TGhBSmpxaEZUSEgyT0ZfWWNkSXdJdThDY1dkbW0xeE5rRmtqYlZ1Qjk0SnVNQ0piNVh5YTJhV1l5TEdZeDVNdw?oc=5 | 2026-10-23 05:15:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQkVKVE9pZUN1cS1sb1d6ei1OZjBhN0o3a1g0NVY5MEh4TjE2Z2hzaXpzUVlpV2JJVGk4aVc2c2ZsTjNUX0RVREhPSDl6X1JFY3laOEhGcHBwWDFrd2VUcmJ0ZlM4Tk5aR1RLVUo3S3VvVWZmNHJYeVRQUGVmN0ZMUkUwWUJoZGpjWm54TEZENFZrT0dFcl85b0FEUHY3NmpZM3AtRGFIM2R1bjdXaTZIR0pRal9TT3BocEU1cGIzeHNWZm83ZnFtRktjVGRtUERlSHBBN3pPb3VnUnpiWjJuSW1EYkdVNjhWR1E?oc=5 | 2026-10-23 03:58:38 |
-
----
-
-**Non-working or unusable articles List:**
-- Article 101 — Service Unavailable (503 Server Error)
-- Article 102 — Service Unavailable (503 Server Error)
+- Article 66 — Reason: Service unavailable (503 error, article content could not be fetched)
