@@ -1,7 +1,6 @@
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Eggs and Burgers Diner | 7218 N Tamiami Trl, Sarasota, FL 34243 | Opening | November 2 | preparing to open | Eggs and Burgers Diner will open at the former Crager's Restaurant location at 7218 N Tamiami Trl in Sarasota. Owner Ibrahim Tunga is targeting a November 2 opening and plans a classic family‑friendly diner with all‑day breakfast and smash burgers. | https://www.businessdebut.com/eggs-and-burgers-diner-replacing-cragers-restaurant/ | 2026-10-24 |
-| Crager's Restaurant | 7218 N Tamiami Trl, Sarasota, FL 34243 | Closing | this year | closed | Crager's Restaurant, which had operated at the site since 1976, closed this year, making way for the new Eggs and Burgers Diner. | https://www.businessdebut.com/eggs-and-burgers-diner-replacing-cragers-restaurant/ | 2026-10-24 |
+| Jittery Joe's | 299 Grayson Hwy, Lawrenceville, GA 30046 | Opening | October 24 | has opened | Jittery Joe’s opened a new drive‑thru coffee shop at 299 Grayson Hwy in Lawrenceville, GA 30046. The location, a former Sonic building, began serving customers a few weeks ago and held a grand opening celebration on October 24. The shop features a walk‑up window, outdoor patio, and a menu of coffee, specialty drinks, and food. | https://www.businessdebut.com/jittery-joes-opens-in-lawrenceville-with-more-atl-plans/ | 2026-10-26 |
 
 Non-working or unusable articles List:
 • None
