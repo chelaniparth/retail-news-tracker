@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -15470,6 +15470,466 @@
       "short_description": "Mister O1 is set to open a new pizzeria at",
       "article_link": "",
       "published_date": ""
+    },
+    {
+      "store_name": "Chocolat de Kat",
+      "location": "10 Price St, Toronto, ON M4W 1Z4",
+      "event_type": "Opening",
+      "event_date": "fall 2026",
+      "status": "preparing to open",
+      "short_description": "Chocolat de Kat is preparing to open a new shop at The James development in Toronto’s Summerhill neighbourhood. The location will be at 10 Price St and is slated for fall 2026. The article also notes the brand’s existing shop at 300 Campbell Avenue.",
+      "article_link": "https://whatnow.com/toronto/restaurants/chocolat-de-kat-to-open-new-location-at-the-james-in-toronto/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Unnamed restaurant (West Harbor Restaurant Holdings LLC)",
+      "location": "1106 S Harbor Blvd #250, San Pedro, CA 90731, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be preparing to open",
+      "short_description": "West Harbor Restaurant Holdings LLC has filed for an on‑sale general eating place license to open a new restaurant at 1106 S Harbor Blvd, Suite 250 in San Pedro’s West Harbor. The filing does not name the concept or give a timeline, and the company has not responded to comment.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/new-restaurant-concept-appears-to-be-coming-to-west-harbor-in-san-pedro/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "CARNE",
+      "location": "1332 S Harbor Blvd, Suite 160, San Pedro, CA 90731, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning",
+      "short_description": "CARNE, the Latin fire steakhouse, is planning a second location at 1332 S Harbor Blvd., Suite 160 in the West Harbor development. The plan was previously reported, but no opening date is provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/new-restaurant-concept-appears-to-be-coming-to-west-harbor-in-san-pedro/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "1508 Coffee & Cocktails",
+      "location": "77 NE Grand Ave, Portland, OR 97232, USA",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "plans to open",
+      "short_description": "1508 Coffee & Cocktails plans to open in Portland’s Central Eastside at 77 NE Grand Ave in early 2027. The shop will serve Ethiopian coffee by day and coffee‑inspired cocktails on weekend nights. Owner Beka Yahya is currently building out the space.",
+      "article_link": "https://whatnow.com/portland/restaurants/ethiopian-coffee-shop-with-evening-cocktails-coming-to-central-eastside/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Sea Creatures (new concept)",
+      "location": "10770 NE 8th St, Bellevue, WA 98004",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "expected to open",
+      "short_description": "Sea Creatures is bringing a new restaurant concept to The Eight at 10770 NE 8th St in Bellevue, with a 6,000‑sq‑ft space expected to open in summer 2027. No name or menu details have been released yet. It will be the group’s first location outside Seattle.",
+      "article_link": "https://whatnow.com/seattle/restaurants/sea-creatures-bringing-new-concept-to-bellevue/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "No qualifying",
+      "location": "",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Gringo’s Mexican Kitchen",
+      "location": "246 Republic Dr, Kyle, TX 78640, USA",
+      "event_type": "Opening",
+      "event_date": "November 2027",
+      "status": "targeting a November 2027 opening",
+      "short_description": "Gringo’s Mexican Kitchen plans its first Austin‑area restaurant in Kyle Park, a development near I‑35 and Bebee Road. The 9,500‑sq‑ft location is targeting a November 2027 opening and will hire 125‑150 employees.",
+      "article_link": "https://whatnow.com/austin/restaurants/gringos-mexican-kitchen-expanding-into-central-texas/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Gringo’s Mexican Kitchen",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "mid-2028",
+      "status": "targeting a mid-2028 opening",
+      "short_description": "Gringo’s Mexican Kitchen is also purchasing property in the Northline development in Leander for a second Austin‑area restaurant. The roughly 9,500‑sq‑ft site is targeting a mid‑2028 opening.",
+      "article_link": "https://whatnow.com/austin/restaurants/gringos-mexican-kitchen-expanding-into-central-texas/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Uchi",
+      "location": "374 Congress St, Boston, MA 02210",
+      "event_type": "Opening",
+      "event_date": "late 2027",
+      "status": "expected to open sometime in late 2027",
+      "short_description": "Uchi, the Austin‑based contemporary Japanese restaurant, will open a new 7,100‑sq‑ft location at 374 Congress Street in Boston’s Fort Point neighborhood. The space will seat 210 guests and is expected to open in late 2027.",
+      "article_link": "https://whatnow.com/boston/restaurants/acclaimed-austin-japanese-restaurant-expanding-to-bostons-fort-point/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "pFriem Family Brewers",
+      "location": "2216 SE 50th Ave, Portland, OR 97215, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning its first taproom",
+      "short_description": "pFriem Family Brewers filed for a Full On‑Premises Brewery license to open its first Portland taproom at 2216 SE 50th Ave. The proposed 30‑seat indoor and 92‑seat outdoor venue is still in planning stages.",
+      "article_link": "https://whatnow.com/portland/restaurants/pfriem-family-brewers-eyes-southeast-portland-taproom/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Kintsugi",
+      "location": "3814 Magazine St, New Orleans, LA 70115",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "slated to get another elevated concept",
+      "short_description": "Kintsugi, a high‑end Japanese concept by Huy Pham, will occupy the former Dakar NOLA building at 3814 Magazine Street in New Orleans. Permit filings show the restaurant is slated to open, though no date is given.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/upscale-japanese-concept-headed-to-former-dakar-nola-space-on-magazine-street/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "By the Glass",
+      "location": "24 Common St, Wrentham, MA 02093",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "By the Glass, a European‑style wine and cocktail bar by Jenna Glass, is preparing to open at 24 Common Street in downtown Wrentham. The concept will feature tapas‑style plates, charcuterie, and a full bar, with opening timing not yet announced.",
+      "article_link": "https://whatnow.com/boston/restaurants/european-style-wine-and-cocktail-bar-headed-to-downtown-wrentham/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Chastain Creamery",
+      "location": "6150 Sandy Springs Cir, Sandy Springs, GA 30328",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has plans to open",
+      "short_description": "Chastain Creamery, which opened earlier this year, has signed a lease for a new location in the upcoming Hillcrest mixed‑use development in Sandy Springs. The development is slated to open in summer 2027 and will include 19,000 sq ft of retail space. The creamery plans to join other tenants such as Salted Melon.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/chastain-creamery-inks-lease-in-sandy-springs/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Bojangles",
+      "location": "2809 Cimarron Blvd, Corpus Christi, TX 78414",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Salted Melon",
+      "location": "6150 Sandy Springs Cir, Sandy Springs, GA 30328",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "will open",
+      "short_description": "Salted Melon announced a second Atlanta‑area location at the upcoming Hillcrest mixed‑use development in Sandy Springs. The new restaurant will open in summer 2027 and will join the brand’s existing locations. The development will feature 362 apartments, townhomes, greenspace and over 19,000 sq ft of retail.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/salted-melon-expanding-to-hillcrest-in-sandy-springs/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Scopa Italian Roots",
+      "location": "401 W 4th St, Austin, TX 78701, USA",
+      "event_type": "Opening",
+      "event_date": "completion expected by Oct. 31, 2027",
+      "status": "is planning a new location",
+      "short_description": "Scopa Italian Roots plans to open a downtown Austin restaurant on the ground floor of The Republic tower at 401 W Fourth St. Construction is slated to begin in January 2027 with completion expected by Oct. 31 2027. The 8,300‑sq‑ft venue will include a mezzanine and be designed by Designtrait Architects.",
+      "article_link": "https://whatnow.com/austin/restaurants/scopa-italian-roots-plans-downtown-austin-restaurant/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Craig’s Beach House (formerly Pusser’s Bar & Grille)",
+      "location": "816 A1A N, Ponte Vedra Beach, FL 32082",
+      "event_type": "Remodel",
+      "event_date": "Not specified",
+      "status": "remains open",
+      "short_description": "Pusser’s Bar & Grille in Sawgrass Village will be renovated and rebranded as Craig’s Beach House, keeping the lakefront location open during work. The transformation includes an expanded menu, new cocktails and audiovisual upgrades for sports viewing. No completion date has been announced.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/pussers-bar-grille-to-become-craigs-beach-house-in-ponte-vedra-beach/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Jack in the Box",
+      "location": "2020 S Federal Blvd, Denver, CO 80219",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "coming soon",
+      "short_description": "Jack in the Box listed a new site at 2020 S Federal Blvd in southwest Denver, with an opening planned for December 2026. The fast‑food outlet will feature drive‑thru service and indoor seating. Exact opening day and hours have not been disclosed.",
+      "article_link": "https://whatnow.com/denver/restaurants/jack-in-the-box-is-coming-to-south-federal-boulevard-in-denver/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Cantina Louie",
+      "location": "2400 Yankee Clipper Dr, Jacksonville, FL 32218",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to bring",
+      "short_description": "Cantina Louie is preparing",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Asad’s Hot Chicken",
+      "location": "755 S. 25th St., Easton, PA 18045",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Asad’s Hot Chicken announced it will open a new location at 755 S. 25th St. in Easton, taking over the former Cancun Mexican Restaurant space. Opening date has not been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/asads-hot-chicken-keeps-the-heat-coming-with-2-more-greater-philly-area-locations/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Asad’s Hot Chicken",
+      "location": "201 E. 3rd St., Bethlehem, PA 18015",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Asad’s Hot Chicken announced it will open a new location at 201 E. 3rd St. in Bethlehem, occupying the former The Flying V space. Opening date has not been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/asads-hot-chicken-keeps-the-heat-coming-with-2-more-greater-philly-area-locations/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Crisscross Bakehouse",
+      "location": "1700A Massachusetts Ave, Cambridge, MA 02138",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Crisscross Bakehouse, the new bakery from the team behind Honeycomb Creamery, is under construction at 1700A Massachusetts Avenue in Cambridge. The bakery aims to open within the next few months.",
+      "article_link": "https://whatnow.com/boston/restaurants/team-behind-cambridges-honeycomb-creamery-to-open-bakery-next-door/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Little Hats Italian Market",
+      "location": "4310 Veterans Pkwy, Murfreesboro, TN 37128, USA",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "preparing to open",
+      "short_description": "Little Hats Italian Market announced it will open a deli and market at the former Vui’s Kitchen space on Veterans Parkway in Murfreesboro. The location is targeting a late‑November opening pending equipment deliveries.",
+      "article_link": "https://whatnow.com/nashville/restaurants/little-hats-italian-market-bringing-its-deli-to-murfreesboro/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "The Caffeine Library",
+      "location": "6707 W Hausman Rd, San Antonio, TX 78249, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "The Caffeine Library filed a project to open a second coffee‑shop‑bookstore at 6707 Hausman Road in San Antonio’s Northwest",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "La Casa del Pueblo Taqueria",
+      "location": "1834 S Blue Island Ave, Chicago, IL 60608",
+      "event_type": "Closing",
+      "event_date": "December 26",
+      "status": "will close on December 26",
+      "short_description": "La Casa del Pueblo Taqueria announced the closure of its Pilsen location after more than six decades. The restaurant will stay open through Christmas Day and will close permanently on December 26, with plans to relocate to Berwyn at 6723 W Cermak Rd.",
+      "article_link": "https://whatnow.com/chicago/restaurants/this-chicago-mexican-restaurant-is-preparing-to-leave-pilsen-after-six-decades/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "QDOBA Mexican Eats",
+      "location": "4163 N Harlem Ave, Norridge, IL 60706",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "officially announce the opening",
+      "short_description": "QDOBA Mexican Eats opened a new 2,250‑square‑foot location at 4163 N Harlem Ave in Norridge, IL. The restaurant serves fresh Mexican cuisine daily from 10:30 a.m. to 10:30 p.m. and will host a Week of Deals from Nov. 2‑6.",
+      "article_link": "https://whatnow.com/chicago/restaurants/qdoba-mexican-eats-now-open-in-norridge-il/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Wonder",
+      "location": "115771 Old Columbia Pike Unit #80, Burtonsville, MD 20866",
+      "event_type": "Opening",
+      "event_date": "October 29, 2026",
+      "status": "Grand Opening is scheduled for Thursday, October 29, 2026",
+      "short_description": "Wonder is opening its newest location at 115771 Old Columbia Pike Unit #80 in Burtonsville, MD. The Grand Opening with ribbon‑cutting is set for Thursday, October 29, 2026, and the venue offers mix‑and‑match ordering from over 20 restaurants.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/wonder-brings-mix-and-match-ordering-to-burtonsville-with-october-29-grand-opening/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Flower Child (Peoria)",
+      "location": "8226 W Happy Valley Rd, Peoria, AZ 85383",
+      "event_type": "Opening",
+      "event_date": "Nov. 17",
+      "status": "will open on Nov. 17",
+      "short_description": "Flower Child will open its 48th location at 8226 W Happy Valley Rd, Peoria, AZ, on Nov. 17, 2026. The health‑forward restaurant will feature its new fall menu and vibrant murals.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/flower-child-sets-opening-dates-for-peoria-goodyear-restaurants/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Flower Child (Goodyear)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Dec. 8",
+      "status": "will open on Dec. 8",
+      "short_description": "Flower Child’s 49th restaurant will open in Goodyear, AZ on Dec. 8, 2026 (address not provided). The venue will showcase the brand’s bright atmosphere and seasonal menu.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/flower-child-sets-opening-dates-for-peoria-goodyear-restaurants/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Ole’s Guacamoles",
+      "location": "4 Sweeten Creek Rd, Asheville, NC 28803, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "renovations are underway",
+      "short_description": "Ole’s Guacamoles is preparing to return to Asheville with a new spot at 4 Sweeten Creek Rd in Biltmore Village. Renovations are underway in the former Moe’s Original BBQ space, but no reopening date has been announced.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/oles-guacamoles-is-returning-to-asheville/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Eataly Caffè",
+      "location": "2252 Broadway, New York, NY 10024",
+      "event_type": "Opening",
+      "event_date": "November 6",
+      "status": "is opening",
+      "short_description": "Eataly Caffè is opening a new café on Manhattan’s Upper West Side at 2252 Broadway near West 81st Street. The opening is scheduled for November 6 at 3 p.m. and will feature special offers and giveaways for the first 100 guests.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-global-italian-food-brand-is-bringing-caffe-culture-to-manhattans-upper-west-side/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Haraz Coffee House",
+      "location": "11288 Legacy Dr, Frisco, TX 75034",
+      "event_type": "Opening",
+      "event_date": "early spring 2027",
+      "status": "anticipated to open",
+      "short_description": "Haraz Coffee House plans a new location in Frisco’s Parkway Towne Crossing at 11288 Legacy Drive. Construction is set to begin next month and wrap up by February 2027, with an anticipated opening in early spring 2027.",
+      "article_link": "https://whatnow.com/dallas/restaurants/haraz-coffee-house-to-open-in-frisco/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Little Ruby’s",
+      "location": "700 S Rosemary Ave, West Palm Beach, FL 33401",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "planned to open",
+      "short_description": "Little Ruby’s, a New York‑based Australian‑inspired café, is slated to debut in West Palm Beach at CityPlace, 700 S Rosemary Ave. The brand expects the restaurant to open sometime in 2027.",
+      "article_link": "https://whatnow.com/miami/restaurants/little-rubys-well-known-new-york-cafe-to-debut-in-west-palm-beach/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Altair Sky Lounge",
+      "location": "3215 S Rancho Dr, Las Vegas, NV 89102",
+      "event_type": "Opening",
+      "event_date": "this fall or late winter",
+      "status": "anticipated to open",
+      "short_description": "Altair Sky Lounge, a cocktail venue built inside a decommissioned Boeing 747, will open inside AREA15 at 3215 S Rancho Dr. The space is expected to launch this fall or late winter.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/altair-sky-lounge-to-offer-one-of-a-kind-experience-at-area15/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "A5 Steakhouse",
+      "location": "845 Texas Ave, Suite 125, Houston, TX 77002",
+      "event_type": "Opening",
+      "event_date": "next spring",
+      "status": "anticipated to open",
+      "short_description": "A5 Steakhouse, a Michelin‑recommended Denver steakhouse, is preparing to open its second location in Downtown Houston at 845 Texas Ave, Suite 125. Construction is slated to finish by May 2027, with the restaurant slated to open next spring.",
+      "article_link": "https://whatnow.com/houston/restaurants/a5-steakhouse-a-michelin-recommended-denver-based-eatery-to-debut-in-downtown-houston/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "In‑N‑Out Burger",
+      "location": "5601–5627 N. Sepulveda Boulevard, Sherman Oaks",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "proposing a new drive‑through restaurant",
+      "short_description": "In‑N‑Out Burger has filed a proposal for a new drive‑through restaurant spanning 5601–5627 N. Sepulveda Boulevard in Sherman Oaks. The plan includes a covered outdoor dining area, 64 parking spaces and operating hours, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/in-n-out-plans-new-drive-through-restaurant-in-sherman-oaks/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Pür & Simple",
+      "location": "1216 Steeles Avenue East, Milton",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Pür & Simple intends to open its first Milton location at 1216 Steeles Avenue East, near James Snow Parkway and Highway 401. Signs have appeared at the site, but an opening date has not been provided.",
+      "article_link": "https://whatnow.com/toronto/restaurants/pur-simple-to-open-first-milton-location/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "PopUp Bagels",
+      "location": "4799 Commons Way, Calabasas, CA 91302",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "PopUp Bagels is preparing to open a new shop at 4799 Commons Way inside The Commons at Calabasas, with construction already underway. An opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/popup-bagels-plans-new-location-at-the-commons-at-calabasas/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Four Sixes Ranch Steakhouse",
+      "location": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "set to debut",
+      "short_description": "Four Sixes Ranch Steakhouse will debut inside the MGM Grand at 3131 Las Vegas Blvd S, with a permanent restaurant slated for early 2027 after operating as a pop‑up. The concept is a Western‑themed dining experience created by Taylor Sheridan.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/four-sixes-ranch-steakhouse-yellowstone-co-creator-taylor-sheridan-concept-to-debut-in-mgm/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Kura Revolving Sushi Bar",
+      "location": "175 E. Altamonte Drive, Suite 1000, Altamonte Springs, FL 32701",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a restaurant",
+      "short_description": "Kura Revolving Sushi Bar has filed plans for a restaurant at 175 E Altamonte Drive, Suite 1000 in Altamonte Springs, Florida. No opening date or construction timeline has been disclosed.",
+      "article_link": "https://whatnow.com/orlando/restaurants/kura-revolving-sushi-bar-plans-altamonte-springs-location/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "206 S Rosemary Ave, West Palm Beach, FL 33401, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new café",
+      "short_description": "Joe & The Juice is planning a new café in downtown West Palm Beach at 206 S. Rosemary Ave. No opening date has been announced. The location is part of the brand’s push into Palm Beach County.",
+      "article_link": "https://whatnow.com/miami/restaurants/joe-the-juice-planning-west-palm-beach-cafe/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "Address not specified (Delray Beach)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a shop",
+      "short_description": "The article notes that Joe & The Juice is planning a shop in Delray Beach, described as the first of several planned Palm Beach County locations. No further details or opening date are provided.",
+      "article_link": "https://whatnow.com/miami/restaurants/joe-the-juice-planning-west-palm-beach-cafe/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "Address not specified (downtown Fort Lauderdale)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open late this year or early next",
+      "short_description": "Another planned Joe & The Juice location is slated for downtown Fort Lauderdale, which is expected to open late this year or early next. No specific address or opening date is given.",
+      "article_link": "https://whatnow.com/miami/restaurants/joe-the-juice-planning-west-palm-beach-cafe/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Delphine",
+      "location": "16 W 29th St, New York, NY 10001",
+      "event_type": "Opening",
+      "event_date": "October 29",
+      "status": "opening",
+      "short_description": "Delphine, a new French brasserie, is opening inside Ace Hotel NoMad at 16 W. 29th St. in New York City. The restaurant will serve breakfast and dinner and is scheduled to open on October 29. It is founded by hospitality professionals Karim Amatullah, Lionel “KyKy” Conille, Mino Habib, and Mathias Van Leyden.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-french-brasserie-is-opening-inside-this-new-york-city-hotel/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Bagatelle",
+      "location": "413-419 W 14th St., New York, NY 10014",
+      "event_type": "Opening",
+      "event_date": "winter 2026",
+      "status": "opening",
+      "short_description": "Bagatelle, a New York‑born restaurant inspired by the South of France, is set to return in the Meatpacking District at 413‑419 W. 14th St. The team announced “Opening winter 2026” in an Instagram post. The reopening will bring back its champagne‑fueled brunches and lively atmosphere.",
+      "article_link": "https://whatnow.com/new-york/restaurants/bagatelle-is-back-nyc-hot-spot-plots-winter-reopening/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Fogo de Chão",
+      "location": "2625 E Eastland Center Dr, West Covina, CA 91791",
+      "event_type": "Opening",
+      "event_date": "November 2, 2026",
+      "status": "will open",
+      "short_description": "Fogo de Chão is set to open a new Brazilian steakhouse in West Covina on November 2, 2026 at 2625 E Eastland Center Drive. The opening will be celebrated with a donation of 10% of the first week’s sales to Shepherd’s Pantry. The restaurant will feature traditional churrasco grilling, a Market Table, Bar Fogo, and private dining spaces.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/west-covina-is-getting-an-international-brazilian-steakhouse-chain/",
+      "published_date": "October 27, 2026"
     }
   ],
   "non_working": [
