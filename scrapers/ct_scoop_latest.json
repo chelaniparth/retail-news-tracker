@@ -1,6 +1,21 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "data": [
+    {
+      "heading": "BLOOMFIELD SCOOP: Popeyes nearing completion in Bloomfield!",
+      "date": "2026-10-29",
+      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/bloomfield-scoop-popeyes-nearing-completion-in-bloomfield"
+    },
+    {
+      "heading": "WATERBURY SCOOP: Brass Mill Center welcoming numerous new tenants!",
+      "date": "2026-10-29",
+      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/waterbury-scoop-brass-mill-center-welcoming-numerous-new-tenants"
+    },
+    {
+      "heading": "BRIDGEPORT SCOOP: Del Prete reopens in new location!",
+      "date": "2026-10-29",
+      "link": "https://www.theconnecticutscoop.com/all-fairfield-county-posts/bridgeport-scoop-del-prete-reopens-in-new-location"
+    },
     {
       "heading": "DANIELSON SCOOP: Brickyard LEGO shop coming soon!",
       "date": "2026-10-28",
@@ -10,41 +25,6 @@
       "heading": "HARTFORD SCOOP: Iron Horse Sports Pub coming to City Steam space",
       "date": "2026-10-28",
       "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/hartford-scoop-iron-horse-sports-pub-coming-to-city-steam-space"
-    },
-    {
-      "heading": "TOLLAND SCOOP: Brick Cantina bringing new Mexican eatery to Tolland",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-tolland-county-posts/tolland-scoop-brick-cantina-bringing-new-mexican-eatery-to-tolland"
-    },
-    {
-      "heading": "NEWINGTON SCOOP: New florist opening in Downtown Newington!",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/newington-scoop-new-florist-opening-in-downtown-newington"
-    },
-    {
-      "heading": "MANCHESTER SCOOP: ConnectiCare closes Manchester office",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/manchester-scoop-connecticare-closes-manchester-office"
-    },
-    {
-      "heading": "WETHERSFIELD SCOOP: Food Street opening soon!",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/wethersfield-scoop-food-street-opening-soon"
-    },
-    {
-      "heading": "NEWINGTON SCOOP: Sneak peek of the new Sally's Apizza in Newington",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/newington-scoop-sneak-peek-of-the-new-sallys-apizza-in-newington"
-    },
-    {
-      "heading": "NORTH HAVEN SCOOP: Cup and Cone Ice Cream opens in North Haven",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/north-haven-scoop-cup-and-cone-ice-cream-opens-in-north-haven"
-    },
-    {
-      "heading": "STAMFORD SCOOP: MOM's Organic Market bringing first CT store to Stamford",
-      "date": "2026-10-27",
-      "link": "https://www.theconnecticutscoop.com/all-fairfield-county-posts/stamford-scoop-moms-organic-market-bringing-first-ct-store-to-stamford"
     }
   ]
 }
