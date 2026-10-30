@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -15929,6 +15929,536 @@
       "status": "will open",
       "short_description": "Fogo de Chão is set to open a new Brazilian steakhouse in West Covina on November 2, 2026 at 2625 E Eastland Center Drive. The opening will be celebrated with a donation of 10% of the first week’s sales to Shepherd’s Pantry. The restaurant will feature traditional churrasco grilling, a Market Table, Bar Fogo, and private dining spaces.",
       "article_link": "https://whatnow.com/los-angeles/restaurants/west-covina-is-getting-an-international-brazilian-steakhouse-chain/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Jersey Mike’s Subs",
+      "location": "Lincoln Boulevard & Ferrari Ranch Road, Lincoln, CA 95648",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Jersey Mike’s Subs is set to open a new location at the northeast corner of Ferrari Ranch Road and Lincoln Boulevard in Lincoln, CA. The site will be part of the Ferrari Pavilion shopping center, which is slated to open in late 2027, with construction completed by November 2026.",
+      "article_link": "https://whatnow.com/portland/restaurants/jersey-mikes-subs-coming-to-lincoln/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "La Casa de Mamá",
+      "location": "2240 N Interstate Ave., Suite 260, Portland, OR 97227, USA",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "preparing to open",
+      "short_description": "La Casa de Mamá, a 100% vegan Mexican bakery, is preparing its first brick‑and‑mortar storefront at 2240 N Interstate Ave., Suite 260 in Portland’s Eliot neighborhood. The owners aim to begin limited service in December after renovations finish at the end of November.",
+      "article_link": "https://whatnow.com/portland/restaurants/vegan-mexican-bakery-la-casa-de-mama-preparing-first-storefront-in-north-portland/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Bafang Dumpling",
+      "location": "6560 Garth Rd, Baytown, TX 77521",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "slated to open",
+      "short_description": "Bafang Dumpling plans to open its second Texas location at 6560 Garth Road in Baytown, Texas. A grand opening is anticipated for spring or summer 2027, pending permit approvals.",
+      "article_link": "https://whatnow.com/houston/restaurants/bafang-dumpling-to-open-in-baytown/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Al & Ernie’s Bakery Cafe",
+      "location": "802 SE 14th Pl, Battle Ground, WA 98604, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening",
+      "short_description": "Al & Ernie’s Bakery Cafe will open a second, smaller location called Al & Ernie’s in the Village at 802 SE 14th Place in Battle Ground, Washington. The opening is expected in early 2027 after remodeling begins in late 2026.",
+      "article_link": "https://whatnow.com/portland/restaurants/al-ernies-bakery-cafe-plans-second-location-in-battle-ground-village/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Marina’s Supper Club (Marina’s Bistro)",
+      "location": "4804 N Broadway, Chicago, IL 60640",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "planning on opening",
+      "short_description": "Marina’s Bistro owner Chef Eric Roldan has filed for a liquor license to launch Marina’s Supper Club at 4804 N Broadway in Chicago’s Uptown. The new concept is slated to open around February 2027 and is currently under construction.",
+      "article_link": "https://whatnow.com/chicago/restaurants/marinas-bistro-and-rum-bar-owner-creating-supper-club-in-uptown/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Almusal",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Almusal, a new cafe concept from the family behind Coffee In, is being developed in Toronto. The menu will feature coffee, matcha, all‑day brunch and lunch, but the exact address and opening date have not been disclosed.",
+      "article_link": "https://whatnow.com/toronto/restaurants/almusal-to-open-new-cafe-in-toronto/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Goldie’s",
+      "location": "306 S Main St., Williamstown, NJ 08094",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "planned as a “nostalgic neighborhood pub.”",
+      "short_description": "Goldie’s, planned as a nostalgic neighborhood pub, will open at 306 S. Main St. in Williamstown, NJ. Owners Dave and Tara Goldman aim for a 2027 debut and will share design updates on Instagram.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/goldies-brings-nostalgic-neighborhood-pub-to-williamstown-in-2027/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Chubby World",
+      "location": "2646 Dupont Dr, Irvine, CA 92612",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not provided a confirmed opening date",
+      "short_description": "Chubby World plans a multi‑level development at 2646 Dupont Dr in Irvine, featuring a music hall, retail anime merchandise, a fresh market, a food court and a theater. The project will replace a former Firestone tire business, but no opening date has been confirmed.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/chubby-world-preparing-to-open-in-orange-county/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Noona’s",
+      "location": "203 W 20th St., New York, NY 10011",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "slated to make its debut in December",
+      "short_description": "Noona’s, owned by Christine Kim, will open at 203 W. 20th St. in Chelsea, serving Asian‑inspired wellness drinks by day and a wine bar with Korean tapas by night. The venue is slated to make its debut in December.",
+      "article_link": "https://whatnow.com/new-york/restaurants/noona-to-serve-asian-inspired-wellness-drinks-by-day-tapas-by-night/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Annapurna Cafe",
+      "location": "538 Broadway E, Seattle, WA 98102",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to relocate",
+      "short_description": "Annapurna Cafe intends to move from 1833 Broadway to a street‑level space at 538 Broadway E in Seattle’s Brix building. Permit paperwork has been filed, but an opening date has not been announced.",
+      "article_link": "https://whatnow.com/seattle/restaurants/annapurna-cafe-preparing-a-move-up-broadway/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Morning Lobby",
+      "location": "47 E Main St, Los Gatos, CA 95030",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "expected to open in January 2027",
+      "short_description": "Morning Lobby is preparing to open a second cafe at 47 E Main St in Los Gatos, expected to seat about 60 guests. The new location is slated to open in January 2027 and will feature design elements from the original San Jose shop.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/morning-lobby-to-open-second-cafe-in-los-gatos/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "The Capital Grille",
+      "location": "southeast corner of SanTan Village Parkway and Williams Field Road, Gilbert, AZ",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date has not been announced.",
+      "short_description": "The Capital Grille plans a 9,134‑square‑foot freestanding restaurant at the southeast corner of SanTan Village Parkway and Williams Field Road in Gilbert’s SanTan Crossing. No opening date has been announced. It will join an upcoming Yard House at the same development.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/the-capital-grille-bringing-its-steakhouse-to-gilbert/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Church’s Chicken",
+      "location": "2305 N Fry Rd, Katy, TX 77449",
+      "event_type": "Opening",
+      "event_date": "Summer 2027",
+      "status": "The plan is to open the new Church’s Chicken by Summer 2027.",
+      "short_description": "Church’s Chicken filed a permit to open its third Katy location at 2305 N Fry Rd, with a planned opening in Summer 2027. The restaurant will feature new kiosks, a loyalty program, and a 1,400‑sq‑ft image building. A grand opening block party is also planned.",
+      "article_link": "https://whatnow.com/houston/restaurants/churchs-chicken-to-open-in-the-fry-road-crossing-shopping-center/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Scoop N Scootery",
+      "location": "9605 N Tryon St, Charlotte, NC 28262, USA",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "targeting a February 2027 opening",
+      "short_description": "Scoop N Scootery will expand to University City with a new shop at 9605 N Tryon St, aiming for a February 2027 opening. The space previously housed a boba tea shop and construction is expected to begin soon. The concept offers late‑night ice‑cream sundaes and delivery.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/scoop-n-scootery-targets-february-opening-in-university-city/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Tribeca Coffee Co.",
+      "location": "213 Queen St S, Mississauga, ON L5M 1L6, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not been set",
+      "short_description": "Tribeca Coffee Co. is taking over a former Second Cup space at 213 Queen St S in Mississauga’s Streetsville neighborhood. An opening date has not been set as the team awaits permits. The franchise already operates locations in Port Credit and Oakville.",
+      "article_link": "https://whatnow.com/toronto/restaurants/tribeca-coffee-co-bringing-a-new-cafe-to-streetsville/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Ly’s Donuts",
+      "location": "FM 969 & Sam Houston Dr.",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "Construction is expected to begin in December, with completion slated for spring 2027.",
+      "short_description": "Ly’s Donuts announced plans to open a new shop at the Market at The Colony retail center in Bastrop, located at the corner of FM 969 and Sam Houston Dr. Construction is expected to begin in December, with completion slated for spring 2027. The 1,500‑square‑foot space will offer donuts, croissants, fruit kolaches, and fried cinnamon rolls.",
+      "article_link": "https://whatnow.com/austin/restaurants/lys-donuts-brings-sweet-treats-to-bastrop-with-new-shop-coming-in-2027/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Kashgar Uyghur Dining",
+      "location": "139 N Northwest Hwy, Palatine, IL 60067",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "needs to be approved by the village council",
+      "short_description": "Kashgar Uyghur Dining owners plan to open a new location in Palatine, Illinois, in the former Arby’s building at 139 N Northwest Hwy. The project still requires approval from the village council and has not confirmed an opening date. Their existing Chicago restaurant opened in July and serves Turkish‑style dishes.",
+      "article_link": "https://whatnow.com/chicago/restaurants/kashgar-uyghur-dining-owners-looking-to-open-new-palatine-location/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Fresh as Duck Cafe",
+      "location": "25 S Main St., Yardley, PA 19067",
+      "event_type": "Opening",
+      "event_date": "mid-to-late November",
+      "status": "plans to open in mid-to-late November",
+      "short_description": "Fresh as Duck Cafe is converting the former CrepeBerry storefront at 25 S Main St. in Yardley, PA into a scratch‑kitchen cafe serving Mediterranean‑inspired breakfast and lunch. The owners are finalizing the space and aim to open in mid‑to‑late November. The cafe will feature a grab‑and‑go section and a community mural.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/fresh-as-duck-cafe-brings-healthy-fresh-seasonally-inspired-fare-to-yardley-this-fall/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Maggiano’s Little Italy",
+      "location": "4325 Glenwood Ave, Raleigh, NC 27612, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Maggiano’s Little Italy will take over the former Brio Italian Grille space at 4325 Glenwood Ave in Raleigh’s Crabtree Valley Mall. The chain’s first Raleigh restaurant is preparing to open, though a specific opening date has not been announced. Maggiano’s will join its existing Durham location as the second in the Triangle.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/maggianos-little-italy-to-replace-brio-at-raleighs-crabtree-valley-mall/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "2941 Mediterranean",
+      "location": "36650 Garfield Rd, Clinton Township, MI 48035",
+      "event_type": "Opening",
+      "event_date": "later this fall",
+      "status": "opening sometime later this fall",
+      "short_description": "Joe Vicari Restaurant Group announced a new 2941 Mediterranean Street Food location at 36650 Garfield Rd in Clinton Township, Michigan. The opening is expected sometime later this fall, but no exact date was provided. The site shares a plaza with several other eateries, including Little Caesars.",
+      "article_link": "https://whatnow.com/detroit/restaurants/joe-vicari-group-opening-new-2941-mediterranean-location-in-clinton-township/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Tre Pazzi Trattoria",
+      "location": "928 Lincoln Way, Auburn, CA 95603",
+      "event_type": "Closing",
+      "event_date": "December 31",
+      "status": "shutting down permanently",
+      "short_description": "Tre Pazzi Trattoria, a beloved Italian restaurant in downtown Auburn, announced it will close permanently at the end of the year. The owners cited a lease renewal issue, and the final day of service is set for December 31. The restaurant encouraged patrons to visit before the closure.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/a-downtown-auburn-italian-restaurant-has-announced-its-final-day-of-service/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Cholapink",
+      "location": "32 Spring St, New York, NY 10012",
+      "event_type": "Opening",
+      "event_date": "October 28",
+      "status": "has opened",
+      "short_description": "Cholapink, a new Peruvian fast‑casual restaurant, opened at 32 Spring Street in New York City’s SoHo on October 28. The concept is a collaboration between chef Jaime Pesaque and music star Daddy Yankee, offering Peruvian street‑food inspired dishes.",
+      "article_link": "https://whatnow.com/new-york/restaurants/daddy-yankee-teams-up-with-a-renowned-chef-to-open-a-new-nyc-restaurant/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Olio e Piu",
+      "location": "1132 Broadway, New York, NY 10010",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Olio e Piu, an Old World Italian restaurant, plans to open a new location at 1132 Broadway in New York’s NoMad district. The announcement notes the upcoming opening but does not provide a specific date.",
+      "article_link": "https://whatnow.com/new-york/restaurants/olio-e-piu-brings-old-world-italian-charm-to-nomad-with-new-location/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Sundaybird",
+      "location": "15027 Madison Ave, Lakewood, OH 44107, USA",
+      "event_type": "Opening",
+      "event_date": "mid‑November 2026",
+      "status": "preparing to open",
+      "short_description": "Sundaybird, a fast‑casual rotisserie chicken concept, is set to open at 15027 Madison Ave in Lakewood, Ohio, in mid‑November 2026. The restaurant will occupy the former Pachamama Kitchen space and will feature seating for about 20 guests.",
+      "article_link": "https://whatnow.com/columbus/restaurants/sundaybird-plans-mid-november-2026-opening-in-lakewood/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Ja’ Grill Hyde Park",
+      "location": "1510 E Harper Ct, Chicago, IL 60615",
+      "event_type": "Closing",
+      "event_date": "Monday, November 2",
+      "status": "will shut down",
+      "short_description": "Ja’ Grill Hyde Park, a Jamaican restaurant in Chicago, announced it will permanently close on Monday, November 2. The owners cited rising labor and food costs, and the location will remain open during regular hours until the final day.",
+      "article_link": "https://whatnow.com/chicago/restaurants/a-beloved-jamaican-restaurant-in-hyde-park-bids-farewell-after-19-years/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Barley’s Brewing Company",
+      "location": "467 N High St, Columbus, OH 43215, USA",
+      "event_type": "Opening",
+      "event_date": "mid-to-late February 2027",
+      "status": "grand reopening planned for mid-to-late February 2027",
+      "short_description": "Barley’s Brewing Company in downtown Columbus will undergo a major renovation starting late December 2026, moving operations to the second floor during construction. The ground‑floor remodel is expected to finish by winter, with a grand reopening planned for mid‑to‑late February 2027.",
+      "article_link": "https://whatnow.com/columbus/restaurants/barleys-brewing-company-plans-renovation-and-february-2027-reopening-in-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "June Baby",
+      "location": "197 2nd Ave, New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "October 28",
+      "status": "opened",
+      "short_description": "June Baby, a Filipino‑American cocktail bar, opened at 197 Second Avenue in New York’s East Village on October 28 2026. It offers Filipino‑inspired drinks and comfort food, featuring artwork by Filipino artists.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-filipino-american-cocktail-bar-has-opened-in-new-yorks-east-village/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’ (Reynoldsburg)",
+      "location": "6051 E. Main St,",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Chick‑fil‑A 8 Mile & Woodward",
+      "location": "1201 W. Eight Mile Road, Detroit, MI (address given without zip)",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "will open this November",
+      "short_description": "Two new Metro Detroit Chick‑fil‑A restaurants will begin serving guests this November. The 8 Mile & Woodward location is at the intersection of 1201 W. Eight Mile Road and will open this November, creating about 100 jobs. The restaurant will offer dine‑in, drive‑thru, carry‑out, delivery and catering.",
+      "article_link": "https://whatnow.com/detroit/restaurants/two-new-metro-detroit-chick-fil-a-restaurants-opening-next-month/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Chick‑fil‑A Great Lakes Crossing",
+      "location": "4790 S. Baldwin Road, Detroit, MI (address given without zip)",
+      "event_type": "Opening",
+      "event_date": "Nov. 5",
+      "status": "will open on Nov. 5",
+      "short_description": "The Great Lakes Crossing Chick‑fil‑A will open on Nov. 5 at 4790 S. Baldwin Road, adding roughly 100 jobs. It will provide dine‑in, drive‑thru, carry‑out, Mobile Pick‑Up and third‑party delivery. The location is part of a celebration with a Moove‑In Party.",
+      "article_link": "https://whatnow.com/detroit/restaurants/two-new-metro-detroit-chick-fil-a-restaurants-opening-next-month/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "E+ROSE Wellness Café",
+      "location": "2200 Buena Vista Pike, Suite 1, Nashville, TN 37218, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "could be preparing to expand",
+      "short_description": "A permit issued on Oct 20 identifies E+ROSE Wellness Café for a 2,000‑sq‑ft restaurant build‑out at 2200 Buena Vista Pike, Suite 1. The company has not confirmed an opening date or publicly announced the address. The permit indicates the project has been granted but does not confirm construction is underway.",
+      "article_link": "https://whatnow.com/nashville/restaurants/erose-wellness-cafe-could-add-another-nashville-location/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Gringo A Go Go",
+      "location": "5435 Wade Park Blvd, Raleigh, NC 27607, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Gringo A Go Go is preparing to open a second Raleigh location near the Lenovo Center in the Wade Park area. Owner Fredy Alvarez shared the expansion news, but an opening date and exact address have not been confirmed. The new site would serve young professionals and families in the neighborhood.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/gringo-a-go-go-to-bring-its-mexican-cantina-to-wade-park/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Bull City Burger & Brewery Outpost #1",
+      "location": "4628 Guess Rd, Durham, NC 27712, United States",
+      "event_type": "Opening",
+      "event_date": "first quarter of 2027",
+      "status": "scheduled to open",
+      "short_description": "Bull City Burger & Brewery plans its first outpost in North Durham’s Latta Park, slated for the first quarter of 2027. The 2,700‑sq‑ft location at 4628 Guess Rd will feature 65 dining seats, a patio, and a turf play area. It marks the brand’s first expansion beyond its downtown Durham restaurant.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/bull-city-burger-brewery-expanding-to-north-durham-with-new-outpost/",
+      "published_date": "October 29,"
+    },
+    {
+      "store_name": "Houston Texas Hot Chicken",
+      "location": "855 East Craig Road, North Las Vegas, NV 89030",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open",
+      "short_description": "Houston Texas Hot Chicken announced plans for its first North Las Vegas location at 855 East Craig Road. Signs indicate the building is near completion and the eatery is expected to open before the end of 2026. No exact opening date was provided.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/houston-texas-hot-chicken-to-open-a-north-las-vegas-eatery/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses ownership changes at Eunice but does not mention a new opening or closure.",
+      "article_link": "https://whatnow.com/houston/restaurants/eunice-popular-louisiana-inspired-eatery-is-now-being-led-by-chef-drake-leonards/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Siegel's Bagelmania",
+      "location": "730 South Rampart Blvd, Las Vegas, NV 89145",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Siegel’s Bagelmania is preparing to open a new location in Boca Park, next to Pinkbox in Angel Park Lindell. Signage at the site says the opening is “coming soon,” and the brand expects the shop to open before the end of the year. No specific date was given.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/siegels-bagelmania-to-open-in-boca-park/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "THG’s Hot Chicken",
+      "location": "1216 Steeles Ave E, Milton, ON L9T 6R1, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "THG’s Hot Chicken plans to open its first Milton restaurant at 1216 Steeles Avenue East. Signs are already installed and the company lists the location as “coming soon” in 2026, but an exact opening date has not been announced.",
+      "article_link": "https://whatnow.com/toronto/restaurants/thgs-hot-chicken-to-open-first-milton-restaurant/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Masa’s Sushi",
+      "location": "824 Main St, Pleasanton, CA 94566",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to operate",
+      "short_description": "Masa’s Sushi filed an application to operate at 824 Main Street in downtown Pleasanton. The article notes the business is “preparing to operate” there, but no opening date or further details have been released.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/masas-sushi-to-open-at-downtown-pleasanton-address/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Freebirds World Burrito",
+      "location": "747 State Hwy 71, Bastrop, TX 78602",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Freebirds World Burrito is preparing to open at 747 State Highway 71 in Bastrop. A project filing shows an interior build‑out cost of $90,000, with work slated to begin Nov 23 2026 and finish Apr 19 2027. No opening date has been announced.",
+      "article_link": "https://whatnow.com/austin/restaurants/freebirds-world-burrito-coming-to-bastrop/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Tiny Market Co.",
+      "location": "938 Bathurst St, Toronto, ON M5R 3G4",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to reopen",
+      "short_description": "Tiny Market Co., a specialty pasta shop at 938 Bathurst Street in Toronto’s Annex, plans to reopen in late fall after a temporary closure. The shop offers rotating pasta specials, house‑made sandwiches, and grocery items. No specific reopening date has been provided.",
+      "article_link": "https://whatnow.com/toronto/restaurants/tiny-market-co-to-reopen-in-torontos-annex-neighborhood-in-late-fall/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Mendocino Farms Sandwich Market",
+      "location": "8152 E Santa Ana Canyon Rd #174, Anaheim, CA 92808",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Mendocino Farms Sandwich Market filed for a location at 8152 E Santa Ana Canyon Road, Suite 174 in Anaheim Hills and is preparing to open. The filing includes a request for a beer and wine license but does not give an opening date. The chain is known for sandwiches, salads, and catering.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/mendocino-farms-sandwich-market-to-open-new-anaheim-hills-location/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "The Ridge Grill",
+      "location": "12345 SW Horizon Blvd, Beaverton, OR 97007, USA",
+      "event_type": "Remodel",
+      "event_date": "September",
+      "status": "business as usual",
+      "short_description": "The Ridge Grill in Beaverton has a new owner, Carlos Castañeda, who plans to add brunch, breakfast and new menu items while keeping the restaurant open. Changes will be made gradually with no temporary closure, and the bar is being updated. The restaurant continues to operate under its existing name and staff.",
+      "article_link": "https://whatnow.com/portland/restaurants/the-ridge-grill-changes-ownership-and-new-things-are-coming/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Bojangles",
+      "location": "2809 Cimarron Blvd, Corpus Christi, TX 78414, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Bojangles filed a project with the Texas Department of Licensing and Regulation to build a new 2,829‑sq‑ft restaurant at 2809 Cimarron Blvd in Corpus Christi. Construction is slated to start on Jan. 4 2027 with completion expected by June 30 2027, but no official opening date is given. The filing lists Jingle Jangle RE LLC as the owner and Charles William Pope and Associates as the design firm.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/bojangles-plans-new-restaurant-in-corpus-christi-texas-for-2027/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Lillys",
+      "location": "825 N Railroad Ave., West Palm Beach, FL 33401",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "will open in November",
+      "short_description": "Mama Hospitality Group will debut Lillys at The Nora Hotel in West Palm Beach’s Nora District. The rooftop restaurant and bar with poolside dining is slated to open in November. The concept is developed with Starr Restaurants.",
+      "article_link": "https://whatnow.com/miami/restaurants/mama-hospitality-group-to-debut-2-new-dining-concepts-in-west-palm-beach/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Mac’s 44",
+      "location": "1135 N Railroad Ave., West Palm Beach, FL 33401",
+      "event_type": "Opening",
+      "event_date": "January",
+      "status": "plans to open in January",
+      "short_description": "Mama Hospitality Group will open Mac’s 44, an Old World‑inspired performance‑driven lounge in West Palm Beach’s Nora District. The 3,600‑sq‑ft venue features live music and a curated cocktail menu. The team plans to open Mac’s 44 in January.",
+      "article_link": "https://whatnow.com/miami/restaurants/mama-hospitality-group-to-debut-2-new-dining-concepts-in-west-palm-beach/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Sierra Restaurant",
+      "location": "130 Spectrum Loop, Colorado Springs, CO 80921",
+      "event_type": "Opening",
+      "event_date": "late-2027",
+      "status": "targeting a late-2027 opening",
+      "short_description": "Sierra Restaurant is expanding to Colorado Springs with a new location at 130 Spectrum Loop in the Polaris Pointe development. Construction is underway on a 9,000‑sq‑ft building and the restaurant is targeting a late‑2027 opening. The project marks Brinkerhoff Hospitality’s first Colorado Springs site.",
+      "article_link": "https://whatnow.com/denver/restaurants/sierra-restaurant-is-bringing-its-wood-fired-menu-to-colorado-springs/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Door 24",
+      "location": "2124 N Damen Ave 1st floor, Chicago, IL 60647",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not have an opening date as it is early in the licensing process",
+      "short_description": "Door 24, a Bucktown wine shop opened in May 2021, has applied for a liquor license to add a wine bar serving food at its 2124 N Damen Avenue space. The new concept is an expansion of the current shop, but no opening date has been set. The owners are awaiting further licensing progress.",
+      "article_link": "https://whatnow.com/chicago/restaurants/door-24-owners-seek-to-open-wine-bar-serving-food-additions/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Cantina Louie",
+      "location": "2400 Yankee Clipper Dr, Jacksonville, FL 32218",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "heading to the airport next year",
+      "short_description": "Cantina Louie plans to open a location in Concourse B of Jacksonville International Airport. The city approved a permit on October 26 for a $1.215 million, 2,090‑sq‑ft build‑out handled by Auld & White Constructors. The exact opening date has not been announced, though the concourse is slated to open on January 27, 2027.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/cantina-louie-plans-jacksonville-international-airport-location/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "The Caffeine Library",
+      "location": "6707 W Hausman Rd, San Antonio, TX 78249, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new location planned",
+      "short_description": "The Caffeine Library, a coffee shop and bookstore, is planning a second location on San Antonio’s Northwest Side at 6707 W Hausman Rd. Construction is slated to begin on Nov. 16 2026 and finish by March 15 2027, though an official opening date has not been confirmed.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/the-caffeine-library-plans-second-location-in-san-antonio/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Poydras Market",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "likely will open in the coming months",
+      "short_description": "Chef‑owner Dana Honn plans to open Poydras Market, a third‑floor café with a grab‑and‑go space on the ground floor, in New Orleans’ Central Business District. The opening timeline is pending city permits and is expected in the coming months.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/local-restaurateur-planning-two-market-cafe-concepts/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Esplanade Market Café",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "likely will open in the coming months",
+      "short_description": "The Esplanade Market Café will open inside the Esplanade at City Park Apartments in Bayou St. John, serving a rotating menu for the building’s residents. Its opening date is also pending permits and anticipated in the coming months.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/local-restaurateur-planning-two-market-cafe-concepts/",
+      "published_date": "October 28, 2026"
+    },
+    {
+      "store_name": "Café Ami",
+      "location": "450 Palladio Pkwy, Folsom, CA 95630, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Café Ami, an all‑day neighborhood café from MAC Hospitality Group, is slated to open in early 2027 at 450 Palladio Parkway in Folsom, occupying the former Mas Taco Bar space. The 3,500‑sq‑ft area will be fully remodeled before the café opens, with no exact opening date set.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/cafe-ami-to-replace-mas-taco-bar-at-folsoms-palladio/",
+      "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Mas Taco Bar",
+      "location": "450 Palladio Pkwy, Folsom, CA 95630, USA",
+      "event_type": "Closing",
+      "event_date": "Oct. 25, 2026",
+      "status": "closed for good",
+      "short_description": "Mas Taco Bar closed permanently on Sunday, Oct. 25, 2026, leaving the 3,500‑sq‑ft space at 450 Palladio Parkway vacant. The location will be remodeled for the upcoming Café Ami.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/cafe-ami-to-replace-mas-taco-bar-at-folsoms-palladio/",
       "published_date": "October 27, 2026"
     }
   ],
