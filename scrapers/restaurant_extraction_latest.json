@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-10-31",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -16460,6 +16460,616 @@
       "short_description": "Mas Taco Bar closed permanently on Sunday, Oct. 25, 2026, leaving the 3,500‑sq‑ft space at 450 Palladio Parkway vacant. The location will be remodeled for the upcoming Café Ami.",
       "article_link": "https://whatnow.com/sacramento/restaurants/cafe-ami-to-replace-mas-taco-bar-at-folsoms-palladio/",
       "published_date": "October 27, 2026"
+    },
+    {
+      "store_name": "Juniper Café",
+      "location": "1 N B St, San Mateo, CA 94401",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand",
+      "short_description": "Juniper Café is preparing to open a second bakery at 1 North B St. inside The Brickline in downtown San Mateo. The new single‑floor space will allow larger pastry production and new bread offerings, with an expected opening in early 2027.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/juniper-cafe-to-open-second-location-in-san-mateo/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Starbird Chicken",
+      "location": "333 Jefferson St, Suite 106, San Francisco, CA 94133",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting a summer 2027 opening",
+      "short_description": "Starbird Chicken plans to open its first traditional brick‑and‑mortar restaurant in San Francisco at 333 Jefferson St., Suite 106 in the Anchor’s Landing shopping center. The 2,180‑sq‑ft location is slated for a summer 2027 opening, marking the chain’s first storefront in its hometown.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/starbird-chicken-to-open-first-traditional-san-francisco-restaurant/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/orange-county/restaurants/ksl-capital-partners-acquires-the-ritz-carlton-laguna-niguel/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Back Forty Hospitality Group – Food Hall (multi‑concept)",
+      "location": "17200 Laguna Canyon Rd, Irvine, CA 92618",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "bringing a multi‑concept food hall",
+      "short_description": "Back Forty Hospitality Group is developing a multi‑concept food hall at 17200 Laguna Canyon Rd, Irvine, occupying the former Terrace Kitchen space. The project will feature six dining concepts and serve the surrounding office community, with no opening date disclosed.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/new-food-hall-concept-headed-to-irvines-spectrum-terrace/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Moe and Sam’s Gyros and Philly",
+      "location": "439 N Bolingbrook Dr, Bolingbrook, IL 60440",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to open around the end of November or December",
+      "short_description": "Moe and Sam’s Gyros and Philly is set to open a quick‑service restaurant at 439 N Bolingbrook Drive in Bolingbrook, Illinois. Owner Hussam Salaymeh hopes to launch the concept around the end of November or December, pending final approvals.",
+      "article_link": "https://whatnow.com/chicago/restaurants/moe-and-sams-gyros-and-philly-to-fill-former-checkers-space-in-bolingbrook/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "1927 S’Mores Company",
+      "location": "1126 SW Alder St., downtown Portland",
+      "event_type": "Closing",
+      "event_date": "September 15, 2024",
+      "status": "closed suddenly on Sept. 15, 2024",
+      "short_description": "1927 S’Mores Company’s downtown Portland café at 1126 SW Alder St. closed suddenly on Sept. 15, 2024. The brand has resumed operations elsewhere under new owners Bryan Arnold and Nicole Tignor. The closure ended the original location’s service.",
+      "article_link": "https://whatnow.com/portland/restaurants/1927-smores-company-under-new-ownership/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Mercer",
+      "location": "500 San Jacinto Blvd, Austin, TX 78701, USA",
+      "event_type": "Opening",
+      "event_date": "August 2027",
+      "status": "on the way",
+      "short_description": "Mercer, a new restaurant, is planned inside the Thompson Austin hotel at 500 San Jacinto Blvd. Work is slated to begin in December 2026 with completion aimed for August 2027. The project will remodel an existing restaurant space into a new dining concept.",
+      "article_link": "https://whatnow.com/austin/restaurants/mercer-restaurant-planned-inside-downtown-austins-thompson-hotel/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Sourdough & Co.",
+      "location": "7540 Gate Parkway, Unit 114, Jacksonville, FL 32256",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "targeting an early 2027 opening",
+      "short_description": "Sourdough & Co. will open its first Jacksonville location at 7540 Gate Parkway, Unit 114, in The Palms at Gate Parkway shopping center. The franchisees aim for an early 2027 opening, pending permitting and renovation. The menu will feature San Francisco‑style sourdough sandwiches and other items.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/sourdough-co-is-bringing-its-signature-sandwiches-to-jacksonville/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Culver’s",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "under construction",
+      "short_description": "Culver’s is constructing a new restaurant in Ooltewah, Tennessee, expected to open in February 2027. Franchisee Ross Thomas will operate the site, adding a second Culver’s to the Chattanooga market. The project is currently under construction.",
+      "article_link": "https://whatnow.com/nashville/restaurants/culvers-coming-to-ooltewah-early-next-year/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Jeff’s Bagel Run",
+      "location": "4285 US-1, St. Augustine, FL 32086",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Jeff’s Bagel Run plans to open a shop at 4285 U.S. Highway 1 in St. Augustine, Florida. Building plans were approved on October 13, and the storefront will be created by converting a former Wells Fargo drive‑thru. No opening date has been announced, but the site is listed as coming soon.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/jeffs-bagel-run-is-coming-to-st-augustine-with-fresh-baked-bagels/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "LA Barnhouse Brewery",
+      "location": "42742 Merchant Ct, Ponchatoula, LA 70454",
+      "event_type": "Opening",
+      "event_date": "January",
+      "status": "slated to open in January",
+      "short_description": "LA Barnhouse Brewery is a multi‑concept destination in Ponchatoula featuring non‑alcoholic craft drinks, a Cocoon Lounge for cocktails, and future food options. The project honors the founder’s late daughter and is slated to open in January.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/upcoming-cocktail-lounge-and-na-brewery-to-bring-immersive-experience-to-ponchatoula/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Bouquet",
+      "location": "1 Bd du Casino, Gatineau, QC J8Y 6X4, Canada",
+      "event_type": "Opening",
+      "event_date": "November 18",
+      "status": "plans to open at 1 Boulevard du Casino on November 18",
+      "short_description": "Bouquet will open a contemporary restaurant at the Hôtel‑Casino du Lac‑Leamy in Gatineau, focusing on seasonal, regional cuisine with an open kitchen. The opening is scheduled for November 18 at 1 Boulevard du Casino.",
+      "article_link": "https://whatnow.com/montreal/restaurants/bouquet-to-introduce-new-dining-concept-at-hotel-casino-du-lac-leamy/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Yellow Light Coffee & Donuts",
+      "location": "242 John R St, Detroit, MI 48226",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "awaiting comment from the owners on the timeline for opening the new location",
+      "short_description": "Yellow Light Coffee & Donuts has filed a permit to open a third location at 242 John R Street near the Detroit Opera House. The company has not announced a timeline for when the new cafe will open.",
+      "article_link": "https://whatnow.com/detroit/restaurants/yellow-light-coffee-applies-for-new-space-near-detroit-opera-house/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "White Castle",
+      "location": "3315 International Golf Pkwy, St. Augustine, FL 32092",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not announced an opening date",
+      "short_description": "White Castle has received a $1.95 million building permit for a new 3,000‑sq‑ft restaurant in the World Commerce Center near St. Augustine, Florida. No opening date has been announced for the Northeast Florida location.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/white-castle-moves-forward-with-first-northeast-florida-location/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Biom",
+      "location": "691 Somerset St W, Ottawa, ON K1R 6P5, Canada",
+      "event_type": "Opening",
+      "event_date": "November",
+      "status": "expected to open in November",
+      "short_description": "Biom plans to launch a wellness‑focused social lounge in Ottawa’s Chinatown, occupying the former Oriental Chu Shing site. The 8,000‑sq‑ft space is expected to open in November 2026.",
+      "article_link": "https://whatnow.com/montreal/restaurants/biom-introduces-social-lounge-concept-to-ottawas-chinatown/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Tipsy Putt",
+      "location": "1755 Blake Street, Suite 125, Denver, CO 80202",
+      "event_type": "Opening",
+      "event_date": "late 2026",
+      "status": "coming soon",
+      "short_description": "Tipsy Putt is set to open its first location outside California in Denver’s LoDo neighborhood at 1755 Blake Street, Suite 125. The family‑owned brand is targeting a late‑2026 opening and will feature indoor mini‑golf, a full bar and a restaurant with shareable dishes. The 12,500‑sq‑ft space will also include tabletop games and a menu with tacos, wings, burgers and vegan options.",
+      "article_link": "https://whatnow.com/denver/restaurants/tipsy-putt-is-bringing-indoor-mini-golf-cocktails-and-dining-to-denver/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Niveaux Pâtisserie",
+      "location": "75 State St, Boston, MA 02109",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "targeting an early 2027 opening",
+      "short_description": "Niveaux Pâtisserie is preparing to open its second location at 75 State Street in Boston’s Financial District. The expansion is targeting an early 2027 opening and will bring French‑inspired sweet and savory pastries,",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Teriyaki Madness",
+      "location": "4191 S Lake Forest Dr #400, McKinney, TX 75070",
+      "event_type": "Opening",
+      "event_date": "April 2027",
+      "status": "getting ready to start construction",
+      "short_description": "Teriyaki Madness is adding a new location at 4191 S Lake Forest Drive, Suite 400 in McKinney. Franchisee Vamsi Kari says construction will begin soon and the restaurant is slated to open in April 2027. The chain currently has over 220 locations nationwide.",
+      "article_link": "https://whatnow.com/dallas/restaurants/teriyaki-madness-franchisee-building-new-location-in-mckinney/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Palmer House Bakery",
+      "location": "1730 S Germantown Rd, Germantown, TN 38138",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open a storefront of its own",
+      "short_description": "Palmer House Bakery is preparing to open its own storefront at 1730 S Germantown Road in Germantown. The bakery, known for supplying JoJo’s Espresso, has a certificate of occupancy under review and aims to launch a grab‑and‑go shop with limited seating. Owners Ashley Pier and her daughter Sophie are leading the effort.",
+      "article_link": "https://whatnow.com/memphis/restaurants/palmer-house-bakery-opening-a-storefront-of-its-own/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Kitab Cafe",
+      "location": "1260 Library St, Detroit, MI 48226",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "looking at a new site",
+      "short_description": "Kitab Cafe is applying for a new downtown Detroit site at 1260 Library Street near the Fox Theater. Owner Ahmed Alwhysee says the project is early in the permitting process and no opening date is set yet. The move would be the chain’s third location in the Metro Detroit area.",
+      "article_link": "https://whatnow.com/detroit/restaurants/kitab-cafe-team-seeking-new-location-near-fox-theater-downtown/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Penn Station Sandwiches",
+      "location": "460 Old Trolley Rd, Summerville, SC 29485",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "made its debut",
+      "short_description": "Penn Station Sandwiches opened its first South Carolina location at 460 Old Trolley Road in Summerville. The ribbon‑cutting ceremony took place on the morning of October 30, 2026, with doors opening at 11 a.m. The franchise plans further expansion across the state.",
+      "article_link": "https://whatnow.com/charleston/restaurants/penn-station-opens-in-summerville-with-plans-for-further-expansion/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Cuban Corner",
+      "location": "109 Old Chapin Rd, Lexington, SC 29072",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening expected before the end of the year",
+      "short_description": "Cuban Corner announced a second restaurant in Lexington, South Carolina, located in the Shoppes at Flight Deck. The new spot is expected to open before the end of the year, adding to the brand’s presence after its Columbia location. The announcement highlighted the restaurant’s Cuban comfort food.",
+      "article_link": "https://whatnow.com/charleston/restaurants/cuban-corner-expanding-to-lexington/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Open Road",
+      "location": "5471 Wisconsin Ave, Chevy Chase, MD 20815",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced when it will be ready to welcome customers",
+      "short_description": "Open Road, a Metropolitan Hospitality Group restaurant, is planning its Maryland debut in Chevy Chase at 5471 Wisconsin Avenue within The Collection development. The company has not announced an opening date, but the location is confirmed.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/open-road-headed-to-chevy-chase/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Cove",
+      "location": "5471 Wisconsin Ave, Chevy Chase, MD 20815",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "does not have an opening date yet",
+      "short_description": "Metropolitan Hospitality Group will introduce Cove, an all‑day café and wine bar, at 5471 Wisconsin Avenue in Chevy Chase as part of The Collection. No opening date is set, though the venue is slated to begin serving in the fourth quarter of the year.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/metropolitan-hospitality-group-bringing-cove-to-the-collection/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "O‑Ku",
+      "location": "1400 Broad St, Chattanooga, TN 37402, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "O‑Ku is preparing to open a modern Japanese restaurant at 1400 Broad Street inside the AC Hotel by Marriott in downtown Chattanooga. The site is listed as “coming soon” with no announced opening date.",
+      "article_link": "https://whatnow.com/nashville/restaurants/o-ku-sets-sights-on-chattanooga-with-new-downtown-restaurant/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "The Rusted Rail",
+      "location": "104 E Thomas St, Lake City, SC 29560",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open at 104 E. Thomas Street in late fall",
+      "short_description": "The Rusted Rail, a 1950s‑style diner built from an old train car, will open at 104 E. Thomas Street in Lake City, SC, with plans to launch in late fall, targeting mid‑November to early December. No specific opening date has been provided.",
+      "article_link": "https://whatnow.com/charleston/restaurants/the-rusted-rail-opening-this-fall-in-lake-city/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "The Melting Pot",
+      "location": "315 Deaderick St, Nashville, TN 37238, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open in late 2026 or early 2027",
+      "short_description": "The Melting Pot is set to return to downtown Nashville with a new location at 315 Deaderick Street, occupying the former UBS Bank building. The restaurant is expected to open in late 2026 or early 2027.",
+      "article_link": "https://whatnow.com/nashville/restaurants/the-melting-pot-returns-to-downtown-nashville-with-new-location/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Angie’s",
+      "location": "1739 W. Glendale Avenue, Phoenix (zip not specified)",
+      "event_type": "Opening",
+      "event_date": "October 20, 2026",
+      "status": "opened",
+      "short_description": "Angie’s opened at 1739 W. Glendale Avenue in Phoenix, bringing its restaurant count to 24. The Glendale Avenue restaurant opened October 20 with a drive‑thru, walk‑up ordering, and an indoor dining room.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/angies-opens-on-glendale-avenue-even-more-locations-planned/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Swig",
+      "location": "2290 Gulf To Bay Blvd, Clearwater, FL 33765",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new location in the works",
+      "short_description": "Swig is preparing a new location at 2290 Gulf To Bay Blvd in Clearwater, where it will take over a former Wendy’s. The article notes the brand is “in the works” for this site.",
+      "article_link": "https://whatnow.com/tampa/restaurants/swig-taking-over-old-wendys-space-in-clearwater/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Beacon Falls Cafe",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 3, 2026",
+      "status": "closed its doors permanently",
+      "short_description": "Beacon Falls Cafe closed its doors permanently in New York on October 3, ending its 18‑year run. The owners announced the closure to retire.",
+      "article_link": "https://whatnow.com/new-york/restaurants/5-longtime-new-york-dining-spots-shut-down-in-october-2026/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Jake’s Dilemma",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 18, 2026",
+      "status": "closed its doors",
+      "short_description": "Jake’s Dilemma closed its doors on the Upper West Side on October 18 after losing its lease, ending a 32‑year chapter. The sports bar thanked the community in its farewell post.",
+      "article_link": "https://whatnow.com/new-york/restaurants/5-longtime-new-york-dining-spots-shut-down-in-october-2026/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Mémé",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 24, 2026",
+      "status": "closed its doors",
+      "short_description": "Mémé closed its doors on Hudson Street on October 24 after 16 years, though its 10th Avenue location remains open. The restaurant posted a farewell announcement on Instagram.",
+      "article_link": "https://whatnow.com/new-york/restaurants/5-longtime-new-york-dining-spots-shut-down-in-october-2026/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Yoko‑Cho",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 25, 2026",
+      "status": "closed its doors permanently",
+      "short_description": "Yoko‑Cho closed its doors permanently in New York’s East Village on October 25. The Japanese izakaya and seafood restaurant did not share a reason for the decision.",
+      "article_link": "https://whatnow.com/new-york/restaurants/5-longtime-new-york-dining-spots-shut-down-in-october-2026/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Ice & Cream Creamery",
+      "location": "648 Central Ave, St. Petersburg, FL 33701",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "working toward an opening in mid‑November",
+      "short_description": "Ice & Cream Creamery plans to open a new scoop shop at 648 Central Ave in St. Petersburg. No opening date has been established yet, but the shop is “working toward an opening in mid‑November.”",
+      "article_link": "https://whatnow.com/tampa/restaurants/ice-cream-creamery-heads-to-st-pete/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Island Taste Budz",
+      "location": "116 S Tennessee Ave, Lakeland, FL 33801",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Island Taste Budz is planned for 116 S Tennessee Ave in Lakeland, offering Caribbean cuisine. The project is “in the works,” and details will be released closer to the opening date.",
+      "article_link": "https://whatnow.com/tampa/restaurants/new-restaurant-island-taste-budz-planned-for-lakeland/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Bonnie Bagels & Co.",
+      "location": "280 S Main St, Sebastopol, CA 95472",
+      "event_type": "Opening",
+      "event_date": "October 24, 2026",
+      "status": "grand opening on October 24",
+      "short_description": "Bonnie Bagels & Co., a neighborhood café and bagel shop, held its grand opening at 280 South Main Street in Sebastopol on Saturday, October 24. The shop offers hand‑rolled, cold‑fermented East Coast bagels, gluten‑free options, and a full espresso bar, and is open Wednesdays‑Sundays from 7 AM to 1 PM.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/bonnie-bagels-co-opens-in-sebastopol/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Paris Baguette",
+      "location": "8831 Six Forks Rd, Raleigh, NC 27615, USA",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "targeting summer 2027 for the bakery’s opening",
+      "short_description": "Paris Baguette will take over the former Zest Café space at 8831 Six Forks Road in Raleigh’s Six Forks Station, signing a lease for a 4,500‑sq‑ft area. The franchisee aims to open the bakery in summer 2027, creating 20‑30 jobs for the community.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/paris-baguette-finds-a-new-home-at-raleighs-six-forks-station/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Joe’s Oyster Bar and Grill (Rosenberg location)",
+      "location": "535 Minonite Rd #120, Rosenberg, TX 77469",
+      "event_type": "Closing",
+      "event_date": "November 20, 2026",
+      "status": "shut down permanently",
+      "short_description": "Joe’s Oyster Bar and Grill announced the Rosenberg location will close permanently on November 20, 2026. The decision follows a lease non‑renewal, while the original Port Isabel location remains open.",
+      "article_link": "https://whatnow.com/houston/restaurants/a-rosenberg-seafood-restaurant-known-for-its-gulf-coast-roots-announces-closure/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Cafe Barada",
+      "location": "2269 Massachusetts Ave, Cambridge, MA 02140",
+      "event_type": "Closing",
+      "event_date": "December 5, 2026",
+      "status": "will be closing its doors in December",
+      "short_description": "After more than four decades, Cafe Barada in Cambridge announced it will close its doors on December 5, 2026. The family‑run Lebanese restaurant cited the need for a kitchen renovation and lack of a long‑term lease as reasons for the closure.",
+      "article_link": "https://whatnow.com/boston/restaurants/a-family-run-lebanese-kitchen-that-shaped-cambridge-is-closing/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Ivy’s",
+      "location": "500 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+      "event_type": "Opening",
+      "event_date": "first quarter 2027",
+      "status": "targeting an opening in the first quarter of 2027",
+      "short_description": "Ivy’s, a new waterfront restaurant by We Care Hospitality, is planned for 500 East Las Olas Boulevard in Fort Lauderdale, next to the historic Stranahan House. The concept focuses on coastal American cuisine and aims to open in the first quarter of 2027.",
+      "article_link": "https://whatnow.com/miami/restaurants/ivys-to-bring-a-new-waterfront-dining-concept-to-fort-lauderdales-las-olas-boulevard/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Nékter Juice Bar",
+      "location": "2400 Aviation Dr, DFW Airport, TX 75261",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An opening date for Nékter Juice Bar has not been announced.",
+      "short_description": "Nékter Juice Bar will join DFW Airport’s future Terminal F at Gate F27, adding a wellness‑focused juice and snack option. The concession is part of a broader lineup approved for the new terminal, but no opening date has been given.",
+      "article_link": "https://whatnow.com/dallas/restaurants/nekter-juice-bar-is-coming-to-dfw-airports-future-terminal-f/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Touken Sushi",
+      "location": "3402 Technological Ave, Suite 130, Orlando, FL 32817",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening soon",
+      "short_description": "Touken Sushi is planning a new restaurant near the University of Central Florida at 3402 Technological Avenue, Suite 130. Permit information confirms the location, and the company’s website lists the UCF spot as “opening soon,” though no specific date is provided.",
+      "article_link": "https://whatnow.com/orlando/restaurants/touken-sushi-is-bringing-japanese-cuisine-with-a-brazilian-twist-to-ucf/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Leucadia Pizzeria",
+      "location": "12467 Rancho Bernardo Rd, San Diego, CA 92128, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "exploring a potential expansion",
+      "short_description": "Leucadia Pizzeria is evaluating a possible new site at 12467 Rancho Bernardo Road as part of an expansion plan. Owner Charles Conover says the project is still preliminary, with any opening at least three months away if it proceeds, but no firm timeline has been set.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/leucadia-pizzeria-considers-possible-expansion-into-rancho-bernardo/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Elegance Cocktail Bar",
+      "location": "154 S Madison St, Spokane, WA 99201",
+      "event_type": "Opening",
+      "event_date": "December 5",
+      "status": "grand opening scheduled for December 5",
+      "short_description": "Elegance Cocktail Bar plans to open its downtown Spokane location at 154 S Madison Street, with a grand opening slated for December 5. The bar will serve cocktails, craft beer, and food, featuring live music and DJs, and has applied for a liquor license.",
+      "article_link": "https://whatnow.com/seattle/restaurants/elegance-cocktail-bar-sets-december-grand-opening-in-spokane/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Boom Boom Restaurant",
+      "location": "301 E Wallace Kneeland Blvd, Shelton, WA 98584",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not shared an opening date",
+      "short_description": "Boom Boom Restaurant is set to open at 301 E Wallace Kneeland Boulevard in Shelton, offering breakfast, lunch, and dinner. A liquor license application has been filed, and the business announced the opening on social media but did not disclose a specific date.",
+      "article_link": "https://whatnow.com/seattle/restaurants/boom-boom-restaurant-bringing-breakfast-lunch-and-dinner-to-shelton/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "The Groove Bar & Grill",
+      "location": "31216 Pacific Hwy S, Suite A, Federal Way, WA 98003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "now operating as",
+      "short_description": "Stars Bar & Grill in Federal Way changed hands after Teena Nelson’s retirement and is now operating as The Groove Bar & Grill at 31216 Pacific Highway S., Suite A. The new owners have begun promoting events such as an October 31 Halloween party and a November 4 darts tournament.",
+      "article_link": "https://whatnow.com/seattle/restaurants/stars-bar-grill-becomes-the-groove-under-new-ownership/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Stars Bar & Grill",
+      "location": "31216 Pacific Hwy S, Suite A, Federal Way, WA 98003",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "has changed hands",
+      "short_description": "Stars Bar & Grill, which served the Federal Way neighborhood for 36 years, was handed over to new owners on October 1 and ceased operating under its original name, marking the end of the long‑standing establishment.",
+      "article_link": "https://whatnow.com/seattle/restaurants/stars-bar-grill-becomes-the-groove-under-new-ownership/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Wayfarer Bread & Pastry",
+      "location": "5525 La Jolla Blvd, Bird Rock",
+      "event_type": "Opening",
+      "event_date": "by the end of 2027",
+      "status": "preparing to expand",
+      "short_description": "Wayfarer Bread & Pastry announced a partnership with Rise Collective to expand beyond its Bird Rock location, targeting coastal San Diego communities with a first North County site planned for by the end of 2027. The original bakery will continue operating while new standalone shops are developed.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/wayfarer-bread-pastry-teams-up-with-local-partners-to-begin-expansion/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Jersey Mike’s Subs",
+      "location": "Lincoln Boulevard & Ferrari Ranch Road, Lincoln, CA 95648",
+      "event_type": "Opening",
+      "event_date": "late 2027",
+      "status": "in development",
+      "short_description": "Jersey Mike’s Subs is set to open a new restaurant at the northeast corner of Ferrari Ranch Road and Lincoln Boulevard in the upcoming Ferrari Pavilion shopping center, slated to open in late 2027. The site is part of a 70,000‑square‑foot development expected to be completed by November 2026.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/jersey-mikes-subs-coming-to-lincoln/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "6051 E. Main St., near Reynoldsburg",
+      "event_type": "Opening",
+      "event_date": "late November 2026",
+      "status": "scheduled to open",
+      "short_description": "Dunkin’ is adding a new store at 6051 E. Main St. near Reynoldsburg. The location is scheduled to open in late November 2026 as part of the chain’s Columbus expansion.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "710 Polaris Parkway",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "expected to open",
+      "short_description": "A Dunkin’ outlet at 710 Polaris Parkway is slated for opening. It is expected to open in December.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "1617 Holt Road, Columbus, OH 43228, USA",
+      "event_type": "Opening",
+      "event_date": "February or March 2027",
+      "status": "expected to open",
+      "short_description": "Dunkin’ will open a new store at 1617 Holt Road in Columbus, housed in a former White Castle building. It is expected to open in February or March 2027.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "Canal Winchester, along Winchester Pike near Gender Road",
+      "event_type": "Opening",
+      "event_date": "May 2027",
+      "status": "planned for",
+      "short_description": "A Dunkin’ location in Canal Winchester on Winchester Pike near Gender Road is planned for May 2027.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "Delaware, Ohio",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a Dunkin’ location",
+      "short_description": "Another franchisee is planning a Dunkin’ location in Delaware, Ohio, though details on address and opening date were not provided.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Dunkin’",
+      "location": "Pataskala",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "listed as coming soon",
+      "short_description": "A Dunkin’ site in Pataskala is listed as coming soon on the company’s website, with no further details disclosed.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dunkin-plans-at-least-nine-new-locations-across-columbus/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Fleming’s Prime Steakhouse & Wine Bar",
+      "location": "1331 Spring St NW, Atlanta, GA 30309",
+      "event_type": "Opening",
+      "event_date": "October 2026",
+      "status": "Set to open in October 2026",
+      "short_description": "Fleming’s Prime Steakhouse & Wine Bar opened its newest restaurant in Midtown Atlanta at 1331 Spring St NW. The 8,233‑square‑foot venue offers a daily prix‑fixe menu, bar, private dining and a Chef’s Table. It is set to open in October 2026.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/flemings-prime-steakhouse-wine-bar-opens-new-midtown-atlanta-location/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Wabi on Rose",
+      "location": "512 Rose Avenue, Suite F, Venice, Los Angeles",
+      "event_type": "Closing",
+      "event_date": "October 14, 2026",
+      "status": "permanently closed",
+      "short_description": "Wabi on Rose permanently closed its doors in Venice, Los Angeles, after six years at 512 Rose Avenue, Suite F. The Japanese‑inspired restaurant and cocktail bar announced the closure on October 14, 2026.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Messhall Kitchen",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 17, 2026",
+      "status": "closed",
+      "short_description": "Messhall Kitchen closed its Los Feliz location on October 17, 2026, ending a 14‑year run in the community. The restaurant posted a farewell message thanking guests and staff.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "The Sycamore Kitchen",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 25, 2026",
+      "status": "permanently closed",
+      "short_description": "The Sycamore Kitchen permanently closed on October 25, 2026, after a 15‑year run in Los Angeles. The bakery‑cafe announced the closure while hinting at a new concept.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Tar & Roses",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "October 24, 2026",
+      "status": "closed",
+      "short_description": "Tar & Roses closed its Santa Monica location on October 24, 2026, concluding a 15‑year presence in the area. The restaurant’s farewell post invited guests to visit during the final two weeks.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/6-los-angeles-restaurants-that-closed-their-doors-permanently-in-october-2026/",
+      "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "Penny Black",
+      "location": "2 Brook St, Asheville, NC 28803, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Penny Black, a cocktail bar associated with Chemist Spirits, is preparing to open at 2 Brook St. in Asheville’s Biltmore Village. The bar will occupy the historic post office building and draw inspiration from the Prohibition‑era speakeasy style of Antidote Bar. An exact opening date has not yet been confirmed.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/penny-black-bringing-a-speakeasy-style-bar-to-asheville/",
+      "published_date": "October 29, 2026"
     }
   ],
   "non_working": [
