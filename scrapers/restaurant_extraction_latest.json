@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -17070,6 +17070,126 @@
       "short_description": "Penny Black, a cocktail bar associated with Chemist Spirits, is preparing to open at 2 Brook St. in Asheville’s Biltmore Village. The bar will occupy the historic post office building and draw inspiration from the Prohibition‑era speakeasy style of Antidote Bar. An exact opening date has not yet been confirmed.",
       "article_link": "https://whatnow.com/charlotte/restaurants/penny-black-bringing-a-speakeasy-style-bar-to-asheville/",
       "published_date": "October 29, 2026"
+    },
+    {
+      "store_name": "LowBrow Pizza & Beer",
+      "location": "13000 Bonita Beach Rd SE, Bonita Springs, FL 34135",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "opening is expected in December",
+      "short_description": "LowBrow Pizza & Beer, currently at 3148 Tamiami Trail E. in Naples, is preparing a second location at Midtown at Bonita, 13000 Bonita Beach Rd SE. The new 5,000‑sq‑ft venue will feature an indoor‑outdoor bar, patio, glass façade and a 10‑foot rock hand sculpture. An opening is expected in December.",
+      "article_link": "https://whatnow.com/tampa/restaurants/lowbrow-pizza-beer-expanding-to-bonita-springs/",
+      "published_date": "October 31, 2026"
+    },
+    {
+      "store_name": "Kaia Bowls",
+      "location": "111 107th Ave A, Treasure Island, FL 33706",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Kaia Bowls, a healthy bowl chain, plans to add a new restaurant on Treasure Island at 111 107th Ave A. The location will offer poke bowls, acai bowls and smoothies. The article notes the upcoming opening but does not give a specific date.",
+      "article_link": "https://whatnow.com/tampa/restaurants/kaia-bowls-heads-to-treasure-island/",
+      "published_date": "October 31, 2026"
+    },
+    {
+      "store_name": "Bauducco Foods",
+      "location": "5658 Gall Blvd, Zephyrhills, FL 33542",
+      "event_type": "Opening",
+      "event_date": "July 2027",
+      "status": "opening its first U.S. restaurant location in July 2027",
+      "short_description": "Bauducco Foods will convert the former Wendy’s at 5658 Gall Blvd in Zephyrhills into a drive‑thru bakery and its first U.S. restaurant location. The company announced the new site will open in July 2027. The article references the transformation of the building and the brand’s expansion.",
+      "article_link": "https://whatnow.com/tampa/restaurants/bauducco-foods-opening-drive-thru-bakery-in-zephyrhills/",
+      "published_date": "October 31, 2026"
+    },
+    {
+      "store_name": "Ziki Sushi & Grill",
+      "location": "5025 Moccasin Wallow Rd, Palmetto, FL 34221",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Z",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Joe and The Juice",
+      "location": "920 Town and Country Boulevard #102, Houston, TX 77024",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipated to open in City Center at 920 Town and Country Boulevard #102 by next spring",
+      "short_description": "Joe & The Juice is working on opening its next Houston storefront in City Center. A permit shows construction is slated to start in late January and finish before the end of May 2027, with the store expected to open by next spring.",
+      "article_link": "https://whatnow.com/houston/restaurants/joe-and-the-juice-to-open-another-houston-shop/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "CHAGEE",
+      "location": "1600 Saratoga Ave, San Jose, CA 95129",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to take place throughout 2027",
+      "short_description": "CHAGEE is preparing to open a Modern Teahouse at Westgate Center in San Jose as part of a Bay Area expansion. The 1,543‑square‑foot location is planned for 1600 Saratoga Avenue, with the broader rollout of six Bay Area stores projected for 2027.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/chagee-to-open-at-san-joses-westgate-center-as-bay-area-expansion-continues/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Niveaux Pâtisserie",
+      "location": "75 State St, Boston, MA 02109",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "preparing to open",
+      "short_description": "Niveaux Pâtisserie is preparing to open its second location at 75 State Street in Boston’s Financial District. The team is targeting an early 2027 opening and will expand its menu to include an expanded breakfast and lunch offering. Details about the new space remain under wraps as the project is described as an “exciting evolution of the Niveaux experience.”",
+      "article_link": "https://whatnow.com/boston/restaurants/niveaux-patisserie-bringing-french-inspired-pastries-to-bostons-financial-district/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "1151 Galleria Blvd, Roseville, CA 95678, United States",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "opening expected in summer 2027",
+      "short_description": "Joe & The Juice plans to open a café on the second level of the Nordstrom wing at Westfield Galleria at Roseville. The Roseville location will be the chain’s second Sacramento‑area store and is described as a flagship location as the mall undergoes a major refresh. The opening is expected in summer 2027.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/joe-the-juice-coming-to-westfield-galleria-in-roseville/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Pizzanista!",
+      "location": "1029 N 1st St, Phoenix, AZ 85004",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Pizzanista! is a fast‑casual pizza concept planned for 102 1st St in downtown Phoenix. It is part of Vivili Hospitality Group’s three‑concept expansion and no opening date has been confirmed.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/pizzanista-and-bar-saint-bruno-still-planned-for-downtown-phoenix/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Bar Saint Bruno",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "Bar Saint Bruno is an intimate cocktail bar planned to sit directly behind the Pizzanista! location in downtown Phoenix. The article provides no specific address or opening date.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/pizzanista-and-bar-saint-bruno-still-planned-for-downtown-phoenix/",
+      "published_date": "October  30, 2026"
+    },
+    {
+      "store_name": "Hero",
+      "location": "1030 N First Street",
+      "event_type": "Opening",
+      "event_date": "October 30, 2026",
+      "status": "scheduled to open",
+      "short_description": "Hero, a handmade‑pasta and seafood restaurant, is scheduled to debut on October 30, 2026 at 1030 N First St in downtown Phoenix. It is the third concept in Vivili Hospitality Group’s expansion.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/pizzanista-and-bar-saint-bruno-still-planned-for-downtown-phoenix/",
+      "published_date": "October 30, 2026"
+    },
+    {
+      "store_name": "Aries",
+      "location": "7955 La Jolla Shores Dr, 11th Floor, La Jolla, CA 92037",
+      "event_type": "Opening",
+      "event_date": "November 11",
+      "status": "set to open",
+      "short_description": "Aries is a new rooftop restaurant and lounge that will replace Sea & Sky at Hotel La Jolla. It is set to open on November 11.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/aries-to-replace-sea-sky-at-hotel-la-jolla/",
+      "published_date": "October 30, 2022026"
     }
   ],
   "non_working": [
