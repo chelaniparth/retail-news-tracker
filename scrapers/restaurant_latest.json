@@ -1,7 +1,151 @@
 {
-  "last_updated": "2026-11-03 02:55 UTC",
+  "last_updated": "2026-11-04 01:20 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/dukunoo-jamaican-kitchen-getting-ready-to-expand/",
+      "title": "Dukunoo Jamaican Kitchen Getting Ready to Expand",
+      "address": "12603 W Sunrise Blvd, Sunrise, FL 33323"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/miami/restaurants/vanilla-espresso-french-cafe-working-on-third-site/",
+      "title": "Vanilla Espresso French Cafe Working on Third Site",
+      "address": "7450 W 4th Ave #101, Hialeah, FL 33014"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/the-halal-shack-continuing-expansion-with-new-ann-arbor-location/",
+      "title": "The Halal Shack Continuing Expansion with New Ann Arbor Location",
+      "address": "530 S State St, Ann Arbor, MI 48109"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/jacksonville-golf-country-club-undertaking-30-million-renovation/",
+      "title": "Jacksonville Golf & Country Club Undertaking $30 Million Renovation",
+      "address": "3985 Hunt Club Rd N, Jacksonville, FL 32224"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/chagee-bringing-its-tea-shop-to-westfield-galleria-in-roseville/",
+      "title": "CHAGEE Bringing Its Tea Shop to Westfield Galleria in Roseville",
+      "address": "1151 Galleria Blvd, Roseville, CA 95678"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/sacramento/restaurants/bohl-plans-second-location-in-rosevilles-highland-reserve-marketplace/",
+      "title": "Bohl Plans Second Location in Roseville’s Highland Reserve Marketplace",
+      "address": "10357 Fairway Dr, Roseville, CA 95678"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/detroit/restaurants/imlay-citys-botanas-el-paiza-debuting-new-concept-in-washington-township/",
+      "title": "Imlay City’s Botanas El Paiza Debuting New Concept in Washington Township",
+      "address": "64055 Van Dyke Ave, Washington, MI 48095"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/juicy-burger-bar-bringing-halal-smash-burgers-to-west-philadelphia/",
+      "title": "Juicy Burger Bar Bringing Halal Smash Burgers to West Philadelphia",
+      "address": "5616 Lancaster Ave Unit 800, Philadelphia, PA 19131"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/kouklet-brazilian-bakery-moves-to-bigger-east-passyunk-space/",
+      "title": "Kouklet Brazilian Bakery Moves to Bigger East Passyunk Space",
+      "address": "1615 Passyunk Ave., Philadelphia, PA 19148"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/chicago/restaurants/new-rookies-pub-under-construction-near-woodfield-mall-in-schaumburg/",
+      "title": "New Rookies Pub Under Construction Near Woodfield Mall in Schaumburg",
+      "address": "1416 N Roselle Rd, Schaumburg, IL 60195"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/cake-joe-team-brings-japanese-byob-restaurant-to-fishtown/",
+      "title": "Cake & Joe Team Brings Japanese BYOB Restaurant to Fishtown",
+      "address": "2026 Frankford Ave., Philadelphia, PA 19125"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/austin/restaurants/zeds-real-fruit-ice-cream-plans-another-austin-shop-on-far-west-boulevard/",
+      "title": "Zeds Real Fruit Ice Cream Plans Another Austin Shop on Far West Boulevard",
+      "address": "3637 Far W Blvd, Austin, TX 78731"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/burger-king-planning-new-food-court-location-at-grapevine-mills/",
+      "title": "Burger King Planning New Food Court Location at Grapevine Mills",
+      "address": "3000 Grapevine Mills Pkwy, Grapevine, TX 76051"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/news/restaurants/a-celebrity-owned-burger-chain-is-expanding-to-new-us-markets-with-multiple-openings/",
+      "title": "A Celebrity-Owned Burger Chain Is Expanding to New US Markets with Multiple Openings",
+      "address": ""
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/atlanta/restaurants/decatur-craft-brewery-to-close-its-flagship-location-after-13-years/",
+      "title": "Decatur Craft Brewery to Close Its Flagship Location After 13 Years",
+      "address": "121 New St, Decatur, GA 30030"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/rival-bros-coffee-brews-up-sixth-shop-on-the-main-line-for-spring-2027/",
+      "title": "Rival Bros Coffee Brews Up Sixth Shop on the Main Line for Spring 2027",
+      "address": "503 W Lancaster Ave., #210, Wayne, PA 19087"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/ny-born-16-handles-bringing-its-frozen-yogurt-to-sarasota-in-q1-2027/",
+      "title": "NY-Born 16 Handles Bringing Its Frozen Yogurt to Sarasota in Q1 2027",
+      "address": "6123 S Tamiami Trl, Sarasota, FL 34231"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/surge-nightclub-planned-for-st-petersburg/",
+      "title": "Surge Nightclub Planned for St. Petersburg",
+      "address": "350 1st Ave N, St. Petersburg, FL 33701"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/after-27-years-a-jersey-city-vietnamese-restaurant-is-closing/",
+      "title": "After 27 Years, a Jersey City Vietnamese Restaurant Is Closing",
+      "address": "188 Newark Ave, Jersey City, NJ 07302"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/four-smokes-bbq-headed-to-lakeland-street-market/",
+      "title": "Four Smokes BBQ Headed to Lakeland Street Market",
+      "address": "995 E Memorial Blvd 110 7, Lakeland, FL 33801"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/seattles-iconic-korean-fusion-restaurant-announces-permanent-closure-after-16-years/",
+      "title": "Seattle’s Iconic Korean-fusion Restaurant Announces Permanent Closure After 16 Years",
+      "address": "401 N 36th St, Seattle, WA 98103"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/jeffs-bagel-run-brings-hot-scratch-made-bagels-to-poinciana/",
+      "title": "Jeff’s Bagel Run Brings Hot, Scratch-Made Bagels To Poinciana | What Now Orlando",
+      "address": "867 Cypress Pkwy, Kissimmee, FL 34759"
+    },
+    {
+      "date": "November 03, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/pizza-bruno-passes-the-torch-to-pacchionis-in-college-park/",
+      "title": "Pizza Bruno Passes The Torch To Pacchioni’s In College Park | What Now Orlando",
+      "address": "2429 Edgewater Dr, Orlando, FL 32804"
+    },
+    {
+      "date": "November 02, 2026",
+      "url": "https://whatnow.com/portland/restaurants/pamana-brings-filipino-cuisine-and-a-family-legacy-to-portland/",
+      "title": "Pamana Brings Filipino Cuisine and a Family Legacy to Portland",
+      "address": "5 NW 4th Ave, Portland, OR 97209"
+    },
     {
       "date": "November 02, 2026",
       "url": "https://whatnow.com/los-angeles/restaurants/harbor-city-could-be-home-to-new-tokyo-sushi-restaurant/",
@@ -361,150 +505,6 @@
       "url": "https://whatnow.com/sacramento/restaurants/joe-the-juice-coming-to-westfield-galleria-in-roseville/",
       "title": "Joe & The Juice Coming to Westfield Galleria in Roseville",
       "address": "1151 Galleria Blvd, Roseville, CA 95678, United States"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/pizzanista-and-bar-saint-bruno-still-planned-for-downtown-phoenix/",
-      "title": "Pizzanista! and Bar Saint Bruno Still Planned for Downtown Phoenix",
-      "address": "1029 N 1st St, Phoenix, AZ 85004"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/aries-to-replace-sea-sky-at-hotel-la-jolla/",
-      "title": "Aries to Replace Sea & Sky at Hotel La Jolla",
-      "address": "7955 La Jolla Shores Dr, 11th Floor, La Jolla, CA 92037"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/teriyaki-madness-franchisee-building-new-location-in-mckinney/",
-      "title": "Teriyaki Madness Franchisee Building New Location in McKinney",
-      "address": "4191 S Lake Forest Dr #400, McKinney, TX 75070"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/palmer-house-bakery-opening-a-storefront-of-its-own/",
-      "title": "Palmer House Bakery Opening a Storefront of its Own",
-      "address": "1730 S Germantown Rd, Germantown, TN 38138"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/detroit/restaurants/kitab-cafe-team-seeking-new-location-near-fox-theater-downtown/",
-      "title": "Kitab Cafe Team Seeking New Location Near Fox Theater Downtown",
-      "address": "1260 Library St, Detroit, MI 48226"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/penn-station-opens-in-summerville-with-plans-for-further-expansion/",
-      "title": "Penn Station Opens in Summerville, with Plans for Further Expansion",
-      "address": "460 Old Trolley Rd, Summerville, SC 29485"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/cuban-corner-expanding-to-lexington/",
-      "title": "Cuban Corner Expanding to Lexington",
-      "address": "109 Old Chapin Rd, Lexington, SC 29072"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/open-road-headed-to-chevy-chase/",
-      "title": "Open Road Headed to Chevy Chase",
-      "address": "5471 Wisconsin Ave, Chevy Chase, MD 20815"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/metropolitan-hospitality-group-bringing-cove-to-the-collection/",
-      "title": "Metropolitan Hospitality Group Bringing Cove to The Collection",
-      "address": "5471 Wisconsin Ave, Chevy Chase, MD 20815"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/o-ku-sets-sights-on-chattanooga-with-new-downtown-restaurant/",
-      "title": "O-Ku Sets Sights on Chattanooga With New Downtown Restaurant",
-      "address": "1400 Broad St, Chattanooga, TN 37402, USA"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/the-rusted-rail-opening-this-fall-in-lake-city/",
-      "title": "The Rusted Rail Opening This Fall in Lake City",
-      "address": "104 E Thomas St, Lake City, SC 29560"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/the-melting-pot-returns-to-downtown-nashville-with-new-location/",
-      "title": "The Melting Pot Returns to Downtown Nashville With New Location",
-      "address": "315 Deaderick St, Nashville, TN 37238, USA"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/angies-opens-on-glendale-avenue-even-more-locations-planned/",
-      "title": "Angie's Opens on Glendale Avenue; Even More Locations Planned",
-      "address": ""
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/swig-taking-over-old-wendys-space-in-clearwater/",
-      "title": "Swig Taking Over Old Wendy’s Space in Clearwater",
-      "address": "2290 Gulf To Bay Blvd, Clearwater, FL 33765"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/new-york/restaurants/5-longtime-new-york-dining-spots-shut-down-in-october-2026/",
-      "title": "5 Longtime New York Dining Spots Shut Down in October 2026",
-      "address": ""
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/ice-cream-creamery-heads-to-st-pete/",
-      "title": "Ice & Cream Creamery Heads to St. Pete",
-      "address": "648 Central Ave, St. Petersburg, FL 33701"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/new-restaurant-island-taste-budz-planned-for-lakeland/",
-      "title": "New Restaurant Island Taste Budz Planned for Lakeland",
-      "address": "116 S Tennessee Ave, Lakeland, FL 33801"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/bonnie-bagels-co-opens-in-sebastopol/",
-      "title": "Bonnie Bagels & Co. Opens in Sebastopol | What Now San Francisco",
-      "address": "280 S Main St, Sebastopol, CA 95472"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/paris-baguette-finds-a-new-home-at-raleighs-six-forks-station/",
-      "title": "Paris Baguette Finds a New Home at Raleigh's Six Forks Station",
-      "address": "8831 Six Forks Rd, Raleigh, NC 27615, USA"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/houston/restaurants/a-rosenberg-seafood-restaurant-known-for-its-gulf-coast-roots-announces-closure/",
-      "title": "A Rosenberg Seafood Restaurant Known for Its Gulf Coast Roots Announces Closure",
-      "address": "535 Minonite Rd #120, Rosenberg, TX 77469"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/boston/restaurants/a-family-run-lebanese-kitchen-that-shaped-cambridge-is-closing/",
-      "title": "A Family-Run Lebanese Kitchen That Shaped Cambridge Is Closing",
-      "address": "2269 Massachusetts Ave, Cambridge, MA 02140"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/miami/restaurants/ivys-to-bring-a-new-waterfront-dining-concept-to-fort-lauderdales-las-olas-boulevard/",
-      "title": "Ivy’s to Bring a New Waterfront Dining Concept to Fort Lauderdale’s Las Olas Boulevard",
-      "address": "500 E Las Olas Blvd, Fort Lauderdale, FL 33301"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/dallas/restaurants/nekter-juice-bar-is-coming-to-dfw-airports-future-terminal-f/",
-      "title": "Nékter Juice Bar Is Coming to DFW Airport’s Future Terminal F",
-      "address": "2400 Aviation Dr, DFW Airport, TX 75261"
-    },
-    {
-      "date": "October 30, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/touken-sushi-is-bringing-japanese-cuisine-with-a-brazilian-twist-to-ucf/",
-      "title": "Touken Sushi Is Bringing Japanese Cuisine With a Brazilian Twist to UCF",
-      "address": "3402 Technological Ave, Orlando, FL 32817"
     }
   ]
 }
