@@ -1,7 +1,4 @@
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Zaika Indian Cuisine | 2860 SW Port St Lucie Blvd, Port St. Lucie, FL 34953 | Opening | Not specified | preparing to open | Zaika Indian Cuisine is preparing to open a new full‑service, fine‑dining Indian restaurant in Port St. Lucie. Interior construction and permitting are ongoing, with the team targeting late November through December for the opening. It will be the chain’s fourth location in South Florida. | https://www.businessdebut.com/zaika-indian-cuisine-opening-in-port-st-lucie/ | 2026-11-03 |
-| Surge St. Pete | 350 1st Ave N, St. Petersburg, FL 33701 | Opening | November 6, 2026 | soft opening planned | Surge St. Pete is a new 1980s‑themed music venue and bar taking over the former Siren space. A soft opening is planned for Friday, November 6, with a grand opening slated for December 5. The venue will feature live bands, themed events, and a full kitchen that is still in the build‑out phase. | https://www.businessdebut.com/surge-replacing-siren-in-downtown-st-pete-bringing-80s-music-venue/ | 2026-11-03 |
-
-Non-working or unusable articles List:
-• None
+| Nara Thai Sushi | 424 Luna Bella Ln Unit F And G, New Smyrna Beach, FL 32168 | Opening | Not specified | preparing to open | Nara Thai Sushi is preparing to open at the given address around Thanksgiving, aiming to anchor the Venetian Bay community. Owner Craig Finney confirmed the details. | https://www.businessdebut.com/22-new-and-independent-restaurants-opening-across-florida-november-2026/ | 2026-11-03 |
+|
