@@ -1,16 +1,14 @@
-**Extracted Information**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/wallingford-scoop-staples-plaza-sells-for-72-million | 2026-11-05 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/west-haven-scoop-brunos-wood-fired-pizza-opens-in-west-haven | 2026-11-05 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-fairfield-county-posts/danbury-scoop-shoprite-opens-new-store-in-danbury | 2026-11-05 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-fairfield-county-posts/fairfield-scoop-paris-baguette-opening-on-1105 | 2026-11-05 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-middlesex-county-posts/old-saybrook-scoop-more-details-announced-for-wonderpop-in-old-saybrook | 2026-11-06 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-middlesex-county-posts/cromwell-scoop-fils-deli-closes-after-30-years-of-business | 2026-11-06 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-mass-posts/fitchburg-brockton-scoop-ross-dress-for-less-coming-soon | 2026-11-06 |
 
 ---
 
-**Non-working or unusable articles List:**
-- Article 1 — Reason: no business details
-- Article 2 — Reason: no business details
-- Article 3 — Reason: no business details
-- Article 4 — Reason: no business details
+Non-working or unusable articles List:
+• Article 1 — no business details  
+• Article 2 — no business details  
+• Article 3 — no business details
