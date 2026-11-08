@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07",
+  "last_updated": "2026-11-08",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -19349,6 +19349,296 @@
       "status": "shut down permanently",
       "short_description": "Shorty’s BBQ announced the permanent closure of its original South Miami location at 9200 S Dixie Hwy. After 75 years, the restaurant will serve its last meal on Sunday, December 27, 2026. The West Miami and Davie locations will remain open.",
       "article_link": "https://whatnow.com/miami/restaurants/a-75-year-old-south-florida-bbq-restaurant-is-closing-its-original-location/",
+      "published_date": "November 05, 2026"
+    },
+    {
+      "store_name": "Affair With Masala Indian Cuisine",
+      "location": "2895 N Green Valley Pkwy, Suite F, Henderson, NV 89014",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipated to open",
+      "short_description": "Affair With Masala Indian Cuisine is a new Indian restaurant planned for Sunset Ridge Plaza in Henderson, Nevada. The permit shows it will be located at 2895 N Green Valley Pkwy, Suite F. The opening is anticipated sometime next year, but no specific date is given.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/affair-with-masala-indian-cuisine-to-debut-in-henderson/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Uchibā",
+      "location": "3080 Buffalo Speedway, Houston, TX 77098",
+      "event_type": "Opening",
+      "event_date": "September 2027",
+      "status": "anticipated to open by September 2027",
+      "short_description": "Uchibā, a Japanese whiskey‑and‑cocktail focused izakaya by Hai Hospitality, will open its first Houston location in the River Oaks neighborhood. The permit lists 3080 Buffalo Speedway as the site. The restaurant is anticipated to open by September 2027.",
+      "article_link": "https://whatnow.com/houston/restaurants/uchiba-a-hai-hospitality-concept-to-debut-in-houston/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Oak Steakhouse",
+      "location": "225 E President St, Savannah, GA 31401",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming",
+      "short_description": "Oak Steakhouse, the steakhouse brand of Indigo Road Hospitality, will be the restaurant component of the new Sabal House hotel at 225 E President St in Savannah. The hotel is accepting reservations for December and will feature the steakhouse, though no opening date is provided.",
+      "article_link": "https://whatnow.com/charleston/restaurants/the-indigo-road-opening-oak-steakhouse-in-savannah/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Mr. Empanada (Town & Country)",
+      "location": "13026 Race Track Rd, Tampa, FL 33626",
+      "event_type": "Opening",
+      "event_date": "May 2027",
+      "status": "officially making the move to Westchase in May 2027",
+      "short_description": "Mr. Empanada Town & Country announced it will relocate to Westchase, Tampa, at 13026 Race Track Rd, next to Aldi. The move is scheduled for May 2027, creating a new location for the empanada franchise.",
+      "article_link": "https://whatnow.com/tampa/restaurants/mr-empanada-town-country-relocating-to-westchase/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Culver’s",
+      "location": "5670 Thoroughbred Dr, Lehigh Acres, FL 33971",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected opening before the end of the year",
+      "short_description": "Culver’s plans a new restaurant in Lehigh Acres at 5670 Thoroughbred Dr, with the developer saying it will open before the end of 2026. No exact opening date is given.",
+      "article_link": "https://whatnow.com/tampa/restaurants/culvers-opening-lehigh-acres-location-before-years-end/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Lit Nutrition",
+      "location": "7620 Gunn Hwy, Unit 120, Tampa, FL 33625",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening in the works",
+      "short_description": "Lit Nutrition announced plans to open a new location in Citrus Park, Tampa, with plan‑review documents showing the site at 7620 Gunn Hwy, Unit 120. A Facebook post in late October confirmed the “new home” and that the signs are up.",
+      "article_link": "https://whatnow.com/tampa/restaurants/lit-nutrition-plans-citrus-park-opening/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Chez Théo Taverne Grecque",
+      "location": "3000 Boulevard René‑Lévesque, Suite 100, Île‑des‑Sœurs, Montréal, QC (scraper address: 100 Boul. René‑Lévesque Ouest, Montréal, QC H2Z 1J5)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Chez Théo is set to open a Greek‑Mediterranean restaurant at 3000 Boulevard René‑Lévesque, Suite 100 in the Île‑des‑Sœurs area of Montreal. The concept includes a dining room, terrace, private room, and free on‑site parking.",
+      "article_link": "https://whatnow.com/montreal/restaurants/chez-theo-to-open-greek-restaurant-in-montreal/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Coleta Cocina",
+      "location": "2611 Adams Ave, San Diego, CA 92116, USA",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "plans to open",
+      "short_description": "Coleta Cocina announced it will open a new Mexican‑breakfast restaurant at 2611 Adams Avenue in early 2027, pending permits. Owners noted the project will feature a modern design, renovated children’s area, and a large patio for community events.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/coleta-cocina-targets-early-2027-opening-on-adams-avenue/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "HOJA Mi‑Sua",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "HOJA Mi‑Sua shared a “Coming Soon” Facebook post in October 2026 indicating a new Greater Toronto Area location is in the works, though no address or opening date was provided. The brand invites followers to guess the future site.",
+      "article_link": "https://whatnow.com/toronto/restaurants/hoja-mi-sua-preparing-to-open-new-toronto-location/",
+      "published_date": "November 07, 2026"
+    },
+    {
+      "store_name": "Jack Le Coq",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Jack Le Coq revealed construction is underway for another restaurant in Quebec, showing a “Bientôt ouvert” sign on its Facebook page on November 5, 2026. No city, street address, or opening timeline was disclosed.",
+      "article_link": "https://whatnow.com/toronto/restaurants/jack-le-coq-preparing-to-open-another-restaurant-in-quebec/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "4261 First St, Livermore, CA 94550",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "7 Brew Coffee is planning to open its first Livermore location in a shopping center anchored by Lowe’s, occupying about 934 sq ft with two drive‑thru lanes. The city’s Planning Commission approved the project in September, but no construction completion or opening schedule was given.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/7-brew-coffee-to-open-first-livermore-location/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Cotogna",
+      "location": "490 Pacific Ave, San Francisco, CA 94133",
+      "event_type": "Closing",
+      "event_date": "January 15, 2027",
+      "status": "temporarily close",
+      "short_description": "Cotogna will temporarily close on January 15, 2027 for a kitchen expansion and other renovations expected to last about three months. The closure is to double cooking space and replace the pizza oven.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/cotogna-to-reopen-after-kitchen-renovation/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Cotogna",
+      "location": "490 Pacific Ave, San Francisco, CA 94133",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "reopening",
+      "short_description": "After the three‑month renovation, Cotogna plans to reopen, though a specific reopening date has not yet been announced. The project will expand the kitchen and increase outdoor seating capacity.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/cotogna-to-reopen-after-kitchen-renovation/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "El Buen Comer",
+      "location": "1 Warriors Way, Suite 205, San Francisco, CA 94158",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "potentially as early as December 2026",
+      "short_description": "El Buen Comer is preparing to open a second San Francisco location in the former Taco Primo space at Chase Center’s Thrive City. Owners have signed a lease and anticipate opening as early as December 2026.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/el-buen-comer-to-open-at-chase-centers-thrive-city/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Puree Juice Bar",
+      "location": "7937 Tuckerman Ln, Suite b, Potomac, MD 20854",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "anticipates the shop being customer ready this December",
+      "short_description": "Puree Juice Bar will open a new store in the Cabin John Village shopping mall, with co‑owner confirming the location and expecting the shop to be ready for customers this December, before the end of 2026.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/cabin-john-village-prepares-for-a-juicy-new-arrival/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/folklores-coffee-house-under-new-ownership/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Original Joe’s",
+      "location": "635 Santa Cruz Ave, Menlo Park, CA 94025",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "considering opening",
+      "short_description": "Original Joe’s is looking at the former Left Bank Brasserie space at 635 Santa Cruz Ave in Menlo Park for a possible new restaurant. The group has not signed a lease and no opening schedule is set. The previous tenant closed in June 2026.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/original-joes-eyeing-former-restaurant-space-in-menlo-park/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Supreme Dumplings",
+      "location": "3725 Paseo Pl, San Diego, CA 92130",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned restaurant",
+      "short_description": "Supreme Dumplings announced plans to open a restaurant at One Paseo in Carmel Valley, San Diego, located at 3725 Paseo Place. The company confirmed the expansion but has not disclosed an opening timeline. The site was formerly occupied by Tocaya Organica.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/supreme-dumplings-expanding-to-san-diego-with-planned-one-paseo-location/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "The Baked Bear",
+      "location": "81 Jefferson St, San Francisco, CA 94133",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "The Baked Bear signed a 10‑year lease for a 928‑sq‑ft storefront at 81 Jefferson St on Fisherman’s Wharf and is preparing to open its third San Francisco location. No opening date has been announced. The new shop will join the brand’s existing SF operations.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/the-baked-bear-to-open-new-shop-at-fishermans-wharf/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Bushfire Kitchen",
+      "location": "27471 W San Bernardino Ave #220, Redlands, CA 92374",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Bushfire Kitchen filed an ABC license application to open a new restaurant at 27471 W San Bernardino Ave, Suite 220 in Redlands. The chain is planning the location but has not provided an opening date. The addition would expand its Inland Empire presence.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/bushfire-kitchen-planning-new-restaurant-in-redlands/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Porto’s Bakery & Cafe",
+      "location": "Ontario, CA 91764, USA",
+      "event_type": "Opening",
+      "event_date": "2028",
+      "status": "new bakery planned for 2028",
+      "short_description": "Porto’s Bakery & Cafe is set to open its first Inland Empire bakery in Ontario, slated for 2028 within an 8.6‑acre development at Archibald Avenue and Inland Empire Boulevard. Construction is expected to start in 2027. The new site will offer a larger indoor dining area.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/portos-bakery-expanding-to-inland-empire-with-first-ontario-location/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Snooze",
+      "location": "3325 E Imperial Hwy, Brea, CA 92823",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Snooze, an A.M. Eatery, filed an ABC license to open a new restaurant at 3325 E Imperial Hwy in Brea, California. The concept centers on daytime dining with a breakfast‑and‑brunch menu. The company has not publicly confirmed a timeline or opening date.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/snooze-to-open-new-restaurant-in-brea/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Juicy’s Famous Fair Food",
+      "location": "Gainesville (address not specified)",
+      "event_type": "Opening",
+      "event_date": "April 2027",
+      "status": "scheduled to open",
+      "short_description": "Juicy’s Famous Fair Food announced a new Gainesville location slated for April 2027. The exact address, hours, and menu have not been released. The brand currently operates in Bradenton and Tampa and is also planning openings in Dallas and Houston.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/juicys-famous-fair-food-bringing-carnival-favorites-to-gainesville-in-2027/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Gooie",
+      "location": "106 John St, Toronto, ON M5H 1X9, Canada",
+      "event_type": "Opening",
+      "event_date": "by the end of November 2026",
+      "status": "preparing to open",
+      "short_description": "Gooie, a bakery serving scoopable half‑baked cookie dough, plans to open at 106 John St in Toronto’s Entertainment District by the end of November 2026. The concept is described as the city’s first scoop bar and will also feature a coffee program. No exact opening day has been announced.",
+      "article_link": "https://whatnow.com/toronto/restaurants/gooie-to-open-torontos-first-scoop-bar-in-the-entertainment-district/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Bella’s Bagels & Bistro",
+      "location": "100 E Cheyenne Rd, Colorado Springs, CO 80906",
+      "event_type": "Opening",
+      "event_date": "early spring 2027",
+      "status": "under construction",
+      "short_description": "Bella’s Bagels & Bistro will expand to Creekwalk Shopping Center in Colorado Springs, offering a full‑service restaurant, bar and East Coast deli. The site at 100 E Cheyenne Rd is under construction with an opening targeted for early spring 2027. The venue will include a patio, amphitheater and views of Cheyenne Mountain.",
+      "article_link": "https://whatnow.com/denver/restaurants/bellas-bagels-bistro-brings-east-coast-deli-experience-to-colorado-springs/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Turnbuckle Distilling",
+      "location": "W Bowles Ave & C-470, Littleton, CO 80127",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "coming soon",
+      "short_description": "Turnbuckle Distilling is developing a five‑acre destination in Littleton that will include an expanded distillery, a restaurant, a multi‑level bar and tasting rooms. Construction is underway and the company is targeting an opening in 2027. The project will also feature a small farming operation and additional event spaces.",
+      "article_link": "https://whatnow.com/denver/restaurants/turnbuckle-distilling-building-five-acre-destination-in-littleton/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Floriana",
+      "location": "1602 17th St NW, Washington, DC 20009",
+      "event_type": "Closing",
+      "event_date": "December 31",
+      "status": "closing its doors",
+      "short_description": "Floriana, a family‑owned Italian restaurant in Dupont Circle, announced it will close after 47 years. The restaurant will serve its final dinner on December 31, 2026. The team mentioned a new restaurant will open soon in Old Town Alexandria, VA.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/beloved-dupont-circle-italian-staple-to-leave-its-washington-d-c-home-after-47-years/",
+      "published_date": "November 06, 2026"
+    },
+    {
+      "store_name": "Wild Eggs (first Columbus‑area location)",
+      "location": "5912 Old Hamilton Rd, New Albany, OH 43081, USA",
+      "event_type": "Opening",
+      "event_date": "November 15, 2026",
+      "status": "near opening",
+      "short_description": "Wild Eggs is preparing to open its first Central Ohio restaurant at 5912 Old Hamilton Rd in New Albany, OH. The restaurant’s official website lists November 15, 2026 as its opening date. The chain serves breakfast, brunch and lunch with a scratch‑kitchen approach.",
+      "article_link": "https://whatnow.com/columbus/restaurants/wild-eggs-plans-second-columbus-area-restaurant-as-first-location-nears-opening/",
+      "published_date": "November 05, 2026"
+    },
+    {
+      "store_name": "Wild Eggs (second Columbus‑area location)",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in development",
+      "short_description": "Wild Eggs is planning a second Columbus‑area restaurant, but the article does not provide an address, size or anticipated opening timeline. The project is described as “in development” and will be tracked for future updates.",
+      "article_link": "https://whatnow.com/columbus/restaurants/wild-eggs-plans-second-columbus-area-restaurant-as-first-location-nears-opening/",
       "published_date": "November 05, 2026"
     }
   ],
