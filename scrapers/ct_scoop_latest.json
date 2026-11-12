@@ -1,6 +1,21 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "data": [
+    {
+      "heading": "NEW BRITAIN SCOOP: Port Coffee Co opens in New Britain",
+      "date": "2026-11-11",
+      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/new-britain-scoop-port-coffee-co-opens-in-new-britain"
+    },
+    {
+      "heading": "STAMFORD SCOOP: H Mart linked LLC purchases former Stop & Shop in Stamford",
+      "date": "2026-11-11",
+      "link": "https://www.theconnecticutscoop.com/all-fairfield-county-posts/stamford-scoop-h-mart-linked-llc-purchases-former-stop-shop-in-stamford"
+    },
+    {
+      "heading": "CHESTER SCOOP: Minnow Coffee & Matcha opens in Chester",
+      "date": "2026-11-11",
+      "link": "https://www.theconnecticutscoop.com/all-middlesex-county-posts/chester-scoop-minnow-coffee-matcha-opens-in-chester"
+    },
     {
       "heading": "WEST HARTFORD SCOOP: Little Wanderers sets opening date in West Hartford",
       "date": "2026-11-10",
@@ -25,16 +40,6 @@
       "heading": "MOHEGAN SUN SCOOP: New pop-up bar opening for arena's anniversary! $30 million in arena improvements planned!",
       "date": "2026-11-10",
       "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/mohegan-sun-scoop-new-pop-up-bar-opening-for-arenas-anniversary-30-million-in-arena-improvements-planned"
-    },
-    {
-      "heading": "PUTNAM SCOOP: Agave Mexican Kitchen opens in Putnam!",
-      "date": "2026-11-09",
-      "link": "https://www.theconnecticutscoop.com/all-windham-county-posts/putnam-scoop-agave-mexican-kitchen-opens-in-putnam"
-    },
-    {
-      "heading": "MILFORD SCOOP: J Crew Factory, V/O Med Spa, Riko's coming to Milford Marketplace!",
-      "date": "2026-11-09",
-      "link": "https://www.theconnecticutscoop.com/all-new-haven-county-posts/milford-scoop-j-crew-factory-vo-med-spa-rikos-coming-to-milford-marketplace"
     }
   ]
 }
