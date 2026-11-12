@@ -1,7 +1,283 @@
 {
-  "last_updated": "2026-11-11 01:15 UTC",
+  "last_updated": "2026-11-12 02:16 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/washington-dc/restaurants/aya-bringing-culinary-innovation-to-shockoe-slip/",
+      "title": "Aya Bringing Culinary Innovation to Shockoe Slip",
+      "address": "1210 E Cary St, Richmond, VA 23219"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/cold-beers-cheeseburgers-to-join-craigs-crossing/",
+      "title": "Cold Beers & Cheeseburgers to Join Craig’s Crossing",
+      "address": ""
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/rise-and-dine-new-breakfast-concept-to-debut-in-las-vegas/",
+      "title": "Rise and Dine, New Breakfast Concept, To Debut in Las Vegas",
+      "address": "1775 E Tropicana Ave, Las Vegas, NV 89119"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/franchise-owners-build-six-unit-fl-operation-with-parlor-donuts/",
+      "title": "Franchise Owners Build Six-Unit FL Operation With Parlor Donuts",
+      "address": ""
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/houston/restaurants/cactus-club-cafe-to-debut-its-first-texas-spot-in-houston/",
+      "title": "Cactus Club Cafe to Debut its First Texas Spot in Houston",
+      "address": "1700 Post Oak Blvd, Houston, TX 77056"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/pepes-cantina-mexican-grill-tradition-plans-new-location-in-port-st-lucie/",
+      "title": "Pepe’s Cantina Mexican Grill Tradition Plans New Location in Port St. Lucie",
+      "address": ""
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/bs-korean-bbq-hot-pot-planned-for-union-hills-drive/",
+      "title": "B+S Korean BBQ & Hot Pot Planned for Union Hills Drive",
+      "address": "822 E Union Hills Drive, Suite D4-8, Phoenix, AZ 85024"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/rock-amor-pizza-plans-new-location-in-ocoee/",
+      "title": "Rock, Amor & Pizza Plans New Location in Ocoee",
+      "address": "Orange County Tax Collector, 9401 W Colonial Dr, Ocoee, FL 34761, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/hikari-coffee-plans-new-location-on-florida-avenue-in-cocoa/",
+      "title": "Hikari Coffee Plans New Location on Florida Avenue in Cocoa",
+      "address": "406 Florida Ave, Cocoa, FL 32922, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/shinjidai-izakaya-to-bring-japanese-comfort-food-to-east-village/",
+      "title": "Shinjidai Izakaya to Bring Japanese Comfort Food to East Village",
+      "address": "26 St Marks Pl., New York, NY 10003"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/denver/restaurants/chachis-italian-american-steakhouse-plans-february-opening-in-littleton/",
+      "title": "Chachi’s Italian-American Steakhouse Plans February Opening in Littleton",
+      "address": "2589 Main St, Littleton, CO 80120, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/entrees-caribbean-pot-plans-new-location-in-north-fort-myers/",
+      "title": "Entrees Caribbean Pot Plans New Location in North Fort Myers",
+      "address": "4521 Bayshore Rd, North Fort Myers, FL 33917, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/seika-sushi-to-open-in-oviedo/",
+      "title": "Seika Sushi To Open in Oviedo",
+      "address": "167 E Mitchell Hammock Rd, Oviedo, FL 32765"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/seattle/restaurants/loggers-cafe-planned-for-ferry-street-in-sedro-woolley/",
+      "title": "Loggers Cafe Planned for Ferry Street in Sedro-Woolley",
+      "address": "208 Ferry St, Sedro-Woolley, WA 98284"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/birdies-ice-cream-plans-new-location-in-winter-springs/",
+      "title": "Birdie's Ice Cream plans new location in Winter Springs",
+      "address": "1325 Winter Springs Blvd, Winter Springs, FL 32708, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/denver/restaurants/hops-pie-eyes-second-location-in-olde-town-arvada/",
+      "title": "Hops & Pie Eyes Second Location in Olde Town Arvada",
+      "address": "5690 Yukon St, Arvada, CO 80002, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/hacienda-corona-mexican-bar-grill-planned-for-former-mulligans-site-in-jensen-beach/",
+      "title": "Hacienda Corona Mexican Bar & Grill planned for former Mulligan’s site in Jensen Beach",
+      "address": "2019 NE Jensen Beach Blvd, Jensen Beach, FL 34957, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/denver/restaurants/nine9nine-steakhouse-to-bring-live-fire-dining-to-downtown-denver/",
+      "title": "Nine9Nine Steakhouse to Bring Live-Fire Dining to Downtown Denver",
+      "address": "999 17th St, Denver, CO 80202, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/fish-cheeks-to-open-first-florida-restaurant-in-wynwood/",
+      "title": "Fish Cheeks to Open First Florida Restaurant in Wynwood",
+      "address": "275 NW 26th St, Miami, FL 33127, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/phoenix/restaurants/north-scottsdale-is-getting-a-new-wine-bar-with-a-patio-and-mountain-views/",
+      "title": "North Scottsdale Is Getting a New Wine Bar With a Patio and Mountain Views",
+      "address": "10405 E McDowell Mountain Ranch Rd, Scottsdale, AZ 85255, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/new-york/restaurants/chopped-champion-to-bring-northern-mexican-cuisine-to-two-bridges/",
+      "title": "Chopped Champion to Bring Northern Mexican Cuisine to Two Bridges",
+      "address": "47 Monroe St., New York, NY 10002"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/dallas/restaurants/arlington-next-in-line-for-burattino-pizzas-texas-expansion/",
+      "title": "Arlington Next in Line for Burattino Pizza's Texas Expansion",
+      "address": "6204 S Cooper St, Arlington, TX 76001, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/boston/restaurants/new-year-round-ice-cream-shop-headed-to-downtown-plymouth/",
+      "title": "New Year-Round Ice Cream Shop Headed to Downtown Plymouth",
+      "address": "23 Sandwich St, Plymouth, MA 02360"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/321-cafe-plans-new-storefront-along-dixie-highway-in-palm-bay/",
+      "title": "321 Cafe Plans New Storefront Along Dixie Highway in Palm Bay",
+      "address": "4500 Dixie Hwy NE, Palm Bay, FL 32905, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/big-joe-smash-burgers-plans-second-miami-beach-location/",
+      "title": "Big Joe Smash Burgers Plans Second Miami Beach Location",
+      "address": "1346 Washington Ave, Miami Beach, FL 33139, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/orlando/restaurants/ideal-smash-burgers-and-tacos-plans-port-st-lucie-opening/",
+      "title": "Ideal Smash Burgers and Tacos Plans Port St. Lucie Opening",
+      "address": "682 SW Bayshore Blvd, Port St. Lucie, FL 34983, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/circa-26-steakhouse-plans-december-opening-in-jacksonville-beach/",
+      "title": "Circa 26 Steakhouse Plans December Opening in Jacksonville Beach",
+      "address": "1067 Beach Blvd, Jacksonville, FL 32250, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/jacksonville/restaurants/venezuelan-artisan-bakery-andinos-bakery-preparing-to-open-in-jacksonville/",
+      "title": "Venezuelan Artisan Bakery Andinos Bakery Preparing to Open in Jacksonville",
+      "address": "11757 Beach Blvd, Jacksonville, FL 32246, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/philadelphia/restaurants/akira70-omakase-bringing-new-japanese-dining-experience-to-south-jersey/",
+      "title": "AKIRA70 Omakase Bringing New Japanese Dining Experience to South Jersey",
+      "address": "249 Marlton Pike, Cherry Hill Township, NJ 08034"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/san-antonio/restaurants/daves-hot-chicken-plans-new-location-in-kyle/",
+      "title": "Dave’s Hot Chicken plans new location in Kyle",
+      "address": ""
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/sodoi-bringing-coffee-and-burger-concept-to-melbourne/",
+      "title": "SODOI Bringing Coffee-and-Burger Concept to Melbourne",
+      "address": "300 S Harbor City Blvd., Melbourne, FL 32901"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/mexi-peru-kitchen-y-algo-mas-files-relocation-permit-in-bradenton/",
+      "title": "Mexi-Peru Kitchen y Algo Más Files Relocation Permit in Bradenton",
+      "address": "4822 14th St W, Bradenton, FL 34207, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/garden-butcher-plans-new-location-in-boca-raton/",
+      "title": "Garden Butcher Plans New Location in Boca Raton",
+      "address": "9891 Glades Rd Space 345, Boca Raton, FL 33434, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/supa-steakhouse-lounge-plans-new-location-in-lauderdale-lakes/",
+      "title": "Supa Steakhouse & Lounge Plans New Location in Lauderdale Lakes",
+      "address": "4220 N State Rd 7, Lauderdale Lakes, FL 33309, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/regatta-restaurant-planned-for-miami-international-airports-concourse-g/",
+      "title": "Regatta Restaurant Planned for Miami International Airport’s Concourse G",
+      "address": "2100 NW 42nd Ave, Miami, FL 33142, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/tampa/restaurants/big-chicken-launches-its-only-florida-location-inside-elev8-fun-tampa-on-november-13/",
+      "title": "Big Chicken Launches Its Only Florida Location Inside Elev8 Fun Tampa on November 13 | What Now Tampa",
+      "address": "7902 Citrus Park Town Center Mall, Tampa, FL 33625"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/austin/restaurants/potbelly-opens-in-northeast-austins-high-profile-eastvillage-development/",
+      "title": "Potbelly Opens in Northeast Austin’s High Profile EastVillage Development | What Now Austin",
+      "address": "3500 E Parmer Ln, Austin, TX 78754"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/san-francisco/restaurants/after-more-than-three-decades-popular-ice-cream-shop-to-close-livermore-location/",
+      "title": "After More Than Three Decades, Popular Ice Cream Shop to Close Livermore Location",
+      "address": "1593 First St, Livermore, CA 94550, United States"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/miami/restaurants/peruvian-chef-led-italian-restaurant-in-miamis-wynwood-is-permanently-closing/",
+      "title": "Peruvian Chef-Led Italian Restaurant in Miami’s Wynwood is Permanently Closing",
+      "address": "124 NW 28th St, Miami, FL 33127, United States"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/denver/restaurants/local-favorite-denver-brewery-to-close-permanently-after-10-years-this-november/",
+      "title": "Local Favorite Denver Brewery to Close Permanently After 10 Years This November",
+      "address": "2298 Clay St, Denver, CO 80211"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/k-brew-targets-december-opening-for-eighth-knoxville-location-in-hardin-valley/",
+      "title": "K Brew Targets December Opening for Eighth Knoxville Location in Hardin Valley",
+      "address": "10837 Hardin Valley Rd, Knoxville, TN 37932, USA"
+    },
+    {
+      "date": "November 11, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/prato-italian-restaurant-sets-spring-2027-opening-in-nashvilles-green-hills/",
+      "title": "Prato Italian Restaurant Sets Spring 2027 Opening in Nashville’s Green Hills",
+      "address": "2159 Green Hills Village Dr, Nashville, TN 37215, USA"
+    },
+    {
+      "date": "November 10, 2026",
+      "url": "https://whatnow.com/las-vegas/restaurants/one-more-tiramisu-new-dessert-concept-to-debut-in-the-southern-highlands/",
+      "title": "One More Tiramisu, New Dessert Concept, to Debut in the Southern Highlands",
+      "address": "10550 Southern Highlands Pkwy, Las Vegas, NV 89141"
+    },
+    {
+      "date": "November 10, 2026",
+      "url": "https://whatnow.com/houston/restaurants/einstein-bros-bagels-to-open-in-the-bellaire-boulevard-shopping-center/",
+      "title": "Einstein Bros. Bagels to Open in the Bellaire Boulevard Shopping Center",
+      "address": "5130 Bellaire Blvd, Bellaire, TX 77401"
+    },
+    {
+      "date": "November 10, 2026",
+      "url": "https://whatnow.com/nashville/restaurants/anthonys-italian-steakhouse-lucky-bird-developing-in-downtown-knoxville/",
+      "title": "Anthony’s Italian Steakhouse & Lucky Bird Developing in Downtown Knoxville",
+      "address": ""
+    },
+    {
+      "date": "November 10, 2026",
+      "url": "https://whatnow.com/los-angeles/restaurants/condorita-seeks-silver-lake-license/",
+      "title": "Condorita Seeks Silver Lake License",
+      "address": "1639 Silver Lake Blvd, Los Angeles, CA 90026, USA"
+    },
     {
       "date": "November 10, 2026",
       "url": "https://whatnow.com/los-angeles/restaurants/casa-palma-plans-2027-opening-at-topanga-village/",
@@ -229,282 +505,6 @@
       "url": "https://whatnow.com/charlotte/restaurants/sipjin-taekwondo-moving-into-larger-charlotte-studio/",
       "title": "SipJin Taekwondo Moving Into Larger Charlotte Studio",
       "address": "3124 Eastway Dr #680 Charlotte, NC 28205"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/denver/restaurants/the-restless-chef-coming-to-ivywild-school/",
-      "title": "The Restless Chef Coming to Ivywild School",
-      "address": "1604 S Cascade Ave, Colorado Springs, CO 80905"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/just-salad-headed-to-new-virginia-location/",
-      "title": "Just Salad Headed to New Virginia Location",
-      "address": "348 W Broad St b, Falls Church, VA 22046"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/cuban-cracker-family-kitchen-to-open-inside-futbol5-sports-complex/",
-      "title": "Cuban Cracker Family Kitchen to Open Inside Futbol5 Sports Complex",
-      "address": "240 Innovation Way, Hendersonville, TN 37075"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/phoenix/restaurants/la-riv-announces-first-expansion-beyond-texas/",
-      "title": "La Riv Announces First Expansion Beyond Texas",
-      "address": ""
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/hot-chicken-popping-onto-poplar/",
-      "title": "Hot Chicken Popping onto Poplar",
-      "address": "7662 Poplar Ave, Germantown, TN 38138"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/always-ice-cream-looks-to-bethesdas-future/",
-      "title": "Always Ice Cream Looks to Bethesda’s Future",
-      "address": "5335 Westbard Ave, Bethesda, MD 20816"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/denver/restaurants/los-dos-potrillos-adding-colorado-springs-to-its-portfolio/",
-      "title": "Los Dos Potrillos Adding Colorado Springs to Its Portfolio",
-      "address": "5832 Barnes Rd, Colorado Springs, CO 80922"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/houston/restaurants/bigface-nba-star-jimmy-butlers-cafe-to-debut-in-texas/",
-      "title": "BIGFACE, NBA Star Jimmy Butler's Cafe, to Debut in Texas",
-      "address": "28550 US-290, Cypress, TX 77433"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/nashville/restaurants/carousel-club-plans-86000-square-foot-facility-in-berry-hill/",
-      "title": "Carousel Club Plans 86,000-Square-Foot Facility in Berry Hill",
-      "address": "3040 Sidco Drive, Nashville, TN 37204"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/fast-casual-chicken-giant-clucking-into-perryville/",
-      "title": "Fast-Casual Chicken Giant Clucking into Perryville",
-      "address": ""
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/denver/restaurants/foxs-pizza-den-plans-fourth-colorado-location-inside-arvada-walmart/",
-      "title": "Fox’s Pizza Den Plans Fourth Colorado Location Inside Arvada Walmart",
-      "address": "9400 Ralston Rd, Arvada, CO 80002"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/charlotte/restaurants/first-of-its-kind-floating-bar-planned-for-lkn/",
-      "title": "First-of-Its-Kind Floating Bar Planned for LKN",
-      "address": "1459 River Highway, Mooresville, NC 28117"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/coffee-central-by-ethnos-coming-soon-to-senatobia/",
-      "title": "Coffee Central by Ethnos Coming Soon to Senatobia",
-      "address": "304 W Main St b, Senatobia, MS 38668"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/new-cafe-headed-to-central-station-hotel/",
-      "title": "New Cafe Headed to Central Station Hotel",
-      "address": "545 S Main St, Memphis, TN 38103"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/popular-acadiana-wing-chain-continues-its-expansion-with-a-planned-fifth-location/",
-      "title": "Popular Acadiana Wing Chain Continues Its Expansion with a Planned Fifth Location",
-      "address": "2600 Chemin Metairie Rd, Youngsville, LA 70592"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/memphis/restaurants/oak-steakhouse-preparing-to-carve-into-memphis/",
-      "title": "Oak Steakhouse Preparing to Carve into Memphis",
-      "address": "545 S Main St, Memphis, TN 38103"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/new-orleans/restaurants/smoothie-shop-to-bring-clean-ingredients-and-community-driven-concept-to-downtown-lafayette/",
-      "title": "Smoothie Shop to Bring Clean Ingredients and Community-Driven Concept to Downtown Lafayette",
-      "address": "302 Jefferson St, Lafayette, LA 70501"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/new-sports-bar-opening-in-douglasville-in-2027/",
-      "title": "New Sports Bar Opening in Douglasville in 2027 | What Now Atlanta",
-      "address": "7090 Concourse Pkwy b, Douglasville, GA 30134"
-    },
-    {
-      "date": "November 08, 2026",
-      "url": "https://whatnow.com/atlanta/restaurants/la-parrilla-opening-location-at-the-avenue-east-cobb/",
-      "title": "La Parrilla Opening Location at The Avenue East Cobb | What Now Atlanta",
-      "address": "4475 Roswell Rd, Marietta, GA 30062"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/las-vegas/restaurants/affair-with-masala-indian-cuisine-to-debut-in-henderson/",
-      "title": "Affair With Masala Indian Cuisine to Debut in Henderson",
-      "address": "2895 N Green Valley Pkwy, Henderson, NV 89014"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/houston/restaurants/uchiba-a-hai-hospitality-concept-to-debut-in-houston/",
-      "title": "Uchibā, a Hai Hospitality Concept, to debut in Houston",
-      "address": "3080 Buffalo Speedway, Houston, TX 77098"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/charleston/restaurants/the-indigo-road-opening-oak-steakhouse-in-savannah/",
-      "title": "The Indigo Road Opening Oak Steakhouse in Savannah",
-      "address": "225 E President St, Savannah, GA 31401"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/mr-empanada-town-country-relocating-to-westchase/",
-      "title": "Mr. Empanada Town & Country Relocating to Westchase",
-      "address": "13026 Race Track Rd, Tampa, FL 33626"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/culvers-opening-lehigh-acres-location-before-years-end/",
-      "title": "Culver’s Opening Lehigh Acres Location Before Year’s End",
-      "address": "5670 Thoroughbred Dr, Lehigh Acres, FL 33971"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/tampa/restaurants/lit-nutrition-plans-citrus-park-opening/",
-      "title": "Lit Nutrition Plans Citrus Park Opening",
-      "address": "7620 Gunn Hwy, Tampa, FL 33625"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/montreal/restaurants/chez-theo-to-open-greek-restaurant-in-montreal/",
-      "title": "Chez Théo To Open Greek Restaurant In Montreal",
-      "address": "100 Boul. René-Lévesque Ouest, Montréal, QC H2Z 1J5, Canadá"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/coleta-cocina-targets-early-2027-opening-on-adams-avenue/",
-      "title": "Coleta Cocina Targets Early 2027 Opening on Adams Avenue",
-      "address": "2611 Adams Ave, San Diego, CA 92116, USA"
-    },
-    {
-      "date": "November 07, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/hoja-mi-sua-preparing-to-open-new-toronto-location/",
-      "title": "HOJA Mi-Sua Preparing To Open New Toronto Location",
-      "address": ""
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/jack-le-coq-preparing-to-open-another-restaurant-in-quebec/",
-      "title": "Jack Le Coq Preparing To Open Another Restaurant In Quebec",
-      "address": ""
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/7-brew-coffee-to-open-first-livermore-location/",
-      "title": "7 Brew Coffee To Open First Livermore Location",
-      "address": "4261 First St, Livermore, CA 94550"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/cotogna-to-reopen-after-kitchen-renovation/",
-      "title": "Cotogna To Reopen After Kitchen Renovation",
-      "address": "490 Pacific Ave, San Francisco, CA 94133"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/el-buen-comer-to-open-at-chase-centers-thrive-city/",
-      "title": "El Buen Comer To Open At Chase Center's Thrive City",
-      "address": "1 Warriors Wy, San Francisco, CA 94158"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/washington-dc/restaurants/cabin-john-village-prepares-for-a-juicy-new-arrival/",
-      "title": "Cabin John Village Prepares for a Juicy New Arrival",
-      "address": "7937 Tuckerman Ln, Potomac, MD 20854"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-antonio/restaurants/folklores-coffee-house-under-new-ownership/",
-      "title": "Folklores Coffee House Under New Ownership",
-      "address": "1943 N New Braunfels Ave, San Antonio, TX 78208"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/original-joes-eyeing-former-restaurant-space-in-menlo-park/",
-      "title": "Original Joe's Eyeing Former Restaurant Space In Menlo Park",
-      "address": "635 Santa Cruz Ave, Menlo Park, CA 94025"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/supreme-dumplings-expanding-to-san-diego-with-planned-one-paseo-location/",
-      "title": "Supreme Dumplings Expanding to San Diego With Planned One Paseo Location",
-      "address": "3725 Paseo Pl, San Diego, CA 92130, United States"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-francisco/restaurants/the-baked-bear-to-open-new-shop-at-fishermans-wharf/",
-      "title": "The Baked Bear To Open New Shop At Fisherman's Wharf",
-      "address": "81 Jefferson St, San Francisco, CA 94133"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/bushfire-kitchen-planning-new-restaurant-in-redlands/",
-      "title": "Bushfire Kitchen Planning New Restaurant In Redlands",
-      "address": "27471 W San Bernardino Ave #220, Redlands, CA 92374"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/los-angeles/restaurants/portos-bakery-expanding-to-inland-empire-with-first-ontario-location/",
-      "title": "Porto’s Bakery Expanding to Inland Empire With First Ontario Location",
-      "address": "Ontario, CA 91764, USA"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/orange-county/restaurants/snooze-to-open-new-restaurant-in-brea/",
-      "title": "Snooze To Open New Restaurant In Brea",
-      "address": "3325 E Imperial Hwy, Brea, CA 92823"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/san-diego/restaurants/charlie-royal-opens-point-loma-coffee-shop-eyes-potential-san-diego-locations/",
-      "title": "Charlie Royal Opens Point Loma Coffee Shop, Eyes Potential San Diego Locations",
-      "address": "2817 Dickens St, San Diego, CA 92106, United States"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/chicago/restaurants/chicken-salad-chick-franchisees-planning-new-st-charles-restaurant/",
-      "title": "Chicken Salad Chick Franchisees Planning New St. Charles Restaurant",
-      "address": "3871 E Main St, St. Charles, IL 60174"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/boston/restaurants/inspire-cafe-making-a-comeback-in-wakefield-with-new-partners/",
-      "title": "INspire Café Making a Comeback in Wakefield With New Partners",
-      "address": "411 Main St, Wakefield, MA 01880"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/sacramento/restaurants/donut-time-continues-family-bakery-legacy-with-fresh-donuts-and-plans-for-expansion/",
-      "title": "Donut Time Continues Family Bakery Legacy With Fresh Donuts and Plans for Expansion",
-      "address": "4411 Elkhorn Boulevard Sacramento, CA 95842"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/toronto/restaurants/olive-garden-plans-waterloo-opening-for-late-spring-2027/",
-      "title": "Olive Garden Plans Waterloo Opening for Late Spring 2027",
-      "address": "340 The Boardwalk, Waterloo, ON N2T 0A6, Canada"
-    },
-    {
-      "date": "November 06, 2026",
-      "url": "https://whatnow.com/orlando/restaurants/what-now-orlando-accelerate-brings-attendees-together-for-networking-event/",
-      "title": "What Now Orlando Accelerate Brings Attendees Together for Networking Event",
-      "address": "400 N Primrose DrOrlando, FL 32803"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -20218,6 +20218,516 @@
       "event_date": "Not specified",
       "status": "expected to open in early 2027",
       "short_description": "Hero Boy Sandwich Co. is adding a second location in Chastain Square at 4279 Roswell Road, Suite 106. The 1,500‑square‑foot space will serve the brand’s Italian‑style heroes and cold‑cut sandwiches. The restaurant is slated to open in early",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Aya",
+      "location": "1210 E Cary St, Richmond, VA 23219",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "currently in the renovation and development phase",
+      "short_description": "Aya is a new restaurant concept by chef Manny Baiden set to occupy the former Sam Miller space at 1210 E. Cary Street in Richmond. The project is in renovation and development and aims to open in 2027.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/aya-bringing-culinary-innovation-to-shockoe-slip/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Cold Beers & Cheeseburgers",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not been announced",
+      "short_description": "Cold Beers & Cheeseburgers will be a tenant at Craig’s Crossing, a commercial development at the northeast corner of Carefree Highway and Cave Creek Road. No opening date has been provided.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/cold-beers-cheeseburgers-to-join-craigs-crossing/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Rise and Dine",
+      "location": "1775 E Tropicana Ave, Suite 26-28, Las Vegas, NV 89119",
+      "event_type": "Opening",
+      "event_date": "before the end of this year or early 2027",
+      "status": "expected to open soon",
+      "short_description": "Rise and Dine is a new breakfast, brunch, and lunch concept filing a permit to open at 1775 E Tropicana Ave, Suite 26‑28 in the Paradise neighborhood. The owners expect to open before the end of the year or early 2027.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/rise-and-dine-new-breakfast-concept-to-debut-in-las-vegas/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "N/A",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/franchise-owners-build-six-unit-fl-operation-with-parlor-donuts/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Cactus Club Cafe",
+      "location": "1700 Post Oak Blvd, Unit 110, Houston, TX 77056",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "is slated to open next year",
+      "short_description": "Cactus Club Cafe announced its third U.S. location will open in Uptown Houston at 1700 Post Oak Blvd, Unit 110. The press release says the restaurant is slated to open next year (2027).",
+      "article_link": "https://whatnow.com/houston/rest",
+      "published_date": ""
+    },
+    {
+      "store_name": "Pepe’s Cantina Mexican Grill Tradition",
+      "location": "12463 SW Community Blvd., Suite B-101, Port St. Lucie, FL 34987",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a new restaurant",
+      "short_description": "Pepe’s Cantina Mexican Grill Tradition filed an application on November 8, 2026 for a new restaurant at 12463 SW Community Blvd., Suite B‑101, Port St. Lucie, FL 34987. The filing lists Cantina Hospitality LLC as the associated business. No opening date or further details have been announced.",
+      "article_link": "https://whatnow.com/orlando/restaurants/pepes-cantina-mexican-grill-tradition-plans-new-location-in-port-st-lucie/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "B+S Korean BBQ & Hot Pot",
+      "location": "822 E Union Hills Drive, Suite D4-8, Phoenix, AZ 85024",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned for",
+      "short_description": "B+S Korean BBQ & Hot Pot submitted a liquor license application for a new restaurant at 822 E Union Hills Drive, Suite D4‑8, Phoenix, AZ 85024. The application notes an estimated completion date of December 15, 2026 but does not provide an opening date. The project is being pursued by Unity BBQ Pot LLC.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/bs-korean-bbq-hot-pot-planned-for-union-hills-drive/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Rock, Amor & Pizza",
+      "location": "9401 West Colonial Drive, Ocoee, FL 34761",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a new restaurant",
+      "short_description": "Rock, Amor & Pizza filed a plan‑review application on November 6, 2026 for a new location at 9401 West Colonial Drive, Ocoee, FL 34761. The filing identifies Rock Amor & Pizza USA Corp. as the applicant. No opening date or design details have been released.",
+      "article_link": "https://whatnow.com/orlando/restaurants/rock-amor-pizza-plans-new-location-in-ocoee/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Hikari Coffee",
+      "location": "406 Florida Ave, Cocoa, FL 32922, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to establish a storefront",
+      "short_description": "Hikari Coffee LLC filed an initial plan‑review application in November for a new coffee shop at 406 Florida Avenue, Cocoa, FL 32922. The filing confirms the address and that the establishment will have seating, but no opening date or concept details are available.",
+      "article_link": "https://whatnow.com/orlando/restaurants/hikari-coffee-plans-new-location-on-florida-avenue-in-cocoa/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Shinjidai Izakaya",
+      "location": "26 St Marks Pl., New York, NY 10003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Shinjidai Izakaya filed a business filing with Manhattan Community Board 3 for a new Japanese restaurant at 26 Saint Marks Pl., New York, NY 10003. The restaurant will seat up to 20 guests and is currently working through permitting and licensing. No opening date has been set.",
+      "article_link": "https://whatnow.com/new-york/restaurants/shinjidai-izakaya-to-bring-japanese-comfort-food-to-east-village/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Chachi’s Italian-American Steakhouse",
+      "location": "2589 Main St, Littleton, CO 80120, USA",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "plans February opening",
+      "short_description": "Downtown Littleton will get a new steakhouse called Chachi’s Italian‑American, to be located in the former Tavern Littleton building at 2589 W. Main Street. Owners Rachel and Eric Hyatt plan a substantial interior renovation and aim for a February 2027 opening.",
+      "article_link": "https://whatnow.com/denver/restaurants/chachis-italian-american-steakhouse-plans-february-opening-in-littleton/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Entrees Caribbean Pot",
+      "location": "4521 Bayshore Rd, North Fort Myers, FL 33917, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans new location",
+      "short_description": "Entrees Caribbean Pot filed an application to open a new restaurant at 4521 Bayshore Road in North Fort Myers. The filing shows the project is in plan review, but no details on size, design, or opening timeline have been released.",
+      "article_link": "https://whatnow.com/tampa/restaurants/entrees-caribbean-pot-plans-new-location-in-north-fort-myers/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Seika Sushi",
+      "location": "167 E Mitchell Hammock Rd, Oviedo, FL 32765",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Seika Sushi submitted a DBPR filing indicating a proposed restaurant at 167 E. Mitchell Hammock Road in Oviedo. The project is in the initial review stage, with no disclosed ownership, menu, or opening date.",
+      "article_link": "https://whatnow.com/orlando/restaurants/seika-sushi-to-open-in-oviedo/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Loggers Cafe",
+      "location": "208 Ferry St, Sedro‑Woolley, WA 98284, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "A Washington State Liquor and Cannabis Board filing shows Loggers Cafe intends to open at 208 Ferry Street in Sedro‑Woolley, the former site of Magnolia Grill. Applicants seek a license for spirits, beer, and wine service, but details on menu or timeline are pending.",
+      "article_link": "https://whatnow.com/seattle/restaurants/loggers-cafe-planned-for-ferry-street-in-sedro-woolley/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Birdie’s Ice Cream",
+      "location": "1325 Winter Springs Blvd, Winter Springs, FL 32708, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans new location",
+      "short_description": "Birdie’s Ice Cream filed a DBPR application to open an ice‑cream shop at 1325 Winter Springs Boulevard. The filing lists Birdie’s Ice Cream, LLC as the business, but provides no information on menu, design, or expected opening date.",
+      "article_link": "https://whatnow.com/orlando/restaurants/birdies-ice-cream-plans-new-location-in-winter-springs/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Hops & Pie",
+      "location": "5690 Yukon St, Arvada, CO 80002, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "may be opening a second location soon",
+      "short_description": "Hops & Pie is considering a second location in Arvada at a former church property on 5690 Yukon Street. The project would convert the 9,000‑sq‑ft vacant building into a community space and restaurant, but construction schedule and opening date have not been confirmed.",
+      "article_link": "https://whatnow.com/denver/restaurants/hops-pie-eyes-second-location-in-olde-town-arvada/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Hacienda Corona Mexican Bar & Grill",
+      "location": "2019 NE Jensen Beach Blvd, Jensen Beach, FL 34957, USA",
+      "event_type": "Opening",
+      "event_date": "first week of November 2026",
+      "status": "targeting an opening during the first week of November 2026",
+      "short_description": "Hacienda Corona Mexican Bar & Grill plans to open in Jensen Beach at the former Mulligan’s Beach House site at 2019 NE Jensen Beach Blvd. An application was filed on November 6 2026 and the restaurant was targeting an opening during the first week of November 2026, though the filing is still under review.",
+      "article_link": "https://whatnow.com/orlando/restaurants/hacienda-corona-mexican-bar-grill-planned-for-former-mulligans-site-in-jensen-beach/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Nine9Nine Steakhouse",
+      "location": "999 17th St, Denver, CO 80202, USA",
+      "event_type": "Opening",
+      "event_date": "end of 2026",
+      "status": "targeting the end of 2026 for the restaurant’s opening",
+      "short_description": "Nine9Nine Steakhouse will replace the former 801 Fish space at 999 17th Street in downtown Denver. Restaurateur Jeff Moerke signed a lease in November and is aiming to open the steakhouse, seafood and raw bar by the end of 2026.",
+      "article_link": "https://whatnow.com/denver/restaurants/nine9nine-steakhouse-to-bring-live-fire-dining-to-downtown-denver/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Fish Cheeks",
+      "location": "275 NW 26th St, Miami, FL 33127, USA",
+      "event_type": "Opening",
+      "event_date": "late February 2027",
+      "status": "targeting a late February 2027 opening",
+      "short_description": "Fish Cheeks, a New York Thai‑seafood concept, is expanding to Wynwood, Miami, with a location slated for a late February 2027 opening. The new restaurant will feature regional Thai dishes and locally sourced Florida seafood, with design by Space NY.",
+      "article_link": "https://whatnow.com/miami/restaurants/fish-cheeks-to-open-first-florida-restaurant-in-wynwood/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Turquoise Wine Bar",
+      "location": "10405 E McDowell Mountain Ranch Rd, Scottsdale, AZ 85255, USA",
+      "event_type": "Opening",
+      "event_date": "November 20",
+      "status": "will officially open its doors with a grand celebration on Friday, November 20",
+      "short_description": "Turquoise Wine Bar is opening a new North Scottsdale location at 10405 E McDowell Mountain Ranch Road, Suite 100. The bar will open on Friday, November 20 with a grand celebration, offering boutique wines, small plates, and an outdoor patio with mountain views.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/north-scottsdale-is-getting-a-new-wine-bar-with-a-patio-and-mountain-views/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "El Bernie",
+      "location": "47 Monroe St., New York, NY 10002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "future El Bernie location",
+      "short_description": "Chef Alan Delgado, a 2022 Food Network Chopped champion, is planning to open the Mexican restaurant El Bernie at 47 Monroe St. in Manhattan’s Two Bridges neighborhood. The concept will feature northern‑Mexico inspired dishes and a small indoor dining area. The team is currently working through the permitting and licensing process.",
+      "article_link": "https://whatnow.com/new-york/restaurants/chopped-champion-to-bring-northern-mexican-cuisine-to-two-bridges/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Burattino Pizza",
+      "location": "6204 S Cooper St, Arlington, TX 76001, USA",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "February 2027 opening target",
+      "short_description": "Burattino Pizza is set to bring its California‑style brick‑oven pizza to Arlington, occupying a former Simple Simon’s Pizza space at 6204 S. Cooper Street. The Arlington location is part of a Texas expansion and is slated for a February 2027 opening. The restaurant will feature a full bar and a menu consistent with other Texas sites.",
+      "article_link": "https://whatnow.com/dallas/restaurants/arlington-next-in-line-for-burattino-pizzas-texas-expansion/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Ryleigh’s Ice Cream",
+      "location": "23 Sandwich St, Plymouth, MA 02360",
+      "event_type": "Opening",
+      "event_date": "late 2026 to early 2027",
+      "status": "targeting a late 2026 to early 2027 opening",
+      "short_description": "Ryleigh’s Ice Cream is preparing to open a year‑round ice‑cream shop at 23 Sandwich Street in downtown Plymouth. Owner Pat Ryan says the shop will serve hard ice cream, soft‑serve, frappes, slushies and more, with plans to hire staff soon. The official opening date is still pending, with a target window of late 2026 to early 2027.",
+      "article_link": "https://whatnow.com/boston/restaurants/new-year-round-ice-cream-shop-headed-to-downtown-plymouth/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "321 Cafe",
+      "location": "4500 Dixie Hwy NE, Palm Bay, FL 32905, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned for 4500 NE Dixie Highway",
+      "short_description": "Mobile beverage business 321 Sippin is filing plans to open a permanent 321 Cafe storefront at 4500 NE Dixie Highway in Palm Bay. Public records show the proposed café will have seating, but no menu or opening schedule has been announced. The filing marks an early step toward establishing a fixed‑location coffee shop.",
+      "article_link": "https://whatnow.com/orlando/restaurants/321-cafe-plans-new-storefront-along-dixie-highway-in-palm-bay/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Big Joe Smash Burgers",
+      "location": "1346 Washington Ave, Miami Beach, FL 33139, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a second city location",
+      "short_description": "Big Joe Smash Burgers is filing to open a second Miami Beach location at 1346 Washington Avenue. The existing North Beach spot is already operating, and the new site will add another presence in the city. No opening date has been disclosed yet.",
+      "article_link": "https://whatnow.com/miami/restaurants/big-joe-smash-burgers-plans-second-miami-beach-location/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Ideal Smash Burgers and Tacos",
+      "location": "682 SW Bayshore Blvd, Port St. Lucie, FL 34983",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned location",
+      "short_description": "Ideal Smash Burgers and Tacos filed restaurant plans for a new location at 682 SW Bayshore Blvd in Port St. Lucie. The filing indicates a seating establishment but no opening date has been announced. The business is preparing for a planned location.",
+      "article_link": "https://whatnow.com/orlando/restaurants/ideal-smash-burgers-and-tacos-plans-port-st-lucie-opening/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Circa 26 Steakhouse",
+      "location": "1067 Beach Blvd, Jacksonville, FL 32250",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "new steakhouse this December",
+      "short_description": "Circa 26 Steakhouse owners Tom and Jenne Corsano are renovating a 998‑square‑foot space at 1067 Beach Blvd in Jacksonville Beach. The restaurant is slated to open in December and will serve dinner with a steak‑focused menu. No lunch service is planned and the venue will be closed on Sundays.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/circa-26-steakhouse-plans-december-opening-in-jacksonville-beach/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Andinos Bakery",
+      "location": "11757 Beach Blvd., Suite 3, Jacksonville, FL 32246",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to bring its Venezuelan‑inspired baked goods to a physical storefront",
+      "short_description": "Andinos Bakery Corp submitted a food‑service plan‑review filing for a new storefront at 11757 Beach Blvd, Suite 3 in Jacksonville. The bakery intends to offer Venezuelan‑inspired baked goods in a customer‑facing setting. A confirmed opening date has not been provided.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/venezuelan-artisan-bakery-andinos-bakery-preparing-to-open-in-jacksonville/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "AKIRA70 Omakase",
+      "location": "249 Marlton Pike, Cherry Hill Township, NJ 08034",
+      "event_type": "Opening",
+      "event_date": "late November or December",
+      "status": "targeting a late November or December opening",
+      "short_description": "Chef Frank Zheng’s AKIRA70 Omakase will open at 249 Marlton Pike in Cherry Hill Township, targeting a late‑November or December opening. The concept will feature a seasonal omakase menu with three rollout phases, adding à la carte dinner and lunch later. The restaurant aims to bring high‑end Japanese dining to South Jersey.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/akira70-omakase-bringing-new-japanese-dining-experience-to-south-jersey/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Dave’s Hot Chicken",
+      "location": "301 Kyle Park Ave., Kyle, TX 78640",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "Dave’s Hot Chicken is planning a new fast‑casual restaurant at 301 Kyle Park Ave in Kyle, Texas, with renovation work slated to begin January 2 2027 and finish by March 10 2027. The project involves a 2,727‑square‑foot tenant finish‑out but no official opening date has been announced. The filing lists the tenant and construction details.",
+      "article_link": "https://whatnow.com/san-antonio/restaurants/daves-hot-chicken-plans-new-location-in-kyle/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "SODOI Coffee & Burger",
+      "location": "300 S Harbor City Blvd., Melbourne, FL 32901",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "SODOI Coffee & Burger plans to open at 300 S Harbor City Blvd., Melbourne, FL 32901. The concept will combine coffee and burgers, joining its sister concept in Berkeley, CA. The team is working through permitting and licensing.",
+      "article_link": "https://whatnow.com/miami/restaurants/sodoi-bringing-coffee-and-burger-concept-to-melbourne/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Mexi‑Peru Kitchen y Algo Más",
+      "location": "4822 14th St W, Bradenton, FL 34207, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to relocate",
+      "short_description": "Mexi‑Peru Kitchen y Algo Más is filing a relocation permit to move from 4816 14th St. W. to 4822 14th St. W., Bradenton, FL 34207. The filing shows the project is under plan review, with no announced opening date. The restaurant currently serves Mexican‑Peruvian cuisine.",
+      "article_link": "https://whatnow.com/tampa/restaurants/mexi-peru-kitchen-y-algo-mas-files-relocation-permit-in-bradenton/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Garden Butcher",
+      "location": "9891 Glades Rd Space 345, Boca Raton, FL 33434, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans new location",
+      "short_description": "Garden Butcher filed a plan for a new location at 9891 Glades Rd Space 345, Boca Raton, FL 33434. The filing dated November 3, 2026 indicates the project is in process with regulatory review. No menu or opening date details have been disclosed.",
+      "article_link": "https://whatnow.com/miami/restaurants/garden-butcher-plans-new-location-in-boca-raton/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Supa Steakhouse & Lounge",
+      "location": "4220 N State Rd 7, Lauderdale Lakes, FL 33309, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Supa Steakhouse & Lounge filed a plan for a new establishment at 4220 N State Rd 7, Lauderdale Lakes, FL 33309. The November 2, 2026 filing shows the project is listed as in process under plan review. Details on concept, menu, and opening date are pending.",
+      "article_link": "https://whatnow.com/miami/restaurants/supa-steakhouse-lounge-plans-new-location-in-lauderdale-lakes/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Regatta Restaurant",
+      "location": "2100 NW 42nd Ave, Miami, FL 33142, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "in the works",
+      "short_description": "Regatta Restaurant is planned for Miami International Airport’s Concourse G at 2100 NW 42nd Ave, Miami, FL 33142. The October 28, 2026 filing lists the project as in process under plan review. No menu, design, or opening date information has been released.",
+      "article_link": "https://whatnow.com/miami/restaurants/regatta-restaurant-planned-for-miami-international-airports-concourse-g/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Big Chicken",
+      "location": "7902 Citrus Park Town Center Mall, Tampa, FL 33625",
+      "event_type": "Opening",
+      "event_date": "November 13",
+      "status": "grand opening event on Friday, November 13",
+      "short_description": "Big Chicken is opening its only Florida brick‑and‑mortar location inside Elev8 Fun Tampa. The launch includes a grand opening event on Friday, November 13 from 6:00 PM to 8:00 PM. Guests will receive a complimentary 3‑piece chicken tender order and a free activity.",
+      "article_link": "https://whatnow.com/tampa/restaurants/big-chicken-launches-its-only-florida-location-inside-elev8-fun-tampa-on-november-13/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Potbelly",
+      "location": "3500 E Parmer Ln, Austin, TX 78754",
+      "event_type": "Opening",
+      "event_date": "November 14",
+      "status": "opening of a new shop at EastVillage on November 14",
+      "short_description": "Potbelly announced the opening of a new shop at the EastVillage development in Northeast Austin. The restaurant will open on November 14 and will host a celebration on December 4 with giveaways for the first 50 guests. It will serve the brand’s signature sandwiches, wraps, salads, shakes and baked goods.",
+      "article_link": "https://whatnow.com/austin/restaurants/potbelly-opens-in-northeast-austins-high-profile-eastvillage-development/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Foster’s Freeze",
+      "location": "1593 First St, Livermore, CA 94550, United States",
+      "event_type": "Closing",
+      "event_date": "Sunday, November 15",
+      "status": "shutting down permanently",
+      "short_description": "Foster’s Freeze in Livermore announced it will close after 33 years of service. The owners said the restaurant will shut down on Sunday, November 15 and offered a “Buy One, Get One FREE” promotion during its final week. The closure is tied to the owners’ retirement plans.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/after-more-than-three-decades-popular-ice-cream-shop-to-close-livermore-location/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Pasta",
+      "location": "124 NW 28th St, Miami, FL 33127, United States",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "closed permanently",
+      "short_description": "Pasta, a Peruvian‑Italian restaurant in Miami’s Wynwood neighborhood, announced it has closed permanently after just over two years. The owners shared the news on Instagram on November 10, stating their doors are officially closed. They thanked the community and hinted at a new concept in Medellín.",
+      "article_link": "https://whatnow.com/miami/restaurants/peruvian-chef-led-italian-restaurant-in-miamis-wynwood-is-permanently-closing/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Briar Common Brewery+Eatery",
+      "location": "2298 Clay St, Denver, CO 80211",
+      "event_type": "Closing",
+      "event_date": "November 22",
+      "status": "permanently shut its doors on November 22",
+      "short_description": "Briar Common Brewery+Eatery announced it will close its Jefferson Park location after ten years. The brewery will permanently shut its doors on November 22 due to the lease expiring. Owners thanked the community and encouraged a final visit before the closure.",
+      "article_link": "https://whatnow.com/denver/restaurants/local-favorite-denver-brewery-to-close-permanently-after-10-years-this-november/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "K Brew",
+      "location": "10837 Hardin Valley Rd, Knoxville, TN 37932, USA",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "targeting a December 2026 opening",
+      "short_description": "K Brew is planning its eighth Knoxville coffee shop in Hardin Valley. Co‑owner Pierce LaMacchia said construction depends on contractors and the target is a December 2026 opening. The standalone building will include drive‑thru, patio and hammock seating.",
+      "article_link": "https://whatnow.com/nashville/restaurants/k-brew-targets-december-opening-for-eighth-knoxville-location-in-hardin-valley/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Prato",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "preparing to open",
+      "short_description": "Prato, an Italian restaurant from Winter Park, Florida, plans its first Nashville location in Green Hills for spring 2027. Vice President Aaron Cook confirmed the timeline, but the exact street address has not been released. The restaurant will feature design elements from the original location.",
+      "article_link": "https://whatnow.com/nashville/restaurants/prato-italian-restaurant-sets-spring-2027-opening-in-nashvilles-green-hills/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "One More Tiramisu",
+      "location": "10550 Southern Highlands Pkwy, Suite 110, Las Vegas, NV 89141",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open",
+      "short_description": "One More Tiramisu, a French‑inspired dessert shop, is set to open in the Southern Highlands Marketplace in Las Vegas. Permit information shows the site at 10550 Southern Highlands Pkwy, Suite 110, and the owner says the shop will offer canned tiramisu, salads and pastries. A grand opening is forthcoming, though no specific date is given.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/one-more-tiramisu-new-dessert-concept-to-debut-in-the-southern-highlands/",
+      "published_date": "November 10, 2026"
+    },
+    {
+      "store_name": "Einstein Bros. Bagels",
+      "location": "5130 Bellaire Blvd., Ste. 140, Bellaire, TX 77401",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "should open by spring 2027",
+      "short_description": "Einstein Bros. Bagels filed a permit for a new store in the Bellaire Boulevard Shopping Center, Bellaire, Texas. Construction is slated to start after mid‑January 2027 and finish by May, with the shop expected to open by spring 2027. The location will be at 5130 Bellaire Blvd., Ste 140.",
+      "article_link": "https://whatnow.com/houston/restaurants/einstein-bros",
+      "published_date": ""
+    },
+    {
+      "store_name": "El Condor",
+      "location": "3701 Sunset Blvd",
+      "event_type": "Closing",
+      "event_date": "by November 1",
+      "status": "announced it would close by November 1",
+      "short_description": "The article reports that El Condor, a bar owned by the operators of Condorita LLC, announced it would close by November 1 at its Sunset Blvd location. It also notes that Condorita is seeking an alcohol license for a new Silver Lake address, but no opening details are provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/condorita-seeks-silver-lake-license/",
+      "published_date": "November 10, 2026"
+    },
+    {
+      "store_name": "Unnamed Food and Drink Concept",
+      "location": "312 W Main St, Owosso, MI 48867",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "Work is underway",
+      "short_description": "The owners of Kori Shook & Associates are preparing a new, as‑yet‑unnamed restaurant at 312 W Main Street in Owosso. The concept is from Rick and Nicole Reyna of The Sideline Sports Bar, but no opening date or name has been announced. Construction is underway.",
+      "article_link": "https://whatnow.com/detroit/restaurants/unnamed-food-and-drink-concept-moving-into-downtown-owosso-space/",
+      "published_date": "November 09, 2026"
+    },
+    {
+      "store_name": "Bark Barbecue",
+      "location": "55 Water St, Brooklyn, NY 11201",
+      "event_type": "Closing",
+      "event_date": "November 7",
+      "status": "closed permanently",
+      "short_description": "Bark Barbecue closed its doors at the Time Out Market location on 55 Water Street in Brooklyn after a three‑year run. The restaurant announced the closure on November 7 and thanked customers and the market team. It will continue operating at its Bushwick brick‑and‑mortar site.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-dominican-texas-barbecue-spot-has-left-brooklyns-time-out-market/",
+      "published_date": "November 09, 2026"
+    },
+    {
+      "store_name": "Balboa Steaks",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced a location",
+      "short_description": "Balboa Steaks, a cheesesteak shop from Newark, Delaware, announced plans to open a location in Philadelphia but has not revealed the address. The owners invited followers to guess the site, noting a comment about South Street. No opening date has been provided.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/balboa-steaks-is-gonna-fly-now-with-new-philadelphia-location/",
+      "published_date": "November 09, 2026"
+    },
+    {
+      "store_name": "Hero Boy Sandwich Co.",
+      "location": "4279 Roswell Road, Suite 106, Chastain Square",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "expected to open in early 2027",
+      "short_description": "Hero Boy Sandwich Co. is adding a second location at 4279 Roswell Road, Suite 106 in Chastain Square, Atlanta. The 1,500‑square‑foot restaurant is slated to open in early 2027. The article highlights its Italian‑style hero menu.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/4-upcoming-restaurant-openings-we-uncovered-across-metro-atlanta-last-week-nov-2-8/",
+      "published_date": "November 09, 2026"
+    },
+    {
+      "store_name": "Chicheria (to become Amasa Mexican Kitchen)",
+      "location": "Address not specified",
+      "event_type": "Remodel",
+      "event_date": "later in November",
+      "status": "later in November",
+      "short_description": "Chicheria will transition to the Amasa Mexican Kitchen concept later in November, as part of TQM Hospitality’s rebranding. The change involves converting the existing restaurant into a seafood‑focused, gluten‑free Mexican menu. No address or exact date beyond “later in November” is given.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/4-upcoming-restaurant-openings-we-uncovered-across-metro-atlanta-last-week-nov-2-8/",
+      "published_date": "November 09, 2026"
+    },
+    {
+      "store_name": "Buena Vida (to become Amasa Mexican Kitchen)",
+      "location": "Address not specified",
+      "event_type": "Remodel",
+      "event_date": "January 2027",
+      "status": "in January 2027",
+      "short_description": "",
       "article_link": "",
       "published_date": ""
     }
