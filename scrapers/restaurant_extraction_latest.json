@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -20730,6 +20730,316 @@
       "short_description": "",
       "article_link": "",
       "published_date": ""
+    },
+    {
+      "store_name": "Steelhead",
+      "location": "1211 SE Water Ave, Portland, OR 97214",
+      "event_type": "Opening",
+      "event_date": "summer 2027",
+      "status": "scheduled to open in summer 2027",
+      "short_description": "Steelhead is a new 3,500‑capacity music venue being built in Portland’s Central Eastside. The project has applied for a liquor license and is slated to open in summer 2027. Construction permits were issued in fall 2025.",
+      "article_link": "https://whatnow.com/portland/restaurants/steelhead-music-venue-moves-toward-summer-2027-opening-in-central-eastside/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Haley House Bakery Café",
+      "location": "2147 Washington St, Roxbury, MA 02119",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "working toward a January 2027 reopening",
+      "short_description": "Haley House Bakery Café, a nonprofit café in Roxbury, plans to reopen in a new 2,000‑sq‑ft space at 2147 Washington Street. The reopening is targeted for January 2027 after a multi‑year suspension. The café will continue its social‑enterprise mission and offer a refreshed menu.",
+      "article_link": "https://whatnow.com/boston/restaurants/haley-house-bakery-cafe-plans-january-2027-return-to-roxbury/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Rosa Madera",
+      "location": "9700 Railroad St, Elk Grove, CA 95624",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "anticipate opening early in 2027",
+      "short_description": "Rosa Madera, a Mexican restaurant from Sacramento, will open a second location at 9700 Railroad St in Old Town Elk Grove. The owners expect to open early in 2027 in a space previously occupied by Horn Barbecue. The new site will feature a larger indoor area and patio.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/rosa-madera-planning-second-sacramento-area-restaurant-in-old-town-elk-grove/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "5918 Catering & Events",
+      "location": "17503 Kedzie Ave, Hazel Crest, IL 60429",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "too early in the process to announce an opening date",
+      "short_description": "5918 Catering & Events has leased a kitchen space at 17503 Kedzie Avenue in Hazel Crest and plans to open its first brick‑and‑mortar kitchen. The owners have not set a specific opening date, saying it is too early to announce. The location will be in the Hazel Crest Center shopping mall.",
+      "article_link": "https://whatnow.com/chicago/restaurants/5918-catering-events-leases-kitchen-space-in-hazel-crest/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "Ken Wright Cellars sold a minority stake to Italy’s Beretta family, who also took majority ownership of the winery’s real estate. The deal includes vineyards and the tasting room at 120 N. Pine St, but operations will continue unchanged. No opening or closure is announced.",
+      "article_link": "https://whatnow.com/portland/restaurants/italian-beretta-family-buys-stake-in-ken-wright-cellars-in-carlton/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Micheli’s Osteria",
+      "location": "101 Mill St, Gahanna, OH 43230, USA",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "expected to open in December",
+      "short_description": "Micheli’s Osteria is set to open an Italian restaurant and wine bar in Gahanna’s Creekside District. The venue will be located at 101 Mill St and will feature regional Italian dishes and an extensive wine list. The exact opening date in December has not been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/michelis-osteria-to-open-italian-restaurant-and-wine-bar-in-gahanna",
+      "published_date": ""
+    },
+    {
+      "store_name": "Eddie V’s Prime Seafood",
+      "location": "4006 Market At N Hls St, Raleigh, NC 27609, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "being considered",
+      "short_description": "Eddie V’s Prime Seafood is being considered for a ground‑floor location at The Strand in Raleigh’s North Hills district, which would be its first in the Triangle. The development is slated for completion in summer 2027, but no opening date has been announced.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/eddie-vs-prime-seafood-targets-north-hills-for-first-triangle-location/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Dialtone Cafe",
+      "location": "200 N LaSalle St, Chicago, IL 60601",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Dialtone Cafe plans a new coffee bar at 200 N LaSalle St in The Loop and a cafe‑wine bar at 369 W Grand Ave in River North. Both locations are “coming soon,” and opening dates have not yet been announced.",
+      "article_link": "https://whatnow.com/chicago/restaurants/dialtone-cafe-expanding-with-new-locations-in-the-loop-and-river-north/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Dialtone Cafe",
+      "location": "369 W Grand Ave, Chicago, IL 60654",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Dialtone Cafe plans a new coffee bar at 200 N LaSalle St in The Loop and a cafe‑wine bar at 369 W Grand Ave in River North. Both locations are “coming soon,” and opening dates have not yet been announced.",
+      "article_link": "https://whatnow.com/chicago/restaurants/dialtone-cafe-expanding-with-new-locations-in-the-loop-and-river-north/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Blue Sushi Sake Grill",
+      "location": "1 W Flatiron Crossing Dr, Broomfield, CO 80021",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "opening planned for 2027",
+      "short_description": "Blue Sushi Sake Grill will join the HiFi area of FlatIron Crossing in Broomfield, Colorado, with an opening planned for 2027 as part of the center’s redevelopment. No specific opening date or suite number has been released.",
+      "article_link": "https://whatnow.com/denver/restaurants/blue-sushi-sake-grill-bringing-its-creative-sushi-menu-to-broomfield/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Saigon",
+      "location": "802 9th Ave., New York, NY 10019",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "official opening date has not yet been announced",
+      "short_description": "Saigon, a Thai restaurant, will take over the former Tacuba Cantina Mexicana space at 802 9th Ave in Manhattan’s Hell’s Kitchen. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/new-york/restaurants/saigon-bringing-shareables-soups-and-specialty-entrees-to-hells-kitchen/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "New Upscale Bar",
+      "location": "114 N Sacramento St, Lodi, CA 95240",
+      "event_type": "Opening",
+      "event_date": "February or March 2027",
+      "status": "goal of opening in February or March 2027",
+      "short_description": "A new upscale cocktail bar is set to replace the former Q25 Arcade Lounge at 114 N Sacramento St in downtown Lodi, with the",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Coney Burger",
+      "location": "1306 N Miami Ave Suite 1 A, Miami, FL 33136",
+      "event_type": "Closing",
+      "event_date": "November 30",
+      "status": "permanently closing on November 30",
+      "short_description": "Downtown Miami’s Coney Burger announced it will close permanently, with its final service scheduled for November 30. The owners said they were forced to leave the location and hinted at a future concept. The closure was shared via a social‑media video.",
+      "article_link": "https://whatnow.com/miami/restaurants/chef-driven-burger-restaurant-in-downtown-miami-to-close-this-month/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Petalcakes",
+      "location": "9818 Gilead Rd, Huntersville, NC 28078, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to open within the following couple of weeks",
+      "short_description": "Petalcakes is relocating to a new storefront at 9818 Gilead Road, adding a café space and expanded menu. Construction work is still underway, and the owner expects to open within a few weeks, though no exact date was given. The move keeps the bakery in the same parking lot but gives it a more visible presence.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/petal-cakes-sets-move-to-new-huntersville-storefront-with-expanded-cafe-concept/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Meanwhile",
+      "location": "192 Allen St., New York, NY 10002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "currently working through the permitting and licensing process",
+      "short_description": "Meanwhile will be a performance venue with an all‑day café and late‑night bar at 192 Allen St. The space will serve breakfast, pastries, and coffee by day and transition to pub‑style fare at night. The team is navigating permitting and licensing before opening.",
+      "article_link": "https://whatnow.com/new-york/restaurants/lower-east-side-to-welcome-new-all-day-cafe-and-late-night-bar/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not been announced",
+      "short_description": "Joe & The Juice will join The Switchyard development in Queen Creek, marking its first Arizona location. The chain signed a lease for a 2,350‑sq‑ft space but has not disclosed an opening date. The announcement highlights the brand’s expansion into the Phoenix metro area.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/joe-the-juice-coming-to-the-switchyard/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Joe & The Juice",
+      "location": "2223 N Westshore Blvd, Tampa, FL 33607",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not been announced",
+      "short_description": "Joe & The Juice plans to open a new cafe at International Plaza, taking over the former Vera Bradley space. The 1,300‑sq‑ft location will require a $100,000 interior build‑out, and no opening date has been provided. This will be one of two Tampa locations currently in development.",
+      "article_link": "https://whatnow.com/tampa/restaurants/joe-the-juice-plans-international-plaza-location/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "EggBred",
+      "location": "3052 Eastway Dr, Charlotte, NC 28205, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "anticipated to open in early 2027",
+      "short_description": "EggBred, a California‑born fast‑casual breakfast concept, is preparing its second North Carolina restaurant at 3052 Eastway Drive in Charlotte, slated for early 2027. Franchise owner Fabricio Botta selected Eastway Crossing for the debut, and the 1,988‑sq‑ft space will join other new tenants.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/eggbred-sets-early-2027-opening-for-east-charlotte-breakfast-restaurant/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Playa Bowls",
+      "location": "3170 Medley Blvd, Johns Creek, GA 30097",
+      "event_type": "Opening",
+      "event_date": "November 14, 2026",
+      "status": "opening",
+      "short_description": "Playa Bowls is adding a new 1,200‑sq‑ft location in the Medley development at 3170 Medley Blvd, Johns Creek, with a grand opening celebration on November 14. The shop will serve acai bowls, smoothies and other fruit‑based items, and the first guests receive free bowls and T‑shirts.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/an-acai-bowl-chain-with-400-locations-is-opening-in-johns-creek/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Bacio di Latte",
+      "location": "287 Bleecker St, New York, NY 10014",
+      "event_type": "Opening",
+      "event_date": "November 20, 2026",
+      "status": "Grand Opening",
+      "short_description": "Bacio di Latte will open its first New York City gelato shop at 287 Bleecker Street on November 20, offering Italian‑style gelato and a kitchen‑inspired interior. Founder Edoardo Tonolli will make gelato for guests, and free gelato will be available on the opening weekend.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-brazilian-gelato-brand-with-250-locations-is-debuting-in-the-west-village/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Noho’s Hawaiian Cafe",
+      "location": "4627 NE Fremont St, Portland, OR 972",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Harlem Brew South",
+      "location": "310 3rd St E, Winston‑Salem, NC 27101, USA",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "target opening of spring 2027",
+      "short_description": "Harlem Brew South is preparing to open a taproom and coffeehouse in the historic S.J. Nissen Wagon Works Building at 310 E. Third Street in Winston‑Salem. The venue will feature craft beers, non‑alcoholic beverages, specialty coffee, and live‑event space, with a target opening in spring 2027.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/harlem-brew-south-targets-spring-2027-opening-in-winston-salem/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Panera Bread (Leander)",
+      "location": "1060 Hero Way, Suite 310, Leander, TX 78641",
+      "event_type": "Opening",
+      "event_date": "Thursday, November 12, 2026",
+      "status": "will officially open",
+      "short_description": "Panera Bread will open its first bakery‑café in Leander on Thursday, November 12, 2026 at 1060 Hero Way, Suite 310. The 7 a.m. grand opening includes a ribbon‑cutting, a “Bread Breaking” ceremony, and a year of free meals for the first 100 guests.",
+      "article_link": "https://whatnow.com/austin/restaurants/leanders-first-panera-opens-thursday-nov-12-first-100-guests-receive-free-meals-for-a-year/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses La Stella’s existing restaurants in Dallas and its plans to expand to Fort Worth, but provides no specific opening date or address for a new location.",
+      "article_link": "https://whatnow.com/dallas/restaurants/la-stella-brings-generations-of-italian-family-traditions-to-texas-dining-scene/",
+      "published_date": "November 12, 2026"
+    },
+    {
+      "store_name": "Sushi Kame",
+      "location": "6915 S Durango Dr, Las Vegas, NV 89113",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned to open",
+      "short_description": "Sushi Kame is slated to open its second location in the Durango Casino & Resort’s Eat Your Heart Out food hall at 6915 S Durango Dr, Las Vegas. The press release indicates the concept will join the casino’s culinary lineup, though no opening date is given.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/sushi-kame-to-bring-japanese-flair-to-the-durango-casino-resort-food-hall/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Shipley Donuts",
+      "location": "6806 S Texas 6, Houston, TX 77083",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "should open by early 2027",
+      "short_description": "Shipley Donuts filed a permit to build a 1,557‑sq‑ft shop at 6806 Highway 6 South in Houston’s Mission Bend Shopping Center, with construction expected to start later this year and finish by late January 2027, targeting an early 2027 opening.",
+      "article_link": "https://whatnow.com/houston/restaurants/shipley-donuts-to-sweeten-up-mission-bend-with-a-new-location/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Paris Baguette",
+      "location": "Sewarts Landing, Sam Ridley Parkway and Highway 41, Smyrna, TN",
+      "event_type": "Opening",
+      "event_date": "June or July 2027",
+      "status": "targeting a June or July 2027 opening",
+      "short_description": "Paris Baguette is planning to open a bakery‑café in the Sewarts Landing mixed‑use development in Smyrna, Tennessee. Franchise owner Bruce Sung Lee confirmed the location will open in the summer of 2027 as part of the project’s new tenant lineup.",
+      "article_link": "https://whatnow.com/nashville/restaurants/paris-baguette-targets-june-2027-opening-in-smyrna/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Cactus Club Cafe",
+      "location": "1700 Post Oak Blvd, Unit 110, Houston, TX 77056",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "slated to open",
+      "short_description": "Cactus Club Cafe announced plans to open its third U.S. location in Houston’s Uptown at 1700 Post Oak Blvd, Unit 110. The 12,900‑sq‑ft, two‑level restaurant will be the brand’s largest U.S. site and is slated to open in 2027. The announcement was made via a press release and confirmed by the company’s president.",
+      "article_link": "https://whatnow.com/houston/restaurants/cactus-club-cafe-to-debut-its-first-texas-spot-in-houston/",
+      "published_date": "November 11, 2026"
+    },
+    {
+      "store_name": "Einstein Bros. Bagels",
+      "location": "5130 Bellaire Blvd., Ste. 140, Bellaire, TX 77401",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned to open",
+      "short_description": "Einstein Bros. Bagels is planning a new location in the Bellaire Boulevard Shopping Center at 5130 Bellaire Blvd., Ste. 140 in Bellaire, TX. A permit shows construction will begin after mid‑January 2027 with completion after May and the store expected to open by spring 2027. The article notes the story is developing and no further details are available.",
+      "article_link": "https://whatnow.com/houston/restaurants/einstein-bros-bagels-to-open-in-the-bellaire-boulevard-shopping-center/",
+      "published_date": "November 10, 2026"
+    },
+    {
+      "store_name": "Anthony’s Italian Steakhouse",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "second quarter of 2027",
+      "status": "opening target places the restaurant’s arrival in the second quarter of 2027",
+      "short_description": "Gemini Hospitality is developing Anthony’s Italian Steakhouse at Lone Tree Pass in downtown Knoxville, with an anticipated debut in Q2 2027. The project is part of two new restaurant additions announced by the group.",
+      "article_link": "https://whatnow.com/nashville/restaurants/anthonys-italian-steakhouse-lucky-bird-developing-in-downtown-knoxville/",
+      "published_date": "November 10, 2026"
+    },
+    {
+      "store_name": "Lucky Bird",
+      "location": "412 S. Gay St, Knoxville, TN 37902, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date not announced",
+      "short_description": "Gemini Hospitality plans to open Lucky Bird, a rotisserie chicken concept, in the former Babalu space at 412 S Gay St. No opening date has been provided.",
+      "article_link": "https://whatnow.com/nashville/restaurants/anthonys-italian-steakhouse-lucky-bird-developing-in-downtown-knoxville/",
+      "published_date": "November 10, 2026"
     }
   ],
   "non_working": [
