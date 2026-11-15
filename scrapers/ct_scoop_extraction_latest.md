@@ -1,10 +1,10 @@
-**Extracted Information**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/granby-scoop-9-lives-cafe-announces-opening-date-for-new-cat-cafe | 2026-11-13 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-hartford-county-posts/enfield-scoop-dangelo-grilled-sandwiches-closing-enfield-location | 2026-11-13 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-london-county-posts/groton-scoop-sarku-japan-begins-hiring-for-groton-location | 2026-11-13 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-tolland-county-posts/tolland-scoop-brick-cantina-sets-opening-date-for-new-tolland-restaurant | 2026-11-14 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-new-haven-county-posts/meriden-scoop-finish-line-closes-at-meriden-mall | 2026-11-14 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://www.theconnecticutscoop.com/all-fairfield-county-posts/danbury-scoop-crumbl-closes-in-danbury | 2026-11-14 |
 
 ---
 
