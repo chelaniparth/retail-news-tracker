@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -22200,6 +22200,266 @@
       "short_description": "Chef Jaspratap “Jassi” Bindra is opening a new Indian restaurant called Maati in Washington, D.C., taking over the former NaRa‑Ya space at 88 District Square SW. The concept will showcase regional Indian cuisines across a 3,000‑square‑foot second‑floor venue. The team is targeting a January 2027 opening.",
       "article_link": "https://whatnow.com/washington-dc/restaurants/maati-to-take-diners-on-trip-through-india/",
       "published_date": "November 15, 2026"
+    },
+    {
+      "store_name": "Tap & Pour",
+      "location": "14700 Terminal Blvd #221, Clearwater, FL 33762",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Tap & Pour, a gastropub by SSP America, is planned for the Gates 2–6 area of St. Pete‑Clearwater International Airport at 14700 Terminal Blvd #221, Clearwater, FL. The airport website lists it as “coming soon” and no opening date has been announced.",
+      "article_link": "https://whatnow.com/tampa/restaurants/tap-pour-planned-for-st-pete-clearwater-international-airport/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Pacific Coast Grill",
+      "location": "2526 South Coast Highway 101, Cardiff‑by‑the‑Sea",
+      "event_type": "Closing",
+      "event_date": "January 3, 2027",
+      "status": "temporarily close",
+      "short_description": "Pacific Coast Grill will temporarily close its Cardiff‑by‑the‑Sea location at 2526 South Coast Highway 101 on January 3, 2027 to undertake a major expansion onto the neighboring property. The restaurant plans to reopen several months later with a larger footprint.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/pacific-coast-grill-to-close-in-january-for-major-cardiff-expansion/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "First & Last",
+      "location": "1001 N 3rd Ave #1, Phoenix, AZ 85003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping for a spring 2027 opening",
+      "short_description": "First & Last is planning a focacceria and market adjacent to its downtown Phoenix restaurant at 1001 N 3rd Ave #1. The owners hope for a spring 2027 opening, with a patio possibly opening in late December 2026 or early January 2027.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/first-last-plans-focacceria-and-market-in-downtown-phoenix/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Chouquette",
+      "location": "150n US-1, Tequesta, FL 33469",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned location",
+      "short_description": "Chouquette is listed in Florida regulatory records for a proposed location at 150 N US‑1, Tequesta, FL 33469. No construction timeline or opening date has been provided.",
+      "article_link": "https://whatnow.com/miami/restaurants/chouquette-listed-in-florida-records-for-new-tequesta-location/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Cousin Vinny’s Sandwich Co. (South Tampa)",
+      "location": "4049 S. Dale Mabry Hwy, Tampa, FL 33611",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "planned to open in December",
+      "short_description": "Cousin Vinny’s Sandwich Co. will open a new South Tampa takeout‑focused location at 4049 S. Dale Mabry Hwy, Tampa, FL 33611, slated for December. The space previously housed a Pizza Hut and will also serve as a commissary kitchen.",
+      "article_link": "https://whatnow.com/tampa/restaurants/cousin-vinnys-sandwich-co-expanding-to-south-tampa-and-st-petersburg/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Cousin Vinny’s Sandwich Co. (St. Petersburg)",
+      "location": "2063 Central Ave, St. Petersburg, FL 33713",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "planned for spring 2027",
+      "short_description": "The chain will also open a St. Petersburg restaurant at 2063 Central Ave, St. Petersburg, FL",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Lola Beans",
+      "location": "North Highway 77 and Hedgewood Drive, Waxahachie, TX",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Lola Beans, a drive‑thru coffee franchise, is preparing to open a new location in Waxahachie at North Highway 77 and Hedgewood Drive. The site is the first secured under franchisees Kirk and Coleen Jeter’s Texas development agreement, with four to five shop openings targeted for 2027.",
+      "article_link": "https://whatnow.com/dallas/restaurants/lola-beans-expanding-to-waxahachie-as-part-of-texas-growth-plans/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Vicky Bakery",
+      "location": "3501 Oakwood Blvd Space 94, Hollywood, FL 33020",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to expand",
+      "short_description": "Vicky Bakery is preparing to expand its presence in Hollywood with another location at Oakwood Plaza. A filing with the Florida DBPR lists the address, and the new bakery will add to the South Florida footprint of the Cuban bakery brand.",
+      "article_link": "https://whatnow.com/miami/restaurants/vicky-bakery-preparing-to-open-another-hollywood-location/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Layne’s Chicken Fingers",
+      "location": "919 S 6th St, Waco, TX 76706",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Layne’s Chicken Fingers, a Texas‑based fast‑casual chicken tender chain, is planning to open a new location in Waco at 919 S 6th Street, the current home of Fazoli’s. Franchise owner Shahroz Khan has submitted state documents, but an exact opening date has not yet been determined.",
+      "article_link": "https://whatnow.com/dallas/restaurants/laynes-chicken-fingers-planning-new-waco-site/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Mario’s Greek",
+      "location": "1811 S Lakeline Blvd #300, Cedar Park, TX 78613",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Mario’s Greek is preparing to open a new restaurant in Cedar Park near South Lakeline Boulevard and Cypress Creek Road. State filings show a tenant finish‑out of about 1,211 sq ft with construction slated to start March 1 2027, though no official opening date has been announced.",
+      "article_link": "https://whatnow.com/austin/restaurants/marios-greek-preparing-to-open-in-cedar-park/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Wild & Grazey Charcuterie",
+      "location": "614 N Orange Ave, Green Cove Springs, FL 32043",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "getting ready to debut",
+      "short_description": "The owner of Wild & Grazey Charcuterie is getting ready to debut a new brick‑and‑mortar location at 614 N Orange Ave in Green Cove Springs. A recent state permit filing confirms the site, but the owner has not yet set an opening date.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/wild-grazey-charcuterie-owner-applies-for-space-in-green-cove-springs/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "The Brass Tap",
+      "location": "Central Expressway, Anna",
+      "event_type": "Opening",
+      "event_date": "late 2027",
+      "status": "opening expected in late 2027",
+      "short_description": "Franchisee Ridham Bhatt will open the sixth The Brass Tap location in Anna, Texas, on Central Expressway. The lease has been signed and the opening is expected in late 2027. The new tavern will continue the brand’s craft‑beer and casual‑dining concept.",
+      "article_link": "https://whatnow.com/dallas/restaurants/the-brass-tap-to-open-new-location-in-anna-in-late-2027/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Fito’s Tacos de Trompo",
+      "location": "3660 Belt Line Rd, Farmers Branch, TX 75234",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "Fito’s Tacos de Trompo plans a new restaurant at 3660 Belt Line Road in Farmers Branch. Owner Lio Blanco says the project is about three months away from debut. The spot will add to the chain’s Texas footprint.",
+      "article_link": "https://whatnow.com/dallas/restaurants/fitos-tacos-de-trompo-finds-new-location-in-farmers-branch/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Villa’s Tacos",
+      "location": "11011 W Charleston Blvd, Las Vegas, NV 89135",
+      "event_type": "Opening",
+      "event_date": "Spring 2027",
+      "status": "set to open at Red Rock Casino Resort & Spa in Summerlin at 11011 W Charleston Blvd in Spring 2027",
+      "short_description": "Villa’s Tacos will add a second Las Vegas location at Red Rock Casino Resort & Spa, slated for Spring 2027. The press release highlights a menu featuring exclusive Al Pastor tacos. The brand aims to expand its Southern‑California‑style taqueria in the Summerlin area.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/villas-tacos-is-preparing-to-open-its-second-las-vegas-valley-eatery/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Rouxpour Baybrook",
+      "location": "700 Baybrook Mall, Friendswood, TX 77546",
+      "event_type": "Remodel",
+      "event_date": "January of next year – April 2027",
+      "status": "expected to start in January of next year and wrap up by April 2027",
+      "short_description": "Rouxpour Baybrook is set for another round of renovations, adding an enclosure to its patio at 700 Baybrook Mall. A permit indicates work will start in January and finish by April 2027. The restaurant previously reopened in September 2026 after a remodel.",
+      "article_link": "https://whatnow.com/houston/restaurants/rouxpour-baybrook-to-undergo-another-renovation/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Garage Bar & Grill",
+      "location": "3965 W River Dr NE, Comstock Park, MI 49321",
+      "event_type": "Opening",
+      "event_date": "February",
+      "status": "looking at a February opening date",
+      "short_description": "Garage Bar & Grill will take over the historic Nick Fink’s space at 3965 W River Drive NE in Comstock Park. Owner Kevin Farhat targets a February opening. The venue will continue the legacy of the 1888 bar while offering upscale pub fare.",
+      "article_link": "https://whatnow.com/detroit/restaurants/garage-bar-grill-owners-taking-over-nick-finks-space-in-comstock-park/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "POSH",
+      "location": "303‑305 Broome St., New York, NY 10002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "POSH, a new continental restaurant and lounge, is planned for the East Village at 303‑305 Broome St. The two‑story space will include a main dining room, private dining, a bar and a lower‑level lounge, with head chef Rob Sieber overseeing the kitchen. The project is navigating permitting after approval at the Nov. 17 community board meeting.",
+      "article_link": "https://whatnow.com/new-york/restaurants/two-story-restaurant-and-lounge-planned-in-the-east-village/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "24301 Avenida De La Carlota, Laguna Hills, CA 92653",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open",
+      "short_description": "Texas Roadhouse is preparing its first Orange County location at Oakbrook Village in Laguna Hills, to be built at 24301 Avenida de la Carlota on the former El Torito site. Construction is slated to begin early 2027, with the restaurant expected to open in late 2027.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/texas-roadhouse-to-open-first-orange-county-location-in-laguna-hills/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "La Parra",
+      "location": "728 Lake St, Oak Park, IL 60301",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "coming soon",
+      "short_description": "La Parra, a Mediterranean restaurant originally opened in Berwyn, is expanding to a new downtown Oak Park location at 728 Lake Street. The new spot will serve Spanish and Italian cuisine and is expected to open within the next few weeks. The building is near N Oak Park Avenue across from Scoville Park.",
+      "article_link": "https://whatnow.com/chicago/restaurants/la-parra-in-berwyn-expanding-to-downtown-oak-park-next-month/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Bondi Sushi",
+      "location": "1221 6th Ave., New York, NY 10020",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning",
+      "short_description": "Bondi Sushi signed a lease for a 4,400‑sq‑ft space at 1221 Avenue of the Americas in Rockefeller Center, which will be its largest NYC location. The new restaurant will feature double‑height ceilings, a cocktail",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Cultivate by Forbidden Root",
+      "location": "4710 N Ravenswood Ave, Chicago, IL 60640, United States",
+      "event_type": "Closing",
+      "event_date": "December 11",
+      "status": "will close on December 11",
+      "short_description": "Cultivate by Forbidden Root, a restaurant and brewery in Chicago’s Ravenswood neighborhood, announced it will close on December 11 after five years in business. The company is not renewing the lease for the location and will host its final day of service on that date.",
+      "article_link": "https://whatnow.com/chicago/restaurants/a-ravenswood-restaurant-and-brewery-is-preparing-to-close-after-5-years/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Kappo Sono",
+      "location": "135 W 42nd St, New York, NY 10036",
+      "event_type": "Opening",
+      "event_date": "November 18",
+      "status": "will open on November 18",
+      "short_description": "Kappo Sono is opening a 10‑seat chef’s counter restaurant in Midtown Manhattan at 135 W. 42nd St inside One Bryant Park. The restaurant will open on November 18 and will feature a seasonal kaiseki menu.",
+      "article_link": "https://whatnow.com/new-york/restaurants/a-new-japanese-restaurant-is-bringing-an-intimate-10-seat-dining-experience-to-midtown-manhattan/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Lucciola",
+      "location": "930 Poydras St, New Orleans, LA 70112",
+      "event_type": "Opening",
+      "event_date": "early December",
+      "status": "opening in early December",
+      "short_description": "Lucciola, a modern Italian trattoria by Rizzuto Restaurant Group, will open in downtown New Orleans at 930 Poydras Street in early December. The 68‑seat bistro will offer a menu priced under $40 and a 12‑seat bar.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/coming-soon-rizzuto-restaurant-group-debuts-modern-italian-trattoria-lucciola-in-downtown-nola/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Demure Cocktail Lounge",
+      "location": "1319 6th Ave N, Nashville, TN 37208",
+      "event_type": "Opening",
+      "event_date": "December 3",
+      "status": "will officially open on Thursday, December 3",
+      "short_description": "Demure Cocktail Lounge, a mid‑century modern concept from Pikeld Hospitality, will open on Thursday, December 3 in a restored 127‑year‑old home at 1319 Sixth Avenue North in Nashville’s Germantown. The venue blends classic cocktail culture with contemporary food and preserves historic features of the property.",
+      "article_link": "https://whatnow.com/nashville/restaurants/demure-cocktail-lounge-announces-december-3rd-opening-date-in-nashvilles-germantown-neighborhood/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Armoury D.E.",
+      "location": "2714 Elm St, Dallas, TX 75226, United States",
+      "event_type": "Closing",
+      "event_date": "November 22",
+      "status": "will be closing its doors on November 22",
+      "short_description": "Armoury D.E., a craft cocktail bar and restaurant in Dallas’ Deep Ellum, announced it will permanently close on November 22 after 11 years. The venue will serve its final drinks on that Sunday.",
+      "article_link": "https://whatnow.com/dallas/restaurants/a-deep-ellum-restaurant-known-for-hungarian-comfort-food-is-closing-after-11-years/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Clutch City Cluckers",
+      "location": "6951 FM 1960 W, Houston, TX 77069",
+      "event_type": "Opening",
+      "event_date": "November 21, 2026",
+      "status": "grand opening on November 21, 2026",
+      "short_description": "Houston‑founded Clutch City Cluckers is holding a grand opening at its FM 1960 location on Saturday, November 21, 2026. The event includes free chicken sandwiches for the first 150 guests, $1,000 in gift‑card giveaways, and three days of half‑price dining. The restaurant serves halal Nashville‑style hot chicken and is the sister brand of Juicy Joint.",
+      "article_link": "https://whatnow.com/houston/restaurants/clutch-city-cluckers-celebrates-fm-1960-grand-opening-november-21/",
+      "published_date": "November 16, 2026"
     }
   ],
   "non_working": [
