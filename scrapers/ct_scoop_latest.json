@@ -1,6 +1,21 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "data": [
+    {
+      "heading": "BRISTOL SCOOP: The Red Chickz coming to Bristol!",
+      "date": "2026-11-17",
+      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/bristol-scoop-the-red-chickz-coming-to-bristol"
+    },
+    {
+      "heading": "MYSTIC SCOOP: Taquerio becomes Santa's Sleigh Station for the Christmas season!",
+      "date": "2026-11-17",
+      "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/mystic-scoop-taquerio-becomes-santas-sleigh-station-for-the-christmas-season"
+    },
+    {
+      "heading": "MOHEGAN SUN SCOOP: Metallica-inspired pop-up bar opens at Mohegan Sun!",
+      "date": "2026-11-17",
+      "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/mohegan-sun-scoop-metallica-inspired-pop-up-bar-opens-at-mohegan-sun"
+    },
     {
       "heading": "WATERBURY SCOOP: Panera Bread closing Waterbury cafe on 11/17",
       "date": "2026-11-16",
@@ -10,11 +25,6 @@
       "heading": "MYSTIC SCOOP: Construction beginning on new Lux Bond & Green in Downtown Historic Mystic",
       "date": "2026-11-16",
       "link": "https://www.theconnecticutscoop.com/all-new-london-county-posts/mystic-scoop-construction-beginning-on-new-lux-bond-green-in-downtown-historic-mystic"
-    },
-    {
-      "heading": "BLOOMFIELD SCOOP: Popeyes opening on 11/16!",
-      "date": "2026-11-15",
-      "link": "https://www.theconnecticutscoop.com/all-hartford-county-posts/bloomfield-scoop-popeyes-opening-on-1116"
     }
   ]
 }
