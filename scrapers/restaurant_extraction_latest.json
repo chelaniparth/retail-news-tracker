@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -22460,6 +22460,316 @@
       "short_description": "Houston‑founded Clutch City Cluckers is holding a grand opening at its FM 1960 location on Saturday, November 21, 2026. The event includes free chicken sandwiches for the first 150 guests, $1,000 in gift‑card giveaways, and three days of half‑price dining. The restaurant serves halal Nashville‑style hot chicken and is the sister brand of Juicy Joint.",
       "article_link": "https://whatnow.com/houston/restaurants/clutch-city-cluckers-celebrates-fm-1960-grand-opening-november-21/",
       "published_date": "November 16, 2026"
+    },
+    {
+      "store_name": "Makali’i Brewing Company",
+      "location": "1065 Fourth Ave, San Diego, CA 92101, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "No launch date has been announced.",
+      "short_description": "Makali’i Brewing Company will take over the 1,700‑square‑foot brewing space at Infinite Bar & Grille in downtown San Diego. The brewery is still awaiting its state alcohol license and has not announced a launch date. The venue remains open under a temporary permit.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/makalii-brewing-planning-debut-at-rebranded-gaslamp-venue-infinite-bar-grille/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Rosmarino Osteria Italiana",
+      "location": "676 SE Morrison St, Portland, OR 97214, USA",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "expected to open in 2027",
+      "short_description": "Rosmarino Osteria Italiana is planning a second restaurant at 676 SE Morrison St in Portland, with an anticipated opening in 2027. The owners have applied for a new liquor license for the site. No further details were provided.",
+      "article_link": "https://whatnow.com/portland/restaurants/rosmarino-osteria-italiana-is-planning-a-second-location-in-newberg/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Tim is Making Great Coffee",
+      "location": "31431 Rancho Viejo Rd, San Juan Capistrano, CA 92675",
+      "event_type": "Closing",
+      "event_date": "October 22, 2026",
+      "status": "closed",
+      "short_description": "Tim is Making Great Coffee will close its longtime location at 31431 Rancho Viejo Rd on October 22, 2026 after more than a decade in operation.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/darkside-coffee-to-replace-tim-is-making-great-coffee-in-san-juan-capistrano/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Darkside Coffee",
+      "location": "31431 Rancho Viejo Rd, San Juan Capistrano, CA 92675",
+      "event_type": "Opening",
+      "event_date": "early February 2027",
+      "status": "expected to reopen in early February 2027",
+      "short_description": "Darkside Coffee will replace the former Tim is Making Great Coffee at the same address, offering a Japanese sci‑fi‑inspired café and omakase restaurant. The new concept is slated to reopen in early February 2027 following renovations.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/darkside-coffee-to-replace-tim-is-making-great-coffee-in-san-juan-capistrano/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "San Fernando Coffee Company",
+      "location": "1940 Newbury Rd, Newbury Park, CA 91320",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "no opening date yet because the space is still being built out",
+      "short_description": "San Fernando Coffee Company plans to open a new café in the Newbury Park Gateway shopping center at 1940 Newbury Rd. The space is still under construction and no opening date has been set.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/san-fernando-coffee-company-planning-newbury-park-cafe/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Ling Nam Bakery",
+      "location": "3349 Mission St, San Francisco, CA 94110",
+      "event_type": "Opening",
+      "event_date": "late 2026",
+      "status": "planned to open in late 2026",
+      "short_description": "Ling Nam Bakery intends to open its first San Francisco shop at 3349 Mission St in Bernal Heights, occupying the former Golden State Pizza & Grill space. The opening is expected in late 2026.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/ling-nam-bakery-to-open-first-san-francisco-location/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Arthur Mac’s Tap & Snack",
+      "location": "4006 Martin Luther King Jr. Way (Oakland)",
+      "event_type": "Closing",
+      "event_date": "December 20, 2026",
+      "status": "final day of operations",
+      "short_description": "Arthur Mac’s Tap & Snack announced the closure of its original Oakland beer garden at 4006 Martin Luther King Jr. Way. The final day of operations is set for December 20, 2026. The Oakland location opened in 2017.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/arthur-macs-tap-snack-to-relocate-to-downtown-hayward/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Arthur Mac’s Tap & Snack",
+      "location": "1060 B St, Hayward, CA 94541",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "expected to open in early 2027",
+      "short_description": "Arthur Mac’s Tap & Snack is relocating to a larger space at 1060 B St in downtown Hayward. The new restaurant will feature an outdoor beer garden and is expected to open in early 2027. The move follows the planned Oakland closure.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/arthur-macs-tap-snack-to-relocate-to-downtown-hayward/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article reports a change of ownership for Mountain Mike’s Pizza in Rocklin but indicates the restaurant will remain open with no closure or new opening announced.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/mountain-mikes-pizza-in-rocklin-is-getting-a-new-owner/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "3CAT Handcrafted Beverage",
+      "location": "12750-12950 Carmel Country Rd, San Diego, CA 92130",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "target opening is December",
+      "short_description": "3CAT Handcrafted Beverage plans to open a new bubble tea shop at Carmel Country Plaza, located at 12750‑12950 Carmel Country Road. The franchise’s target opening is December, though the exact date has not been finalized.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/3cat-planning-del-mar-debut-at-carmel-country-plaza/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Flat Cap Roastery",
+      "location": "117 N 2nd St, Krum, TX 76249",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to establish",
+      "short_description": "Flat Cap Roastery filed a project to establish a brick‑and‑mortar coffee shop at 117 N. 2nd Street in downtown Krum. The filing indicates the business is preparing to open, but no grand‑opening date has been confirmed.",
+      "article_link": "https://whatnow.com/dallas/restaurants/flat-cap-roastery-to-open-coffee-shop-in-krum/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Boston’s Pizza Restaurant & Sports Bar",
+      "location": "246 Gibson Dr, Roseville, CA 95678",
+      "event_type": "Opening",
+      "event_date": "December 8th",
+      "status": "grand-opening ribbon cutting for December 8th",
+      "short_description": "Boston’s Pizza Restaurant & Sports Bar is opening a new location in Roseville at 246 Gibson Dr. The Roseville Chamber of Commerce scheduled a grand‑opening ribbon cutting for December 8th, 2026. The restaurant is part of the Highland Village development.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/bostons-pizza-restaurant-sports-bar-opening-in-roseville/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Jeff’s Bagel Run",
+      "location": "Metro Detroit",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "expected to open",
+      "short_description": "Jeff’s Bagel Run is planning four new Metro Detroit locations, with franchisees Drew and Lauren Lessaris and Joyce and Matthew Harb. Addresses have not been released and openings are expected sometime next year. The brand currently operates over 40 locations nationwide.",
+      "article_link": "https://whatnow.com/detroit/restaurants/jeffs-bagel-run-stepping-into-michigan-with-four-new-locations/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Tropi Pan",
+      "location": "439 US Hwy 41 S #2, Inverness, FL 34450",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Tropi Pan LLC filed DBPR records indicating a new location at 439 US Hwy 41 S #2 in Inverness, FL. The filing shows the business is preparing to open, but no confirmed opening date or concept details have been announced. Construction progress and operating hours remain unclear.",
+      "article_link": "https://whatnow.com/tampa/restaurants/tropi-pan-to-open-new-location-in-inverness/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Vitality Bowls",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned to open",
+      "short_description": "Vitality Bowls announced plans to open a new superfood café in Katy, Texas, with local franchisees Marinda and Oladapo Oladimeji. The location has not been disclosed and the opening is slated for 2027. The brand currently has 12 Texas locations.",
+      "article_link": "https://whatnow.com/houston/restaurants/vitality-bowls-to-open-a-new-superfood-cafe-in-katy/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Roots & Hyde’s",
+      "location": "2229 W Hillsboro Blvd, Deerfield Beach, FL 33442",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date hasn’t yet been announced",
+      "short_description": "Roots & Hyde’s is set to open a kava bar and lounge at 2229 W Hillsboro Blvd in Deerfield Beach, FL. The business is hiring staff and has not announced an opening date, though the owner hopes for mid‑December. The venue will share the building with several other eateries.",
+      "article_link": "https://whatnow.com/miami/restaurants/roots-hydes-concept-to-serve-kava-drinks-and-coffees-in-deerfield-beach/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Qargo Coffee",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced a specific location or opening timeline",
+      "short_description": "Qargo Coffee is targeting Philadelphia’s Fashion District for its first Pennsylvania café. No specific site or opening timeline has been released yet. The company plans to expand nationally, adding locations in several states.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/qargo-coffee-eyes-philadelphias-fashion-district-for-first-pa-location/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Tortoise",
+      "location": "189 Avenue A, New York, NY 10009",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "The team is currently working through the permitting and licensing process.",
+      "short_description": "Tortoise is a planned fine‑dining restaurant in the East Village. Principals Nicholas Tamburo and Nikita Malhotra filed with Manhattan Community Board 3 to locate it at 189 Avenue A. The project is still in the permitting stage and no opening date is set.",
+      "article_link": "https://whatnow.com/new-york/restaurants/smithereens-team-plans-new-fine-dining-destination-in-the-east-village/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "The Bagelers Coffeehouse (second location)",
+      "location": "2415 N Milwaukee Ave, Chicago, IL 60647",
+      "event_type": "Opening",
+      "event_date": "around the end of December",
+      "status": "The cafe will open by the end of the year.",
+      "short_description": "The Bagelers Coffeehouse is adding a second location in Logan Square at 2415 N Milwaukee Ave. Ovens and coffee machines are being turned on, and owner Sarah Flosi hopes to open the spot around the end of December 2026.",
+      "article_link": "https://whatnow.com/chicago/restaurants/owners-of-the-bagelers-planning-second-cafe-in-logan-square/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Dell’s Ice Cream & Coffee",
+      "location": "5354 Center St, Hilliard, OH 43026, USA",
+      "event_type": "Opening",
+      "event_date": "before the end of 2026",
+      "status": "The new shop is expected to open before the end of 2026.",
+      "short_description": "Dell’s Ice Cream & Coffee is moving from its outdoor cart to a permanent space inside Crooked Can Brewing Company’s food hall at 5354 Center St. The larger location will add milkshakes and coffee, and the business expects to open before the end of 2026.",
+      "article_link": "https://whatnow.com/columbus/restaurants/dells-ice-cream-coffee-plans-permanent-hilliard-location-at-crooked-can/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "C & M Turner Street Cafe",
+      "location": "1208 Turner Rd, Lansing, MI 48906",
+      "event_type": "Opening",
+      "event_date": "second week of January",
+      "status": "under construction",
+      "short_description": "A new cafe called C & M Turner Street Cafe is under construction at 1208 Turner Rd in Lansing’s Old Town. Founder Chris McMillen plans to open in the second week of January, offering muffins, baked goods, coffee, tea, and wholesale pie products.",
+      "article_link": "https://whatnow.com/detroit/restaurants/c-m-turner-cafe-concept-moving-into-lansings-old-town-neighborhood/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Firehouse Subs (Miami International Airport)",
+      "location": "2100 NW 42nd Ave., Miami, FL 33142",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has not yet announced an official opening date",
+      "short_description": "Firehouse Subs plans to open a new airport location on the second level near Door 18 at Miami International Airport. The filing provides the address but no official opening date has been announced.",
+      "article_link": "https://whatnow.com/miami/restaurants/firehouse-subs-landing-at-miami-international-airport/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Kado Chelsea",
+      "location": "215 8th Ave., New York, NY 10011",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "Construction is underway",
+      "short_description": "Kado Chelsea, a refined sushi concept by James Kwon and Chef Jacky Ye, will open at 215 8th Ave. in Chelsea. Construction is underway with plans to finish by December and open in January 2027. The restaurant will feature a 12‑seat sushi bar and take‑out options.",
+      "article_link": "https://whatnow.com/new-york/restaurants/the-gates-of-sushi-heaven-are-opening-in-chelsea/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Tapas and Beer",
+      "location": "22307 El Paseo, Rancho Santa Margarita, CA 92688",
+      "event_type": "Closing",
+      "event_date": "November 22, 2026",
+      "status": "permanently closing",
+      "short_description": "Tapas and Beer, a Spanish‑themed sports bar in Rancho Santa Margarita, announced it will close permanently after more than a decade of service. The restaurant’s final day is set for Sunday, November 22, 2026. Owners thanked the community in a farewell message.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/a-longstanding-rancho-santa-margarita-restaurant-is-saying-goodbye-on-november-22/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "BrickTop’s",
+      "location": "12 NE Fifth Avenue, Delray Beach, FL 33483",
+      "event_type": "Opening",
+      "event_date": "early March 2027",
+      "status": "expects to open",
+      "short_description": "BrickTop’s is planning a new restaurant at 12 NE Fifth Avenue in Delray Beach. COO Tony Grippo said the team expects to open in early March 2027. The 4,420‑sq‑ft location will add to the chain’s Florida footprint alongside existing sites in Naples, Miramar Beach, Palm Beach, and Palm Beach Gardens.",
+      "article_link": "https://whatnow.com/miami/restaurants/bricktops-targets-spring-2027-opening-in-delray-beach/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "The Elite Pier House",
+      "location": "4505 Bienville Blvd, Ocean Springs, MS 39564",
+      "event_type": "Opening",
+      "event_date": "late November",
+      "status": "is expanding",
+      "short_description": "The Elite Pier House, a celebrated coastal Alabama dining spot, is expanding to Ocean Springs, Mississippi. The new location at 4505 Bienville Blvd is scheduled to open in late November. The restaurant will replicate its scratch‑made, diet‑friendly menu that earned a loyal following at its flagship Spanish Fort site.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/popular-alabama-gulf-coast-spot-expanding-to-ocean-springs/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "The Still – An Poitin Stil",
+      "location": "2323 York Rd, Timonium, MD 21093, United States",
+      "event_type": "Closing",
+      "event_date": "December 23, 2026",
+      "status": "will shut down",
+      "short_description": "The Still – An Poitin Stil, an Irish pub and restaurant in Timonium, announced it will shut down its operations on December 23, 2026 after 27 years. The founders are retiring and will serve a final meal in December. The closure follows a social‑media announcement thanking the community.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/after-nearly-30-years-timoniums-iconic-irish-pub-bids-farewell/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Café Bastille",
+      "location": "3005 Ponce de Leon Blvd, Suite 142, Coral Gables, FL 33134",
+      "event_type": "Opening",
+      "event_date": "around December 15",
+      "status": "will open",
+      "short_description": "Café Bastille announced it will open its fifth location on the plaza level of The Plaza Coral Gables, taking over the former Sweet Paris Crêperie & Café space. The all‑day brunch concept will bring Parisian café culture to Coral Gables with a menu featuring Turkish Eggs, Shakshuka, and specialty drinks.",
+      "article_link": "https://whatnow.com/miami/restaurants/cafe-bastille-brings-its-all-day-parisian-brunch-to-coral-gables/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Flower Child",
+      "location": "8226 W Happy Valley Rd, Peoria, AZ 85383",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has officially opened",
+      "short_description": "Flower Child opened its 48th restaurant at The Trailhead in Peoria, offering a health‑forward menu with vegetarian, vegan, and gluten‑free options. The space features murals and artwork celebrating Arizona, and it serves lunch and dinner daily from 11 a.m. to 9 p.m.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/now-open-flower-child-arrives-in-peoria/",
+      "published_date": "November 18, 2026"
+    },
+    {
+      "store_name": "Bondi Sushi",
+      "location": "1221 6th Ave., New York, NY 10020",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to debut the location in 2027",
+      "short_description": "Bondi Sushi signed a 4,400‑sq‑ft lease at 1221 Avenue of the Americas in Rockefeller Center and will add an “evolved interior design,” private dining room, and expanded takeout area. The brand, which already operates several NYC locations, says the new Midtown Manhattan spot is its fifteenth and will open in 2027.",
+      "article_link": "https://whatnow.com/new-york/restaurants/bondi-sushi-rolls-out-largest-nyc-location-yet-at-rockefeller-center/",
+      "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "La Patrona Mexican Restaurant and Tequila Bar",
+      "location": "400 Bridge St, Phoenixville, PA 19460",
+      "event_type": "Closing",
+      "event_date": "November 22, 2026",
+      "status": "permanently closing",
+      "short_description": "La Patrona, a family‑owned Mexican restaurant in Phoenixville, announced it will close permanently after its final service day on Sunday, November 22. The five‑year‑old eatery thanked the community and hinted at looking for a new location in the future.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/a-family-owned-mexican-restaurant-is-saying-goodbye-to-its-phoenixville-location/",
+      "published_date": "November 17, 2026"
     }
   ],
   "non_working": [
