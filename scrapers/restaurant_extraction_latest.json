@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -22770,6 +22770,416 @@
       "short_description": "La Patrona, a family‑owned Mexican restaurant in Phoenixville, announced it will close permanently after its final service day on Sunday, November 22. The five‑year‑old eatery thanked the community and hinted at looking for a new location in the future.",
       "article_link": "https://whatnow.com/philadelphia/restaurants/a-family-owned-mexican-restaurant-is-saying-goodbye-to-its-phoenixville-location/",
       "published_date": "November 17, 2026"
+    },
+    {
+      "store_name": "Pure Superfood",
+      "location": "5959 Shellmound St, Emeryville, CA 94608",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Pure Superfood announced it is preparing to open a new kiosk location (Kiosk 10) at Emeryville Public Market. The lease has been signed, but opening date and hours have not been disclosed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/pure-superfood-to-open-at-emeryville-public-market/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Ace of Wingz",
+      "location": "2601 E Speedway Blvd, Tucson, AZ 85716",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans to open",
+      "short_description": "Ace of Wingz revealed plans to open its seventh restaurant in Tucson, targeting the former Quiznos space at 2601 E. Speedway Blvd. No opening date has been announced.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/ace-of-wingz-plans-seventh-location-in-tucson/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Gato Negro",
+      "location": "18 Porter Dr, Royal Oaks, CA 95076",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to establish",
+      "short_description": "Gato Negro is preparing to establish a new location at 18 Porter Dr, Royal Oaks, pending a Type 42 alcohol license. The final name and opening timeline have not been confirmed.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/gato-negro-preparing-for-new-location-in-monterey-county/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Aperitif",
+      "location": "117 E Commonwealth Ave, Fullerton, CA 92832",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Aperitif, operated by APERITIF DTF LLC, is preparing to open a restaurant in downtown Fullerton at 117 E. Commonwealth Ave, after receiving a Type 41 license. No opening timeline has been announced.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/aperitif-preparing-to-open-restaurant-in-downtown-fullerton/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Light Heart Coffee",
+      "location": "4450 E Elliot Rd, Gilbert, AZ 85234",
+      "event_type": "Opening",
+      "event_date": "December 2026",
+      "status": "targeting a mid-December opening",
+      "short_description": "Light Heart Coffee plans to add a fourth café inside Mission Community Church at 4450 E. Elliot Rd, aiming for a mid‑December opening pending door installation. The announcement was made via Instagram.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/light-heart-coffee-plans-december-opening-at-mission-community-church/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Qargo Coffee",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning to open",
+      "short_description": "Qargo Coffee, a premium Italian‑inspired coffee and pastry brand, announced plans to open a company‑owned café in Berkeley as part of its national expansion. The Berkeley location is one of several proposed corporate cafés in development across the United States.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/qargo-coffee-to-open-berkeley-location-as-part-of-national-expansion/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Eureka!",
+      "location": "28 S San Marcos Pl, Chandler, AZ 85225",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date for the Chandler restaurant has not been announced.",
+      "short_description": "Eureka! filed a permit to open a restaurant in downtown Chandler in the former Recreo Cantina space at 28 S. San Marcos Place. The 3,335‑sq‑ft indoor and 4,704‑sq‑ft outdoor renovation is underway, but an opening date has not been announced.",
+      "article_link": "https://whatnow.com/phoenix/restaurants/eureka-plans-chandler-restaurant-at-former-recreo-cantina/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Crazy Mexican Sports Bar",
+      "location": "7990 Horizon Center Blvd, Memphis, TN 38133",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "It is not yet clear when, precisely, Crazy Mexican Sports Bar will be opening its new location.",
+      "short_description": "Crazy Mexican Sports Bar has an application for a certificate of occupancy under review for a 7,597‑sq‑ft space at 7990 Horizon Center Boulevard in Memphis. The restaurant plans to expand to this new location, though the opening timeline remains unclear.",
+      "article_link": "https://whatnow.com/memphis/restaurants/crazy-mexican-sports-bar-readying-its-next-course/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Trident Galley & Raw Bar",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "end of 2026",
+      "status": "won’t be renewing its lease in the Shipyard at the beginning of the new year",
+      "short_description": "Trident Galley & Raw Bar announced it will not renew its lease at the Hingham Shipyard, keeping the location open through the end of 2026. The move is part of a relocation to Hull, with the current site closing when the lease expires.",
+      "article_link": "https://whatnow.com/boston/restaurants/trident-galley-raw-bar-at-the-hingham-shipyard-to-relocate-to-hulls-nantasket-beach/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Trident Galley & Raw Bar",
+      "location": "1 Hull Shore Dr, Hull, MA 02045",
+      "event_type": "Opening",
+      "event_date": "spring 2027",
+      "status": "targeting a spring 2027 reopen",
+      "short_description": "The restaurant will relocate to the upper floor of The Parrot at 1 Hull Shore Drive in Hull, rebranding as Trident at the Beach. Renovations are underway with a target reopening in spring 2027.",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Marilyn’s",
+      "location": "2852 N Southport Ave, Chicago, IL 60657",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "early 2027 opening",
+      "short_description": "Southport Betty’s is introducing Marilyn’s bar at 2852 N Southport Avenue in Chicago’s Lakeview. The wine and cocktail bar, owned by Dimitri Syrkin‑Nikolau with partners, is targeting an early 2027 opening. The concept will serve small bites and crafted drinks.",
+      "article_link": "https://whatnow.com/chicago/restaurants/new-bar-marilyns-to-serve-crafted-cocktails-and-bites-in-lakeview/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Meat Moot (Tampa)",
+      "location": "8633 N. 56th St., Suites 1 and 2, Temple Terrace",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "submitted plans",
+      "short_description": "Meat Moot Tampa LLC filed plans for a new restaurant at 8633 N. 56th St., Suites 1 and 2 in Temple Terrace. The filing, dated November 9, shows the project is in plan‑review stage with no opening date disclosed. The concept will focus on slow‑smoked meats.",
+      "article_link": "https://whatnow.com/tampa/restaurants/meat-moot-plans-tampa-restaurant-at-north-56th-street-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Tacos Nayarit",
+      "location": "7335 Garners Ferry Rd., Columbia, SC 29209",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "gearing up to open",
+      "short_description": "Tacos Nayarit will occupy the former Shoney’s space at 7335 Garner’s Ferry Rd. in Columbia, SC. The Mexican grill and bar is preparing its third Columbia‑area location. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/charleston/restaurants/tacos-nayarit-sets-sights-on-third-columbia-area-restaurant/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Jeyas Cafe & Patisserie",
+      "location": "1710 R St, Sacramento, CA 95811, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "on track to open in late spring 2027",
+      "short_description": "Jeyas Cafe & Patisserie plans to open a French‑style bakery at 1710 R St. in Sacramento’s Ice Blocks. The 1,500‑sq‑ft space, formerly Pressed Juicery, is slated for late spring 2027. Owner Yusuf Topal says the cafe will serve croissants, crepes, coffee and more.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/jeyas-cafe-patisserie-bringing-a-french-bakery-to-midtown-sacramento/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Flying Pig Tavern & Tap",
+      "location": "971 Bristol Pike, Andalusia, PA 19020",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "landing shortly",
+      "short_description": "Flying Pig Tavern & Tap is set to open at 971 Bristol Pike in Bensalem, PA as its sixth location. The restaurant will feature shareable plates, pizzas, and a large beer list. The team indicated the opening will be “landing shortly” with no specific date.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/flying-pig-tavern-tap-set-to-land-in-bensalem-for-sixth-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "The Wine Collective at Domo",
+      "location": "18817 E. Highway 88, Clements",
+      "event_type": "Opening",
+      "event_date": "by Feb. 1, 2027",
+      "status": "hoping to open by Feb. 1, 2027",
+      "short_description": "The Wine Collective at Domo, a tasting room featuring wines from multiple wineries, is planning to open at 18817 E. Highway 88 in Clements. Owner Chris Del Prato hopes to open by Feb. 1, 2027, pending state alcohol‑license approval. The venue will serve wine by the glass, wood‑fired pizza on weekends, and will be dog‑friendly.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/the-wine-collective-at-domo-planning-to-open-in-clements/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "WOW Pizza Sandwiches and More filed a food‑service plan with the Florida Department of Business & Professional Regulation for 12351 NW 18th St., Pembroke Pines. The filing, submitted on November 11, indicates the project is under review and does not confirm an opening date. No further details about the restaurant’s concept or timeline were provided.",
+      "article_link": "https://whatnow.com/miami/restaurants/wow-pizza-sandwiches-and-more-files-restaurant-plans-in-pembroke-pines/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Kommon Ground Cafe",
+      "location": "101 Cricket Ave., Ardmore, PA 19003",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "An official opening date has not yet been announced.",
+      "short_description": "Kommon Ground Cafe announced plans to open a Korean‑inspired family‑owned café at 101 Cricket Ave. in Ardmore. The space previously housed Main Line Quality Dry Cleaners, which suffered fire damage last April. An official opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/korean-inspired-family-owned-cafe-brewing-up-in-ardmore/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Emeraude Bakery",
+      "location": "11330 Lebanon Rd, Mt. Juliet, TN 37122, USA",
+      "event_type": "Opening",
+      "event_date": "February 1, 2027",
+      "status": "scheduled to open February 1, 2027",
+      "short_description": "Emeraude Bakery will relocate to a larger 3,200‑sq‑ft space at 11330 Lebanon Road in Mt. Juliet, with the new bakery scheduled to open February 1, 2027. The move will add indoor seating, expanded production capacity, and additional lockers for pre‑order pickups. The current location will remain open during the transition.",
+      "article_link": "https://whatnow.com/nashville/restaurants/emeraude-bakery-prepares-for-larger-mt-juliet-location-in-february/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Cafe Kosta",
+      "location": "525 Lincoln Ave, Winnetka, IL 60093",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "under construction",
+      "short_description": "Ballyhoo Hospitality is developing the ‘Cafe Kosta’ concept at 525 Lincoln Ave. in downtown Winnetka. The project is under",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Burger King",
+      "location": "2144 S Byron Butler Pkwy., Perry, FL 32348",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "will open",
+      "short_description": "Burger King announced a new location at 2144 S. Byron Butler Pkwy. in Perry, FL. The Florida Department of Business and Professional Regulation confirmed the planned site, but no official opening date has been released.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/burger-king-brings-its-you-rule-slogan-to-perry-with-planned-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses LOULOU HOUSE filing food‑service plans but does not provide an opening or closing date, nor a confirmed status of opening or closure.",
+      "article_link": "https://whatnow.com/miami/restaurants/loulou-house-files-food-service-plans-for-miami-family-destination/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Penn Station",
+      "location": "Address not specified",
+      "event_type": "Opening",
+      "event_date": "Q3 of 2027",
+      "status": "hoping to open",
+      "short_description": "Franchisee Brendan Gumbel plans to bring Penn Station’s first Troy location to the suburb, with an anticipated opening in Q3 of 2027. No specific address has been released, and the team will share more details as the date approaches.",
+      "article_link": "https://whatnow.com/detroit/restaurants/penn-station-franchisee-to-introduce-first-location-to-troy/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Yalla Yalla",
+      "location": "152 W Girard Ave., Philadelphia, PA 19123",
+      "event_type": "Opening",
+      "event_date": "late December or early January",
+      "status": "aiming to open",
+      "short_description": "Yalla Yalla, a scratch‑made shawarma shop, is set to open at 152 W. Girard Ave. in Philadelphia’s Northern Liberties. Construction is nearly finished, and owner Chef Moe aims to open the eatery by late December or early January.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/yalla-yalla-brings-scratch-made-shawarma-to-northern-liberties/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Biscuitville",
+      "location": "0 Marketplace Drive, Sanford, NC 27332, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Biscuitville announced plans for a second Sanford restaurant on Marketplace Drive. The breakfast chain has not disclosed an opening timeline, but the site is slated for development.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/biscuitville-adds-second-sanford-location-as-north-carolina-chain-continues-to-grow/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Culver’s",
+      "location": "1548 Georgesville Road, Columbus, OH (address given without zip)",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "plans for another Columbus location",
+      "short_description": "Culver’s filed development plans for a new restaurant on Georgesville Road, south of the I‑270 interchange. The site is currently vacant and the chain already operates several locations in Central Ohio. No construction timeline or opening date has been announced.",
+      "article_link": "https://whatnow.com/columbus/restaurants/culvers-plans-another-columbus-location-as-central-ohio-expansion-continues/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Bar Louette by Michael Mina",
+      "location": "10295 Collins Ave, Bal Harbour, FL 33154, USA",
+      "event_type": "Opening",
+      "event_date": "February 2027",
+      "status": "preparing for a February 2027 reopening",
+      "short_description": "A new restaurant concept called Bar Louette by Michael Mina is proposed for the Ritz‑Carlton Bal Harbour. State records show a food‑service plan filed for the address, and the hotel is slated to reopen in February 2027 after a major renovation.",
+      "article_link": "https://whatnow.com/miami/restaurants/michael-minas-bar-louette-headed-to-ritz-carlton-bal-harbour/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "The Edge Cocktail Cafe",
+      "location": "3 Twisp Airport Rd, Twisp, WA 98856",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planned",
+      "short_description": "The Edge Cocktail Cafe has applied for a liquor license to operate at 3 Twisp Airport Road, the former site of 6 Point Saloon which closed in 2024. No opening date, menu, or hours have been announced yet.",
+      "article_link": "https://whatnow.com/seattle/restaurants/the-edge-cocktail-cafe-planned-for-twisp-airport-road/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Salty Blue",
+      "location": "709 N 35th St, Seattle, WA 98103",
+      "event_type": "Opening",
+      "event_date": "January 2027",
+      "status": "expects to open in early 2027",
+      "short_description": "Salty Blue will take over the former CrackleMi space at 709 N 35th St in Fremont. Owner Xenos Nair says the restaurant is slated to open in early 2027, with the website listing a January 2027 opening.",
+      "article_link": "https://whatnow.com/seattle/restaurants/salty-blue-plans-january-opening-in-fremont/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Henceforth",
+      "location": "1335 H St NE, Washington, DC 20002, United States",
+      "event_type": "Closing",
+      "event_date": "End of December 2026",
+      "status": "will close by the end of December 2026",
+      "short_description": "Henceforth, a craft brewery, wine bar, and gastropub, announced it will shut down its Atlas District location by the end of December 2026 due to low traffic and economic challenges. The venue opened in May 2025 and will cease operations after a final month of service.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/washington-craft-brewery-and-gastropub-to-shut-down-by-year-end-amid-economic-challenges/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Captain Hook",
+      "location": "2371 St Claude Ave, New Orleans, LA 70117",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "upcoming",
+      "short_description": "Captain Hook Wings and Shrimp is set to occupy the former Hook an Anchor drive‑thru at 2371 St Claude Ave in New Orleans. The 1,000‑sq ft location will serve fried fish, chicken, Philly steaks and burgers, and will not serve alcohol. No further details have been released.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/baton-rouge-seafood-chain-coming-to-saint-claude-drive-thru-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Naked Farmer",
+      "location": "2631 Fourth St N, St. Petersburg, FL 33704, USA",
+      "event_type": "Opening",
+      "event_date": "December 8",
+      "status": "will open",
+      "short_description": "Naked Farmer will open its second St. Petersburg restaurant on December 8 at 2631 Fourth St N, taking over the former EVOS Feel Great Food space. The 1,900‑sq ft venue will have 26 indoor and 60 outdoor seats after interior renovations. The brand already operates 11 locations across several states.",
+      "article_link": "https://whatnow.com/tampa/restaurants/naked-farmer-sets-december-opening-for-second-st-petersburg-restaurant/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Panera Bread",
+      "location": "15101 Paramount Blvd, Paramount, CA 90723",
+      "event_type": "Opening",
+      "event_date": "November 20",
+      "status": "is opening",
+      "short_description": "Panera Bread is opening its first bakery‑cafe in Paramount at 15101 Paramount Blvd on November 20. The location will feature indoor seating, a drive‑thru and a grand opening ribbon‑cutting ceremony at 6 a.m. The cafe is expected to create 30‑35 local jobs.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/a-major-bakery-cafe-chain-is-opening-its-first-location-in-paramount/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "7 Brew Coffee",
+      "location": "209 N Industrial Blvd, Bedford, TX 76021, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning",
+      "short_description": "7 Brew Coffee filed a construction plan for a new drive‑thru shop at 209 N Industrial Blvd in Bedford, Texas. The project, estimated at $1.6 million, is slated to start March 11 2027 and finish June 11 2027. No opening date has been announced.",
+      "article_link": "https://whatnow.com/dallas/restaurants/7-brew-coffee-files-construction-plans-for-bedford-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "R&R Bar & Grill",
+      "location": "108 S Main St, Marysville, OH 43040, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting an opening before Thanksgiving",
+      "short_description": "R&R Bar & Grill plans to open in the former Trusthouse Kitchen space at 108 S Main St, Marysville, inside the historic Bank of Marysville building. Owners aim to launch the neighborhood tavern before Thanksgiving, offering bar fare and entertainment. The previous restaurant closed after opening in 2025.",
+      "article_link": "https://whatnow.com/columbus/restaurants/rr-bar-grill-to-replace-closed-trusthouse-kitchen-in-marysville/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Party Fowl (Donelson)",
+      "location": "2620 Lebanon Pike, Nashville, TN 37214",
+      "event_type": "Closing",
+      "event_date": "November 17",
+      "status": "permanently closed",
+      "short_description": "Nashville‑based hot chicken restaurant and sports bar Party Fowl officially closed its Donelson location. The team announced the closure effective November 17 and said the restaurant was permanently closed.",
+      "article_link": "https://whatnow.com/nashville/restaurants/after-8-years-popular-nashville-hot-chicken-restaurant-closes-its-donelson-location/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Ralph Lauren (store)",
+      "location": "2855 Stevens Creek Blvd, Santa Clara, CA 95050",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opened a new store",
+      "short_description": "Ralph Lauren opened a new store at Westfield Valley Fair Shopping Center in San Jose, California. The store offers products across Ralph Lauren Collection, Purple Label and Polo Ralph Lauren.",
+      "article_link": "https://whatnow.com/san-francisco/retail/ralph-lauren-opens-new-store-and-ralphs-coffee-in-san-jose/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Ralph’s Coffee (adjacent café)",
+      "location": "2855 Stevens Creek Blvd, Santa Clara, CA 95050",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opened",
+      "short_description": "Adjacent to the store, the city’s first permanent Ralph’s Coffee location opened, offering the brand’s signature café experience with blends, teas, pastries and apparel.",
+      "article_link": "https://whatnow.com/san-francisco/retail/ralph-lauren-opens-new-store-and-ralphs-coffee-in-san-jose/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "Pizza Guys",
+      "location": "3601 Jamboree Rd, Newport Beach, CA 92660",
+      "event_type": "Opening",
+      "event_date": "Nov. 12",
+      "status": "grand opening",
+      "short_description": "Pizza Guys celebrated the grand opening of its Newport Beach location on Thursday, Nov. 12, at 3601 Jamboree Rd., Suite 3. The Sacramento‑based pizza franchise is owned and operated by Nader Iskander.",
+      "article_link": "https://whatnow.com/orange-county/restaurants/pizza-guys-opens-in-newport-beach/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses a permit filing for a potential Spotted Cow Steakhouse location near RDU Airport, but no opening date or confirmation is provided.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/spotted-cow-steakhouse-could-make-triangle-debut-near-rdu-airport/",
+      "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "City Winery",
+      "location": "120 Ontario St, Toronto, ON M5A 1C4, Canada",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is preparing to make its Canadian debut",
+      "short_description": "City Winery, a New York‑based hospitality and live‑music concept, announced plans for its first location outside the United States in downtown Toronto. The venue will be part of the ROQ City development at 261 Queen Street East and is expected to open in early 2028. It will feature a listening room, full‑service restaurant, bar and private event spaces.",
+      "article_link": "https://whatnow.com/toronto/restaurants/city-winery-to-open-first-international-location-in-toronto/",
+      "published_date": "November 18, 2026"
     }
   ],
   "non_working": [
