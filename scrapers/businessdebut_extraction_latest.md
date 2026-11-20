@@ -1,6 +1,11 @@
+**Extracted Business Openings & Closures**
+
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| The Village Clubhouse | 2421 Malcom Bridge Rd, Suite 830, Bogart, GA 30622 | Opening | early January | targeting early January opening | The Village Clubhouse is a 14,500‑sq‑ft dining and entertainment venue that will include a full‑service restaurant, bar, duckpin bowling, arcade games and golf simulators. Co‑owners Hank Randolph and Rodney Jones plan to hold private events in December and aim for the first public opening in early January. | https://www.businessdebut.com/the-village-clubhouse-bringing-entertainment-and-dining-to-bogart/ | 2026-11-18 |
+| Ember | 5 Biltmore Ave, Suite 105, Asheville, NC 28801 | Opening | December 3 | opens December 3rd | Ember, a fire‑driven dinner concept by Layla Neuroth, will open on December 3 in the upstairs space of 5 Biltmore Ave. The limited opening runs Dec 3‑6 with full service beginning Dec 10. The concept emphasizes wood‑fire cooking with tableside components. | https://www.businessdebut.com/team-behind-bru-and-farm-se-opening-ember-on-biltmore-ave/ | 2026-11-19 |
+| B&L Caribbean Restaurant (existing location) | Address not specified | Closing | November 24 | will close November 24 | B&L Caribbean Restaurant will close its current location on November 24 to move equipment before relocating. The closure allows the business to transition to a larger space in Carlisle. | https://www.businessdebut.com/b-l-caribbean-restaurant-moving-to-larger-carlisle-location-on-nov-28/ | 2026-11-19 |
+| B&L Caribbean Restaurant (new location) | 105 N Hanover St, Carlisle, PA 17013 | Opening | November 28 | grand opening scheduled for November 28 | B&L Caribbean Restaurant plans to open a new, larger location at 105 N Hanover St on Small Business Saturday, November 28. The new space will seat about 50 guests and continue the Jamaican‑focused menu. | https://www.businessdebut.com/b-l-caribbean-restaurant-moving-to-larger-carlisle-location-on-nov-28/ | 2026-11-19 |
+| InterSmak Restaurant & Bar | 9650 N Kings Hwy, Unit D1, Myrtle Beach, SC 29572 | Opening | December 31 | targeting a grand opening around December 31 | InterSmak Restaurant & Bar is preparing to open at 9650 N Kings Hwy with a target grand opening around December 31. The venue will feature European‑inspired dining, a bar, dance floor, and live entertainment after a full renovation of the former Dumpling and Seafood restaurant. | https://www.businessdebut.com/intersmak-restaurant-bar-bringing-european-inspired-dining-and-nightlife-to-myrtle-beach/ | 2026-11-19 |
 
-Non-working or unusable articles List:
-• None
+**Non-working or unusable articles List:**  
+None
