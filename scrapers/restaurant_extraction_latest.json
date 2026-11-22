@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -23870,6 +23870,36 @@
       "short_description": "PopUp Bagels is planning a new Beverly Hills location at 168 S Beverly Drive. Franchisee Sweetzer aims for an opening in 2027, ideally in January, pending permitting and approvals. The shop will add to the brand’s Southern California footprint.",
       "article_link": "https://whatnow.com/los-angeles/restaurants/popup-bagels-plans-beverly-hills-opening/",
       "published_date": "November 19, 2026"
+    },
+    {
+      "store_name": "The Swamp Donkey Bar & Grill",
+      "location": "4559 Johnston St, Lafayette, LA 70503",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "upcoming",
+      "short_description": "The Swamp Donkey Bar & Grill is set to open in December at 4559 Johnston St, Lafayette, LA 70503, taking over the former Legend’s Bar & Grill location. Crews have renovated the building’s exterior with a green tiki‑style facade.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/tropical-swamp-bar-coming-to-lafayette-commercial-strip/",
+      "published_date": "November 21, 2026"
+    },
+    {
+      "store_name": "Red Dirt Taproom",
+      "location": "112 23rd St, Galveston, TX 77550",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is Set to Open",
+      "short_description": "Red Dirt Taproom plans to open in Galveston at the historic Thompson Building, 112 23rd St. The venue will feature a self‑pour tap wall, 11 beers on tap, and family‑friendly amenities such as pool and darts. Owner Cody Craig confirmed the opening is expected by the end of the year or early next year.",
+      "article_link": "https://whatnow.com/houston/restaurants/red-dirt-taproom-a-new-hangout-spot-and-concept-is-set-to-open-in-galveston/",
+      "published_date": "November 20, 2026"
+    },
+    {
+      "store_name": "Gritz Cafe",
+      "location": "1122 D St, Las Vegas, NV 89106",
+      "event_type": "Opening",
+      "event_date": "2027",
+      "status": "expected to open",
+      "short_description": "Gritz Cafe plans to open a second location inside The Good Word Social Club at 1122 D St on Las Vegas’s Historic Westside. The Las Vegas City Council approved a lease agreement for the venue, and the restaurant is expected to open in 2027. The Southern‑style breakfast and lunch eatery is a locally owned, community‑driven restaurant.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/gritz-cafe-to-open-inside-the-good-word-social-club/",
+      "published_date": "November 20, 2026"
     }
   ],
   "non_working": [

@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-11-21 02:12 UTC",
+  "last_updated": "2026-11-22 01:15 UTC",
   "total": 84,
   "data": [
+    {
+      "date": "November 21, 2026",
+      "url": "https://whatnow.com/new-orleans/restaurants/tropical-swamp-bar-coming-to-lafayette-commercial-strip/",
+      "title": "‘Tropical Swamp Bar’ Coming to Lafayette Commercial Strip",
+      "address": "4559 Johnston St, Lafayette, LA 70503"
+    },
     {
       "date": "November 20, 2026",
       "url": "https://whatnow.com/orange-county/restaurants/alfred-coffee-may-be-planning-newport-beach-location/",
@@ -499,12 +505,6 @@
       "url": "https://whatnow.com/miami/restaurants/wow-pizza-sandwiches-and-more-files-restaurant-plans-in-pembroke-pines/",
       "title": "WOW Pizza Sandwiches and More Files Restaurant Plans in Pembroke Pines",
       "address": "12351 NW 18th St, Pembroke Pines, FL 33026, USA"
-    },
-    {
-      "date": "November 19, 2026",
-      "url": "https://whatnow.com/philadelphia/restaurants/korean-inspired-family-owned-cafe-brewing-up-in-ardmore/",
-      "title": "Korean-Inspired Family-Owned Cafe Brewing Up in Ardmore",
-      "address": "101 Cricket Ave., Ardmore, PA 19003"
     }
   ]
 }
