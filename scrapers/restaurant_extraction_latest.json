@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -24060,6 +24060,306 @@
       "short_description": "Texas Roadhouse is seeking construction bids for a ground‑up restaurant at John R. Williams Highway and Town Center Drive in Covington. The brand is looking to open the new location, with no timeline disclosed.",
       "article_link": "https://whatnow.com/atlanta/restaurants/texas-roadhouse-planning-new-location-in-covington/",
       "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "Naked Farmer",
+      "location": "3450 NW 83rd Ave, Suite 132, Doral, FL 33122",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a restaurant",
+      "short_description": "Naked Farmer announced plans for a new restaurant at 3450 NW 83rd Ave., Suite 132 in CityPlace Doral. No opening date has been released.",
+      "article_link": "https://whatnow.com/miami/restaurants/naked-farmer-plans-restaurant-at-cityplace-doral/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "The Butchery",
+      "location": "965 Carlsbad Village Dr, Carlsbad, CA 92008",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "has been confirmed as a tenant",
+      "short_description": "The Butchery was confirmed as a tenant at The Shops at Lola in Carlsbad, located at 965 Carlsbad Village Dr. The article does not provide an opening date.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/the-butchery-confirmed-at-the-shops-at-lola-in-carlsbad/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Wingstop",
+      "location": "2013 Bernetti Pl, St Cloud, FL 34771, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a wing restaurant",
+      "short_description": "Wingstop franchisee Jose Ribas filed plans for a new dine‑in Wingstop at 2013 Bernetti Place in St. Cloud. The opening date has not been announced.",
+      "article_link": "https://whatnow.com/orlando/restaurants/wingstop-planning-a-new-restaurant-in-st-cloud/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Hudson House",
+      "location": "8515 W University Dr, McKinney, TX 75071",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning a restaurant",
+      "short_description": "Hudson House filed plans to build a restaurant at 8515 W University Dr in McKinney’s West Grove development. Construction is slated to start Feb 1 2027, but no opening date is given.",
+      "article_link": "https://whatnow.com/dallas/restaurants/hudson-house-plans-west-grove-restaurant-in-mckinney/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Venchi",
+      "location": "1401 Abbot Kinney Blvd, Venice, CA 90291",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "new location planned for",
+      "short_description": "Italian chocolatier Venchi announced a new store planned for 1401 Abbot Kinney Blvd in Venice. No opening timeline was provided.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/venchi-plans-third-los-angeles-location/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "Bistro du Marché will change ownership to photographer Eric Wolfinger in March 2027. Wolfinger plans to keep the French bistro identity while adding house‑made bread and a more produce‑driven menu. The transition will involve training with current owner Jean‑Michel Diot.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/la-jollas-bistro-du-marche-to-change-ownership-in-march-2027/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Lots‑a‑Knots",
+      "location": "100 N Main St, Wauconda, IL 60084",
+      "event_type": "Opening",
+      "event_date": "middle of January",
+      "status": "hoping to open sometime in the middle of January",
+      "short_description": "Lots‑a‑Knots is expanding into the space next door at 100 N Main Street for a new cafe and bistro. Co‑owners Jacobbe and Daniela Tereza aim to open the venue in the middle of January. The new spot will serve Italian street food, sandwiches, pasta and pastries.",
+      "article_link": "https://whatnow.com/chicago/restaurants/lots-a-knots-in-wauconda-debuting-new-cafe-and-bistro/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "Asado Cucina Argentina in Tacoma has been purchased by Anna and Jason Ott, who intend to revive classic menu items and refresh the décor. The owners plan a gradual transition while preserving the restaurant’s Argentine‑inspired identity. No specific opening date is mentioned.",
+      "article_link": "https://whatnow.com/seattle/restaurants/asados-new-owners-plan-to-bring-back-old-favorites-in-tacoma/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Kelly’s Steakhouse",
+      "location": "5716 2nd St, Long Beach, CA 90803",
+      "event_type": "Opening",
+      "event_date": "early January 2027",
+      "status": "expected to open in early January 2027",
+      "short_description": "George Mlouk has bought the former Chianina building at 5716 E 2nd St and will reopen it as Kelly’s Steakhouse. The historic steakhouse, originally opened in 1958 and closed in 2013, is slated to open in early January 2027. Details on the new concept remain limited.",
+      "article_link": "https://whatnow.com/los-angeles/restaurants/kellys-steakhouse-to-reopen-at-former-chianina-space/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Sumo Sushi",
+      "location": "11030 SE Oak St, Milwaukie, OR 97222, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is coming to Milwaukie",
+      "short_description": "Sumo Sushi, an all‑you‑can‑eat sushi chain, is taking over the former Shari’s location at 11030 SE Oak St in Milwaukie. The building has been vacant since Shari’s closed its Oregon restaurants in October 2024. No opening date is provided.",
+      "article_link": "https://whatnow.com/portland/restaurants/sumo-sushi-is-taking-over-a-former-sharis-in-milwaukie/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Juniper",
+      "location": "524 Main St, Woodland, CA 95695, USA",
+      "event_type": "Opening",
+      "event_date": "early December 2026",
+      "status": "planning to open",
+      "short_description": "Juniper is a gin‑focused, membership‑based bar set to open at 524 Main St in downtown Woodland. Owner San Bao hopes to open by early December 2026 and plans a courtyard with live music.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/juniper-brings-a-gin-focused-bar-to-downtown-woodland/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "The Goodnight Room",
+      "location": "Address not specified",
+      "event_type": "Closing",
+      "event_date": "late October",
+      "status": "closed in late October",
+      "short_description": "The Goodnight Room, a private speakeasy, closed in late October, freeing up the space that Juniper will occupy. No further details about its address were provided.",
+      "article_link": "https://whatnow.com/sacramento/restaurants/juniper-brings-a-gin-focused-bar-to-downtown-woodland/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Du Cap",
+      "location": "333 W Wolf Point Plaza, Chicago, IL 60654",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "opening date is still to be determined",
+      "short_description": "Du Cap is a new large‑scale dining concept from Lettuce Entertain You slated for the Salesforce Tower riverfront location. An opening date has not been set but is expected in early 2027.",
+      "article_link": "https://whatnow.com/chicago/restaurants/new-french-concept-coming-to-salesforce-tower-on-riverfront/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "La Cantina Off Main",
+      "location": "420 Old Canton Rd, Ball Ground, GA 30107",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening timeline is listed as “TBD”",
+      "short_description": "La Cantina Off Main will open a new location at 420 Old Canton Rd in Ball Ground, offering an elevated Mexican menu. Construction is complete, but the opening timeline remains “TBD”.",
+      "article_link": "https://whatnow.com/atlanta/restaurants/la-cantina-on-main-opening-new-location-in-ball-ground/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Los Vatos Tacos",
+      "location": "6390 Pierson Rd, Flushing, MI 48433",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "hoping to open the location soon after New Years",
+      "short_description": "Los Vatos Tacos is transitioning from a food truck to a brick‑and‑mortar restaurant at 6390 Pierson Rd in Flushing. Owner Javier Lopez says the location should open soon after New Years.",
+      "article_link": "https://whatnow.com/detroit/restaurants/los-vatos-tacos-opening-sit-down-restaurant-in-flushing/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses consumer trends for Thanksgiving dining and does not mention any specific restaurant openings or closures.",
+      "article_link": "https://whatnow.com/news/restaurants/more-than-half-of-americans-will-turn-to-restaurants-for-thanksgiving-dinner-in-2026/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Magna Kusina",
+      "location": "2525 SE Clinton St, Portland, OR 97202",
+      "event_type": "Closing",
+      "event_date": "December 24",
+      "status": "shutting down its operations on Christmas Eve",
+      "short_description": "Magna Kusina, a Filipino restaurant in Portland’s Hosford‑Abernethy neighborhood, announced it will permanently close after seven years. The team will not renew its lease and the final service day is set for Christmas Eve, December 24. Sister locations in Denver and Beaverton have also closed.",
+      "article_link": "https://whatnow.com/portland/restaurants/portlands-beloved-chef-led-filipino-restaurant-to-serve-its-final-meal-on-christmas-eve/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Fiery Crab",
+      "location": "4077 Tulane Ave, New Orleans, LA 70119",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is set to take over",
+      "short_description": "The former Heiux Boil House at 4077 Tulane Ave in New Orleans will be taken over by the Fiery Crab seafood‑boil brand. A permit filing shows the new location will continue selling food, non‑alcoholic drinks and alcohol for on‑premise consumption. The Fiery Crab is expanding its presence in the city.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/fiery-crab-taking-over-mid-city-seafood-boil-spot/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Sea Thai",
+      "location": "114 N 6th St, Brooklyn, NY 11249",
+      "event_type": "Closing",
+      "event_date": "November 22",
+      "status": "has closed its Brooklyn restaurant",
+      "short_description": "Sea Thai, a longtime Thai restaurant in Williamsburg, Brooklyn, announced its closure after nearly 30 years. The restaurant served its final customers on November 22 and posted a farewell message on social media. No reason for the shutdown was given.",
+      "article_link": "https://whatnow.com/new-york/restaurants/after-nearly-30-years-beloved-brooklyn-thai-restaurant-closes-its-doors/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Wicked Barley Brewing Co.",
+      "location": "4100 Baymeadows Rd, Jacksonville, FL 32217",
+      "event_type": "Closing",
+      "event_date": "December 6",
+      "status": "will pour its final drink on Sunday, December 6",
+      "short_description": "Wicked Barley Brewing Co., a waterfront brewery and restaurant in Jacksonville, will close after ten years of operation. The Instagram announcement states the final drink will be poured on Sunday, December 6. The venue will remain open on other days until that date.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/a-10-year-old-jacksonville-brewery-has-announced-its-closing-date/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "John R. Williams Highway and Town Center Drive, Covington, GA 30014",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is planning its new location",
+      "short_description": "Texas Roadhouse is planning a new restaurant at the intersection of John R. Williams Highway and Town Center Drive in Covington, GA. The location will be built from the ground up and no opening date has been released. It will add the chain’s American‑comfort‑food menu to",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Andersons Eatery and Distillery",
+      "location": "410 N Bell Ave, Denton, TX 76209",
+      "event_type": "Closing",
+      "event_date": "Saturday the 28th",
+      "status": "permanently closed",
+      "short_description": "Community‑favorite gastropub Andersons Eatery and Distillery announced it will shut down after its Thanksgiving weekend farewell events, with the final goodbye scheduled for Saturday the 28th at 7 p.m. The family‑owned restaurant cited financial difficulties and will close permanently.",
+      "article_link": "https://whatnow.com/dallas/restaurants/after-thanksgiving-denton-loses-its-family-run-craft-distillery/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Lady Falcon Coffee Club",
+      "location": "3620 Wawona St, San Francisco, CA 94116",
+      "event_type": "Opening",
+      "event_date": "Friday, November 20",
+      "status": "opened",
+      "short_description": "Lady Falcon Coffee Club opened a new roastery, coffee bar and tasting studio in the historic Wawona building in Ocean Beach on Friday, November 20. The space combines a roastery, bar and immersive experiences, marking the brand’s first brick‑and‑mortar location in San Francisco.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/lady-falcon-coffee-club-opens-new-roastery-in-ocean-beach/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Flying Biscuit Café",
+      "location": "5667 FM 1488, Suite D, Magnolia, TX 77354",
+      "event_type": "Opening",
+      "event_date": "Monday, Nov. 23",
+      "status": "opens",
+      "short_description": "The Flying Biscuit Café opened its Magnolia location at 5667 FM 1488 on Monday, Nov. 23, offering breakfast, lunch, a full bar and patio within The Egyptian retail center. Franchise partners Mitchell and Heather Wagner highlighted the café’s community focus and extensive menu.",
+      "article_link": "https://whatnow.com/houston/restaurants/flying-biscuit-cafe-opens-nov-23-on-fm-1488-in-magnolia/",
+      "published_date": "November 23, 2026"
+    },
+    {
+      "store_name": "Din Tai Fung",
+      "location": "5115 Westheimer Rd Suite C-3516, Houston, TX 77056",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to bring",
+      "short_description": "Din Tai Fung filed plans to open its first Texas restaurant in the Galleria, converting six retail spaces into a 16,790‑sq‑ft eatery at 5115 Westheimer Rd, Suite C‑3516. Construction is slated to start in February and finish by June, pending plan review.",
+      "article_link": "https://whatnow.com/houston/restaurants/din-tai-fung-eyes-houston-galleria-for-first-tx-restaurant/",
+      "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "Call Your Mother",
+      "location": "1250 3rd St NE, Washington, DC 20002",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening early next year",
+      "short_description": "Call Your Mother displayed new signage at 1250 3rd St NE, indicating a forthcoming NoMa location that",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Baobab Fare",
+      "location": "16900 E Warren Ave Detroit, MI 48224",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opening date has not yet been announced",
+      "short_description": "Baobab Fare is breaking ground on a second full‑service restaurant at 16900 E. Warren Ave in Detroit’s East English Village. The $2.5 million project will convert a long‑vacant 3,000‑sq‑ft property into a new dining destination, but an opening date has not yet been announced.",
+      "article_link": "https://whatnow.com/detroit/restaurants/baobab-fare-breaks-ground-on-second-detroit-restaurant/",
+      "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "No qualifying business found",
+      "location": "N/A",
+      "event_type": "N/A",
+      "event_date": "N/A",
+      "status": "N/A",
+      "short_description": "The article discusses Qargo Coffee’s expansion plans for downtown Washington, D.C., but provides no specific address, opening date, or confirmed store details.",
+      "article_link": "https://whatnow.com/washington-dc/restaurants/qargo-coffee-targeting-downtown-dc/",
+      "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "Plainfield Bakehouse",
+      "location": "24042 W. Lockport St., Unit 100, Plainfield, IL 60544",
+      "event_type": "Opening",
+      "event_date": "January",
+      "status": "targeting first week of December for final inspections, followed by a soft opening, and then an official grand opening after New Year’s",
+      "short_description": "Plainfield Bakehouse, a collaboration between local bakers Michaela Gallaher and Kim Whisenhunt, will occupy 24042 W. Lockport St., Unit 100 in historic downtown Plainfield. The bakery‑bookstore is slated to open in January, with final inspections targeted for the first week of December and a soft opening before a grand opening after New Year’s.",
+      "article_link": "https://whatnow.com/chicago/restaurants/downtown-plainfield-anticipating-opening-of-new-bakery-bagelry-bookstore/",
+      "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "MilkShake Factory (second Cypress location)",
+      "location": "Mason Road & US 290, Cypress, TX 77433",
+      "event_type": "Opening",
+      "event_date": "late 2027 or early 2028",
+      "status": "expected to open in late 2027 or early 2028, although the project remains in its early stages and its timeline is subject to change",
+      "short_description": "MilkShake Factory announced plans for a second Cypress location at Mason Road & US 290 in the Dunham Pointe development. The new shop is projected to open in late 2027 or early 2028, though the timeline remains tentative as the project is still in early stages.",
+      "article_link": "https://whatnow.com/houston/restaurants/second-milkshake-factory-coming-to-cypress/",
+      "published_date": "November 22, 2026"
     }
   ],
   "non_working": [
@@ -24078,6 +24378,10 @@
     {
       "identifier": "Article 2",
       "reason": "Reason: no business opening or closure details."
+    },
+    {
+      "identifier": "Article 27",
+      "reason": "Reason: no specific business opening or closure details (no address, date, or confirmed store)."
     }
   ]
 }
