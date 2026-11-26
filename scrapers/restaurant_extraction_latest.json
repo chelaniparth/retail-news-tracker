@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "data": [
     {
       "store_name": "Bake n’ Soda",
@@ -24600,6 +24600,226 @@
       "short_description": "Call Your Mother is placing signage at 1250 3rd St NE in NoMa, indicating a new location is forthcoming. The article notes the shop may be ready to greet guests “early next year,” based on a local X account.",
       "article_link": "https://whatnow.com/washington-dc/restaurants/call-your-mother-dialing-into-noma/",
       "published_date": "November 22, 2026"
+    },
+    {
+      "store_name": "The Double Standard",
+      "location": "4359 Town Center Blvd #110, El Dorado Hills, CA 95762",
+      "event_type": "Opening",
+      "event_date": "March 2027",
+      "status": "planning to open",
+      "short_description": "The Double Standard, a late‑night bar, is planning to open at 4359 Town Center Blvd., Suite 110 in El",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Paris Baguette",
+      "location": "5376 Bartram Cmns Dr, Jacksonville, FL 32258",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "targeting fall 2027",
+      "short_description": "Paris Baguette is planning a second bakery café in Jacksonville at Bartram Commons. The 2,500‑sq‑ft location at 5376 Bartram Commons Drive is slated for construction completion early 2027 with a target opening in fall 2027. Franchisee Wei Zhu aims to add seating for 45 guests.",
+      "article_link": "https://whatnow.com/jacksonville/restaurants/paris-baguette-plans-second-jacksonville-bakery-cafe-at-bartram-commons/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "New York Butcher Shoppe",
+      "location": "7201B Iron Horse Xing SW, Aiken, SC 29803",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "New York Butcher Shoppe announced a new store in Aiken, South Carolina, to be located at 7201B Iron Horse Xing SW. The butcher, deli and wine shop will join the local food scene, though no opening date was provided. The brand highlighted its product offerings in the announcement.",
+      "article_link": "https://whatnow.com/charleston/restaurants/new-york-butcher-shoppe-coming-soon-to-aiken/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "94th Aero Squadron",
+      "location": "8885 Balboa Ave, San Diego, CA 92123",
+      "event_type": "Closing",
+      "event_date": "Not specified",
+      "status": "quietly closing in early July",
+      "short_description": "The 94th Aero Squadron restaurant in San Diego closed quietly in early July after a four‑month shutdown. The historic Kearny Mesa dining destination paused operations while ownership transitioned.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/94th-aero-squadron-enters-new-chapter-under-new-san-diego-ownership/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "94th Aero Squadron",
+      "location": "8885 Balboa Ave, San Diego, CA 92123",
+      "event_type": "Opening",
+      "event_date": "November 8, 2026",
+      "status": "resumed regular service",
+      "short_description": "The 94th Aero Squadron reopened on November 8 under new owners after a four‑month closure, restoring regular dining service, Friday nightlife events, and weekend brunches. The restaurant remains at 8885 Balboa Avenue.",
+      "article_link": "https://whatnow.com/san-diego/restaurants/94th-aero-squadron-enters-new-chapter-under-new-san-diego-ownership/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Bar Enzo",
+      "location": "157 3rd Ave., New York, NY 10003",
+      "event_type": "",
+      "event_date": "",
+      "status": "",
+      "short_description": "",
+      "article_link": "",
+      "published_date": ""
+    },
+    {
+      "store_name": "Jimmy John’s",
+      "location": "7067 Radio Rd, Naples, FL 34104, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "currently moving through the permitting process",
+      "short_description": "Jimmy John's is slated to open a new sandwich shop at 7067 Radio Road in Naples, Florida. The project is moving through the permitting process and no opening date has been announced. The chain already has three locations in Naples.",
+      "article_link": "https://whatnow.com/miami/restaurants/jimmy-johns-preparing-to-open-new-naples-location-on-radio-road/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "ROJI",
+      "location": "3405 Edgewater Dr, Orlando, FL 32804, USA",
+      "event_type": "Opening",
+      "event_date": "early 2027",
+      "status": "preparing to open",
+      "short_description": "ROJI, a new Japanese‑inspired restaurant concept, will take over the former Foxtail Coffee and Kelly’s Homemade Ice Cream space at 3405 Edgewater Drive in Orlando’s College Park. The restaurant is expected to open in early 2027. The concept will feature ramen, shareable plates, sake cocktails and a Japanese market.",
+      "article_link": "https://whatnow.com/orlando/restaurants/roji-bringing-japanese-inspired-ramen-and-sake-experience-to-orlandos-college-park/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Fogo de Chão",
+      "location": "5308 Avion Park Dr, Tampa, FL 33607, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Fogo de Chão is preparing to build a new Brazilian steakhouse at 5308 Avion Park Drive in Tampa’s Avion Park Westshore development. The restaurant will be constructed from the ground up and no opening date has been provided. The brand highlights its churrasco menu.",
+      "article_link": "https://whatnow.com/tampa/restaurants/fogo-de-chao-expanding-with-new-location-near-tampa-airport/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Texas Roadhouse",
+      "location": "2575 Maryland Rd., Willow Grove, PA 19090",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "planning a new restaurant",
+      "short_description": "Texas Roadhouse filed a zoning application to replace the former Carrabba’s at 2575 Maryland Road in Willow Grove with a new steakhouse. The plan includes demolishing the existing building and constructing a new one, but an opening timeline has not been announced. The chain aims to bring its hand‑cut steaks and rustic décor to the site.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/texas-roadhouse-plans-new-restaurant-at-former-carrabbas-in-willow-grove/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "16 Handles",
+      "location": "9390 6 Mile Cypress Pkwy, Suite 4, Fort Myers, FL 33966, USA",
+      "event_type": "Opening",
+      "event_date": "December",
+      "status": "grand opening is expected sometime in December",
+      "short_description": "16 Handles is set to open a new frozen‑yogurt shop at 9390 6 Mile Cypress Parkway, Suite 4 in Fort Myers, joining the Cypress Woods Shopping Center. A grand opening is expected sometime in December. The location follows recent expansion plans in Florida.",
+      "article_link": "https://whatnow.com/tampa/restaurants/let-the-good-times-swirl-16-handles-heads-to-fort-myers/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Restaurant Campion",
+      "location": "1701 N 2nd St., Philadelphia, PA 19122",
+      "event_type": "Opening",
+      "event_date": "Summer 2027",
+      "status": "plans to debut Summer 2027",
+      "short_description": "Chef Eric Leveillee will debut his first solo restaurant, Restaurant Campion, at 1701 N. Second St. in Kensington, Philadelphia. The 55‑seat venue will feature a tasting menu, à la carte options, natural wines and a listening room, and is slated to debut Summer 2027.",
+      "article_link": "https://whatnow.com/philadelphia/restaurants/chef-eric-leveillee-to-debut-solo-restaurant-in-kensington/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Nature’s Table",
+      "location": "120 Central Park Dr, Largo, FL 33771",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "is opening",
+      "short_description": "Nature’s Table, a healthy‑food franchise acquired by Fast Fresh Brands, is opening a location inside the Largo Public Library at 120 Central Park Dr. The concept will serve sandwiches, smoothies and other better‑for‑you meals for library visitors. No opening date is provided.",
+      "article_link": "https://whatnow.com/tampa/restaurants/natures-table-opening-inside-the-largo-public-library/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Float Dirty Soda",
+      "location": "1015 Battleground Ave, Greensboro, NC 27408, USA",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to open",
+      "short_description": "Float Dirty Soda is preparing to open a vintage‑inspired soda shop at 1015 Battleground Ave. in Greensboro, offering handcrafted drinks, local ice cream and a music‑filled atmosphere. An opening date has not yet been confirmed.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/float-dirty-soda-to-open-in-greensboro/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Gangnam Korean BBQ",
+      "location": "402 Marchand Dr., Donaldsonville, LA 70346",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to launch",
+      "short_description": "Gangnam Korean BBQ will launch at 402 Marchand Dr. in downtown Donaldsonville, featuring table‑side grills, traditional Korean dishes and lunch boxes. The restaurant is part of a double opening with an adjacent café and is still preparing to launch.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/korean-restaurant-and-sister-cafe-coming-to-ascension-parish/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Lemon Tree Café",
+      "location": "807 Railroad Ave., Donaldsonville",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "preparing to launch",
+      "short_description": "Lemon Tree Café will open at 807 Railroad Ave. in Donaldsonville, offering Korean‑inspired sandwiches, shaved‑ice desserts and specialty drinks. The café is slated to launch alongside Gangnam Korean BBQ, with no specific date announced.",
+      "article_link": "https://whatnow.com/new-orleans/restaurants/korean-restaurant-and-sister-cafe-coming-to-ascension-parish/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "House Wine",
+      "location": "644 N High St, Worthington, OH 43085",
+      "event_type": "Closing",
+      "event_date": "early 2027",
+      "status": "shut its operations in early 2027",
+      "short_description": "House Wine announced it will close its Worthington location at 644 N High St. after nearly 20 years, with the shop remaining open through the holiday season and shutting its doors in early 2027. The closure follows a decision not to renew the lease.",
+      "article_link": "https://whatnow.com/columbus/restaurants/popular-worthington-wine-shop-and-bar-is-closing-after-nearly-20-years/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Kokomo Restaurant and Lounge",
+      "location": "65 Kent Ave, Brooklyn, NY 11249",
+      "event_type": "Closing",
+      "event_date": "December 20",
+      "status": "preparing to close permanently",
+      "short_description": "Kokomo Restaurant and Lounge, a Caribbean restaurant in Brooklyn, announced it will close permanently after six years of service. The final day of operation is set for Sunday, December 20, and the venue will host farewell events such as Friendsgiving and Girl Dinner before closing.",
+      "article_link": "https://whatnow.com/new-york/restaurants/after-six-years-this-brooklyn-restaurant-has-set-a-date-for-its-final-service/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "LuLu’s Express",
+      "location": "2400 Tuckaseegee Rd, Charlotte, NC 28208",
+      "event_type": "Closing",
+      "event_date": "November 29",
+      "status": "closing permanently",
+      "short_description": "LuLu’s Express, a Maryland‑style seafood and Southern soul‑food spot in West Charlotte, is shutting down permanently. The owner confirmed the restaurant will close after a final weekend, with the last day of service on Sunday, November 29.",
+      "article_link": "https://whatnow.com/charlotte/restaurants/popular-west-charlotte-soul-food-restaurant-is-closing-this-sunday-after-one-final-weekend/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "Vitality Bowls",
+      "location": "5293-D Prospect Rd, San Jose, CA 95129",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "celebrated the opening",
+      "short_description": "Vitality Bowls opened its newest San Jose café at Westgate Center, marking the brand’s 31st California location. The new spot offers açaí bowls, smoothies, salads, wraps, and other superfood items.",
+      "article_link": "https://whatnow.com/san-francisco/restaurants/vitality-bowls-celebrates-new-san-jose-cafe-opening/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "CAVA",
+      "location": "5655 Centennial Center Blvd, Las Vegas, NV 89149",
+      "event_type": "Opening",
+      "event_date": "Not specified",
+      "status": "opened its doors",
+      "short_description": "CAVA, the Mediterranean fast‑casual chain, launched its first Nevada location at 5655 Centennial Center Blvd, Suite 170 in Las Vegas. The restaurant opened its doors with a three‑day Community Day event featuring complimentary meals and donations.",
+      "article_link": "https://whatnow.com/las-vegas/restaurants/all-bets-on-bold-flavor-cava-makes-its-las-vegas-debut/",
+      "published_date": "November 25, 2026"
+    },
+    {
+      "store_name": "El Toro Loco Express",
+      "location": "18503 S Dixie Hwy, Cutler Bay, FL 33157",
+      "event_type": "Opening",
+      "event_date": "December 4",
+      "status": "opening December 4",
+      "short_description": "El Toro Loco Steakhouse is launching its first express‑style location, El Toro Loco Express, at 18503 South Dixie Highway in Cutler Bay. The fast‑casual concept will open on December 4 and will serve bowls such as Pork Brisket and American Wagyu Beast. The brand plans additional express locations in South Miami.",
+      "article_link": "https://whatnow.com/miami/restaurants/el-toro-loco-steakhouse-to-open-first-ever-express-location-in-cutler-bay-december-4/",
+      "published_date": "November 24, 2026"
     }
   ],
   "non_working": [
