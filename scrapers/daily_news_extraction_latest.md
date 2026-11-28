@@ -1,321 +1,456 @@
-**Extracted Business Openings & Closures**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | The article lists six restaurants that have recently closed or are closing soon in Calgary. No specific restaurant names, locations, or dates are provided in the excerpt. | https://news.google.com/rss/articles/CBMie0FVX3lxTE5TNW5... | 2026-11-26 16:00:00 |
-| Professor Green | Address not specified | Closing | Not specified | abruptly closes | Professor Green, a fast‑food restaurant, closed abruptly only two months after its grand opening. The article reports the closure without providing a specific date or location. | https://news.google.com/rss/articles/CBMif0FVX3lxTE1a... | 2026-11-25 10:52:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article mentions a large fast‑food chain planning to open a new restaurant near Ipswich, but does not give the chain’s name, address, or opening date. | https://news.google.com/rss/articles/CBMimgFBVV95cUxN... | 2026-11-26 15:59:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article concerns MDI Gurgaon admission processes and does not discuss any retail or restaurant openings or closures. | https://news.google.com/rss/articles/CBMivwFBVV95cUxN... | 2026-11-27 03:40:35 |
-| The Yard Gym | Prosper | Opening | Not specified | plans spring opening | The Yard Gym announced plans to open a new fitness studio in Prosper. The opening is slated for spring, though no exact date or address is given. | https://news.google.com/rss/articles/CBMiswFBVV95cUxP... | 2026-11-27 03:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMid0FVX3lxTE81Tm1qcHRaR2E1bHJEZWFMbFpuWDRfQ3BneVZ3SHU0Tjl3UHFBUGZXdW1UeGlFR080M0FBMnIxdGVwbEtUYXJWMzhlNXpoQnp3eDZlbVR6WGhodExWcmdBQ3FzTVZBWldyUDdETVdsOXFjb2JfUjNr?oc=5 | 2026-11-27 13:45:28 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxQN29nalkteEtOb1ZtMExSb2g4eHRNd1V0U1NWUzN2QVk2XzF6U1gyM1ByLXVaak1qUVdRM3hHTjVpeGdIQzUwdDB1X3VjSDFCNzFIUFFBVFlzV053X3JEUUlac3Z6dWlXelJlRk5JaG9meG9ZZDhMN0NKMXZkaGZIaHB2RzhrczBYakF0aVVwQWVrMWdLYkZ3?oc=5 | 2026-11-27 08:09:12 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMia0FVX3lxTE5qZXhOejhBS0VDcUY4NWtIS3BfdWU4VURpY3JSVWdpbzg3SjRfdkd3ODB0dW5LYkU1MGlKVDJZWmpha0hhdERSNmRCOEVEU1RHOG8zUFlULXlqbXJkRVNWUnAxUG1QM0tRVmkw?oc=5 | 2026-11-26 08:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ0ZBWVVLQi1JYVZZOGJyVTJ6d2xWeGVHaWlBb2RDaWN1d1RocHdTQTlNeG8xdUh6MzBybGxNMUNudjVGYTByaW5MWGlvcVRVT2tBazliRl9NeHdRWERYNmhtSk13VFFtSHhRN3l0Z25MRGJGN2xxLTVZODk2NTRtbTRFaWJJLUlNRmhwNEduSWs?oc=5 | 2026-11-26 15:59:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUJlSTJkTlZNSWtCeURZM0tuY05kSmU1Q04tNVhmVzlwUC11eGlYSlVxM25KZXExS1RHNUZsZS1YVlhVUXlkOXpOa0ZPY2R5MWN3MGRaRTExcDlaUWRLaFdFSW9KZUpBbDNWcE9DZnh1clVjZXBYX21IRW1rYXphcXpLanZJcmkwUnlLM1pIU3dWYTVnaEF6LUdDMWIyUzM2a2c?oc=5 | 2026-11-27 19:44:10 |
 
 ---
 
-**Non-working or unusable articles List:**  
-None
+**Non-working or unusable articles List:**
+- Article 1 — Reason: text missing / could not fetch article (503 error)
+- Article 2 — Reason: text missing / could not fetch article (503 error)
+- Article 3 — Reason: text missing / could not fetch article (503 error)
+- Article 4 — Reason: text missing / could not fetch article (503 error)
+- Article 5 — Reason: text missing / could not fetch article (503 error)
 
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| The Glenrock Hotel | Address not specified | Opening | Not specified | Is Now Open | The Glenrock Hotel in Googong has opened, giving the area its own pub. It marks the first local pub for the community. | https://news.google.com/rss/articles/CBMinAFBVV95cUxPZmt3TXR6UkVabFZKSDZfYVkxMk9KLXZmaUdVNzhXajJhd0NiSmFsdmkwR1RVLVVtRlJsbGtFTjVZMlRfTkVPbDVkVTNLTVp4WjhSYW1QckRySi1SdzFOXzNQTmRnbGxGNTNSc3JRUm1mVTgzM1didXVEb1B1T0ZWM0tOWUJBWVN6WDFaMGRCY0dMNUdvNDI3a3hVX00?oc=5 | 2026-11-26 22:58:19 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxPX2M1LXdoVHRJQ19LOEZoMVdaVENJa0pjdEh1ZFJ6cXp4eTBmQ3A0M2FoRGs4d2VtWGZrNFFXZ0lmaXNHQXJ4UzVMSUp3SFBxT2dmZTBFcE9BZml6cmhQV2VQM1VhU3VfNUlKVHBMWFlLa01hbElEY0ZkbUxRdXl0TU1tTEpBSWxDaWtRQ1FB?oc=5 | 2026-11-26 21:59:31 |
-| Wise Guys Deli & Bodega | downtown Statesboro | Opening | November 30 | sets grand opening | Wise Guys Deli & Bodega plans a grand opening on November 30 in downtown Statesboro. The new eatery will offer deli and bodega items to the community. | https://news.google.com/rss/articles/CBMizAFBVV95cUxQZWg2V2xwanV6UVJ2dG9KeXFSNXFjZV8yOVhNYmJuZVJaV0FUM25KbXNBZ1U4VFJWN3FfVXo5ak5QRF9YX3l0eGJqclJBSmc3a3dTMVNGU19wc0ZFcXg0RlBXT09Ya0JfMTlOcUp4MWRkbWZocUNaZWxOR2hqdFVjZ1c5NGxsTms2dktWNU5TVlpFR05BZW5vclRObVp4V2w4SUtZZE5jdzM3VUF3NnhLamNZeFVkTzVJZ3NabVBUVTBJeVlxM0luMEo0WDLSAcwBQVVfeXFMUGVoNldscGp1elFSdnRvSnlxUjVxY2VfMjlYTWJibmVSWldBVDNuSm1zQWdVOFRSVjdxX1V6OWpOUERfWF95dHhianJSQUpnN2t3UzFTRlNfcHNGRXF4NEZQV09PWGtCXzE5TnFKeDFkZG1maHFDWmVsTkdoanRVY2dXOTRsbE5rNnZLVjVOU1ZaRUdOQWVub3JUTm1aeFdsOElLWWROY3czN1VBdzZ4S2pjWXhVZE81SWdzWm
-
-**Extracted Business Openings / Closures**
+**Extracted Information**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Zizzi | Westwood Cross | Opening | Not specified | now open | Zizzi has opened a new location at Westwood Cross. The restaurant is now open to customers. | https://news.google.com/rss/articles/CBMiggFBVV95cUxOaTN3SUxzQU9fUFF1Wk9jRURoeWJqV3FNaTdUYmExcE5KUy1RNENicUhfd011QXBTcE9rQURnQjAyV0FQdGoxX1duQTlaWFJGZTdHZkMyY3MyRTN6RmJWZFhZZ0xBdHBfV0ltNXdKcXRxZm1zcmpZXzJjMXUzWUt1T3FB?oc=5 | 2026-11-26 17:40:57 |
-| Golden arches | East Ridge | Opening | Not specified | open for business | The ‘Golden arches’ have opened for business in East Ridge. Customers can now visit the new location. | https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYS1Na1ZhZWpjUlFHZThOSE9ZaGN3MGpHV2V0eXhpdVByV3JwQkdlSUdHc1hPQ2l3aVgzcjFqRjdXLUNFQzFHX3FnT1lxMUdERjdyQ3ZVeDA3UVFCQVN6b0FGbHhFT0xaYW1pdXpjbWJRcnhSQUZQZFhLSGttOEs5bGdZWlN1VGJrVzBn?oc=5 | 2026-11-26 17:11:16 |
-| $1B chicken tender giant | Houston | Opening | Not specified | to open | A $1 billion chicken tender giant plans to open a new location in Houston. The article announces the upcoming opening. | https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNWwtS3hGRGpBdkpiay1uaHhxTHF5c21tcjNJMzNRcWg0TDRsYVcxVldoaFFSWFJZN054bmltZk50ZUhUSkY1cWpZVGloVDVvc2JCaFFmRWQyTDdWY3RJbzhidDg2TWxnSVFkeW5DM1lWM3NoMG5kMGhmMTZ2azFCbU9Ga0FhZm5F?oc=5 | 2026-11-26 17:05:54 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2J5d1FzMm5qRTZuNFctX19ybTNVUHkwWHRHUS1aU3RyY2RiNktUUGZkZ2dUODNaMFZxRi12OE42aTA2N2c1dkQ3dmtRcEI1R0NWUmtIVWVSQlQyQmZPQWMzMkN5UDMwdTlZeFhqRlUwMGRyOE92Y3lGZmdJY3gzb25fQVk3ek51eFNTSGo2TXozT1RucXVaZW13?oc=5 | 2026-11-26 13:13:08 |
-| Lidl | Address not specified | Opening | Not specified | opens | Lidl has opened six new stores ahead of Christmas 2026. The new locations are now operational. | https://news.google.com/rss/articles/CBMifEFVX3lxTE45bW43YXdYdXp6ODdMNlN4ZUxhVzF3bDJuR3gwdzNJdnpHQXp3U0ZqQkdxckNKRmZNUEhFNDhhRF9yeWhiWGFMVWFRRXRXa
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikgFBVV95cUxOel93b3RHd3JCR25ha0ZKc1FNclN1WFNJLUNqM1JxOTZrZnZ5V2lHOXZRYllHZWxnRVpsODdhWXp0TEV0LXl4bzZ2bktxSm1VMENURXN6LTJISGtZV2ZrZ1lRMXRRdFVLUmpFdW5yYlVnWFd6eUtKQTJBQUdEemgtYXJ4MFpMbkhJdHFZVnpIYmE0UQ?oc=5 | 2026-11-27 19:19:40 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmlnZU5fLUxIeVlXVzQ0UHF1NmhJX0RSZnN2QkRxRjcya0Q5LXBUeEsxR3dGa2NlRXA1RHhaMlhaeUNlYTVPaGQxdXpEUkFzTFhaek1PazR4WmVSOXJDYmpQOWFwYzhPRFJfNjduT3lta19jbm5tbkhTcjFJdWowTDJmZ0FLV0pwb1g2aS1UcDJfbmctcFN2bnRqYUk0WU0?oc=5 | 2026-11-27 19:11:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2RJbXhuNEU2MGlwTWNsaENKR24yNS15aGZrZEtWQU0wRE9KSlktTm92NVFEa3QyUWlaSDA1UXJ6dzN6VHMzTkdaMDBLQm95LVNsV2NMTUk5bFczQm1vSkRtTXBwUzNhdVV6cFV6WHBidHpzQmM0eVpIdkdiUUtJMXloY2JsaE5XVFNBbVR2WQ?oc=5 | 2026-11-27 17:35:55 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFRjMVdTeHVLTVAxZm1tOUpxcGlhQ1NydUdGMzA4Y1ZxUlhmekFucGVkX2pVSFY1UmpnQzlZdEplYXdhbEFKbzk0R1N4QW14eFZyRHpKa25MYzlLV0JuNEl3VVcxVGRLcjFsMXRSeE1BeFdqTWFLeXd5eTFwYmN2VE1hNjd5cmtjTTEzRXc2RERhT2Rpd04xN0lkcTg2R2RMZm5tY01UYnlzdTdPUEl6dVdR?oc=5 | 2026-11-27 17:20:16 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVlktZnZEUmhyaXlPNkNlbXNFWl9ZMy1SZUdPaVI1ajg3VFNPZDloWXF4MlFhblFRdkJvcjhtcjdsNFpCblZIcGVVTTNIWXNyV01mZWRhaTdlQlRGYWJmRi1iNktudHdQVW9MUU8wczVSTnNUU1hNN3ZDTEFyOV96Z1BqTERhRU5FMDR2dnU1M2lITXU3Zkw0aHl6R2tQSmtaeEt4WHdKNkdDR19EOE9ySVZ5YndkMzFIVjMw?oc=5 | 2026-11-27 16:40:00 |
 
-**Extracted Business Openings/Closures**
+---
 
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxOOG9xYTZ1X0lrSnRKMmdaWWNEbURHbHRDYkZfeHlHQ2phandIbGVfS09hLVZ5Z1VpdXFUYnA4SnVJM3Y2QmVBQmZCcUFZZEpaZU1HN3c5TGF3WFgydmRTeUFOVlk5b3JfMzBRNVRLWHY4aEoxY0tBa1RWTFBRdU5WUEFET0c?oc=5 | 2026‑11‑26 10:29:13 |
-| Tamashii | Axel Towers, Copenhagen | Opening | Not specified | now open | Tamashii is now open on top of Axel Towers in Copenhagen. The venue aims for the stars. | https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3dSYndxNG9pejgxOGhYT1NnT1VqTTQxbWpNZC0xVlNJdEdKamphZ0JmNWd1cE5nUGZSOEZMaC1sOVNWZHVxRzQtelA4a09UZHc2bVNaV3F0Z1VGOF9BcnlTMWNUOVRXRmozdHBWMjFBV1JFcmlRVzI1YVJ5ZnlSLTI1aWlLRmtFTDR3bURPMFA4cnVJcTFjTi1IMGJKUlFFSl9qOWFsa1QtMjUyVGpSRW5QSDM0aC1vX2JYZ080VGpEYXE3?oc=5 | 2026‑11‑26 09:32:33 |
-| FE | Gion District, Kyoto | Opening | Not specified | Opens New Store | FE opens a new store in Kyoto’s Gion District, featuring an in‑store lab that showcases its approach to knife making. | https://news.google.com/rss/articles/CBMihAJBVV95cUxOSHNqX0lkZUhKV051OHgtV0huRXlUNmttWGVzZkFoSzBNZ0JhR0xaRlRDQXZZTWp0a2wxQW44MmZWR3pWWTlUMDF3NHJuaGdaRFlEYnozNFJaa2JFbHJWZF81SHdmR0FVdEdCVkpVREpwZXRkUXh2U0VmNHJab0JLVGxRX282SnJHX1FwTHdTbkFwNDJ6ekc5ajlRb3p3Rjh5XzJ6UlItTGRFZDlfNGYtQUFPeTRCUWMtZUpQaFVFRjgwN3ltcW9yN3lWcW9wVXpkSkthMUF3ZkdialFiU3p1eHUzVjFiWHVIRVlwbTlxM001dTFTWHFTOGFoYlpTelNqT0Y1SA?oc=5 | 2026‑11‑26 09:21:03 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV0FTbnB3R1ZraTNHYVBOWE4wN1dRSWdJamxwRU9sY2g3Y3k5cEdvY1g5TVVWaXlyeWJsVHpVVmVuYzBQWVdvYlBzc1c5Y3JsZUpNN1pwSDFrNEVJZ005c0JVamF4RHBnamZQdjY2a1lFLV81aU9DV1BrR3RSdnd3REcxX2dfemRqdVNpUDhzQzR3cjlsVzlNQnFHdnJyTFljX2RYZDk1U3h1ZzI0YllyTy1vSUp5LVFh0gG4AUFVX3lxTE1XQVNucHdHVmtpM0dhUE5YTjA3V1FJZ0lqbHBFT2xjaDdjeTlwR29jWDlNVVZpeXJ5YmxUelVWZW5jMFBZV29iUHNzVzljcmxlSk03WnBIMWs0RUlnTTlzQlVqYXhEcGdqZlB2NjZr
-
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| CAVED | Dubai | Opening | Not specified | NOW OPEN | The article announces that CAVED is now open in Dubai just in time for UAE National Day. It highlights a “sweet surprise” for visitors. | https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1k1N2h3UTBFRkJfX3E0VGZZdzF4REx6QlZDb2Q2c0Y1MmxCd3JHNi1Kb2xocVVzM3dlZnZiUWN6NE4xbi16VXZ2OW5IbEFtV1JYUnJBTnMzWXI5WHNJWmZaMzJzUXVrdUt2bU9LX25nczN6dnI3WTJXNG0yOXNySkRVOHlEeXI5LWNxNkxpNmZJMzc5UkVPcHRfaGRVLXdxRGNFLTk1clI1MGZhOWxoRDlqNA?oc=5 | 2026‑11‑26 06:02:15 |
-| Le Petit Four | Boston’s Fenway Neighborhood | Opening | Not specified | Expanding | Le Petit Four, a French bakery from Wellesley, is expanding to Boston’s Fenway neighborhood. The announcement signals a new location for the bakery. | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPanhxYzVwdVZMX2FDQkZYbFdRQWp0enhPQnowOWNHcWxIcGU4WHVlZWZzMEdmVy1LalduZ01XVTlRNWM1X1hMNHJ6b2tBX2E0NUZNTXRfSkpQMkkyMWJHSjNYWlJLRGpQSVBBbjc4ZnVubWhPcjJPcHlLQ3ZFS2g3UXB1eGExSmMwck1FcUNWMlhSMWRtUXNVbFNNbHROMl9EdG96bzU3TU1EVXJFLXh1d3phdXI4TDh4aFg4?oc=5 | 2026‑11‑26 04:06:29 |
-| Retail sweets shop | Latham | Opening | Not specified | now open | A retail sweets shop has opened in Latham. The article reports the new opening without providing a specific store name or address details. | https://news.google.com/rss/articles/CBMiekFVX3lxTE9DRDlmUmRGaXhZZHNXUk44YU5ZTGl2aWE4dVdHbzcwYXRZVjI4MFcySFhyX3RERTlqOWtBNFJfN0d0YkRMdS1GdXItaWhfZi04RDU3OGJVd2Zxek1RWkdTRW5IT05iNTlWN21YWm8wdFdYUU1MaDF1Qnp30gF6QVVfeXFMT0NEOWZSZEZpeFlkc1dSTjhhTllMaXZpYTh1V0dvNzBhdFlWMjgwVzJIWHJfdERFOWo5a0E0Ul83R3RiREx1LUZ1ci1paF9mLThENTc4YlV3ZnF6TVFaR1NFbkhPTmI1OVY3bVhabzB0V1hRTUxoMXVCenc?oc=5 | 2026‑11‑25 22:02:44 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMioAJBVV95cUxQN1R5WHNPam93ei1uTmNDcUZjbTdaaUpDbmJlc0hraHN0YWY0YWdCMjQwSU1SRUFyTGZyTy11eHZWTEg5VGR0TUF5RmNMNENaX1ZwNEJad2pybX
-
-**Extracted Business Openings & Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Fogo de Chão | Address not specified | Opening | Not specified | Expanding with New Location | Fogo de Chão is expanding. The new location will be near Tampa Airport. | https://news.google.com/rss/articles/CBMinwFBVV95cUxNWkwwVE9PTlgtU3FZTDgtT2tQd2NwY21Ra2VJYkNVRHdVeEZmZ2VSX1BlbWd5Nm9YbFBXUFpDcnQyRDJoNGVISy14dVFyblpOUm9YTC0xb1Q1cGc0bFdjZ3puSjBPTXVKUEV3OUtkWnUwVmZwZnNuLUxheU5zM1k4eFN5ZHkxbHY5OGtsMDJHWkJhYWkwLVlyR24tWFhNcnc?oc=5 | 2026-11
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Platte River Ag Solutions | Address not specified | Opening | Not specified | celebrates grand opening | Platte River Ag Solutions celebrated its grand opening. The celebration marked the start of the company's operations. | https://news.google.com/rss/articles/CBMiogFBVV95cUxOR1hDUmxTdTRVQ1hTdWw5NmV4TmdZYVY5ekt3TFRGTFB6LXpLUDhjLWpsLU1RU3Uxd1U4NXZJRFVFa0NQdXB0bk53dTN2RTJ0am1GR3NFbFQ2d05TR2lyNU9qc3ZlMmRlYWtvRWg2eHh0dm9PXzhBSkM2TTJDMW5ET3VQZmtMVWpUd1NBb1dxX254Ylo1Ry1wcXVoN2s4dGVPNEE?oc=5 | 2026-11-25 15:45:00 |
-| South by Memphis | Memphis Art Museum | Opening | Not specified | sets opening | South by Memphis announced a new store at the Memphis Art Museum. The store is set to open soon. | https://news.google.com/rss/articles/CBMilAFBVV95cUxON2RFbVpNMWFOT1NqXzRXWWM3TVE3UW5jVDl3LV92NFRpS3RaWmxob3dZdEw0NXRJYWYxcXNkWHp1SjYxVUhYZmVMRjlpNlhYNzJUclVuZFVJdFdsYTlWRk9oX0F1cXN5TzBHMFdzUmJLSm9xeGs4SHZmWlpBOXBfR1d5STFOanNNRWV6aWU3V3BQeGlj0gGaAUFVX3lxTE1QYllyZDBLQl9EX0VGeUhubE9iaW84clUtdjJ1VmhzZ093NHpEWHZaT0NzMUJGbUhTalpuYVlISXVNdjI5RmRGakV1bjZNTy1qdlROXzR6QjlLU1pzbzcySTVmNGxNSWtNQkdEM2Q5RkVzaTdDbFQ4Tl8wTmxKLXJVN
-
-**Extracted Business Openings & Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Lantaw Native Restaurant | Address not specified | Opening | Not specified | opens | Lantaw Native Restaurant opened a new branch in Dumaguete. No further details were provided. | https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFJfWU9WZW1WcUx2b2FvY3pycGZqNjU0SkVJNUUzNmNqQ3RTTEJNeU55RVB5TENuM1BnWnBNczJ1QWJra195NTJQaHIxdFozZmtvS3gyUGRxblhuUmZqNVM4Y3FudDh6ZFpjSzBfQ1QxQnNZUEZlaWZnQmhkM1AwSDY5TzJOV0Jyd1FSejE2V2VFUzlHM2ppUGVrOXB1SGhkNHlJcVVMeVA?oc=5 | 2026-11-27 04:41:11 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiXEFVX3lxTE84SkRNVXZTQmdMZUFnN1pybzI3T21ZdFdDVnkyU2taQTFySDVjZHU1UkxCc3pTY29LYllSaXNDdlJuSEhOcnpMRVRBYTg5TlR0YU5hRzdpQ0ZFbnBI?oc=5 | 2026-11-27 01:07:36 |
-| Harvey Nichols (department store) | Address not specified | Closing | 2027 | shut | Dickson Concepts announced it will shut the Harvey Nichols department store at Pacific Place, along with two other Hong Kong outlets, in 2027. No additional location details were given. | https://news.google.com/rss/articles/CBMixwFBVV95cUxOajN4XzNWeDFSVU5VT0kxSHJUSy1aYW8xa2tsSWR1dldnTjN2Um92TlVhN1ZicFVuN1Q5alJCNU9MalI1blc1ZzNVbG42WGFjbzB0WGtaV0RTYXhNRDc0WS1wLXJEQTA5OF9JMEJnV2NhVHc0eDRjOVVBUlZleVFKNHZRLU91a0U5NEJwRGFON0ZneUFhZU9LSm9acmo2RlF6Tld5U0hEQW90emZhbFNsTUpfLWRZZkZJdDJXTExkTGFBQUlKUTVZ?oc=5 | 2026-11-27 01:04:44 |
-| Vibrant Hotel | EDSA North Avenue, Quezon City | Opening | Not specified | has been fully opened | The first branch of Vibrant Hotel in Quezon City, located on EDSA North Avenue, has been fully opened. The opening was attended by Mayor Joy Belmonte and councilors Doray Delarmente and TJ Calalay. | https://news.google.com/rss/articles/CBMizwFBVV95cUxQTXZwRkdzUUlrcHkybFdmaW0xNzJEYTZrZXpoM01QcXV
-
-**Extracted Business Events**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Gold's Gym | Address not specified | Closing | December 15 | to Close | Gold's Gym announced it will close its Chattanooga location on December 15. The closure will affect members in the area. | https://news.google.com/rss/articles/CBMiogFBVV95cUxOWVZOZ3BudkZ1Vmxjc0ZDSFlLTjU3ZEE1QVhjbDFtMDVUVG11ajlJTFQ5X1ZELUdEanItSnZTeFEwWXR5TVZ4S2dQVDJyNmVWYzlFSER6N2dRa1JnOTV2R215YUt4R1p4dXFmZ1VScHRzdGw0SzJobW4tcy1Na0pBcXNSN2NJOFBsQVRySktScGpBX0VCN3RGRGhRZGRJWVZCSkE?oc=5 | 2026-11-26 19:33:02 |
-| McDonald's | Address not specified | Opening | Not specified | Opening | The first McDonald's restaurant featuring a design inspired by Indigenous culture is set to open in Alberta. It marks a new concept for the fast‑food chain. | https://news.google.com/rss/articles/CBMizwFBVV95cUxNWmRvdFlSSVl6dkhNaFBmVEpOV3p0d0VQRnV4RWdNa0VuOFdfc2JsNHpvVDdPVmlUQWNRMEVFNmZlOWpfejJpdVNwQUFWclVqci1kTHRpVUZCWDY0V2dfN2pLbTVLWG55SVltWGMzOHVTRFlzeExoWDFVb0R2WnZ6bmh4cU9uSlNmR2NxOFpkekFNWUVlMEYwUkNLNUNKNjBQRWdHd3VDbkVJRUpobHlXRE9DUWYyTVByUWZDX24tNlJPNDJpa0RPZnNYYkM3bVk?oc=5 | 2026-11-26 19:09:03 |
-| Buttery Lemon | Address not specified | Opening | Not specified | opening | The owner of Medina book store is launching a new venture called Buttery Lemon. The new business will operate as a separate establishment. | https://news.google.com/rss/articles/CBMiigFBVV95cUxQdzRNazJzWTQ4cGpVVExRcnJLbWl5aEh1UlhXN1JPRTFja3hOTUtMajR5TDhHdUNhVnlWVVRHYlY1UFlESmVBZFBqcUtZTWdYdWdUXzJVMzcyVXI3cXBLZnZmV3dnTVVuYlpxZ3FzN3lfZ1kySFRCR1BfdzF4aTA1T3J1OWpkVzFTcmc?oc=5 | 2026-11-26 18:22:19 |
-|
-
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxOYVFnODlJajlZaWg2M1RncjlMZVdzdnNWcjVWd0JvT3ViVWtNSGRZZF9oWU9OWjVlZEN6dThBeGY5bF96YkxlTUZMNGVkT0JrQ3F1RkhaSWlSdEhCUGZja2lEalZkUjBHaWxDMy1nYmNOM29aR1J3V2h5S0liRDlTaVJoZmVXdC1yN0czYjVvU0J4YnFGaTkzMA?oc=5 | 2026-11-26 16:05:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUEtRZXVvaDh0bUZSWnFiRnd1RnpFRWM4VFMxVzNXT2pnRU5abEZYRENEQzQ1aGRPZW94VjliRTZSTHhxOTV5SDBicEQzTjZ5aVBvM3ZpMVlIc1pydDU0OTdFRG52UHd4cmNwdlJsMDFMWFBnWVRVeWNKb29nOHJlLWRVQmRFRGVfMHZFY0UwZzZmdGw4aFBYaE9GdFZJMmN6LVpJeGZzVWNTWC1ITzc2MTBvcndXbVM3T3RwdWh1OUZPNVNhWkVCZ3ZFd2U1aGtlV1I4MnF5Z1prZw?oc=5 | 2026-11-26 16:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMibEFVX3lxTE55ZUpjTXZYTkhHUFFpeWU4REdGRWhCRy1jS3JNS3l1a1NucktpT2U3QWQySXNteER0VVVGM3U3d1YxRENFcFpmUE9EUTRaWTBMdWlYcGE5Xzg1d1ZBSk1GNDNWZFJwemNEMGtXSg?oc=5 | 2026-11-26 15:45:00 |
-| Auchan hypermarket | Sun Plaza, Bucharest | Opening | Not specified | opens | Auchan opened a hypermarket in Sun Plaza, Bucharest on the same day as another store. | https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaFEwc2JFRmF4Nk9oTWozZnRTRzRRSENlMmRYZTJrQ0FIWi12NlMtTVoxRW0wUWZiOWtQYzFCeGc5aWU2dmZWcUpWYUdNcGEyWDkteFhaYktZRFNCczdqdUFCWFVUZVM0bkZTOVJqM09hdUxycGJGelJyVjYtZmYyTzNlLTlBRTNoNlNRQk1Uclpfc1A2MHFuOFRlZnJFRjFlWENmcER5V2VoSFRhV3otTEl2dTJpVVUxcTIwRzBmU2h1a1JGVGhJRVIwSUNmRWwzQ2E1MGEzdTNxd1FYWlViOWREMWJNWlVnSkRmR2p2VnZNRlNVUjIzNDZCSm1FeHYxXzg0Q01GOGNobDA?oc=5 | 2026-11-26 15:43:14 |
-| ATAC supermarket | Timiș County | Opening | Not specified | opens | Auchan also opened an ATAC supermarket in Timiș County on the same day. | https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaFEwc2JFRmF4Nk9oTWozZnRTRzRRSENlMmRYZTJrQ0FIWi12NlMtTVoxRW0wUWZiOWtQYzFCeGc5aWU2dmZWcUpWYUdNcGEyWDkteFhaYktZRFNCczdqdUFCWFVUZVM0bkZTOVJqM09hdUxycGJGelJyVjYtZmYyTzNlLTlBRTNoNlNRQk1Uclpfc1A2MHFuOFRlZnJFRjFlWENmcER5V2VoSFRhV3otTEl2dTJpVVUxcTIwRzBmU2h1a1JGVGhJRVIwSUNmRWwzQ2E1MGEzdTNxd1FYWlViOWREMWJNWlVnSkRmR2p2VnZNRlNVUjIzNDZCSm1FeHYxXzg0Q01GOGNobDA?oc=5 | 2026-11-26 15:43:14 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxNeVpld
-
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxNYkVmNE1KNS02NWtzUzZySzhoQ05VVWNWMnNfeXlGczdjOGhMNjVTZEFBN1otcGpQRVd3dGRpbEVRMjZqUUNnblJkUkZ5RkpGc0F4eTNOTHd2ajFSUVlCRnhIUlpaUjJMSzFFVTZpUm1SaUdGdDJobjVOa2lLVWJBTXJpbzNuMVYwV2tqT2x3?oc=5 | 2026-11-26 14:52:50 |
-| IKIGAI | Midtown Nashville | Opening | Not specified | open to the public | VOCE has unveiled IKIGAI, a new rooftop restaurant in Midtown Nashville. The venue is now open to the public. | https://news.google.com/rss/articles/CBMirAFBVV95cUxNRjlaT1Zya3E5dUNEVVdRUVdvUmhqbzVLTmZTOW5qZjFvQzQzRjd4V0lKdVhpVlRCbDZwUHZYU2llNmJQbkE0cThRMXRGbXlNdEo2WGpzSzliUXlJY1lsa3V5YmtRSHBwRlVwYUszQ1NlUDY2MGFJZFpUdEpybERURUhtZWRhejdHdFZ3TDRjTlVhWkdwRjRYUk5YUGQ3QWlmRS0zSkZxdFR4N1Z1?oc=5 | 2026-11-26 13:01:35 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTgySHcxLTZkWjIyUWtVaGpMNHpRQmo2N3UxeDZ6emxwbVVaRndnRnVlQjJBelhJT2I5R2ZDY01lYVhlblF2MUkzZF9CLWlNdXdHTzBZXzhRUnZDV2Etb0ZJVG9zVUs4WHhadDhBSHdaOTBNNFN4OTYyUHpKWmxuWGtIaW5zWlhIeVlBZ0ZjVHR5bG9qTlBj?oc=5 | 2026-11-26 13:00:43 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMivwFBVV95cUxOZmtxUXVrVG02RXFsX0g3Wjd
-
-**Extracted Business Openings/Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| XXL Supermarket | former Primark location | Opening | Not specified | is opening | An XXL supermarket is set to open in the former Primark location, six days after Kaufland opened nearby. The store will cover 1,234 m² and will offer a 10% discount on almost everything. | https://news.google.com/rss/articles/CBMigAFBVV95cUxOaXhHZUNfQWJKRHNHb0xCWkZUUzFNVEJ2b1ZNVW1fUzA3dmNYSFJBZG1DdUZsbWoyNndIZ013Ri1Tb0hmTE96amJadzBxMUtBZjhkTlpHdHhWWVpNUWZ6cV9VSVBoOEFvM25iVXZyRF85dGwzRkEydzdQMzYwZXI4UQ?oc=5 | 2026-11-26 10:00:35 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitAFBVV95cUxQVG4wUnROMlZ4M21PM2dXT04yX3dOd1RnckFwODlUeWlwWjFjVnVTeTlsa1hMc1RUM3l4SVYwWVZaWlJRUU9kQ2NOXzU0Q29qWUxQMFFMM2I5NnlyNk1ONWE4akNHbjF4akZ4T2JheFdrNUZ1VWg5ZnY4bFp2azZndnVpdDB2cUl2VGgxYXBqMnR5MkR4bjZSRTl4c015UGtXd1dWY3E1cXBBZV95dkJJMFhzSzDSAboBQVVfeXFMT0tpaUFPQ21DMWlKSDNOMmdvWU8xbk82eVhZTFlXUG94S08zRnRLLXNOWHRYSGZmZUVfMmc0VGw5aHZfcldTOUF3WVF1QTlicWpZWWZ6cHI0aXRjWjZrcFljYTRDUjhXanRfR25HSVpCa1FRVks5M1c3MTdFdHZqbTlXZjN1UHV6THVOanBmeGRCMlB0TmlGTElaTC1xTFdvXzZ4TUN4Q0RBUTBZTjQ2QUJXbk5yc08zSUhn?oc=5 | 2026-11-26 08:53:54 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWEtTOE84UXYycVlsRzdCNnFrWWIxYnA4OUhabktsUjA1REtJM3Y4SjhOTlgwUFdhWlpYMmtQb2RDNlFQTDcwZ0tDaDBLb3RxN2xoR2NYeW9HNmUtNHFyRXJXNjF2bWJLWk5KTldzV2RSaEpGbUVlVjdXR1d3QXEwbzNYbEh5RTZMdGlPRUE4S2VoNzA2cU1Fa2FQS1RRQUZKcjhyaTFBa0RPQXJ5Slh2bTc0ejhSOW8tMnRQNGhXN1NlbTVnUm5KUmdyMmpKeExPb2JuM1gwV0hpQQ?oc=5 | 2026-11-26 07:20:55 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxNRW9lRkR6M3Y2R0YxckNxTXE1enJLQlMxUGZ1SExFc2htN2YtbTdORDAzMXN6V2Z6b0xsbkdENWxCa2xQOEhsbFIyaVFjZnFodWFOSnlDZ0NVRXVOZTR5Rm90dE9EZ1VwVUU1V1Y4UmdIVWRoZXBvTDgtd0JZcmJWREQtMlkxdFZDUVp6bGRGLUlhdFpnMlBtZg?oc=5 | 2026-11-26 06:23:49 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxPcHgyZDVNSkxCWnlhSmJZb1hocVJCdFdjaERLU2hOTXdmaUc5dXI3SE9LTXhLRDlJdlluS2hRTWVUSUVoX1VnbWJFQzJGWWgwck5kU2l5X1I3WmZEYk52bUVRWk5lajBibnJFSEk1Y3
-
-**Extracted Business Events**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | The article announces that Ala Too Resort will open ski slopes for visitors on December 2, but it does not involve a store, shop, or restaurant. | https://news.google.com/rss/articles/CBMitAFBVV95cUxQNmcyRVFPR2Z5ZWFXSHJJakZMS056SVpUS0pxZFpmLW91S2xDUm9lbENSZ1c2Yy0wUW1XeWxxWmhsVzFQMlo5RGExTkgtVTZ6TEcta2xKNkVRVm9YLUZDMmRHU1Y0enVPakxyUVljRHpIQ2lzWXFlbnFaZV8yM19jcGtZNENlYkVmMjJteXVMTEF4bWtmQmxMSVFsTWMzenNwMEtMNlp6R240dmh5cWhJbGo2NzQ?oc=5 | 2026-11-26 04:42:14 |
-| Name not specified | Address not specified | Opening | Not specified | opened | Fred Sirieix explains why he has opened a restaurant in a women’s prison. | https://news.google.com/rss/articles/CBMipAFBVV95cUxNaGZqSWxyZEVDeXhubWw1UFQtYnQ1TWFBd01jckRsOEZOc1NEWGhDSkhDREdnV21CRHBTd3FpT0JHTkdpc2hBaTlEYU5KUHVQREVEUUpMb003RFFVV3ZaZTlYMXVTNWwtWUg3NXRwcTh2ZjE3NFQ5eEpqOHRaZkp4TVAxLTYzakl6S0ZmOFIyMWIwa09tdFd6dDByVEVSUG9iRmFXVQ?oc=5 | 2026-11-26 00:11:08 |
-| Name not specified | Address not specified | Opening | Not specified | getting an unexpected second life | A former North Carolina movie theater is being repurposed as a grocery store. | https://news.google.com/rss/articles/CBMijwFBVV95cUxQNEd2SHRpQi1BZDVJaHVGaURuaHRMT01qQmhQZFdjV0JsajM3SVFGSm1JOEd0ZjNYd1gtTlFVRXRVTmNUVnRBTWdMSDRxVFQxczhlV1d0YWhQOXVoeEJrMmhITjhHYnRzVUhjR3MyRjhGWFhxS21pMXVoSkNEQjhCeTNYQ2tVWWozRjJYWHJSdw?oc=5 | 2026-11-25 21:40:00 |
-| Name not specified | Address not specified | Closing | Not specified | closing stores | A beloved fashion retailer is closing stores and laying off over 1,300 employees amid bankruptcy. | https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWUVPcU13Q19yal9GOTA5T0VIX21reGl2Sm9wMVRfS0JZa3JWZVdERWd4NV9vbVZhdG1MXzhWbnFkXzMxQ2JqdklxNXhwUHNmdm5uYUJUVE1pdnFCMFVUOUh4dEhzRmlzSHZ1RThWQkk4WDR2UTNJY0FXazRmYmgxNmFKRjZPUGs0MEl4RFBmY2RTbUNyRlAxUF96S2lBYnEwTlJJYjJ2MXRabVBmN3VfcXh1SjJrTTA3SmktVy1QTzdDYlFvVDNZQw?oc=5 | 2026-11-25 21:23:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article reports fire damage to an Amherst
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Tossin Pizza | Gurugram | Opening | Not specified | new | Tossin Pizza announced an expansion to 28 outlets, adding a new restaurant in Gurugram. The new location marks the chain’s latest opening. | https://news.google.com/rss/articles/CBMiqAFBVV95cUxQenpMNndvTFhzVS05RXBUaDEwVy1HRlFsVzBSZzNPb3JYM2VUZ2ZtTzlRYllnMWQ4MFllT0tLZEdyY2xVd3VJckoteDdaaEdJTEdGbk1EbDhNN1BhRTZQVTNfTE5MSm0tN1U1cGZqeW93UU9CZFEzWC04RVhiSXlrMy1OV1c5WTVSdXlrMUFwUUlocUtvSlBweU1YQ0E0c3hqZ21vNlpjblo?oc=5 | 2026-11-25 18:48:57 |
-| Name not specified | Fairfax | Opening | December | to open | A new Thai‑inspired smashburger restaurant is slated to open on Fairfax in December. The announcement highlights the upcoming launch. | https://news.google.com/rss/articles/CBMirgFBVV95cUxQVGs2SjkxcjZCQUpaNHVGQnU3bUlIMmNRbGtQX3NqOUN3TUZNNnYzcjA3QVphYUl5eVVtSUcwMzZaNl9OVTR2bXlyVldNTERKdlZBY04tcVhHUmFRMVdGaWszQWRpVkhuTkQ2MHQ5UDdqVFVxTmJ4RWxOQWR2RmUtTXZORXItejA0cFg4enowc0xqZjRRdnJLZ2dOT19NcEJsRFdQNHp1NnI1VURDeEE?oc=5 | 2026-11-25 17:33:10 |
-| Global Asian‑American restaurant chain | Raleigh | Opening | Not specified | opens | A global Asian‑American restaurant chain opened its second location in Raleigh. The new restaurant expands the chain’s presence in the city. | https://news.google.com/rss/articles/CBMid0FVX3lxTE5jZV9LRjdiWmRraUwtZXdmOE9RSGoxNjUzWXd6cE4td0tMVFdibHdVSkNJSmZmRnJHZWhjVzVVekFadXZXQmZoZ0tTbXR3U3REY3hmOVR5M1EzMlh4SFhkblZHLUVZWkhDNkMyYXdDaENxSlhvSlB30gF3QVVfeXFMTnVlMmtONnprWHlxSW1yeG90LXNkVjhkZGxJUmNuakxoR2duc1FuOTFsMVplb3VRdE95aU04cDRpSTFGZFRMc0hXR0Z1dUEzM0JnQ0t5VXNDSFFmb3c0SXRjWVdDTU5TTjVXMF9LNUE4allWSzNVYVE?oc=5 | 2026-11-25 17:19:17 |
-| Yesway | Arizona | Opening | Not specified | opens | Yesway opened its second convenience store in Arizona. The new store adds to the retailer’s regional footprint. | https://news.google.com/rss/articles/CBMijAFBVV95cUxQRGZsTUlxTi14eGdMOFdVSU1UZkpRc09jQWhYOTlsQlhWWDJyQV9aODRJQk1Vd3JIRE10QWZwX05DZThubUZ4U3RLNFptVi1TZE5qekFBbVplSk9KVzRFYjUtOXhUckVPUT
+**Non-working or unusable articles List:**
+- Article 6 — Reason: 503 Server Error: Service Unavailable (article content not fetched)  
+- Article 7 — Reason: 503 Server Error: Service Unavailable (article content not fetched)  
+- Article 8 — Reason: 503 Server Error: Service Unavailable (article content not fetched)  
+- Article 9 — Reason: 503 Server Error: Service Unavailable (article content not fetched)  
+- Article 10 — Reason: 503 Server Error: Service Unavailable (article content not fetched)  
 
 **Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkpxQlNVbW5UVXAxOFFYXzZNMVRjRENWMGdOLTJOLVI1TU1RT3pvS3FJRnFCalpBelFHQkJlaTRMVHRwdmFTRFY4cDhKTVRWcDhIWW9DNzdKcWFGNDY2NFZNU01ONVBTemJRVXNwYktkVjJDQ1U0cUZlVkEzZUx4WEIzU3MzeDRhM1E?oc=5 | 2026-11-25 15:55:20 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMic0FVX3lxTE5LaW9ITXRxcldtdjFDVnlqX3RRYlVJa1MzSWtZMmYtazlhZzFaZlZtSklLZVRrc3ZxS1d3RV9vZEtEX3NQWXR0cEZUbVNNZEVzb2tfRS0zRVA2SFFFb3U2aW9BZW43Y0k4ZDNqQ2g0Vjk4U0E?oc=5 | 2026-11-25 15:37:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiowFBVV95cUxOMHVzUEFmbGtsRzVsQmI1T1hocldYY1lXUE1oS1ZnN3A1SGxCQVdxc0NOcUhacjNsT3M1Tmd4VU50M0NYYno3akt1M2lFNTJ5bEJsRXZRN0dianVlV0NpZld3NThyRlBtbU1HeC02TXJFcHZoQnNJVWI5NEhhNTdBdTdrN2RSVXpmSXNzeDMyaXl6b3h0VTdJbWM2c3Uzd1E1eGM4?oc=5 | 2026-11-25 15:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRmt0V2JBNzNfVUF6NlNtZGVUX2xJamZMRmU5bE5PcE1pUXlPcU91aUpCREJlUTJkY3k3T2hTc3FWQXVfdmNXaWVYang1RjFGMDlPNzRYYUFfOHdiN2FCeDNGYm9nR3dZV2EtSnNrUWtKbm5FV1JHYld3bkJyQ1hIUXhlcE45MkdRLXB0NkZUWTBkY3VOYXZiZDlueHd2bTFySmVWempxVlRueHF1ZzZTNXhmaGRzeEtXMmV0WGJfSURoeThxM2dBNlp6NlBPU3FDTnptQWhocU5nWEI5SUk4ZWpOdVhzdy1oVEgyZDVDbmQxc1FFNEVkMHcyTVpkZw?oc=5 | 2026-11-25 14:52:40 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUlRSOU5fVmtHN0hHSE1WNE1jcjNRTEdJNmlid0JEcmVNZTdHa2Y3cmUtMWY0UnBPOUVtREJRd29KVDIzMWZxQmRs
-
-**Extracted Business Opening/Closing Information**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Vue | Address not specified | Closing | Not specified | 'temporarily' closing | Vue is temporarily closing its Scottish cinema after implementing a “first of its kind” change. No further details are provided. | https://news.google.com/rss/articles/CBMikgFBVV95cUxPTzJRZkJYd2VESWh0OFM0cXd1cE5uRlYtamc3V3RJRW15SGdvMDJ1ZjNWZExOZUF5a29PSjhONENTSkF1eW0zR2gyNmIweDJXZ0RRYkszeDZZdmp2RkVQaTRNTExuU1FIRGZGWEkydDh3WGF6S3lKTWxRY05zOTA3Z0N6NnQzNkp0MU9WeG9vNnRLZ9IBlwFBVV95cUxOdEpySVhFenVLTjAxQ194ZDJxWERpb0FqRHRBb2syVWZ4VXpyR1R0VEZWWG9rZmxtcWZIdVhHb243ZjNjY2lVRlBmSzBqZEtEeU0wS3ZiVmw5TmFqMEZYanEyQzZjZ2czYXhEdmc1V1V6aGtWeDhReG5JREVBWGxTWjlTUFRzZkZ4SFJybHZtOUhIcXRIeFVB?oc=5 | 2026-11-25 13:01:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUWpQSjRNUUEwT2djZmFESmN3VkRpTVlLYkNOOFp3dHViSkJ1RjZEX3VKNDh5dXdyRUNaNXdNZUdlZzJHcUR6cXBueVU5U0t2Znl0Q2M5NGRHZzFaeC1OMjg0MXRqNm9pX1NLYTZWNjJDQ3gxc2hTTVFzZmJuU0d5WkJkTTQwbFB2YWt4aldkSHItZVVvTkkwbU9Ed1hhMC1kLTJTeE5WSVczZ2dhazlQaGFsU1lYYXkwSzFNT1paV3VEamVFUEVRa1JjNFBiaHlPT3BVNVZWYVctWDV1TDl3cnhyZlB6U2xRdUxXMXpMSEJncHUzRTdYcg?oc=5 | 2026-11-25 12:00:00 |
-| Popular West Charlotte Soul Food Restaurant | West Charlotte | Closing | This Sunday | Is Closing This Sunday | A popular soul‑food restaurant in West Charlotte announced it will close this Sunday after its final weekend of service. The closure marks the end of its operations. | https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2NXUmVHYTNFSlBraHFyY3ZHeTZoWlFKUmVsS2daQXEzTVpXcDVMTUo3ZEhDUU5wVUR6WFBNbFY1RG1KMG9ZSHRWNnN6bTNwYmJycDVLSkllSmhwRDhfV01Ec0lVenJkY2JBTWpzUG5fTkZvamxrYlJJVmpGSVdRM0xHV0JZRVlOYmk5VWtvUDdCT1phNFlMTjN5REhMdzc0Qnp0am5PV3pPRVNDWFgzYlpJTHdXVmFmU1JZcVBPMk9oQmZtd1VQSDB1OHdSUQ?oc=5 | 2026-11-25 11:46:34 |
-| Armani | Address not specified | Opening | Not specified | to Open | Armani announced plans to open its first hotel in Egypt at the Marassi Red Sea resort. The project represents the brand’s entry into the Egyptian hospitality market. | https://news.google
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Dessert chain | Address not specified | Closing | Not specified | closes | The dessert chain is shutting down nearly all of its locations. The closures come after an ambitious expansion effort. | https://news.google.com/rss/articles/CBMibkFVX3lxTE1XM1BvZG5oWkxJcTVac1dyN1BaSXRBc1JGWk92T04wbkM4OGpjLU0zelROTXhkVndCTGcyVjJmRUZ1bkxWWnNpTWN0RHhpeXRGSHFIV0l2UkxGSGtmLTd3YUUtLTI3UE1lVXdweHp3?oc=5 | 2026-11-26 23:37:00 |
-| Chicken Salad Chick | Address not specified | Opening | Not specified | to Celebrate Opening | Maryland’s second Chicken Salad Chick will celebrate its opening with five days of giveaways. The promotion will run over a five‑day period. | https://news.google.com/rss/articles/CBMiugFBVV95cUxQSzhpOHl1Y2JCUFp6T3RERkFKSjlWSFNJc3JWd3YydGRDYXRobGE5RnBic28zeEFGSFNyUnpaWjBobzVlYm1JMDNjRllmTmtBdDdkMDBfY3pYN1E5WEdoVmIyQkpwbGltN3hwSlNsTmhqMlJ5Vi1LN1R6TnB5ZVNuT041LXlzVkxoRlZyOWQ5VWhwVWNRR1AxcmZ0ZkxBQzdqTDU5c282MVB3elYycXU5RW9mMVFJV2FOUnc?oc=5 | 2026-11-26 23:00:55 |
-| Kohl's | Address not specified | Closing | Not specified | shuts down | Kohl's will shut down for 24 hours next month and will have reduced store hours the day before. The temporary closure is planned for a single day. | https://news.google.com/rss/articles/CBMifkFVX3lxTE0wTVg1Z3FZRWd3bndOa3hRV1BtdUVhZHFyd19lN18yTEN3Nzc3eWxNeFR6alNGX01BRk43U2NhZmk5NWFWTER5U0JzTTRNcG9HNllyY3V6eTlrdzJtb3hlQ1JoRHI5UkhoYWZTcExPczhSX3ZIVGVXaGE2Wkp4Zw?oc=5 | 2026-11-26 21:02:38 |
-| Kohl’s | Address not specified | Closing | Not specified | shutting down | Kohl’s is shutting down for 24 hours next month with reduced store hours the day before. The brief closure is scheduled for a single day. | https://news.google.com/rss/articles/CBMif0FVX3lxTFA0ekxsVHRCWWEwRTBITzF2U2kwSHNnT2x2QXJvS3hfR09PcEhmXzhTdzBGLWt6eUx4Vk9pQlE0UDZJa1VsalNvbWRSX1pFZVBPWFkyQ0Nmb1hBUWxUMnU0LW83aWVSSEZXVktWRjR4blFydFB2T3NZUEp6eTBQTHM?oc=5 | 2026-11-26 21:02:15 |
-| Whole Foods Market | The Promenade | Opening | Dec. 17 | sets Dec. 17 opening date | Whole Foods Market sets its opening date at The Promenade for Dec. 17. The store is scheduled to begin operations on that date. | https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTRXdm54d2tkck5qNmdPc2M3UEVpSzFDX3BNT054S2NwTVNJbWNBaldhVTdfbnN6R3hzdFZuUTlidGxjRzluOEFtX0ZDX0lJSEtORHZpSnk2bldZNC1XLXZpOXRJakRVN1RCSkdmQmkzQzBUa0ZGMHFPVVdaS3lUWl9ialNDb3pfUzZsZE9famdiTFZSR0xZMGdn?oc=5 | 2026-11-26 20:09:16 |
-
-Non-working or unusable articles List:
-• None
-
-**Extracted Business Openings/Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMid0FVX3lxTE9Vb0U3YUZBaXZpRnRObXEwQXNxUWNiZkExV0d0UEJmZkx3cWdZTlpGZTNvZXhNdHpTSENTVVA1RXhaQlUxbTdTd3phR1NCbkI4T21GT2Z1dHBKdWxnRVROWGVmNk0wSFJ1NDMwcW5pMGphZFVoZWVF?oc=5 | 2026-11-26 19:37:00 |
-| Loblaw | Address not specified | Opening | Not specified | opens | Loblaw opened three stores on the same day. Only one of the new stores is a discount format. | https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVhfa2FhbEljSy1WeWVjUmVfU1lGbmxicjI0MDJWaU9rbE5PMEx5cWJJbHR5cnpxV2tHYlpfMmtRQzBxbHBmVmtoeFJ0djdFM1U4RkliLTZRZFBobDhORFFZTFJvSzdMUE5DajhUc2xXTElIWlc5bzBNZjFWbXo4VFRNUEZFRzZGeFU3RGZTLXJ4dUU?oc=5 | 2026-11-26 18:08:38 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisAFBVV95cUxOTmQyVkpJM0VhdzNzLTNBbVdHOXQ1ZkNGQUlWSnNQRWdGZTFZRmNvN0tkam94NUVsMDJhVDJaRU93alZ1TUFwZjFCWGc0Nk95a1V1bXlsNXktMzhzLUpYenVENE5jdkREeHlfdkpkVkJzZTE4V1BqUkFXcWxVTkhQQ2dEN18wQmpJQk1GYlA3aGNvOTRjdWZtbHkybGVwQXBvWDZmcUR1TlhYRUtNUXhCTg?oc=5 | 2026-11-26 17:01:00 |
-| Wingstop | Colchester | Opening | Not specified | ahead of opening | The article provides a first look inside the new Wingstop in Colchester before it opens. It showcases the interior layout and features. | https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcHU0X1ZCZnlzZndPOXROaXNzei1PNE5US0xmYjhVS0RiWDFicTJPV3g4RkVGLVk4WFNkVGVkRHM0THZqc1ZPNlpuY0RkRGNOQTVkLTNrZDQ1clp4cUVoQWg2bnBFWExHWGV0N1g5bWJWTDhiR3B3aGZUQ2d5Q3ZVQ1N4NncxZWZZbFZ1MElCTVVWVDI5RUpPX2VCQmdXU1J5VVg2cDZzZDJERkE?oc=5 |
-
-**Extracted Business Opening/Closing Information**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Name not specified | Address not specified | Opening | Not specified | officially open | The article celebrates the official opening of a store and the arrival of its first customers. No further details about the store’s name or location are provided. | https://news.google.com/rss/articles/CBMifEFVX3lxTE1VTk5Ralk2ZUZiUDBvYnNUTGtTbjY3T0J6VHE0NHpIeDdua0dvOUt1NVJ4VS1RZW1Sb0hhNEtxZWx5S3JkV0dVRWRTYU9tY2RzZTBBeFNVdWhOQUFUUFhRYVdva2o0bE1Zd3FTVkNFMEpIQ1MtaklmTzRvdXQ?oc=5 | 2026-11-26 15:45:00 |
-| The Ordinary | Address not specified | Closing | Black Friday | Is Closing | The Ordinary announced that it will close its stores on Black Friday, explaining what it wants from customers instead of money. No location details are given. | https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcHM5aHRlSk9PRE9tV3dKMXIzbUFRRkVGNlk4WGQ0eTNxM09zQjNGZHJNNlktM2ZZMFU4UFI3Mks2ODlqUkJ6T1hFWUlSRGM1dWNrdVU5eXN4X2pLajBrbGRqa1k2T0dOLUlMSF9UVmFZUm11XzRGMzRqM21xMmZVbEFpYW5jdUxmdVRjdFUzSWxxbTBzc24taFJpTXV3VVQyUU1wX2NHenFkQQ?oc=5 | 2026-11-26 15:41:48 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article discusses a trendy international toy brand planning to open its first Canadian store in the GTA, but no specific brand or location is named. | https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaFZVSkhOWlBKbWxzLXZmZUI4YkpvNjJESU1xbHhpRFlmLW1WSVZLam5wajhCUmVZV3ZQUWpiRjBBWGZEY3hkRTlTbzBIc2N3UHd5cTF4aEgyWmN4N1ZHNnVDWkVqbEh6UzBxYmRNZVBRSFlDa3BxZTlGNEJUQkRqTjJqdmZtQmVnUllsZ3AxbkRGOVA5WEhpdmxjcmU3WkcwWnFuU082VEdtNkJRcUwtaUJVVDlOY2hld2h5SVR2MXlMc2g5RXF3VUtHbnFRYU53MDU2YklQcw?oc=5 | 2026-11-26 15:38:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article reports a traffic incident in Bradenton involving a driver with a .258 BAC and open cans; it contains no business opening or closing information. | https://news.google.com/rss/articles/CBMiywFBVV95cUxQaGlST0ZCbEpad3ZIODd4Nk5feFZBUzVRejZpSThBeUNzcGVqc2NiRW9reHBraW1sZ1RyUGxXTGRPLWpOYlVRbjZFWmtwdnhsbGFaMm1QT0R6STJIMTVoQjUtMF9oNkdENFNOOU9XbzdIVGNfSzlySjlHblJOZVdySFpIV0Vwc05BMVdpcVJya1NOekd4c3JBRVo1VnVKMGtXLVlzWVpBUE
-
-**Extracted Business Openings & Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| DigiLab Central | Address not specified | Opening | Not specified | officially opened | DigiLab Central officially opened following a successful open house. The article notes the opening event. | https://news.google.com/rss/articles/CBMijwFBVV95cUxNc0IwZkxKREh1ZncyT0FaOU1BWmFCcE9BVi1OLTJ4d0RFMWhTWnNxOWNjSUlRa1ZHWF9iTEVPMjV1VmFRVjFSX3BqeHZWOTg2NkNlZF9leWFsWFVCYWpWSUx3QTBnS09YQlpOZnVWemlKTmRqWnl3c0NUX0RfRzhjcVRMSC1ybk45U2x3cGtQZw?oc=5 | 2026-11-26 15:18:16 |
-| Name not specified | Address not specified | Opening | Not specified | will have something the others don’t | A new Toronto location of a popular sushi chain is announced. The location will feature something the other locations do not. | https://news.google.com/rss/articles/CBMiekFVX3lxTE5HX3JraDc3MnlEZEdPTHhNMy1YeUpjUlV6WkxNZTIyeDVTNC0tN1ducXVSNktXa1BXQ3RISGxZSUQyY2xyXzdsVHRhS1JZTm9JX25xT1FIS0I1T0dHWVJ5RnpCRWNvdHkxUi1kODA0UkZ2SHQzRXhSdU1B?oc=5 | 2026-11-26 15:17:16 |
-| Dunkin' Donuts | Address not specified | Opening | Not specified | coming to new petrol station opening | Dunkin' Donuts is set to open at a new petrol station in Suffolk. The article highlights the upcoming opening. | https://news.google.com/rss/articles/CBMiigFBVV95cUxOWDBsM1NZdTI4ZEFacFZja2FpVU8zVnRvTG9wWjNtNllKLU1wb2thYlVpR0hmWUFCaENtcmtUMGh5UThPakZFa2l5bl95R01GdjI2TFU1YWRRWFUxb3hwRTJMVlViMC15WGhwQk96ZVp1TkdTNEZyZXNVZDB6UzJVeEplWmFOaFRfeFE?oc=5 | 2026-11-26 15
-
-**Extracted Business Openings & Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Salvation Army Kettle Campaign | Address not specified | Opening | Not specified | opens | The Salvation Army has launched its Kettle Campaign at its stores in Schenectady. The campaign is now open to the public. | https://news.google.com/rss/articles/CBMioAFBVV95cUxNZWtQbVIzSkRJc0ZzNkx6Znc1M3N5SFNMcTctODlKWkYxd0p5a3RLWUd4Q1A3VkJFSTFBZVVTMFJzZHgtMmFJUUp5eGRYYUFDd254MTZzX3c5V2RROUtGajhHeEJpNlA0ZFMxTXR4Tm1fR0RzUUVtR0lTRk5qWS1GQWxwbjhReVNfYVJiV3pjRHBKNkFJazkxWDZ6c1lsb0I5?oc=5 | 2026-11-26 14:03:03 |
-| Greggs | Essex seaside town | Opening | Not specified | opens | Greggs has opened a new store in an Essex seaside town. The opening marks the chain’s expansion in the area. | https://news.google.com/rss/articles/CBMikgFBVV95cUxNb3FNMDdEdzROYjNNaUZJUU1nVllJWGtmUFJFSzZSdUhCVFJkRmVWT3Z1R0U5ZVpONklKa21nQmlySGJZY1JYa0Y0d2FHUTRnY0MxMWJnUW83bFJ5QlNzYU82Yl9VMUlXUzhHSlJ1OF82N24xR0hoV0xTbVhUV0Vzc0tVMmlhY1dSelFKRHgwc2tLUdIBkgFBVV95cUxNb3FNMDdEdzROYjNNaUZJUU1nVllJWGtmUFJFSzZSdUhCVFJkRmVWT3Z1R0U5ZVpONklKa21nQmlySGJZY1JYa0Y0d2FHUTRnY0MxMWJnUW83bFJ5QlNzYU82Yl9VMUlXUzhHSlJ1OF82N24xR0hoV0xTbVhUV0Vzc0tVMmlhY1dSelFKRHgwc2tLUQ?oc=5 | 2026-11-26 14:02:20 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxQcXR0Z2toQmMtU0d2QlJlbDhGZ0E1NWI2SkJWN3NMT0NtN212eEpKZk9lbEdERG5jT2RLT0ppOENjTGJudFR4bmE0Y045amRkZ1FBOS1ZTjJQQ3hKVVByVV9rc3IzSERJYXRSVVl0SzlHd0p1Y0V3a3FkVTBReVU1WXZndUU5RDdpcGkxY3JfODNOZEFsMm53MjRDRjU?oc=5 | 2026-11-26 13:56:22 |
-| Milly’s (lash, hair and nails chain) | Address not specified | Closing | Not specified | wound up after outlets closed | Two companies associated with the Milly’s lash, hair and nails chain have been wound up after their outlets closed. The closures effectively end the chain’s operations. | https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ3VYZkYwNE16MHROc0x4NGVIY0hhMGliLVU4ZHNsR19SX1N3N0ZnMzVCcnVRS2pKbWlrUDdfWjhvYzVNQlE5bDNFNGRtaUQyMTFCSzJKMkV0NDNfZ2wxUFQzMXQ2NnNGemk0S09UY0RmYTdBQldhTWppTTRONnV0VVNIQV84bUswRVJodk9nZ203TGY0NHNtTVRHUTZOTWNNY3p2MHg5bmh3VTdBVmxkb0l4MmdkUEZ3c0N5eWxWQQ?oc=5
-
-**Extracted Business Opening/Closing Information**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUwzR2FkUEl1RTBGa2ptX3lGbWM3Vkpwd0RHWHpPOGF3dGljUElWNXI5SjBYMG9meWk2aW9LZmdhY01hWV81bUthdG1mNnhJMjJfak1YaW5Xd25wcVpzOVo1N2FhRUxKYUZGQlNTUk9xRWlGOWUydS1WQ0VoTUFqTm1oR1BVV2JJa2ZJVy1yVkN6WkxHRW1vY0I4LWVCeXp0c2dCZkxMOVAxbWRWVjBteW9hN1J2YmFXcDV0eC1JaGNOZ2lzb3pySg?oc=5 | 2026-11-26 13:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqwFBVV95cUxOakdXMHQ4Zm1pcUJwbk9NZFNzU21BUGk0V3o1Njd5dC1PVUctWjYxMGFRSS1qZGk4V3pVY09URkhibFpuU2c2NHhHa1FCRUhYaEZsRHROWVdQcVp0SUpTQ1ZfZTFpclBsVklnUjdtVDBCbGEwbDhNeVBTeGl3WnJ5MzR4NXF0NllQLU04Wmg0bnBHRU1jZUtoWnpOTTlGM2NlTi1idUpDeURJZlHSAasBQVVfeXFMTmpHVzB0OGZtaXFCcG5PTWRTc1NtQVBpNFd6NTY3eXQtT1VHLVo2MTBhUUktamRpOFd6VWNPVEZIYmxablNnNjR4R2tRQkVIWGhGbER0TllXUHFadElKU0NWX2UxaXJQbFZJZ1I3bVQwQmxhMGw4TXlQU3hpd1pyeTM0eDVxdDZZUC1NOFpoNG5wR0VNY2VLaFp6Tk05RjNjZU4tYnVKQ3lESWZR?oc=5 | 2026-11-26 12:59:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAFBVV95cUxPWFhTSGNkMkhVczVZNGIyeTRaX1ZXQjZfOFBnQmI0V255cllLMHRWWmlyU0wtVF96VW1sVWxXaDdYWUZVUkJUNjY4bXRkOVY5VUEtdHJUcXhDUGU5S0Z0a3p1ekFMeFd5aWkyU1U0VVRNUVJ6STBuLUJodlJab2FsNw?oc=5 | 2026-11-26 12:33:00 |
-| Pacific Counter | downtown St. Pete | Closing | Not specified | has closed | Pacific Counter’s original location in downtown St. Pete has closed. The article reports the closure of the original store. | https://news.google.com/rss/articles/CBMifEFVX3lxTE1fSDd2VkhKR3ZiSG9aZWx5aTlsUjdqVm54WDNwTmQ4UjNURktaQTh6b096cnhtMjQ1YnNBbjVrUzBVVHpwUDl1Mm9Hbms4TUhJVlV0eC1wekIzLU10NmpRdWRXQXd4ZnAzUXJOMHdXLUF3aVBJbW91VF9ZVEE?oc=5 | 2026-11-26 12:18:18 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTFp1c1IyU2RDSGU3a3BzZDk3blp4bmxONXNDLUE5b2Q5Y3BDYll5X091M3NiVTlLT3d4cnlicVdSZEdERmduZnNXSW1MOVczb0xEaE9jWnJLd1VxX3VHMDRyYWhzdk4tVU16QmVIUzlNTlpFU05tWjEzeHhiclg4Ykp1dE9WMXV5bGROTm9ydXVvYXZTQXRuR3c5eVQwVkZydWJCYnBoLWNLNGlzcWtWZlF0QXdDZjFDc0loemZxd05pdw?oc=5 | 2026-11-26 12:04:40 |
-
----
-
-
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | The article discusses banks and post offices being closed for Thanksgiving, but no specific business name or address is provided. | https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzU0bkFNQ0pXV2xmdFJ0clZRbW41UmRjNHpBblZPb2Jqdm5FeFd2MmtqOFFoYWYxSmQxejB6TkdyOXc1WlFFbHN1WUhWUXEtem9hbVdSLXFQRmlLUlJNYl9vUzZvNGItLXRyRlhlT0hDMW9BMXVwZDZZZ2FyMUYzdjQ3TnVXY3N5NUNDM0lPVlJoRFFlUDFxZzlFOGJaWFYzR0hNNWpyNA?oc=5 | 2026-11-26 12:04:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article lists what is open on Thanksgiving in Eugene and Springfield but does not name any specific store opening or closure. | https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT1ktNmN3aE9pYUJsY29TSXN6cFFnUkdab1lZbk1IbmR4Q3Utbm1Ra2hsS1ZLRGR3WjdtaFYzZGYzZlRudUNqWl9McUFHUXpveWVFeURnSzFGUlVqZk5UM0dHS2pxN25WSy1sX1ZTRk1vdkNGeXE3TnNzN2lYT25kWEtaXzBhWHZxeEZ5OEw4TEZ1QnNneVcyTnVjajlxUks2dUd4SDA1TWtfMlVXdmJBV0ZzeWl6QXh5c2E2Z3NwTHlzcGY3a0dEVWlWSkRYeXV5SVcxcHJnTDQ?oc=5 | 2026-11-26 12:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article announces that Lidl is planning its next tranche of store openings, but no individual store name or address is mentioned. | https://news.google.com/rss/articles/CBMimwFBVV95cUxOS21oTllfRkdoVlZJNUdzaXowdEdpWTA1eF9rSXpvQnFRU052Ul9WR3YwT25iVE9TZ1U5QUczOVVpOFZWWW9pSThXaG43M0tzaFlfMkdFUHNoSnN0Q3lrMVFLTEdtRGNKMjlIWFB1cUlFSDFRZWtBTjUwV3ItODE5RlBodmRMN0k0aGhveU9fM21ubE11Mk5sME14MA?oc=5 | 2026-11-26 11:57:41 |
-| SpudBros Express | Portsmouth | Closing | Not specified | closes | SpudBros Express is closing its Portsmouth store. The shutdown ends the city’s ‘Spud Wars’. | https://news.google.com/rss/articles/CBMimwFBVV95cUxPREtIRDliOU9DZ3NPSGcwZTVzLXFlRmo5VmNpajlBV0pyeE14ZlhDUU1NTzVPVE45QmJlNnIzanFranNfRVFkdEhQMGtDZ2xPTlBxeWRZUjdDd2NfLVFiNGs3NFcxdXoyTXJKMGVOZ29vME5RRVJJel9OWFdSR2ZhVTNJVW85ZThPcnZZTXAxOEdxM0VlZkFtWmFGYw?oc=5 | 2026-11-26 11:53:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article discusses how Austria helps CEE companies expand across Europe, without mentioning any specific store opening or closure. | https://news.google.com/rss/articles/CBMimwFBVV95cUxQck1iMzFGV2VIbkFzQ2ZxSWdYMll4SVc2WlQ1MU5FdXo1WmRnM200YnRBb3JaOE1lajc2TWd3THFwU3JlTVd4ODdnY3g5b242T1Q4dVVlUHMzWXNsOGw4SW9UN2p5UF9XZ0MzWmVzdHQ5YTJkcGduWEJYYS1ja1NxMmVfYUNqelVOZzJJX2Q5X01OS3Y0VHp4N0ZhSQ?oc=5 | 2026-11-26 11:50:33 |
-
-Non-working or unusable articles List:
-• None
-
-**Extracted Business Openings/Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Iceland | Filton | Opening | Not specified | opens | Huge queues formed as Iceland opened a Food Warehouse store in Filton. The article highlights the strong customer turnout at the new location. | https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVpWeksyU3hLYlV1czFuTlJDeWI3ZjctekJ6aEgyNmRoUjktQ1lwdzJtVlE0NjFqZ3FLbHlnaU4taHZDTUFhYjc2RXpsMFdkSDBWQUJQWTc1amt1eVZJV3k1bkVOaTJMZFRRRUI3QU9hUURPRXU2Q3dvNFh3VFNLeFdzV2JXZ0h2ek5r | 2026-11-26 11:44:00 |
-| Auchan hypermarket | Sun Plaza, Bucharest | Opening | Not specified | opens | Auchan opened a hypermarket in Sun Plaza, Bucharest. The launch took place on the same day as another store opening. | https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFo5U0FNTHRhd2k5RXZ3MDlJSzlSM1VWYlVfVTNFN082dS1kS0Rrc1VOcFhLS09SdDNsei1OMUFnRWVKSkJLdlFGUnc4c1M4SWJJR3FSbHpPN1JwT2ZNOUJ0QlFZV3JwUWp3TUVRQUE0V2Q5blNYUTl3VUZkMmhaRmxWbTFza2pCOUE4RjI1UmhZVGc1VFNZ | 2026-11-26 11:02:44 |
-| ATAC supermarket | Timis County | Opening | Not specified | opens | ATAC opened a supermarket in Timis County. This opening was announced alongside the Auchan hypermarket launch. | https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFo5U0FNTHRhd2k5RXZ3MDlJSzlSM1VWYlVfVTNFN082dS1kS0Rrc1VOcFhLS09SdDNsei1OMUFnRWVKSkJLdlFGUnc4c1M4SWJJR3FSbHpPN1JwT2ZNOUJ0QlFZV3JwUWp3TUVRQUE0V2Q5blNYUTl3VUZkMmhaRmxWbTFza2pCOUE4RjI1UmhZVGc1VFNZ | 2026-11-26 11:02:44 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article lists Black Friday savings by store but does not mention any openings or closures. | https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm9EbEFIb1dyVF9WVnJYeERGSVZaVFdYV0RfX1BCN3lwXzFhVGxQdTFnXzVKLTlPS2wwMVg1dFl1WTdQUHBISkpWS0F4OGxrMHJpU2xOaUE0NU9FRUdpajAya0NPelZ5aGdLWFZfQTdoWTlUa1NaZldXY3g3UUpleWVUb0ZDUDZnalhjWDRWWXpWb01uTWN4YlZybWNyVHItRE1JSFBNb3JxTFU | 2026-11-26 11:02:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article discusses potential home loss due to expansion but provides no specific store opening or closure details. | https://news.google.com/rss/articles/CBMijAFBVV95cUxPQWdIZzVVZWpzWFN2aVhldjZtaklzcWtFeDlydE95LWpnMkJFZmQ4TEFUWmlqeDUxUGZ1aDZmWUxYeFhHb2ZPRG9ZMjVsTG56TkVOeWstRktvVy1tbkZEY3Z2dHlMSEd4S2JxNm9yMVZTZVoxcFp2TEkwS2tLV0t1QlhWdlF3eU1oRzhwbg | 2026-11-26 10:56:54 |
-| Aldi | Hazel Grove | Opening | Not specified | unveils plans | Aldi unveiled plans for a new store in Hazel Grove. The announcement outlines future development but does not give a specific opening date. | https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbmxZVFJOUXhfcjdqWklJNGp2RGpRVXdrY2VoS3U
-
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Lutsen Mountains | Address not specified | Opening | Not specified | delayed | The opening day for Lutsen Mountains has been pushed back due to warm November weather. The new opening is now scheduled for Thanksgiving weekend. | https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYmtyeUI3dmlUTmEyZHhLMExBY1BCVDNGM05QcHRnNFh6VjNNTUlXU0FBRXU3a1BoTWdlRXJ6c2dvTmhmeVJPWGI0aktNbnhQdy1Ndl9fWEM5ZGVWMFRLWUNsTEZCU3Ewa0pIT25TTWRyd0Nwb0lQSTQ2clNONlI5Z1F5TFZqYktEM0U0?oc=5 | 2026-11-26 10:00:50 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article reports that four schools collapsed and flooded after a storm, leading to their closure. No retail or restaurant information is provided. | https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZGhpYkxUejkwUGJIQktfTzk3dUExdUtvWVozMXQxa21FeXIwYzlIQmhrVjFqSFZndnRPRDVYZ2hKVlZjeEwzY3A4cEEzNzhZM2tkNGdUSW9OTGlDaUNQY0FjR0pvRWdrUTFkZW9YdXNwNkVFeFJxQ29CczExVUdYVnZTZ3hoNG1RQmZTYldIRlBQbzEtNTNYTHk2RkpfaFZIQ0xKQlJlVjhMYm5SOTlQendpMTREY0dIQjhFMFIwNDNheEnSAcMBQVVfeXFMTmRoaWJMVHo5MFBiSEJLX085N3VBMXVLb1laMzF0MWttRXlyMGM5SEJoa1YxakhWZ3Z0T0Q1WGdoSlZWY3hMM2NwOHBBMzc4WTNrZDRnVElvTkxpQ2lDUGNBY0dKb0Vna1ExZGVvWHVzcDZFRXhScUNvQnMxMVVHWFZ2U2d4aDRtUUJmU2JXSEZQUG8xLTUzWEx5NkZKX2hWSENMSkJSZVY4TGJuUjk5UHp3aTE0RGNHSEI4RTBSMDQzYXhJ?oc=5 | 2026-11-26 10:00:35 |
-| Lidl | Address not specified | Opening | Not specified | opens | Lidl has opened a brand‑new store in Aylesbury as part of its £600 million expansion. The launch is announced in the article. | https://news.google.com/rss/articles/CBMirAFBVV95cUxQX1VTT2JVWVhBc1pqWWlBNFlPZy10NF9OLUF3MEhWWFJUVXFfVUs1ZmlleDM0WmRGM3ZyZ3lxZ3Y1SWg4dlhUWGFqUEhvTTRCOE5xaGxHXzgyZV9HV0lESE5aZGNMX1l1VnA2MEIwNmd1bWgtWlNkMGlGa095VUNvcmw1R1poQk8wMkFyM2dMQ193UHh4REtMdlFmNS15WVplbGQ0TTZOUng1QTF5?oc=5 | 2026-11-26 09:37:00 |
-| SM Nuvali | Address not specified | Opening | November 27 | opens to the public on Friday, November 27 | SM Nuvali will open to the public on Friday, November 27. It will be SM’s 91st mall and the largest in Laguna, featuring an indoor garden at its centre. | https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcHhLd0lkUmszaEZ2d2hnc3RFcERTcWFpZnA5RVlpR1JVa
-
-**Extracted Business Opening/Closing Information**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX0V0MmFicERjbDNnVGx2MENRTE9IWC16NWdFczVZaGpFQ0JXREpWUmJHTmpYVE5JTlZ6UWl1dDd0VGhxRHRQQl9mWjNnTWg3R1RldU51MjJSbC1MemNCSmlwTzZaczFQbWdmUFdyUGNWWHhzSV96WkV6LW1BMGRNeXNhdzM4enpfNE5zdDFaemQ2dkk2RlVxcVp2TlJLZXVDeEh0dmNHdTNYR0hldjlEdU1laXh2bnJKa0JoLWdEamJHR1kxOEdGTmZjQVdaajhNelpfUUhiOWRqMlRybWJtNFc3Z3BvSUU?oc=5 | 2026-11-26 09:22:00 |
-| Apple | Hyderabad | Opening | December 10 | to open | Apple will open its first store in Hyderabad on December 10. | https://news.google.com/rss/articles/CBMiugFBVV95cUxONU16ODEtUng4dm5HcGlsc1ZybDcxeU5Hbm9iSFhodWdYejFDbi0ySjExZXFDSlJ0d3J3cnZGMkFMSFc0Tms2QWI2MXJwTFFiYVpvLWpESWlDU0hUOGhKdDM3OXFnbGdQc1kzNFNHVXFRMFdJY0lYOVBlOFR4Z2Q3Yk15Ujl5VDlYZEFyQW1LNXppZ2hxSlhVak05UHlOTEN4RXJzdjFoUTZTelpaNC1uVlRPSEVKUHZPOHfSAcABQVVfeXFMTndlejc1N1VFT29lTHg2UEhUN3g2M2VRcDNaNHVXdHBObWRtTVlqZU5icXZTMjVJRURXUjFzSWVUNFFwblhoX0x5TkR6VW9qMDVEY2NNVWs2aXpjcjVfdlFfajg3TWdsUmFtcEFXWTFqN2dxanJNZllIbHNhczYwYWZOUFFSZUFDRVByVEU5a1VoY05OUGxheXRjSlZGWEJfd21HRTZySFNaSHV2QXlreFFLNlVzWGhPYlU1NUxibS1w?oc=5 | 2026-11-26 08:43:31 |
-| Home Bargains | Doncaster | Opening | Not specified | opens | Home
-
-**Extracted Business Openings / Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Barrio Burrito Bar | Address not specified | Opening | Not specified | Opens | Barrio Burrito Bar opened its second Baton Rouge location. The announcement was reported on November 26, 2026. | https://news.google.com/rss/articles/CBMipgFBVV95cUxQSnlGTGdjd3NUQS13TENxZXdZXzRWQ09DdWdXTHk2MmVlVU43Snp1RmRVYmtaS242WVNsSi1WVjc2cjJXYXh5MmQ2Z29XVXM3NTlJX2F5d2Rpbmt1cUh1RGRaZ2pwUndMTUwyT3JNblVxeXdjSXNGZEh3WEVsWjZ2aVpOQWViWmRiYlB0amxweUhPZlg3Y0txNUxNU0tVcW9yMlRsYTR3?oc=5 | 2026-11-26 07:11:41 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiggFBVV95cUxNa1ZEdHpfTTBqZzZ6UmxmTXBhUXlRWHZhUW9ZQlg1YUl4YnVQT1dCOFdRN3dFeC1QTkgtTDNvVHB2MDhyc0Z2MUN1dnBKR1hIUTlkUXVKcWpfekRKVVByY3cwQkJJcVVQck1sb0xWbEZLT0ZtQ2d5X1FxSTdxemJ5bkpn?oc=5 | 2026-11-26 06:24:48 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxNLUx1VVVKR1RFVW54TjZSLWY5NHZ3eXBkY0lWdlRuMXRieHVvVzNJX1FwTXRicWdFMGFyc21SMmRxby0zX2Zuc2Rib0ctODBxTzBtWnRYSEF4dldtT1BRV3lmUXhiT0gxTXp4dnNZUlUyVGVVTk1mQzhWVTJ5ZnZteUhmTUdud0pwWTllVzZYR1ZQdVVFcWxGVUljRGVJUEtiT2c?oc=5 | 2026-11-26 05:46:01 |
-| Apple Store | Hyderabad | Opening | Not specified | gets its first Apple Store | Hyderabad’s Kukatpally area received its first Apple Store. The article provides details about the new location. | https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEpyVkl3eXBFTW9BZjJSa3E2Y1A4bmI0cG4yUGN5UzZkTHJlamtwcEJPY1FIbW5IZXpnQ29KYmZmbzlsTnFPNjdETGRmN0JsQTJPUm02R2VHQVE5SEYtU3Fpc28zdUhqeVJSVk01c1JFTjlrMF8zTjFVNGU2ZlN2WXFadGY5OXNxWDAzeFZ4dXhzcWpUOU16bVBGM0FUc3ltNEN1Q1dueWFBOXVaUlBMTi1TMC1IWm4zdUtIaXdLWQ?oc=5 | 2026-11-26 05:21:35 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTjJQSlJ3Tm9PRUNUWm5TMUR6NEZNUDkydmVrZ0pIV1N3NnpxWXl4dFBPUmM4WjY0Z1B1eWlZMVcwZC0tLUFuTkFGblNRT3gtMzE4SER6UE9aak02ZHR2SkJQYmJ6b1ZRWldmTl9xWWR4b05VZEdoNTBPakVYWm1JbHFFZFNQUVRkQmhTSTBLWXNnb0Z0UnRBcDJGX3dMNEl5aF9JUjVqWEo2VWdCUFhHYmd5Qnp4MzJuV2RpcmFDMTNTLV9CaGZoQnRKSEZ1d2l6Tl9NQUVvTTJSeEJMVkxlc204dUY1Zw?oc=5 | 2026-11-27 16:00:33 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxPWGdvd1VIdTRaa25oeUMwNWFISF93RnRRVm1RTl9fSVdtS3F6SzNrdEROTGROWnEtYlJDUVY5SjNiVUQyaG56cHpNUkRDSjNDWjBGN2FVYW1iN2J2bEk1UHFRWS1CQ0pEcEp6YVJIUkRLdDM5RnQ5YzdaVm1sbHlYanhKTjhwQQ?oc=5 | 2026-11-27 14:36:09 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc2VZQjdDa1FZcmRmNkVKZlQySGVaRlFYZlNHRUp5dGFoSlhIc0ZmeENTREJQa2x2anV2VDhQazZ0ZFVtdDhoTlZOUlRXbmRVNEFWSjU0U3dUSWlBNEdIeDN3QmNTTjd2U2tGRFRsbGw1THctVGVQYWdJY0lQMGowT1dIRlp1Q1ZVQ0VLbkJjVVdad0c4dGE4cEI2RGpOb3FTY3kybTFXZktwN1VUZG9Ial95QWdTOTB0V3RoSnlUbHcwNFpXRVB4bGdmalF5Z0FiUnl3a2pKUjlaYkxrVUhNQTY3UlM3NVE0?oc=5 | 2026-11-27 14:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHY5N1U4dzgyMkhEZG1SbVFQTTVEV2xjRWFVdXNqVkxNSnBWcXlQb2QxdWZrYk11Ui05TktRYm4yU3IyWVRNdTBOWGVST094eVlGcmc1OFVZRVVSOHd4eW1GRVpfendZcUNzQUNraHo3T0U4a3RmUkNmWXcycjd2ZnVYdzZXbjhSTFoxdkcyMURMZ2Y0TTNfbS1SVXc?oc=5 | 2026-11-27 13:30:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxNQWZjV1kydC03Umxfd2JqNmdMM2psWXBhNUQ2S2dGWTZkaG44UkZYYzVMYXVvTVJoWjVjYzZwcjlEbzFmRV9sZUQ4dzY1N2pCQ3RNWXZEWEFJcGJVZUtDQzlPZEZrd1RTNHhYRUNrZUYwQVJ2czQ3XzZGTDVFdXlfT0xrQTVUU1dtbV9Qdi1MWW5ZREU2MGs1RUozMHBLTzA?oc=5 | 2026-11-27 11:12:36 |
 
 ---
 
 **Non-working or unusable articles List:**
-- Article 135 — Reason: Could not fetch article (429 Client Error).
+- Article 11 — Service unavailable / could not fetch article
+- Article 12 — Service unavailable / could not fetch article
+- Article 13 — Service unavailable / could not fetch article
+- Article 14 — Service unavailable / could not fetch article
+- Article 15 — Service unavailable / could not fetch article
 
-**Extracted Business Openings**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Aldi | Egremont | Opening | Not specified | set to open | A new Aldi store is planned for Egremont. It is set to open next month. | https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzRESnJ2RVAydm5Oby01ZDUtdmNQdUhYT0lBWkFVUkVSUnhXUkZ1YWkwYlQtVjJ1anlMNGp2UlU4b3pDb3p3aWZtZFVDNkZxSmFOM3BiYVZQWUFuaThFZnQ4dmxucWxnLVdsOG9DOVlOakQydEgtdVBFNUFkTE9QU1k0SGNodEhud2kzMHI2SmRlWS1UeWFn?oc=5 | 2026-11-26 05:01:53 |
-| Much-loved pizza chain | Somerset | Opening | Not specified | announces opening | A well‑known pizza chain announced an opening in Somerset. The location is described as a “dream location.” | https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDNUUFhua21OUkRrbEJZRHNrY2NOa29HWTY2RnJHZlFxbmdKUUx5MnVLdGZZbkJYX1dCOTcwWkJLeGs2YTlZWlhRLXUtLVZJZmQ4X2dpUmZqS0QzOVI2SHNKRUktWU4ySFZvdHVqVzF4WndoanFnQnNtblRCZ0pkUkd1dkprS3UwMXlpbW0yNncxUGRNeVlNa0VFWlQ2SlZrSlhfZEd3?oc=5 | 2026-11-26 05:00:00 |
-| Holiday Valley | Address not specified | Opening | Dec. 4 | to open | Holiday Valley announced it will open for the season on Dec. 4. | https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWC1Ybm1wUnJjRXZDOGVTRW5vUXNNYTdNSm90SDdWVXZhSm1hME1kMzZEU01NdWQ1TklGdW95OUt4dzhVT0tVSkYyYmNyWjExVnFacVJ3bmFrdWlxbGdvMmVHbUp2MzJZSVN4X1NzXzNBdVRjRHVySXdqNzZFWmVPMWM4WVhrSFJ1?oc=5 | 2026-11-26 04:29:00 |
-| El Toro Loco | Cutler Bay | Opening | Not specified | Expands with First Express Location | Aldo Espinosa's El Toro Loco is expanding with its first Express location in Cutler Bay. | https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BUkJRakp2RHN4RVRubnNjZHkzVTVEWEFDWlgyN0tWMjBPSkhJN3VCQzVOcE1UdFBKanNlaG5HUjBTYXZkTzROUEhSUXlwRzZlMjZKMW5pNnU?oc=5 | 2026-11-26 04:04:12 |
-| Wawa | Nashville | Opening | Not specified | Opens | Wawa opened a new store in Nashville. | https://news.google.com/rss/articles/CBMimwFBVV95cUxQRERHaXRUOHY0bWdNVDZzUGExZERiYzRUREdNN1lqWncxTGRHZ25nS2Y1VzB6a2NWdFZoaW9qWnZ4bVVfUXJKYUlFb0U4Y0FqbkZnQTJrNUFkUGp0TTZBa0gxbnhHZ1owYkpNY1pGZUFjbkdmLXF0bjJvRWpSQVZ1cjFMa2JvTDcxSGQtSlJ1QWJ4QlF1a0R1TmdmSQ?oc
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Cato | Address not specified | Closing | Not specified | closing | Cato announced that it will close approximately 90 additional stores in the fourth quarter. The announcement was reported on November 26 2026. | https://news.google.com/rss/articles/CBMiakFVX3lxTFBmYjNXVkdiQ0pieEJFTnNPOVpXQmVpOHYwM0dSemFaRW13SlYxWDlVSURuR1hSdWJ2ZFpQZGxucGhpVFFIZXp5TEg4TFltajlxVFhGWi1IelFQcDU5Q2FCWGZkbm5BOE0tQlE?oc=5 | 2026-11-26 01:30:14 |
-| Quickchek | Address not specified | Opening | Not specified | opens | Quickchek opened a new store in Sayreville near Bass Pro Shops. The opening was reported on November 25 2026. | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGdVU3NIUDF5WXJ2NU52dTVVQXZKMmI5aWJzaE90VHAtTk5Gek5sQk9rVS14RUc2ajhZSV9fWWVyQnpKenh6aHpaUlhFUGUtbkxJR3Y3dUdrcjBSclA0SGJhM1doM0dYUmtnVHNOZGh2VVItTHVhOEZHQTlIaHlpVG5MM21vNy0tVTUwRzB2SFFQeHByZ3VrWVhWQjExV1VLSWU4NS15ejYzbzlub3pZM3Jxc0YzRldKN0NR?oc=5 | 2026-11-25 23:30:20 |
-| Louise’s Trattoria | Address not specified | Closing | Not specified | closing | The last Louise’s Trattoria in Los Angeles’ Larchmont neighborhood is closing. The closure was reported on November 25 2026. | https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHBEREVIV3dSV0JnYVJrV0M5QWl4eVJCNmFpb0MyNU81UzBMQVNWTEFVS2x1eUtXRW1HeTBvMVlPb0U2VFk4akxtV3k5OUJsZTZhdU9CNEtPd1ZuazhfV2s0N01tMENNQ2c3VWpBYVdsRjVFYVhlS1RXQmVwRjI3Y3dUQXg1SmFLaUZORDB1RnpTNnNhZFh5YjEzaGUyS3oya19hVWstSGVONWs?oc=5 | 2026-11-25 23:28:37 |
-| Slick City Action Park | Address not specified | Opening | Not specified | to open | Slick City Action Park announced plans to open a new location in Ogden. The announcement was reported on November 25 2026. | https://news.google.com/rss/articles/CBMimAFBVV95cUxQMU5uSEh2T2U5Z1lxMExIZ3Y4VGR4SnVkRi1kYkZ3SzhBUERBcmYwXzNORXlVMlZ3Ym1xU2YyQjR0YnNubWpDVHhtV2QweXQwMDg2bmVYbmhNbU9FY2luOEdjYXBGY0o1cE1Ob0YtOXVTck9rdVpoR2NSMy12Tl96MnBONGZLYUlpS29NTElyNlZNQWU5SENWYg?oc=5 | 2026-11-25 23:09:22 |
-| Casa Ramos | Address not specified | Opening | early 2027 | set to reopen | Casa Ramos found a new home and is set to reopen in early 2027 at the former Billy Simms and Smokehouse location. The plan was reported on November 25 2026. | https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yZ0cyaFlaaWR1QUx1bFdFdGlNOTlmSDZQVnZHSjhQc3NuNWlOTTZwQTZlYzl2Z09LanhET3NZSmRELWNPWmRYUktfblRTaFJuYlN6TkR6bUtxU2JHalZSVDg3cFg?oc=5 | 2026-11-25 22:36:15 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeGJLN1YzYWIzbmM2SDJPV29WOERUVV9ZSjhsSnVkbGZ2SGxkemFRek5OSjc3UzhmMklsX2lVQ3puNEpjTzlKX0FUczI2RXBYbVBWbkd5NV9YWk4zb0hTU1dqNzZ5ejdQODVJUmJ6Q0FWanlsaS1oYzVTRkhDekZpLXE3Q25aYms3LWEydWU4WWVNTDNOY05RTFZfUlEwNTFNNDZCZXNBZ3NQX29zTTdrV2otRS1SMHhZUXowYlVqdFM3MVR2MXhBTGtTc0JXN29zYW9V?oc=5 | 2026-11-27 11:11:57 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0xGa0VETkxvRDFEN2U3emdSNjc5TVpVVGRuNnFJVXNudWp2V1BXTjhhM2J6RnRnZmFWRVFTRUY3NGNrdFNqVVdScElwa3QwZFRhdGdVVVAwWHpOM05jc1R0ZzRvSUxDRHFTWHhKekdvcWl5Z3dYMEczYVdVd3VpRVR4am8yWWVOS09fcmNCQ1pxM21LQ2pHRlBWdUl6b2hfejlZeG1mYXJJUHJqSzFPdDNOcWVIejRhOXNpNDVKWlFfTTI2MHl5dzNKQW5hUQ?oc=5 | 2026-11-27 07:15:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdk0wN3hSUW5XVmdvclpENi15bE9COHBaTER2WDhaUHBLd1lCbEk1dUhQSUlnendPTDltSDZiR3l4Y25QeWkyaERpdkNBREZCYUpINWFYQl93UGFROE1xVWN5RnN1Qnh
 
-**Non-working or unusable articles List:**  
-None
-
-**Extracted Business Openings & Closures**
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Cooper’s Hawk Winery | Centennial | Opening | Not specified | opens | Cooper’s Hawk Winery opened its flagship location in Centennial. The article announces the opening. | https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc1h0ZjREb3pEQ2xCdmI5TzRNVnpaMlp6U1NNZ0VUS19KZG9TQXdxd2pacVNzVFBCazJJMTlQVXFWbXVPOEJzSm02RTh4aWQ1WmM3WE82TUZReW5hSFZIQkV4bTBCMkVtQm1SWnRBWjA0SHlCNVFYd21JVkZsYWVaUzRIWGt3Zm1rQjdsbUZBVXdsd3RNcmpxOWpmb2lqTGQzaE44NkluTkVwandQSEVYWEdFbHNCa290ejd3OVpISmlVX2ZXQjFBd3M2Xy1yT3BnSjlGbHN4OEYwQkJGTDFZZXZzNThpM2RGelJqZ2xiRjltUWdWSXNF?oc=5 | 2026-11-25 22:09:00 |
-| El Cholo | Salt Lake City Sugar House | Closing | Not specified | Closes | El Cholo closed its Salt Lake City Sugar House location. The article reports the closure. | https://news.google.com/rss/articles/CBMipAFBVV95cUxPUUlwVk9hS2R0S052S0Z6MGtndThCSUtoNmdxTVlpYllMQ29Vem5FaGpUX21WX3FHeEJSalZ0NmktUWhLSWViRllZNmVMV2o3Zm5yVndjYjVYOXB1RWxzM2I4TGE0S2ZranlCaWY2Umd0b3dzd2Fub3JiNk11bVZFQkliN2gxelBqeFkzS3ppaFI0M0FfTS1iM01NYVJBcG0yWjNINQ?oc=5 | 2026-11-25 21:57:25 |
-| Zebb's Grill | Orchard Park | Closing | Not specified | closed | Zebb's Grill closed in Orchard Park. The article notes the closure. | https://news.google.com/rss/articles/CBMizwFBVV95cUxOaUZTT25aUTNhQy1KYk43RFZHTU15WVBYSmMzUmV1RjU1TDZ1Z1NmXzNlWXJjbmk2dTUwcm1VcXBHbVoyeXVncV9JeHRobm5oSGdIODZKR3BRNUt3Z19BRXUtWHpSV1RaSlVCMWhPeWtqWGJfa2JpVDJKQ3FpMGhaTkdvMktjYkd5MElwbC1lME4wVG1uVXpEODJ4RUFvTVdYYl8tMUlVdkZkaXV0M2ZLYnB1UjZUSjBabjNUazJHYTZpZWxrS2poandwbUFfSVE?oc=5 | 2026-11-25 20:49:03 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxNNlN6VlE3U2hVUU1Bd1FwS05ONFZnRnp0aG9PX0xtRnl2enhra0h5NE9VSHBmZF82amFqb3pUM2RUcnRqSnZJZFNqTE9Na0ptMi1XS0FEV1QwRGtRc3BYNEtkUzBUM1N3bXR4Sy1PV0lQZnJiRFVFcnJiakEyQU12WTQyOXQ4Zk1XcUJIcXlpdGZOcFVJeGQwLXdIOG8zMkNNX00yT3pYOA?oc=5 | 2026-11-25 20:25:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMidEFVX3lxTE9kS0NiaFFTSTg3NVNVY00zYU92LW9qbmJHOF9YczNLazdmSk5wSnJUUVFVeHRnR2tCUHVMZjdHQXNUUHNxSnFUZ2wycDZnc2hUTHJLS1lBTEVscC1KS1h4MkdqYXZ4N3FrU1paemdSM1ZfX3ox?oc=5 | 2026-11-25 20:18:32 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwJBVV95cUxNUDE0MURQVzdnMDFicjRNUE5qbVlTTWRib0Y3d3lhYmtUdUtxTVREV05vbG9XUlg3djVZOUtySUNuaU5NR19YZlZGTDdmOXEybUc2b0FZbk1BZlBPMjJCOFlEdFdpN3IxaVRTOVFkckJ3LTAyMndGOW1COUUxNHpKOW9qNFkzZDU4NjdMQlBSYlJsRjBmYWl5VEN4d19ZQlgwb2luYXdCMmc3aFBtcnJHT3k0LUhGUGJFWWdrVWtUdUtKVC1pS3pPcjNoNnpEMVFQa0ZBSFpJOGNqUHZjcjUwU1FXS0R6SlZBVEEwU2I2aksxZ19iR19qb2gwWnlLUUVNTnow?oc=5 | 2026-11-26 09:06:04 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwJBVV95cUxOekVoOVg5RVdLUUpab25wcFhjcklRTnhLUUlkTi12XzFIM0JvWFI1S0xsVHVld2g3LWhhR3dwWmxpdFYwa3pwcWNlSW02QjFmU2Qzc1AxTXVjR1dqaHB1VVM3Q3NWR241VHJzcmFmcjBPd001TWxFenk1a3g0SnNSUzJDQkJhVFpKMVpWZ0xFbDRoR1UwMjdZaHpfdUJ1RFpVZGNid0V0Nmx3V2FObzc1TzZsN3lrS1AtelEwY1F3N0xfaFhQdFlWSzZma05oZ2ZRS014a0Q5T2oybm1Ed3hsYmU0NHhzcThGZ0ozVXpBamppV2t6T1NyT19uOTlxM1FpMjk4?oc=5 | 2026-11-26 08:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxPb1djTVVRdkh0eVR0c2EwbGNqZG5aOXIwRFphSE94Q1NLaGVER25ETlpMQnhaY1NGMWRfS2lHUDZpZGsyTWpQaTlDQ1YwanMybTBfa29OdmVhSmZkMWZVVkt0UHNsTlUyeUQ4SHF1OGhHallNYmkyaFdKNEt4YVpybUowWHAxQzh6N3JQVlZibHAxSU1na1VOSFpEVlQ2TW1ZMmNfMGpXcw?oc=5 | 2026-11-26 07:10:22 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxPY1doeXctNEZrNFhQeHQxZG51SzFndE10ODN3SVJOU3lNb01tdzNJVzB1dGJ5T1JFanp5Q1BSeTFzYWxrbmlmeTM2aTQxV3hLUWVkc3lmclA2U2EzcjREVUtZb1k2NzRxWWdmczNYNE9rS1VtSGRZTTh1Yi1kQWxCdXg5QXZUVE1uWmh3dVE1TzBHQzBNMTcyWFNhVHA?oc=5 | 2026-11-28 01:43:52 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihgFBVV95cUxQdUdoMm5saTUzQkVIWVNaYUJacG9CbVE2MklCbGRDOWVzeExhTlVKdGtKS201Z2xMbThtVGNXYjdwQW5TN3l1cy1xRnpBZDJ1MWVybHVNaGdVZ3dWQXFlU2Zfc2tKc094MkZmT21LcjB2N0p3ZXFmY2ttdlRHcFNpbnFLdWtnQdIBmgFBVV95cUxQZFpwVjNWbDV4THNHaGdDclhzRURTM29NN253WENBVDBuaVlPNTItNzBfdUdOR1ZYaGJUVnRHRWpCQWhRUFRVWXJPRnIydnJYRkFYSGIwMGNFQzJfaloxOU40YzdZalBmWmM4RWRYWS1kUGxZZm5YcmFSWDMtWC1MTlpzY3FRTkF3UU8tLTFzd3pxOV94YmRLR3JR?oc=5 | 2026-11-28 00:58:00 |
 
 ---
 
-**Non-working or unusable articles List:**  
-None
+**Non-working or unusable articles List:**
+- Article 21 — 503 Server Error: Service Unavailable
+- Article 22 — 503 Server Error: Service Unavailable
+- Article 23 — 503 Server Error: Service Unavailable
+- Article 24 — 503 Server Error: Service Unavailable
+- Article 25 — 503 Server Error: Service Unavailable
 
-**Extracted Business Openings & Closures**
-
-| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
-|---|---|---|---|---|---|---|---|
-| Bar Enzo | Address not specified | Opening | Not specified | Eyes Third NYC Location in Gramercy | Bar Enzo is eyeing a third New York City location in the Gramercy neighborhood. The article discusses the potential expansion. | https://news.google.com/rss/articles/CBMijwFBVV95cUxObW4wM0x1cG82ZDhDZkdTVFNhb1pnNW94TU04d0gxNjR6WEVCRmdIN3pZS1EwOTFvT215XzFycUlLak9lWGswZzVmYVBDMWNUVlpGRnV0WnFsS2U0LUVyNFRJNW1EVnFQaW1pRHdaRjBZcWh3Mk5ORS1id1lRZzJyUmFyNVkybXgta0hZYnEwOA?oc=5 | 2026-11-25 19:51:58 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article lists Thanksgiving and Black Friday 2026 store hours and indicates which chains are open or closed. It does not mention any specific business opening or closure. | https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdjR5SzAyeXFCeGw4aEl0OUtrcE1XVVVKZE9SQkVhN1lHZ1RWUEh1RnREcF9VVW9USE5pNU1fZkw1UWo2blIxcjQ1NW1PVkY0dGt0a0F0TmJLblJyczJyTmtmei11MWRQU0RMdUxSd2d4d2hPQjJMQVBBdWVja2g5cUo5TWcyRG1GTW5URWJvVHRtaC15U0Y0ME1vWmVMYmo2d1JwU0pNaVVUbEhJeW1NM3RsWFdDekNENVlJ?oc=5 | 2026-11-25 18:25:40 |
-| SQZBX Slice | Address not specified | Opening | Not specified | to open | SQZBX Slice plans to open a new location on Central Avenue in Hot Springs. The announcement indicates an upcoming restaurant opening. | https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWJPQ2tyZk95X3lVRzU2eHc2aTAyWGRxQUd1TmZic2NBTTFxTlhtQk1kbTdBS2NINW5HN0RoVVFLODZIbkNrNjlvWEwxa1ZzT3FqUVl3bVdxMjRmSjB3YlEycnhDQVFid042OGlaVV9BVjdqT1VDdHRqRFpad2F3cUI5cTZPM0dMRU1pZzREcXJsdw?oc=5 | 2026-11-25 18:24:00 |
-| Grand Haven eatery | Address not specified | Closing | Not specified | closing | An eatery in Grand Haven is closing amid Meritage bankruptcy, described as being “caught in the crosshairs.” The article reports the closure of
-
-**Extracted Business Opening/Closure Information**
+**Extracted Business Opening/Closure Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| No qualifying business found | N/A | N/A | N/A | N/A | The article mentions a pop‑up sale hosted by a popular retailer ahead of a new store in Bethlehem. No specific store name, address, or opening date is provided. | https://news.google.com/rss/articles/CBMiggJBVV95cUxQNWlMb2ktQ0ZYa2ZZdkhzQzVTbWNEQ0dkdTQ4eXJ3Rm5iOV9xVXVNYTFGZFFEM2I4d1M0NkZ1VmdRZlU4bTBBc0NKYUo5NzRiQVZzQ2swYldaUGNyZDNvRk9vM0w0cVVhV2pwc3lWSHExbGlDNS0xM0Y4RC11ZnlXemVrSFlOU3hjZWVCQWVWbUpfZjBCXzh6eDNmQ2FXcW50LV9QczNXdkR5MmNKYXVwRml3WlIxMGJsalhWTGg0SHRqQlp0b1RzdURodTBfOVo0TFNTYjFLNzNEZTNHcTVJU0tvUnFQWm52cjJvc0hVM0J4R09qbGZNcXl4ZjlUTi13ckE?oc=5 | 2026-11-25 17:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | Shoezone addresses concerns about potential store closures. The piece does not confirm any actual closure, nor give location or date details. | https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUS1tRVFXMWdQdFlIMlNMQVp5aDVVTXBlRXl6Zi04eUlId3Zxb1ZYZlczcnRuUFJmX2dGdlQ5MDlLa2d2V3BuWjA1SVBNdU83a2xWNjBmRl9IMVVjYVRyOTdnVkpoSlVJX0U2VXN5UENabVAwU2VuMExsbDlCcnhuODA3VkQ2RWN0Z2Jr?oc=5 | 2026-11-25 17:00:00 |
-| No qualifying business found | N/A | N/A | N/A | N/A | The article lists which stores will be closed on Thanksgiving and when they will reopen for Black Friday. No individual store opening or closure is detailed. | https://news.google.com/rss/articles/CBMiugFBVV95cUxPYkRJWUN4MldSN3huMjhYS3EyNm12NUVkbDFXcjFGNHRTa09wamxPem5JOEpDVU9CSU50RV9OUWt6eFVobnVSQ09mYWJuTTk4Y0dnSTU5RmlzYlZGSjhRbkxjWDZKNWVycl84SVg2WGx4VW1YQTl1a3U5Y0F3RUc2bC1wcG9aR0F2TkFTWVpZVGRxNDc5dlQ4UGRqbl9QTmV5UndtWldqSXNwLUgyYllabnhPY19JemhIOUE?oc=5 | 2026-11-25 15:51:00 |
-| Osaka Marketplace | Address not specified | Opening | Not specified | Opens | Osaka Marketplace has opened its latest California store. The announcement highlights the new location but does not give an address or exact opening date. | https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDk4aDRaTVM1RFhneXhuVVEtcDMxZWhCbnI3NFpFUHIxeHdYOWlaaXhyMjlCdy10eDl3Nkh4emRtWDJEV
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigAJBVV95cUxOZEQwUEpaS3pYS2paZXo5T09BMDBUUG1sZ2JtTU1Ma1A1aVpOeWZXemxVRW9Zc3dQc0h2X2FISmVSc3Nrb2hOc1E5bHpPczNWdzUxR2I0WEM5aXJsR2JnMVJIc2ZOYVlWblNiNXdhY2xVdG5FSlF6dEg1UUFSX2dnTkFFemNCVTFKZWJCb19hSmM2ZmJWNkdPbmNPbGRfRlRvLXd1ei1ic0JBMy15SGtha2g5UENhSnNZZWZfUWI0dzRacVFXcWxJa1p2UzBDQjRucnRja09aNjVPSWcwbTVUTllsNEF5Nk9jdWgxSE03QXNtZmNjSlhRYTE3Ty0zY0t1?oc=5 | 2026-11-28 00:34:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWkNfaHVRa2FLVVBGWkNMSVpSZ0JiNlBadEUxM1RMMnhWZi1Bc1ZlNGNBbEk2blV6V1F6U0ZNVXl0WXEwa1Q4VmFZYzJMc3lZMlBEVldrVHhoRTZyeGdJMGJVcExMNkJUVTdEU2dNdC1qVTVSRmhLMmVsd3l3VUxiSFcxemRsNFFEdEVJWXZLNlBIb2RyUHJiOTNkSXBVanBCUkpvdUdZYXV4Vmo1bDlEME4xb0g1d3VHMFAzRnhHRFRzTUo2MUloLVNpZUZ5QjRIaEVYemhCSDd4UEpSNzdiV0JULTRXRHV3bEFkanV4czhuLW1oWUNXSGdRYWY?oc=5 | 2026-11-27 23:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMingFBVV95cUxOcW5KalRIR3ZxcDBzXzdCbGFpazRzS0dSRXVTaXpfNFMzNnRuYl9nWTYzSUNoUGJvUGw5RjRZcGl2V3hWcjdNVzMwN2VZOUZuZUlPVTBXX3VTd3BNNGZxNkc5ZGMxWUFZZzdRbnBUNFBiUWp4cGpEcGpsYmZqTTk2QkJ3Tl9kWTZEMU1sYnVaX1I4OWtrQ2VuejZFYTN6Zw?oc=5 | 2026-11-27 21:57:04 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWkxmVUhoWkhaQzNSQkYxQzUyYVRHR0hCRUtEX0pONDJzNmltUV90QTNxZl9lbXR6Q1FlakFCZHF0V29yaHN0aDBWSThyZ1gtRnFOc01fMlk5M0I4QjhYWVNaLWxNSVh0MFlFRWRMRzFra1pPTV92aHg4UjhPZlpzS29QNkQ3Q1pQY3M4bE5lX1BZa3RYOTBIZ2xUbTJCSVZIcl9rNW5KM3R1M2FGMlF3SmwtUy16cG9Q?oc=5 | 2026-11-27 21:36:50 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitwFBVV95cUxOdlYtY1VXTHU5ODZKSXhjVVVGUm5Tc1lmcXp5SHVFdlYyYkluWWpndEE5alIzU2lxdnVURTEzVkNLejlVUDlJeXpvYjVzSVBqOHBYclpaRUV6cGQxVzBJcUVYem9Eb09kNGw2NUdRempVeVlGQTJOcld2WnJHX04wNzBaSW9uUVVCcFhDdF9taF80aHB3aGg0Ty1vN0hNanhhU2hjVk9kbUVHV205NHk2bTczLWRkYzA?oc=5 | 2026-11-27 21:07:00 |
 
-**Extracted Business Events**
+---
+
+**Non-working or unusable articles List:**
+- Article 26 — Reason: 503 Server Error (Service Unavailable)
+- Article 27 — Reason: 503 Server Error (Service Unavailable)
+- Article 28 — Reason: 503 Server Error (Service Unavailable)
+- Article 29 — Reason: 503 Server Error (Service Unavailable)
+- Article 30 — Reason: 503 Server Error (Service Unavailable)
+
+**Extracted Data**
 
 | Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
 |---|---|---|---|---|---|---|---|
-| Floral shop once owned by Hochul's mother | Hamburg | Closing | Not specified | is closing | The article reports that a floral shop once owned by Hochul's mother is closing in Hamburg. No further details about the closure are provided. | https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjdvUnpOa2tKZ0dsYmdBczIzakdNTFMydGQtVVFfMm9ob2NMREtUcnFjTzh6R1BmRHpwQ3JkVDE3Y21fNlVnTWt2bHktT1g3SnpHdTV2LTlaMWEwNXF0WkswVWlZZC02aE5za05FSVhqZmNjMFkzRi1scHNRRDNiN01nQTZQZHpZNF9kTWRyRm51TDctYVRjZw?oc=5 | 2026-11-25 12:15:00 |
-| Whole Foods | Ridgewood | Opening | next month | to open | Whole Foods plans to open a small‑format store in Queens next month, located in Ridgewood. The announcement does not give a specific opening date. | https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkNRYm9fN2RLSndobkkyQk80VEpEOFlNVU1vdHNiVmRNN3lBNW1sRUVFbnNJa24zZUVhck9Ndkh0Nm0xVEV4cVFNVU0xbnkwVmJFRWtVVGFwWk94ODk5ZFZCQlhWLWhRUWxVemJrWHhQcWlTQXRZWTM5MHV6OGNsamE1VS1OTWppX0RSaWZUczRFMFVGdmJnbGNjOWVpQlFDam9Zcw?oc=5 | 2026-11-25 10:30:00 |
-| Bakery once featured on 'Sex and the City' | South Jersey | Opening | Not specified | opens | A bakery that was once featured on “Sex and the City” is opening a new store in South Jersey. The article does not specify an exact opening date. | https://news.google.com/rss/articles/CBMiygFBVV95cUxOaXF2NW43NHpibnJKN05HekJHVjhBTC1QV2lXWjhnX0xfME1ickdfc0E5SXdsMXNPVHB1Z1FCRG5xZGs1aV9wWm9TdGFaOGtTdWxiWnBqNUJDZXdLYWxkX1p3U2ZjUXhpOEFyblMtVVE0TjJMbFg0ZWxYRUJlRkt0d3Q0dnRVOFBNTHJkRXNrcS1GTEpnYmxIWkZDcnJldEhtN3RPUjQzUzJqWjl0RkR3T2xLT2RWTU1HbEpRcUdfZWtrQnBPaG5BU3BB?oc=5 | 2026-11-25 10:20:00 |
-| Yesway | Arizona | Opening | Not specified | Opening | Yesway (YSWY) is planning to open a second store in Arizona, as discussed in the article. No specific location or opening date is provided. | https://news.google.com/rss/articles/CBMinAFBVV95cUxNakpyaFg0bnpENlNSLW5mWnNPVmJ0Q2UxalNYTVZGU0xkNjIySUh5RGo0ZWRLekVhTFpNbXlFa2pKdW9pUzJaT0lZako0WDRCb2padVNNc1RybDFJeFFNckpYTDZaMGdMSEJMOW5MZmZwY29rSVUyWEZfMVpMZWJHSkdzUTdlc2k2UVB1UElpdzJtNm
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ1VqN1B5c242STFvMlc4bHBjT3VYY1lvMEIxWVk4d2hFOVFPUmJWYU1QSll2MkpzX0VyVEJxV2J4LTg4STNnMjZnRS1wbDQ0cTBQS3Fad1o1ZWptTG5VcUxQUHZGSjR5dkRWNE54Uk1ESy11ZzRycjVPa3NJeHBqQXF2Rm1SRFZURUhfU0hTM2VtazE5eDBLR29SZVcyRXczOTREVDA0SVlTSmhzbWVTQS1LOGxCM1pYTUE3Ty1GLVBTSHhybXlhVA?oc=5 | 2026-11-27 21:05:07 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNnJMZ19ROVV5R0M4dWhHLXRmb0ZRamJaTi1YX21HUWtOaHRadTNzY1RxQlVNMlJhRllFRmRaMVpLUElxazFIUEhJM3dRNm1nZHQ2akZpeGZMYjNIN1lPbHJQcFZ1NjRxaVJMaF9MbVBuVkZ5OS1FamNZa1lWOVJWV2JrYTZIUF8tUGFpbXFjMmNZX0pkaWtEcnpfbnNnYkt6Z2YxMFBvUUJaX1hkYmhqdjNEUXJkR2RsOFdNN1JWTVBNNVN3bFp5QUY2dnVfbU9TdWc?oc=5 | 2026-11-27 20:48:43 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzhoaEhCNDdLdDBFajFfQTlpZzN0RHhWakltVDdpN1RiaGFUbXI2QjQyb2RwQnU0VUlRRTcySGQ1WFpKbHdFSzVPVC1xYVdNUkxmZ1ZrSmtEaGZTZklLWkxScWpYbzJIQ1JXZElOc3doZ253QzFyczcyOVZBcE04NUhldlFDTHFkNkJkdVZSdFVyWnZaQ2tiQmhQeHNFNi1WdDJMNU5iRU9xa2FrV1JzNw?oc=5 | 2026-11-27 20:38:26 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMieEFVX3lxTE10dm93cXN1T2hqdThuWk0zckQ4ODZlWHhJMWNDa3BpeWVJbkZpNk8xa29WQXVIcHRKMzR1OWNVdDFPU1czeUFrMFVqdklncG5KUllER0VLYUFDZ1ZFWjdqc1NoMzBCVmp4T2EtSEkzTnNldmhiaGh1bA?oc=5 | 2026-11-27 20:14:21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTU1OGMtZ25Nb3R5bHBMOWliNzMxVFR2WlM4Wms5NmdkMHRjamJwX2tkTjZ0aTN1aDkzTzdaaVFvMlgwQVFzUHhDbUg2NTFrWG9zay1zNko0R19oS0dYSzlrcXF4QVZIQmxOak9xNFFlVzdRa1cwU3NGazhHVGtCV092UWFhS3ZqQ0l2Z0ticW93bmp0NWZyUmdoTmozSkY0QldwUzdkN1BnZmc2aGU1b3huaF80RG1IaVdtTUV0d1k3NS04N1RwdA?oc=5 | 2026-11-27 19:00:55 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 31 — Service Unavailable (503)
+- Article 32 — Service Unavailable (503)
+- Article 33 — Service Unavailable (503)
+- Article 34 — Service Unavailable (503)
+- Article 35 — Service Unavailable (503)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2xIeU5vWmJLaGRNMzJMOTQ2ejBYNlZoXzVaTWhnZ1FIcGZ3X2kyRGlYQ2RfTFczeDd6LTB2RnJyY1RpVDhYWVg5OVF4X2xWZ21BM2R5MEVHVHJQVVhnWXdQXzV1N2pCS0QtaDJCYWl4Q251blZGcXJLeG13b2xMMGpMbXVSMExwQURBRmJHNHlEVmI5cHU00gGwAUFVX3lxTE9HZ0t0akEyVGZPZF8teExtR0dNRW04aHRrMnR1NVA5YW5pVS02YU1pUVNoZmpFLVNtTWZVRnozbnJ5NWlaX0ZvWVpQeDBmVmkzWW1yNmNkMkZ1RmhNSE9VbEZXUldXNFJWYWZQaERubXNTblFqb0doSW54bEJrTkpJMDVjcWtwWG9ZYm9qSEZQRnBkbEVqVDhvaEdOdFQ4SldFTTJxdFpHNHQwdldQYzVD?oc=5 | N/A | N/A | N/A | N/A | N/A |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMieEFVX3lxTE5senFkWWVHdGQwTmM2YzN2b1BQcUhsZ0RqRGxoRFV4RmhkR3N4OFVIR2ZuVzMyZWNsYno2Q1F4aXl5cUFwSDRPYW11OC1HZ0p3UXU2R2dKc1YwN3N0N3V3VUN2dUVHbGxDbnpxRnRNbjBBSDVEWHdwaA?oc=5 | N/A | N/A | N/A | N/A | N/A |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDRETHg3ZXZ6b05zNlJ0QjVLZm5KaDExb2xIQUN2ZHBvUTFva3ZjUzhFbnUwSFA4eGhNNjRzb0JMZFZqMVBLMGNVNm9DWnptOUdKUjBzVmlySzF6VzJTZDJNWURmS19pVVJ5N3U5Zkdsa2FpTUxLX3Fld0tXV3kyN2ttUjl1d3F6ZVE?oc=5 | N/A | N/A | N/A | N/A | N/A |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirAFBVV95cUxNZktsdlBEUHZIZGJTYXZkVnZuenVTWVhRd1hzeEpDakVOQ3pLOW5hTzA4OVZZRVZWS1JLTmNhM3VwRVJKeVFWZXJvV0RmeF8zSzV4ZzBuRTdwam1UMFh6VUdSOUF5NUxUSkdleTQxS3JPVlgxLU1lWDBQMFdKX3Rlc1Iwd3Q1NlAyRS13RUFkWE9sQ3htOHBLUjJFM09fZmNIcThQMURqUjRtNEtY?oc=5 | N/A | N/A | N/A | N/A | N/A |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHV1U0E2MjVERjBqUGhOMC1rV0lyTjFYNVB6VFA5T3p5am91ckxTYmQ3ME9mSEhnWlF0YUYzZUdYSGxTMG5iU25BRWZvcjJuREZsa0JfREROLVlyc0JXR0hRNEo4a0xNTE5CU2VaQVc4QTVJd0lKN3lzckF4RWkyMDhrN2FZeWZWTElKVA?oc=5 | N/A | N/A | N/A | N/A | N/A |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 36 — Service unavailable / could not fetch article
+- Article 37 — Service unavailable / could not fetch article
+- Article 38 — Service unavailable / could not fetch article
+- Article 39 — Service unavailable / could not fetch article
+- Article 40 — Service unavailable / could not fetch article
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijwFBVV95cUxPOFE0WXNidU5YQWpfbzJlQ2Mwc3M1bHM2dkhVc3ozaTF3cWhXLXY0Sl9Ma3M0VFRjdVV2VHNpbUlYNFpfQS1kcXNKUzFjeHBETGZtS29ZbldMRVNVaklJelV2cVFBWE5JRGoyU1duVW9rbGZDdVo3OFNEZWV3WndxUmlVQnQtNWsyOHlrczVqZw?oc=5 | 2026-11-27 16:30:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMic0FVX3lxTE84V1BvUFplRjFzN1U2WmpCTFFZeXZVd1h1ZnNFVzM2NEVrQXE5b3dNaGhETWRsU19BNVJXQ1E1N3d2c2hmRmI1MFFUNGxGSXZQS0l1TEg3UU51cW85Q0Z1RzBKc2RvSXJoN1RSYTZ4cF9FZ1XSAXNBVV95cUxQeGZKRjVWRWxwVTV1Yk1rdmV2OHpqa21rS0Y4TkowN294Y3VibXRrQjZRTFRRZ0xmSllKaGFUNDVJMTQyZm04Ym82VUhrMllJellUOHU3LWREWjRIUGF4MW05ampreDBKY3pfUHpmNjE5OTlJ?oc=5 | 2026-11-27 16:14:33 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUm9lNVpINVFWSC1SME8xVkdvRFROQkVNNjVPUEQ3MFNZZ2tibDdob1JMRGtPWXUwSjREQ3RfNkNFZ1J0RDlOMmRfUm1Xc0Q5bjd5M19SaGJtOVZWdzhUcVBFajJzYmxoekF1U3RQUGdpUTZyaU9rT2l1TEY1bk9qWmVfSDl6WjlpOHdvMEJfaWM4bngtOG5OcmxYQmNKWjBMMDM3SXlzLUF1Z2xRSENBX1NIS1FJcUk4ZDB3?oc=5 | 2026-11-27 16:01:21 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMieEFVX3lxTE9ocVhPUXM0SVJSMlU3QTZKM1JhV2FNUk9fOUlOWUJuUURsUTVTUGpPVWo5czBxWU5VbEVsVm5aa0E1SVI2MXRVTWRiYWNtdG8yUGNjUVJZS3BEdUphQjU3NWwyUkZEbkM0NWMtVlB2cEVvWnp4eHlmYQ?oc=5 | 2026-11-27 15:55:57 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxQWC1CRXJsRXc4Mi1jWHpOcUQ1QXdwdHBSZm0ySmw0Rm92M0s5MkJGTzlZUTRPMHJPSElrRldwazZ0Nnd1RXQ0aUNEOElsS3lKbGFKZFpmLUJ3MUI2ZHFuemlLNVktWFIzMFlKMXBPbjFtOWdCTEhwWkEtbFVNNS1HMHlYRHV2Z0kxdEx6bHM1RzE3TEdxZi1R?oc=5 | 2026-11-27 15:00:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 41 — Reason: text missing / could not fetch article (503 Service Unavailable)  
+- Article 42 — Reason: text missing / could not fetch article (503 Service Unavailable)  
+- Article 43 — Reason: text missing / could not fetch article (503 Service Unavailable)  
+- Article 44 — Reason: text missing / could not fetch article (503 Service Unavailable)  
+- Article 45 — Reason: text missing / could not fetch article (503 Service Unavailable)  
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi9wFBVV95cUxNelNIeEpqWHF4dTFqV0pKVVYtbW84d3RQZmYydjdMSWEzdmp5dHBTSVBwMEdUT3NLUzJ4aElVMWZ0c1hsR3lBNXR6QW9aT3ROQmc4amxYb0NpR0JYZVlaZ2J5X2NSRlFsMmF4a2lLQVEyME5Jbm5ldVpHV0QzcDQ4YUxGNEF5YkZKSkdCSHNUZml1UmlIWWpRNk5JQjE2NDVUT0IwZkpYZldKUEpOR3JqV09UZHAxLU1UcHZodVV0TXpBTVNTaHdFXzIxX1lQLVNaVHdsUVNXRlJERGExQ25uQW9yaXBTUDJ4SEg1aDNETml0QkNFY2sw0gH3AUFVX3lxTE16U0h4SmpYcXh1MWpXSkpVVi1tbzh3dFBmZjJ2N0xJYTN2anl0cFNJUHAwR1RPc0tTMnhoSVUxZnRzWGxHeUE1dHpBb1pPdE5CZzhqbFhvQ2lHQlhlWVpnYnlfY1JGUWwyYXhraUtBUTIwTklubmV1WkdXRDNwNDhhTEY0QXliRkpKR0JIc1RmaXVSaUhZalE2TklCMTY0NVRPQjBmSlhmV0pQSk5HcmpXT1RkcDEtTVRwdmh1VXRNekFNU1Nod0VfMjFfWVAtU1pUd2xRU1dGUkREYTFDbm5Bb3JpcFNQMnhISDVoM0ROaXRCQ0VjazA?oc=5 | N/A | N/A | N/A | N/A | N/A | 2026-11-27 13:30:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirwFBVV95cUxNRGlBQXpIdFJwRDk2WTVQYndlbTVjTHdWclRZbWd6V3BManE5dmVLbFk1dENrSnVVX2JTVGpYbVozTVJOQnpOV3ZXUTZESFdsLVJ0QVRfVUtCNlF0Z2F3cl9CeS1DM3F4SUVRNENzZl9tU0VJNFJVdTJoRWxKZFNGRE83RDV0NU1lY1VpWG55ZDdkekJJc3lWdTdUX2Qxb1BjU2VQWmJSOUx4ZHZvd1VF?oc=5 | N/A | N/A | N/A | N/A | N/A | 2026-11-27 13:17:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeUM2MnUyamN5V1FLM1Z6WEQ4eWRISnZ4R2hrdDQ2LUtPVk1nNkNfTTBXNnN1WkJkaWlzU2ZCZlF5YmwwR3J3N2xjdVdOcW1TbXNKQW5mTkFTekFTWDRCNmJIQVdTeUc2ZEtCdHBGdTZ1bFJkQXFlSGRneXdicjdJUXhUc3N4T2h0dWx5NDBVcDV4c19RcmNENkV4My1BWUFyQVZIbG1EX1h3VFliSkNMdE5RN2FPdm9wYVBr?oc=5 | N/A | N/A | N/A | N/A | N/A | 2026-11-27 13:13:41 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinwFBVV95cUxPRDhMOTNadWFqT3REZ200dW1lWEFTRnNVa2Zfb2RPalhfS3ZvTWRzYTZGZFg3blhUQ0tCT1B1N2JHVXdOOENGNm1hMkExWHpnYzNrcTNuYWpaUGVrMFR4U0VaQUZNdzE3Si1SOXlCazdKTDJ3ZEJGSm01RjhnUDVDdWlRWHZSTXItZUdGdFROT05WTGxYOGNId2MwaTJBTlU?oc=5 | N/A | N/A | N/A | N/A | N/A | 2026-11-27 12:28:26 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxPRFZzRXQxdE1wMFNnME5odlZpbHRwcGxNbzdDSWh0eXZxU0JLMVROQ2VxY1k4MWV5UFkyaDJ4UjduV0hwYi1ob2Q2QUhONkJxaDVDVDVHSXg1b290VW9BaTUtSXF0NGRZMHI1Z0JnU1gzN3lZWHVudHRRUXBSMHZYOGhvZGNXYWVmWHJfNzFvX3Mtc2JRV1Y0Y2FQUmw?oc=5 | N/A | N/A | N/A | N/A | N/A | 2026-11-27 12:17:36 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 46 — Reason: 503 Server Error: Service Unavailable
+- Article 47 — Reason: 503 Server Error: Service Unavailable
+- Article 48 — Reason: 503 Server Error: Service Unavailable
+- Article 49 — Reason: 503 Server Error: Service Unavailable
+- Article 50 — Reason: 503 Server Error: Service Unavailable
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMivwFBVV95cUxOc1BSZ0tlaG1YMmgtN1BmenFmLUIyZTJRd1pIbkZ5VklwSV81MlFiamhsTHJnbUxzUTQ3aEJ3Vk1OMzNtczJhZkswZWIzblpHWjRSSmtkOEV3eExDQzNSWFZ4NlpDc2VjOWVMeU94M21qRUNvR1pMSEdleGdaVWlEUmItckpWWEJCVnk1dVVObzBYenJ0WFUyZk9tVVRBcWdiYmZNVmJFTm1qLUZNWHNGenNadC1vSEJqVHdnSElGdw?oc=5 | 2026-11-27 12:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMingFBVV95cUxNb0JHWE5QbGlrTUctU0xJblh4a0djY3BLdkRwNF91d3NVRG11S2VDRmJKQVJydHpjaTE0cElfYl9kcmRmQUJTUDhQQnBPOEFoMDhqLVVxTUU1NFd0eWw4MmdZTXhKTmkyb1RaMFBIODZDSWFoT2xxVFZLdmZTdDVsNHJxeFdkQldGbkhEU2tsWjRBTWxQZnl1WFVNU3ZxUQ?oc=5 | 2026-11-27 11:30:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitAFBVV95cUxPdndVaV9HS2hkejFlLVdMaU9RWmFRWnFpcWVpM3J3cF9QLXVfcVd3WXVyRkhpNzBtSjNnRWNvTUFwdUh0U0Nxazl0anpRX3B1T3hVZTF2c29tRHBDYjlyV3c3bVluZHg0d21HVXB5TUxVSXM2MEpQOE44REd5M3FZSVhYQ0NzY0FzLTIxWGNIQ2kzUHpGclltNU94OUpvX2NNUXRhMGdxNEtyS2tjdm94M1NjanY?oc=5 | 2026-11-27 11:25:55 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMifkFVX3lxTE1xX1FIaVp2RjJRSjU0WHFoSFNpS090UmU2RnpYSzNfSWZ0NG8ySWtONGNoNktxZk9sR2tvcFVHYUx5b0lUNDZoTnpKNHFhYUU5X1RNNVFuN3FYX0pRU21Sb3BEbFN5SzdsZlhZcDRqMkZCOW9MUjQ4QnFnMHl
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVYzTUFOMHBtNUJFQnBsSDVRVGdTZVNCVW8tM3ZxQkFzcHgyU05qdGh6bEM0ZlVVUDMyaC1jaVVobmlEWkxVcTJZaGVyU2dLRlFMdkRiMV9nZFRjZk12bWtHYjFEME94aFFVek1MU0VrRFJhT1hfSlJMS3A5VTRCRkFqYmRRaEFZNHJFZ2NobTRtQjVmY1FMRDFUY0tlUjRlc0N0NFcwU1JVbXNSNzBB?oc=5 | 2026-11-27 11:10:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2d0dVJiQW8zODdOeWxsdjQ4Vjl1Y2E2cndQNGJFZVlyWmF6eFlUUWFVN3ZlNFkySURjVlhyT0FjbHg3dmM1dXFBU3hnc2ZDZWN3TVZXb3kySUdIdDRfSEF1Z1pWaEl3ak5DRGlZZ1BhTUdteUxPdHNwT0R4dlZUMXJfZG02cHdxRGczUXpRb2NzdFdkUnl4RFpORXFfNjV1Y2lHbUN4OTE?oc=5 | 2026-11-27 11:10:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMid0FVX3lxTFBrTndTYUwxSGJUQnVtTjBsbTNKRDJEa3JXQ21OLWpxUGpSLVJCLVAweUl3RGRBaDNUVlRNS0o5dTRsWFBTRUhvcnJaWlItcUw1WVkwMVJUbG9Hb3owMTN4RmV2SENueWtjYkxjVzY3eUY3ektFcEhz?oc=5 | 2026-11-27 11:09:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMigwFBVV95cUxNQXUzU2pPQXlQOFRMQW1waHlpM0FaajY3a3JoQktRQ0xkYklmMXNscWQ4b0JVRUVHT29JNWxRcHZfYXI4NE51aHo4MU1yc1JhbWt4MjZhaDRuT29oRlRUSk14YVNtZDV2WnB2SkkyOUU1VUMwTVF5d0h0bVNxaFhSSWUyaw?oc=5 | 2026-11-27 10:57:01 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMifEFVX3lxTE9URXhkUUpVdzFvcUl6QS1LbzJJTHNidDVRdU5rSjVic29hdjlvZEVhc3c0cmZsRUZPM1FEUW5DTmFXRlZ1TEN0SWtPczU2SzZYM3ZIbjNtRXFHejVKQkVEa3pJSkNCcFdFT0wybF9QVmZSZl92Y3EzcEhJV0vSAXxBVV95cUxNbGdIVm9xWFN3aG5sbXIwTUtacE1nRXBxQzZaV2RleUk2LUtpTEVuaVdIUDQ0anlJYjFJdHktTkpsM3ZucUtFOGNNMTFUYnZqLV95SmhXX1g5eldnTVhuU0xvcWI0NGY5VFE0clByUFp6RU5tU2lyNnBzeEJz?oc=5 | 2026-11-27 10:00:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 56 — Reason: 503 Server Error: Service Unavailable  
+- Article 57 — Reason: 503 Server Error: Service Unavailable  
+- Article 58 — Reason: 503 Server Error: Service Unavailable  
+- Article 59 — Reason: 503 Server Error: Service Unavailable  
+- Article 60 — Reason: 503 Server Error: Service Unavailable  
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMifEFVX3lxTE1sZ0hWb3FYU3dobmxtcjBNS1pwTWdFcHFDNlpXZGV5STYtS2lMRW5pV0hQNDRqeUliMUl0eS1OSmwzdm5xS0U4Y00xMVRidmotX3lKaFdfWDl6V2dNWG5TTG9xYjQ0ZjlUUTRyUHJQWnpFTm1TaXI2cHN4QnPSAXxBVV95cUxNbGdIVm9xWFN3aG5sbXIwTUtacE1nRXBxQzZaV2RleUk2LUtpTEVuaVdIUDQ0anlJYjFJdHktTkpsM3ZucUtFOGNNMTFUYnZqLV95SmhXX1g5eldnTVhuU0xvcWI0NGY5VFE0clByUFp6RU5tU2lyNnBzeEJz?oc=5 | 2026-11-27 10:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwAFBVV95cUxQam43QjF1akJwdW5lM2lvVDk1eU9ZZXZSYTUwbk9yWTFTLW53eHl1TGVJOTdXdE05eWRnMkhfTUZ6TFdrc1JJZERUQThNVDFlTEtQRGtibjIzZExySUpwb0ZISnNEVmQtRkdTRG9JcGpRbWhibG0xT0FwOVVtNTFzdzJ1SHZTSndjd0hxczFvVGplYURBV2RqbmZnMHFSMHIwSzhzTGJjV0RraHo5N0x6YlRhUG9ZSHdFQzdsT0F3Sks?oc=5 | 2026-11-27 09:03:35 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHI5UEtQTnlsd3F1Y3F3MU9uVzFVNExqcVpEOHlxd2ZqSlcwM3pnUWx1MUQ1LURTa1AzeWJhV1liWXloMVN6aFlZei1ZSVl0WFVaV21MV0ZYZ1Z1ZzJWMmV3OERUR3hFUUR4czBDN1hmRFBKZmxXNnlvcmZOR3lHTndmaFBBdG5KTnlMWlJjX0ZCdzJNd29FS3lndVAyNU1qYnVWNEZySEtuTU5LaUwtTDdPX3V0a3Y3bHZRZVk2OW81aFBfX0VrSUFJT2lUQTdlYnpCU3VxWGE?oc=5 | 2026-11-27 09:02:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiswFBVV95cUxQVTdMQ0NkNjJBTWNNWkRGTmltOGVwb2VRMFY3aTdKelBUZXU5eXE2Nk1UYXVIZUxucWx4cmxOQTRsMEFxcUZBMGNMcnBzdEhWN3lYbXJnQW1LTVB1Ny1jaC1hMDcwRUkyQl82OW9NQ3YxNmtaczlaOUZRVl8xdUp5MVBpMFVfWVlXblJBa1lwMUxMdGdldUhlM0ZTdWxhaWVkTlpwLUVLLUFLZjFNSEFxbVplVQ?oc=5 | 2026-11-27 07:54:47 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ25OazdsUmhPMVhDVk9XVVFOX0dROTdlYXpKaFl3ZWk2eW02aGIzSFJZbXlHeElGTTBHM2dZTVhEbVUwc0dzbGcwZjRKVVI3Yk90Z3F0MEZPTklWc2JwejBCQ2JhYWNWNkZrcVZaNXhmQ1FwMWdhSi1EazRFSDZocjlVTDNsdGJ2dXNYSldwNktrekJ1bTIxT29FMlhiTmhzd3RDOFJNbXh6QWdMQkpZOVpuX0IxMVU?oc=5 | 2026-11-27 07:24:28 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 61 — Reason: 503 Server Error / content not fetched  
+- Article 62 — Reason: 503 Server Error / content not fetched  
+- Article 63 — Reason: 503 Server Error / content not fetched  
+- Article 64 — Reason: 503 Server Error / content not fetched  
+- Article 65 — Reason: 503 Server Error / content not fetched  
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMixwFBVV95cUxNTC11ZjNCWTd2UnJjNzdVR1RlaDFYUEJHVDl6VVlqb2ZiX2FEWFM4S1Y2T1Rlam8zUExLVlpSVVhDalBWWUxqQVlpc25BdmQzN0VlanB3ZHZVMTJTaDZvaWpQbEQyVGJoUngxSEJVLUt6TUFSZUNsMjVHSXE3UkNlWjRoRlhyYzUydUVkNU9DbTd6RXl1WmdhLVBXZ0VNZGJleGFVTTVFd2ZqTWZxSnhmM3JWWm1CNHdqTllYbXQ0VWZ3b25JeVFV?oc=5 | 2026-11-27 06:41:41 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fYnd6bzVTdW9mWnhWODB4azhaXzZPdVlCMU9ySkltY3dNQVpYNFNrS0xGUHpkZXBhNzhUQUtJSkJMT1NZcVczckN3dE05WDlZX0VIdy1ucw?oc=5 | 2026-11-27 02:10:25 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimgFBVV95cUxQeTVvM1F2UWFtaDJDMjVfS3FGcTVwR0FuY1pfMmp6aUJwbUVnenNmODF2VHltaW1PeXRRRDJIbm1tbjZEdWVtYmllX0JOeDhzLXQ3X3BpSE9jNGVPWmJEWUdSMUg3Tm1fX3NmN3dGTkItOHl1SFlieEFKYkloNGZPNU1Sa0JBX1c2VXVJY3NZR3BSNFNUaUs5czh3?oc=5 | 2026-11-27 00:52:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxQSjJoT3d0WUJZT2tydndGX2JrYjZ2eFBqV2pPVUFnZm51N0t5eFpNNkxYd2V1SGhQUTJYc0F0c1RqMk04SEQyX1F3MHNGMjRCUGpBb2N6UzBLbk9JX3ZRU1lvdWljazhKRW5fcFJURGpPbkwxbzZFQVJPTm8tRm9Fck1oTWhzTGY4OXFSU2p3?oc=5 | 2026-11-26 19:42:31 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xV1dtbjVhZTJPd2RmbjRwbGduaTZNNURMMi1oc056R3NnbDYzeU9adnlPT3FPZi0wcGF0T1NqSDFPZlpicTdVb2tOeWJSVWUzQTNN?oc=5 | 2026-11-26 16:09:57 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 66 — 503 Server Error (could not fetch article)
+- Article 67 — 503 Server Error (could not fetch article)
+- Article 68 — 503 Server Error (could not fetch article)
+- Article 69 — 503 Server Error (could not fetch article)
+- Article 70 — 503 Server Error (could not fetch article)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2hwTTFDVFVTdVZ3aHRyTzFsNExHTUI4bm9IOWM5eG1ZUGRtTEt4eU1CRGJhdDJucldibUpLTXVmU05vSG9NbW9ObFU3X3BiUGk3UzIzcnVGT1FuY2ZNWnY2R1JlbnFFSjVMZlJtNGJXdDFrZlMwRFZHTHowd3RBT3RFMVNwcWs4UkM1a0NYYmxteFozeHlSY0xwdTHSAZwBQVVfeXFMTkdocE0xQ1RVU3VWd2h0ck8xbDRMR01COG5vSDljOXhtWVBkbUxLeHlNQkRiYXQybnJXYm1KS011ZlNOb0hvTW1vTmxVN19wYlBpN1MyM3J1Rk9RbmNmTVp2NkdSZW5xRUo1TGZSbTRiV3Qxa2ZTMERWR0x6MHd0QU90RTFTcHFrOFJDNWtDWGJsbXhZaHh5UmNMcHUx?oc=5 | 2026-11-26 16:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiVEFVX3lxTE15cktROEZPWnpweWgwLUcydU94cG9lakpyRW1fcUVhdTlJVWtxRUl0R2FFNFpmeXZ0Qnp5bmdyNFhCMkw3S0NrTGpJelBwRWJ5eW9RdQ?oc=5 | 2026-11-26 14:17:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiggFBVV95cUxOSDlZMjFOLW5KaHJ1NHhFTTIyZkxDMWxTMF9rZVBKTC1sZ244UHpnUjRtUTNoUXNMQl9FcjJnQS1Rc1EyajFnNmEwMUplcUJUVFNqUHg4bmNiUkZQNS1WMVhzd3RqckxUdnJFYTFSd1N4LWdzN0xScm9RZzFfY282VFJB?oc=5 | 2026-11-26 11:41:19 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilwFBVV95cUxQYWhuVUlMd2JlNDhDczI3c0ZrNDIyVkMwLTJ5MFNWeXdLcVp5YUVyOWpCaTV6YWh0X0ZPVU9vejZzVkYtOUVhVTJNU2xHclpyQW11NFVpNDN0YWRNakRMSERDeUhTSkQ4LXRfaVVGSUxWY1Ryc3hXZ1JPQVo2TEJhajlzUUFhZ3F4bWtMalNuOXJLd01xdU1V?oc=5 | 2026-11-28 00:27:36 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilgFBVV95cUxNU1Y4NWJBeHRLYXBqMFAyS211d2c2aWRNa2Vrbkd4MmRuVEZaMDJHRml2dFplUFNORDM5djdraUZRV09FeVJoZkNudUM3dlliV29LWmRRdEVRczRqeS1RaUV5RnpDSEs1RmZzODNyek5kN2NWR19qOG1ENkExLUVwS2cwVjRub1Z4bHJzcDVXVklKTXV5Znc?oc=5 | 2026-11-28 00:27:27 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 71 — Reason: text missing / fetch error (503 Service Unavailable)
+- Article 72 — Reason: text missing / fetch error (503 Service Unavailable)
+- Article 73 — Reason: text missing / fetch error (503 Service Unavailable)
+- Article 74 — Reason: text missing / fetch error (503 Service Unavailable)
+- Article 75 — Reason: text missing / fetch error (503 Service Unavailable)
+
+**Extracted Information**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | The article does not contain information about any store opening or closure. No qualifying business was identified. | https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNVVfSWkwMWdjXzNFOUphS2dDZ2l0Zzk2UTZ3OHdLZkM0c1BETnBoc0g1Z3dWTnloUEU2eTE4bTZuYk90RmhzY1B2NFY4X3UwZldkTDFYUnJycGhmNnJ3d1hJUmxyRnNlOURLOHhMX1VIS0FBZExnc05GVEtqRnpBUjBsb3BRbEwzN2dVTmpOamhBT1BaQ0tvQXcxYmxwLTl4QS1xeWJvMDE?oc=5 | 2026-11-27 22:31:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article does not contain information about any store opening or closure. No qualifying business was identified. | https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmZlTzE1RXJDV0J1NDdDS0wyN29DVTdCM1pLcHpNWTJlOW10LWx4Z0VLam5uX2U1OHRQbnZfazVEa0NBMElGMWl4cGhZYU4zaThYT214QzlBUGM0cEhqNlJINGtJTHVtdDkySjJwRTdtY3p3RlBfWk5qLVREZzRvMGFqeDR6RlFWTU1HVzdTNUw5UkF5NTg3N2tmZmNvbWt6dlM1bWkwQWg1UQ?oc=5 | 2026-11-27 22:07:59 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article does not contain information about any store opening or closure. No qualifying business was identified. | https://news.google.com/rss/articles/CBMinAFBVV95cUxQX0dDRWxXczBpdF9TeFQ5RUo0a29pcnlmZ2ZSbFhiZl82MFhOT2t0cHVVaWJJNHV2dkV4OFhxTlBVYmhOUGE0Yk9iMVNCZVY3d0YzdGx4Y0J5ZGR0RnlSelJ5QlR6UE50aV9mU2w3ZTJQT1RUOUJvWWlvemJxYjhWc01sN1A2bnRkR19xb01hRHBKUFE1OEFBUWU0NjI?oc=5 | 2026-11-27 21:22:18 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article does not contain information about any store opening or closure. No qualifying business was identified. | https://news.google.com/rss/articles/CBMic0FVX3lxTE1QQmtpa3RFNFRIa0hHaHM3dUxmZ0lTSFdLWUtqNzJBNGY1YmFrcFBGXzZ5MVB2VnpHUVNGWFpOZExFSFg1R041Tk9TdGM2UlBoZ3Q0SUQyQ2hOcGZQVTNIQU5WWEQ4NDNobzlJdDNneDhjZTjSAXNBVV95cUxPNzQyM0UyVHVyamZTWEYxajdySGU0QjZJNkdaOEF5QU9mT3hSa25TbXhvQVFlZG9GUjk0T0lQWndvZW85ZVhwSXhjenU1cEc5TDdIemk4NGxWdDlrSmNOX2JlSUJNRUttekE0dzFNMWJpS2dJ?oc=5 | 2026-11-27 21:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | The article does not contain information about any store opening or closure. No qualifying business was identified. | https://news.google.com/rss/articles/CBMitAFBVV95cUxNUWdwWHZBLXRHel9Hd0YxNVhKUm1qOUtGQjE2VG5yRnk5WWlZejduQU1SeU12MDNib2FRd0hhR0lxM3VBVDNTejM0REVnX2xDM1JLdUFJZ2hhMV9KVzRGX3dPTkt5UGRpM19GNzNFUTdtQnE2TERuVFpNbWlCT1VNZ05ZZWxNS1VPTHJ1SHBISEZMWTBRRE53RFY5TFhHanVxaUh4V3dTcHBtU05UYU0tZHNkd2Q?oc=5 | 2026-11-27 20:50:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 76 — Reason: Content not fetched (503 Server Error)
+- Article 77 — Reason: Content not fetched (503 Server Error)
+- Article 78 — Reason: Content not fetched (503 Server Error)
+- Article 79 — Reason: Content not fetched (503 Server Error)
+- Article 80 — Reason: Content not fetched (503 Server Error)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiowFBVV95cUxQVThmQ1FKQmljNno1cWRYSkFNVDdodW9RNmd2XzhWN2NlbVZFSm9mMUZySkFMTVpjSkNyUkRpeTBWcEl5SXhFUTl6TnBHcHp0WkdUbFpHWDU4TTVYZU9mYjhGQnFITEZJSEF6ZWpWQmF4SE4zVWlMTUwwS3c3Qk5yY0pTTXA3OEZWQzBnc2ZPX2h4dzlCR1JNTWF0eVphZmFrRUpN0gGoAUFVX3lxTFByVHJHRi1sMzB0SVBrbHcxTFp5TXM1UGkxaWF2ZDhHRFhwWDRxejhaN01oTm1XZUNVUXlmZlM4cnM4V25ENXRrdzlTMHpvUDl6dHlKeDZBNlpIckNsc1lhSU5rdGJmWmk2QXdWeTlrY2tqdS1KTzVKQnhULS1pLW1POW5JbXhBcGwxLVdFakZVbXZOelBJUVk5TFB3SHRxdzNKQl9MTWhsMg?oc=5 | 2026-11-27 20:23:54 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxNYTl1dWZwRU14YnppVmVLTElfVk1YdXI1MjZ4c1htVTBXZ3JrM0Rfa3pCdVBYMUc1Q05GT0ZrQ0hqaHZjaG1xZ3lSbldoVXFmRlBzUGRLV0NWSEloNWdXekx1ekQ5d1pKRkxGR3p5MXlRdHpldWV4RlYxZUFkc0lQY1VramZoM1hZYWFhOXpDdVJuYlpCTEZaYmt5VHRBcjd4bTdXSg?oc=5 | 2026-11-27 20:00:48 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFVqclByVkVUUW41NDUxOEVBY2oyZG9PM205cmtRWVk3XzJROU9WME1LVnNtU01SVWdfdGlFQm5QTHhKdVBxQTlsSDhrR0pWYXI1M3hYcmx0cjRjMWlud0x3Wld1T0liT3QtR3o4blk5ZE1STTFuM1I2enpaTFFjenZEOFM?oc=5 | 2026-11-27 19:55:42 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdXpfQTZMb3VOOW5RMjlPNlg1dElJdEJPTUtLWTlBQlNpQmNtYnRUTHNnNUpKSTdsTlNVTGp5T1dOWEdQUy1ENko4VGVkZXVBU1dzanNMSDUtalNDa1pPWXNMQXd0eWp4SGlkUUZ5MHk1NlAzUjFKaE95SUtUbTVEWnI1TFYyRXprTXlORnFGWTRsREdlWDc3Ykk3VXAxVkVxZlFwdjdSSTJkMFl4bVhEMDlmTXdJZ2pZVF9oUTVUNm1Kb0ZfbUhEZ3RHTFVhRUY5MGpXY2tBLWlNXzRNWnRYWDNVdw?oc=5 | 2026-11-27 19:34:17 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikAFBVV95cUxOYzh4THVQTy1ONkpnRXh4dHE3Ym1UTDQ5NEdzaXctejZpdjFNQ05OU1NkdG9SYjlfRUxMYUhjNnc1N0RtZVRpVXRIaG9pOFJfQ2J0VkhhYmN0RDhFeW9JX2tvTEp5R0NCRl9RU2dkOFFnQ3pjaTFCdXdOa2Z2UVVZRy1TSF9GVUxsR0lZU1hrNHE?oc=5 | 2026-11-27 18:46:21 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 81 — Reason: text missing (503 Service Unavailable)
+- Article 82 — Reason: text missing (503 Service Unavailable)
+- Article 83 — Reason: text missing (503 Service Unavailable)
+- Article 84 — Reason: text missing (503 Service Unavailable)
+- Article 85 — Reason: text missing (503 Service Unavailable)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiygFBVV95cUxOcXdOMGp4dzN3bW91emF4LTZWM0JVVTZlUndGSGIxTTBrLS0zSjRYa3JMbVJ6RlJ3dlZqbzFldElud2VjTWI0ZWoyNGpNczVLQWtROS1VTENEa09QOHUyVkdmMGZITDhtZVl4VTVNdGNQdkpFeUN3UU15Z3RxdlE2cXVKTDU5dmNlWHJNamlhSkNfU3RwLXN2UWhjUmFOcTMtREU5VVFtdkFOUEc0c2hTbnJnUGlUWFZMVE94YU9DSkduaWNkbzRXYzVn0gHKAUFVX3lxTE5xd04wanh3M3dtb3V6YXgtNlYzQlVVNmVSd0ZIYjFNMGstLTNKNFhrckxtUnpGUnd2VmpvMWV0SW53ZWNNYjRlajI0ak1zNUtBa1E5LVVMQ0RrT1A4dTJWR2YwZkhMOG1lWXhVNU10Y1B2SkV5Q3dRTXlndHF2UTZxdUpMNTl2Y2VYck1qaWFKQ19TdHAtc3ZRaGNSYU5xMy1ERTlVUW12QU5QRzRzaFNucmdQaVRYVkxUT3hhT0NKR25pY2RvNFdjNWc?oc=5 | 2026-11-27 18:21:44 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMingFBVV95cUxNUWNLcHlFWEJKT29KS0xUTDBOVkRyNGR3VXpsaGlLVHdCcmxNeGFDbE9lSHhRamNBLUoxejVVbHVRRHZ5U0hJZ1NvcUtUX1d2ZnBqal93OVJVNDNDTXFPM0thRTE4a3B5Q3dFRUdoODNaZXpZZjF6S1NEdXpuY0Y3U0MyNGxmT3pUdFBqTENVWDZfMENlM2l3VFNSOTNPdw?oc=5 | 2026-11-27 17:47:32 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiywFBVV95cUxPQkpPYTM1Yk5aZE9HcnNnZHNCckhLSHdUS01HVG5PNkt1T2xNeFBWTHpKV2xWb1dIWkhzVy1ob2pSUHhQTWh4dDhiUGZrV09TYUc1ZFBZZGtQWnpwbHg0ZWsydVUtUVVOUXdZNElKakp1MmZxT202cTZESHQ3aFVWOWpmckl5N0ViNEw2Tm5BV1p4bHZlYnNxcV9GSUVKTXFKS3RBRERCRVp4TGJXYXUtQUhzSVRraXR4MDFLX09ta3B4Y1FjNXpFeEM4UQ?oc=5 | 2026-11-27 17:47:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxNeklSU2NSUmhleThwenFrazVPQ0dUMlRFaFpOUXVhejZaZ0JJZEh5ZjNTdmRsRklNT3V3OUxfQ0stVHA5SjJHVVNvbS11bFUzTnJwRHQ1RTI2UTB5UTZKSXloMEh0QXZUeTFhS2lLNGdxRUNYaEQ2bjUwOG1xT1prbkRKYWhaMWhacnJDMG85VmcydWxSOFJ3aA?oc=5 | 2026-11-27 17:40:59 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiYkFVX3lxTE16NzJYQVhXaWw3WGtZUG4wUmx3cW1ZMS1fZGtIODl5VmVZMzZxbl9KeGFRYUU1bi1NR2NJaXFqdDM0RkdQTUhtTjdDYVR6ZTBmN3Vnay1UcXdRU0dBZ01FdE93?oc=5 | 2026-11-27 17:16:18 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 86 — Service unavailable / could not fetch article
+- Article 87 — Service unavailable / could not fetch article
+- Article 88 — Service unavailable / could not fetch article
+- Article 89 — Service unavailable / could not fetch article
+- Article 90 — Service unavailable / could not fetch article
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlFXc0t0WmVsUjYzSkxZWjE1MTlvQXJDcVJxdTkwWl9HMmNKX2dYUC10enlmTUxFZVpYY0Y1SGdndi1ram0zYUJ0WkJLRjJhWUdoNEJ3WHlfS0FBNGFIdjVwOVJydTZaNzN2NjZKbVE5ZDFmQkpYbTAyNHNybUdQcWpIaVc?oc=5 | 2026-11-27 17:12:48 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMikgFBVV95cUxNQTF4c2RjQS14YTdSd0VUT3NTbXZURk0za0ZHMHU5QlZwYjR1V093ZndrR1l3b0cwbk0xaThESEItSDg2OUVwYjVYX2I0SU9lN0VESnRIbWJlUHRUU0JWdUVQckJLWXZqNDNjdTJ6cVpPbEdETDdrM0l2dlhITi03S3FwV0NjQ0lPcHlBSVR3eGpwZw?oc=5 | 2026-11-27 17:08:55 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiugFBVV95cUxOYnhrNmZBUF93ZzRQVTktVVZ3TS12bU9vYzBxd2Itb3N6cGl6aXhzVjJabjJhOTFHU2Q3ZVhsenQwaURpcnMwYVdTbWs3YWhZbFE1SjZ2X1lJZWJ5ODQ3LWlrUTNlTmJYYTdmN2tZd2RDcnFiR08ySEp1ZmRxZ1dIcU5TV09DZUhkbG9RMUxYcE9fWGhCNTR1QjBuZHAyaW5RV3l0dVpjTXd6ekhqNy15ME13R0FEbHBCUmc?oc=5 | 2026-11-27 16:20:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ0xnZ3FTSWU2UXcyODhDRUdzXzBSUXBSSGdhQkFHQnVPeXlPZzJXaDVqUzBqVnRLWjlUQzNDcHhGVG1GbElHVFl3Q1Z3dUJOY0tYWHhtQjRfWWtEX2VrR0kwX1U0UkhveUpVeFlpZXZwQkN1aXVZdTN2WFNIS25tUWpyNWRRQ09YWVNzWXBCdzBES2dGYjZzWDhFZld2RmEwb3pNX2Y3b0pIdHhrbm1ucXR1cmtBZTRKanh6MWlzdEt3UQ?oc=5 | 2026-11-27 16:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxOQjN3UEUtNFFJRlQ1UXlYejBjWnNVVkZjV1gwaUw0U091SjNCRlU1V0c3MzhFbDNoQnlmQUNOcDF2TEphbE1kNzhjc3R0akdpVFJvdlJGT1NVYnhFRktzUFIxZlBqMk1mMU5tZzQxcENVYzRxZFYyQ2Z6VDdPWUY5TnJhZm9iUk9TRndEWXJUTjA0VG1GSHNMRlppX3E3NloxMV9XVDdsSQ?oc=5 | 2026-11-27 15:55:02 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 91 — Reason: text missing / could not fetch article (503 error)  
+- Article 92 — Reason: text missing / could not fetch article (503 error)  
+- Article 93 — Reason: text missing / could not fetch article (503 error)  
+- Article 94 — Reason: text missing / could not fetch article (503 error)  
+- Article 95 — Reason: text missing / could not fetch article (503 error)  
+
+**Extracted Business Opening/Closing Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxNc2tFLWJTb3BwVmpEOGp5TElWb1VOV0pyU2liQ04yZ2pqQWVvclJHRnNicGtISmo2WUhrOTZ3SFdyUGo3VFdiajJFWlRRVEdnOUU0el9LbWRDWXpQNHVWM3ZhbHNxQ1BkeVE1VU1HRW9nT2VWSUtUeUhDQWVkRFdGQkRNQm5sSUExR002eA?oc=5 | 2026-11-27 15:39:20 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipwFBVV95cUxQTGxMQ1IxbzFpUnhZdk9BejhUOThtRjhNSWcwc3Q2N3d0ZlQ3ZWVTb1Z4TmgzdjVnZHctWld1Q3ZSb1RJajVYSFNmY1FkTU1qaFR5dUVWNTY4Q2ljaFpOTjU4dU5TOHZ3T0gwNkNEcHExT1k4X21EdWpFUDlUZzNwZFp4VjBZSjd3dzkyZTFtMjBONTZkSnZDc0ZObVlUQV84UjJnaHlvOA?oc=5 | 2026-11-27 15:17:25 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhIbTVibWc5MTZWU3NwY0JtazNUVllYQzJ5U3h3YXlpdmJCSEJZMm5sTFhWMWlkeE1YN09CZGV4OHF4R1pGNWFCTVJrd2M0OHloZ3RyaGNyR1d0amNTZWVSX19FdWRTOGNyUGJTaVNNUEE5NjdoWVRVV2tvY2V6dmRwajVtWm5QSlpBalBrNVVoZ1hINkE?oc=5 | 2026-11-27 15:05:41 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUHVrSkx0MXBKd015M0t0YjdaUk45ZTdxb3hXUGxwczVkT1
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcDRaa1M3aWJ5M0U4UWNZa2VNdnU1cEtiQnlsaHI0X1hmSU5IRnA3UDV3UHlsT25mNHlrTEg2NjI3ck8zOV83Q1dleVVkNEs2YVJoRzZNM1QxM1JQWjhtQ2JrZ3J5Sk9fcVF4Z3VBeXJ5NnRDX29JZWQ2Q0NxVllZNlA2ZlNNdlpJ0gGOAUFVX3lxTE1GRVlzTEZudi1MNlJLUzQ4b2lGR1RpMEpWNG1sdXJwaTluU3ZuQ1lZYWw1ZC1pNWlUS1poVk1KSU9ndHBacHVCQV90OTFHNFNEaEtvOGlTSUJQRHFxOElkLXZvQy13YjVHakFFUk50cVoxWHVQanVVT2dQdXZYVUZ2cT... | 2026-11-27 12:36:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHVPa1JocmI1NkJyWDN4d0hibEM3ekZ3Si1NVnJBU1FrRG9qQ0tjOHVIcV9acFNha3ZyeGsxZUw3MVhZSzhaUDRiZTM1YzJFT0huZy02RU9yblQ0dENfcm1ET1ZHQm95VzVpSUhid3NaN2RYd051TW9yZThwRmRHRnFEUXRMM0gtQVNId1R5MG10dUdZcnBjTy03cnJlX1ljWElOUTJBMW9FemRYajFTa21mWGVXbkI1QUJBZ3pCX1VVajJqUGhXck1B?oc=5 | 2026-11-27 12:15:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjlNcmhLZ3BTbDRKM3RtN2FnLVRYSFRHSFhpQ2JkZHdEcHRuNzlEdGpSMWZUWTdWckd5S3c4R01DOGNqbUI1SzRPTUItdDZaMlJBa3BRZExXNWpxQWR6dG9hV0d1aDFtYVI5d2VKSkw2eGUzelBHUGUxSWlvaFUzc1BSMDVpaTExSHR1VnptNGdkM3RicWF5M000ZDlqWThPbUJWd01oVnZyRE9oVWUyR1FoZkk1WV9Qdlo1am9QbGc?oc=5 | 2026-11-27 12:05:14 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQWgxUlpQMkk1QURtamszT0RRVk5ULWRfVDh4ZG9UNnp2NU1fbWNIdE1kb3lOYlR6Q0Q0WWFLLTBWYXZaVVZ3U242YlFJdjNSOFEwOGZJTVdGbEhHSmhSZXdtc3pNaU4xeDhWcnlvb2dIVTV1YmlhdTlHRUI5RjBWa1k5a21Mc3RnQVREZXlVM0xjOUk1dWJYeEF3VkY0WHhkWnFXdlVDQjV3YWhrVWZBdjJVM285RnUtWmd3?oc=5 | 2026-11-27 12:05:14 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVdwRTRZM21QdkxrZS1RbWtTZ0JJakpFelg5UkQ1bGROOGdSZEtucDB6OWVreFdOc0F5OEhJWjJLYXRuMjNZWm1ocEY3SkpuQWpmNmctOXFxSGl4OFhTbFhvWFJiaUkycWJRemJTZlh0Q3hyTGhOcjN2NVhNaF9wbjRtVW8ybnpxRkVCWWdlQzJ0SjBMcVRaUExiUE5sYkFvc0hv?oc=5 | 2026-11-27 11:30:17 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 101 — Reason: text missing / could not fetch article
+- Article 102 — Reason: text missing / could not fetch article
+- Article 103 — Reason: text missing / could not fetch article
+- Article 104 — Reason: text missing / could not fetch article
+- Article 105 — Reason: text missing / could not fetch article
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxQQklzb1JwYWpTZUJhTm50MWIxX2RRUVZWUEI5SmpxUldOSGxwX0JSa0U0OXNEOWRIckZseFF1TE9TWHBpcXpPTnFsak93aGlydjFaTDZudU8xb05wbFRienlrcXhjeVB1R2l4M2V4QWhYOUJvZmMyNzNqZFpadW9nb05iVXRYM0xkYzZheQ?oc=5 | 2026-11-27 10:25:53 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRWJ3akh5NDJOelFBUkZlYjhWX1dZR09wbkJTWG1XVVpKWGhVNEZwSDA4cWtnNkZHYmdLUEp2RFphcVZvYjY2c25hQTc4RjZnQmM3amtKQnNWcE9kS19rbC1NbE9XeUVnM0NnVmtSVmJUZDZ1WEp6SmNfR3FacmdUZnhxYmgwVHYwOThLdnNpYnpPaDA1OXc4cEFaWHRiSHBoWUx5WTlReG5tVUpIWUZwR0hNQTFUVXd5dE55Y0xoVUttS3NzaTVzYzhiQTVNWnk3SHdxcGZfQnNIZw?oc=5 | 2026-11-27 10:15:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMitwFBVV95cUxOU1NiNWd6Q3NFZE9hNldkRUctMDdwTkR2NzR5Q2tScjFxdXNOZ0F5TEF5WHVJcmF4eWROenRubXVrRnRTX3pTYXo3V1duV1FxOFBvZXRiVXZmNXpaVkxJS3pqT3U0VGx4cTZvVGVQZE5WOGVuMkVYTTJ0b3ZrdkNsMTdDNUQzcW16ME9GaElFeDIwOUhDa1pqM2Q2UHNWN3pHY3NyRmlRaVBudnl0ZG5zTkc1YUxtRWc?oc=5 | 2026-11-27 10:02:28 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxOc0ZSOTA5TERfYjJGanptVk9EWXVnZ1ZCeWRkYW1zOVctTzBGTFh1NmE0R2Y5SzZhS3lqX1AxMjdKUHE2WTFKLXd5cFBFYUtTMzFrMW9iaWpnbDZrdWlER0hjLWhPU1JNTERPNll2b3N1Z3N1bjU5dUJ2VVdRWEJ2YWdjS3d5QkFFb1NkRTN6V0hJMm44R2Q5bUFHYjhxLWZ1X1VaaA?oc=5 | 2026-11-27 09:02:11 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEtMTkJZYXBiLUZOSHZaWWk1MnFNbHNEay1fNC1zUm9XVndGSHJ4Ym5Zb09QZDZudnBOZ3NLLVVXOXJ2ZDJSM3Z1NGZ4OTlXUXVNTnh2MDRhX1BBVHpOWVhuZlYweXFXZlp5YnZUbEd5NTJZWTcwVTNrdHFOU0JDZWlWTGMxRk5fYkFmc2xIcnh6T1MyVTJaQlJoM1JVYUJmbDljRw?oc=5 | 2026-11-27 08:47:35 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 106 — Reason: 503 Service Unavailable
+- Article 107 — Reason: 503 Service Unavailable
+- Article 108 — Reason: 503 Service Unavailable
+- Article 109 — Reason: 503 Service Unavailable
+- Article 110 — Reason: 503 Service Unavailable
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUZEQlhGSzk1RUxQeXR5aTUydzk2SExacmFmS2VmMjZYUW5sTUJYTTQ1VHkzZFE1c1lDeUVMQ2VUVk9OdkpnZGtZQmhCVkgzbGhLTjNCLUxLN1hla056MjNpSGh1Y3ZmQVNlUUd5dlpWa0RXTldQbFltUjF6WlVselVCU0R6RnJSa0tUc0c5dThUTWp5Q0h0TERnTFBpUXQ2ZWJzSQ?oc=5 | 2026-11-27 07:54:51 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS19IZFpPYm1QUGRpZmx3cjE4YnI5TGRRSnVXNTNqc3c0UUp5d3B2RGxlUlVTOV85ZUE2RHMwSnFndzZRaWhsQ09FYllINWVqVkFvZkROZlpqWVNtVU5nUEN1cUZYNTBJTFlTRzVUWHNDekZUQWZXRDdaYzNHVjZzWlNmeEZTcXFrTXdSYkowX2g4dHR0bk0zX2lXTXlIRGF4M3doVzMtbDRHVHk1VFJkMHVTVjBBMTF3dFFhM0J4M25CMHlCLWkxbDNZSnJ1N3ZzVVVzX3VtaF9PUWVaSDdvcnMwRjBzalRiSnN4ZnV3?oc=5 | 2026-11-27 06:24:49 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMipgFBVV95cUxQWnNCOE0zX25lZElCZnZ2dWNZWE83bmtOYXR1NFZlalZhSFllMEk5Z3NvaGZRUkVCNlZuNkxwSTc3SzBKY0RxRU11NXJncXVXa1RwbkplaUNPdDhDeWxCVEhFU0c2dUI1NWt0RU9BdWh3cUVaZGhHYVptam1sTU1YZEdzU291NUtwNUFFMTRmYWFBQWxFOVF2SFlRYzdjUk9VbDBheS1R?oc=5 | 2026-11-27 05:03:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcE5LSnAzUVk1R2s4RlcwSVU5d2ZkSFBWa2dTYS1HSE51Q2plWDB4ZzRwX3VuX1BJRHZKemE2Rk83Uy0yUU1CcTVPdXVVcEY5TzBDYnZzWHVnN19OeVFyR0JOdTZWVnRFcTF5bVQ1U1FBN1J5Wmtab201czdlNC1VMXBnMUVTalBWeWEwRTRzaGNxaFc0WlFuNGVYNmVmWGNUVUxEQzcyX0JMSFc?oc=5 | 2026-11-27 05:01:17 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHdhWVk1REdiZ1RQWDVVVkI3TTM3RG5iUW1XMGt0XzJhQmh0VFFFWHpTWnBSYkdWb2wyUmNwSGR4M2F3dE5yWTBoZVRpN3NYYmxYSndpeTlFemVqUWlyak82cHpCczRoaUNlVWsyNzlKMHVwMlA4S2FadlBySXFBQ3lGVG83ZVJWVE9ITjgxZFFkaHFMVHhVbw?oc=5 | 2026-11-27 03:49:55 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 111 — Reason: 503 Service Unavailable (no article text)
+- Article 112 — Reason: 503 Service Unavailable (no article text)
+- Article 113 — Reason: 503 Service Unavailable (no article text)
+- Article 114 — Reason: 503 Service Unavailable (no article text)
+- Article 115 — Reason: 503 Service Unavailable (no article text)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjNmY1l6dnVNeU5VVWpnOHhiN29tamJqYlAzTGtpZVRtVlZXMVdBM3VrZHM3QUJySVJQQ0xuZUlYWURsVFBocVNMc19LQUEtdGFuZjlyOFZ5Sm5oUVR3ajZzbUdOUXZ5UzdoZnVXUEpUU1o4VDkxTk5jdFpaRDBwY0xSUEZRajh4X0hjTg?oc=5 | 2026-11-27 01:03:25 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMic0FVX3lxTE1ybDYybUdmY05QZmhKRkRWQU1OVUJhWjdRT3dQaGpwQWxPR2cwUkhUSm5UbVNfT25lOGFoX3NzY3FhRlJkbTdiV0JrUk9OUkFYYlpKd3VhQWNGQkNwQmozcUoyQXFPM0ZGVmU4NF9xSlhTMVE?oc=5 | 2026-11-26 18:45:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRlc0S1ZFS2Vvc0lZbUNtSXIzTnhkV2dKZXlMTHd3dy1YLTFqRkxlYW5QV2c4cTc3c055VFhsYzhDbTJLY2FRWExBV3c5c1hvU2xQZW5PekRocWUxQ3Z3UGd0WnM2aHlhNlNYT1JxV2RBYVVFa25hRnZHZ3VyeWR4ZmJiT0UzVGVLZmdJSUdWbHZOVUpwSkJpdkpWb2pmWG9Db0FOZHJYRGNXZw?oc=5 | 2026-11-26 17:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiwAFBVV95cUxQREp0Wk9WWU9NTUlEVzJXUkhZQlZpVUFxUTFvM09xMmVJMlcxY0hSNUY2U2owSjFEWDljZnJDSmI0dVpjS0dId200M1ZnazhwWS13QzRLT09HZFJ2UGNxOHRPQTlGLXVPUTNCTWh0N1V1cTdhaE5yQ1lHaE9PTHhwN2dyT0ttbVhLZEp3UFMwZ3NsNTgzRlZfZ3YwMzRCVmVnbkJtOEdEMElkanlEa3JEYnd3RnZhT0RvUGNXLWtMelk?oc=5 | 2026-11-26 14:57:59 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcmdadEFXQTU3RHd5b3ZucGR2M2NFaGpVWE9vVmxrbE5nRU5SWXNvVl9VLUNqZGVhZlNPaGdaeHc4UXpqVUVYY1NmRnFYTU9IV0JiaUZSVUhTYkJsREhZVnp2WEw4MTNfZnloS0FuZ2h6ZE5CZWdGVUhod1o3T0puZmczZi1BUGprbnNLWkhOcTBqd0Vjcl9UbFVaRmR6bWRqRV9LZ1FNNC1DVi0xR2F2bGRlcTBpd1hlaEZTRXdwMGZyMjU1c0kzQTJvWTNpb0NLc29DUlZiVXA2X25KcG1zU0NxSQ?oc=5 | 2026-11-26 14:08:44 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 116 — 503 Server Error: Service Unavailable
+- Article 117 — 503 Server Error: Service Unavailable
+- Article 118 — 503 Server Error: Service Unavailable
+- Article 119 — 503 Server Error: Service Unavailable
+- Article 120 — 503 Server Error: Service Unavailable
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWtzMWtFa19RN1RqOU03ZHRqOUxZb3JrdEhhM1VENEpFaDRoQWxiQUQzSnNYS3N5TzQ2MmdaeXlTZkdsdXFNZDJId1dsVjFtTEJ3TU9MQW43dGRPTkVIc3hrYXRON3lCaWFEM2F1bDBhckt4RmJqSlhpUDBTeV9FTTdnVS1aVndjTjc3NtIBkgFBVV95cUxNb3FNMDdEdzROYjNNaUZJUU1nVllJWGtmUFJFSzZSdUhCVFJkRmVWT3Z1R0U5ZVpONklKa21nQmlySGJZY1JYa0Y0d2FHUTRnY0MxMWJnUW83bFJ5QlNzYU82Yl9VMUlXUzhHSlJ1OF82N24xR0hoV0xTbVhUV0Vzc0tVMmlhY1dSelFKRHgwc2tLUQ?oc=5 | 2026-11-26 14:00:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3VOZ0wzNHF1UkVfWDlBVThNb0RQTEtSajVDSk1RaGhyaVNkV0NvaVRmbTZOd25MaS0yUE9ZdUl1UHdJTHUxdTc2YVZGOGpYRXJzS3NZUThSNzBjWWpzbGdxalZsS01yNkpHaDk5LW93MVNxMm5VOEc3Z3gxSnpTb1MyRmd4bnNJVDg4WG1n0gGTAUFVX3lxTFAtYUdmRjBETklKWkpfX2ZXdEs4M1lhekQwaEFPT1haeFdoN1U2VXVrMXNFbERDXzRFTDl0bkV6MnhPNngyaWxJVFQ2ZFdtVjd6ekFuSjg4a0ptUVVwcmFiVHBYTjlVNVhPZzBUR09LYm5DVDAxaVBJMEwxcFdwc0JCSjE2dTUwMWlfMHRuRGNsMnVVMA?oc=5 | 2026-11-26 13:03:09 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hejFIanVGczFYU28wTlhCb1RmWGFZQmt1NTEwN0t6TEcxeW9FaTY3Y3BXTFRuTTdFSVFMQ0FEYTYyRUJCd19fbU5zMU5vY25qNFhn?oc=5 | 2026-11-26 12:36:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMisgFBVV95cUxNRG55WXFKblIzVWJJWVNwV3o4Ympvel81Q2JhVEtJMHlvNlRyVVZMeHgyWFlITUw4dWdsNE92RW5Ea3B4a3BfM0YtSFFLa1dWbWJjNVdzSTBJSElzYTk3LWRRZWROUVlhUC1Ra3JoSVVvVGx0eEtxNUt3cDY0M2V0Q1NFdEYtX3lJQm5MV3ZGUmVtalNycXMzU2lQalF5QVVNSk1lVDZJWHg3b0g1THpKdk1B?oc=5 | 2026-11-26 11:43:00 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiiwJBVV95cUxPU3J6MmZJMXozbGdob2l5d05uNDlsZHVXUXNJMkRTM09hblZyZTVnMmg1VDJiQXRtckF0Zl9NSDVNZWpQTkc5UHJqRmZwV05zaTVNSVk0U003bHBiVzZNa2dvZUNVYjJrSkR0UEYxN3RRODA5UF9HSW51OVROMWlUU1BEV2JqakY5MkFQTW1oOEhJTUhQRmtGX3REWWNYRkxJYXBUTV9oN3lxOXRZdEJKZG1qcFk2Nld3RjY5YWE1S2pKaW5rcFROM05DYmlLZkF3VHVTVF9yZTJUNUFYWVcyZzBvWkIyWjVHQUUxZTAxVWNhdUliVWZGWHNTT2sxa2RCTGNienR6Nk5N?oc=5 | 2026-11-26 08:00:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 121 — Reason: text missing / could not fetch article (503 Service Unavailable)
+- Article 122 — Reason: text missing / could not fetch article (503 Service Unavailable)
+- Article 123 — Reason: text missing / could not fetch article (503 Service Unavailable)
+- Article 124 — Reason: text missing / could not fetch article (503 Service Unavailable)
+- Article 125 — Reason: text missing / could not fetch article (503 Service Unavailable)
+
+**Extracted Data**
+
+| Store/Shop/Restaurant Name | Location or Full Address with zip code | Event Type | Event Date | Status | Short Description | Article Link | Published Date |
+|---|---|---|---|---|---|---|---|
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRUlUOW5SdUlsc3hCNjBnMVBmY3FWeWZQbVFjSXNSaUlzOEoxUnBSUUxSSDRfQ1lqR05uT3RHUmxKWVREVzFMR1RyUVAzcENrSlN6WEZ4R1JicHRDdll2eVJfZlNpOVpsWko1VjRUQmRKVkw1MkhWSzYya1dzcGRsclFKeXJnSHdxa3ZKd1d0OThpaE14RlBtTGd1VE9vVGEyNHRYNlNYMmpwcFppVkNBQVRsMGtFSmJ0TUJ2Tzg3UEJyWklZcjNwb3JIN1hUYUJJZzQ1eXp3Y9IB3AFBVV95cUxPWGgzSWdJcWsybHdpdlhjaFZEaTRNb3dGTEE5QXEtNktEaWprSGU1enVtVDBKYWRjTUJmY3JFMmUydzlacTd1ckZ2QmdqbS01a0lSRnBxazRwazgyc0NqZzJaNnJSa0VGOUJ0YVEzTlJmWEdUYlBGS0E5V3REYmVaeUNtMzB5ZFdQVXlFWDkyMVRfM1ZSdmcwNTZpQUxtYmE2RDFwNk5wM3dvNzViXzVqbmlicjdpUEQyU1pobW5lTlN2N280eGczUmlEd3RKWTZnTVoyNllkc0dnYnpy?oc=5 | 2026-11-26 07:28:23 |
+| No qualifying business found | N/A | N/A | N/A | N/A | N/A | https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDlTbU52LW04RVlRbDl0U0VwRmJ3RUxXMGl2YlVFNFFZdUhzY2hnUjU3c2JuTFFWTGtTMjdYWV9tOTJ1RGlqcXlGc3U2MU5VRG1kVVFQaUhiNE9DZzZUSmM3aG1OcWQzMXhzNkI2SlotYmFWTkp5ZlMxckcyY25na3FPbnFnQzRpWGE2em5IbVB2b2s5NTItWXlZdUl4eE5QWEE?oc=5 | 2026-11-26 05:00:00 |
+
+---
+
+**Non-working or unusable articles List:**
+- Article 126 — Reason: 503 Server Error (service unavailable, no article content)
+- Article 127 — Reason: 503 Server Error (service unavailable, no article content)
